@@ -1,0 +1,52 @@
+{
+  "release_id": "2026.07.21",
+  "released_on": "2026-07-21",
+  "policy": "canonical-final-only",
+  "datasets": [
+    {
+      "id": "quran_text",
+      "path": "data/text/quran-uthmani.tsv",
+      "format": "pipe-delimited UTF-8"
+    },
+    {
+      "id": "qac",
+      "path": "data/morphology/qac.sqlite.gz",
+      "format": "SQLite + gzip"
+    },
+    {
+      "id": "v4",
+      "path": "data/lexicon/v4.sqlite.gz",
+      "format": "SQLite + gzip"
+    },
+    {
+      "id": "positive_handles",
+      "path": "data/lexicon/positive-handles.sqlite.gz",
+      "format": "SQLite + gzip"
+    },
+    {
+      "id": "qac_v4_bridge",
+      "path": "data/bridges/qac-v4.sqlite.gz",
+      "format": "SQLite + gzip"
+    },
+    {
+      "id": "furuq",
+      "path": "data/lexicon/furuq.sqlite.zst",
+      "format": "SQLite + zstd"
+    },
+    {
+      "id": "attachments",
+      "path": "data/grammar/attachments/",
+      "format": "TSV + JSON"
+    },
+    {
+      "id": "contextual_profiles",
+      "path": "data/grammar/contextual/",
+      "format": "TSV + JSON"
+    },
+    {
+      "id": "word_analysis",
+      "path": "data/analysis/word-analysis/",
+      "format": "one JSON object per line, zstd, one file per surah"
+    }
+  ]
+}

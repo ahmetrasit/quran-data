@@ -1,0 +1,32 @@
+{
+  "release_id": "2026.07.21",
+  "sources": {
+    "quran-roots": {
+      "repository": "/Volumes/OZTURK/_projects/quran-roots",
+      "commit": "cc292f6727819620bb4e8eace0048534fab6a614",
+      "artifacts": {
+        "quran_text": "quran/complete-quran.txt",
+        "qac": "_corpus/qac/qac.sqlite.gz",
+        "v4": "_corpus/v4/v4.sqlite.gz",
+        "positive_handles": "_corpus/v4/positive_handles.sqlite.gz",
+        "qac_v4_bridge": "_corpus/qac_v4/qac_v4_form_bridge.sqlite.gz",
+        "furuq": "_corpus/furuq/v2/furuq_v4.sqlite",
+        "attachments": "_corpus/attachment-enrichment/output/final_v3/",
+        "contextual_profiles": "_corpus/contextual/output/final_v3_profiles/"
+      }
+    },
+    "word_analysis": {
+      "repository": "/Volumes/OZTURK/_projects/word_analysis",
+      "commit": "bb217a60451603e2fbecf0839e712ec840d422f8",
+      "artifact": "outputs/production/*.json",
+      "selection": "exactly 6,236 canonical ayah files",
+      "validation": "owner-confirmed production-ready"
+    }
+  },
+  "excluded": [
+    "study legacy and intermediary data",
+    "raw latent-activation reader runs",
+    "experimental network outputs",
+    "draft prose and dictionary entries"
+  ]
+}
