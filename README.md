@@ -23,6 +23,13 @@ added only after their canonical output contracts are complete.
 
 See `RELEASE.json` for contents and `manifests/` for coverage and provenance.
 
+## Production roadmap
+
+The current release is complete and unchanged. The ordered plan for promoting
+dictionary, activation, image-chain, inter-surah, and commentary data is in
+[`ROADMAP.md`](ROADMAP.md). It distinguishes upstream work from artifacts that
+belong in this final-only repository.
+
 ## Rules
 
 1. One current artifact per dataset contract.
