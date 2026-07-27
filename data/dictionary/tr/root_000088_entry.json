@@ -1,0 +1,749 @@
+{
+  "branches": [
+    {
+      "branch_ref": "root_000088/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, yoğun kederin, öfkenin veya tutkunun etkisiyle kişinin kendi canına kıymasını açıkça merkeze alır. Aynı duygusal etkinin kişiyi tüketmesi de ölümle sonuçlanan çekirdeğe yakın, fakat ondan daha hafif bir uzantı olarak tanıklanır.",
+        "boundary_note": "Dalın çekirdeği sıradan üzüntü değil, kişiyi tüketen ve canına kıymaya kadar götüren aşırı duygusal etkidir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Anlam hem bir ad biçiminde hem de kişinin kendisiyle ya da yoğun duygunun etkisiyle kurulan belirli yapılarda tanıklanır; yapıya bağlı tüketme anlamı bütün dala yayılmaz."
+      },
+      "concept_map": {
+        "definition": "Yoğun keder, öfke veya tutkunun etkisiyle kişinin kendi canına kıymasıdır; bazı kullanımlarda aynı etkinin kişiyi ölümden önce ağır biçimde tüketmesi anlatılır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişi, yoğun keder, öfke veya tutkunun baskısıyla kendi canına kıyar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Yoğun duygusal etki, kişiyi canına kıyma sonucuna varmadan da ağır biçimde tüketebilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynakların ortak çekirdeği, şiddetli keder, öfke veya tutkunun kişinin kendisine yönelttiği öldürücü etkidir. Kişinin bu etkiyle tükenmesi, aynı anlam alanının sonuç derecesi daha düşük uzantısıdır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yoğun duygunun kişiyi tüketmesi veya canına kıydırması",
+        "applicability": "Dalın öldürücü çekirdeğini ve aynı etkinin ölümden önceki tüketici uzantısını birlikte karşılayan üst anlatımdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Duygusal nedenin aşırılığını, kişinin tükenmesini ve canına kıyma sonucunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kederden canına kıymak",
+          "usage_role": "contextual",
+          "applicability": "Kederin kişiyi kendi yaşamına son vermeye götürdüğü bağlamlarda doğal karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Keder nedenini, eylemin kişinin kendisine yönelmesini ve ölüm sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "yoğun tutkudan tükenmek",
+          "usage_role": "contextual",
+          "applicability": "Yoğun duygunun kişiyi ağır biçimde yıprattığı, fakat ölüm sonucunun belirtilmediği bağlamlara özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yoğun tutkunun kişiyi tüketen etkisini ve sonuçtaki ağır yıpranmayı korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "keder, öfke ya da yoğun tutkudan canına kıyma"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "keder, öfke ya da yoğun tutkudan kendi canına kıymak"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kederden canına kıymak"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yoğun tutkunun kişiyi tüketmesi"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "intihar",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Kişinin kendi yaşamına son vermesi sonucunu korur.",
+            "loses": "Keder, öfke veya yoğun tutkunun belirleyici neden oluşunu siler.",
+            "adds": "Duygusal neden dışındaki bütün kendini öldürme durumlarını kapsama katar.",
+            "collision": "Güncel genel terim, bu dalın neden ve yoğunluk sınırını göstermeden kullanılabilir."
+          }
+        },
+        {
+          "text": "üzülmek",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Olumsuz duygusal etkilenmenin yalnızca en genel bölümünü korur.",
+            "loses": "Aşırı yoğunluğu, tükenmeyi ve kişinin canına kıyması sonucunu bütünüyle kaybeder.",
+            "adds": null,
+            "collision": "Sıradan ve hafif üzüntü durumlarıyla kolayca karışır."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001291/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Yoğun duygunun kişiyi tüketmesi veya kendi canına kıydırması sonucunu içerir.",
+          "neighbor_only": "Kişiyi saran ağır sıkıntı ve keder durumunu, kendine yönelen öldürücü bir eylem gerektirmeden anlatır.",
+          "gloss": "ağır keder ve kederden canına kıyma",
+          "shared_zone": "Her iki dal da kişinin benliğini kuşatan, nefes aldırmayacak ölçüde ağır bir duygusal sıkıntıyla ilgilidir.",
+          "distinction": "Komşu dal ağır keder durumunun kendisinde kalır; odak dal ise bu duygunun kişiyi tüketmesi veya kendi canına kıymaya götürmesi sonucuyla ayrılır."
+        },
+        {
+          "neighbor_ref": "root_000088/B003",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Tükenmenin nedeni yoğun keder, öfke veya tutkudur ve en ileri sonuç kişinin canına kıymasıdır.",
+          "neighbor_only": "Çabanın sonuna kadar harcanmasını, toprağın içindekilerin çıkarılmasını veya ekimle gücünün tüketilmesini anlatır.",
+          "gloss": "duygusal tükeniş ve gücü sonuna dek kullanma",
+          "shared_zone": "İki dalda da bir kişi ya da varlık üzerindeki etkinin son sınıra ulaşması ve gücü tüketmesi görüntüsü bulunur.",
+          "distinction": "Bu dalda etki duygusaldır ve kişinin yaşamına yönelir; komşu dalda ise belirli yapılara bağlı emek harcama, çıkarma ve tarımsal tüketme anlamları vardır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı; yayımlanan iki ilişki, ağır keder ile sonuç arasındaki sınırı ve aynı kökteki emek-tüketme dalından ayrımı en açık biçimde gösterir. Öteki adaylar yalnızca duygu alanını veya uzak bir bedensel etkiyi paylaşır."
+    },
+    {
+      "branch_ref": "root_000088/B002",
+      "identity_judgment": {
+        "status": "reframed",
+        "rationale": "Kaynak ifadesi bir hakkı ya da kişinin üzerindeki yükümlülüğü kabul etmeyi, buna boyun eğmeyi ve itaatte uysalca teslim olmayı bir araya getirir. Güçlü isteksizlik bazı kullanımlarda belirtilir; ancak dışarıdan uygulanan zorlama bütün dalın zorunlu koşulu değildir, bu nedenle geçici çerçevedeki baskı vurgusu çekirdeğin dışına alınmıştır.",
+        "boundary_note": "Çekirdek, dış baskı olmadan da görülebilen kabul, hakka boyun eğme ve itaat görünümlerini kapsar; bunların her kullanımda birlikte bulunması gerekmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Anlam, hak ve itaatle kurulan belirli yapılarda ve bu kabul-boyun eğme durumunu adlandıran bir biçimde tanıklanır; her kullanımda zorlama bulunduğu varsayılmaz."
+      },
+      "concept_map": {
+        "definition": "Kişinin kendi aleyhine bir şeyi veya birinin hakkını kabul etmesi, hakka boyun eğmesi ya da itaate uysalca teslim olmasıdır. İtaat bazı kullanımlarda güçlü isteksizliğe rağmen gerçekleşir; bir değerlendirme yapısında ise itaatin içtenliği ve eksiksizliği öne çıkar.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişi, kendi aleyhine bir şeyi veya birinin hakkını kabul eder; bazı kullanımlarda hakka boyun eğme de belirtilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "core",
+            "statement": "Kişi, kendisinden beklenen itaate uysalca teslim olur ve direnmekten vazgeçer.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Kabul ve boyun eğme, bazı bağlamlarda güçlü isteksizliğe rağmen gerçekleşir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "source_variant",
+            "statement": "Bir değerlendirme yapısında, gösterilen itaatin en içten ve en eksiksiz oluşu anlatılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kanıt kümesi, kişinin kendi aleyhine bir şeyi veya birinin hakkını kabul etmesini, hakka boyun eğmesini ve itaate teslim olmasını aynı dalda toplar; ancak bu öğeler her tanıkta birlikte bulunmaz. Güçlü isteksizlik bunların kimi bağlamlardaki koşuludur; itaatin içten ve eksiksiz sayılması ise ayrı bir değerlendirme kullanımıdır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bir şeyi veya hakkı kabul etme, hakka boyun eğme ya da itaate teslim olma",
+        "applicability": "Kişinin kendi aleyhine bir şeyi veya birinin hakkını kabul ettiği kullanımlarla, hakka boyun eğdiği ya da doğrudan itaate teslim olduğu kullanımları ayrı seçenekler olarak kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kabulü, hakka boyun eğmeyi ve doğrudan itaati ayrı çekirdek görünümleri olarak korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "birinin hakkını teslim etmek",
+          "usage_role": "contextual",
+          "applicability": "Belirli bir kişiye ait hakkın kabul edildiği ve artık inkâr edilmediği bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Hakkın sahibine karşı kabul edilmesini ve bu kabulün bağlayıcılığını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "isteksizce de olsa itaate boyun eğmek",
+          "usage_role": "contextual",
+          "applicability": "Kişinin güçlü isteksizliğine rağmen itaati kabul edip direnmekten vazgeçtiği bağlamlara özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İtaati, boyun eğmeyi ve buna eşlik eden güçlü isteksizliği birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002",
+            "F003"
+          ]
+        },
+        {
+          "text": "en içten ve eksiksiz itaat",
+          "usage_role": "explanatory",
+          "applicability": "İtaatin niteliğini en yüksek dereceyle değerlendiren özel yapının doğal açıklamasıdır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İtaatin samimiyet ve eksiksizlik bakımından en ileri derecede oluşunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeyi kendi aleyhine kabul etmek"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "hakkı kabul edip ona boyun eğmek"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birinin hakkını teslim etmek"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "isteksizliğe rağmen itaate boyun eğmek"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "en içten ve eksiksiz itaat"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "hakkı kabul edip boyun eğme"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "itiraf",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir olguyu veya kişinin kendi üzerindeki bir yükümlülüğü kabul etme yönünü korur.",
+            "loses": "Hakka boyun eğme, itaate teslim olma ve direnmekten vazgeçme yönlerini kaybeder.",
+            "adds": null,
+            "collision": "Güncel kullanımda çoğu kez suç veya kusur açıklama anlamına çekilir."
+          }
+        },
+        {
+          "text": "zorla kabul",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Kişinin isteksiz olabileceği bir kabul durumunu korur.",
+            "loses": null,
+            "adds": "Her durumda dışarıdan uygulanan bir zorlama ve zorlayıcı bir fail bulunduğunu ekler.",
+            "collision": "Daldaki isteksizliği dış baskıyla özdeşleştirerek çekirdek sınırı değiştirir."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001002/B009",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Belirli hak yapılarıyla doğrudan itaat ve itaatin en içten, en eksiksiz oluşunu bildiren kullanımları içerir.",
+          "neighbor_only": "Bir şeyi veya özellikle suçu açıklayıp kabul etme alanını, belirli hak ve itaat yapılarının dışına taşır.",
+          "gloss": "hakkı teslim etme ve itiraf etme",
+          "shared_zone": "Her iki dalda da kişinin bir olguyu, yükümlülüğü veya kendi aleyhine olan bir hakkı artık inkâr etmemesi vardır.",
+          "distinction": "İki dal kabul ve kimi boyun eğme kullanımlarında örtüşür; odak dal belirli hak ve itaat yapılarıyla, komşu dal ise genel bir şeyi veya suçu itiraf etme alanıyla ayrılır."
+        },
+        {
+          "neighbor_ref": "root_001343/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kişinin hakkı tanıması ve ona boyun eğmesi iç tutum ve davranış olarak öne çıkar.",
+          "neighbor_only": "Bir failin başka birini istemediği bir şeye dışarıdan güç kullanarak mecbur bırakmasını anlatır.",
+          "gloss": "isteksiz boyun eğme ve dışarıdan zorlama",
+          "shared_zone": "İki dal da kişinin istemediği bir sonuç karşısında direnememesi veya direncini bırakması görüntüsünü paylaşabilir.",
+          "distinction": "Odak dalda güçlü isteksizlik bulunabilse de dış zorlama zorunlu değildir; komşu dalın çekirdeği ise tam olarak dışarıdan mecbur bırakmadır."
+        },
+        {
+          "neighbor_ref": "root_000504/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kişinin kendi aleyhine bir şeyi veya birinin hakkını kabul etmesini, hakka boyun eğmesini ve doğrudan itaate teslim olmasını belirli yapılarda anlatır.",
+          "neighbor_only": "İtaati inanç, ibadet, yol ve düzen alanlarına kadar genişleten daha kapsamlı bir anlam kümesi taşır.",
+          "gloss": "belirli hak ve itaat yapıları ile genel din ve düzen alanı",
+          "shared_zone": "Her iki dalda da bir buyruğa veya üstün görülen ölçüye boyun eğme ve itaat etme bulunur.",
+          "distinction": "Odak dal, hak kabulü ile doğrudan itaat kullanımlarını belirli yapılarda ayrı ayrı taşır; komşu dal ise itaat ve boyun eğmeyi inanç, ibadet, yol ve düzen alanlarını kapsayan daha geniş bir çerçeveye yerleştirir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilenler kabul, dış zorlama ve genel itaat arasındaki üç temel karışma noktasını açıklar. Kalan adaylar hakkın eksiltilmesi, serbestlik veya yalnızca davranışsal uysallık gibi daha uzak alanlarda kalır."
+    },
+    {
+      "branch_ref": "root_000088/B003",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi, kişinin kendisini ve öğüdünü son gücüne kadar vermesiyle toprağın içindekileri çıkarmayı veya aralıksız ekimle toprağı tüketmeyi aynı dalda toplar. Ortak görüntü gücü ya da içeriği son sınıra kadar kullanmaktır; ancak bu anlam yalnızca tanıklanan yapılarda geçerlidir ve sınırsız bir yalın anlam gibi sunulamaz.",
+        "boundary_note": "Dal, belirli kişi, öğüt ve toprak yapılarıyla sınırlıdır; genel yorgunluk veya her türlü çıkarma eylemi bu kapsama girmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Bütün tanıklar belirli yapılara bağlıdır; kişinin gücünü sonuna dek harcama, toprağın içindekini çıkarma ve ekimle toprağı tüketme anlamları bu yapıların dışına genellenmez."
+      },
+      "concept_map": {
+        "definition": "Belirli yapılarda kişinin gücünü ve öğüdünü son sınırına kadar vermesi, toprağın içindekileri sonuna dek çıkarması veya aralıksız ekimle toprağın gücünü tüketmesidir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kişi ya da toprak, taşıdığı güç veya içerik son sınıra kadar kullanılarak zorlanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Kişi, bir başkası için kendi gücünü ve öğüdünü bütünüyle ortaya koyar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Toprağın içinde saklı olan değerler çıkarılıp ortaya dökülür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "specialization",
+            "statement": "Toprak dinlendirilmeden art arda sürülüp ekilerek üretim gücünün sonuna kadar tüketilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar kişinin kendisini ve öğüdünü son gücüne kadar vermesinde birleşir. Toprağa ilişkin kullanımlar, içindeki değerleri çıkarmayı ve dinlendirmeden art arda ekerek üretim gücünü tüketmeyi aynı son sınıra götürme görüntüsü altında toplar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "gücü tüketme ya da içindekini sonuna dek çıkarma",
+        "applicability": "Yalnızca tanıklanan kişi, öğüt ve toprak yapılarında ortak son sınıra götürme görüntüsünü karşılayan açıklayıcı üst anlatımdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Gücün sonuna dek harcanmasını ve saklı içeriğin bütünüyle çıkarılmasını birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bütün gücünü ve öğüdünü vermek",
+          "usage_role": "contextual",
+          "applicability": "Kişinin bir başkası için çabasını ve iyi niyetli öğüdünü son sınırına kadar ortaya koyduğu bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kişisel gücün ve öğüdün bir başkası için bütünüyle harcanmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "toprağın içindekileri çıkarıp dökmek",
+          "usage_role": "contextual",
+          "applicability": "Toprakta saklı değerlerin çıkarılarak görünür ve kullanılabilir hâle getirildiği anlatıma özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Toprağın saklı içeriğinin çıkarılmasını ve ortaya dökülmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        },
+        {
+          "text": "toprağı aralıksız ekerek tüketmek",
+          "usage_role": "contextual",
+          "applicability": "Toprağın bir yıl bile dinlendirilmeden art arda işlenip üretim gücünün tüketildiği bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Aralıksız sürme ve ekme nedenini, dinlendirmemeyi ve toprağın tükenmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birine bütün gücünü ve öğüdünü vermek"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "toprağın içindekileri çıkarıp ortaya dökmek"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "toprağı dinlendirmeden ekip gücünü tüketmek"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ekimle gücü sonuna kadar tüketilmiş toprak"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "yorulma",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Gücün azalması veya tükenmesi sonucunun yalnızca genel bir bölümünü korur.",
+            "loses": "Gücü bilinçli biçimde sonuna kadar harcamayı, içeriği çıkarmayı ve toprağa özgü yapıları kaybeder.",
+            "adds": null,
+            "collision": "Her türlü bedensel veya zihinsel yorgunlukla karışır."
+          }
+        },
+        {
+          "text": "sömürme",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Bir kaynağın gücünü veya içeriğini yoğun biçimde kullanma yönünü kısmen korur.",
+            "loses": "Kişinin özverili çabasını ve toprağın içindekini çıkarma anlatımının tarafsızlığını kaybeder.",
+            "adds": "Haksız yararlanma ve zarar verme niyetini anlamın zorunlu parçası hâline getirir.",
+            "collision": "Güncel toplumsal ve ekonomik kullanım, tanıklanan yapıların çoğundan daha yüklüdür."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001596/B009",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Toprağın içindekilerini çıkarma ve aralıksız ekimle üretim gücünü tüketme kullanımlarını içerir.",
+          "neighbor_only": "Kişinin bir iş içinde tükenmesini ve yolun yolcuyu yormasını daha genel yapılarda anlatır.",
+          "gloss": "gücü sonuna dek harcama ve tükenme",
+          "shared_zone": "Her iki dalda da mevcut gücün bir iş uğruna son sınırına kadar kullanılması ve geride az güç kalması vardır.",
+          "distinction": "Kişisel çaba alanında anlamlar çok yakındır; odak dal ayrıca belirli öğüt ve toprak yapılarıyla sınırlı çıkarma ve tarımsal tüketme kullanımlarına sahiptir."
+        },
+        {
+          "neighbor_ref": "root_000249/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Toprağın gücünün özellikle dinlendirilmeden art arda sürülüp ekilmesiyle tüketilmesini anlatır.",
+          "neighbor_only": "Toprağın iyiliğinin otlatma, kuraklık veya genel verimsizleşme gibi başka nedenlerle gitmesini kapsar.",
+          "gloss": "ekimle toprağı tüketme ve toprağın verimsizleşmesi",
+          "shared_zone": "İki dal da toprağın üretim değerini ve canlılığını yitirerek verimsiz duruma gelmesi sonucunda buluşur.",
+          "distinction": "Odak dal sonucu aralıksız tarımsal işleme nedenine bağlar; komşu dal verimin gitmesini daha geniş nedenlerle ve sonuç merkezli anlatır."
+        },
+        {
+          "neighbor_ref": "root_001360/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bir kişi ya da toprağın gücünü belirli bir işte sonuna kadar kullandıran etkinliği öne çıkarır.",
+          "neighbor_only": "İnsanda ortaya çıkan genel yorgunluk, güçsüzlük ve bitkinlik durumunu anlatır.",
+          "gloss": "gücü tüketme ve yorgun düşme",
+          "shared_zone": "Her iki dalda da gücün azalması ve öznenin ya da etkilenen varlığın bitkin duruma gelmesi bulunabilir.",
+          "distinction": "Odak dal, belirli yapılarda gücü son sınırına kadar kullanma veya kullandırma sürecidir; komşu dal ise bunun olası sonucu olan genel yorgunluk durumunda kalır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar incelendi; seçilen ilişkiler kişisel çabanın tüketilmesi, toprağın verimsizleşmesi ve genel yorgunlukla olan sınırları gösterir. Diğer adaylar yalnızca çıkarma, ürün veya yük alanını uzaktan paylaşır."
+    },
+    {
+      "branch_ref": "root_000088/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesinin eylem çekirdeği, kesim sırasında hayvanın boyun kemiğinin kesilmesidir. Aynı kayıt omurga içindeki bir damarı adlandıran ilişkili biçimi de verir; bu anatomik ad, kesim eyleminin tanımı değil, dalda ayrı tutulması gereken bağlı bir kullanımdır.",
+        "boundary_note": "Kesim eylemi boyun kemiğinin kesilmesiyle sınırlıdır; omurgadaki damar adı yalnızca ilişkili anatomik kullanım olarak tutulur."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Eylem yalnızca hayvan kesimi yapısında tanıklanırken sonuç adı ve omurgadaki damarı gösteren anatomik ad ayrı biçimlerdir; anatomik ad eylemin genel anlamına dönüştürülmez."
+      },
+      "concept_map": {
+        "definition": "Kesim sırasında hayvanın boyun kemiğini kesmektir. Aynı dalda, omurga içindeki bir damarı adlandıran ilişkili bir anatomik kullanım da bulunur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Hayvan kesilirken boyun kemiği de kesilerek ayrılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "İlişkili bir ad, omurga içinde uzanan bir damarı belirtir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Dal, kesim sırasında boyun kemiğinin kesilmesiyle omurga içindeki bir damarın adını aynı kayıt altında bir araya getirir. Anatomik ad, eylem çekirdeğinin eşdeğer anlatımı değildir.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Kesimde boyun kemiğinin kesilmesi ile omurga içindeki damarın adı tek kaynakta birlikte tanıklanır."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kesimde hayvanın boyun kemiğini kesme",
+        "applicability": "Dalın eylem çekirdeğini, genel boğaz kesmeden daha dar ve anatomik olarak belirli biçimde karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hayvan kesimi bağlamını, kesme işlemini ve hedefin boyun kemiği oluşunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "hayvanın boyun kemiğini kesmek",
+          "usage_role": "contextual",
+          "applicability": "Kesim işleminin boyun kemiğini de kesecek ölçüde ilerletildiği eylem bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kesilen varlığı, hedef anatomik yapıyı ve kesme eylemini eksiksiz korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "omurga içindeki damar",
+          "usage_role": "explanatory",
+          "applicability": "İlişkili anatomik adın gösterdiği yapıyı açıklamak için kullanılır; kesim eylemini karşılamaz.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Anatomik yapının damar oluşunu ve omurga içindeki yerini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kesimde hayvanın boyun kemiğini kesmek"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "boyun kemiği kesilmiş kesimlik hayvan"
+        },
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "omurga içindeki damar"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "boğaz kesme",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Hayvan kesimi sırasında boyun bölgesine yönelen kesme eylemini korur.",
+            "loses": "Hedefin özellikle boyun kemiği olması ayrımını kaybeder.",
+            "adds": "Yalnızca yumuşak dokuların kesildiği daha genel boğazlama işlemlerini de kapsar.",
+            "collision": "Kesimin herhangi bir aşamasıyla karışarak anatomik sınırı belirsizleştirir."
+          }
+        },
+        {
+          "text": "omurilik",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Omurga içinde bulunan anatomik bir yapı olma yönünü korur.",
+            "loses": "Tanıklanan yapının damar oluşunu kaybeder.",
+            "adds": "Sinir dokusundan oluşan ayrı bir anatomik yapıyı anlamın yerine koyar.",
+            "collision": "Aynı konumdaki farklı bir yapı olduğu için doğrudan adlandırma yanılgısı doğurur."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000350/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kesim sırasında özellikle hayvanın boyun kemiğinin kesilmesini gerektirir.",
+          "neighbor_only": "Boğazı, yemek ve soluk yolunu, kesim yerini ve bu bölgeye yönelik genel vurma ya da kesme eylemlerini kapsar.",
+          "gloss": "boyun kemiğini kesme ve boğazı kesme",
+          "shared_zone": "Her iki dal da hayvanın boyun bölgesini ve kesim sırasında bu bölgeye uygulanan kesme işlemini paylaşır.",
+          "distinction": "Komşu dal boğaz bölgesi ve kanallar bakımından geniştir; odak dalın eylemi ise özellikle boyun kemiğinin kesilmesiyle tamamlanır."
+        },
+        {
+          "neighbor_ref": "root_000517/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kesimin belirli anatomik işlemini, yani boyun kemiğinin kesilmesini anlatır.",
+          "neighbor_only": "Hayvanın yaşamını sona erdiren kesimin tamamlanmasını, kullanılan belirli anatomik işlemden bağımsız olarak anlatır.",
+          "gloss": "boyun kemiğini kesme ve kesimi tamamlama",
+          "shared_zone": "İki dal da hayvan kesiminin ileri bir aşamasını ve yaşamı sona erdiren işlemin gerçekleşmesini konu eder.",
+          "distinction": "Odak dal yöntem ve hedef yapı bakımından dardır; komşu dal ise belirli bir kemiğin kesilmesini şart koşmadan kesimin tamamlanması sonucuna odaklanır."
+        },
+        {
+          "neighbor_ref": "root_000453/B010",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Boyun kemiğinin kesilmesi eylemini ve omurga içindeki damar adını içerir.",
+          "neighbor_only": "Boyun içindeki ipliksi sinir yapısını ve bu yapıyla bağlantılı savunma anlatımını içerir.",
+          "gloss": "omurgadaki damar ve boyun içindeki sinir yapısı",
+          "shared_zone": "İki dal boyun ile omurga çevresindeki iç anatomik yapıları konu edinir ve gündelik adlandırmada karışmaya elverişlidir.",
+          "distinction": "Odak daldaki anatomik kullanım bir damarı gösterir; komşu dal sinir dokusundan oluşan başka bir yapıyı gösterir ve kesimde boyun kemiğini kesme anlamını taşımaz."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı; seçilenler boğaz bölgesi, kesimin tamamlanması ve omurga-boyun anatomisiyle oluşabilecek başlıca karışmaları açıklar. Öteki adaylar farklı uzuvların kesilmesi veya kesim araçları gibi daha genel alanlarda kalır."
+    }
+  ],
+  "root_profile": {
+    "summary": "Bu anlam kümesi, yoğun duygunun kişiyi tüketip canına kıydırması, hakkı kabul ederek boyun eğme, gücü ya da içeriği sonuna kadar kullanma ve kesimde boyun kemiğini kesme gibi ayrışmış alanlar taşır; omurga içindeki damar adı da anatomik bir yan kullanım oluşturur. İlk üç alanda son sınıra varma ve tam teslimiyet arasında gevşek bir bağ sezilse de kesim ve anatomi alanı bütünü tek çekirdeğe indirmeyi engeller.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  }
+}

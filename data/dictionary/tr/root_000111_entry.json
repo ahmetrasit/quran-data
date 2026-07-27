@@ -1,0 +1,542 @@
+{
+  "branches": [
+    {
+      "branch_ref": "root_000111/B001",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak sözü üç kaynak görünümünü bir araya getirir: ortak çekirdek bakışı sürdürmedir; bir anlatım gözleri açıp bakışı keskinleştirmeyi, bir başkası bakışı sürdürürken gözün ya da göz kapağının sabitliğini ekler. Bu nedenle dal kullanılabilir, ancak ayrıntılar tek zorunlu birleşim sayılmamalıdır.",
+        "boundary_note": "Dal yalnız bakış eylemidir; ağaçla kurulan kullanım, kişi adı ve topluluk adı bu sınıra girmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın eylem alanıyla sınırlıdır ve öteki dallardaki söz öbeği ya da ad kullanımlarını içermez."
+      },
+      "concept_map": {
+        "definition": "Bakışı sürdürmektir; kaynak görünümlerinden biri gözleri açıp bakışı keskinleştirmeyi, bir başkası gözün ya da göz kapağının sabit tutulmasını ayrıca belirtir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bakışı sürdürme.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Bir kaynak görünümünde bakış sürerken gözün ya da göz kapağının sabit tutulması.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Başka bir kaynak görünümünde gözleri açıp bakışı keskinleştirme.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak çekirdek bakışı sürdürmedir. Toplu dal sözü bunu bir görünümde gözleri açıp bakışı keskinleştirme, başka bir görünümde bakışla birlikte gözü ya da göz kapağını sabit tutma ayrıntılarıyla verir; bu ayrıntılar tek zorunlu birleşim değildir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bakışı sürdürme",
+        "applicability": "Bütün kaynak görünümlerinin ortak çekirdeğini karşılar; gözleri açıp bakışı keskinleştirme ile gözü ya da göz kapağını sabit tutma, bağlama göre ayrıca belirtilir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bütün kaynaklarda ortak olan bakışı sürdürme çekirdeği korunur; kaynaklara göre değişen açık, keskin ya da sabit bakış ayrıntıları zorunlu kılınmaz.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "dikkatle gözünü dikmek",
+          "usage_role": "contextual",
+          "applicability": "Keskin ve sürdürülen bakışın öne çıktığı doğal cümle bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bakışın belirli bir yöne keskin ve sürekli biçimde yönelmesini korur.",
+            "loses": "Göz kapağının kıpırdatılmadan tutulması açıkça aktarılmaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "gözünü kırpmadan bakmayı sürdürmek",
+          "usage_role": "explanatory",
+          "applicability": "Göz kapağının hareketsizliği ve bakışın sürekliliği özellikle belirtilmek istendiğinde uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bakışın sürmesini ve göz kapağının hareketsiz tutulmasını korur.",
+            "loses": "Gözleri açma ve bakışı keskin biçimde yöneltme ayrıntısı zayıflar.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bakışı sürdürüp gözü sabit tutmak veya gözleri açıp bakışı keskinleştirmek"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "göz kapağını oynatmadan bakmayı sürdürme"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000675/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Gözlerin açılması ve bakışın keskin biçimde yöneltilmesi belirgindir.",
+          "neighbor_only": "Bakışa gözün ya da göz kapağının düşüklüğü ve gevşekliği eşlik eder.",
+          "gloss": "göz kapağını kıpırdatmadan keskin bakışı sürdürme",
+          "shared_zone": "Her iki dal da bakışın sürmesini ve göz kapağının sakin kalmasını anlatır.",
+          "distinction": "Odak dal açık göz ve keskin yönelimle tanımlanırken komşu dalda aşağı dönüklük ve gevşeklik sınırı vardır; bu nedenle tam eş anlamlı değildir."
+        },
+        {
+          "neighbor_ref": "root_001594/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Göz kapağını kıpırdatmadan tutma, dalın kurucu parçasıdır.",
+          "neighbor_only": "Görüşü bir şeye çevirme ve bakışı aşağı yöneltme kapsamı da bulunur.",
+          "gloss": "bakışı keskin ve hareketsiz biçimde sürdürme",
+          "shared_zone": "İki dal da gözleri açık tutarak bakışı bir şeye yöneltip sürdürmeyi kapsar.",
+          "distinction": "Komşu dal bakışın nesneye çevrilmesini ve yönünü daha geniş ele alır; odak dal ise keskin bakışla birlikte göz kapağının hareketsizliğini şart koşar."
+        },
+        {
+          "neighbor_ref": "root_000108/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bakışın keskin biçimde yöneltilip sürdürülmesi temel eylemdir.",
+          "neighbor_only": "Şaşkınlık ya da korkuyla gözün donması ve parıldaması söz konusudur.",
+          "gloss": "sabit bakış ile şaşkınlıktan donan göz",
+          "shared_zone": "Her iki dalda da göz açık kalabilir ve göz kırpma kesilebilir.",
+          "distinction": "Odak dal bakışın sürdürülme biçimini anlatır; komşu dal ise şaşkınlık veya korkunun yol açtığı göz durumunu ve parıltıyı öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_000781/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bakışın keskinleştirilmesi vardır, fakat yukarı yön şart değildir.",
+          "neighbor_only": "Gözün yukarı kaldırılması ya da bakışın yukarı yönelmesi belirleyicidir.",
+          "gloss": "sabit keskin bakış ile yukarı dikilen göz",
+          "shared_zone": "Her ikisi de gözlerin açılmasını ve göz kırpmadan bakmayı içerebilir.",
+          "distinction": "Odak dal keskin ve sürekli bakışın yönünü serbest bırakır; komşu dal ise gözün yükselmesini veya yukarı bakmasını kendi sınırına alır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yalnız sürekli bakış, göz kapağının hareketsizliği ve bakış yönü bakımından gerçek sınır karışıklığı doğuran dört komşu yayımlandı."
+    },
+    {
+      "branch_ref": "root_000111/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak sözü, yalnız ağaçla kurulan ifadede yaprak, çiçek ve meyvenin bir araya gelişini; daha dar bir anlatımda ise çiçeklerin toplandığı tomurcuklanma durumunu verir. Dal çerçevesi bu iki kaynak görünümünü birlikte taşıyabilir.",
+        "boundary_note": "Anlam ağaçla kurulan söz öbeğine bağlıdır; yalın köke genel bir bitki gelişimi anlamı yüklenmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnız ağaçla kurulan söz öbeği için geçerlidir ve yalın biçimin bağımsız anlamı gibi genellenemez."
+      },
+      "concept_map": {
+        "definition": "Yalnız ağaçla kurulan söz öbeğinde, yaprak, çiçek ve meyvenin bir arada kümelenmesi ya da daha dar olarak çiçeklerin toplandığı tomurcuklanma durumudur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Ağaçta yaprak, çiçek ve meyvenin bir arada kümelenmesi.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Aynı söz öbeğinin, çiçeklerin bir arada bulunduğu tomurcuklanma durumu için daha dar kullanımı.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Toplu kaynak sözü iki kapsam verir: biri yaprak, çiçek ve meyveyi birlikte içeren küme, diğeri çiçeklerin toplandığı tomurcuklanma durumudur. Her ikisi de ağaçla kurulan ifadeye bağlıdır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "ağaçta yaprak, çiçek ve meyvenin ya da yalnız çiçeklerin kümelenmesi",
+        "applicability": "Ağaçla kurulan söz öbeğinin geniş ve dar kaynak görünümlerini birlikte karşılayan açıklayıcı karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ağaca bağlılık, bitki bölümlerinin kümelenmesi ve dar çiçeklenme görünümü korunur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "ağacın yaprak, çiçek ve meyveyi birlikte kümelemesi",
+          "usage_role": "explanatory",
+          "applicability": "Yaprak, çiçek ve meyvenin birlikte bulunduğu geniş kaynak görünümünde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Ağaca bağlılığı ve üç bitki bölümünün birlikte kümelenmesini korur.",
+            "loses": "Yalnız çiçeklerin toplandığı daha dar tomurcuklanma görünümünü dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "ağacın tomurcuklanıp çiçeklerini kümelemesi",
+          "usage_role": "contextual",
+          "applicability": "Çiçeklerin bir arada bulunduğu dar tomurcuklanma görünümünde doğal bir karşılıktır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Ağaca bağlı çiçek kümelenmesini ve tomurcuklanma görünümünü korur.",
+            "loses": "Yaprak ve meyvenin de kümeye katıldığı geniş görünümü dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ağaçta yaprak, çiçek ve meyvenin ya da yalnız çiçeklerin bir arada kümelenmesi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000228/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Var olan yaprak, çiçek ve meyvenin bir arada oluşturduğu küme öne çıkar.",
+          "neighbor_only": "Bitkinin yerden ya da ağaçtan yeni çıkması ve uçlarının belirmesi öne çıkar.",
+          "gloss": "bitki bölümlerinin kümelenmesi ile yeni sürgün",
+          "shared_zone": "İki dal da ağaçta tomurcuklanma ve yeni bitki bölümlerinin görünmesi alanına yaklaşır.",
+          "distinction": "Odak dal belirli bir söz öbeğinde bölümlerin birlikte bulunmasını anlatır; komşu dal ise yeni bitkinin veya bölümün dışarı çıkma sürecini anlatır."
+        },
+        {
+          "neighbor_ref": "root_001319/B002",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Yaprak, çiçek ve meyvenin ya da çiçeklerin oluşturduğu topluluk anlatılır.",
+          "neighbor_only": "Tomurcuğu, çiçeği veya meyveyi örten bitkisel kılıf anlatılır.",
+          "gloss": "çiçek kümesi ile bitkisel kılıf",
+          "shared_zone": "Her iki dal tomurcuk, çiçek ve meyvenin ağaç üzerindeki düzeniyle ilgilidir.",
+          "distinction": "Odak dal bitki bölümlerinin bir araya gelişidir; komşu dal ise bu bölümleri saran veya koruyan kap biçimindeki yapıdır."
+        },
+        {
+          "neighbor_ref": "root_000205/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Meyve, yaprak ve çiçekle birlikte bir kümenin parçası olarak ele alınır.",
+          "neighbor_only": "Meyvenin kendisi, ortaya çıkışı, olgunluğu ve meyveli ağaç daha geniş biçimde kapsanır.",
+          "gloss": "ağaçtaki küme ile meyve verme",
+          "shared_zone": "Her iki dal ağaç üzerindeki meyve ve onun bitkisel gelişim bağlamıyla ilgilidir.",
+          "distinction": "Odak dal söz öbeğine bağlı bir kümelenme durumudur; komşu dal meyvenin kendisini ve meyve verme sürecini bağımsız olarak kapsar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kümelenme, yeni çıkış, bitkisel kılıf ve meyve verme sınırlarını açıklayan üç komşu yararlı bulundu."
+    },
+    {
+      "branch_ref": "root_000111/B003",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Yetkili dal sözü, yabancı kökenli belirli bir kişi adını ve o adın birkaç söyleyiş ya da yapı değişkesini destekler. Yardımcı çerçevede anılan küçültme biçimleri ayrı sözcük birimleridir; dalın kurucu tanımına taşınmamalı, yalnız kendi sözlüksel karşılıklarında gösterilmelidir.",
+        "boundary_note": "Dal belirli bir kişi adı ve kaynakta sayılan değişkeleriyle sınırlıdır; küçültmeler dal çekirdeğini genişletmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Bu dal bağımsız bir kök anlamı değil, belirli bir kişi adı ile onun kayıtlı değişkelerine bağlı adlandırma alanıdır."
+      },
+      "concept_map": {
+        "definition": "Yabancı kökenli belirli bir kişi adı ve kaynakta bu ad için kaydedilmiş söyleyiş ya da yapı değişkeleridir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Yabancı kökenli belirli bir kişi adı.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Bu kişi adının söyleyişinde ve yapısında kaydedilmiş değişkeler.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Tek kaynaklı dal sözü, belirli bir kişi adını yabancı kökenli sayar ve aynı ad için ses ya da yapı bakımından farklı birkaç biçim kaydeder.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yabancı kökenli belirli bir kişi adı ve değişkeleri",
+        "applicability": "Belirli kişi adını, yabancı köken niteliğini ve kaynakta kaydedilen biçim değişkelerini birlikte kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kişi adı kimliği, yabancı köken niteliği ve birden çok biçim bulunması korunur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yabancı kökenli bir kişi adı",
+          "usage_role": "explanatory",
+          "applicability": "Biçim değişkelerinin önemli olmadığı ve yalnız ad türünün açıklanacağı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Belirli bir kişi adı olmasını ve yabancı köken niteliğini korur.",
+            "loses": "Kaynakta aynı ad için kaydedilen söyleyiş ve yapı değişkelerini dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "aynı kişi adının farklı söyleniş biçimi",
+          "usage_role": "contextual",
+          "applicability": "Adın kaynakta kaydedilen değişkelerinden biri söz konusu olduğunda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Aynı kişi adına bağlı bir söyleyiş değişkesi bulunmasını korur.",
+            "loses": "Adın yabancı köken niteliğini ve dalda birden çok değişke bulunmasını tam aktarmaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yabancı kökenli bir kişi adı"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "aynı kişi adının bir söyleyiş değişkesi"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "aynı kişi adının bir ses düşmeli yapı değişkesi"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "söz konusu kişi adının, ilk ünlünün kökten sayıldığı küçültme biçimi"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "söz konusu kişi adının, ilk sesin ek sayıldığı küçültme biçimi"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "söz konusu kişi adının, baştaki ve sondaki sesleri düşüren küçültme biçimi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000996/B019",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Belirli bir yabancı erkek kişi adı ve onun kayıtlı biçimleri ele alınır.",
+          "neighbor_only": "Herhangi bir yabancı adın dilin ses ve yapı düzenine uyarlanması süreci ele alınır.",
+          "gloss": "belirli yabancı ad ile adın dile uyarlanması",
+          "shared_zone": "İki dal da yabancı kökenli adların hedef dilde aldığı biçimlerle ilgilidir.",
+          "distinction": "Odak dal tek bir kişi adının sözlüksel kimliğidir; komşu dal ise yabancı adları dilin düzenine uyduran genel işlemdir."
+        },
+        {
+          "neighbor_ref": "root_001033/B014",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Yabancı kökenli belirli bir erkek adı ve yalnız bu ada bağlı değişkeler vardır.",
+          "neighbor_only": "Başka bir erkek adı yanında bir kuş adı ve benzetmeli hayvan kullanımı da vardır.",
+          "gloss": "iki ayrı erkek kişi adı alanı",
+          "shared_zone": "Her iki dal erkek kişi adı olarak kullanılan belirli bir sözlüksel birimi kapsar.",
+          "distinction": "Ad kimlikleri ayrıdır; ayrıca komşu dal kişi adı dışındaki kuş ve hayvan anlamlarına açılırken odak dal kendi ad değişkeleriyle sınırlıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yalnız yabancı adın dile uyarlanması ve başka bir kişi adının ek anlamları, dal sınırını açıklayacak ölçüde yararlı bulundu."
+    },
+    {
+      "branch_ref": "root_000111/B004",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak sözü belirli bir topluluğu, Tanrı'nın elçiler göndermesini mümkün saymadıkları yönündeki sözlüksel tanımla verir. Dal çerçevesi topluluk kimliği ile bu ayırt edici öğretiyi birlikte ve doğrudan korur.",
+        "boundary_note": "Dal, kaynakta bu görüşle tanımlanan belirli toplulukla sınırlıdır; her elçilik karşıtı görüşe genellenmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Bu anlam bağımsız bir kök anlamı değil, belirli bir topluluğun adına ve kaynakta verilen tanımına bağlıdır."
+      },
+      "concept_map": {
+        "definition": "Sözlükte, Tanrı'nın elçiler göndermesini mümkün görmediği belirtilen belirli topluluktur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Tanrı'nın elçiler göndermesini mümkün görmediği belirtilen belirli topluluk.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Tek kaynaklı kayıt, belirli bir topluluğu Tanrı'nın insanlara elçiler göndermesini mümkün saymama görüşü üzerinden tanımlar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "Tanrı'nın elçi göndermesini mümkün saymayan belirli topluluk",
+        "applicability": "Kaynakta adı verilen topluluğu ve onu ayırt etmek için aktarılan öğretiyi birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Belirli topluluk kimliği ve Tanrı'nın elçi göndermesine ilişkin olumsuz görüş korunur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "Tanrı'nın elçi göndermesini olanaksız sayan topluluk",
+          "usage_role": "explanatory",
+          "applicability": "Topluluğun kaynakta verilen ayırt edici görüşünün açıkça anlatılması gereken bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Topluluğu ve Tanrı'nın elçi göndermesini mümkün görmeme öğretisini eksiksiz korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Tanrı'nın elçiler göndermesini mümkün saymadığı belirtilen topluluk"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000744/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Topluluk, Tanrı'nın elçiler göndermesini mümkün saymama görüşüyle tanımlanır.",
+          "neighbor_only": "Başka bir Hint topluluğu, putlara tapma ya da evrenin başlangıcını reddetme görüşleriyle tanımlanır.",
+          "gloss": "öğretileri farklı iki Hint topluluğu",
+          "shared_zone": "İki dal da inanç görüşleriyle tanımlanan belirli topluluk adlarıdır.",
+          "distinction": "Odak dalın ayırıcı öğretisi Tanrı'nın elçi göndermesiyle ilgilidir; komşu dalın kimliği putlara tapma veya evren anlayışı çevresinde kurulur."
+        },
+        {
+          "neighbor_ref": "root_001009/B009",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Topluluk adı, Tanrı'nın elçiler göndermesine ilişkin bir görüşle açıklanır.",
+          "neighbor_only": "Başka bir düşünce okulunun adı, iki gruptan uzak durma eylemine veya kurucu kişiye bağlanır.",
+          "gloss": "iki ayrı inanç topluluğunun adı",
+          "shared_zone": "Her iki dal belirli bir düşünce veya inanç topluluğunun sözlüksel adını taşır.",
+          "distinction": "Toplulukların adları, tarihsel kimlikleri ve ayırıcı görüşleri farklıdır; ortaklık yalnız aynı adlandırma alanında bulunmalarıdır."
+        },
+        {
+          "neighbor_ref": "root_001464/B003",
+          "relation_type": "thematic",
+          "boundary_match": "thematic_only",
+          "focus_only": "Belirli bir topluluğun ilahi elçi gönderimini mümkün saymama görüşü anlatılır.",
+          "neighbor_only": "Tanrı'dan insanlara bildirim taşıyan elçinin niteliği ve elçilik görevi anlatılır.",
+          "gloss": "elçiliği reddeden topluluk ile ilahi elçi",
+          "shared_zone": "İki dal Tanrı ile insanlar arasındaki elçi gönderimi düşüncesinin aynı tartışma alanındadır.",
+          "distinction": "Odak dal bu gönderimin mümkünlüğüne ilişkin topluluk görüşüdür; komşu dal ise elçinin kendisini ve bildirim görevini tanımlar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; benzer türde iki topluluk adı ile öğretinin doğrudan konusu olan ilahi elçi dalı, sınırları açıklamak için seçildi."
+    }
+  ],
+  "root_profile": {
+    "summary": "Bu kök altında birbirine indirgenemeyen dört alan bulunur: göz kapağını kıpırdatmadan keskin bakışı sürdürme, ağaca bağlı bir kümelenme söz öbeği, yabancı kökenli belirli bir kişi adı ve belirli bir inanç topluluğunun adı.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  }
+}

@@ -1,0 +1,867 @@
+{
+  "inputs_sha256": "d30ee1b2b133ab57d1ab331dbfac13ea5776e73cde55b02969b2dd104573b101",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000035",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000035/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, kişisel isteğin sürüklediği ölçüsüz neşeyi ve kendini beğenmiş şımarıklığı anlamın merkezine yerleştirir; acelecilik ve sertlik de bu taşkın halin ayırt edici görünüşleridir. Verilen dal çerçevesi bu bileşenleri korur.",
+        "boundary_note": "Dal, diş uçlarının keskinliği, dişleri kertme, odun kesme ve hayvan betimleme anlamlarını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Dal yalın anlamı tanımlar; tanım herhangi bir kalıba, nesneye veya özel kullanıma bağlanmaz."
+      },
+      "concept_map": {
+        "definition": "Kişisel isteğin sürüklediği, ölçüyü aşan neşe ve kendini beğenmiş şımarıklık halidir; bu halde kişi aceleci ve sert davranabilir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişinin isteğine uyan yoğun neşe, ölçüyü aşarak şımarıklığa dönüşür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bu taşkın halde acelecilik ve sertlik belirginleşebilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Nitelik tek bir kişi için de bir topluluk için de kullanılabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, anlamı sıradan sevinçten daha yoğun ve ölçüsüz bir neşe ile şımarıklık olarak verir; acelecilik ve sertlik bu halin davranışa yansıyan yönleridir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "isteğe kapılıp taşkınlaşan şımarık neşe",
+        "applicability": "Dalın ölçüsüz neşe, şımarıklık ve davranıştaki aceleci sertlikten oluşan bütün çekirdeğini karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ölçüsüz neşeyi, isteğe kapılmayı, şımarıklığı ve buna eşlik eden davranış taşkınlığını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "şımarıp taşkınlaşmak",
+          "usage_role": "contextual",
+          "applicability": "Bir kimsenin bu hale girmesini anlatan eylem bağlamlarında doğal bir karşılıktır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Şımarıklığa dönüşen taşkınlığı ve hal değişimini korur.",
+            "loses": "İsteğe bağlı yoğun neşe ile sertlik ve acelecilik ayrıntılarını açıkça söylemez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "taşkın ve şımarık",
+          "usage_role": "contextual",
+          "applicability": "Bu hali taşıyan bir kişi veya topluluğu niteleyen cümlelerde kullanılabilir.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Niteliğin kişiye veya topluluğa yüklenmesini ve ölçüsüzlüğünü korur.",
+            "loses": "Yoğun neşenin kişisel isteğe göre yönelmesini ve aceleci sertliği açıkça belirtmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "isteğine kapılmış taşkın neşe ve şımarıklık"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "şımarıp taşkınlaşmak"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "taşkın ve şımarık kişi ya da topluluk"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "sevinç",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Olumlu duygulanım unsurunu genel olarak korur.",
+            "loses": "Ölçüsüzlüğü, şımarıklığı, isteğe kapılmayı ve aceleci sertliği bütünüyle kaybeder.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000125/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, taşkın neşenin yanında acelecilik ve sertliği de içerir.",
+          "neighbor_only": "Komşu dal, nimete karşı nankörlük, azgınlık ve sınırı aşma bağlamını özellikle içerir.",
+          "gloss": "nimetle azıp şımarma",
+          "shared_zone": "Her iki dalda da şımarıklık, ölçüyü aşma ve taşkın neşe bulunur.",
+          "distinction": "Odak dalın çekirdeği isteğin sürüklediği yoğun neşe ve aceleci sertliktir; komşu dal ise bu hali nimet karşısındaki nankörlük ve azgınlıkla sınırlar."
+        },
+        {
+          "neighbor_ref": "root_001149/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, isteğe kapılmayı ve aceleci sertliği açıkça taşır.",
+          "neighbor_only": "Komşu dalın verilen sınırı aşırı şımarıklık ve neşeyi bildirir, fakat aceleci sertliği şart koşmaz.",
+          "gloss": "aşırı şımarık ve neşeli olma",
+          "shared_zone": "İki dal da ölçüyü aşan neşe ve şımarıklık alanında büyük ölçüde örtüşür.",
+          "distinction": "Komşu dal güçlü bir yakın karşılıktır; ancak odak dalın kişisel isteğe bağlılık, acelecilik ve sertlik bileşenlerini bütünüyle garanti etmez."
+        },
+        {
+          "neighbor_ref": "root_001412/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dalın neşesi şımarıklık, kişisel isteğe kapılma ve sertlikle belirlenir.",
+          "neighbor_only": "Komşu dal coşkunluk, hareketlilik ve yerinde duramamayı kapsar; hayvanlara ve başka nesnelere de uygulanabilir.",
+          "gloss": "coşkudan yerinde duramama",
+          "shared_zone": "Her iki dal da olağan ölçüyü aşan yoğun neşe ve hareketlenmeyi paylaşır.",
+          "distinction": "Komşu dal coşku ve hareketliliği öne çıkarır; odak dal ise ahlaki ve davranışsal bir şımarıklık ile aceleci sertliği merkez alır."
+        },
+        {
+          "neighbor_ref": "root_000962/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dalda başlangıç noktası taşkın neşe ve şımarıklıktır.",
+          "neighbor_only": "Komşu dal öfke, huzursuzluk, hafiflik ve kabarmayı insan ya da hayvan için kapsar.",
+          "gloss": "öfkeyle kabaran taşkınlık",
+          "shared_zone": "Acelecilik, sertlik ve denetimsiz davranış iki dalın kesiştiği alandır.",
+          "distinction": "Odak dalın sertliği ölçüsüz neşeye bağlıdır; komşu dalın çekirdeği ise öfke ve ruhsal kabarmadır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yalnızca ölçüsüz neşe, şımarıklık ve aceleci sertlik sınırını açıklayan dört komşu yayımlandı.",
+      "branch_image_ar": "حدّة البطر",
+      "what_is_ar": "يدخل فيه الأشر بمعنى البطر والمرح وشدة الفرح بالهوى والتسرع مع الحدة ووصف الرجل بالأشر والأشران والقوم بالأشارى",
+      "what_is_not_ar": "لا يدخل فيه تحزيز الأسنان ولا نشر الخشب بالمئشار ولا وصف الدابة بالمئشير إلا من جهة التشبيه",
+      "source_phrase_ar": "الأشر أي بطر متسرع ذو حدة (maqayis); الأشر المرح والبطر ورجل أشر وأشران وقوم أشارى (ayn); الأشر البطر وقد أشر يأشر أشرا فهو أشر وأشران وقوم أشارى (sihah); الأشر شدة البطر والأشر أبلغ من البطر وفرح بحسب قضية الهوى (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000035/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi iki bağlı fakat ayrı kapsam verir: diş uçlarında bulunan incelik ve keskinlik ile yalnızca dişler hakkında kullanılan kertip sivriltme işlemi. Dal çerçevesi ikisini de içerir ve bunları odun kesme anlamından ayırır.",
+        "boundary_note": "Diş ucundaki yalın nitelik ile dişleri kertip sivriltme kalıbı ayrı tutulur; anlam genel keskinliğe veya genel kesmeye yayılmaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Dal, diş uçlarının yalın niteliğini ve dişleri kertip sivriltmeye bağlı kalıp anlamını ayrı yüzler olarak tanımlar."
+      },
+      "concept_map": {
+        "definition": "Diş uçlarının ince ve keskin olmasıdır. Buna bağlı özel kullanım, dişleri kertip uçlarını daha belirgin ve sivri hale getirme işlemidir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Dişlerin uçlarında incelik ve keskinlik bulunur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "Dişleri kertmek ve uçlarını sivriltmek, yalnızca dişlere bağlı özel bir işlemdir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Dişlerdeki görünüş, kılıç ağzındaki çizgi veya keskin iz benzetmesiyle de anlatılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynak anlatımı, diş uçlarındaki incelik ve keskinliği temel nitelik olarak verir; ayrıca dişleri kertip sivriltme işlemini ve keskin çizgiye benzeyen görünüşü bu alana bağlar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "diş uçlarının ince ve keskin oluşu; dişleri kertip sivriltme",
+        "applicability": "Yalın diş niteliğini ve yalnızca dişlere bağlı işleme anlamını birbirine karıştırmadan birlikte temsil eder.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Diş uçlarının incelik ve keskinliğini, ayrıca dişleri kertip sivriltme işlemini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "ince ve keskin diş uçları",
+          "usage_role": "contextual",
+          "applicability": "Dişlerin doğal veya mevcut görünüşünü niteleyen bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Diş uçlarının incelik ve keskinlik niteliğini tam olarak korur.",
+            "loses": "Dişleri kertip sivriltme işlemini ve çizgili görünüş benzetmesini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "dişleri kertip sivriltmek",
+          "usage_role": "contextual",
+          "applicability": "Dişlerde yapılan özel biçimlendirme işlemini anlatan eylem bağlamlarına uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Dişlerin kertilmesi ve uçlarının sivriltilmesi işlemini korur.",
+            "loses": "İşlemden bağımsız olarak diş uçlarında bulunan incelik ve keskinlik niteliğini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "diş uçlarındaki incelik ve keskinlik"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "dişleri kertip uçlarını sivriltme"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "dişlerdeki keskin çizgi veya sivrilik"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "keskinlik",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Diş uçlarının sivri ve kesici görünüşünü genel düzeyde korur.",
+            "loses": null,
+            "adds": "Dişlerle sınırlı olmayan her türlü keskin kenar, uç veya davranış anlamını ekler.",
+            "collision": "Genel keskinlik anlamıyla karışarak dişlere ve özel işleme bağlı sınırı siler."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001077/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, dişleri kertip sivriltme işlemini ve çizgili görünüşü de kapsar.",
+          "neighbor_only": "Komşu dal, diş uçlarındaki su gibi parlak görünüşü de kapsayabilir.",
+          "gloss": "diş uçlarının keskinliği ve parlaklığı",
+          "shared_zone": "Her iki dal da dişlerin uçlarını ve bu uçlardaki keskinliği anlatır.",
+          "distinction": "Yalın keskinlik alanında iki dal yaklaşır; odak dal özel biçimlendirme işlemini, komşu dal ise parlak veya sulu görünüşü ayrıca içerir."
+        },
+        {
+          "neighbor_ref": "root_000507/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal yalnız diş uçlarına ve dişlerde yapılan özel işleme bağlıdır.",
+          "neighbor_only": "Komşu dal kılıç, deve dişi, kulak ve başka nesnelerin keskin uçlarını genel olarak kapsar.",
+          "gloss": "delici keskin uç",
+          "shared_zone": "İki dalın ortak alanı, bir şeyin ucundaki keskinliktir.",
+          "distinction": "Komşu dal nesneler arasında genellenen keskin ucu anlatır; odak dal diş ucunun inceliğine ve dişe uygulanan kertme işlemine özgüdür."
+        },
+        {
+          "neighbor_ref": "root_000540/B003",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal keskin uçları ve dişleri kertip sivriltmeyi anlatır.",
+          "neighbor_only": "Komşu dal dişlerin beyazlığını, düzgün dizilişini, aralığını ve güzel görünüşünü anlatır.",
+          "gloss": "düzgün ve güzel diş dizisi",
+          "shared_zone": "Her iki dal dişlerin görünüşünü niteleyen söz varlığı alanındadır.",
+          "distinction": "Odak dalın ekseni uç keskinliği ve biçimlendirmedir; komşu dalın ekseni beyazlık, düzen ve estetik görünüş olduğundan yer değiştiremezler."
+        },
+        {
+          "neighbor_ref": "root_000035/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dalın nesnesi diştir ve amaç uçları kertip sivriltmektir.",
+          "neighbor_only": "Komşu dalın nesnesi odundur; işlem testereyle kesme veya oluk açmadır.",
+          "gloss": "odunu testereyle kesme",
+          "shared_zone": "İki dalda da bir araçla kertme veya kesme düşüncesi bulunur.",
+          "distinction": "Benzer işlem görüntüsüne rağmen nesne, araç ve sonuç farklıdır; diş biçimlendirme anlamı odun kesmeye genellenemez."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; diş keskinliği, diş görünüşü ve kertme işlemiyle doğrudan sınır oluşturan dört komşu seçildi.",
+      "branch_image_ar": "حدة أطراف الأسنان",
+      "what_is_ar": "يدخل فيه الأشر في أطراف الأسنان وتأشير الأسنان بمعنى تحزيزها وتحديد أطرافها وما قيل في الأسنان من أشر وأشور",
+      "what_is_not_ar": "لا يدخل فيه البطر والمرح ولا نشر الخشب بالمئشار",
+      "source_phrase_ar": "الأشر رقة وحدة في أطراف الأسنان (maqayis); تأشير الأسنان تحزيزها وتحديد أطرافها وبأسنانه أشر وأشر وأشور (sihah)",
+      "sources": [
+        "MQ",
+        "SI"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000035/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi odunu testereyle kesme veya kertme işlemini, bu işlemde kullanılan aracı ve kesilmiş odun sonucunu birlikte destekler. Dal çerçevesi bu bağlı kullanımları korur ve diş biçimlendirme anlamını içeri almaz.",
+        "boundary_note": "Anlam, odunun testereyle işlenmesine ve bundan türeyen araç ile sonuç adlarına bağlıdır; genel kesme anlamı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Dal, odun ve testereyle kurulan işlem kalıbını, araç adını ve işlem sonucunu ayrı yüzler olarak korur; yalın bir genel kesme anlamı çıkarmaz."
+      },
+      "concept_map": {
+        "definition": "Odunu testereyle kesmek veya üzerinde oluk açmaktır; aynı kullanım alanı kesme aracını ve bu işlemden geçmiş odunu da adlandırır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Odun, testere kullanılarak kesilir veya kertilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "İşlemde kullanılan testere, bu kullanım alanının araç adıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "İşlemden geçmiş odun, kesilmiş veya kertilmiş sonuç olarak nitelenir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar odunun testereyle kesilmesini veya kertilmesini ortak çekirdek olarak verir; yapanı, kullanılan aracı ve işlem görmüş odunu bu çekirdeğe bağlı biçimler halinde gösterir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "odunu testereyle kesme ve buna bağlı araç ile sonuç adları",
+        "applicability": "İşlemi merkezde tutarken testereyi ve kesilmiş odunu ona bağlı adlandırmalar olarak eksiksiz temsil eder.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Odunu testereyle kesme veya kertme işlemini, aracı ve işlem görmüş sonucu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "odunu testereyle kesmek",
+          "usage_role": "contextual",
+          "applicability": "Odun üzerinde testereyle gerçekleştirilen işlemi anlatan eylem cümlelerinde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Odun, testere ve kesme işlemi arasındaki temel ilişkiyi korur.",
+            "loses": "Kertme seçeneğini, araç adını ve işlem görmüş odun sonucunu açıkça kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "testereyle kesilmiş odun",
+          "usage_role": "contextual",
+          "applicability": "İşlemden geçmiş odunu niteleyen sonuç bağlamlarında uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Odunun testereyle işlenmiş sonuç durumunu korur.",
+            "loses": "Kesme eylemini yapanı ve aracın bağımsız adlandırılmasını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "odunu testereyle kesmek veya kertmek"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "odun kesmeye yarayan testere"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "testereyle kesilmiş veya kertilmiş odun"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "kesmek",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Bir nesneyi ayırma işlemini en genel düzeyde korur.",
+            "loses": null,
+            "adds": "Odun ve testere sınırı dışında kalan bütün kesme türlerini anlama ekler.",
+            "collision": "Genel kesme eylemiyle karışarak araç, nesne ve sonuç bağını görünmez kılar."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001503/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, testerenin araç adını ve kesilmiş odunun niteliğini de içerir.",
+          "neighbor_only": "Komşu dal, kesme sırasında dökülen küçük odun parçalarını ayrıca adlandırır.",
+          "gloss": "odunu testereyle kesme",
+          "shared_zone": "Her iki dalın çekirdeği odunun testereyle kesilmesidir.",
+          "distinction": "İşlem çekirdeğinde çok yakındırlar; odak dal araç ve kesilmiş sonuç biçimlerini, komşu dal ise dökülen küçük parçaları ayrıca kapsar."
+        },
+        {
+          "neighbor_ref": "root_001144/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal odun, testere, işlem ve işlem görmüş sonuç bağını birlikte kurar.",
+          "neighbor_only": "Komşu dal kertme izini odun dışında yay, demir, ok ve başka nesnelere de yayar.",
+          "gloss": "kertme ve kesme izi",
+          "shared_zone": "Odun üzerinde kesme ya da kertme izi oluşturma iki dalın ortak alanıdır.",
+          "distinction": "Komşu dal malzeme ve araç bakımından geniş bir iz alanıdır; odak dal testereyle odun işlemeye ve buna bağlı adlara özgüdür."
+        },
+        {
+          "neighbor_ref": "root_000103/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal testereyle odunu ayırma veya kertme işlemini anlatır.",
+          "neighbor_only": "Komşu dal törpüyle demir ya da odun aşındırmayı ve çıkan ince parçaları anlatır.",
+          "gloss": "törpüleyip aşındırma",
+          "shared_zone": "Her ikisi de bir araçla odun yüzeyinden parça kaldıran işlemlerdir.",
+          "distinction": "Testere keserek ayırır veya oluk açar; törpü ise yüzeyi sürterek aşındırır, bu yüzden işlemler birbirinin yerine geçmez."
+        },
+        {
+          "neighbor_ref": "root_001239/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dalda nesne odun, araç testere ve işlem sonucu kesilmiş odundur.",
+          "neighbor_only": "Komşu dal nesneyi enine ayırmayı genel bir kesme yönü olarak tanımlar.",
+          "gloss": "enine kesip ayırma",
+          "shared_zone": "Bir nesneyi keserek ayırma işlemi iki dalda da bulunur.",
+          "distinction": "Komşu dal kesmenin yönünü ve genel ayrılmayı öne çıkarır; odak dal belirli nesne ile araca ve bunların türevlerine bağlıdır."
+        },
+        {
+          "neighbor_ref": "root_000035/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal testereyle odun kesmeyi ve kesilmiş odunu kapsar.",
+          "neighbor_only": "Komşu dal diş uçlarının inceliğini ve dişleri kertip sivriltmeyi kapsar.",
+          "gloss": "diş uçlarını kertip sivriltme",
+          "shared_zone": "Araçla kertme veya keskin biçim oluşturma düşüncesi iki dalı yakınlaştırır.",
+          "distinction": "Odun kesme ile diş biçimlendirme farklı nesne, araç ve sonuçlara sahiptir; ortak işlem görüntüsü anlamları birleştirmez."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; testereyle odun kesme çekirdeğini genel kesme, kertme ve törpülemeden ayıran beş komşu yayımlandı.",
+      "branch_image_ar": "نشر الخشب بالمئشار",
+      "what_is_ar": "يدخل فيه أشرت الخشبة بالمئشار والخشبة المأشورة وما يرجع إلى النشر والتحزيز بالآلة",
+      "what_is_not_ar": "لا يدخل فيه البطر والمرح ولا تحزيز الأسنان إلا من جهة الحدة",
+      "source_phrase_ar": "أشرت الخشبة بالمئشار من هذا (maqayis); أشرت الخشبة بالمئشار وأنا آشر وهي مأشورة (sihah); أشرت الخشبة (mufradat)",
+      "sources": [
+        "MQ",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000035/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi deve veya at için kullanılan tek bir hayvan niteliğini gösterir, ancak anlamın açıklamasında iki seçenek sunar: benzetme yoluyla canlı ve atılgan olma ya da odun kesme kullanımıyla ilişkilendirilen zayıf ve yağsız olma. Dal korunabilir, fakat bu seçenekler tek bir birleşik özellikmiş gibi sunulmamalıdır.",
+        "boundary_note": "Hayvana yönelik bu niteleme, kaynaklardaki canlılık ve yağsızlık açıklamalarını alternatif tutar; insan şımarıklığına veya odun kesme eylemine eşitlenmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Dal, hayvan için kullanılan yalın bir niteliği tanımlar; canlılık ve yağsızlık açıklamaları alternatif kaynak yorumları olarak sınırlandırılır."
+      },
+      "concept_map": {
+        "definition": "Deve veya at için kullanılan bir nitelemedir; bir açıklamada canlı ve atılgan hayvanı, başka bir açıklamada ise zayıf ve yağsız hayvanı belirtir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Nitelik deveye ve ata uygulanabilir; biçim dişil ve eril hayvan için değişmez.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Bir açıklamaya göre nitelik canlı, hareketli ve atılgan hayvanı anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Alternatif açıklamaya göre nitelik zayıf ve yağsız hayvanı anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar niteliğin deve veya at için kullanılabildiğini gösterir. Anlam açıklaması, benzetme yoluyla canlı ve atılgan olma ile odun kesme kullanımına bağlanan zayıf ve yağsız olma arasında değişir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "deve veya at için canlı ve atılgan; bir yoruma göre zayıf ve yağsız",
+        "applicability": "Hayvana özgü niteliği ve kaynaklarda birbirinin alternatifi olan iki anlam açıklamasını birlikte korur.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Deve veya at kapsamını, canlı ve atılgan okumasını, alternatif zayıf ve yağsız okumasını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "canlı ve atılgan hayvan",
+          "usage_role": "contextual",
+          "applicability": "Niteliğin hareketlilik benzetmesine dayanan açıklamasının geçerli olduğu hayvan bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Hayvan kapsamını ve canlılık ile atılganlık yorumunu korur.",
+            "loses": "Alternatif zayıf ve yağsız hayvan yorumunu kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "zayıf ve yağsız hayvan",
+          "usage_role": "contextual",
+          "applicability": "Niteliğin zayıflık ve yağsızlıkla açıklandığı hayvan bağlamlarında kullanılabilir.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Hayvan kapsamını ve zayıf, yağsız beden yorumunu korur.",
+            "loses": "Canlı ve atılgan hayvan açıklamasını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "canlı ve atılgan deve veya at"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "zayıf ve yağsız hayvan"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "hızlı",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Canlılık açıklamasındaki hareket gücünün bir bölümünü korur.",
+            "loses": "Atılganlığı, hayvan kapsamını ve alternatif zayıf ve yağsız yorumunu kaybeder.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000723/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal canlılığın yanında alternatif olarak zayıf ve yağsız olmayı da taşıyabilir.",
+          "neighbor_only": "Komşu dal hızlı ve rahat koşmayı öne çıkarır ve canlı bir delikanlıya da uygulanabilir.",
+          "gloss": "hızlı ve canlı koşan",
+          "shared_zone": "Hayvandaki canlılık, atılganlık ve koşma isteği iki dalın örtüşen alanıdır.",
+          "distinction": "Canlılık yorumunda yakınlaşırlar; odak dal hız şartı koymaz ve alternatif bir zayıflık açıklaması taşır, komşu dal ise koşu biçimine ve hıza yönelir."
+        },
+        {
+          "neighbor_ref": "root_000304/B007",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal deveye veya ata uygulanabilir ve canlılık yorumunu da barındırır.",
+          "neighbor_only": "Komşu dal özellikle deveyi zayıf ya da uzun gövdeli oluşuyla niteler.",
+          "gloss": "zayıf veya uzun deve",
+          "shared_zone": "Zayıf deveyi niteleme, odak dalın alternatif açıklamasıyla kesişir.",
+          "distinction": "Örtüşme yalnız zayıflık yorumundadır; komşu dal uzunluğu da kapsar, odak dal ise atı ve canlılık yorumunu ayrıca içerir."
+        },
+        {
+          "neighbor_ref": "root_001418/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal genel canlılık ve atılganlığı anlatır; ayrıca zayıflık yorumu taşır.",
+          "neighbor_only": "Komşu dal son derece yüksek hız ve hafifliği zorunlu kılar.",
+          "gloss": "çok hızlı ve hafif hayvan",
+          "shared_zone": "At veya devenin hareketli ve atılgan görünüşü iki dalı yakınlaştırır.",
+          "distinction": "Komşu dal aşırı hız derecesini merkez alır; odak dal hız derecesi belirtmez ve alternatif olarak beden zayıflığını anlatabilir."
+        },
+        {
+          "neighbor_ref": "root_000747/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal canlılık veya alternatif olarak zayıf ve yağsız beden bildirir.",
+          "neighbor_only": "Komşu dal güçlü yapı, uzun bacaklar ve belirgin göğüs ya da hörgüç gibi yapısal özellikleri bildirir.",
+          "gloss": "güçlü yapılı deve",
+          "shared_zone": "Her iki dal da devenin bedenini ve hareket yeteneğini niteleyen söz varlığı alanındadır.",
+          "distinction": "Odak dal canlılık ya da zayıflık eksenindedir; komşu dal güçlü yapı ve belirli beden oranlarını anlattığından anlamca yer değiştiremez."
+        },
+        {
+          "neighbor_ref": "root_000627/B003",
+          "relation_type": "polarity_pair",
+          "boundary_match": "opposed",
+          "focus_only": "Odak dalın canlılık yorumunda hayvan hareketli ve atılgandır.",
+          "neighbor_only": "Komşu dalda hayvan bitkinlikten ayaklarını sürükleyecek kadar tükenmiştir.",
+          "gloss": "bitkinlikten ayak sürüme",
+          "shared_zone": "İki dal da hayvanın hareket gücü ve etkinlik düzeyi ekseninde karşılaştırılabilir.",
+          "distinction": "Odak dalın canlılık yüzü yüksek hareket gücünü, komşu dal ise hareket gücünün tükenmesini gösterir; karşıtlık odak dalın zayıflık yorumuna değil canlılık yorumuna bağlıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; canlılık, hız, beden yapısı, zayıflık ve bitkinlik eksenlerini açıklayan beş komşu yayımlandı.",
+      "branch_image_ar": "المئشير من الدواب",
+      "what_is_ar": "يدخل فيه وصف الناقة والجواد بالمئشير على معنى النشاط أو على معنى الضمر المذكور في المصدر",
+      "what_is_not_ar": "لا يدخل فيه الأشر في الإنسان ولا تأشير الأسنان ولا نشر الخشب نفسه",
+      "source_phrase_ar": "ناقة مئشير مفعيل من الأشر (maqayis); ناقة مئشير وجواد مئشير يستوي فيه المذكر والمؤنث (sihah); ناقة مئشير أي نشيطة على طريق التشبيه أو ضامر من قولهم أشرت الخشبة (mufradat)",
+      "sources": [
+        "MQ",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, ölçüsüz ve şımarık neşeden diş uçlarının keskinliğine, diş biçimlendirmeye ve testereyle odun kesmeye uzanan çok dallı bir yapı gösterir; ayrıca deve veya at için canlılık ya da alternatif olarak zayıflık bildiren bir niteleme taşır.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 2,
+      "word_count": 2,
+      "ayah_count": 2,
+      "surah_count": 1
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "أَشِر",
+        "stem_ar": "أَشِرٌ",
+        "pos": "ADJ",
+        "measure": "",
+        "morph_features": "STEM|POS:ADJ|LEM:>a$ir|ROOT:A$r|MS|INDEF|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "أَشِر",
+        "stem_ar": "أَشِرُ",
+        "pos": "ADJ",
+        "measure": "",
+        "morph_features": "STEM|POS:ADJ|LEM:>a$ir|ROOT:A$r|MS|NOM",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "54:25",
+        "surface_ar": "أَءُلْقِىَ ٱلذِّكْرُ عَلَيْهِ مِنۢ بَيْنِنَا بَلْ هُوَ كَذَّابٌ أَشِرٌ"
+      },
+      {
+        "ayah_ref": "54:26",
+        "surface_ar": "سَيَعْلَمُونَ غَدًا مَّنِ ٱلْكَذَّابُ ٱلْأَشِرُ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "54:25:9:1",
+        "qac_word_ref": "54:25:9",
+        "surah": 54,
+        "ayah": 25,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "أَشِرٌ",
+        "stem_ar": "أَشِرٌ",
+        "lemma_ar": "أَشِر",
+        "source_pos": "ADJ",
+        "pos": "ADJ",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:ADJ|LEM:>a$ir|ROOT:A$r|MS|INDEF|NOM",
+        "ayah_ref": "54:25",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            29,
+            32
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "54:26:5:2",
+        "qac_word_ref": "54:26:5",
+        "surah": 54,
+        "ayah": 26,
+        "word_index": 5,
+        "morpheme_index": 2,
+        "surface_ar": "أَشِرُ",
+        "stem_ar": "أَشِرُ",
+        "lemma_ar": "أَشِر",
+        "source_pos": "ADJ",
+        "pos": "ADJ",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:ADJ|LEM:>a$ir|ROOT:A$r|MS|NOM",
+        "ayah_ref": "54:26",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            18,
+            23
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

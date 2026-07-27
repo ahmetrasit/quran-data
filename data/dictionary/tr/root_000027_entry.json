@@ -1,0 +1,979 @@
+{
+  "inputs_sha256": "f58f5a140223901564f90e16f5c774158470dbba0aa818a52eb7002b2bf68bc9",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000027",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000027/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi yalın biçimde güç ve sağlamlığı, geçişli kullanımlarda ise birini destekleyip güçlendirmeyi birlikte gösterir. Verilen çerçeve bu iki bağlı yönü doğru biçimde korur.",
+        "boundary_note": "Giysi, sırt, bitki gelişimi ve özel adla ilgili öteki dallar bu anlamın dışında kalır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, yalın güç anlamını kişi ya da yapıyı destekleyerek güçlendiren sınırlı kullanımlardan ayırır."
+      },
+      "concept_map": {
+        "definition": "Güç ve sağlamlık; ayrıca bir kişiye destek olmak ya da bir şeyin alt bölümünü sağlamlaştırmak yoluyla onu daha güçlü duruma getirmektir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Yalın biçim güç ve sağlamlığı, geçişli yapılar ise yardım ederek veya destek vererek güçlendirmeyi anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar güç ve sağlamlık çekirdeğinde, birine yardım etme ve onu güçlendirme kullanımında birleşir; yapı örneğinde destek alt bölümlerin sağlamlaştırılmasına yönelir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "güç ve destekleyerek güçlendirme",
+        "applicability": "Hem yalın güç kavramını hem de kişi veya nesneye destek vererek onu güçlendirme yönünü birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Güç çekirdeğini ve destek yoluyla güçlendirme işlemini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "güç ve sağlamlık"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birine yardım edip onu güçlendirmek"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birini güçlendirmek"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir kişiye başkasına karşı yardım edip güç vermek"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yapının alt bölümlerini sağlamlaştırmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000021/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, yardım eyleminden bağımsız yalın güç ve sağlamlık anlamını da taşır.",
+          "neighbor_only": "Komşu dal, belirli bir işte başkasına yardım edip onu güçlü kılmaya odaklanır.",
+          "gloss": "yardım ederek güçlendirme",
+          "shared_zone": "Her iki dal da bir başkasına yardım ederek onun gücünü artırma alanında örtüşür.",
+          "distinction": "Odak dalın kapsamı yalın güç ve sağlamlığı da içerirken komşu dalın çekirdeği başkasına yönelik yardım eylemidir."
+        },
+        {
+          "neighbor_ref": "root_001008/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dalda destek olma ve bir yapının altını sağlamlaştırma kullanımları bulunur.",
+          "neighbor_only": "Komşu dal, bir şeyi ya da kişiyi güçlü ve itibarlı duruma getirme kapsamına uzanır.",
+          "gloss": "güçlü kılma",
+          "shared_zone": "İki dal da bir kişi veya şeyi daha güçlü duruma getirmeyi anlatabilir.",
+          "distinction": "Odak dal destek ve dayanışma yönünü korur; komşu dalın kapsamı güçlü ve itibarlı kılmaya kadar genişler."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; en yakın iki güçlendirme dalı seçildi, diğerleri yalnız ortak senaryo taşıdığı veya başka dallara ait olduğu için yayımlanmadı.",
+      "branch_image_ar": "القوّة والمساندة",
+      "what_is_ar": "يدخل فيه الأَزر بمعنى القوّة والشدة وشدّ الأزر وتقوية غيره ومعاونته ومؤازرته",
+      "what_is_not_ar": "ليس الإزار اللباس ولا اسم آزر",
+      "source_phrase_ar": "الأزر القوة (maqayis;sihah;tahdhib;mufradat)؛ الهمزة والزاء والراء أصل واحد وهو القوة والشدة (maqayis)؛ آزره أي ظاهره وعاونه (ayn)؛ آزرت فلانا أي عاونته (sihah)؛ أزرت فلانا آزره أزرا قويته وآزرته عاونته (tahdhib)؛ آزره أعانه وقواه (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000027/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi sözcüğü hem sırt hem de bel çevresinde kuşağın bağlandığı bölge olarak açıklar. Verilen dal kimliği bu iki bedensel konumu aynı sınır içinde doğru biçimde sunar.",
+        "boundary_note": "Burada kastedilen giysinin kendisi değil, sırt ya da giysinin belde bağlandığı bedensel bölgedir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalnız yalın biçimin sırt ve bel çevresindeki bağlama yeri anlamını kapsar."
+      },
+      "concept_map": {
+        "definition": "Sırt ya da belin iki yanı çevresinde, bele sarılan giysinin bağlandığı bedensel bölgedir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kavram sırtı ve bel çevresinde giysinin bağlandığı bölgeyi adlandırır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar sırt anlamını ve bele sarılan giysinin iki yan arasında bağlandığı bölgeyi aynı bedensel kullanım içinde verir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sırt ve beldeki bağlama bölgesi",
+        "applicability": "Sırtı ve bele sarılan giysinin düğümlendiği yanlar çevresindeki bedensel konumu birlikte belirtir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sırt anlamını ve bel çevresindeki bağlama yeri sınırını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sırt ve belde giysinin bağlandığı bölge"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000040/B007",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal sırtı ve belde giysinin bağlandığı çevreyi kapsar.",
+          "neighbor_only": "Komşu dal yalnız böğür ya da belin yan bölümünü adlandırır.",
+          "gloss": "böğür",
+          "shared_zone": "Her iki dal insan gövdesinin bel çevresindeki bir bölgesine gönderme yapar.",
+          "distinction": "Komşu dal belirli bir yan bölgedir; odak dal ise sırtı ve giysi bağlama konumunu içeren farklı bir bedensel sınır kurar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; böğür dalı en yararlı bedensel karşılaştırmadır, ötekiler farklı organları, durumları veya bu kökün ayrı anlamlarını gösterir.",
+      "branch_image_ar": "الظهر وموضع الإزار",
+      "what_is_ar": "يدخل فيه الأَزر بمعنى الظهر وموضع الإزار من الحقوين",
+      "what_is_not_ar": "ليس الإزار نفسه ولا اسم آزر",
+      "source_phrase_ar": "الأزر الظهر (ayn;tahdhib)؛ اشدد به أزري أي ظهري (sihah)؛ موضع الإزار من الحقوين (sihah)؛ شد به ظهري أي قو به ظهري (tahdhib)",
+      "sources": [
+        "AY",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000027/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bele sarılan giysiyi, bu giysinin eş adlı biçimlerini, giyilme durumunu ve bağını sıkma eylemini açıkça birlikte verir. Dal çerçevesi bu giysi merkezli yapıyı korur.",
+        "boundary_note": "Anlam güç ya da sırt değildir; giysinin kendisi ile onu giyme ve bağlama eylemleridir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım giysinin yalın adlarını, giyme biçimlerini ve bağını sıkmaya özgü yapıyı ayrı yönler olarak korur."
+      },
+      "concept_map": {
+        "definition": "Bel çevresine sarılıp bağlanan alt giysi, bu giysiyi giyme biçimi ve onu giyip düğüm yerini sıkma eylemidir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Dal, bele sarılan alt giysiyi ve bu giysiyi giyme, üzerine bağlama veya düğümünü sıkma eylemlerini kapsar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar bele sarılan alt giysinin çeşitli adlarını, onu giyme durumunu ve giysinin düğüm yerini sıkma eylemini ortak bir giysi alanında toplar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bele sarılan alt giysi ve onu giyme",
+        "applicability": "Giysinin kendisini, giyilme biçimini ve düğüm yerinin sıkılmasını kapsayan genel karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Giysi nesnesini, giyme durumunu ve bağlama eylemini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bele sarılıp bağlanan alt giysi"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bele sarılan alt giysi"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bele sarılan alt giysi ya da bu amaçla kullanılan örtü"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "alt giysiyi kuşanma biçimi"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bele alt giysi sarıp kuşanmak"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "alt giysiyi giyip üzerine bağlamak"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bele sarılan giysinin düğümünü sıkmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000351/B007",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal bele sarılan tek bir alt giysiyi ve onu kuşanma eylemini içerir.",
+          "neighbor_only": "Komşu dal alt ve üst parçadan oluşabilen bir takım giysiyi kapsar.",
+          "gloss": "giysi takımı",
+          "shared_zone": "Her iki dal giyilen kumaş parçalarını ve giyim alanını paylaşır.",
+          "distinction": "Odak dal bel çevresindeki alt giysiyle sınırlıdır; komşu dal ise birden çok parçalı giysi takımını adlandırır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; giysi takımı dalı kapsam farkını en açık gösterir, öteki adaylar farklı örtü türleri veya ayrı kök dallarıdır.",
+      "branch_image_ar": "الإزار والائتزار",
+      "what_is_ar": "يدخل فيه الإزار والإزارة والمئزر ولبس الإزار وشدّ معقده",
+      "what_is_not_ar": "ليس القوة ولا الظهر إذا أريد به العضو",
+      "source_phrase_ar": "شد فلان أزره أي شد معقد إزاره وائتزر أزرة (ayn)؛ الإزار معروف والإزارة مثله (sihah)؛ المئزر الإزار نفسه (ayn)؛ يقال للإزار مئزر وقد ائتزر فلان إزرة حسنة وتأزر لبس الإزار (tahdhib)؛ أصل الأزر الإزار الذي هو اللباس (mufradat)",
+      "sources": [
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000027/B004",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bitkinin güçlenip uzamasını, sıklaşıp birbirine dayanmasını ve küçük sürgünlerin büyüklerle aynı boya yaklaşmasını birlikte bildirir. Verilen botanik çerçeve bu aşamaları doğru korur.",
+        "boundary_note": "Bu dal yalnız bitki ve ekin bağlamına özgüdür; insanlar arasındaki genel yardımlaşma anlamına genişletilmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnız bitki veya ekinle kurulan yapılardaki güçlenme, sıklaşma ve karşılıklı dayanma sürecine bağlıdır."
+      },
+      "concept_map": {
+        "definition": "Bitkinin büyüyüp güçlenmesi ve sıklaşması; ekindeki sürgünlerin birbirine dayanarak gelişmesi ve boyca birbirine yaklaşmasıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bitki güçlenip uzar, sıklaşıp bütünleşir ve sürgünleri birbirini destekleyerek benzer boya gelir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar bitkinin güçlenme ve gelişmesini, ekinin sıklaşıp birbirine dayanmasını ve küçük sürgünlerin büyüklerle boyca dengelenmesini aynı sürecin yönleri olarak verir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bitkinin güçlenip sıklaşarak dayanışması",
+        "applicability": "Bitkinin uzama ve güçlenmesini, ekin parçalarının sıklaşıp birbirini desteklemesini birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Botanik gelişimi, sıklaşmayı ve sürgünlerin karşılıklı desteğini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bitki güçlenip uzamak"
+        },
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bitki sıklaşıp güçlenmek"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ekin sürgünleri sıklaşıp birbirini desteklemek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001326/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal sürgünlerin sıklaşarak birbirini desteklemesini ve boyca dengelenmesini içerir.",
+          "neighbor_only": "Komşu dal çiçeklenme ve kurumaya yaklaşma gibi olgunluk belirtilerini içerir.",
+          "gloss": "bitkinin olgunlaşması",
+          "shared_zone": "Her iki dal bitkinin boyca gelişip ileri bir büyüme aşamasına ulaşmasını anlatır.",
+          "distinction": "Odak dal güçlenme ve karşılıklı dayanma yapısına, komşu dal ise olgunluk ve çiçeklenme evresine odaklanır."
+        },
+        {
+          "neighbor_ref": "root_000425/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "opposed",
+          "focus_only": "Odak dal güçlenmiş, sıklaşmış ve boyca dengelenen ekini anlatır.",
+          "neighbor_only": "Komşu dal son boya ulaşamamış, kısa kalmış ekini anlatır.",
+          "gloss": "boyu tamamlanmamış ekin",
+          "shared_zone": "İki dal da ekinin gelişme derecesini ve boy durumunu değerlendirir.",
+          "distinction": "Odak dal gelişmenin güçlenme ve denge sonucunu, komşu dal ise gelişmenin eksik kalmasını öne çıkarır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; olgunlaşma ve boyu eksik kalma dalları gelişim sınırını en iyi açıklar, diğerleri bitki türü, çıkış veya ilgisiz anlamlardır.",
+      "branch_image_ar": "اشتداد النبات وتسانده",
+      "what_is_ar": "يدخل فيه تأزّر النبات إذا قوي واشتد أو التف وتلاحق وآزر بعضه بعضا وساوى بعضه بعضا في الطول",
+      "what_is_not_ar": "ليس مطلق المعاونة بين الناس",
+      "source_phrase_ar": "تأزر النبت إذا قوي واشتد (maqayis)؛ الزرع يؤازر بعضه بعضا إذا تلاحق والتف (ayn)؛ تأرز النبت التف واشتد (sihah)؛ فآزر الصغار الكبار حتى استوى بعضه مع بعض (tahdhib)؛ تأزر النبت طال وقوي (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000027/B005",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi giysi adının bağlama göre kadın ya da kişinin kendisi için örtülü anlatım olduğunu, ayrıca bir niteleme içinde cinsel sakınmayı bildirdiğini gösterir. Bunlar tek bir düz anlam değil, giysi imgesine dayanan bağlantılı örtülü kullanımlardır.",
+        "boundary_note": "Kadın, kişinin kendisi ve cinsel sakınma yönleri bağlama bağlı tutulmalı; somut giysi anlamıyla birleştirilmemelidir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, yalın biçimdeki örtülü kişi veya kadın göndermesini niteleme yapısındaki cinsel sakınma anlamından ayırır."
+      },
+      "concept_map": {
+        "definition": "Bel giysisi adının bağlama göre kadın ya da kişinin kendisi için örtülü bir gönderme olarak kullanılması; belirli bir nitelemede ise yasak cinsel ilişkilerden sakınmayı anlatmasıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Somut giysi adı kadın veya kişinin kendisi için örtülü gönderme olur ve niteleme içinde cinsel sakınmayı bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar giysi adının kadın veya kişinin kendisi için örtülü kullanımını ve aynı imgeyle kurulan nitelemenin yasak cinsel ilişkilerden uzak durmayı bildirmesini aktarır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "giysi imgesiyle kadın, kişi veya cinsel sakınma",
+        "applicability": "Yalnız örtülü anlatımlarda kadın ya da kişinin kendisini, niteleme bağlamında ise cinsel sakınmayı belirtir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Üç bağlamsal yönü somut giysi anlamına indirgemeden birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kadın veya kişinin kendisi için örtülü anlatım"
+        },
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yasak cinsel ilişkilerden sakınan"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000297/B007",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal giysi adını kadın veya kişinin kendisi için de örtülü gönderme olarak kullanır.",
+          "neighbor_only": "Komşu dal bedenin bel bölgesini temizlik ve cinsel sakınma için örtülü imge yapar.",
+          "gloss": "bel imgesiyle cinsel sakınma",
+          "shared_zone": "İki dal da bel veya giysi alanından gelen bir imgeyle cinsel sakınmayı anlatır.",
+          "distinction": "Odak dalın kadın ve kişi göndermeleri daha geniştir; komşu dalın örtülü kullanımı doğrudan cinsel temizlik ve sakınma niteliğine bağlıdır."
+        },
+        {
+          "neighbor_ref": "root_000977/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal kadın yanında kişinin kendisine ve cinsel sakınmaya da gönderme yapabilir.",
+          "neighbor_only": "Komşu dal kadını veya eşi eşik imgesiyle adlandırır.",
+          "gloss": "eşik imgesiyle kadın",
+          "shared_zone": "Her iki dal somut bir nesne adını kadın için örtülü anlatım olarak kullanır.",
+          "distinction": "Paylaşılan kadın göndermesine rağmen kullanılan imge ve odak dalın ek kişi ile sakınma kapsamı farklıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; bel imgesiyle sakınma ve nesne adıyla kadın göndermesi en açıklayıcı karşılaştırmalardır, diğerleri karşıt davranış veya yalnız ortak konu taşır.",
+      "branch_image_ar": "كناية الإزار",
+      "what_is_ar": "يدخل فيه جعل الإزار كناية عن المرأة أو النفس أو العفة عما يحرم من النساء",
+      "what_is_not_ar": "ليس الإزار هنا مجرد اللباس المحسوس",
+      "source_phrase_ar": "يريد بالإزار هاهنا المرأة (sihah)؛ يكنى بالإزار عن النفس (tahdhib)؛ عفيف المئزر وعفيف الإزار إذا وصف بالعفة عما يحرم عليه من النساء (tahdhib)؛ يكنى بالإزار عن المرأة (mufradat)",
+      "sources": [
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000027/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi belirli sesletimle kullanılan biçime doğrudan köken ve temel anlamını verir. Dalın kısa çerçevesi bu tek ve açık tanıklığı değiştirmeden yansıtır.",
+        "boundary_note": "Bu anlam giysi, güç veya sırt anlamlarından ayrıdır ve yalnız köken ya da temel kavramını bildirir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım, yalın biçimin doğrudan köken ve temel anlamıyla sınırlıdır."
+      },
+      "concept_map": {
+        "definition": "Bir şeyin kendisinden çıktığı kökeni ya da dayandığı temelidir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kavram bir şeyin kökenini ve temel dayanağını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Tek kaynak tanıklığı, belirli sesletimdeki biçimi doğrudan köken ve temel anlamıyla açıklar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "köken ve temel",
+        "applicability": "Bir şeyin çıktığı başlangıç noktasını veya dayandığı temel katmanı belirtir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Köken ile temel dayanak anlamını eksiksiz biçimde korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "köken, temel"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000031/B002",
+          "relation_type": "synonym",
+          "boundary_match": "exact",
+          "focus_only": null,
+          "neighbor_only": null,
+          "gloss": "bir şeyin kökeni",
+          "shared_zone": "Her iki dal bir varlığın veya durumun dayandığı kökeni bildirir.",
+          "distinction": "İki dal genel köken anlamında aynı çekirdeği ve sınırı taşır; komşudaki kişi ve örnek söz kullanımları bu çekirdeğin uygulamalarıdır."
+        },
+        {
+          "neighbor_ref": "root_000012/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal kökeni süreklilik ya da birikme koşulu getirmeden adlandırır.",
+          "neighbor_only": "Komşu dal kökenle birlikte sabitlik, süreklilik ve zamanla birikme özelliklerini taşır.",
+          "gloss": "yerleşik ve kalıcı köken",
+          "shared_zone": "İki dal da bir şeyin kökenini veya temelini gösterebilir.",
+          "distinction": "Odak dal yalın köken kavramıdır; komşu dal buna kalıcılık ve kökleşmiş birikim özellikleri ekler."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel köken ve kalıcı köken dalları sınırı en iyi açıklar, diğerleri soy, dil bilgisi, merkez veya yetişme yeri gibi özel kapsamlar ekler.",
+      "branch_image_ar": "الإِزر الأصل",
+      "what_is_ar": "يدخل فيه الإِزر بكسر الهمزة بمعنى الأصل",
+      "what_is_not_ar": "ليس الإزار اللباس ولا الأَزر القوة",
+      "source_phrase_ar": "الإِزر الأصل بكسر الهمزة (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000027/B007",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi biçime zayıflık anlamı verir, fakat açıklayıcı kullanımlarda bu zayıflığın sıkılması veya güçlendirilmesi istenir. Dal kimliği korunabilir; güç, sözcüğün kendisi değil zayıflığa uygulanan işlemdir.",
+        "boundary_note": "Çekirdek anlam zayıflıktır; güçlendirme yalnız bu zayıflığın giderilmesini isteyen bağlamın eylemidir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın zayıflık anlamını korur ve bağlamdaki güçlendirme isteğini kavramın kendisiyle özdeşleştirmez."
+      },
+      "concept_map": {
+        "definition": "Güçlendirilmesi, sıkılaştırılması veya giderilmesi istenen zayıflık ve güçsüzlük durumudur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Biçim zayıflığı adlandırır; verilen söyleyişlerde bu zayıflığın güçlendirilmesi istenir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Tek kaynak tanıklığı yalın anlamı zayıflık olarak verir ve açıklamasında bu zayıflığın sıkılaştırılıp güçlendirilmesini isteyen söyleyişleri aktarır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "güçlendirilmesi istenen zayıflık",
+        "applicability": "Zayıflık çekirdeğini ve örnek söyleyişlerde ona yönelen güçlendirme isteğini birbirinden ayırarak belirtir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Zayıflık anlamını ve güçlendirmenin dışarıdan yönelen işlem oluşunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "güçlendirilmesi istenen zayıflık"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000541/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal soyut bir zayıflığı ve ona yönelen güçlendirme isteğini bildirir.",
+          "neighbor_only": "Komşu dal zayıf veya cılız insan ve hayvan topluluklarını adlandırır.",
+          "gloss": "zayıf ve cılız varlıklar",
+          "shared_zone": "Her iki dal zayıflık ve güçsüzlük alanıyla ilişkilidir.",
+          "distinction": "Odak dal durumun kendisidir; komşu dal ise bu niteliği taşıyan insan veya hayvanları sınıflandırır."
+        },
+        {
+          "neighbor_ref": "root_000071/B001",
+          "relation_type": "polarity_pair",
+          "boundary_match": "opposed",
+          "focus_only": "Odak dal giderilmesi istenen zayıflığı adlandırır.",
+          "neighbor_only": "Komşu dal yoğun gücü ve yardım yoluyla güç kazandırmayı adlandırır.",
+          "gloss": "yoğun güç ve destek",
+          "shared_zone": "İki dal aynı güç derecesi ekseninde karşıt uçlara yerleşir.",
+          "distinction": "Odak dal güç eksikliğini, komşu dal ise güçlü olma veya güç kazandırma yönünü bildirir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; zayıf varlıklar dalı durum ile taşıyıcıyı, güç dalı ise karşıt kutbu gösterir; diğer adayların çekirdekleri farklıdır.",
+      "branch_image_ar": "الضعف المقوّى",
+      "what_is_ar": "يدخل فيه الأَزر بمعنى الضعف إذا قيل شدد ضعفي وقو ضعفي",
+      "what_is_not_ar": "ليس القوة نفسها ولا الظهر",
+      "source_phrase_ar": "الأزر الضعف (tahdhib)؛ من جعله الضعف قال شد به ضعفي وقو به ضعفي (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000027/B008",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi atın uyluklarında veya bacaklarında bulunan beyazlığın belde giysi bağlanan yere kadar yükselmesini bildirir. Verilen çerçeve hayvanı, rengi ve sınır noktasını doğru korur.",
+        "boundary_note": "Bu dal genel bir beyazlık değil, atta uyluk veya bacaklardan belirli bir yüksekliğe çıkan renk işaretidir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnız atı niteleyen yapıda, beyazlığın bacaklardan bel hizasındaki bağlama yerine ulaşmasıyla sınırlıdır."
+      },
+      "concept_map": {
+        "definition": "Uylukları beyaz olan ya da bacaklarındaki beyazlık belde giysinin bağlandığı hizaya kadar çıkan attır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Atın uyluk veya bacak beyazlığı belirli bir üst sınıra, bel çevresindeki bağlama hizasına kadar ulaşır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar atın uyluklarının beyaz olmasını ve bacak beyazlığının bel çevresindeki bağlama hizasına kadar yükselmesini aynı renk işaretinin açıklamaları olarak verir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bacak beyazlığı bel hizasına çıkan at",
+        "applicability": "Yalnız atlarda uyluk veya bacak beyazlığının belirli üst sınıra ulaştığı renk işaretini karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hayvan türünü, beyazlığın yerini ve ulaştığı üst sınırı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bacak veya uyluk beyazlığı bel hizasına çıkan at"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000546/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal beyazlığın uyluklara veya bel hizasına kadar yükselmesini gerektirir.",
+          "neighbor_only": "Komşu dal tek bir bacakta beyazlık bulunmasıyla sınırlı bir işareti kapsar.",
+          "gloss": "tek bacağı beyaz hayvan",
+          "shared_zone": "Her iki dal at veya başka bir binek hayvanının bacaklarındaki beyaz renk işaretini adlandırır.",
+          "distinction": "Odak dalda beyazlığın yüksekliği belirleyicidir; komşu dalda ise işaretin tek bir bacakta bulunması belirleyicidir."
+        },
+        {
+          "neighbor_ref": "root_000813/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal beyazlığın bacaklardan bel hizasına kadar yükselmesini belirtir.",
+          "neighbor_only": "Komşu dal belirli bacaklara dağılan, bağ görünümünü andıran beyaz işaret düzenini belirtir.",
+          "gloss": "bacaklarda bağ biçimli beyazlık",
+          "shared_zone": "İki dal da at bacaklarındaki beyazlığın konumuyla tanımlanan renk işaretleridir.",
+          "distinction": "Odak dal dikey erişim sınırına, komşu dal ise beyazlığın bacaklar arasındaki düzenine göre ayrılır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; tek bacak beyazlığı ve bağ biçimli işaret en yararlı sınırları verir, diğerleri yüz, kuyruk, karın veya belirsiz bacak işaretleridir.",
+      "branch_image_ar": "بياض موضع الإزار في الفرس",
+      "what_is_ar": "يدخل فيه الفرس الآزر الذي ينتهي بياض فخذيه أو قوائمه إلى موضع شد الإزار",
+      "what_is_not_ar": "ليس اسم آزر ولا المؤازرة",
+      "source_phrase_ar": "فرس آزر وهو الأبيض الفخذين (tahdhib)؛ فرس آزر انتهى بياض قوائمه إلى موضع شد الإزار (mufradat)",
+      "sources": [
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000027/B009",
+      "identity_judgment": {
+        "status": "reframed",
+        "rationale": "Kaynak ifadesi tek ve yerleşik bir anlam sunmaz: biçim bir kişinin babasının adı, yabancı kökenli bir ad, seslenme veya açıklama öğesi, bir putun adı ya da aşağılayıcı bir niteleme olarak yorumlanır. Dal korunabilir, ancak tanımı bu görüşleri uzlaştırılmış tek kimlik gibi göstermemelidir.",
+        "boundary_note": "Bu dal birbirine rakip adlandırma ve yorum aktarımlarını kaydeder; bunların hiçbiri güç veya giysi anlamından türetilmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Tanım yalnız aktarılan özel ad, yabancı ifade, seslenme, put adı ve aşağılama yorumlarıyla sınırlıdır."
+      },
+      "concept_map": {
+        "definition": "Kaynaklarda bir kişinin babasına ilişkin özel ad veya yabancı ifade olarak geçen, ayrıca seslenme, put adı ya da aşağılayıcı niteleme diye farklı biçimlerde açıklanan tartışmalı bir sözdür.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Biçim, bir kişinin babasıyla ilişkili özel ad veya yabancı kökenli söz olarak aktarılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Alternatif açıklamalar onu seslenme veya açıklama öğesi, put adı ya da aşağılayıcı niteleme sayar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynak aktarımı görüş ayrılığı içerir: söz bir kişinin babasının adı veya yabancı kökenli ad sayılır; başka açıklamalarda seslenme ya da açıklama öğesi, put adı veya aşağılayıcı niteleme olarak yorumlanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "tartışmalı ad veya niteleme",
+        "applicability": "Rakip kaynak yorumlarının tek bir kimlikte birleşmediği adlandırma ve niteleme alanını ihtiyatla karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Özel ad, yabancı ifade, put adı ve aşağılayıcı niteleme arasındaki görüş ayrılığını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir babaya bağlanan ad; ayrıca put adı veya aşağılayıcı niteleme diye yorumlanan söz"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000886/B001",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal, yorumlardan yalnız birinde bir putun adı sayılan tartışmalı bir sözdür.",
+          "neighbor_only": "Komşu dal tapınma nesnesi yapılan heykel veya cismi doğrudan adlandırır.",
+          "gloss": "tapınılan heykel veya cisim",
+          "shared_zone": "Odak dalın aktarılan yorumlarından biri ile komşu dal put alanında buluşur.",
+          "distinction": "Odak dal nesnenin türünü değil olası özel adını ve rakip yorumları kaydeder; komşu dal ise tapınılan nesnenin kendisini tanımlar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; put dalı aktarılan yorumlardan biriyle doğrudan bağlantılıdır, diğer adaylar yalnız ses, dua, eğilme veya ayrı kök anlamları bakımından uzaktır.",
+      "branch_image_ar": "آزر العلم أو اللفظ الأعجمي",
+      "what_is_ar": "يدخل فيه آزر اسما أو لفظا أعجميا لأبي إبراهيم أو نداء له أو ذما أو اسما لصنم في الأقوال المنقولة",
+      "what_is_not_ar": "ليس من القوّة والإزار إذا جعل علما أعجميا",
+      "source_phrase_ar": "آزر اسم والد إبراهيم (ayn)؛ آزر اسم أعجمي (sihah)؛ آزر خفض بدلا من أبيه أو على النداء (tahdhib)؛ لم يكن بأبيه ولكن آزر اسم صنم (tahdhib)؛ قيل كان اسم أبيه تارخ فعرب فجعل آزر وقيل آزر معناه الضال (mufradat)",
+      "sources": [
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, güç ve destek çekirdeğinin yanında sırt ile bel bölgesi, bele sarılan giysi ve onun örtülü kullanımları, bitkinin dayanarak gelişmesi, köken, güçlendirilmesi istenen zayıflık, atta belirli beyazlık ve tartışmalı bir adlandırma gibi ayrışmış anlam alanlarına sahiptir.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 2,
+      "word_count": 2,
+      "ayah_count": 2,
+      "surah_count": 2
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "أَزْر",
+        "stem_ar": "أَزْرِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>azor|ROOT:Azr|M|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "آزَرَ",
+        "stem_ar": "ـَٔازَرَ",
+        "pos": "V",
+        "measure": "IV",
+        "morph_features": "STEM|POS:V|PERF|(IV)|LEM:A^zara|ROOT:Azr|3MS",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "20:31",
+        "surface_ar": "ٱشْدُدْ بِهِۦٓ أَزْرِى"
+      },
+      {
+        "ayah_ref": "48:29",
+        "surface_ar": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "20:31:3:1",
+        "qac_word_ref": "20:31:3",
+        "surah": 20,
+        "ayah": 31,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَزْرِ",
+        "stem_ar": "أَزْرِ",
+        "lemma_ar": "أَزْر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>azor|ROOT:Azr|M|ACC",
+        "ayah_ref": "20:31",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            7,
+            11
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "48:29:35:2",
+        "qac_word_ref": "48:29:35",
+        "surah": 48,
+        "ayah": 29,
+        "word_index": 35,
+        "morpheme_index": 2,
+        "surface_ar": "ـَٔازَرَ",
+        "stem_ar": "ـَٔازَرَ",
+        "lemma_ar": "آزَرَ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "IV",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|(IV)|LEM:A^zara|ROOT:Azr|3MS",
+        "ayah_ref": "48:29",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            154,
+            160
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

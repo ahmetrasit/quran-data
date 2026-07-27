@@ -1,0 +1,1780 @@
+{
+  "inputs_sha256": "f6351ae5878a65c509b257b9693833903da598db47e73c322b090b6b14a9bfa0",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000717",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000717/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi fiziksel hafiflik ve kararsızlığı ortak çekirdek olarak verir; rüzgarın bir şeyi eğip hareket ettirmesi, dizginin oynaması, hayvanın hafif ilerleyişi ve kumaşın gevşek dokusu bu çekirdeğin ayrı gerçekleşmeleridir.",
+        "boundary_note": "Anlam yalnızca verilen yapılarda geçerlidir; zihinsel yetersizlik, maldan uzaklaştırma ve çok içme bu dalın kapsamında değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Dal, yalnızca belirtilen söz öbeklerinde görülen fiziksel hafiflik ve kararsızlıkla sınırlıdır; yalın bir kök anlamı olarak genellenmez."
+      },
+      "concept_map": {
+        "definition": "Verilen söz öbeklerinde bir şeyin fiziksel hafiflik yüzünden kolayca eğilmesi, hareket etmesi, savrulması ya da kararsız olmasıdır. Aynı nitelik yürüyüşte çeviklik, dizginde oynaklık ve dokumada gevşeklik veya düşüklük olarak belirir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Fiziksel hafiflik, nesnenin kolay hareket etmesine veya kararsız biçimde oynamasına yol açar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Rüzgar, hafif bir şeyi eğebilir, hareket ettirebilir ve yerinden uçurabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Dizginin çok oynaması veya hayvanın yolda hafif ve çevik ilerlemesi aynı niteliğin hareket alanındaki görünümüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "specialization",
+            "statement": "Kumaşta bu nitelik, gevşek ve düşük nitelikli dokuma olarak değerlendirilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynakların ortak anlatımı, fiziksel hafifliği hareket ve kararsızlıkla ilişkilendirir; rüzgarın etkilediği nesne, oynak dizgin, hafif yürüyüş ve gevşek dokuma bu ilişkinin yapı bağımlı görünümleridir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "fiziksel hafiflikten doğan oynaklık",
+        "applicability": "Verilen rüzgar, dizgin, yürüyüş ve dokuma yapılarındaki ortak fiziksel niteliği karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hafiflik ile kolay hareket etme ve kararsızlık arasındaki bağı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "rüzgarın eğip savurması",
+          "usage_role": "contextual",
+          "applicability": "Rüzgarın hafif bir nesneyi eğdiği, hareket ettirdiği veya uçurduğu bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Rüzgarın hafif nesne üzerindeki hareket ettirici etkisini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "oynak ve hafif",
+          "usage_role": "contextual",
+          "applicability": "Dizginin kararsız hareketini veya hayvanın yoldaki hafif ve çevik ilerleyişini anlatır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Hafif hareket ile oynaklık niteliğini birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        },
+        {
+          "text": "gevşek ve kötü dokunmuş",
+          "usage_role": "contextual",
+          "applicability": "Hafifliği ve kararsız yapısı yüzünden düşük nitelikli sayılan kumaş için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Dokumanın gevşekliğini ve bundan doğan nitelik düşüklüğünü korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "rüzgarın bir şeyi eğip hareket ettirmesi ve hafifliğinden ötürü savurması"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çok oynayan veya hafif dizgin"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "gevşek ve kötü dokunmuş kumaş"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "devenin yolda hafif ve çevik ilerlemesi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000505/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Hafiflikten doğan hareket ve belirli rüzgar, dizgin, yürüyüş ya da dokuma yapıları bulunur.",
+          "neighbor_only": "Hareketin yön değiştirmesi ve genel yerinde duramama öne çıkar.",
+          "gloss": "yönü değişen kararsız hareket",
+          "shared_zone": "Her iki dal da hareketin kararsız veya düzensiz görünmesini içerir.",
+          "distinction": "Odak dalında kararsızlığın dayanağı fiziksel hafifliktir ve anlam belirli yapılara bağlıdır; komşu dal ise hareketin farklı yönlere kaymasını ve genel istikrarsızlığı anlatır."
+        },
+        {
+          "neighbor_ref": "root_000573/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Hafif nesnenin kolay hareket etmesi, oynak dizgin ve gevşek dokuma gibi kullanımlar vardır.",
+          "neighbor_only": "Korku, hastalık veya yumuşaklık nedeniyle titreme ve sarsılma vardır.",
+          "gloss": "titreme ve sarsılma",
+          "shared_zone": "İki dal da gözle görülür hareket ve oynaklık alanında buluşur.",
+          "distinction": "Odak dalı hafifliğe bağlı kolay hareketi ve kararsızlığı bildirir; komşu dalın çekirdeği ise bir varlığın titremesi veya sarsılmasıdır."
+        },
+        {
+          "neighbor_ref": "root_000717/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Fiziksel nesne, hareket, dizgin ve dokuma özellikleriyle sınırlı yapı bağımlı anlamlar vardır.",
+          "neighbor_only": "Akıl, sağduyu, yargı ve mal yönetimindeki eksiklik bulunur.",
+          "gloss": "akıl ve sağduyu eksikliği",
+          "shared_zone": "Hafiflik düşüncesi iki dal arasında fiziksel ve zihinsel bir bağ kurar.",
+          "distinction": "Odak dalındaki hafiflik fiziksel hareket ve yapı niteliğidir; komşu dalda ise kişinin zihinsel ve davranışsal yetersizliğini anlatan soyut bir değerlendirmeye dönüşür."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; fiziksel hareket veya hafiflikle doğrudan sınır paylaşan üç aday yayımlandı, yalnızca genel hareket, uzak benzetme ya da başka bir olay alanı sunan adaylar elendi.",
+      "branch_image_ar": "الخفة والاضطراب",
+      "what_is_ar": "يدخل فيه أصل الخفة والحركة والسخافة، وميل الريح بالشيء وتحريكها له واستخفافه، وخفة الزمام والسير، ورداءة النسج من جهة الخفة والاضطراب.",
+      "what_is_not_ar": "ليس نقص العقل إلا حين يستعمل في خفة النفس، وليس الخداع عن المال ولا كثرة الشرب.",
+      "source_phrase_ar": "أصل واحد يدل على خفة وسخافة (maqayis)؛ أصله الخفة والحركة (sihah)؛ تسفهت الريح الشجر أي مالت به (sihah)؛ تسفهت الرياح الشيء إذا حركته واستخفته فطيرته (tahdhib)؛ زمام سفيه كثير الاضطراب وثوب سفيه رديء النسج (mufradat)؛ ناقة سفيهة الزمام وسافهت الناقة الطريق إذا خفت في سيرها (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000717/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi dalı akıl ve sağduyu eksikliği, bilgisizlik, zayıf veya kararsız yargı ve malı iyi yönetememe çevresinde açıkça kurar. Kişinin kendisine yönelen özel ifade için birden çok açıklama verilmesi, ortak çekirdeği değil yalnızca o ifadenin yorumunu çeşitlendirir.",
+        "boundary_note": "Dal zihinsel ve davranışsal yetersizlikle sınırlıdır; fiziksel hafiflik, maldan hileyle uzaklaştırma ve aşırı içme anlamlarını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, durum ve kişi bildiren biçimlerin ortak zihinsel çekirdeğini korurken kişinin kendisine yönelen sınırlı ifadeyi ayrı bir kaynak çeşitlemesi olarak ele alır."
+      },
+      "concept_map": {
+        "definition": "Akıl, sağduyu ve dengeli yargı eksikliği yüzünden bilgisizce, düşüncesizce veya tutarsız davranma durumudur. Bu yetersizlik kişinin görüşünde, din veya dünya işlerine yaklaşımında ve malını yönetme becerisinde görülebilir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişide akıl ve sağduyu eksikliği, bilgisizlik ve düşüncesiz davranış olarak belirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Zayıf veya kararsız yargı, dünya ve din işlerinde yanlış değerlendirmeye yol açabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Malını iyi yönetememek, zihinsel ve davranışsal yetersizliğin özel bir görünümüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "source_variant",
+            "statement": "Kişinin kendisine yönelen özel ifade, kendini bilgisizce değerlendirme, kendi içinde akılsızlaşma veya kendini yıkıma sürükleme biçimlerinde açıklanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak çekirdek akıl ve sağduyu eksikliği, bilgisizlik, zayıf yargı ve kötü yönetimdir. Kişinin kendisine yönelen özel kullanım ise kendini bilmemek, kendi içinde akılsız olmak veya kendini yıkıma götürmek biçimlerinde farklı açıklanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "akıl, sağduyu ve yargı eksikliği",
+        "applicability": "Dalın kişideki zihinsel yetersizlik, bilgisizlik ve tutarsız değerlendirme çekirdeğini birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Akıl, sağduyu ve isabetli yargıdaki eksikliği birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "akılsızlık ve düşüncesizlik",
+          "usage_role": "general",
+          "applicability": "Kişinin akıl ve sağduyu eksikliğinin davranışına yansıdığı genel bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Zihinsel eksiklik ile düşüncesiz davranış arasındaki bağı korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "malını yönetemeyecek ölçüde yetersizlik",
+          "usage_role": "contextual",
+          "applicability": "Kişinin mali karar ve davranışlarında yeterli akıl ve sağduyu gösteremediği bağlamlara özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Zihinsel yetersizliğin mal yönetimindeki somut sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        },
+        {
+          "text": "kendini bilmezlik",
+          "usage_role": "contextual",
+          "applicability": "Kişinin kendisine yönelen özel ifadenin, kişinin kendisini tanımaması biçimindeki yorumunda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Özel ifadenin kendini tanımama yorumunu açıkça korur.",
+            "loses": "Kendi içinde akılsız olma ve kendini yıkıma sürükleme yorumlarını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "akıl ve sağduyu eksikliği, bilgisizlik ve yargı bozukluğu"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "akılsızlık ve sağduyusuzluk durumu"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "akılsız, bilgisiz veya görüşü zayıf kimse"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "aklı veya malını ve işlerini yönetme yeterliği eksik kimseler"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "akılsız ve sağduyusuz hale gelmek"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kendi içinde akılsız olmak, kendini bilmemek veya kendini yıkıma sürüklemek"
+        },
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "akılsızlık ve düşüncesiz taşkınlık"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001072/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Sağduyu karşıtlığı, bilgisizlik, tutarsız yargı ve malı yönetememe kapsamı vardır.",
+          "neighbor_only": "Görüş ve akıldaki eksiklik, kendine özgü bir kişi nitelemesiyle ve din eksikliğiyle bağlantılıdır.",
+          "gloss": "görüş ve akıl zayıflığı",
+          "shared_zone": "Her iki dal da kişinin akıl ve görüş bakımından yetersizliğini anlatır.",
+          "distinction": "Odak dalı sağduyu eksikliğinden mal yönetimine kadar daha geniş bir davranış ve değerlendirme alanı kurar; komşu dal ise görüş ve akıl zayıflığını daha dar bir kişi niteliğinde toplar."
+        },
+        {
+          "neighbor_ref": "root_000591/B006",
+          "relation_type": "antonym",
+          "boundary_match": "opposed",
+          "focus_only": "Akıl ve sağduyu eksikliği ile bundan doğan düşüncesiz davranış bulunur.",
+          "neighbor_only": "Aklın ve sağduyunun yerleşik, sağlam ve dengeli olması bulunur.",
+          "gloss": "akıl ve sağduyu sağlamlığı",
+          "shared_zone": "İki dal kişinin akıl ve sağduyu bakımından durumunu aynı eksende değerlendirir.",
+          "distinction": "Odak dalı akıl ve sağduyunun eksikliğini, komşu dal ise bunların kişide sağlam ve kararlı oluşunu bildirir."
+        },
+        {
+          "neighbor_ref": "root_000565/B002",
+          "relation_type": "polarity_pair",
+          "boundary_match": "opposed",
+          "focus_only": "Yanlış değerlendirme ve özellikle malı gereğince yönetememe vardır.",
+          "neighbor_only": "İşin doğru yönünü bulma ve davranışta yeterli olgunluk gösterme vardır.",
+          "gloss": "doğruyu bulup uygun davranma",
+          "shared_zone": "Her iki dal yargının davranış ve yönetim üzerindeki sonucunu değerlendirir.",
+          "distinction": "Odak dalı yetersiz yargının yanlış ve kötü yönetime açılmasını, komşu dal ise doğru değerlendirmeyle uygun davranışın ortaya çıkmasını anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; en yakın zihinsel yetersizlik komşusu ile aynı eksendeki iki karşıt kutup seçildi, yalnızca aynı kişi veya davranış alanını paylaşan uzak adaylar yayımlanmadı.",
+      "branch_image_ar": "خفة العقل ونقص الحلم",
+      "what_is_ar": "يدخل فيه السفه والسفاهة والسفيه والسفهاء، ونقص العقل والحلم، والجهل، واضطراب الرأي، وسوء سياسة المال، والسفه الدنيوي والديني والأخروي، وتعبير سفه نفسه في هذا الباب.",
+      "what_is_not_ar": "ليس مجرد خفة الجسم أو حركة الريح، ولا خصوص خداع المرء عن ماله، ولا كثرة الشرب.",
+      "source_phrase_ar": "السفه والسفاه والسفاهة نقيض الحلم وسفه الرجل صار سفيها (ayn)؛ السفه ضد الحلم وسفه فلان صار سفيها (sihah)؛ خفة النفس لنقصان العقل (mufradat)؛ السفيه الجاهل والضعيف الأحمق ولا تحسن سياسة مالها (tahdhib)؛ سفه نفسه (ayn;sihah;tahdhib;mufradat)؛ السفاء مهموز السفه والطيش (maqayis-crossref)",
+      "sources": [
+        "AY",
+        "SI",
+        "TA",
+        "MU",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000717/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, bir kişiyi malından uzaklaştırmak üzere aldatmayı, yönünü değiştirmeyi ve onu hafife alıp etkilemeyi birlikte verir. Bu nedenle dal genel bir aldatma değil, hedefi ve sonucu belirli bir maldan uzaklaştırma eylemidir.",
+        "boundary_note": "Anlam, kişiyi hileyle malından vazgeçirmeye bağlanan özel yapıyla sınırlıdır; genel akılsızlık veya her türlü aldatma değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnızca bir kişiyi malından hileyle uzaklaştıran belirtilmiş yapıya aittir ve yalın bir aldatma anlamına genişletilmez."
+      },
+      "concept_map": {
+        "definition": "Bir kişiyi aldatarak, yönünü başka yana çevirerek veya onu hafife alıp etkileyerek malından uzaklaştırmak ve o maldan vazgeçirmektir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Eyleyen, bir kişiyi aldatma yoluyla kendisine ait maldan uzaklaştırır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Aldatma, kişinin yönünü maldan başka yana çevirmeyi ve onu etkilenebilir görerek hafife almayı içerir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "core",
+            "statement": "Eylemin hedeflenen sonucu, kişinin malından vazgeçmesi veya onun üzerindeki tasarrufundan uzaklaşmasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, kişiyi aldatıp yönünü değiştirerek malından uzaklaştırma anlamında birleşir; hafife alma, kurbanı etkilemenin ve bu sonuca götürmenin bir parçası olarak açıklanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "birini hileyle malından vazgeçirme",
+        "applicability": "Aldatma aracını, mal hedefini ve kişinin maldan uzaklaşması sonucunu birlikte taşıyan özel yapıyı karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Aldatma eylemini, mal hedefini ve vazgeçirme sonucunu birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kandırıp malından uzaklaştırmak",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin aldatma yoluyla kendi malından veya onun üzerindeki tasarrufundan uzaklaştırıldığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Aldatma aracını ve kişiyi malından uzaklaştırma sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        },
+        {
+          "text": "aklını çelip malından vazgeçirmek",
+          "usage_role": "explanatory",
+          "applicability": "Kişinin yönünü değiştirip onu etkileyerek maldan vazgeçirme sürecini açıklayan bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yön değiştirtme, etkileme ve maldan vazgeçirme aşamalarını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birini kandırıp yönünü değiştirerek malından vazgeçirmek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000682/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Aldatılan kişinin kendi malından uzaklaştırılması zorunlu hedeftir.",
+          "neighbor_only": "Aldatma, yanılsama ve bir şeyi yönünden çevirme daha geniş bir etki alanına sahiptir.",
+          "gloss": "aldatma ve yönünden çevirme",
+          "shared_zone": "İki dal da aldatma yoluyla bir kişinin veya şeyin yönünü değiştirmeyi içerir.",
+          "distinction": "Odak dalı kişiyi özellikle kendi malından vazgeçirmeyle sınırlıdır; komşu dal ise aldatma ve yön değiştirtmenin daha genel, mal hedefi gerektirmeyen biçimlerini kapsar."
+        },
+        {
+          "neighbor_ref": "root_001127/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kurbanın maldan uzaklaştırılması ve mal üzerindeki tasarrufunun etkilenmesi vardır.",
+          "neighbor_only": "Aldatmanın kişinin arkasından ve dolaylı bir düzenle yürütülmesi öne çıkar.",
+          "gloss": "arkasından düzen kurarak aldatma",
+          "shared_zone": "Her iki dal bir kişiyi dolaylı yollarla aldatıp etkileme senaryosunu paylaşır.",
+          "distinction": "Odak dalında amaç kişiyi malından uzaklaştırmaktır; komşu dalda belirleyici özellik gizli ve dolaylı düzen kurmadır, mal sonucu zorunlu değildir."
+        },
+        {
+          "neighbor_ref": "root_000043/B004",
+          "relation_type": "thematic",
+          "boundary_match": "thematic_only",
+          "focus_only": "Kişiyi aldatarak kendi malından vazgeçirme süreci bulunur.",
+          "neighbor_only": "Malı alma, harcama, tüketme veya zayıf kişilerin malından yararlanma eylemi bulunur.",
+          "gloss": "malı alma veya tüketme",
+          "shared_zone": "İki dal, bir kişinin malıyla ilgili kayıp veya el değiştirme senaryosunda buluşabilir.",
+          "distinction": "Odak dalının çekirdeği maldan uzaklaştıran aldatmadır; komşu dalın çekirdeği ise malın alınması, harcanması veya tüketilmesidir ve aldatma gerektirmez."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel aldatma, gizli düzen ve mal kaybı alanlarındaki üç yararlı sınır seçildi, yalnızca teslim, geri alma veya genel karışma senaryosu paylaşan adaylar elendi.",
+      "branch_image_ar": "الإمالة بالخداع عن المال",
+      "what_is_ar": "يدخل فيه تسفهت فلانا عن ماله، أي خدعته عنه وملت به عنه واستخففته حتى صرفته.",
+      "what_is_not_ar": "ليس مجرد السفه في العقل، ولا نسبة الشخص إلى السفه، ولا حركة الريح.",
+      "source_phrase_ar": "تسفهت فلانا عن ماله إذا خدعته عنه (sihah;maqayis)؛ كأنك ملت به عنه واستخففته (maqayis)",
+      "sources": [
+        "MQ",
+        "SI"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000717/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi, birini akılsızlıkla niteleme ile kişiye kırıcı ve düşüncesiz söz yöneltmeyi destekler; ancak gerçeğe yönelen kullanım yalnızca onu akılsız saymak değil, gerçeği tanımayıp gerçek olarak görmemektir. Bu ayrım korunursa dalın çerçevesi kullanılabilir.",
+        "boundary_note": "Dal, değerlendirme ve sözlü karşılaşma biçimlerini ayrı tutar; kişinin kendiliğinden akılsızlaşması veya genel hakaret anlamı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Kişi, görüş ve gerçeğe yönelen sınırlı söz öbekleri ile birini akılsızlıkla niteleyen ya da karşılıklı kırıcı konuşmayı bildiren biçimler ayrı tutulur."
+      },
+      "concept_map": {
+        "definition": "Bir kişiyi, görüşü veya gerçeği akıl ve sağduyudan yoksun saymak; görüşü tutarsız bulmak ya da gerçeği gerçek olarak tanımamaktır. Buna bağlı sözlü kullanımda birine kırıcı ve düşüncesiz sözler söylemek veya onunla bu biçimde karşılıklı konuşmaktır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kişi veya şey, akıl ve sağduyu eksikliğiyle nitelenir ya da öyle değerlendirilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Görüşe yöneldiğinde onu bilgisizce oluşturulmuş ve tutarsız saymayı anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Gerçeğe yöneldiğinde, gerçeği bilmemeyi ve onu gerçek olarak tanımamayı anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "associated_use",
+            "statement": "Sözlü karşılaşmada birine hoşlanmayacağı kırıcı ve düşüncesiz sözler söylemeyi veya bu konuşmayı karşılıklı yürütmeyi anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak anlatım, kişi veya görüşü akıl ve sağduyu eksikliğiyle değerlendirme çekirdeğini; gerçeği tanımama ve birine kırıcı, düşüncesiz sözler yöneltme kullanımlarından ayırır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "akılsız sayma veya düşüncesiz sözle aşağılama",
+        "applicability": "Kişi, görüş ve gerçeğe yönelik olumsuz değerlendirmeyi ve buna bağlı sözlü karşılaşmayı birlikte temsil eder.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Akılsızlıkla niteleme ile kırıcı, düşüncesiz söz söyleme boyutlarını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "akılsızlıkla nitelemek",
+          "usage_role": "contextual",
+          "applicability": "Bir kişi veya görüş akıl ve sağduyudan yoksun sayıldığında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kişi veya görüşe yönelen akılsızlık değerlendirmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "gerçeği gerçek saymamak",
+          "usage_role": "contextual",
+          "applicability": "Bir kimsenin gerçeği bilmediği ve onu gerçek olarak tanımadığı bağlama özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Gerçeği bilmeme ve gerçek olarak tanımama sınırını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        },
+        {
+          "text": "kırıcı ve budalaca konuşmak",
+          "usage_role": "contextual",
+          "applicability": "Birine hoşlanmayacağı sözler söylendiğinde veya iki kişi bu tür sözleri karşılıklı kullandığında geçerlidir.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kırıcı ve düşüncesiz sözlü karşılaşma niteliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sağduyusunu veya görüşünü yetersiz ve tutarsız saymak"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "gerçeği bilmemek ve onu gerçek olarak görmemek"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "onu akılsızlıkla nitelemek"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "karşılıklı kırıcı ve budalaca konuşmak"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ona hoşlanmayacağı kırıcı sözler söylemek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000632/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Akılsızlıkla niteleme, gerçeği tanımama ve düşüncesiz söz alışverişi bulunur.",
+          "neighbor_only": "Kusur bulma, azarlama, küçümseme ve değerden düşürme daha geniş bir alan oluşturur.",
+          "gloss": "ayıplama ve küçümseme",
+          "shared_zone": "Her iki dal bir kişi veya şeyi olumsuz değerlendirip değersizleştirebilir.",
+          "distinction": "Odak dalı olumsuz değerlendirmeyi akıl ve sağduyu eksikliğine bağlar ve özel sözlü biçimleri içerir; komşu dal ise kusur bulma ve küçümsemeyi nedeninden bağımsız kapsar."
+        },
+        {
+          "neighbor_ref": "root_000219/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Birini akılsız sayma veya karşılıklı düşüncesiz konuşma boyutu vardır.",
+          "neighbor_only": "Kişinin yüzüne sert veya hoş olmayan söz söyleme ve fiziksel olarak alnına vurma boyutu vardır.",
+          "gloss": "yüzüne sert söz söyleme",
+          "shared_zone": "İki dal da bir kişiye doğrudan hoş olmayan söz yöneltme bağlamında buluşur.",
+          "distinction": "Odak dalında sözün niteliği akılsızlık ve düşüncesizlikle bağlantılıdır; komşu dal doğrudan ve sert yüzleştirmeyi anlatır, ayrıca fiziksel vurma anlamı taşıyabilir."
+        },
+        {
+          "neighbor_ref": "root_001035/B011",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kişi veya görüşü akılsız sayma ile tek yönlü kırıcı söz söyleme de kapsamdadır.",
+          "neighbor_only": "Karşılıklı övünme, sövme, hicvetme ve lanetleşme biçimindeki çekişme öne çıkar.",
+          "gloss": "karşılıklı sövüşme ve çekişme",
+          "shared_zone": "Her iki dal karşılıklı incitici konuşma ve sözlü çatışma içerebilir.",
+          "distinction": "Odak dalı akılsızlık değerlendirmesinden doğan konuşmayı kapsar; komşu dalın çekirdeği karşılıklı çekişme, sövme ve hicvetmedir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; küçümseme, doğrudan sert söz ve karşılıklı sövüşmeyle en açıklayıcı üç sınır yayımlandı, yalnızca genel konuşma, tehdit veya ilgisiz değerlendirme sunan adaylar elendi.",
+      "branch_image_ar": "تسفيه الشيء ومشافهة السفيه",
+      "what_is_ar": "يدخل فيه تسفيه الشخص أو الحق أو الرأي بمعنى نسبته إلى السفه أو جهله، وسفه رأيه، وتسفه عليه، وسافهه مسافهة.",
+      "what_is_not_ar": "ليس صيرورة المرء سفيها في نفسه، ولا خداعه عن ماله، ولا كثرة الشرب من إناء.",
+      "source_phrase_ar": "سفه حلمه ورأيه (ayn)؛ سفهه تسفيها نسبه إلى السفه وسافهه مسافهة (sihah)؛ تسفهت عليه إذا أسمعته (sihah)؛ أن تسفه الحق وتغمط الناس معناه أن تجهل الحق فلا تراه حقا (tahdhib)؛ سفه فلان رأيه إذا جهله وكان رأيه مضطربا (tahdhib)",
+      "sources": [
+        "AY",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000717/B005",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi çok içip yine de kanmamayı açıkça destekler; ayrıca içecekte aşırıya kaçma ve bir kaptan aralıklarla içmeyi sürdürme biçimlerini de verir. Bu nedenle dal yalnızca susuzluğun dinmemesiyle sınırlandırılmamalı, aşırı veya yinelemeli içme biçimleri ayrı tutulmalıdır.",
+        "boundary_note": "Çekirdek çok, aşırı veya yineleyerek içmedir; kanmama bazı yapılarda zorunlu sonuçken kaptan aralıklarla içme yapısında açıkça şart değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Durum bildiren biçim, su veya içecekle kurulan söz öbekleri ve ettirgen kullanım ayrı tutulur; kanmama koşulu bütün yapılara genellenmez."
+      },
+      "concept_map": {
+        "definition": "Suyu veya başka bir içeceği çok ya da aşırı içmek, kimi kullanımlarda buna rağmen susuzluğu dinmemek veya kanmamaktır. Özel kap yapısında, kaptan saatler boyunca aralıklarla içmeyi sürdürmeyi de anlatır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişi suyu veya başka bir içeceği olağandan çok ya da aşırı miktarda içer.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bazı yapılarda çok içmeye karşın susuzluk dinmez ve kişi kanmış hale gelmez.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Kapla kurulan özel yapıda kişi kaptan saatler boyunca aralıklarla içmeyi sürdürür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "extension",
+            "statement": "Ettirgen kullanım, bir kimseyi çok içtiği halde kanmaz duruma getirmeyi anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar çok içme, içecekte aşırılık ve çok içtiği halde kanmama anlamlarını birlikte verir. Kapla kurulan özel yapı, aynı içme olayını kaptan saatler boyunca aralıklarla sürdürme biçiminde ayrıntılandırır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "çok ve yineleyerek içip kanmama",
+        "applicability": "Dalın aşırı içme çekirdeğini, yinelemeli sürecini ve açıkça bildirilen kanmama sonucunu birlikte temsil eder.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Çok içme, içmeyi sürdürme ve kanmama bileşenlerini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "çok içip yine de kanmamak",
+          "usage_role": "contextual",
+          "applicability": "Çok su veya içecek tüketilmesine rağmen susuzluğun dinmediği yapılarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yüksek tüketimi ve bunun ardından kanmama sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "içecekte aşırıya kaçmak",
+          "usage_role": "contextual",
+          "applicability": "İçilen miktarın aşırı olduğu, fakat kanmama sonucunun ayrıca belirtilmediği bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İçeceği olağandan fazla tüketme ve aşırılık niteliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "kaptan aralıklarla içmeyi sürdürmek",
+          "usage_role": "contextual",
+          "applicability": "Bir tulum veya büyük kaptan saatler boyunca ara ara içme biçimini anlatan özel yapıda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kapla kurulan yinelemeli ve zamana yayılan içme sürecini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        },
+        {
+          "text": "onu çok içip kanmaz hale getirmek",
+          "usage_role": "explanatory",
+          "applicability": "Bir kimsenin çok içmesine rağmen kanmaz duruma getirildiğini bildiren ettirgen kullanım içindir.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Ettirgenliği, çok içmeyi ve kanmama sonucunu birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002",
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çok su içip yine de kanmama"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çok su veya içecek içmek ama susuzluğu dinmemek"
+        },
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "içecekte aşırıya kaçmak veya kaptan saatler boyunca aralıklarla içmek"
+        },
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "onu çok içtiği halde kanmaz duruma getirmek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000615/B001",
+          "relation_type": "polarity_pair",
+          "boundary_match": "opposed",
+          "focus_only": "Çok veya aşırı içmeye rağmen kanmama ve içmeyi sürdürme bulunur.",
+          "neighbor_only": "İçmenin susuzluğu gidermesi ve kişinin kanmış duruma ulaşması bulunur.",
+          "gloss": "susuzluğun giderilip kanma",
+          "shared_zone": "İki dal içme eyleminin susuzluk üzerindeki sonucunu aynı eksende değerlendirir.",
+          "distinction": "Odak dalında çok içmeye rağmen kanma gerçekleşmez veya içme sürer; komşu dalda içme susuzluğu giderir ve kanma durumuna ulaştırır."
+        },
+        {
+          "neighbor_ref": "root_001105/B009",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Çok veya aşırı miktarda içme ve bazen uzun süre yineleme vardır.",
+          "neighbor_only": "Küçük kaptaki az miktar su ve kanmaya yetmeyen sınırlı içiş vardır.",
+          "gloss": "az içip kanmama",
+          "shared_zone": "Her iki dalda içme, tam kanma sonucuna ulaşmayabilir.",
+          "distinction": "Odak dalında kanmamanın yanında çokluk, aşırılık veya yineleme belirleyicidir; komşu dalda ise az miktar ve küçük kap öne çıkar."
+        },
+        {
+          "neighbor_ref": "root_001274/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Aşırı içme, kanmama veya aynı kaptan aralıklarla içmeyi sürdürme vardır.",
+          "neighbor_only": "Birden çok sulayıcının dolu kovaya eğilip içindeki suyu içmesi biçimindeki özel olay vardır.",
+          "gloss": "dolu kovadan birlikte içme",
+          "shared_zone": "İki dal bir kaptaki suyu doğrudan ve devamlı biçimde içme sahnesini paylaşabilir.",
+          "distinction": "Odak dalı miktarın aşırılığına, kanmamaya veya zamana yayılan yinelemeye dayanır; komşu dal belirli kişilerin dolu kovadan içmesiyle sınırlıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kanma karşıtı, az içip kanmama ve kaptan içme sınırlarını açıklayan üç aday seçildi, yalnızca genel susuzluk, yiyecek tüketimi veya belirli içecek türü paylaşan adaylar elendi.",
+      "branch_image_ar": "الإكثار من الشرب بلا ري",
+      "what_is_ar": "يدخل فيه سفه الماء أو الشراب إذا أكثر منه ولم يرو، وسافه الشراب أو الوطب أو الدن إذا أسرف فيه أو قاعده يشرب منه ساعة بعد ساعة.",
+      "what_is_not_ar": "ليس خفة العقل ولا خداع المال ولا نسبة الشيء إلى السفه.",
+      "source_phrase_ar": "السفة أن يكثر الإنسان من شرب الماء فلا يروى (maqayis)؛ سفهت الشراب إذا أكثرت منه فلم ترو (sihah)؛ سفهت الماء إذا أكثرت منه ولم ترو (tahdhib)؛ سافهت الوطب أو الدن إذا قاعدته فشربت منه ساعة بعد ساعة (maqayis;sihah)؛ سافهت الشراب إذا أسرفت فيه (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Anlam alanı fiziksel hafiflik ve kararsızlıktan akıl ve sağduyu eksikliğine uzanır; ayrıca kişiyi hileyle malından uzaklaştırma, birini ya da bir düşünceyi akılsız sayma ve çok içtiği halde kanmama biçiminde ayrışan dallar içerir.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 11,
+      "word_count": 11,
+      "ayah_count": 10,
+      "surah_count": 5
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "سَفِيه",
+        "stem_ar": "سُّفَهَآءُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|MP|NOM",
+        "occurrence_count": 4
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "سَفِهَ",
+        "stem_ar": "سَفِهَ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:safiha|ROOT:sfh|3MS",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "سَفِيه",
+        "stem_ar": "سَفِيهًا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|M|INDEF|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "سَفِيه",
+        "stem_ar": "سُّفَهَآءَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|MP|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "سَفَه",
+        "stem_ar": "سَفَهًۢا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safah|ROOT:sfh|M|INDEF|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F006",
+        "lemma_ar": "سَفَاهَة",
+        "stem_ar": "سَفَاهَةٍ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safaAhap|ROOT:sfh|F|INDEF|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F007",
+        "lemma_ar": "سَفَاهَة",
+        "stem_ar": "سَفَاهَةٌ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safaAhap|ROOT:sfh|F|INDEF|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F008",
+        "lemma_ar": "سَفِيه",
+        "stem_ar": "سَفِيهُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|M|NOM",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:13",
+        "surface_ar": "وَإِذَا قِيلَ لَهُمْ ءَامِنُوا۟ كَمَآ ءَامَنَ ٱلنَّاسُ قَالُوٓا۟ أَنُؤْمِنُ كَمَآ ءَامَنَ ٱلسُّفَهَآءُ أَلَآ إِنَّهُمْ هُمُ ٱلسُّفَهَآءُ وَلَٰكِن لَّا يَعْلَمُونَ"
+      },
+      {
+        "ayah_ref": "2:130",
+        "surface_ar": "وَمَن يَرْغَبُ عَن مِّلَّةِ إِبْرَٰهِۦمَ إِلَّا مَن سَفِهَ نَفْسَهُۥ وَلَقَدِ ٱصْطَفَيْنَٰهُ فِى ٱلدُّنْيَا وَإِنَّهُۥ فِى ٱلْءَاخِرَةِ لَمِنَ ٱلصَّٰلِحِينَ"
+      },
+      {
+        "ayah_ref": "2:142",
+        "surface_ar": "سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمْ عَن قِبْلَتِهِمُ ٱلَّتِى كَانُوا۟ عَلَيْهَا قُل لِّلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ"
+      },
+      {
+        "ayah_ref": "2:282",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍ مُّسَمًّى فَٱكْتُبُوهُ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًٔا فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةً تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ وَلَا يُضَآرَّ كَاتِبٌ وَلَا شَهِيدٌ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ وَٱتَّقُوا۟ ٱللَّهَ وَيُعَلِّمُكُمُ ٱللَّهُ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "4:5",
+        "surface_ar": "وَلَا تُؤْتُوا۟ ٱلسُّفَهَآءَ أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَٰمًا وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا۟ لَهُمْ قَوْلًا مَّعْرُوفًا"
+      },
+      {
+        "ayah_ref": "6:140",
+        "surface_ar": "قَدْ خَسِرَ ٱلَّذِينَ قَتَلُوٓا۟ أَوْلَٰدَهُمْ سَفَهًۢا بِغَيْرِ عِلْمٍ وَحَرَّمُوا۟ مَا رَزَقَهُمُ ٱللَّهُ ٱفْتِرَآءً عَلَى ٱللَّهِ قَدْ ضَلُّوا۟ وَمَا كَانُوا۟ مُهْتَدِينَ"
+      },
+      {
+        "ayah_ref": "7:66",
+        "surface_ar": "قَالَ ٱلْمَلَأُ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦٓ إِنَّا لَنَرَىٰكَ فِى سَفَاهَةٍ وَإِنَّا لَنَظُنُّكَ مِنَ ٱلْكَٰذِبِينَ"
+      },
+      {
+        "ayah_ref": "7:67",
+        "surface_ar": "قَالَ يَٰقَوْمِ لَيْسَ بِى سَفَاهَةٌ وَلَٰكِنِّى رَسُولٌ مِّن رَّبِّ ٱلْعَٰلَمِينَ"
+      },
+      {
+        "ayah_ref": "7:155",
+        "surface_ar": "وَٱخْتَارَ مُوسَىٰ قَوْمَهُۥ سَبْعِينَ رَجُلًا لِّمِيقَٰتِنَا فَلَمَّآ أَخَذَتْهُمُ ٱلرَّجْفَةُ قَالَ رَبِّ لَوْ شِئْتَ أَهْلَكْتَهُم مِّن قَبْلُ وَإِيَّٰىَ أَتُهْلِكُنَا بِمَا فَعَلَ ٱلسُّفَهَآءُ مِنَّآ إِنْ هِىَ إِلَّا فِتْنَتُكَ تُضِلُّ بِهَا مَن تَشَآءُ وَتَهْدِى مَن تَشَآءُ أَنتَ وَلِيُّنَا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلْغَٰفِرِينَ"
+      },
+      {
+        "ayah_ref": "72:4",
+        "surface_ar": "وَأَنَّهُۥ كَانَ يَقُولُ سَفِيهُنَا عَلَى ٱللَّهِ شَطَطًا"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:13:12:2",
+        "qac_word_ref": "2:13:12",
+        "surah": 2,
+        "ayah": 13,
+        "word_index": 12,
+        "morpheme_index": 2,
+        "surface_ar": "سُّفَهَآءُ",
+        "stem_ar": "سُّفَهَآءُ",
+        "lemma_ar": "سَفِيه",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|MP|NOM",
+        "ayah_ref": "2:13",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:013:noun:16",
+          "attachment_word_unit_id": "q:2:13:16",
+          "qac_char_span": [
+            45,
+            52
+          ],
+          "attachment_char_spans": [
+            [
+              47,
+              52
+            ]
+          ],
+          "source_grammar": "definite qualitative plural adjective, nominative subject of āmana",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:013:pass1:attach:a7",
+              "relation": "subject",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:13:15",
+              "other_surface": "آمَنَ",
+              "other_root": "أ م ن",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "agreement;word_order"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "2:13:16:2",
+        "qac_word_ref": "2:13:16",
+        "surah": 2,
+        "ayah": 13,
+        "word_index": 16,
+        "morpheme_index": 2,
+        "surface_ar": "سُّفَهَآءُ",
+        "stem_ar": "سُّفَهَآءُ",
+        "lemma_ar": "سَفِيه",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|MP|NOM",
+        "ayah_ref": "2:13",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:013:noun:20",
+          "attachment_word_unit_id": "q:2:13:20",
+          "qac_char_span": [
+            61,
+            68
+          ],
+          "attachment_char_spans": [
+            [
+              63,
+              68
+            ]
+          ],
+          "source_grammar": "definite qualitative plural adjective, predicate of inna",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:013:pass1:attach:a10",
+              "relation": "predication",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:13:18",
+              "other_surface": "إِنَّهُمْ",
+              "other_root": "",
+              "other_form_tag": "ANNUL_PART",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "local_syntax;agreement"
+            },
+            {
+              "attachment_id": "ae:v3:s002:013:pass1:attach:a11",
+              "relation": "conjoined",
+              "focus_role": "head",
+              "other_unit_id": "q:2:13:24",
+              "other_surface": "يَعْلَمُونَ",
+              "other_root": "ع ل م",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "2:130:8:1",
+        "qac_word_ref": "2:130:8",
+        "surah": 2,
+        "ayah": 130,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "سَفِهَ",
+        "stem_ar": "سَفِهَ",
+        "lemma_ar": "سَفِهَ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:safiha|ROOT:sfh|3MS",
+        "ayah_ref": "2:130",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:130:pass1:frame:v2",
+          "attachment_word_unit_id": "q:2:130:9",
+          "qac_char_span": [
+            24,
+            27
+          ],
+          "attachment_char_spans": [
+            [
+              24,
+              27
+            ]
+          ],
+          "source_grammar": "perfect verb Form I, 3rd person masculine singular; transitive here with nafsahū as direct object",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:130:pass1:attach:a6",
+              "relation": "direct_object",
+              "focus_role": "head",
+              "other_unit_id": "q:2:130:10",
+              "other_surface": "نَفْسَهُ",
+              "other_root": "ن ف س",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s002:130:pass1:attach:a5",
+              "relation": "subject",
+              "focus_role": "head",
+              "other_unit_id": "q:2:130:8",
+              "other_surface": "مَنْ",
+              "other_root": "م ن ن",
+              "other_form_tag": "REL_PRON",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "word_order;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "2:142:2:2",
+        "qac_word_ref": "2:142:2",
+        "surah": 2,
+        "ayah": 142,
+        "word_index": 2,
+        "morpheme_index": 2,
+        "surface_ar": "سُّفَهَآءُ",
+        "stem_ar": "سُّفَهَآءُ",
+        "lemma_ar": "سَفِيه",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|MP|NOM",
+        "ayah_ref": "2:142",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:142:noun:2",
+          "attachment_word_unit_id": "q:2:142:2",
+          "qac_char_span": [
+            5,
+            12
+          ],
+          "attachment_char_spans": [
+            [
+              7,
+              12
+            ]
+          ],
+          "source_grammar": "broken plural (fuʿalāʾ pattern), definite with al-, nominative (subject of sa-yaqūlu)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:142:pass1:attach:a1",
+              "relation": "subject",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:142:1",
+              "other_surface": "سَيَقُولُ",
+              "other_root": "ق و ل",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "word_order;agreement"
+            },
+            {
+              "attachment_id": "ae:v3:s002:142:pass1:attach:a2",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:2:142:4",
+              "other_surface": "النَّاسِ",
+              "other_root": "أ ن س",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "مِن",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "2:282:40:1",
+        "qac_word_ref": "2:282:40",
+        "surah": 2,
+        "ayah": 282,
+        "word_index": 40,
+        "morpheme_index": 1,
+        "surface_ar": "سَفِيهًا",
+        "stem_ar": "سَفِيهًا",
+        "lemma_ar": "سَفِيه",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|M|INDEF|ACC",
+        "ayah_ref": "2:282",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:282:noun:56",
+          "attachment_word_unit_id": "q:2:282:56",
+          "qac_char_span": [
+            165,
+            170
+          ],
+          "attachment_char_spans": [
+            [
+              165,
+              169
+            ],
+            [
+              165,
+              170
+            ]
+          ],
+          "source_grammar": "adjective, accusative (predicate of kāna), indefinite",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:282:pass1:attach:a23",
+              "relation": "kana_predicate",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:282:52",
+              "other_surface": "كَانَ",
+              "other_root": "ك و ن",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "local_syntax;case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s002:282:pass1:attach:a24",
+              "relation": "conjoined",
+              "focus_role": "head",
+              "other_unit_id": "q:2:282:58",
+              "other_surface": "ضَعِيفَاً",
+              "other_root": "ض ع ف",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "4:5:3:2",
+        "qac_word_ref": "4:5:3",
+        "surah": 4,
+        "ayah": 5,
+        "word_index": 3,
+        "morpheme_index": 2,
+        "surface_ar": "سُّفَهَآءَ",
+        "stem_ar": "سُّفَهَآءَ",
+        "lemma_ar": "سَفِيه",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|MP|ACC",
+        "ayah_ref": "4:5",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s004:005:noun:4",
+          "attachment_word_unit_id": "q:4:5:4",
+          "qac_char_span": [
+            8,
+            15
+          ],
+          "attachment_char_spans": [
+            [
+              10,
+              15
+            ]
+          ],
+          "source_grammar": "noun, adjective qualitative, broken plural (sufahāʾ of safīh), accusative, definite",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s004:005:pass1:attach:a1",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:4:5:3",
+              "other_surface": "تُؤْتُوا",
+              "other_root": "أ ت ي",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "6:140:6:1",
+        "qac_word_ref": "6:140:6",
+        "surah": 6,
+        "ayah": 140,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَهًۢا",
+        "stem_ar": "سَفَهًۢا",
+        "lemma_ar": "سَفَه",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safah|ROOT:sfh|M|INDEF|ACC",
+        "ayah_ref": "6:140",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s006:140:noun:6",
+          "attachment_word_unit_id": "q:6:140:6",
+          "qac_char_span": [
+            22,
+            26
+          ],
+          "attachment_char_spans": [
+            [
+              22,
+              25
+            ],
+            [
+              22,
+              26
+            ]
+          ],
+          "source_grammar": "verbal noun (maṣdar), accusative (adverbial of cause/manner), indefinite",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s006:140:pass1:attach:a3",
+              "relation": "adverbial",
+              "focus_role": "dependent",
+              "other_unit_id": "q:6:140:4",
+              "other_surface": "قَتَلُوا",
+              "other_root": "ق ت ل",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "medium",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "7:66:10:1",
+        "qac_word_ref": "7:66:10",
+        "surah": 7,
+        "ayah": 66,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَاهَةٍ",
+        "stem_ar": "سَفَاهَةٍ",
+        "lemma_ar": "سَفَاهَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safaAhap|ROOT:sfh|F|INDEF|GEN",
+        "ayah_ref": "7:66",
+        "form_id": "F006",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s007:066:noun:11",
+          "attachment_word_unit_id": "q:7:66:11",
+          "qac_char_span": [
+            36,
+            41
+          ],
+          "attachment_char_spans": [
+            [
+              36,
+              40
+            ],
+            [
+              36,
+              41
+            ]
+          ],
+          "source_grammar": "GERUND: indefinite genitive after fī, tanwīn indicating non-specific foolishness",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s007:066:pass1:attach:a8",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:7:66:9",
+              "other_surface": "لَنَرَاكَ",
+              "other_root": "ر أ ي",
+              "other_form_tag": "IV",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "7:67:5:1",
+        "qac_word_ref": "7:67:5",
+        "surah": 7,
+        "ayah": 67,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَاهَةٌ",
+        "stem_ar": "سَفَاهَةٌ",
+        "lemma_ar": "سَفَاهَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safaAhap|ROOT:sfh|F|INDEF|NOM",
+        "ayah_ref": "7:67",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s007:067:noun:6",
+          "attachment_word_unit_id": "q:7:67:6",
+          "qac_char_span": [
+            13,
+            18
+          ],
+          "attachment_char_spans": [
+            [
+              13,
+              17
+            ],
+            [
+              13,
+              18
+            ]
+          ],
+          "source_grammar": "GERUND nominative feminine singular indefinite — verbal noun functioning as subject (ism laysa)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s007:067:pass1:attach:a4",
+              "relation": "subject",
+              "focus_role": "dependent",
+              "other_unit_id": "q:7:67:4",
+              "other_surface": "لَيْسَ",
+              "other_root": "ل ي س",
+              "other_form_tag": "UNINFLECTED_VERB",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "7:155:21:2",
+        "qac_word_ref": "7:155:21",
+        "surah": 7,
+        "ayah": 155,
+        "word_index": 21,
+        "morpheme_index": 2,
+        "surface_ar": "سُّفَهَآءُ",
+        "stem_ar": "سُّفَهَآءُ",
+        "lemma_ar": "سَفِيه",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|MP|NOM",
+        "ayah_ref": "7:155",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s007:155:noun:26",
+          "attachment_word_unit_id": "q:7:155:26",
+          "qac_char_span": [
+            89,
+            96
+          ],
+          "attachment_char_spans": [
+            [
+              91,
+              96
+            ]
+          ],
+          "source_grammar": "broken plural adjective (fuʿalāʾ pattern), definite (al-), nominative (subject of faʿala)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s007:155:pass1:attach:a16",
+              "relation": "subject",
+              "focus_role": "dependent",
+              "other_unit_id": "q:7:155:25",
+              "other_surface": "فَعَلَ",
+              "other_root": "ف ع ل",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "word_order;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s007:155:pass1:attach:a17",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:7:155:27",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "مِن",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "72:4:4:1",
+        "qac_word_ref": "72:4:4",
+        "surah": 72,
+        "ayah": 4,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "سَفِيهُ",
+        "stem_ar": "سَفِيهُ",
+        "lemma_ar": "سَفِيه",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safiyh|ROOT:sfh|M|NOM",
+        "ayah_ref": "72:4",
+        "form_id": "F008",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s072:004:noun:5",
+          "attachment_word_unit_id": "q:72:4:5",
+          "qac_char_span": [
+            12,
+            18
+          ],
+          "attachment_char_spans": [
+            [
+              12,
+              16
+            ],
+            [
+              12,
+              18
+            ]
+          ],
+          "source_grammar": "qualitative adjective/noun, nominative subject of yaqūlu, with attached 1cp possessive pronoun",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s072:004:pass1:attach:a4",
+              "relation": "subject",
+              "focus_role": "dependent",
+              "other_unit_id": "q:72:4:4",
+              "other_surface": "يَقُولُ",
+              "other_root": "ق و ل",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "word_order;agreement"
+            },
+            {
+              "attachment_id": "ae:v3:s072:004:pass1:attach:a7",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:72:4:5",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;local_syntax"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

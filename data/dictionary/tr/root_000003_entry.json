@@ -1,0 +1,1110 @@
+{
+  "inputs_sha256": "7bc356908dffd0c462e4dd44f8b6c3671d6b705151c0e2d2079b6a8f436710f8",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000003",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000003/B001",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesinin ortak çekirdeği hayvanların otladığı veya yediği otlak ve bitki örtüsüdür; bir kaynak anlatımı ise kapsamı yeryüzünde yetişen her şeye kadar genişletir.",
+        "boundary_note": "Yeryüzünde yetişen her şeyi kapsayan geniş anlatım kaynakla sınırlı bir varyanttır; ebeveyn anlamı bu dalın dışında kalır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın biçimin otlak ve yemlik bitki anlamıyla sınırlıdır; başka yapılara bağlı anlamlar buraya taşınmaz."
+      },
+      "concept_map": {
+        "definition": "Hayvanların otladığı ya da yediği otlak, ot ve yemlik bitki örtüsüdür. Otlatmaya ve biçilmeye hazır bir mera da bu kapsamdadır. Bir kaynak anlatımında kapsam, yeryüzünde yetişen her şeye kadar genişletilir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Hayvanların otladığı veya yem olarak tükettiği otlak, ot ve bitki örtüsünü belirtir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Otlatmaya ve biçilmeye elverişli duruma gelmiş mera bu genel kapsamın belirgin bir gerçekleşmesidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Bir kaynak anlatımı, kapsamı yem ve otlatma işleviyle sınırlamadan yeryüzünde yetişen her şeye kadar genişletir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar anlamı otlak ve hayvanların yediği ot çevresinde ortaklaştırır; bir anlatım kapsamı yeryüzünde yetişen her şeye kadar genişletirken başka bir anlatım otlatmaya ve biçmeye hazır merayı belirtir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "otlak ve yemlik bitki örtüsü",
+        "applicability": "Hayvanların otladığı veya yediği bitkiler ile bunların oluşturduğu hazır mera birlikte kastedildiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Otlak alanını, yemlik bitki örtüsünü ve hayvanların bunlardan yararlanmasını birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "hayvan yemi olan ot",
+          "usage_role": "contextual",
+          "applicability": "Bağlam bir alanı değil, hayvanların yediği bitkiyi öne çıkardığında doğal bir karşılıktır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Hayvanların tükettiği yemlik bitki özelliğini korur.",
+            "loses": "Otlak alanı ile otlatmaya ve biçilmeye hazır mera boyutunu dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "otlatmaya hazır mera",
+          "usage_role": "contextual",
+          "applicability": "Bağlam özellikle hayvanların otlatılacağı hazır alanı anlattığında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Hazır otlak ve mera özelliğini açık biçimde korur.",
+            "loses": "Alan dışında tek tek yemlik bitkileri kapsayan daha geniş kullanımı karşılamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "otlak, hayvanların yediği ot ve yemlik bitki örtüsü"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000574/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yalın olarak hayvanların yediği bütün yemlik bitki örtüsünü de adlandırabilir.",
+          "neighbor_only": "Hayvanın otlama eylemini ayrıca doğrudan anlatabilir.",
+          "gloss": "otlama, otlak ve ot",
+          "shared_zone": "Her iki dal hayvanların otladığı alanı ve tükettiği otu kapsar.",
+          "distinction": "Odak dalın çekirdeği otlak ile yemlik bitki örtüsüdür; komşu dal ise bunlara ek olarak hayvanın otlama eylemini de anlamın merkezine alır."
+        },
+        {
+          "neighbor_ref": "root_001317/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bitki örtüsünü hayvan yemi ve otlatma işleviyle sınırlar.",
+          "neighbor_only": "Otla kaplanmış araziyi ve ot bitmiş yeri yem işlevinden bağımsız biçimde de kapsar.",
+          "gloss": "ot ve otlu arazi",
+          "shared_zone": "İki dal da ot ile otun yetiştiği araziyi adlandırabilir.",
+          "distinction": "Odak dalda hayvanların yemesi ve otlaması kurucu sınırdır; komşu dalda ise ot ve otlu arazi kendi başına daha geniş bir adlandırma oluşturur."
+        },
+        {
+          "neighbor_ref": "root_001118/B002",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Bitkinin hayvan yemi ve otlak oluşunu belirtir.",
+          "neighbor_only": "Bitkinin yağmurla ortaya çıkmasını kurucu özellik yapar.",
+          "gloss": "yağmurla çıkan bitki",
+          "shared_zone": "Her iki dal doğal olarak yetişen ot ve bitki örtüsü alanındadır.",
+          "distinction": "Odak dal kullanım işlevine, komşu dal ise bitkinin yağmurla ortaya çıkış nedenine göre sınırlandırılır."
+        }
+      ],
+      "neighbor_coverage_note": "Sunulan komşular arasından otlak, ot ve yemlik bitki sınırını en açık biçimde karşılaştıran üç aday seçildi; diğerleri daha uzak örnekler veya aynı kökün ayrı dallarıdır.",
+      "branch_image_ar": "المرعى والكلأ",
+      "what_is_ar": "الأب المرعى والكلأ وما تأكله الأنعام وما ينبت على وجه الأرض للأكل والرعي",
+      "what_is_not_ar": "ليس الفاكهة التي يأكلها الناس؛ وليس الأب الوالد",
+      "source_phrase_ar": "الأب المرعى (maqayis;jamhara;sihah)؛ الأب جميع الكلأ الذي تعتلفه الماشية (maqayis;tahdhib)؛ الأب ما تأكله الأنعام وكل شيء ينبت على وجه الأرض (tahdhib)؛ الأب المرعى المتهيئ للرعي والجز (mufradat)",
+      "sources": [
+        "MQ",
+        "JA",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000003/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bir şeyi amaçlama, ona niyet etme veya onun için hazırlanma anlamlarını alternatif biçimlerde verir; yola çıkma ve yolculuk hazırlığı bu anlam alanının özel bağlamıdır.",
+        "boundary_note": "Yurda yönelme ve ele kılıca götürme, bu genel dalın yerine geçmeyen ayrı ve yapıya bağlı kullanımlardır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın biçimdeki amaçlama ve hazırlanma çekirdeğini verir; belirli hedef ve nesne yapıları bağımsız dallardan içeri alınmaz."
+      },
+      "concept_map": {
+        "definition": "Bir şeyi amaçlamak, onu yapmaya niyet etmek veya onun için hazırlanmak demektir. Yola çıkmaya hazırlanmak, kimi anlatımda buna karar verip gerekli donanımı tamamlamak bunun özel bir bağlamıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir şeyi amaçlama, ona niyet etme veya o şey için hazırlanma anlamlarından birini belirtir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Yola çıkmaya hazırlanma, kimi anlatımda buna karar verme ve gerekli donanımı tamamlama bu anlam alanının özel uygulamasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar bir şeyi amaçlama, ona niyet etme veya onun için hazırlanma anlatımları sunar; yolculuk bağlamında gitmeye hazırlanma ve donanımı tamamlama, kimi anlatımda da yolculuğa karar verme belirtilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "amaçlamak, niyet etmek veya hazırlanmak",
+        "applicability": "Bir şeyin amaçlanması, ona niyet edilmesi veya onun için hazırlık yapılması anlamlarından biri anlatıldığında kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Amaçlama, niyet etme ve hazırlanma arasındaki kaynakça verilen alternatifliği korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yola çıkmaya hazırlanmak",
+          "usage_role": "contextual",
+          "applicability": "Yolculuk veya hareket etme bağlamında karar ile hazırlık birlikte bulunduğunda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Gitmeye niyet etme ve yol hazırlığı yapma unsurlarını korur.",
+            "loses": "Yolculuk dışındaki amaç ve hazırlık bağlamlarını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "bir işe niyetlenmek",
+          "usage_role": "contextual",
+          "applicability": "Hazırlık ayrıntısının bağlamdan anlaşıldığı, niyetin öne çıktığı cümlelerde kullanılabilir.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir şeyi amaçlama ve yapmaya yönelme unsurunu korur.",
+            "loses": "Fiili hazırlık ve donanım tamamlama boyutunu açıkça söylemez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeyi amaçlamak, ona niyet etmek veya hazırlanmak"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir iş veya yolculuk için hazırlık ve donanım"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000259/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Niyetin yanında fiili hazırlık ve donanım aşamasını da kapsar.",
+          "neighbor_only": "Dağınık görüşü toplayarak kararı sağlamlaştırma ve kesinleştirme unsurunu taşır.",
+          "gloss": "kesin karara varmak",
+          "shared_zone": "Her iki dal bir işi yapmaya yönelik amaç ve kararlılık bildirir.",
+          "distinction": "Odak dal amaçtan hazırlığa uzanır; komşu dal ise düşünceyi birleştirip kararı kesin ve sağlam hale getirmeyi öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_001273/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Eylem başlamadan önceki hazırlanma ve donanım durumunu kapsayabilir.",
+          "neighbor_only": "İşe kalkışma, onu üstlenme ve doğrulup harekete geçme unsurunu ekler.",
+          "gloss": "karar verip işe kalkışmak",
+          "shared_zone": "İki dal da bir işe niyet ve kararlılıkla yönelmeyi anlatır.",
+          "distinction": "Odak dal hazırlık aşamasında kalabilir; komşu dal ise niyetten fiili kalkışma ve üstlenmeye geçişi gerektirir."
+        },
+        {
+          "neighbor_ref": "root_000789/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "İşe girmeden önceki niyet ve hazırlık sürecini belirtir.",
+          "neighbor_only": "İşe fiilen başlama ve onun içine girme aşamasını belirtir.",
+          "gloss": "bir işe girişmek",
+          "shared_zone": "Her iki dal amaçlanan bir eyleme yönelme sürecinde yer alır.",
+          "distinction": "Odak dal karar ve hazırlığı, komşu dal ise bu hazırlığın ardından eylemin başlamasını merkez alır."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tamamı amaç, karar, hazırlık ve işe başlama sınırları bakımından değerlendirildi; en açıklayıcı üç aşama karşılaştırması yayımlandı.",
+      "branch_image_ar": "القصد والتهيؤ",
+      "what_is_ar": "أب لكذا وأب للشيء إذا قصده أو تهيأ له أو هم به؛ وأب للمسير إذا عزم عليه وتجهز",
+      "what_is_not_ar": "ليس المرعى نفسه؛ وليس نزوع الوطن ولا رد اليد إلى السيف إلا فروع مذكورة على هذا الأصل",
+      "source_phrase_ar": "القصد والتهيؤ (maqayis)؛ أب أبا للشيء إذا تهيأ له أو هم به (jamhara)؛ أب يؤب أبا وأبابا وأبابة تهيأ للذهاب وتجهز (sihah)؛ أببت أؤب أبا إذا عزمت على المسير وتهيأت (tahdhib)؛ أب لكذا أي تهيأ (mufradat)",
+      "sources": [
+        "MQ",
+        "JA",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000003/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, kişinin yurduna doğru içsel bir çekim duymasını ve bu yönelişle geri dönmeyi amaçlamaya hazırlanmasını birlikte kurar.",
+        "boundary_note": "Bu dal genel yol hazırlığı veya gerçekleşmiş dönüş değil, yurt hedefli yöneliş ve dönüşe hazırlanmadır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnızca yurda yönelme yapısına bağlıdır; bu özel anlam yalın kökün genel anlamı olarak genişletilmez."
+      },
+      "concept_map": {
+        "definition": "Kişinin yurduna doğru güçlü bir yöneliş duyması ve bu yönelişle geri dönmeyi amaçlayıp hazırlanmasıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Yurda doğru içsel bir çekim ve yöneliş, geri dönme amacına hazırlanmayı doğurur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, anlamı yurda yönelten çekim üzerinde birleştirir ve bu yönelişin kişiyi geri dönmeyi amaçlamaya hazırladığını belirtir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yurda dönmeye yönelip hazırlanmak",
+        "applicability": "Yurda duyulan çekim ile dönüşü amaçlamaya hazırlanma birlikte ifade edildiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yurt hedefini, içsel yönelişi ve dönüş amacına hazırlanmayı birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yurduna dönme isteğiyle yönelmek",
+          "usage_role": "explanatory",
+          "applicability": "İçsel çekimin daha görünür, hazırlığın ise bağlamdan anlaşılır olduğu anlatımlarda kullanılabilir.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Yurt hedefini ve geri dönmeye doğru içsel yönelişi korur.",
+            "loses": "Dönüşü amaçlamak için hazırlanma aşamasını açıkça belirtmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yurduna dönmeye yönelip hazırlanmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000364/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yönelişi yurtla sınırlar ve geri dönüşü amaçlamaya hazırlanmayı gerektirir.",
+          "neighbor_only": "Kişi, hayvan, çocuk veya alışılmış herhangi bir şeye duyulan özlemi daha geniş biçimde kapsar.",
+          "gloss": "alışılmış olana özlem duymak",
+          "shared_zone": "Her iki dal tanıdık bir yere veya varlığa dönük içsel çekimi anlatır.",
+          "distinction": "Odak dal yurt hedefli ve dönüş hazırlığına bağlıdır; komşu dal ise sesli ya da sessiz özlemi çok daha geniş hedeflerle ifade eder."
+        },
+        {
+          "neighbor_ref": "root_000911/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yurda geri dönmeyi amaçlamaya hazırlanma sonucunu içerir.",
+          "neighbor_only": "Bir kişiye, dünyaya veya başka bir hedefe yaslanma ve meyletme gibi geniş kullanımlara sahiptir.",
+          "gloss": "meyletmek ve yönelmek",
+          "shared_zone": "İki dal da bir hedefe doğru içsel eğilim veya çekim bildirir.",
+          "distinction": "Odak dalın hedefi yurt, sonucu dönüşe hazırlıktır; komşu dalda hedef ve yöneliş türü daha geniştir."
+        },
+        {
+          "neighbor_ref": "root_000065/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Dönüşten önceki çekim, niyet ve hazırlanma evresini anlatır.",
+          "neighbor_only": "Kişinin gerçekten geri dönmesini veya döndüğü yeri anlatır.",
+          "gloss": "geri dönmek veya dönüş yeri",
+          "shared_zone": "Her iki dal yurt veya barınakla bağlantılı bir geri dönüş senaryosundadır.",
+          "distinction": "Odak dal dönüşe yöneliş ve hazırlıkta kalır; komşu dal gerçekleşen dönüşü ve kimi kullanımlarda dönüş yerini belirtir."
+        }
+      ],
+      "neighbor_coverage_note": "Sunulan adaylar içinden özlem, yöneliş ve gerçekleşmiş dönüş aşamalarını ayıran üç komşu seçildi; kalanlar daha uzak alan ilişkileri kurar.",
+      "branch_image_ar": "النزاع إلى الوطن",
+      "what_is_ar": "الأب أو أب إلى وطنه إذا نزع إلى وطنه نزوعا يتهيأ لقصد الرجوع",
+      "what_is_not_ar": "ليس مجرد تجهيز للمسير بلا جهة الوطن؛ وليس الأب الوالد",
+      "source_phrase_ar": "الأب النزاع إلى الوطن (maqayis;jamhara;sihah)؛ أب إلى وطنه إذا نزع إلى وطنه نزوعا تهيأ لقصده (mufradat)",
+      "sources": [
+        "MQ",
+        "JA",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000003/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesinin ortak yönü kılıcı çekmeye hazırlanmaktır; bu hazırlık bazı anlatımlarda elin kılıca geri götürülmesi biçiminde verilirken bir anlatımda doğrudan belirtilir.",
+        "boundary_note": "Kılıcın gerçekten çekilmesi, gösterilmesi veya onunla savaşılması bu hazırlık anlamının parçası değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım el ile kılıç arasındaki belirtilmiş yapıya bağlıdır; genel hareket, hazırlık veya silah kullanma anlamına genişletilmez."
+      },
+      "concept_map": {
+        "definition": "Kılıcı çekmeye hazırlanmak; kimi anlatımlarda bu amaçla eli kılıca geri götürmek demektir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kılıcı çekme eylemine hazırlanmayı belirtir, fakat kılıcın gerçekten çekildiğini bildirmez.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Bazı kaynak anlatımlarında hazırlık, elin kılıcı çekmek amacıyla kılıca geri götürülmesi biçiminde gerçekleşir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar kılıcı çekme amacında birleşir; bazı anlatımlar elin kılıca geri götürülmesini, bir anlatım ise doğrudan kılıcı çekmeye hazırlanmayı belirtir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kılıcı çekmeye hazırlanmak",
+        "applicability": "Kılıcı çekmeye yönelik hazırlık doğrudan veya elin kılıca geri götürülmesiyle anlatıldığında kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kılıcı çekme amacını ve çekişten önceki hazırlık aşamasını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "elini kılıcına atmak",
+          "usage_role": "contextual",
+          "applicability": "Kılıcı çekmeye dönük ani hazırlık hareketinin doğal ve kısa anlatımı gerektiğinde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Elin kılıca yönelmesini ve onu çekmeye hazırlanma amacını doğal kullanım içinde korur.",
+            "loses": "El hareketi belirtilmeden verilen doğrudan kılıcı çekmeye hazırlanma anlatımını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kılıcı çekmek için elini ona geri götürmek veya kılıcı çekmeye hazırlanmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000544/B010",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yalnızca kılıca yönelen eli ve kılıcı çekme amacını belirtir.",
+          "neighbor_only": "Ok almak için sadağa yönelen eli de kapsar.",
+          "gloss": "eli silaha geri götürmek",
+          "shared_zone": "Her iki dal eldeki geri yönelişi bir silahı almak veya çekmek amacıyla anlatır.",
+          "distinction": "Odak dal kılıç ve onu çekme amacıyla sınırlıdır; komşu dal aynı hareket düzenini ok ve sadak bağlamına da genişletir."
+        },
+        {
+          "neighbor_ref": "root_001420/B020",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kılıcı çekmeden önce elin ona götürülmesini ve hazırlığı anlatır.",
+          "neighbor_only": "Kılıcın kınından gerçekten çıkarılmasını anlatır.",
+          "gloss": "kılıcı kınından çekmek",
+          "shared_zone": "İki dal aynı kılıç çekme olayının art arda gelen aşamalarını paylaşır.",
+          "distinction": "Odak dal hazırlayıcı el hareketidir; komşu dal ise bu hazırlığın hedefi olan çekme eyleminin tamamlanmasıdır."
+        },
+        {
+          "neighbor_ref": "root_000823/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Elin kılıca uzanmasıyla başlayan hazırlık aşamasında kalır.",
+          "neighbor_only": "Silahın çekilmesi, kaldırılması ve insanlara açıkça gösterilmesini kapsar.",
+          "gloss": "kılıcı çekip göstermek",
+          "shared_zone": "Her iki dal kılıcı kullanıma hazır hale getiren aynı olay dizisine bağlıdır.",
+          "distinction": "Odak dal kılıca uzanmayı, komşu dal ise silahı çekip görünür biçimde ortaya koymayı merkez alır."
+        }
+      ],
+      "neighbor_coverage_note": "Adaylar el hareketi, kılıcın çekilmesi ve silahın gösterilmesi aşamalarına göre karşılaştırıldı; sınırı en iyi açıklayan üçü seçildi.",
+      "branch_image_ar": "رد اليد إلى السيف",
+      "what_is_ar": "أب الرجل إلى سيفه أو أب فلان يده إلى سيفه إذا رد يده إليه ليستله أو تهيأ لسله",
+      "what_is_not_ar": "ليس القتال نفسه ولا الهزيمة بالحملة",
+      "source_phrase_ar": "أب فلان إلى سيفه إذا رد يده إليه ليستله (maqayis;jamhara)؛ أب فلان يده إلى سيفه أي رد يده ليستله (tahdhib)؛ أب لسيفه إذا تهيأ لسله (mufradat)",
+      "sources": [
+        "MQ",
+        "JA",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000003/B005",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi, ceylanlara ilişkin kalıplaşmış olumsuz söz içinde suyu bulamadıklarında onu aramaya hazırlanmadıklarını anlatır. Dal ancak bu sabit hayvan, su ve olumsuzluk çerçevesi korunursa geçerlidir.",
+        "boundary_note": "Bu, genel bir su arama fiili veya bağımsız bir hazırlık anlamı değil, kalıplaşmış olumsuz bir kullanımdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Tanım yalnızca ceylanlar ve su arayışı hakkındaki sabit olumsuz ifadeye aittir; yalın biçime genellenmez."
+      },
+      "concept_map": {
+        "definition": "Ceylanların su bulamadıkları durumda bile suyu aramak için hazırlanmadıklarını bildiren kalıplaşmış olumsuz sözdür.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Ceylanların su yokluğunda onu aramaya hazırlanmadığı, sabit bir olumsuz ifadeyle bildirilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar ifadeyi ceylanlar, suyun bulunmaması ve su aramaya hazırlanmama unsurlarıyla aktarır; kullanım olumlu ve genel bir arayış fiili değildir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "su aramaya hazırlanmamak",
+        "applicability": "Yalnızca ceylanlara ilişkin kalıplaşmış olumsuz sözde, su yokken arayışa hazırlanılmadığını belirtir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Su arayışını, hazırlık aşamasını ve olumsuzluğu birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "suyu aramaya bile hazırlanmamak",
+          "usage_role": "explanatory",
+          "applicability": "Kalıplaşmış sözün olumsuzluk vurgusunu Türkçede görünür kılmak gerektiğinde kullanılır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Su arayışına hazırlanılmadığı yönündeki olumsuz çekirdeği korur.",
+            "loses": null,
+            "adds": "Vurgu parçacığı, kaynak ifadesindeki olumsuzluğu Türkçede daha güçlü gösterir.",
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ceylanların su aramaya hazırlanmaması"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001377/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Ceylanların suyu aramaya hazırlanmadığını kalıplaşmış olumsuz biçimde bildirir.",
+          "neighbor_only": "Herhangi bir şeyi tekrar tekrar arama ve bulmaya çalışma eylemini olumlu biçimde anlatır.",
+          "gloss": "bir şeyi aramak",
+          "shared_zone": "İki dal aranan bir hedefe yönelme senaryosunu paylaşır.",
+          "distinction": "Odak dal suya ilişkin hazırlığın yokluğunu bildirir; komşu dal ise gerçekleşen ve yinelenebilen arama eylemini anlatır."
+        },
+        {
+          "neighbor_ref": "root_001384/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Su aramaya hazırlanmama davranışını sabit bir söz içinde anlatır.",
+          "neighbor_only": "İnsan veya hayvanda hızla ortaya çıkan susuzluğu nitelendirir.",
+          "gloss": "çabuk susamak",
+          "shared_zone": "Her iki dal hayvan, su ihtiyacı ve susuzluk çevresindeki aynı durum alanındadır.",
+          "distinction": "Odak dal arayış öncesi davranışın yokluğuna, komşu dal ise susuzluğun ortaya çıkış hızına dayanır."
+        },
+        {
+          "neighbor_ref": "root_000722/B001",
+          "relation_type": "thematic",
+          "boundary_match": "thematic_only",
+          "focus_only": "Suyu aramaya yönelik hazırlığın bulunmadığını anlatır.",
+          "neighbor_only": "İnsan veya hayvana su vererek onu içirmeyi anlatır.",
+          "gloss": "su vermek ve içirmek",
+          "shared_zone": "İki dal su ihtiyacının bulunduğu aynı genel senaryoya katılır.",
+          "distinction": "Odak dal arayış hazırlığının yokluğudur; komşu dal ise başka bir katılımcının su sağlayıp içirmesidir."
+        }
+      ],
+      "neighbor_coverage_note": "Komşular arama, susuzluk ve su sağlama eksenlerinde değerlendirildi; sabit olumsuz ifadenin sınırını gösteren üç ilişki seçildi.",
+      "branch_image_ar": "أباب الظباء للماء",
+      "what_is_ar": "قولهم في الظباء إن وجدت الماء فلا عباب وإن عدمته فلا أباب؛ أي لا تتأبب ولا تتهيأ لطلب الماء",
+      "what_is_not_ar": "ليس عباب الماء نفسه؛ وليس أصلا مستقلا عن التهيؤ إلا إن صح الخبر",
+      "source_phrase_ar": "إن وجدت فلا عباب وإن عدمت فلا أباب لم تأبب لطلبه (maqayis)؛ إن أصابت الماء فلا عباب وإن لم تصب الماء فلا أباب لم تأتب له ولم تتهيأ لطلبه (tahdhib)",
+      "sources": [
+        "MQ",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000003/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Tek kaynak ifadesi bu dalı geçişli ve yalın biçimde bir şeyi hareket ettirmek olarak tanımlar; provisional hareket çerçevesi bu ifadeyi doğru yansıtır.",
+        "boundary_note": "Hazırlanma, kılıca yönelme veya kendiliğinden hareket etme bu dar geçişli anlamın parçası değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın biçimin geçişli hareket ettirme anlamıyla sınırlıdır; belirli araç ve sonuçlar eklenmez."
+      },
+      "concept_map": {
+        "definition": "Bir şeyi hareket ettirmek demektir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir katılımcı, başka bir nesnenin hareket etmesine neden olur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Bu dal için kaynaklar arası ortaklaştırma yapacak çoğul tanıklık yoktur; anlam tek ve geçişli bir hareket ettirme fiili olarak sınırlandırılmıştır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Tek tanıklık, yalın fiili doğrudan bir şeyi hareket ettirmek anlamında verir."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "hareket ettirmek",
+        "applicability": "Bir öznenin bir nesnenin hareket etmesine neden olduğu genel geçişli bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Neden olan katılımcıyı ve nesnenin harekete geçirilmesini eksiksiz korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yerinden oynatmak",
+          "usage_role": "contextual",
+          "applicability": "Nesnenin konumundaki küçük veya belirgin değişimin öne çıktığı somut bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir nesneye dışarıdan hareket verilmesini korur.",
+            "loses": "Konum değişikliği gerektirmeyen sallama veya başka hareket türlerini dışarıda bırakabilir.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeyi hareket ettirmek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000312/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yalnızca bir öznenin başka bir şeyi hareket ettirdiği geçişli çekirdeği taşır.",
+          "neighbor_only": "Kendiliğinden hareketi, hareketsizliğin karşıtını ve çeşitli değişim süreçlerini de kapsar.",
+          "gloss": "hareket ve hareket ettirme",
+          "shared_zone": "Her iki dal bir şeyin durgunluktan harekete geçmesini kapsar.",
+          "distinction": "Odak dal geçişli hareket ettirmeyle sınırlıdır; komşu dal hem hareketi hem hareket ettirmeyi ve daha geniş değişim kullanımlarını içerir."
+        },
+        {
+          "neighbor_ref": "root_001588/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Hareketin biçimini ve şiddetini belirtmeden genel bir neden olmayı anlatır.",
+          "neighbor_only": "Nesneyi sarsıp titreştirecek ölçüde yinelemeli veya kuvvetli hareketi belirtir.",
+          "gloss": "sallamak ve sarsmak",
+          "shared_zone": "İki dal da bir nesneye dışarıdan hareket verilmesini anlatır.",
+          "distinction": "Odak dal her tür hareket ettirmeye açıktır; komşu dal salınım, sarsıntı veya titreme biçimindeki daha belirli hareketi gerektirir."
+        },
+        {
+          "neighbor_ref": "root_000210/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Nesnenin yerinden kaldırılması veya bir şeyin ortaya çıkarılması gerekmeden hareket verilebilir.",
+          "neighbor_only": "Bir şeyi yerinden kaldırma, uyandırma veya gizli olanı ortaya çıkarma sonucunu içerebilir.",
+          "gloss": "yerinden kaldırıp harekete geçirmek",
+          "shared_zone": "Her iki dal dış bir etkiyle hareket başlatılmasını kapsar.",
+          "distinction": "Odak dal yalın hareket ettirmedir; komşu dal çoğu kullanımda yerinden kaldırma, uyandırma veya ortaya çıkarma yönünde ek bir sonuç taşır."
+        }
+      ],
+      "neighbor_coverage_note": "Adaylar genel hareket ettirme, sarsma ve yerinden kaldırma sınırlarıyla karşılaştırıldı; en yakın üç ayrım yayımlandı.",
+      "branch_image_ar": "التحريك",
+      "what_is_ar": "أب إذا حرك",
+      "what_is_not_ar": "ليس التهيؤ للمسير؛ وليس رد اليد إلى السيف",
+      "source_phrase_ar": "أب إذا حرك (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Tek tanıklık, yalın fiili doğrudan bir şeyi hareket ettirmek anlamında verir."
+      }
+    },
+    {
+      "branch_ref": "root_000003/B007",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Tek kaynak ifadesi yalnız yenmeyi değil, yenilginin uydurma veya göstermelik olmayan gerçek bir hücumla sağlanması koşulunu da kurar; dal bu koşulla kabul edilir.",
+        "boundary_note": "Genel savaşma, hücuma kalkma veya koşulsuz üstün gelme bu özel yenme anlamını tek başına karşılamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın biçimdeki özel yenme anlamını ve gerçek hücum koşulunu birlikte korur; genel savaş anlamına açılmaz."
+      },
+      "concept_map": {
+        "definition": "Karşı tarafı uydurma veya göstermelik olmayan gerçek bir hücumla yenip bozguna uğratmak demektir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir karşı taraf, gerçekliği tartışmasız bir hücum aracılığıyla yenilir ve bozguna uğratılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Bu dal için kaynaklar arası ortaklaştırma yapacak çoğul tanıklık yoktur; yenme sonucu ile gerçek ve göstermelik olmayan hücum koşulu birlikte korunur.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Tek tanıklık, karşı tarafı gerçek bir hücumla bozguna uğratma anlamını verir."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "gerçek bir hücumla bozguna uğratmak",
+        "applicability": "Yenilginin göstermelik veya asılsız olmayan bir hücumun sonucu olduğu bağlamda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hücumu, hücumun gerçekliği koşulunu ve karşı tarafın yenilmesi sonucunu birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "sahici bir saldırıyla yenmek",
+          "usage_role": "contextual",
+          "applicability": "Hücumun göstermelik olmadığını ve yenme sonucunu akıcı biçimde vermek gereken bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Gerçek saldırı aracını ve karşı tarafı yenme sonucunu birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "gerçek bir hücumla bozguna uğratmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001643/B006",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yenmenin gerçek ve göstermelik olmayan bir hücumla gerçekleşmesini şart koşar.",
+          "neighbor_only": "Bir insanı hangi araç veya olayla olduğu belirtilmeden genel olarak alt etmeyi anlatır.",
+          "gloss": "bir insanı yenmek",
+          "shared_zone": "Her iki dal bir karşı taraf üzerinde galibiyet ve yenme sonucu bildirir.",
+          "distinction": "Odak dal galibiyeti belirli nitelikte bir hücuma bağlar; komşu dal ise yenmeyi araç ve koşul belirtmeden verir."
+        },
+        {
+          "neighbor_ref": "root_000782/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Hücumun sonunda karşı tarafın bozguna uğratılmış olmasını gerektirir.",
+          "neighbor_only": "Düşmana şiddetli biçimde saldırma ve koşma eylemini sonuçtan bağımsız anlatabilir.",
+          "gloss": "düşmana şiddetle saldırmak",
+          "shared_zone": "İki dal savaşta karşı tarafa yönelen güçlü bir hücumu içerir.",
+          "distinction": "Odak dal hücumun yenilgiyle sonuçlanmasını gerektirir; komşu dal hücumun kendisini anlatır ve başarıyı zorunlu kılmaz."
+        },
+        {
+          "neighbor_ref": "root_000970/B007",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Üstünlüğün gerçek bir hücum yoluyla elde edilmesini gerektirir.",
+          "neighbor_only": "Yükselme, üstte bulunma, güç yetirme ve hücumsuz üstün gelme kullanımlarını da kapsar.",
+          "gloss": "üstün gelmek",
+          "shared_zone": "Her iki dal bir rakip üzerinde üstünlük ve galibiyet bildirebilir.",
+          "distinction": "Odak dal saldırı yoluyla bozguna uğratmayı, komşu dal ise daha geniş fiziksel ve mecazi üstünlük alanını kapsar."
+        }
+      ],
+      "neighbor_coverage_note": "Komşular hücum, yenme ve genel üstünlük sınırlarında değerlendirildi; özel araç ve sonuç koşulunu en iyi gösteren üçü seçildi.",
+      "branch_image_ar": "الهزم بحملة",
+      "what_is_ar": "أب إذا هزم بحملة لا مكذوبة فيها",
+      "what_is_not_ar": "ليس رد اليد إلى السيف ولا مجرد القتال",
+      "source_phrase_ar": "أب إذا هزم بحملة لا مكذوبة فيها (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Tek tanıklık, karşı tarafı gerçek bir hücumla bozguna uğratma anlamını verir."
+      }
+    },
+    {
+      "branch_ref": "root_000003/B008",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bu dalı bir eylemin yapılması veya bir şeyin gelmesi için hazırlanmış zaman olarak tanımlar; geçici dal çerçevesi bu iki olasılığı doğru korur.",
+        "boundary_note": "Dal eylemin veya gelişin kendisini değil, bunlara hazır ve elverişli olan zamanı adlandırır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın zaman ifadesiyle sınırlıdır; aynı kökün otlak, hazırlık, hareket veya yenme dalları buraya taşınmaz."
+      },
+      "concept_map": {
+        "definition": "Bir eylemin yapılması ya da beklenen bir şeyin gelmesi için hazırlanmış ve elverişli olan zamandır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Belirli bir eylemin gerçekleşmesine veya bir şeyin gelmesine hazır ve elverişli zamanı belirtir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Bu dal için kaynaklar arası ortaklaştırma yapacak çoğul tanıklık yoktur; zamanın bir eyleme veya beklenen gelişe hazır oluşu çekirdeği belirler.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Tek tanıklık, bir işin yapılmasına veya bir şeyin gelmesine hazırlanmış zamanı adlandırır."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "elverişli zaman",
+        "applicability": "Bir işin yapılması veya beklenen bir şeyin gelmesi için zamanın hazır oluşu kastedildiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Zamanı ve onun belirli bir gerçekleşmeye hazır ve uygun oluşunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "tam zamanı",
+          "usage_role": "contextual",
+          "applicability": "Bir eylem için uygun vaktin geldiğini doğal ve kısa biçimde söyleyen bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Belirli bir eylem için zamanın uygun ve hazır oluşunu korur.",
+            "loses": "Bir şeyin gelmesi için hazırlanmış zaman kullanımını açıkça belirtmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "geliş için uygun vakit",
+          "usage_role": "contextual",
+          "applicability": "Beklenen bir kişinin, nesnenin veya olayın gelmesine elverişli zaman kastedildiğinde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Beklenen geliş ile buna uygun zaman arasındaki ilişkiyi korur.",
+            "loses": "Bir eylemi yapmaya hazır zaman kullanımını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir iş veya geliş için elverişli zaman"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000039/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Zamanın bir eyleme veya gelişe hazırlanmış ve elverişli oluşunu belirtir.",
+          "neighbor_only": "Bir şeyin vaktini veya zamanını hazır olma koşulu olmadan da adlandırır.",
+          "gloss": "bir şeyin vakti",
+          "shared_zone": "Her iki dal belirli bir şeyle ilişkili zaman veya vakti gösterir.",
+          "distinction": "Odak dal uygunluk ve hazır oluşu kurucu özellik yapar; komşu dal ise daha genel biçimde yalnızca ilgili zamanı adlandırabilir."
+        },
+        {
+          "neighbor_ref": "root_000382/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Belirli bir gerçekleşmeye hazır ve elverişli zamanı anlatır.",
+          "neighbor_only": "Süreyi, dönemi, çağ parçasını ve yinelenen zamanları daha geniş biçimde kapsar.",
+          "gloss": "zaman ve dönem",
+          "shared_zone": "İki dal da bir vakti veya zaman kesitini adlandırabilir.",
+          "distinction": "Odak dal zamanı bir eylem ya da gelişe uygunluğuyla sınırlar; komşu dal zaman ve süreyi bu koşul olmadan genişçe kapsar."
+        },
+        {
+          "neighbor_ref": "root_000261/B007",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bir iş veya geliş için hazır bulunan zaman dilimini adlandırır.",
+          "neighbor_only": "Olayın yaklaşmasını, hazır bulunmasını veya vaktinin gelip çatmasını bir süreç olarak anlatır.",
+          "gloss": "vakti gelmek ve yaklaşmak",
+          "shared_zone": "Her iki dal bir olay ile onun uygun zamanı arasındaki ilişkiye dayanır.",
+          "distinction": "Odak dal elverişli zamanın adıdır; komşu dal ise olayın yaklaşması veya zamanının gelmesi yönündeki değişimi bildirir."
+        }
+      ],
+      "neighbor_coverage_note": "Adaylar genel zaman, uygun vakit ve vaktin gelmesi ayrımlarıyla incelendi; hazır oluş koşulunu açıklayan üç komşu yayımlandı.",
+      "branch_image_ar": "الإبان والزمان المهيأ",
+      "what_is_ar": "إبان ذلك زمان مهيأ لفعله ومجيئه",
+      "what_is_not_ar": "ليس الفعل نفسه ولا المرعى",
+      "source_phrase_ar": "إبان ذلك فعلان منه وهو الزمان المهيأ لفعله ومجيئه (mufradat)",
+      "sources": [
+        "MU"
+      ],
+      "source_note": {
+        "MU": "Tek tanıklık, bir işin yapılmasına veya bir şeyin gelmesine hazırlanmış zamanı adlandırır."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, hayvanların yemlik bitki örtüsünden amaç ve hazırlığa; yurda dönüşe yönelme, kılıca uzanma ve su aramaya hazırlanmama gibi sınırlı yapılardan hareket ettirme, hücumla yenme ve elverişli zaman anlamlarına uzanan belirgin biçimde çok anlamlı bir yapı gösterir.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 1,
+      "word_count": 1,
+      "ayah_count": 1,
+      "surah_count": 1
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "أَبّ",
+        "stem_ar": "أَبًّا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>ab~|ROOT:Abb|M|INDEF|ACC",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "80:31",
+        "surface_ar": "وَفَٰكِهَةً وَأَبًّا"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "80:31:2:2",
+        "qac_word_ref": "80:31:2",
+        "surah": 80,
+        "ayah": 31,
+        "word_index": 2,
+        "morpheme_index": 2,
+        "surface_ar": "أَبًّا",
+        "stem_ar": "أَبًّا",
+        "lemma_ar": "أَبّ",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>ab~|ROOT:Abb|M|INDEF|ACC",
+        "ayah_ref": "80:31",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            6,
+            10
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

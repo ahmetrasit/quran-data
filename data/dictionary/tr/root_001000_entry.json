@@ -1,0 +1,3806 @@
+{
+  "inputs_sha256": "813431d19838a98885bec1370585ce4b501eca9bd8891a0e4e84eccbd51d426c",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_001000",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_001000/B001",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesinin ana göndergesi hükümdarın yüksek tahtı ve buradan hareketle yönetim makamıdır. Aynı iddia ayrıca Tanrı'ya ilişkin kullanımın yalnız adının bilinebileceğini, gerçek niteliğinin insan bilgisine kapalı olduğunu söyler; bu kullanım somut hükümdar tahtıyla özdeşleştirilmemelidir.",
+        "boundary_note": "Dal, genel yatak ve oturma yerlerini değil, hükümdarlıkla bağlı tahtı ve yönetim makamını kapsar; Tanrı'ya ilişkin kullanım ayrı bir sınır notudur."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, yalın biçimin hükümdar tahtı anlamını yönetim makamına bağlı kullanımdan ve niteliği bilinmeyen Tanrı'ya ilişkin kullanımdan ayırır."
+      },
+      "concept_map": {
+        "definition": "Hükümdarın yüksekte bulunan tahtı ve bu taht üzerinden adlandırılan yönetim makamıdır. Tanrı'ya ilişkin aynı adlandırmada ise gerçek niteliğin insan tarafından bilinemeyeceği özellikle korunur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Hükümdarın oturduğu yüksek ve yönetici konumunu gösteren tahttır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Tahttan hareketle hükümdarın yönetim makamını da belirtir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Tanrı'ya ilişkin kullanımda yalnız adlandırma bilinir; gönderilen şeyin gerçek niteliği insan bilgisiyle belirlenemez.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar hükümdarın tahtı anlamında birleşir; yönetim makamına aktarımı ve Tanrı'ya ilişkin kullanımın bilgi sınırı aynı toplu iddiada yer alır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "hükümdar tahtı ve yönetim makamı",
+        "applicability": "Somut hükümdar tahtını ve bundan türeyen yönetim makamı anlamını birlikte karşılayan en kısa doğal ifadedir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hükümdarlıkla bağlı somut tahtı ve yönetim makamına aktarımı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "hükümdarın tahtı",
+          "usage_role": "contextual",
+          "applicability": "Sözün somut oturma ve hükmetme yerini anlattığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Somut hükümdar tahtını ve onun yöneticiye özgü niteliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "yönetim makamı",
+          "usage_role": "contextual",
+          "applicability": "Taht adının hükümdarın yönetme konumuna aktarıldığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Somut nesneden yönetim konumuna yapılan anlam aktarımını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "hükümdarın tahtı ve yönetim makamı"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "insanın gerçek niteliğini bilemediği, yalnız adını bildiği Tanrı tahtı"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000697/B011",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Hükümdarlık ve yönetim makamı bağı yalnız odak daldadır.",
+          "neighbor_only": "Genel yataklar, baş dayanağı ve yaşama rahatlığına ilişkin kullanımlar yalnız komşudadır.",
+          "gloss": "hükümdar tahtı ile genel yatak",
+          "shared_zone": "Her ikisi de üzerinde oturulan ya da dayanılan bir nesneyi anlatabilir.",
+          "distinction": "Odak dal hükümdarın yüksek tahtını ve yönetim makamını belirtir; komşu ise hükümdarlık şartı olmadan yatak ve dayanma yerlerini kapsayan genel bir alandır."
+        },
+        {
+          "neighbor_ref": "root_001000/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Somut hükümdar tahtı odak dala özgüdür.",
+          "neighbor_only": "Bir kişinin işini, gücünü ve saygınlığını ayakta tutan soyut dayanak komşuya özgüdür.",
+          "gloss": "taht ile iktidarın dayanağı",
+          "shared_zone": "İki dal da hükümdarlık, güç ve yönetim alanına bağlanır.",
+          "distinction": "Odak dal tahta ve onun belirttiği makama yönelirken komşu, işin ve iktidarın ayakta kalmasını ya da çökmesini anlatan soyut dayanağa yönelir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel yatak ile soyut iktidar dayanağı, okurun bu dalı en kolay karıştırabileceği iki sınırı gösterdiği için seçildi.",
+      "branch_image_ar": "السرير المرتفع للملك",
+      "what_is_ar": "عرش الملك ومجلس السلطان وما سمي عرشا من جهة العلو والملك",
+      "what_is_not_ar": "سقف البيت؛ العريش؛ تعريش الكرم؛ طي البئر بالخشب",
+      "source_phrase_ar": "العرش سرير الملك (maqayis;sihah)؛ العرش في كلام العرب سرير الملك (tahdhib)؛ سمي مجلس السلطان عرشا (mufradat)؛ عرش الله ما لا يعلمه البشر إلا بالاسم (mufradat)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001000/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi ev tavanını, üstü örtülü yapıyı, gölgelik barınağı, çubuklarla kurulmuş evleri ve hayvanı soğuktan koruyan çevrili yeri aynı örtme ve gölgeleme çekirdeğinde toplar. Verilen dal çerçevesi bu yapısal ortaklığı doğru biçimde yansıtır.",
+        "boundary_note": "Dal hükümdar tahtını, asmayı desteğe alma eylemini, kadın taşıma bölmesini ve kuyu kaplamasını içermez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, yalın örtülü yapı anlamını ev tavanı, belirli ev türleri ve hayvan barınağı gibi adlandırmaya bağlı özel örneklerden ayırır."
+      },
+      "concept_map": {
+        "definition": "Üstten örtülerek altında gölgelenilen ya da korunulan tavan, gölgelik veya yapıdır. Ev tavanı, çubuklardan yapılmış gölgelikli ev ve hayvanı soğuktan koruyan çevrili barınak bunun özel gerçekleşmeleridir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Altında gölgelenmek veya korunmak için üstü örtülmüş yapı ya da gölgeliktir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bir evin tavanı ve çubuklarla kurulup üstü gölgelenen ev bu kapsamda adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Hayvanları soğuktan korumak üzere düzenlenen çevrili barınak da aynı örtme işleviyle bu kapsamdadır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar üstten örtme, gölgeleme ve korunma çekirdeğinde birleşir; ev tavanı, gölgelikli ev ve hayvan barınağı bu çekirdeğin belirtilen uygulamalarıdır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "üstü örtülü barınak ve gölgelik",
+        "applicability": "Tavanı, altında gölgelenilen yapıyı ve koruyucu barınak türlerini ortak işlevleriyle karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Üstten örtülme, gölgelenme ve korunma işlevlerinin tümünü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "evin tavanı",
+          "usage_role": "contextual",
+          "applicability": "Örtülü yapının özellikle bir evin üst bölümünü belirttiği bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Evin üstünü örten tavan anlamını eksiksiz korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "hayvanları koruyan çevrili barınak",
+          "usage_role": "explanatory",
+          "applicability": "Yapının hayvanları özellikle soğuktan koruyan çevrili yer olduğu bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Hayvan, koruma ve çevrili barınak özelliklerini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "evin tavanı"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "altında gölgelenilen üstü örtülü yapı"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çubuklardan yapılıp üstü gölgelenen evler"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "hayvanları soğuktan koruyan çevrili barınak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000720/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Hayvanı soğuktan koruyan çevrili yer ve gölgelikli ev örnekleri odak dalda açıkça yer alır.",
+          "neighbor_only": "Komşu dal, çatılı oda benzeri yeri yapı türü olarak daha belirgin biçimde öne çıkarır.",
+          "gloss": "üstü örtülü barınak ile çatılı yapı",
+          "shared_zone": "İki dal da üstünde çatı bulunan, altında bulunulabilen bir yapı alanını paylaşır.",
+          "distinction": "Odak dal örtme ve gölgeleme işlevinden ev tavanına ve hayvan barınağına uzanır; komşu dal ise genel olarak çatısı olan yapı veya yer türünü anlatır."
+        },
+        {
+          "neighbor_ref": "root_000897/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Üstten örtme ve soğuktan koruma odak dalın belirleyici işlevleridir.",
+          "neighbor_only": "Dal veya taşla çevrilmiş sığır ya da koyun ağılı olma özelliği komşuya özgüdür.",
+          "gloss": "koruyucu barınak ile hayvan ağılı",
+          "shared_zone": "Her ikisi de hayvanların barındırıldığı çevrili bir yeri gösterebilir.",
+          "distinction": "Odak dalda hayvan yeri, üst örtüsüyle soğuktan koruyan barınağın bir özel türüdür; komşu dalda çekirdek, malzemesi değişebilen hayvan ağılıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; çatılı yapı ve hayvan ağılı adayları, örtü işlevi ile yapı türü arasındaki sınırı en yararlı biçimde açıklar.",
+      "branch_image_ar": "السقف والمظلّة المرفوعة",
+      "what_is_ar": "سقف البيت وكل بناء يستظل به والعريش والخيمة من خشب وبيوت مكة المسماة عروشا والحظيرة التي تكن الماشية",
+      "what_is_not_ar": "سرير الملك؛ تعريش الكرم؛ هودج المرأة؛ طي البئر",
+      "source_phrase_ar": "كل بناء يستظل به عرش وعريش (maqayis)؛ العرش سقف البيت (sihah;tahdhib)؛ العرش والعريش ما يستظل به (sihah;tahdhib)؛ العرش في الأصل شيء مسقف (mufradat)؛ عروش مكة بيوتها (sihah;tahdhib)؛ الحظيرة التي تسوى للماشية تكنها من البرد عريش (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001000/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi iki bağlı aşamayı açıkça verir: asma için çatı benzeri bir destek kurup bitkiyi yükseltmek ve üzüm asmasının bu desteğin üzerine çıkması. Dal çerçevesi eylem ile bitkinin ulaştığı sonucu birbirine karıştırmadan korumaya elverişlidir.",
+        "boundary_note": "Bu anlam genel bir tavan kurma işi değil, özellikle asma için destek kurma ve asmanın o desteğe yükselmesiyle sınırlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, asmaya destek kuran eylemi, üzüm asmasının bu desteğe çıkmasını ve destek üzerinde yetiştirilen asmaları ayrı fakat bağlı yüzler olarak verir."
+      },
+      "concept_map": {
+        "definition": "Asmayı yükseltip sağlamlaştırmak için ona çatı biçimli bir destek kurmak ve üzüm asmasının bu desteğin üzerine tırmanmasıdır. Destek üzerine alınmış asmalar da bu işlemin sonucu olarak adlandırılır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Asmayı yükseltmek ve sağlamlaştırmak için çatı biçimli bir destek kurulur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "core",
+            "statement": "Üzüm asması kurulan desteğin üzerine çıkar ve onu kaplayacak biçimde yükselir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Destek üzerine kaldırılmış asmalar işlemin ortaya çıkardığı durumla adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar asmaya çatı benzeri destek kurma, onu yükseltip sağlamlaştırma ve üzüm asmasının bu desteğe çıkması aşamalarında birleşir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "asmaya çardak kurma ve asmanın çardağa tırmanması",
+        "applicability": "İnsan tarafından desteğin kurulmasını ve bitkinin bu desteğe yükselmesini birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Destek kurma işlemini, asmayı yükseltme amacını ve bitkinin desteğe çıkmasını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "asmayı çardağa almak",
+          "usage_role": "contextual",
+          "applicability": "Bağlam insanın asma için destek kurup bitkiyi bunun üzerine kaldırmasını anlatıyorsa kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Asmaya destek kurma ve onu desteğe yükseltme işlemlerini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "asma çardağa tırmandı",
+          "usage_role": "contextual",
+          "applicability": "Bağlam üzüm asmasının kurulu desteğin üzerine çıkmasını anlatıyorsa kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bitkinin çatı biçimli desteğin üzerine çıkması sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "asmaya çardak kurup onu desteğe almak"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "üzüm asmasının çardağın üzerine tırmanması"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çardak üzerinde yetiştirilen asmalar"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000350/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Asma için çatı biçimli destek kurma işlemi yalnız odak daldadır.",
+          "neighbor_only": "Bitkinin ince uzantılarla çubuklara dolanıp tutunması yalnız komşu dalın çekirdeğidir.",
+          "gloss": "asmayı çardağa alma ile bitkinin dolanması",
+          "shared_zone": "İki dal da tırmanıcı bitkinin çubuk veya destek üzerinde yükselmesini içerebilir.",
+          "distinction": "Odak dal insanın destek kurmasını ve asmanın o desteğe çıkmasını kapsar; komşu dal ise bitkinin uzantılarının çubuklara dolanıp tutunma biçimine odaklanır."
+        },
+        {
+          "neighbor_ref": "root_000243/B007",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Destek kurma eylemi ve asmanın desteğe tırmanması odak dala özgüdür.",
+          "neighbor_only": "Yükü enlemesine taşıyan tek bir kiriş türü komşuya özgüdür.",
+          "gloss": "asma çardağı kurma ile taşıyıcı kiriş",
+          "shared_zone": "İki dal aynı asma desteği düzeninde yer alabilir.",
+          "distinction": "Odak dal bütün destekleme işlemini ve bitkinin yükselmesini anlatır; komşu dal bu düzende kullanılabilen enlemesine taşıyıcı bir ahşap parçayı adlandırır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; bitkinin dolanması ile taşıyıcı kiriş, eylem, doğal büyüme ve araç arasındaki ayrımı en açık veren adaylardır.",
+      "branch_image_ar": "تعريش الكرم والعنب",
+      "what_is_ar": "رفع الكرم والعنب على عرش أو عريش وما علا منه على الدعامة",
+      "what_is_not_ar": "سقف البيت العام؛ سرير الملك؛ هودج المرأة؛ طي البئر",
+      "source_phrase_ar": "تعريش الكرم لأنه رفعه والتوثق منه (maqayis)؛ عرشت الكرم بالعروش تعريشا (sihah;tahdhib)؛ عرشت الكرم إذا جعلت له كهيئة سقف (mufradat)؛ اعترش العنب إذا علا على العراش (sihah)؛ اعترش العنب العريش إذا علاه (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001000/B004",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi kuyunun ahşapla kaplanmasını, ağız kısmındaki sulayıcı platformunu ve alt bölümün taş, kalan bölümün ahşapla örüldüğü özel kuyu yapısını birlikte verir. Dal çerçevesi bu parçaları kuyuya özgü bir yapım düzeni olarak doğru sınırlar.",
+        "boundary_note": "Dal genel kuyu kazmayı veya taşla örmeyi değil, kuyudaki ahşap kaplama ile ağız üstündeki çalışma yapısını kapsar."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım kuyuya bağlı yapım anlamını korur; kuyu ağzındaki platformu ve altı taş, üstü ahşap özel kaplama düzenini yalın bir tavan anlamına genellemez."
+      },
+      "concept_map": {
+        "definition": "Kuyunun içini ahşapla kaplamak ve ağzında su çeken kişinin üzerinde durduğu bir yapı kurmaktır. Özel bir uygulamada alt bölüm bir insan boyu kadar taşla, geri kalanı ahşapla örülür.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kuyunun iç yüzeyi veya ağız bölümü ahşapla kaplanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "core",
+            "statement": "Kuyu ağzında su çeken kişinin üzerinde duracağı bir yapı bulunur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Bir insan boyu kadar alt kısmı taşla, kalan kısmı ahşapla örülmüş kuyu özel bir gerçekleşmedir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar kuyunun ahşapla kaplanması ile ağız kısmındaki çalışma yapısını birlikte verir; altı taş, üstü ahşap örme düzeni bu yapımın ayrıntılı bir gerçekleşmesidir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kuyuyu ahşapla kaplama ve ağız platformu kurma",
+        "applicability": "Kuyunun ahşap kaplamasını ve su çeken kişiye ayrılan ağız üstü yapısını birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ahşapla kaplama işlemini, kuyu bağını ve ağız üstündeki çalışma yapısını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kuyuyu ahşapla örmek",
+          "usage_role": "contextual",
+          "applicability": "Kuyunun iç kaplamasının veya kalan üst bölümünün ahşapla yapılmasını anlatan bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kuyuya özgü ahşap kaplama işlemini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        },
+        {
+          "text": "kuyu ağzındaki çalışma platformu",
+          "usage_role": "explanatory",
+          "applicability": "Su çeken kişinin kuyu ağzında üzerinde durduğu yapıyı anlatan bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yapının konumunu ve su çeken kişiye sağladığı durma yerini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kuyunun ahşap kaplaması ve ağız üstü çalışma yeri"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "altı taşla, geri kalanı ahşapla örülmüş kuyu"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000358/B011",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Ahşap kaplama ve su çeken kişinin durduğu ağız yapısı odak dala özgüdür.",
+          "neighbor_only": "Kuyu örgüsünü oluşturan büyük taşlar komşu dalın çekirdeğidir.",
+          "gloss": "kuyunun ahşap kaplaması ile kuyu taşları",
+          "shared_zone": "Her iki dal da kuyu duvarını sağlamlaştıran yapım öğeleriyle ilgilidir.",
+          "distinction": "Odak dal ahşapla kaplama işlemini ve kuyu ağzındaki platformu anlatır; komşu dal ise kuyu örgüsünde kullanılan büyük taşları adlandırır."
+        },
+        {
+          "neighbor_ref": "root_001037/B011",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Tamamlanmış ahşap kaplama ve ağız platformu odak dala özgüdür.",
+          "neighbor_only": "Kuyu kazısında yana veya aşağı ilerleme komşu dala özgüdür.",
+          "gloss": "kuyuyu kaplama ile kuyu kazma",
+          "shared_zone": "İki dal kuyu yapımının farklı işlemlerini anlatır.",
+          "distinction": "Odak dal kuyunun örülüp donatılmasına, komşu dal ise toprağın kazılarak kuyunun açılmasına veya derinleştirilmesine yönelir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; taş örgü ve kazı adayları, ahşap kaplamanın malzeme ve yapım aşaması bakımından sınırını en iyi gösterir.",
+      "branch_image_ar": "خشب البئر وموضع الساقي",
+      "what_is_ar": "تعريش البئر وطيها بالخشب وما يقوم عليه الساقي عند فمها",
+      "what_is_not_ar": "تعريش الكرم؛ سقف البيت؛ سرير الملك؛ هودج المرأة",
+      "source_phrase_ar": "عرش البئر طيها بالخشب (maqayis;sihah)؛ العرش الذي يكون على فم البئر يقوم عليه الساقي (maqayis)؛ بئر معروشة وهي التي تطوى قدر قامة من أسفلها بالحجارة ثم يطوى سائرها بالخشب (tahdhib)؛ عرشت البئر جعلت له عريشا (mufradat)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001000/B005",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi kadının deve üzerinde oturması için hazırlanmış, kapalı taşıma bölmesine benzeyen belirli bir düzeneği tanımlar. Dal çerçevesi taşıt, kullanıcı ve yerleştirme ilişkisini eksiksiz korur.",
+        "boundary_note": "Dal genel gölgelik, hükümdar tahtı veya sabit yapı değil, kadının deve üzerinde oturduğu taşınabilir bölmedir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın dalı yalnız kadının deve üzerinde oturması için kurulan kapalı taşıma bölmesi olarak verir ve başka yapılara genişletmez."
+      },
+      "concept_map": {
+        "definition": "Kadının deve üzerinde oturması için hazırlanan, çevresi örtülü taşıma bölmesine benzeyen taşınabilir bir düzenektir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kadının içinde oturması için deve üzerine yerleştirilen örtülü bir taşıma bölmesidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "Biçimi, asma desteğinde görülen üstü çevrili yapıya benzetilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, kadının deve üzerinde oturduğu örtülü taşıma bölmesi tanımında birleşir; bir kaynak biçim benzerliğini asma desteğine bağlar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "deve üzerindeki örtülü kadın taşıma bölmesi",
+        "applicability": "Kullanıcının kadın, taşıyıcının deve ve nesnenin örtülü bir oturma bölmesi olduğu tam çekirdeği karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kadın, deve, oturma ve örtülü taşıma bölmesi özelliklerinin tümünü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kadının deve üzerinde oturduğu örtülü bölme",
+          "usage_role": "explanatory",
+          "applicability": "Tarihsel taşıma düzeneğinin işlevini açıkça belirtmek gereken bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Düzeneğin kullanıcısını, taşıyıcısını ve örtülü oturma işlevini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kadının deve üzerinde oturduğu örtülü taşıma bölmesi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000343/B007",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Deve üzerinde özellikle kadın için kurulma şartı odak dala özgüdür.",
+          "neighbor_only": "Kumaşla çevrilen ve kubbeli olmayan genel taşıma sedyesi komşu dalın ek sınırıdır.",
+          "gloss": "deve üstü kadın bölmesi ile örtülü taşıma sedyesi",
+          "shared_zone": "Her ikisi de bir kadının binebildiği, kumaşla çevrili taşınabilir bir taşıma düzenidir.",
+          "distinction": "Odak dal deve üzerinde kadına ayrılmış bölmeyi adlandırır; komşu dal ise kumaşla çevrilen, belirli biçim özelliğiyle tanımlanan daha genel bir taşıma sedyesidir."
+        },
+        {
+          "neighbor_ref": "root_001215/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Kadın için deve üzerinde kurulmuş örtülü bölüm olma koşulu odak daldadır.",
+          "neighbor_only": "Kadınların yanı sıra erkekler için de kullanılabilen binek düzeneği komşu daldadır.",
+          "gloss": "kadın taşıma bölmesi ile genel binek bölmesi",
+          "shared_zone": "İki dal da binek hayvanı üzerinde taşınan oturma bölümünü gösterebilir.",
+          "distinction": "Odak dal kullanıcıyı kadın ve taşıyıcıyı deve olarak sınırlar; komşu dal kadın veya erkek için olabilen daha geniş bir binek bölmesi türüdür."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; örtülü taşıma sedyesi ile daha genel binek bölmesi, kullanıcı ve yapı sınırlarını en açık biçimde karşılaştırır.",
+      "branch_image_ar": "عريش المرأة على البعير",
+      "what_is_ar": "العريش شبه الهودج الذي تتخذه المرأة على بعيرها",
+      "what_is_not_ar": "سرير الملك؛ سقف البيت؛ تعريش الكرم؛ خشب البئر",
+      "source_phrase_ar": "العريش شبه الهودج يتخذ للمرأة تقعد فيه على بعيرها (maqayis;sihah;tahdhib)؛ العرش شبه هودج للمرأة شبيها في الهيئة بعرش الكرم (mufradat)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001000/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bir kişinin işini ayakta tutan düzeni, iktidarını, gücünü ve saygınlığını aynı soyut dayanak altında toplar; bu dayanağın yıkılması da işin zayıflaması ve iktidarla saygınlığın gitmesiyle açıklanır. Verilen dal çerçevesi bu varlık-yıkım karşıtlığını korur.",
+        "boundary_note": "Dal somut bir tahtı değil, kişinin işi, yönetme gücü ve saygınlığının ayakta kalmasını sağlayan soyut dayanağı anlatır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım yalın soyut dayanak anlamını, kişiye bağlı kullanımını ve bu dayanağın yıkılmasıyla kurulan kalıplaşmış sonucu ayrı tutar."
+      },
+      "concept_map": {
+        "definition": "Bir kişinin işini, yönetme gücünü ve saygınlığını ayakta tutan soyut dayanak ve düzendir. Bu dayanağın yıkılması, işinin zayıflaması ile iktidarının ve saygınlığının sona ermesini anlatır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişinin işini ve düzenini ayakta tutan temel dayanak anlamıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Bu dayanak yönetme gücü, iktidar ve saygınlık alanlarını da kapsar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Dayanağın yıkılması, kişinin işinin zayıflaması ve gücüyle saygınlığını yitirmesi sonucunu bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar kişinin işini, iktidarını ve saygınlığını ayakta tutan soyut dayanakta ve bunun yıkılmasıyla gücün sona ermesi ilişkisinde birleşir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "işin, iktidarın ve saygınlığın dayanağı",
+        "applicability": "Kişinin iş düzenini, yönetme gücünü ve saygınlığını ayakta tutan ortak soyut temeli karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "İş düzeni, iktidar, saygınlık ve bunları ayakta tutan dayanak ilişkisini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "gücü ve yönetimi çöktü",
+          "usage_role": "contextual",
+          "applicability": "Kalıplaşmış söz kişinin işinin zayıflayıp iktidarıyla saygınlığını yitirmesini anlatıyorsa kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Dayanağın yıkılmasıyla güç ve yönetimin sona ermesi sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kişinin işini ayakta tutan dayanak"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "işi çöktü, iktidarı ve saygınlığı sona erdi"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "iktidar, yönetme gücü ve saygınlık"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001273/B009",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Kişinin iktidarı ve saygınlığının yıkılmasıyla kurulan karşıt sonuç odak dala özgüdür.",
+          "neighbor_only": "Geçim, beden ve genel yaşam düzenini sürdüren dayanaklar komşunun daha geniş kapsamındadır.",
+          "gloss": "iktidarın dayanağı ile genel yaşamsal dayanak",
+          "shared_zone": "Her iki dal bir şeyin ayakta kalmasını sağlayan temel veya düzen anlamını taşır.",
+          "distinction": "Odak dal kişinin işi, yönetme gücü ve saygınlığıyla sınırlı olup bunların çöküşünü de anlatır; komşu dal işten geçime ve bedene uzanan daha genel bir dayanak alanıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel dayanak ile doğrudan hükümdarlık, bu dalın soyut temel ve çöküş ilişkisini en iyi sınırlar.",
+      "branch_image_ar": "قوام الأمر والعز إذا ثبت أو ثل",
+      "what_is_ar": "قوام أمر الرجل وملكه وعزه وما يقال في زواله ثل عرشه",
+      "what_is_not_ar": "السرير المحسوس؛ سقف البيت؛ تعريش الكرم؛ أعضاء الجسد",
+      "source_phrase_ar": "قيل لأمر الرجل وقوامه عرش وإذا زال ذلك عنه قيل ثل عرشه (maqayis)؛ ثل عرشه أي وهى أمره وذهب عزه (sihah)؛ العرش الملك يقال ثل عرشه أي زال ملكه وعزه (tahdhib)؛ كني به عن العز والسلطان والمملكة قيل فلان ثل عرشه (mufradat)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001000/B007",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi tek bir beden bölümünü değil, aynı adın boynun iki yanındaki uzun etli bölümlere, ayağın üstüne, komşuluk yoluyla kulaklara ve at yelesinin sonuna uygulanmasını toplar. Bu nedenle dal, ortak bir anatomi tanımı gibi değil, sınırları tek tek korunması gereken adlandırma ailesi olarak ele alınmalıdır.",
+        "boundary_note": "Boyun yanları çekirdek kullanımdır; ayak üstü ayrı bir beden bölgesidir, kulaklar komşulukla, at yelesinin sonu ise hayvana özgü kullanım olarak eklenir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım yalın ve ad tamlamalı beden adlarını tek bölgeye indirgemez; her adlandırmanın insan veya hayvan üzerindeki ayrı yerini açıkça belirtir."
+      },
+      "concept_map": {
+        "definition": "Aynı ad, başta boynun iki yanındaki uzun etli bölümler olmak üzere ayağın üstü, bunlara komşu sayılan kulaklar ve at yelesinin son kısmı için kullanılır. Bunlar tek bir beden parçası değil, kaynakta birlikte verilen ayrı konumsal adlandırmalardır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Boynun iki yanında, aralarında ense bulunan ve önemli boyun damarlarını taşıyan iki uzun etli bölüm adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Ayağın parmaklarla orta çıkıntı arasındaki üst bölümü aynı adla belirtilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Kulaklar, boynun iki yanındaki bölümlere komşu oldukları için aynı ikili adla anılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "source_variant",
+            "statement": "Atın yelesindeki kılların son bölümü de ikili biçimde aynı adlandırmaya girer.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar boynun iki yanındaki bölümleri ve ayak üstünü aynı ad altında verir; toplu iddia ayrıca kulaklara komşuluk yoluyla aktarımı ve at yelesinin sonuna özgü kullanımı kaydeder.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "boyun yanları, ayak üstü ve bunlara bağlı beden adları",
+        "applicability": "Tek bir anatomi eşdeğeri önermek yerine kaynakta aynı adla toplanan başlıca bölgeleri ve bağlı kullanımları gösterir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Boyun yanlarını, ayak üstünü ve ayrı bağlı adlandırmalar bulunduğunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "boynun iki yanındaki uzun etli bölümler",
+          "usage_role": "explanatory",
+          "applicability": "İnsan boynunun enseyle ayrılan iki yan bölümü söz konusu olduğunda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İkili oluşu, boynun yanlarında yer alışı ve etli bölüm niteliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "ayağın üstü",
+          "usage_role": "contextual",
+          "applicability": "Ayakta parmaklarla orta çıkıntı arasındaki üst yüz anlatılıyorsa kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Ayağın üst yüzündeki belirtilen bölgeyi korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "boynun iki yanındaki uzun etli bölümler"
+        },
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ayağın parmaklarla orta çıkıntı arasındaki üst bölümü"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "boyun yanlarına komşulukla aynı ad verilen iki kulak"
+        },
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "at yelesindeki kılların son bölümü"
+        },
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "iki yanı iri ve geniş deve"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001389/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Enseyle ayrılan iki uzun etli bölüm ve bunların içindeki damar ilişkisi odak dala özgüdür.",
+          "neighbor_only": "Boynun genel yan yüzü olma kapsamı komşu dala özgüdür.",
+          "gloss": "boynun iki etli yanı ile boynun yan yüzü",
+          "shared_zone": "İki dal da boynun sağ ve sol yanlarında bulunan bölgeleri anlatır.",
+          "distinction": "Odak dal iki belirli etli bölümü ve aralarındaki enseyi esas alır; komşu dal boynun yan yüzünü daha genel bir bölge olarak adlandırır."
+        },
+        {
+          "neighbor_ref": "root_000396/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Damarları barındıran uzun etli boyun bölümleri odak dala özgüdür.",
+          "neighbor_only": "Boynun iki yanındaki belirli damarların kendisi komşu dalın çekirdeğidir.",
+          "gloss": "boyun bölgesi ile boyun damarı",
+          "shared_zone": "İki dal boynun aynı yan bölgelerinde anatomik olarak ilişkilidir.",
+          "distinction": "Odak dal damarların geçtiği etli bölümleri adlandırır; komşu dal ise bu bölümlerin içinde veya yakınında bulunan damarların kendisini anlatır."
+        },
+        {
+          "neighbor_ref": "root_001304/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Ayağın parmaklarla orta çıkıntı arasındaki üst yüzü odak dalın ilgili alt anlamıdır.",
+          "neighbor_only": "Ayak veya yüzde dışarı doğru belirginleşen kemik çıkıntısı komşuya özgüdür.",
+          "gloss": "ayak üstü ile kemik çıkıntısı",
+          "shared_zone": "İki dal ayak üstündeki birbirine yakın anatomik alanları gösterebilir.",
+          "distinction": "Odak dal ayağın üst yüzündeki bir bölgeyi adlandırır; komşu dal ise bu alanda bulunabilen çıkıntılı kemiği veya benzeri çıkıntıyı adlandırır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; boyun yüzü, boyun damarı ve ayak çıkıntısı, bu çok bölgeli adlandırmanın en yakın anatomik sınırlarını verir.",
+      "branch_image_ar": "عرشا العنق وظهر القدم",
+      "what_is_ar": "ما سمي عرشا أو عرشين من جانبي العنق وظهر القدم وما جاورهما من الأذنين وآخر شعر عرف الفرس",
+      "what_is_not_ar": "عرش الملك؛ عرش السماك؛ سقف البيت؛ تعريش البئر",
+      "source_phrase_ar": "العرش عرش العنق عرشان بينهما الفقرا وفيهما الأخدعان (maqayis)؛ العرش في القدم ما بين العير والأصابع من ظهر القدم (maqayis)؛ العرش بالضم أحد عرشي العنق (sihah)؛ للعنق عرشان بينهما القفا وفيهما الأخدعان (tahdhib)؛ ظهر القدم العرش وباطنه الأخمص (tahdhib)؛ الأذنان تسميان عرشين لمجاورتهما العرشين (tahdhib)؛ العرشان من الفرس آخر شعر العرف (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001000/B008",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi iki belirli gök adlandırmasını kapsar: bir yıldızın altında bulunan dört küçük yıldız ve bir yıldız kümesinin yakınındaki yıldızlar. Dalın gök cisimleriyle sınırlı, yalın olmayan çerçevesi bu iki özel grubu doğru biçimde bir arada tutar.",
+        "boundary_note": "Dal genel yıldız veya takımyıldız anlamına gelmez; yalnız verilen ad tamlamalarıyla belirlenen iki yıldız grubunu kapsar."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Tanım yalnız iki ad tamlamasına bağlı yıldız gruplarını verir ve bunlardan yalın biçime genel bir gök cismi anlamı çıkarmaz."
+      },
+      "concept_map": {
+        "definition": "Simak'ın Arşı adıyla Avva'nın altında yer alan dört küçük yıldızı ve Süreyya'nın Arşı adıyla Süreyya yakınındaki yıldızları gösteren iki özel gök grubu adıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Simak'ın Arşı adıyla Avva'nın altında bulunan dört küçük yıldızdan oluşan belirli bir grup adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Süreyya'nın Arşı adıyla Süreyya yakınındaki yıldızlar ikinci bir özel gök grubu olarak adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Toplu kaynak iddiası Simak'ın Arşı adıyla Avva'nın altındaki dört küçük yıldızı ve Süreyya'nın Arşı adıyla Süreyya yakınındaki yıldızları iki özel adlandırma olarak birlikte kaydeder.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "Simak'ın Arşı ve Süreyya'nın Arşı diye anılan iki özel yıldız grubu",
+        "applicability": "Yalın bir yıldız anlamı vermeden, Simak'a ve Süreyya'ya bağlı iki ayrı gök grubunu ortak düzeyde karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Simak'ın Arşı ile Süreyya'nın Arşı adlarını ve bunların iki ayrı özel yıldız grubu olduğunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bir yıldızın altındaki dört küçük yıldız",
+          "usage_role": "explanatory",
+          "applicability": "Dört küçük yıldızdan oluşan ve başka bir yıldızın altında bulunan grup anlatıldığında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yıldız sayısını, küçüklüklerini ve başka bir yıldızın altında bulunmalarını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "bir yıldız kümesinin yakınındaki yıldızlar",
+          "usage_role": "explanatory",
+          "applicability": "İkinci özel grubun yakındaki yıldız kümesine göre konumu anlatıldığında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yıldızların grup oluşunu ve yakınlık ilişkisini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Simak'ın Arşı adıyla Avva'nın altında bulunan ve Aslan'ın arka kısmı sayılan dört küçük yıldız"
+        },
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Süreyya'nın Arşı adıyla Süreyya yakınındaki yıldızlar"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001475/B001",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Konumu ve bileşimi belirli iki özel yıldız grubu odak dala özgüdür.",
+          "neighbor_only": "Genel yıldız, yıldız kümesi ve ayın gökteki konakları komşu dalın geniş kapsamındadır.",
+          "gloss": "özel yıldız grupları ile genel gök cisimleri",
+          "shared_zone": "İki dal yıldızları ve gökte tanınan yıldız topluluklarını kapsayan aynı alandadır.",
+          "distinction": "Odak dal yalnız iki özel adla ve göreli konumla belirlenen grupları anlatır; komşu dal yıldız ve yıldız kümelerini genel olarak kapsar."
+        },
+        {
+          "neighbor_ref": "root_000965/B009",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Dört yıldızlık grup ile yakındaki ikinci grup odak dala özgü düzenlerdir.",
+          "neighbor_only": "Başka bir ortak adla anılan küçük yıldızlar komşu dala özgüdür.",
+          "gloss": "iki özel yıldız grubu ile başka küçük yıldızlar",
+          "shared_zone": "Her iki dal küçük yıldızlardan oluşan geleneksel gök adlarını gösterir.",
+          "distinction": "Odak dal yıldızları belirli başka gök cisimlerine göre konumlandırır; komşu dal farklı bir ortak ad taşıyan küçük yıldızları belirtir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel gök cisimleri ile başka küçük yıldız grubu, özel ad ve göreli konum sınırını en açık biçimde gösterir.",
+      "branch_image_ar": "كواكب العرش",
+      "what_is_ar": "الكواكب المسماة عرش السماك أو عرش الثريا",
+      "what_is_not_ar": "أعضاء الجسد؛ السقف؛ سرير الملك؛ تعريش الكرم",
+      "source_phrase_ar": "عرش السماك أربعة كواكب أسفل من الغواء (maqayis)؛ عرش السماك أربعة كواكب صغار أسفل من العواء (sihah)؛ عرش الثريا كواكب قريب منها (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001000/B009",
+      "identity_judgment": {
+        "status": "reframed",
+        "rationale": "Kaynak ifadesi sıradan bir yük taşıma durumundan çok, eşeğin kendi sürüsüne doğru yöneltildiği belirli durumda başını kaldırıp ağzını açmasını anlatır. Dal korunabilir, ancak geçici çerçevedeki genel yükleme çağrışımı kaldırılarak hayvan, sürü, yönelme, baş kaldırma ve ağız açma koşulları birlikte verilmelidir.",
+        "boundary_note": "Anlam genel baş kaldırma veya yük taşıma değildir; eşeğin sürüsüne yöneltildiği anda başını kaldırıp ağzını açmasıyla sınırlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnız eşek ve sürüsüyle kurulan belirtilmiş bağlama bağlıdır; bu kullanımdan yalın köke genel bir baş kaldırma anlamı aktarılmaz."
+      },
+      "concept_map": {
+        "definition": "Eşeğin kendi sürüsüne doğru yöneltildiği sırada başını yukarı kaldırıp ağzını açmasıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Eşek, kendi sürüsüne doğru yöneltilen katılımcıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "core",
+            "statement": "Bu sırada başını kaldırır ve ağzını açık tutar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar eşeğin sürüsüne yöneltildiği koşulda başını kaldırması ve ağzını açması biçimindeki birleşik davranışta uyuşur.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sürüsüne yöneltilen eşeğin başını kaldırıp ağzını açması",
+        "applicability": "Hayvanı, sürüye yönelme koşulunu ve eşzamanlı baş ile ağız hareketlerini birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Eşeği, sürü bağını, baş kaldırmayı ve ağzı açmayı eksiksiz korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "eşek sürüsüne yönelince başını kaldırıp ağzını açtı",
+          "usage_role": "contextual",
+          "applicability": "Belirtilen hayvan davranışını doğal bir Türkçe cümle içinde aktarmak için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Sürüye yönelme koşulunu ve iki bağlı beden hareketini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_023",
+          "rendering_kind": "ordinary",
+          "target_gloss": "eşeğin sürüsüne yönelince başını kaldırıp ağzını açması"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000739/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Eşek, sürüye yönelme koşulu ve ağzın açılması odak dala özgüdür.",
+          "neighbor_only": "Ayağa kalkma, yükselme, böbürlenme ve şaşkınlık içinde dikilme komşu dalın ek kapsamıdır.",
+          "gloss": "eşeğin baş kaldırması ile genel baş kaldırma",
+          "shared_zone": "İki dal da başın yukarı kaldırılması hareketini içerebilir.",
+          "distinction": "Odak dal belirli bir eşek davranışını sürüye yönelme ve ağzı açma şartlarıyla anlatır; komşu dal baş kaldırmayı daha genel beden ve tutum anlamlarına genişletir."
+        },
+        {
+          "neighbor_ref": "root_000706/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Sürüye yöneltilme ve ağzı açma koşulları yalnız odak daldadır.",
+          "neighbor_only": "Boynun uzunluğu, uzatılması ve uzun boyunlu yaratılış komşu dala özgüdür.",
+          "gloss": "baş kaldırma davranışı ile boyun uzatma",
+          "shared_zone": "Her iki dal hayvanın baş ve boyun bölgesindeki yukarı ya da ileri harekete değinir.",
+          "distinction": "Odak dal eşeğin belirli durumda yaptığı birleşik davranıştır; komşu dal boynun uzunluğunu veya uzatılmasını, ağız ve sürü şartı olmadan anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel baş kaldırma ile boyun uzatma, bu özel hayvan davranışının koşul ve hareket sınırlarını en iyi açıklar.",
+      "branch_image_ar": "رفع الحمار رأسه عند الحمل",
+      "what_is_ar": "تعريش الحمار إذا حمل على عانته ورفع رأسه وشحا فاه",
+      "what_is_not_ar": "تعريش الكرم؛ الركوب العام؛ عرش العنق؛ ثل العرش",
+      "source_phrase_ar": "إذا حمل الحمار على العانة رافعا رأسه شاحيا فاه قيل عرش بعانته تعريشا (maqayis)؛ عرش الحمار بعانته تعريشا إذا حمل عليها ورفع رأسه وشحا فاه (sihah)؛ عرش الحمار بعانته تعريشا وذلك إذا حمل على عانته فرفع رأسه شاخسا فاه (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001000/B010",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi tek ve açık bir eylemi bildirir: koyunların otlamasına izin vermemek. Dal çerçevesi hayvanı, engelleyen katılımcıyı ve engellenen otlama sonucunu eksiksiz korur.",
+        "boundary_note": "Dal hayvanları bir yerde tutmanın her türünü değil, özellikle koyunların otlamasını engelleme eylemini kapsar."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın dalı koyunların otlamasını engellemekle sınırlar ve yapı kurma ya da başka hayvan davranışlarına genişletmez."
+      },
+      "concept_map": {
+        "definition": "Koyunların otlağa yayılıp otlamasına izin vermemek, onları otlamaktan alıkoymaktır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kişi koyunların otlama eylemini engeller.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Bu dal için kaynaklar arası ortaklaştırılabilecek ayrı bir iddia yoktur; verilen anlam tek sözlükçe tanıklanır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Tek tanıklık, koyunların otlamasını engelleme eylemini açıkça verir."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "koyunların otlamasını engelleme",
+        "applicability": "Engelleyen bir katılımcı ile otlaması önlenen koyunlar arasındaki eylemi doğrudan karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Koyun katılımcısını ve engellenen otlama eylemini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "koyunları otlamaktan alıkoydu",
+          "usage_role": "contextual",
+          "applicability": "Eylemin tamamlanmış bir olay olarak doğal Türkçe cümlede aktarılması gerektiğinde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Koyunların otlama eyleminin dışarıdan engellenmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_024",
+          "rendering_kind": "ordinary",
+          "target_gloss": "koyunların otlamasını engelleme"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000194/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Koyun ve otlama eylemiyle sınırlı engelleme odak dala özgüdür.",
+          "neighbor_only": "İnsanları herhangi bir işten alıkoyma ve hastalık yüzünden eyleyememe komşunun daha geniş kapsamındadır.",
+          "gloss": "koyunu otlatmama ile genel alıkoyma",
+          "shared_zone": "Her iki dal bir katılımcının yapacağı eylemin engellenmesini anlatır.",
+          "distinction": "Odak dal yalnız koyunların otlamasını engeller; komşu dal kişiyi herhangi bir işten döndürme, oyalama veya hastalıkla engelleme gibi daha genel durumları kapsar."
+        },
+        {
+          "neighbor_ref": "root_000016/B008",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Otlama eylemine izin vermeme odak dala özgüdür.",
+          "neighbor_only": "Sürü veya malı otlakta tutma ve oradan çıkarmama komşu dala özgüdür.",
+          "gloss": "otlamayı engelleme ile otlakta tutma",
+          "shared_zone": "İki dal sürünün hareketini ve otlakla ilişkisini insan denetimine bağlar.",
+          "distinction": "Odak dal koyunun ot yemesini engeller; komşu dal hayvanları otlağın içinde tutar ve onların orada bulunmasını sürdürür."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel alıkoyma ve otlakta tutma, otlama eylemini engellemenin en yakın fakat farklı iki sınırıdır.",
+      "branch_image_ar": "منع الغنم من الرعي",
+      "what_is_ar": "الإعراش بمعنى منع الغنم أن ترتع",
+      "what_is_not_ar": "التعريش بالبناء؛ تعريش الكرم؛ تعريش الحمار",
+      "source_phrase_ar": "الإعراش أن تمنع الغنم أن ترتع وقد أعرشتها إذا منعتها أن ترتع (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Tek tanıklık, koyunların otlamasını engelleme eylemini açıkça verir."
+      }
+    },
+    {
+      "branch_ref": "root_001000/B011",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi çeşitli fiil biçimleriyle aynı eylemi, yani bir bineğin sırtına çıkıp ona binmeyi bildirir. Dal çerçevesi eylemi taşıtın kendisi veya sürüşün başka aşamalarıyla karıştırmadan doğru verir.",
+        "boundary_note": "Dal genel yolculuk, hayvan sürme veya eyer adı değil, yalnız bir bineğin üzerine çıkıp binme eylemidir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım, belirtilen fiil ile binek nesnesinin birlikte kurduğu binme anlamına bağlıdır ve yalın köke genel bir sürüş anlamı yüklemez."
+      },
+      "concept_map": {
+        "definition": "Bir bineğin üzerine çıkıp sırtına yerleşerek ona binmektir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişi bir bineğin üzerine çıkar ve sırtına yerleşir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Bu dal için kaynaklar arası ortaklaştırılabilecek ayrı bir iddia yoktur; verilen binme anlamı tek sözlükçe tanıklanır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Tek tanıklık, farklı fiil biçimlerinin bir bineğe çıkıp binme anlamını taşıdığını bildirir."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bineğin üzerine çıkıp binme",
+        "applicability": "Kişinin bineğe çıkışını ve sırtına yerleşmesini tek eylem dizisi olarak karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Binek katılımcısını, üzerine çıkmayı ve binme sonucunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bineğin üzerine çıkıp bindi",
+          "usage_role": "contextual",
+          "applicability": "Eylemi tamamlanmış bir olay olarak doğal Türkçe içinde aktarmak için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bineğe çıkma ve binme sonucunu birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_025",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bineğin üzerine çıkıp binmek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001432/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Belirli fiil yapılarıyla doğrudan bineğin üzerine çıkma eylemi odak dala özgüdür.",
+          "neighbor_only": "Sırt, binek hayvanı ve onu binek edinme adları komşunun daha geniş kapsamındadır.",
+          "gloss": "bineğe çıkmak ile sırtına binmek",
+          "shared_zone": "İki dal da bir hayvanın sırtına çıkıp onu binek olarak kullanma eylemini karşılar.",
+          "distinction": "Odak dal yalnız binme eylemini verir; komşu dal aynı eylemin yanında hayvan sırtını, binek hayvanını ve onu binek edinmeyi de kapsar."
+        },
+        {
+          "neighbor_ref": "root_000459/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Herhangi bir bineğin üzerine çıkıp yerleşme odak dalın yalın eylem kapsamıdır.",
+          "neighbor_only": "Erkeğin dişinin üzerine çıkması ve kişinin atına sıçrayarak binmesi komşu dalın özel örnekleridir.",
+          "gloss": "bineğe çıkma ile sıçrayıp binme",
+          "shared_zone": "İki dal da kişinin hayvanın üzerine çıkıp binmesini anlatabilir.",
+          "distinction": "Odak dal binme eylemini hareket biçimini belirtmeden verir; komşu dal kişinin ata sıçrayarak çıkmasını ve hayvan çiftleşmesini de kapsayan daha özel ve daha geniş bir alana sahiptir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; sırtına binme ve sıçrayarak binme adayları, eylemin kapsamını ve hareket biçimine ilişkin farkı en iyi gösterir.",
+      "branch_image_ar": "ركوب الدابة واعتلاؤها",
+      "what_is_ar": "اعروش الدابة واعترشها وتعروشها بمعنى ركبها",
+      "what_is_not_ar": "تعريش الحمار عند الحمل؛ تعريش الكرم؛ عرش البئر",
+      "source_phrase_ar": "اعروشت الدابة واعترشته وتعروشته إذا ركبته (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Tek tanıklık, farklı fiil biçimlerinin bir bineğe çıkıp binme anlamını taşıdığını bildirir."
+      }
+    },
+    {
+      "branch_ref": "root_001000/B012",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bir ülkede veya yerde sabit kalıp oraya yerleşmeyi açıkça bildirir. Dal çerçevesi hareketin sona ermesi, yerde kalıcılık ve yer katılımcısını doğru biçimde korur.",
+        "boundary_note": "Dal genel bir varoluş veya geçici uğrama değil, belirtilen yerde sabit kalma ve yerleşme anlamına bağlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım, fiilin yer bildiren tamamlayıcıyla kurduğu sabit kalma anlamına bağlıdır; yalın köke genel bir ikamet anlamı aktarılmaz."
+      },
+      "concept_map": {
+        "definition": "Bir ülkede veya başka bir yerde sabit kalmak, oradan ayrılmayıp yerleşmektir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişi belirtilen yerde sabit kalır ve oraya yerleşir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Bu dal için kaynaklar arası ortaklaştırılabilecek ayrı bir iddia yoktur; yerde sabit kalma anlamı tek sözlükçe tanıklanır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Tek tanıklık, bir ülkede veya yerde sabit kalıp yerleşme anlamını verir."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bir yerde sabit kalıp yerleşme",
+        "applicability": "Yer katılımcısını, kalıcılığı ve oradan ayrılmama sonucunu birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Belirtilen yerde sabit kalmayı ve yerleşmeyi korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "o ülkede kalıp yerleşti",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin belirtilen ülkede sabit kaldığını doğal bir Türkçe cümleyle aktarmak için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Ülke bağını, kalmayı ve yerleşme sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_026",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir ülkede sabit kalıp yerleşmek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000160/B008",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yer bildiren tamamlayıcıyla kurulmuş belirli fiil kullanımı odak dala özgüdür.",
+          "neighbor_only": "Bir yeri bırakmama ve sürekli ona bağlı kalma vurgusu komşu dalda daha belirgindir.",
+          "gloss": "bir yere yerleşmek ile yeri bırakmamak",
+          "shared_zone": "İki dal da bir yerde kalmayı ve oradan ayrılmamayı anlatır.",
+          "distinction": "Odak dal belirli bir ülke veya yerde sabit kalıp yerleşmeyi bildirir; komşu dal yer türünü sınırlamadan o yeri bırakmama ve sürekli kalma yönünü öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_000382/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Sabit kalma ve yerleşme sonucu odak dala özgüdür.",
+          "neighbor_only": "Kalmanın yalnız bir süreyle sınırlı olması komşu dala özgüdür.",
+          "gloss": "yerleşmek ile bir süre kalmak",
+          "shared_zone": "Her iki dal belirli bir yerde kalma eylemini anlatır.",
+          "distinction": "Odak dal yerleşmeye varan sabit kalmayı bildirir; komşu dal aynı yerde yalnız belirli bir süre bulunmayı anlatır."
+        },
+        {
+          "neighbor_ref": "root_000333/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Herhangi bir belirtilen yerde sabit kalma eylemi odak dala özgüdür.",
+          "neighbor_only": "Kent, köy veya kırsal yerleşimde yaşayıp göçebe yaşamı bırakma karşıtlığı komşuya özgüdür.",
+          "gloss": "bir yere yerleşmek ile yerleşik yaşama geçmek",
+          "shared_zone": "İki dal hareketliliğin bırakılıp bir yerleşim alanında kalınmasını içerebilir.",
+          "distinction": "Odak dal belirli bir yerde sabit kalma eylemidir; komşu dal bunu kentli veya köylü yerleşik yaşamın göçebeliğe karşıtı olarak toplumsal yaşam biçimine dönüştürür."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yeri bırakmama, geçici kalma ve yerleşik yaşam adayları süre ile yaşam biçimi sınırlarını en açık biçimde gösterir.",
+      "branch_image_ar": "الثبات في البلد",
+      "what_is_ar": "تعرش بالمكان بمعنى ثبت به",
+      "what_is_not_ar": "عرش الملك؛ السقف؛ تعريش الكرم؛ ركوب الدابة",
+      "source_phrase_ar": "تعرشنا ببلاد كذا أي ثبتنا وتعرش فلان بها (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Tek tanıklık, bir ülkede veya yerde sabit kalıp yerleşme anlamını verir."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Bu kökün dalları hükümdar tahtı, üstü örtülü yapı, bitki desteği ve kuyu kaplaması gibi yükseltilmiş ya da taşıyıcı yapılardan; iktidar dayanağına, beden ve gök adlarına, belirli hayvan davranışlarına, otlatmayı engellemeye, bineğe çıkmaya ve bir yerde yerleşmeye uzanan çoklu anlam alanları oluşturur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 33,
+      "word_count": 33,
+      "ayah_count": 32,
+      "surah_count": 25
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "عَرْش",
+        "stem_ar": "عُرُوشِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|MP|GEN",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "مَّعْرُوشَٰت",
+        "stem_ar": "مَّعْرُوشَٰتٍ",
+        "pos": "ADJ",
+        "measure": "",
+        "morph_features": "STEM|POS:ADJ|PASS|PCPL|LEM:m~aEoruw$a`t|ROOT:Er$|FP|INDEF|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "مَّعْرُوشَٰت",
+        "stem_ar": "مَعْرُوشَٰتٍ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|PASS|PCPL|LEM:m~aEoruw$a`t|ROOT:Er$|FP|INDEF|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "عَرْش",
+        "stem_ar": "عَرْشِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "occurrence_count": 20
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "يَعْرِشُ",
+        "stem_ar": "يَعْرِشُ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:yaEori$u|ROOT:Er$|3MP",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F006",
+        "lemma_ar": "عَرْش",
+        "stem_ar": "عَرْشُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|NOM",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F007",
+        "lemma_ar": "عَرْش",
+        "stem_ar": "عَرْشٌ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|INDEF|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F008",
+        "lemma_ar": "عَرْش",
+        "stem_ar": "عَرْشَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|ACC",
+        "occurrence_count": 3
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:259",
+        "surface_ar": "أَوْ كَٱلَّذِى مَرَّ عَلَىٰ قَرْيَةٍ وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ يُحْىِۦ هَٰذِهِ ٱللَّهُ بَعْدَ مَوْتِهَا فَأَمَاتَهُ ٱللَّهُ مِا۟ئَةَ عَامٍ ثُمَّ بَعَثَهُۥ قَالَ كَمْ لَبِثْتَ قَالَ لَبِثْتُ يَوْمًا أَوْ بَعْضَ يَوْمٍ قَالَ بَل لَّبِثْتَ مِا۟ئَةَ عَامٍ فَٱنظُرْ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمْ يَتَسَنَّهْ وَٱنظُرْ إِلَىٰ حِمَارِكَ وَلِنَجْعَلَكَ ءَايَةً لِّلنَّاسِ وَٱنظُرْ إِلَى ٱلْعِظَامِ كَيْفَ نُنشِزُهَا ثُمَّ نَكْسُوهَا لَحْمًا فَلَمَّا تَبَيَّنَ لَهُۥ قَالَ أَعْلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
+      },
+      {
+        "ayah_ref": "6:141",
+        "surface_ar": "وَهُوَ ٱلَّذِىٓ أَنشَأَ جَنَّٰتٍ مَّعْرُوشَٰتٍ وَغَيْرَ مَعْرُوشَٰتٍ وَٱلنَّخْلَ وَٱلزَّرْعَ مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُتَشَٰبِهًا وَغَيْرَ مُتَشَٰبِهٍ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ حَصَادِهِۦ وَلَا تُسْرِفُوٓا۟ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ"
+      },
+      {
+        "ayah_ref": "7:54",
+        "surface_ar": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ يَطْلُبُهُۥ حَثِيثًا وَٱلشَّمْسَ وَٱلْقَمَرَ وَٱلنُّجُومَ مُسَخَّرَٰتٍۭ بِأَمْرِهِۦٓ أَلَا لَهُ ٱلْخَلْقُ وَٱلْأَمْرُ تَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ"
+      },
+      {
+        "ayah_ref": "7:137",
+        "surface_ar": "وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ وَمَغَٰرِبَهَا ٱلَّتِى بَٰرَكْنَا فِيهَا وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟ وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُۥ وَمَا كَانُوا۟ يَعْرِشُونَ"
+      },
+      {
+        "ayah_ref": "9:129",
+        "surface_ar": "فَإِن تَوَلَّوْا۟ فَقُلْ حَسْبِىَ ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ"
+      },
+      {
+        "ayah_ref": "10:3",
+        "surface_ar": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ يُدَبِّرُ ٱلْأَمْرَ مَا مِن شَفِيعٍ إِلَّا مِنۢ بَعْدِ إِذْنِهِۦ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ فَٱعْبُدُوهُ أَفَلَا تَذَكَّرُونَ"
+      },
+      {
+        "ayah_ref": "11:7",
+        "surface_ar": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ وَكَانَ عَرْشُهُۥ عَلَى ٱلْمَآءِ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا وَلَئِن قُلْتَ إِنَّكُم مَّبْعُوثُونَ مِنۢ بَعْدِ ٱلْمَوْتِ لَيَقُولَنَّ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ"
+      },
+      {
+        "ayah_ref": "12:100",
+        "surface_ar": "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًا وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّا وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ إِنَّ رَبِّى لَطِيفٌ لِّمَا يَشَآءُ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ"
+      },
+      {
+        "ayah_ref": "13:2",
+        "surface_ar": "ٱللَّهُ ٱلَّذِى رَفَعَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى يُدَبِّرُ ٱلْأَمْرَ يُفَصِّلُ ٱلْءَايَٰتِ لَعَلَّكُم بِلِقَآءِ رَبِّكُمْ تُوقِنُونَ"
+      },
+      {
+        "ayah_ref": "16:68",
+        "surface_ar": "وَأَوْحَىٰ رَبُّكَ إِلَى ٱلنَّحْلِ أَنِ ٱتَّخِذِى مِنَ ٱلْجِبَالِ بُيُوتًا وَمِنَ ٱلشَّجَرِ وَمِمَّا يَعْرِشُونَ"
+      },
+      {
+        "ayah_ref": "17:42",
+        "surface_ar": "قُل لَّوْ كَانَ مَعَهُۥٓ ءَالِهَةٌ كَمَا يَقُولُونَ إِذًا لَّٱبْتَغَوْا۟ إِلَىٰ ذِى ٱلْعَرْشِ سَبِيلًا"
+      },
+      {
+        "ayah_ref": "18:42",
+        "surface_ar": "وَأُحِيطَ بِثَمَرِهِۦ فَأَصْبَحَ يُقَلِّبُ كَفَّيْهِ عَلَىٰ مَآ أَنفَقَ فِيهَا وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَيَقُولُ يَٰلَيْتَنِى لَمْ أُشْرِكْ بِرَبِّىٓ أَحَدًا"
+      },
+      {
+        "ayah_ref": "20:5",
+        "surface_ar": "ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ"
+      },
+      {
+        "ayah_ref": "21:22",
+        "surface_ar": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا فَسُبْحَٰنَ ٱللَّهِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ"
+      },
+      {
+        "ayah_ref": "22:45",
+        "surface_ar": "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍ مُّعَطَّلَةٍ وَقَصْرٍ مَّشِيدٍ"
+      },
+      {
+        "ayah_ref": "23:86",
+        "surface_ar": "قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ ٱلسَّبْعِ وَرَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ"
+      },
+      {
+        "ayah_ref": "23:116",
+        "surface_ar": "فَتَعَٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْكَرِيمِ"
+      },
+      {
+        "ayah_ref": "25:59",
+        "surface_ar": "ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ٱلرَّحْمَٰنُ فَسْـَٔلْ بِهِۦ خَبِيرًا"
+      },
+      {
+        "ayah_ref": "27:23",
+        "surface_ar": "إِنِّى وَجَدتُّ ٱمْرَأَةً تَمْلِكُهُمْ وَأُوتِيَتْ مِن كُلِّ شَىْءٍ وَلَهَا عَرْشٌ عَظِيمٌ"
+      },
+      {
+        "ayah_ref": "27:26",
+        "surface_ar": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ"
+      },
+      {
+        "ayah_ref": "27:38",
+        "surface_ar": "قَالَ يَٰٓأَيُّهَا ٱلْمَلَؤُا۟ أَيُّكُمْ يَأْتِينِى بِعَرْشِهَا قَبْلَ أَن يَأْتُونِى مُسْلِمِينَ"
+      },
+      {
+        "ayah_ref": "27:41",
+        "surface_ar": "قَالَ نَكِّرُوا۟ لَهَا عَرْشَهَا نَنظُرْ أَتَهْتَدِىٓ أَمْ تَكُونُ مِنَ ٱلَّذِينَ لَا يَهْتَدُونَ"
+      },
+      {
+        "ayah_ref": "27:42",
+        "surface_ar": "فَلَمَّا جَآءَتْ قِيلَ أَهَٰكَذَا عَرْشُكِ قَالَتْ كَأَنَّهُۥ هُوَ وَأُوتِينَا ٱلْعِلْمَ مِن قَبْلِهَا وَكُنَّا مُسْلِمِينَ"
+      },
+      {
+        "ayah_ref": "32:4",
+        "surface_ar": "ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ مَا لَكُم مِّن دُونِهِۦ مِن وَلِىٍّ وَلَا شَفِيعٍ أَفَلَا تَتَذَكَّرُونَ"
+      },
+      {
+        "ayah_ref": "39:75",
+        "surface_ar": "وَتَرَى ٱلْمَلَٰٓئِكَةَ حَآفِّينَ مِنْ حَوْلِ ٱلْعَرْشِ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَقِيلَ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ"
+      },
+      {
+        "ayah_ref": "40:7",
+        "surface_ar": "ٱلَّذِينَ يَحْمِلُونَ ٱلْعَرْشَ وَمَنْ حَوْلَهُۥ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيُؤْمِنُونَ بِهِۦ وَيَسْتَغْفِرُونَ لِلَّذِينَ ءَامَنُوا۟ رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍ رَّحْمَةً وَعِلْمًا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ"
+      },
+      {
+        "ayah_ref": "40:15",
+        "surface_ar": "رَفِيعُ ٱلدَّرَجَٰتِ ذُو ٱلْعَرْشِ يُلْقِى ٱلرُّوحَ مِنْ أَمْرِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ لِيُنذِرَ يَوْمَ ٱلتَّلَاقِ"
+      },
+      {
+        "ayah_ref": "43:82",
+        "surface_ar": "سُبْحَٰنَ رَبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ"
+      },
+      {
+        "ayah_ref": "57:4",
+        "surface_ar": "هُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ"
+      },
+      {
+        "ayah_ref": "69:17",
+        "surface_ar": "وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَٰنِيَةٌ"
+      },
+      {
+        "ayah_ref": "81:20",
+        "surface_ar": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍ"
+      },
+      {
+        "ayah_ref": "85:15",
+        "surface_ar": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:259:9:1",
+        "qac_word_ref": "2:259:9",
+        "surah": 2,
+        "ayah": 259,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "عُرُوشِ",
+        "stem_ar": "عُرُوشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|MP|GEN",
+        "ayah_ref": "2:259",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:259:noun:11",
+          "attachment_word_unit_id": "q:2:259:11",
+          "qac_char_span": [
+            29,
+            35
+          ],
+          "attachment_char_spans": [
+            [
+              29,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "source_grammar": "noun — genitive plural feminine with possessive pronoun -hā, concrete noun",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:259:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:259:9",
+              "other_surface": "خَاوِيَةٌ",
+              "other_root": "خ و ي",
+              "other_form_tag": "NOUN_ACTIVE_PART",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "6:141:5:1",
+        "qac_word_ref": "6:141:5",
+        "surah": 6,
+        "ayah": 141,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "مَّعْرُوشَٰتٍ",
+        "stem_ar": "مَّعْرُوشَٰتٍ",
+        "lemma_ar": "مَّعْرُوشَٰت",
+        "source_pos": "ADJ",
+        "pos": "ADJ",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "PASS",
+        "morph_features": "STEM|POS:ADJ|PASS|PCPL|LEM:m~aEoruw$a`t|ROOT:Er$|FP|INDEF|ACC",
+        "ayah_ref": "6:141",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s006:141:noun:6",
+          "attachment_word_unit_id": "q:6:141:6",
+          "qac_char_span": [
+            15,
+            22
+          ],
+          "attachment_char_spans": [
+            [
+              15,
+              20
+            ],
+            [
+              15,
+              22
+            ]
+          ],
+          "source_grammar": "passive participle, indefinite, genitive, feminine plural, Form I mafʿūl pattern",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s006:141:pass1:attach:a3",
+              "relation": "adjective",
+              "focus_role": "dependent",
+              "other_unit_id": "q:6:141:5",
+              "other_surface": "جَنَّاتٍ",
+              "other_root": "ج ن ن",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement"
+            },
+            {
+              "attachment_id": "ae:v3:s006:141:pass1:attach:a4",
+              "relation": "conjoined",
+              "focus_role": "head",
+              "other_unit_id": "q:6:141:8",
+              "other_surface": "وَغَيْرَ",
+              "other_root": "غ ي ر",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "6:141:7:1",
+        "qac_word_ref": "6:141:7",
+        "surah": 6,
+        "ayah": 141,
+        "word_index": 7,
+        "morpheme_index": 1,
+        "surface_ar": "مَعْرُوشَٰتٍ",
+        "stem_ar": "مَعْرُوشَٰتٍ",
+        "lemma_ar": "مَّعْرُوشَٰت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "PASS",
+        "morph_features": "STEM|POS:N|PASS|PCPL|LEM:m~aEoruw$a`t|ROOT:Er$|FP|INDEF|GEN",
+        "ayah_ref": "6:141",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s006:141:noun:9",
+          "attachment_word_unit_id": "q:6:141:9",
+          "qac_char_span": [
+            26,
+            33
+          ],
+          "attachment_char_spans": [
+            [
+              26,
+              31
+            ],
+            [
+              26,
+              33
+            ]
+          ],
+          "source_grammar": "passive participle, indefinite, genitive (muḍāf ilayhi), feminine plural",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s006:141:pass1:attach:a5",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:6:141:8",
+              "other_surface": "وَغَيْرَ",
+              "other_root": "غ ي ر",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "7:54:14:2",
+        "qac_word_ref": "7:54:14",
+        "surah": 7,
+        "ayah": 54,
+        "word_index": 14,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "7:54",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s007:054:noun:15",
+          "attachment_word_unit_id": "q:7:54:15",
+          "qac_char_span": [
+            51,
+            56
+          ],
+          "attachment_char_spans": [
+            [
+              53,
+              56
+            ]
+          ],
+          "source_grammar": "genitive masculine singular noun with definite article, governed by ʿalā",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s007:054:pass1:attach:a8",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:7:54:13",
+              "other_surface": "اسْتَوَى",
+              "other_root": "س و ي",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "7:137:29:1",
+        "qac_word_ref": "7:137:29",
+        "surah": 7,
+        "ayah": 137,
+        "word_index": 29,
+        "morpheme_index": 1,
+        "surface_ar": "يَعْرِشُ",
+        "stem_ar": "يَعْرِشُ",
+        "lemma_ar": "يَعْرِشُ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:yaEori$u|ROOT:Er$|3MP",
+        "ayah_ref": "7:137",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s007:137:pass1:frame:v11",
+          "attachment_word_unit_id": "q:7:137:36",
+          "qac_char_span": [
+            136,
+            142
+          ],
+          "attachment_char_spans": [
+            [
+              136,
+              142
+            ],
+            [
+              137,
+              140
+            ]
+          ],
+          "source_grammar": "imperfect verb (IV), 3rd person masculine plural, indicative mood, within past habitual construction (kānū + IV)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s007:137:pass1:attach:a24",
+              "relation": "direct_object",
+              "focus_role": "head",
+              "other_unit_id": "q:7:137:34",
+              "other_surface": "وَمَا",
+              "other_root": "",
+              "other_form_tag": "NEG_PART",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "9:129:14:2",
+        "qac_word_ref": "9:129:14",
+        "surah": 9,
+        "ayah": 129,
+        "word_index": 14,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "9:129",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s009:129:noun:17",
+          "attachment_word_unit_id": "q:9:129:17",
+          "qac_char_span": [
+            44,
+            49
+          ],
+          "attachment_char_spans": [
+            [
+              46,
+              49
+            ]
+          ],
+          "source_grammar": "noun genitive definite — second term of iḍāfa (genitive construct) with rabb",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s009:129:pass1:attach:a8",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:9:129:16",
+              "other_surface": "رَبُّ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s009:129:pass1:attach:a9",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:9:129:18",
+              "other_surface": "الْعَظِيمِ",
+              "other_root": "ع ظ م",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "10:3:14:2",
+        "qac_word_ref": "10:3:14",
+        "surah": 10,
+        "ayah": 3,
+        "word_index": 14,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "10:3",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s010:003:noun:15",
+          "attachment_word_unit_id": "q:10:3:15",
+          "qac_char_span": [
+            51,
+            56
+          ],
+          "attachment_char_spans": [
+            [
+              53,
+              56
+            ]
+          ],
+          "source_grammar": "noun, masculine singular, genitive (governed by ʿalā); definite with al-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s010:003:pass1:attach:a9",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:10:3:13",
+              "other_surface": "اسْتَوَى",
+              "other_root": "س و ي",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "11:7:10:1",
+        "qac_word_ref": "11:7:10",
+        "surah": 11,
+        "ayah": 7,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "عَرْشُ",
+        "stem_ar": "عَرْشُ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|NOM",
+        "ayah_ref": "11:7",
+        "form_id": "F006",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s011:007:noun:13",
+          "attachment_word_unit_id": "q:11:7:13",
+          "qac_char_span": [
+            37,
+            42
+          ],
+          "attachment_char_spans": [
+            [
+              37,
+              40
+            ],
+            [
+              37,
+              41
+            ]
+          ],
+          "source_grammar": "definite noun masculine singular nominative + 3ms pronoun suffix, subject of kāna",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s011:007:pass1:attach:a6",
+              "relation": "subject",
+              "focus_role": "dependent",
+              "other_unit_id": "q:11:7:12",
+              "other_surface": "وَكَانَ",
+              "other_root": "ك و ن",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;word_order"
+            },
+            {
+              "attachment_id": "ae:v3:s011:007:pass1:attach:a7",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:11:7:13",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "12:100:4:2",
+        "qac_word_ref": "12:100:4",
+        "surah": 12,
+        "ayah": 100,
+        "word_index": 4,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "12:100",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s012:100:noun:5",
+          "attachment_word_unit_id": "q:12:100:5",
+          "qac_char_span": [
+            12,
+            17
+          ],
+          "attachment_char_spans": [
+            [
+              14,
+              17
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE definite genitive — object of preposition ʿalā",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s012:100:pass1:attach:a2",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:12:100:2",
+              "other_surface": "وَرَفَعَ",
+              "other_root": "ر ف ع",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "13:2:11:2",
+        "qac_word_ref": "13:2:11",
+        "surah": 13,
+        "ayah": 2,
+        "word_index": 11,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "13:2",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s013:002:noun:12",
+          "attachment_word_unit_id": "q:13:2:12",
+          "qac_char_span": [
+            43,
+            48
+          ],
+          "attachment_char_spans": [
+            [
+              45,
+              48
+            ]
+          ],
+          "source_grammar": "gen. noun (majrūr by ʿalā), definite",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s013:002:pass1:attach:a9",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:13:2:10",
+              "other_surface": "اسْتَوَى",
+              "other_root": "س و ي",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "16:68:13:1",
+        "qac_word_ref": "16:68:13",
+        "surah": 16,
+        "ayah": 68,
+        "word_index": 13,
+        "morpheme_index": 1,
+        "surface_ar": "يَعْرِشُ",
+        "stem_ar": "يَعْرِشُ",
+        "lemma_ar": "يَعْرِشُ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:yaEori$u|ROOT:Er$|3MP",
+        "ayah_ref": "16:68",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s016:068:pass1:frame:v3",
+          "attachment_word_unit_id": "q:16:68:16",
+          "qac_char_span": [
+            49,
+            55
+          ],
+          "attachment_char_spans": [
+            [
+              49,
+              55
+            ],
+            [
+              50,
+              53
+            ]
+          ],
+          "source_grammar": "imperfect verb (fiʿl muḍāriʿ), Form I, 3rd person masculine plural, indicative (marfūʿ)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s016:068:pass1:attach:a11",
+              "relation": "direct_object",
+              "focus_role": "head",
+              "other_unit_id": "q:16:68:15",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "17:42:12:2",
+        "qac_word_ref": "17:42:12",
+        "surah": 17,
+        "ayah": 42,
+        "word_index": 12,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "17:42",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s017:042:noun:14",
+          "attachment_word_unit_id": "q:17:42:14",
+          "qac_char_span": [
+            41,
+            46
+          ],
+          "attachment_char_spans": [
+            [
+              43,
+              46
+            ]
+          ],
+          "source_grammar": "Noun, masculine singular, genitive (in construct after dhī). With definite article al- — THE Throne, specific and unique",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s017:042:pass1:attach:a6",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:17:42:13",
+              "other_surface": "ذِي",
+              "other_root": "ذ و و",
+              "other_form_tag": "NOUN_FIVE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "18:42:13:1",
+        "qac_word_ref": "18:42:13",
+        "surah": 18,
+        "ayah": 42,
+        "word_index": 13,
+        "morpheme_index": 1,
+        "surface_ar": "عُرُوشِ",
+        "stem_ar": "عُرُوشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|MP|GEN",
+        "ayah_ref": "18:42",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s018:042:noun:17",
+          "attachment_word_unit_id": "q:18:42:17",
+          "qac_char_span": [
+            50,
+            56
+          ],
+          "attachment_char_spans": [
+            [
+              50,
+              54
+            ],
+            [
+              50,
+              56
+            ]
+          ],
+          "source_grammar": "noun, concrete, genitive (governed by ʿalā), feminine singular possessive, plural of ʿarsh",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s018:042:pass1:attach:a8",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:18:42:15",
+              "other_surface": "خَاوِيَةٌ",
+              "other_root": "خ و ي",
+              "other_form_tag": "NOUN_ACTIVE_PART",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "20:5:3:2",
+        "qac_word_ref": "20:5:3",
+        "surah": 20,
+        "ayah": 5,
+        "word_index": 3,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "20:5",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s020:005:noun:3",
+          "attachment_word_unit_id": "q:20:5:3",
+          "qac_char_span": [
+            10,
+            15
+          ],
+          "attachment_char_spans": [
+            [
+              12,
+              15
+            ]
+          ],
+          "source_grammar": "definite genitive noun, object of preposition ʿalā",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s020:005:pass1:attach:a2",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:20:5:4",
+              "other_surface": "اسْتَوَى",
+              "other_root": "س و ي",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "21:22:11:2",
+        "qac_word_ref": "21:22:11",
+        "surah": 21,
+        "ayah": 22,
+        "word_index": 11,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "21:22",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s021:022:noun:13",
+          "attachment_word_unit_id": "q:21:22:13",
+          "qac_char_span": [
+            40,
+            45
+          ],
+          "attachment_char_spans": [
+            [
+              42,
+              45
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE genitive definite, muḍāf ilayhi after rabb",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s021:022:pass1:attach:a7",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:21:22:12",
+              "other_surface": "رَبِّ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "22:45:10:1",
+        "qac_word_ref": "22:45:10",
+        "surah": 22,
+        "ayah": 45,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "عُرُوشِ",
+        "stem_ar": "عُرُوشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|MP|GEN",
+        "ayah_ref": "22:45",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s022:045:noun:13",
+          "attachment_word_unit_id": "q:22:45:13",
+          "qac_char_span": [
+            39,
+            45
+          ],
+          "attachment_char_spans": [
+            [
+              39,
+              43
+            ],
+            [
+              39,
+              45
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE — genitive plural (governed by ʿalā) + 3fs possessive pronoun -hā, referring to the settlement's structural frameworks",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s022:045:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:22:45:11",
+              "other_surface": "خَاوِيَةٌ",
+              "other_root": "خ و ي",
+              "other_form_tag": "NOUN_ACTIVE_PART",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "23:86:7:2",
+        "qac_word_ref": "23:86:7",
+        "surah": 23,
+        "ayah": 86,
+        "word_index": 7,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "23:86",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s023:086:noun:8",
+          "attachment_word_unit_id": "q:23:86:8",
+          "qac_char_span": [
+            22,
+            27
+          ],
+          "attachment_char_spans": [
+            [
+              24,
+              27
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE — genitive as muḍāf ilayhi in iḍāfa with rabb; definite with al-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s023:086:pass1:attach:a6",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:23:86:7",
+              "other_surface": "وَرَبُّ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "PREP",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s023:086:pass1:attach:a7",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:23:86:9",
+              "other_surface": "الْعَظِيمِ",
+              "other_root": "ع ظ م",
+              "other_form_tag": "NOUN_PROP",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "23:116:10:2",
+        "qac_word_ref": "23:116:10",
+        "surah": 23,
+        "ayah": 116,
+        "word_index": 10,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "23:116",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s023:116:noun:11",
+          "attachment_word_unit_id": "q:23:116:11",
+          "qac_char_span": [
+            32,
+            37
+          ],
+          "attachment_char_spans": [
+            [
+              34,
+              37
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE — genitive in iḍāfa construction as muḍāf ilayhi of rabb",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s023:116:pass1:attach:a7",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:23:116:10",
+              "other_surface": "رَبُّ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s023:116:pass1:attach:a8",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:23:116:12",
+              "other_surface": "الْكَرِيمِ",
+              "other_root": "ك ر م",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "25:59:13:2",
+        "qac_word_ref": "25:59:13",
+        "surah": 25,
+        "ayah": 59,
+        "word_index": 13,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "25:59",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s025:059:noun:15",
+          "attachment_word_unit_id": "q:25:59:15",
+          "qac_char_span": [
+            50,
+            55
+          ],
+          "attachment_char_spans": [
+            [
+              52,
+              55
+            ]
+          ],
+          "source_grammar": "noun, masculine singular, genitive definite (after ʿalā); object of the preposition",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s025:059:pass1:attach:a7",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:25:59:13",
+              "other_surface": "اسْتَوَى",
+              "other_root": "س و ي",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "27:23:10:1",
+        "qac_word_ref": "27:23:10",
+        "surah": 27,
+        "ayah": 23,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "عَرْشٌ",
+        "stem_ar": "عَرْشٌ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|INDEF|NOM",
+        "ayah_ref": "27:23",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s027:023:noun:12",
+          "attachment_word_unit_id": "q:27:23:12",
+          "qac_char_span": [
+            35,
+            38
+          ],
+          "attachment_char_spans": [
+            [
+              35,
+              38
+            ]
+          ],
+          "source_grammar": "noun concrete (NOUN_CONCRETE), nominative indefinite (subject of existential predicate lahā); central symbol of sovereignty",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s027:023:pass1:attach:a7",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:27:23:11",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "لـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;morphology"
+            },
+            {
+              "attachment_id": "ae:v3:s027:023:pass1:attach:a8",
+              "relation": "predication",
+              "focus_role": "head",
+              "other_unit_id": "q:27:23:11",
+              "other_surface": "وَلَهَا",
+              "other_root": "و ل ي",
+              "other_form_tag": "PREP",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax;word_order"
+            },
+            {
+              "attachment_id": "ae:v3:s027:023:pass1:attach:a9",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:27:23:13",
+              "other_surface": "عَظِيمٌ",
+              "other_root": "ع ظ م",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "27:26:7:2",
+        "qac_word_ref": "27:26:7",
+        "surah": 27,
+        "ayah": 26,
+        "word_index": 7,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "27:26",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s027:026:noun:7",
+          "attachment_word_unit_id": "q:27:26:7",
+          "qac_char_span": [
+            17,
+            22
+          ],
+          "attachment_char_spans": [
+            [
+              19,
+              22
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE, genitive (muḍāf ilayhi of rabb)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s027:026:pass1:attach:a5",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:27:26:6",
+              "other_surface": "رَبُّ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s027:026:pass1:attach:a6",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:27:26:8",
+              "other_surface": "الْعَظِيمِ",
+              "other_root": "ع ظ م",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "27:38:6:2",
+        "qac_word_ref": "27:38:6",
+        "surah": 27,
+        "ayah": 38,
+        "word_index": 6,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "27:38",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s027:038:noun:8",
+          "attachment_word_unit_id": "q:27:38:8",
+          "qac_char_span": [
+            25,
+            31
+          ],
+          "attachment_char_spans": [
+            [
+              25,
+              31
+            ],
+            [
+              26,
+              30
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE; genitive (governed by bi-); with 3rd person feminine singular possessive pronoun -hā referring to the Queen of Sheba",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s027:038:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:27:38:6",
+              "other_surface": "يَأْتِينِّي",
+              "other_root": "أ ت ي",
+              "other_form_tag": "IV",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "27:41:4:1",
+        "qac_word_ref": "27:41:4",
+        "surah": 27,
+        "ayah": 41,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "عَرْشَ",
+        "stem_ar": "عَرْشَ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|ACC",
+        "ayah_ref": "27:41",
+        "form_id": "F008",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s027:041:noun:5",
+          "attachment_word_unit_id": "q:27:41:5",
+          "qac_char_span": [
+            11,
+            16
+          ],
+          "attachment_char_spans": [
+            [
+              11,
+              14
+            ],
+            [
+              11,
+              16
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE.ACC.FS + POSS.3FS — accusative (direct object of nakkirū), with possessive pronoun",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s027:041:pass1:attach:a3",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:27:41:2",
+              "other_surface": "نَكِّرُوا",
+              "other_root": "ن ك ر",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s027:041:pass1:attach:a4",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:27:41:5",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "27:42:5:1",
+        "qac_word_ref": "27:42:5",
+        "surah": 27,
+        "ayah": 42,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "عَرْشُ",
+        "stem_ar": "عَرْشُ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|NOM",
+        "ayah_ref": "27:42",
+        "form_id": "F006",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s027:042:noun:8",
+          "attachment_word_unit_id": "q:27:42:8",
+          "qac_char_span": [
+            17,
+            21
+          ],
+          "attachment_char_spans": [
+            [
+              17,
+              20
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE; nominative (subject of deleted predicate in interrogative clause); 2nd person feminine singular possessive suffix -ki; definite by iḍāfa",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s027:042:pass1:attach:a4",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:27:42:8",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology"
+            },
+            {
+              "attachment_id": "ae:v3:s027:042:pass1:attach:a3",
+              "relation": "predication",
+              "focus_role": "head",
+              "other_unit_id": "q:27:42:6",
+              "other_surface": "أَهَكَذَا",
+              "other_root": "ك و ن",
+              "other_form_tag": "OTHER",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "32:4:14:2",
+        "qac_word_ref": "32:4:14",
+        "surah": 32,
+        "ayah": 4,
+        "word_index": 14,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "32:4",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s032:004:noun:16",
+          "attachment_word_unit_id": "q:32:4:16",
+          "qac_char_span": [
+            54,
+            59
+          ],
+          "attachment_char_spans": [
+            [
+              56,
+              59
+            ]
+          ],
+          "source_grammar": "noun, masculine singular, genitive (majrūr) as object of preposition ʿalā, definite",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s032:004:pass1:attach:a9",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:32:4:14",
+              "other_surface": "اسْتَوَى",
+              "other_root": "س و ي",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "39:75:6:2",
+        "qac_word_ref": "39:75:6",
+        "surah": 39,
+        "ayah": 75,
+        "word_index": 6,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "39:75",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s039:075:noun:7",
+          "attachment_word_unit_id": "q:39:75:7",
+          "qac_char_span": [
+            22,
+            27
+          ],
+          "attachment_char_spans": [
+            [
+              24,
+              27
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE genitive; construct complement after حَوْلِ and central spatial reference",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s039:075:pass1:attach:a4",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:39:75:6",
+              "other_surface": "حَوْلِ",
+              "other_root": "ح و ل",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "40:7:3:2",
+        "qac_word_ref": "40:7:3",
+        "surah": 40,
+        "ayah": 7,
+        "word_index": 3,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشَ",
+        "stem_ar": "عَرْشَ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|ACC",
+        "ayah_ref": "40:7",
+        "form_id": "F008",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s040:007:noun:3",
+          "attachment_word_unit_id": "q:40:7:3",
+          "qac_char_span": [
+            11,
+            16
+          ],
+          "attachment_char_spans": [
+            [
+              13,
+              16
+            ]
+          ],
+          "source_grammar": "Definite concrete noun, accusative direct object of yaḥmilūna",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s040:007:pass1:attach:a2",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:40:7:2",
+              "other_surface": "يَحْمِلُونَ",
+              "other_root": "ح م ل",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "40:15:4:2",
+        "qac_word_ref": "40:15:4",
+        "surah": 40,
+        "ayah": 15,
+        "word_index": 4,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "40:15",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s040:015:noun:4",
+          "attachment_word_unit_id": "q:40:15:4",
+          "qac_char_span": [
+            13,
+            18
+          ],
+          "attachment_char_spans": [
+            [
+              15,
+              18
+            ]
+          ],
+          "source_grammar": "definite singular genitive complement in construct after ذُو",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s040:015:pass1:attach:a3",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:40:15:3",
+              "other_surface": "ذُو",
+              "other_root": "ذ و و",
+              "other_form_tag": "NOUN_FIVE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "43:82:6:2",
+        "qac_word_ref": "43:82:6",
+        "surah": 43,
+        "ayah": 82,
+        "word_index": 6,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "43:82",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s043:082:noun:7",
+          "attachment_word_unit_id": "q:43:82:7",
+          "qac_char_span": [
+            23,
+            28
+          ],
+          "attachment_char_spans": [
+            [
+              25,
+              28
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE genitive complement of the second rabbi",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s043:082:pass1:attach:a5",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:43:82:6",
+              "other_surface": "رَبِّ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "57:4:12:2",
+        "qac_word_ref": "57:4:12",
+        "surah": 57,
+        "ayah": 4,
+        "word_index": 12,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "57:4",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s057:004:noun:13",
+          "attachment_word_unit_id": "q:57:4:13",
+          "qac_char_span": [
+            43,
+            48
+          ],
+          "attachment_char_spans": [
+            [
+              45,
+              48
+            ]
+          ],
+          "source_grammar": "noun, masculine singular, genitive (governed by ʿalā); definite with al-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s057:004:pass1:attach:a8",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:57:4:11",
+              "other_surface": "اسْتَوَى",
+              "other_root": "س و ي",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "69:17:5:1",
+        "qac_word_ref": "69:17:5",
+        "surah": 69,
+        "ayah": 17,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "عَرْشَ",
+        "stem_ar": "عَرْشَ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|ACC",
+        "ayah_ref": "69:17",
+        "form_id": "F008",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s069:017:noun:7",
+          "attachment_word_unit_id": "q:69:17:7",
+          "qac_char_span": [
+            22,
+            25
+          ],
+          "attachment_char_spans": [
+            [
+              22,
+              25
+            ]
+          ],
+          "source_grammar": "noun, accusative singular, direct object, in construct (iḍāfa) with rabbika",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s069:017:pass1:attach:a5",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:69:17:6",
+              "other_surface": "وَيَحْمِلُ",
+              "other_root": "ح م ل",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s069:017:pass1:attach:a6",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:69:17:8",
+              "other_surface": "رَبِّكَ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "81:20:5:2",
+        "qac_word_ref": "81:20:5",
+        "surah": 81,
+        "ayah": 20,
+        "word_index": 5,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "81:20",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s081:020:noun:5",
+          "attachment_word_unit_id": "q:81:20:5",
+          "qac_char_span": [
+            10,
+            15
+          ],
+          "attachment_char_spans": [
+            [
+              12,
+              15
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE, definite genitive singular as complement of word 4",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s081:020:pass1:attach:a3",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:81:20:4",
+              "other_surface": "ذِي",
+              "other_root": "ذ و و",
+              "other_form_tag": "NOUN_FIVE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "85:15:2:2",
+        "qac_word_ref": "85:15:2",
+        "surah": 85,
+        "ayah": 15,
+        "word_index": 2,
+        "morpheme_index": 2,
+        "surface_ar": "عَرْشِ",
+        "stem_ar": "عَرْشِ",
+        "lemma_ar": "عَرْش",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Earo$|ROOT:Er$|M|GEN",
+        "ayah_ref": "85:15",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s085:015:noun:2",
+          "attachment_word_unit_id": "q:85:15:2",
+          "qac_char_span": [
+            2,
+            7
+          ],
+          "attachment_char_spans": [
+            [
+              4,
+              7
+            ]
+          ],
+          "source_grammar": "definite singular concrete noun in genitive case as complement of ذُو (dhū); object possessed in the iḍāfah phrase",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s085:015:pass1:attach:a1",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:85:15:1",
+              "other_surface": "ذُو",
+              "other_root": "ذ و و",
+              "other_form_tag": "NOUN_FIVE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

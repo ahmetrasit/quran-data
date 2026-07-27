@@ -1,0 +1,1105 @@
+{
+  "inputs_sha256": "f1998320b1d4d02f70f7b27ea18fc5c1d405abfc33dfabc5981d6b2364ba469b",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000890",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000890/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Dalın işitilen ses odağı, kaynak ifadesindeki kulağa ulaşan genel ses kavramıyla uyumludur. Şarkı, bağırma, gürültü, yardım çağrısı ve birine seslenme gibi kullanımlar bu çekirdeğin özel ya da yapıya bağlı gerçekleşmeleridir; genel sesin kurucu anlamı sayılmaz.",
+        "boundary_note": "Çekirdek, şiddeti ve kaynağı ne olursa olsun işitilebilir sestir; bağırış, şarkı ve seslenme bunun bağlama bağlı alt kullanımlarıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Yalın biçim genel işitilebilir sesi karşılar; şarkı türü, birine seslenme ve çok ya da yüksek ses çıkarma okumaları yalnızca tanıklanan biçim veya söz öbekleriyle sınırlıdır."
+      },
+      "concept_map": {
+        "definition": "Kulağın algılayabildiği, insanlardan, hayvanlardan, kuşlardan ya da başka kaynaklardan çıkabilen sestir. Şarkı, bağırış, gürültü ve seslenme bu genel çekirdeğin özel veya yapıya bağlı gerçekleşmeleridir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Temel anlam, dinleyenin kulağına ulaşan ve canlı ya da cansız çeşitli kaynaklardan çıkabilen işitilebilir sestir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Bir kaynak, sesi iki cismin çarpışmasıyla sıkışan hava üzerinden fiziksel olarak açıklar; bu açıklama genel işitilebilir ses çekirdeğinin bir çözümlemesidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Bir şarkı veya ezgi türü, genel ses kavramının müzik alanındaki özel bir gerçekleşmesi olarak adlandırılabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "associated_use",
+            "statement": "Bağırma, yüksek ses çıkarma, gürültü ve yardım çağrısı, ses çekirdeğine dayanan olay ve kullanım türleridir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F005",
+            "role": "associated_use",
+            "statement": "Bir kişiye yüksek sesle çağrıda bulunma anlamı, yalnızca ilgili söz öbeğine bağlı bir seslenme kullanımıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, çekirdeği kulağa ulaşan genel ses olarak sunar ve bunu insanlarla sınırlamaz. Toplu tanıklık ayrıca şarkı sesini, bağırmayı, yüksek sesliliği, gürültüyü, yardım çağrısını ve seslenmeyi bu çekirdeğe bağlı özel kullanımlar olarak gösterir; fiziksel oluşuma ilişkin açıklama ise çekirdeğin kaynak düzeyindeki bir çözümlemesidir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "işitilebilir ses",
+        "applicability": "Dalın yalın ve genel çekirdeği için geçerlidir; sesin kaynağı, şiddeti veya müzik niteliği konusunda ek bir koşul getirmez.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kulağın algılayabildiği genel ses çekirdeğini eksiksiz korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "ses",
+          "usage_role": "general",
+          "applicability": "İnsan, hayvan, kuş veya başka bir kaynaktan çıkan genel işitilebilir olgudan söz edildiğinde doğal karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Genel işitilebilir ses anlamını ve kaynak çeşitliliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "şarkı sesi",
+          "usage_role": "contextual",
+          "applicability": "Sesin özellikle bir şarkı veya ezgi türü olarak sınıflandırıldığı müzik bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Genel sesin müzik alanındaki işitilebilir gerçekleşmesini korur.",
+            "loses": "Müzik dışındaki sesleri ve dalın kaynak bakımından genel kapsamını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        },
+        {
+          "text": "bağırış ve gürültü",
+          "usage_role": "contextual",
+          "applicability": "Yüksek ses çıkarma, toplu gürültü veya yardım isteme gibi yoğun ses olaylarının öne çıktığı bağlamlarda uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İşitilebilir sesin yüksek ve dikkat çekici gerçekleşmelerini korur.",
+            "loses": "Sakin, alçak veya gürültü niteliği taşımayan genel sesleri kapsam dışı bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        },
+        {
+          "text": "seslenmek",
+          "usage_role": "contextual",
+          "applicability": "Bir kişiyi sesle çağırmayı bildiren tanıklanmış söz öbeğinin eylem bağlamında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Ses çıkarma yoluyla bir kişiye yöneltilen çağrıyı korur.",
+            "loses": "Bir alıcıya yöneltilmeyen sesleri ve genel işitilebilir ses kapsamını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F005"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ses"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "şarkı türlerinden biri"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bağırmak veya ses çıkarmak"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ses çıkarmak"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birine seslenmek"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bağıran ya da güçlü ve güzel sesli"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yüksek ya da güzel sesli"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çok ya da yüksek ses çıkaran adam"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "iyi ün",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Yayılma çağrışımını dolaylı biçimde koruyabilir.",
+            "loses": "Kulağın algıladığı gerçek ses olgusunu bütünüyle kaybeder.",
+            "adds": null,
+            "collision": "Olumlu toplumsal tanınmışlığı bildiren ikinci dalla karışır."
+          }
+        },
+        {
+          "text": "dinleme",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Kulakla ilişkili bir algı bağlamını korur.",
+            "loses": "Algılanan sesin kendisini, algılama eylemiyle değiştirir.",
+            "adds": "Dinleyenin yönelmiş bir etkinliğini anlama ekler.",
+            "collision": "Dinleme ve susma tartışmasını taşıyan üçüncü dalla karışır."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001664/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Her şiddetteki ve her tür kaynaktan gelen genel işitilebilir ses bu dalda yer alır.",
+          "neighbor_only": "Yüksek, toplu ve gürültülü bağırışların olay niteliği komşu dalda özellikle belirleyicidir.",
+          "gloss": "yüksek ses ve gürültü",
+          "shared_zone": "Her iki dal da kulağa ulaşan sesleri ve özellikle bağırış biçimindeki gerçekleşmeleri kapsayabilir.",
+          "distinction": "Odak dal sesin genel türünü verir; komşu dal ise şiddet, topluluk ve gürültü özellikleriyle belirlenmiş özel bir ses olayını anlatır. Bu nedenle genel bağlamlarda birbirlerinin yerine geçmezler."
+        },
+        {
+          "neighbor_ref": "root_000591/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal alçak, yüksek, yakın veya uzak olmasına bakmadan işitilebilir sesi kapsar.",
+          "neighbor_only": "Komşu dalda sesin kısık ya da uzaktan gelmesi ayırt edici bir sınırdır.",
+          "gloss": "kısık veya uzak ses",
+          "shared_zone": "Komşu dalın kısık ya da uzak sesi de odak dalın genel işitilebilir ses kapsamına girer.",
+          "distinction": "Komşu dal, genel ses alanının şiddet veya uzaklıkla sınırlandırılmış bir bölümüdür; odak dal bu koşulları gerektirmez."
+        },
+        {
+          "neighbor_ref": "root_000890/B002",
+          "relation_type": "thematic",
+          "boundary_match": "thematic_only",
+          "focus_only": "Odak dalın çekirdeği kulağın algıladığı gerçek ve işitilebilir ses olgusudur.",
+          "neighbor_only": "Komşu dalın çekirdeği insanlar arasında yayılan olumlu ün ve iyi anılmadır.",
+          "gloss": "iyi ün",
+          "shared_zone": "Sesin yayılması düşüncesi, işitilebilir sesten toplumsal tanınmışlığa uzanan tarihsel bir çağrışım kurar.",
+          "distinction": "İki dal aynı kök çevresinde ilişkilense de biri akustik olgu, diğeri olumlu toplumsal değerlendirmedir; olağan kullanımda anlamsal olarak birbirlerinin yerine geçmezler."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel sesle yüksek veya kısık ses türleri arasındaki kapsam ilişkisini ve iyi üne geçişteki anlam ayrılığını en açık gösteren üç komşu seçildi.",
+      "branch_image_ar": "الصوت المسموع",
+      "what_is_ar": "الصوت الذي يقع في الأذن وما يتصل به من الصياح وشدة الصوت والغناء والجلبة والاستغاثة",
+      "what_is_not_ar": "الصيت بمعنى الذكر الحسن؛ الإنصات بمعنى الاستماع أو الإجابة",
+      "source_phrase_ar": "الصوت وهو جنس لكل ما وقر في أذن السامع (maqayis)؛ كل ضرب من الأغنيات صوت من الأصوات (ayn)؛ الصوت معروف وهو اسم يلزم كل ناطق من الناس والبهائم والطير وغيرهم (jamhara)؛ الضوضاء والجلبة والاستغاثة (sihah)؛ الصوت هو الهواء المنضغط عن قرع جسمين (mufradat)؛ رجل صيت شديد الصوت وصائت إذا صاح (maqayis)؛ صات يصوت صوتا فهو صائت بمعنى صائح (ayn)؛ الصائت الصائح وقد صات الشيء يصوت صوتا وكذلك صوت تصويتا (sihah)؛ رجل صيت شديد الصوت وصائت صائح (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "JA",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000890/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Dalın iyi ün odağı, kaynak ifadesinde insanlar arasında yayılan güzel ve olumlu anılmayla açıkça desteklenir. Kötü ün özellikle dışarıda bırakılır; sesin yayılması ise güncel çekirdek değil, bu olumlu toplumsal anlamın kaynak düzeyindeki dayanağıdır.",
+        "boundary_note": "Kavram, yalnızca olumlu ve güzel anılmayı kapsar; nötr tanınmışlık, kötü şöhret ve gerçek işitilebilir ses bu sınırın dışındadır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Yalın biçim insanlar arasında yayılan iyi ünü karşılar; bir kişinin sesinin yayılması biçimindeki söz öbeği ise yalnızca iyi adının yayılması anlamındaki tanıklanmış mecazla sınırlıdır."
+      },
+      "concept_map": {
+        "definition": "Bir kişinin insanlar arasında yayılan olumlu ve güzel anılması, yani iyi ünüdür. Nötr tanınmışlık veya kötü şöhret değil, açıkça olumlu toplumsal hatırlanma söz konusudur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Çekirdek, bir kişi hakkında insanlar arasında yayılan olumlu, güzel ve iyi anılmadır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Anlamın sesin yayılması düşüncesinden geliştiği belirtilir, ancak yerleşik kullanım yalnızca olumlu ünle sınırlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar kavramı insanlar arasında yayılan iyi ve güzel anılma olarak ortaklaştırır ve kötü anılmayı kapsam dışında tutar. Toplu ifade, bu olumlu ün anlamını sesin yayılması düşüncesiyle ilişkilendirirken gerçek sesi güncel anlamın çekirdeği yapmaz.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "iyi ün",
+        "applicability": "Bir kişi hakkında insanlar arasında yayılmış olumlu ve güzel anılmayı kısa ve doğal biçimde karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Olumlu değerlendirme ile insanlar arasında yayılmış olma çekirdeğini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "iyi adla anılma",
+          "usage_role": "explanatory",
+          "applicability": "Bir kişinin çevresinde olumlu biçimde tanındığını ve hakkında iyi söz yayıldığını açıklayan bağlamlarda uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kişinin insanlar arasında olumlu ve güzel biçimde anılmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "iyi adının yayılması",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin olumlu ününün insanlar arasında yayılma sürecinin özellikle belirtildiği söz öbeği bağlamında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Olumlu adın topluluk içinde yayılmasını ve yerleşmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "iyi ün"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "iyi adının insanlar arasında yayılması"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "şöhret",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "İnsanlar arasında yaygın biçimde tanınmayı korur.",
+            "loses": null,
+            "adds": "Olumlu, nötr veya kötü olabilen daha geniş bir tanınmışlık alanı ekler.",
+            "collision": "Kavramın yalnızca iyi anılmayla sınırlı olumlu değerini belirsizleştirir."
+          }
+        },
+        {
+          "text": "itibar",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Olumlu toplumsal değerlendirme yönünü korur.",
+            "loses": "İyi adın insanlar arasında yayılması ve anılma yönünü zayıflatır.",
+            "adds": "Saygınlık, güvenilirlik veya toplumsal konum anlamlarını ekleyebilir.",
+            "collision": "Yayılmış olumlu anılmayı toplumsal değer ve konumla karıştırabilir."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000516/B007",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal yalnızca insanlar arasında yayılmış olumlu ve güzel anılmayı gerektirir.",
+          "neighbor_only": "Komşu dal şeref, yücelik, övgü ve toplumsal değer gibi iyi ünü aşan unsurları da kapsar.",
+          "gloss": "şeref ve iyi anılma",
+          "shared_zone": "Her iki dal bir kişinin toplum içinde olumlu biçimde anılması ve değerlendirilmesi alanında örtüşür.",
+          "distinction": "İyi anılma bağlamında yakınlaşırlar; ancak komşu dal övgü, şeref ve yüksek konumu da içerdiğinden odak dalın daha dar olumlu ün sınırını aşar."
+        },
+        {
+          "neighbor_ref": "root_000500/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, tanınmışlığın olumlu ve güzel anılma niteliği taşımasını zorunlu kılar.",
+          "neighbor_only": "Komşu dal bir topluluğun ulaştığı tanınmışlığı değer bakımından olumlu olmakla sınırlamaz.",
+          "gloss": "tanınmışlık",
+          "shared_zone": "Her iki dal insanlar arasında yayılmış tanınma ve ün durumunu ifade edebilir.",
+          "distinction": "Komşu dal nötr tanınmışlığa kadar genişleyebilir; odak dalda ise olumlu değerlendirme kurucu ve vazgeçilmez bir koşuldur."
+        },
+        {
+          "neighbor_ref": "root_000741/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal olumlu niteliği sabit olan iyi ün ve güzel anılmayla sınırlıdır.",
+          "neighbor_only": "Komşu dal yayılan söz, nötr ün, gösteriş ve kötüleyici tanıtma gibi olumlu olmayan kullanımlara da uzanır.",
+          "gloss": "yayılan ün ve söz",
+          "shared_zone": "Her iki dal bir kişi veya konu hakkındaki sözün insanlar arasında yayılması alanını paylaşır.",
+          "distinction": "Odak dal yayılmayı mutlaka olumlu anılmayla birleştirir; komşu dal ise yayım ve duyurma olgusunu değer yönünden çok daha geniş tutar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; olumlu ünün şeref ve övgüden, nötr tanınmışlıktan ve değer bakımından geniş yayılan söz alanından ayrıldığı üç sınır en yararlı karşılaştırmalar olarak seçildi.",
+      "branch_image_ar": "الصيت الحسن",
+      "what_is_ar": "الصيت بمعنى الذكر الحسن أو الجميل المنتشر في الناس",
+      "what_is_not_ar": "الصوت المسموع نفسه؛ الذكر القبيح",
+      "source_phrase_ar": "الصيت الذكر الحسن في الناس (maqayis)؛ فلان حسن الصيت له صيت وذكر في الناس حسن (ayn)؛ الصيت الذكر الجميل الذي ينتشر في الناس دون القبيح (sihah)؛ الصيت خص بالذكر الحسن وإن كان في الأصل انتشار الصوت (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000890/B003",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Dalın sesle bağlantılı dinleme odağı ancak nitelikli biçimde kabul edilebilir. Kanıt, bazı kaynaklarda çağrılan kişinin cevap verip çağırana yönelmesi, Mufradat'ta ise konuşmayı bırakıp dinlemesi biçiminde iki ayrı okuma verir; Mufradat ayrıca cevap verme yorumunu açıkça reddeder.",
+        "boundary_note": "Dal, tek ve serbestçe genellenebilen bir karşılık gibi okunmamalıdır; kullanım ya çağrıya cevap verip yönelme okumasıyla ya da konuşmayı bırakıp dinleme okumasıyla sınırlı tutulmalıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "unresolved",
+        "note": "Kapsam verilen biçim veya özel kullanım sınırıyla bağlıdır; ortak bir yalın anlam ya da üretken genel kullanım varsayılmaz."
+      },
+      "concept_map": {
+        "definition": "Kaynaklarda iki bağdaşmayan okuma vardır: çağrıyı yanıtlayıp çağırana yönelme ve konuşmayı bırakarak dinleme. Karşılık verme okumasının açıkça reddedilmesi, bunların tek bir olağan tanım altında birleştirilmesini engeller.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "source_variant",
+            "statement": "Bir okuma, çağrılan kişinin çağrıya karşılık vermesini ve çağırana doğru yönelmesini sesle tetiklenen bir tepki olarak sunar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "core",
+            "statement": "Diğer okuma, kişinin konuşmayı bırakıp kendisine yöneltilen sözü dinlemesini temel anlam sayar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Kaynak içindeki açık değerlendirme, çağrıya karşılık verme yorumunun geçerli olmadığını bildirerek iki okuma arasındaki uyuşmazlığı kesinleştirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Maqayis ve Sihah, çağrı üzerine cevap verip çağırana yönelmeyi sesle tetiklenen bir tepki olarak açıklar. Mufradat ise anlamı konuşmayı bırakıp dinleme diye tanımlar ve cevap verme yorumunu geçerli saymaz; bu yüzden dal tek bir birleşik anlam olarak değil, kaynaklar arası sınırlı bir ayrılık olarak tutulur.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "çağrıya yanıt veya susup dinleme",
+        "applicability": "Dalın güvenli kısa karşılığı olarak yalnız bu tartışmalı iki kaynak okumasını gösterir; bunları tek ve normalde birbirinin yerine geçebilen bir anlam gibi birleştirmez.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Çağrıya cevap verip yönelme ile konuşmayı bırakıp dinleme okuması arasındaki kaynak ayrılığını korur.",
+          "loses": "Her iki okumanın kaynak içi tartışma ayrıntılarını kısa karşılığa bütünüyle taşımaz.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "susup dinleme",
+          "usage_role": "contextual",
+          "applicability": "Konuşmayı bırakıp söyleneni dinleme okumasını izleyen bağlamlarda kullanılabilir; dalın öteki kaynak okumasını temsil etmez.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Konuşmayı bırakma ve dikkatini söylenene verme bileşenlerini korur.",
+            "loses": "Çağrıya karşılık verme ve çağırana yönelme biçimindeki rakip kaynak okumasını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "çağrıya karşılık verip yönelme",
+          "usage_role": "contextual",
+          "applicability": "Yalnızca çağrılan kişinin cevap vererek çağırana yöneldiği kaynak okumasını aktaran bağlamlarda kullanılabilir.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Çağrıya cevap verme ve çağırana doğru yönelme bileşenlerini korur.",
+            "loses": "Konuşmayı bırakıp dinleme okumasını ve cevap verme yorumuna yöneltilen açık itirazı dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [],
+      "neighbor_coverage_note": "Dal yalnız sınırlı veya biçime bağlı adlandırma malzemesini tuttuğu için yayımlanacak güvenilir komşu ayrımı seçilmedi.",
+      "branch_image_ar": "الإنصات للصوت",
+      "what_is_ar": "الإنصات المتصل بالصوت، بين الإجابة والإقبال عند بعض المصادر والاستماع مع ترك الكلام عند الراغب",
+      "what_is_not_ar": "الصوت المسموع نفسه؛ الصيت بمعنى الذكر الحسن",
+      "source_phrase_ar": "دعى فانصات كأنه صوت به فانفعل من الصوت وذلك إذا أجاب (maqayis)؛ دعى فانصات أي أجاب وأقبل وهو انفعل من الصوت (sihah)؛ الإنصات هو الاستماع إليه مع ترك الكلام (mufradat)؛ يقال للإجابة إنصات وليس ذلك بشيء (mufradat)",
+      "sources": [
+        "MQ",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Kökün dalları genel işitilebilir sesi, bu çekirdekten tarihsel olarak uzaklaşıp olumlu toplumsal üne dönüşen anlamı ve çağrıya karşılık verme ile susarak dinleme arasında yapısal inceleme gerektiren tartışmalı bir kümeyi kapsar.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 8,
+      "word_count": 8,
+      "ayah_count": 5,
+      "surah_count": 4
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "صَوْت",
+        "stem_ar": "صَوْتِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|M|GEN",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "صَوْت",
+        "stem_ar": "أَصْوَاتُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|MP|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "صَوْت",
+        "stem_ar": "أَصْوَٰتِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|MP|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "صَوْت",
+        "stem_ar": "صَوْتُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|M|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "صَوْت",
+        "stem_ar": "أَصْوَٰتَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|MP|ACC",
+        "occurrence_count": 2
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "17:64",
+        "surface_ar": "وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُم بِصَوْتِكَ وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ وَعِدْهُمْ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا"
+      },
+      {
+        "ayah_ref": "20:108",
+        "surface_ar": "يَوْمَئِذٍ يَتَّبِعُونَ ٱلدَّاعِىَ لَا عِوَجَ لَهُۥ وَخَشَعَتِ ٱلْأَصْوَاتُ لِلرَّحْمَٰنِ فَلَا تَسْمَعُ إِلَّا هَمْسًا"
+      },
+      {
+        "ayah_ref": "31:19",
+        "surface_ar": "وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ"
+      },
+      {
+        "ayah_ref": "49:2",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَرْفَعُوٓا۟ أَصْوَٰتَكُمْ فَوْقَ صَوْتِ ٱلنَّبِىِّ وَلَا تَجْهَرُوا۟ لَهُۥ بِٱلْقَوْلِ كَجَهْرِ بَعْضِكُمْ لِبَعْضٍ أَن تَحْبَطَ أَعْمَٰلُكُمْ وَأَنتُمْ لَا تَشْعُرُونَ"
+      },
+      {
+        "ayah_ref": "49:3",
+        "surface_ar": "إِنَّ ٱلَّذِينَ يَغُضُّونَ أَصْوَٰتَهُمْ عِندَ رَسُولِ ٱللَّهِ أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱمْتَحَنَ ٱللَّهُ قُلُوبَهُمْ لِلتَّقْوَىٰ لَهُم مَّغْفِرَةٌ وَأَجْرٌ عَظِيمٌ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "17:64:5:2",
+        "qac_word_ref": "17:64:5",
+        "surah": 17,
+        "ayah": 64,
+        "word_index": 5,
+        "morpheme_index": 2,
+        "surface_ar": "صَوْتِ",
+        "stem_ar": "صَوْتِ",
+        "lemma_ar": "صَوْت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|M|GEN",
+        "ayah_ref": "17:64",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s017:064:noun:6",
+          "attachment_word_unit_id": "q:17:64:6",
+          "qac_char_span": [
+            19,
+            24
+          ],
+          "attachment_char_spans": [
+            [
+              19,
+              24
+            ],
+            [
+              20,
+              23
+            ]
+          ],
+          "source_grammar": "Prepositional phrase: bāʾ al-istiʿāna (instrumental بِ) + NOUN_ABSTRACT صَوْت in genitive with 2ms possessive suffix -ka; marks the instrument of istafziz — the means by which provocation is achieved",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s017:064:pass1:attach:a4",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:17:64:2",
+              "other_surface": "وَاسْتَفْزِزْ",
+              "other_root": "ف ز ز",
+              "other_form_tag": "CV",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "20:108:8:2",
+        "qac_word_ref": "20:108:8",
+        "surah": 20,
+        "ayah": 108,
+        "word_index": 8,
+        "morpheme_index": 2,
+        "surface_ar": "أَصْوَاتُ",
+        "stem_ar": "أَصْوَاتُ",
+        "lemma_ar": "صَوْت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|MP|NOM",
+        "ayah_ref": "20:108",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s020:108:noun:9",
+          "attachment_word_unit_id": "q:20:108:9",
+          "qac_char_span": [
+            30,
+            37
+          ],
+          "attachment_char_spans": [
+            [
+              32,
+              37
+            ]
+          ],
+          "source_grammar": "noun, definite, nominative (subject of khashaʿat); broken plural of ṣawt; tag: NOUN_ABSTRACT",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s020:108:pass1:attach:a6",
+              "relation": "subject",
+              "focus_role": "dependent",
+              "other_unit_id": "q:20:108:8",
+              "other_surface": "وَخَشَعَتِ",
+              "other_root": "خ ش ع",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "agreement;word_order"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "31:19:6:1",
+        "qac_word_ref": "31:19:6",
+        "surah": 31,
+        "ayah": 19,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "صَوْتِ",
+        "stem_ar": "صَوْتِ",
+        "lemma_ar": "صَوْت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|M|GEN",
+        "ayah_ref": "31:19",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s031:019:noun:8",
+          "attachment_word_unit_id": "q:31:19:8",
+          "qac_char_span": [
+            18,
+            22
+          ],
+          "attachment_char_spans": [
+            [
+              18,
+              21
+            ],
+            [
+              18,
+              22
+            ]
+          ],
+          "source_grammar": "noun (ism), genitive (majrūr) governed by min, with 2ms possessive suffix -ka",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s031:019:pass1:attach:a2",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:31:19:6",
+              "other_surface": "وَاغْضُضْ",
+              "other_root": "غ ض ض",
+              "other_form_tag": "CV",
+              "prep_base": "مِن",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "31:19:9:2",
+        "qac_word_ref": "31:19:9",
+        "surah": 31,
+        "ayah": 19,
+        "word_index": 9,
+        "morpheme_index": 2,
+        "surface_ar": "أَصْوَٰتِ",
+        "stem_ar": "أَصْوَٰتِ",
+        "lemma_ar": "صَوْت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|MP|GEN",
+        "ayah_ref": "31:19",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s031:019:noun:11",
+          "attachment_word_unit_id": "q:31:19:11",
+          "qac_char_span": [
+            28,
+            35
+          ],
+          "attachment_char_spans": [
+            [
+              30,
+              35
+            ]
+          ],
+          "source_grammar": "broken plural noun (ism jamʿ taksīr), genitive (majrūr) as second term of iḍāfa with ankar",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s031:019:pass1:attach:a4",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:31:19:10",
+              "other_surface": "أَنْكَرَ",
+              "other_root": "ن ك ر",
+              "other_form_tag": "ADJ_COMP",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "31:19:10:2",
+        "qac_word_ref": "31:19:10",
+        "surah": 31,
+        "ayah": 19,
+        "word_index": 10,
+        "morpheme_index": 2,
+        "surface_ar": "صَوْتُ",
+        "stem_ar": "صَوْتُ",
+        "lemma_ar": "صَوْت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|M|NOM",
+        "ayah_ref": "31:19",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s031:019:noun:13",
+          "attachment_word_unit_id": "q:31:19:13",
+          "qac_char_span": [
+            35,
+            39
+          ],
+          "attachment_char_spans": [
+            [
+              35,
+              39
+            ],
+            [
+              36,
+              39
+            ]
+          ],
+          "source_grammar": "noun (ism), nominative (marfūʿ) as predicate (khabar) of inna, in construct with al-ḥamīr",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s031:019:pass1:attach:a5",
+              "relation": "predication",
+              "focus_role": "dependent",
+              "other_unit_id": "q:31:19:9",
+              "other_surface": "إِنَّ",
+              "other_root": "",
+              "other_form_tag": "ANNUL_PART",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s031:019:pass1:attach:a6",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:31:19:14",
+              "other_surface": "الْحَمِيرِ",
+              "other_root": "ح م ر",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "49:2:6:1",
+        "qac_word_ref": "49:2:6",
+        "surah": 49,
+        "ayah": 2,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "أَصْوَٰتَ",
+        "stem_ar": "أَصْوَٰتَ",
+        "lemma_ar": "صَوْت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|MP|ACC",
+        "ayah_ref": "49:2",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s049:002:noun:7",
+          "attachment_word_unit_id": "q:49:2:7",
+          "qac_char_span": [
+            25,
+            32
+          ],
+          "attachment_char_spans": [
+            [
+              25,
+              30
+            ],
+            [
+              25,
+              32
+            ]
+          ],
+          "source_grammar": "noun, broken plural of ṣawt, accusative (object), with 2MP possessive pronoun",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s049:002:pass1:attach:a4",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:49:2:6",
+              "other_surface": "تَرْفَعُوا",
+              "other_root": "ر ف ع",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "49:2:8:1",
+        "qac_word_ref": "49:2:8",
+        "surah": 49,
+        "ayah": 2,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "صَوْتِ",
+        "stem_ar": "صَوْتِ",
+        "lemma_ar": "صَوْت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|M|GEN",
+        "ayah_ref": "49:2",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s049:002:noun:9",
+          "attachment_word_unit_id": "q:49:2:9",
+          "qac_char_span": [
+            35,
+            38
+          ],
+          "attachment_char_spans": [
+            [
+              35,
+              38
+            ]
+          ],
+          "source_grammar": "noun, singular, genitive (muḍāf ilayhi after fawqa), construct state",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s049:002:pass1:attach:a6",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:49:2:8",
+              "other_surface": "فَوْقَ",
+              "other_root": "ف و ق",
+              "other_form_tag": "ADV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s049:002:pass1:attach:a7",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:49:2:10",
+              "other_surface": "النَّبِيِّ",
+              "other_root": "ن ب أ",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "49:3:4:1",
+        "qac_word_ref": "49:3:4",
+        "surah": 49,
+        "ayah": 3,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أَصْوَٰتَ",
+        "stem_ar": "أَصْوَٰتَ",
+        "lemma_ar": "صَوْت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Sawot|ROOT:Swt|MP|ACC",
+        "ayah_ref": "49:3",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s049:003:noun:4",
+          "attachment_word_unit_id": "q:49:3:4",
+          "qac_char_span": [
+            12,
+            19
+          ],
+          "attachment_char_spans": [
+            [
+              12,
+              17
+            ],
+            [
+              12,
+              19
+            ]
+          ],
+          "source_grammar": "noun, plural (broken plural of ṣawt), accusative (direct object of yaghuḍḍūna), with 3mp possessive pronoun",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s049:003:pass1:attach:a2",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:49:3:3",
+              "other_surface": "يَغُضُّونَ",
+              "other_root": "غ ض ض",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

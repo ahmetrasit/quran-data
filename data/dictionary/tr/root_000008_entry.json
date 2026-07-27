@@ -1,0 +1,1025 @@
+{
+  "inputs_sha256": "b3cf23326655abe31a2c4465389e4f2cd58d5ba2cb2f56341ea9fee4b60ed03d",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000008",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000008/B001",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi anlamın çekirdeğini bir şeyi kabul etmeme ve ondan hoşlanmama olarak kurar; ayrıca bu tutumun sıradan kaçınmadan daha güçlü olduğunu açıkça belirtir. İnsan, hayvan, su ve hastalıkla ilgili kullanımlar aynı düzeyde birer çekirdek anlam değil, bu çekirdeğin özel varlıklara ve durumlara bağlanan gerçekleşmeleridir.",
+        "boundary_note": "Dal, her türlü kaçınmayı değil, güçlü bir geri çevirme veya boyun eğmeme tutumunu kapsar; hayvan ve hastalık örnekleri bu sınır içinde bağımlı özel kullanımlardır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, yalın kullanımdaki güçlü kabul etmeme çekirdeğini özel yapılardaki insana, hayvana, suya ve hastalığa bağlı anlamlardan ayırır; özel yapıların kapsamı yalın anlama genellenmez."
+      },
+      "concept_map": {
+        "definition": "Bir şeyi istemeyerek güçlü biçimde kabul etmemek ya da baskı ve aşağılanmaya boyun eğmemektir. Bu çekirdek, belirli kullanımlarda güçlük çıkaran hayvana, hayvanın içmediği suya veya içmeyi engelleyen hastalığa uygulanır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişi kendisine sunulan şeyi istemez ve onu güçlü biçimde kabul etmez; bu tutum sıradan kaçınmadan daha keskindir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "İnsan için, baskıya veya aşağılanmaya katlanmayı reddederek boyun eğmeme niteliğini anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Hayvanlara ilişkin kullanımlarda güçlük çıkarma, içmeme ya da hastalık yüzünden içememe biçiminde gerçekleşir; hayvanın geri çevirdiği su da aynı ilişkiyle adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, kabul etmeme ve istememe çekirdeğinde birleşir. Bu tutumun sıradan kaçınmadan daha güçlü olduğu bir kaynakta açıkça belirtilir; insanın aşağılanmaya boyun eğmemesi ile hayvan, su ve hastalık alanındaki özel kullanımlar kaynakların birlikte sağladığı ayrıntılardır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "güçlü biçimde kabul etmeme ve boyun eğmeme",
+        "applicability": "Dalın istememe, güçlü geri çevirme ve baskıya direnme öğelerini birlikte veren en kapsamlı kısa karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Güçlü kabul etmeyi reddetme tutumunu ve kişinin baskıya boyun eğmemesini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kesin biçimde reddetmek",
+          "usage_role": "general",
+          "applicability": "Bir şeyin sunulduğu ve kişinin onu istemeyerek kabul etmediği bağlamlarda doğal bir eylem karşılığıdır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Sunulan şeyi güçlü biçimde kabul etmeme eylemini korur.",
+            "loses": "Baskıya boyun eğmeme niteliğini ve hayvanlara bağlı özel kullanımları tek başına göstermez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "boyun eğmemek",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin baskıya, haksızlığa veya aşağılanmaya katlanmayı reddettiği bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İnsanın baskıya ve aşağılanmaya karşı direnmesini korur.",
+            "loses": "Sunulan herhangi bir şeyi istemeyerek kabul etmeme kapsamını ve hayvanlara bağlı özel kullanımları dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "içmeyi reddetmek",
+          "usage_role": "contextual",
+          "applicability": "Hayvanın bir suyu içmediği veya bir hastalığın hayvanı içmekten alıkoyduğu özel bağlamlara uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Hayvana bağlı içmeme gerçekleşmesini korur.",
+            "loses": "İnsan iradesine bağlı genel kabul etmeme ve boyun eğmeme çekirdeğinin geri kalanını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "şiddetle kabul etmeme"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "istemeyip kabul etmemek"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "aşağılanmaya boyun eğmemek"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "boyun eğmeyen, güçlük çıkaran"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "boyun eğmeyen ve direnen kimseler"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "huysuz ve güçlük çıkaran dişi deve"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "develerin içmeyi reddettiği su"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yemeyi reddettiren bir ağrıya tutulmak"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çiftleştiği halde ilk gebeliğine kadar gebe kalmayan genç dişi develer"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çiftleştiği halde henüz gebe kalmamış genç dişi deve"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "hastalık yüzünden su içemeyen teke"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "hastalık yüzünden su içemeyen dişi keçi"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "kaçınma",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Bir şeye yönelmeme düşüncesini kısmen korur.",
+            "loses": null,
+            "adds": "Güçlü bir geri çevirme içermeyen sıradan uzak durma durumlarını da kapsar.",
+            "collision": "Dalın sıradan kaçınmadan daha güçlü olduğu yönündeki açık sınırı siler."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000555/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Geri çevirmenin güçlü oluşunu, istememeyi ve baskıya boyun eğmeme niteliğini kapsar.",
+          "neighbor_only": "Bir sözün yanlışlığını veya paranın geçersizliğini belirleyip geri çevirme gibi değerlendirmeye dayalı kullanımları kapsar.",
+          "gloss": "kabul etmeme ile geçersiz bulup geri çevirme",
+          "shared_zone": "Her iki dal da bir şeyin kabul edilmemesi ve geri çevrilmesi alanında buluşur.",
+          "distinction": "Odak dalında belirleyici olan, kabul etmeyen öznenin güçlü isteksizliği veya boyun eğmemesidir; komşu dal ise nesnenin yanlış ya da geçersiz bulunması üzerine verilen geri çevirme kararını da kapsar."
+        },
+        {
+          "neighbor_ref": "root_001554/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "İsteksizliği güçlü bir direnme ve aşağılanmaya boyun eğmeme olarak kurabilir.",
+          "neighbor_only": "Geri durmayı korku, güçsüzlük veya yetersizliğe bağlar.",
+          "gloss": "direnerek kabul etmeme ile korkudan geri durma",
+          "shared_zone": "Her iki dalda da kişi bir işe girişmez veya bir şeyi yapmaktan geri durur.",
+          "distinction": "Odak dalı güçlü bir reddediş ya da direnç bildirirken komşu dalın ayırıcı nedeni korku, zayıflık veya güç yetirememedir; bu nedenle olağan bağlamlarda birbirlerinin yerine geçmezler."
+        },
+        {
+          "neighbor_ref": "root_000145/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kabul etmeme davranışını nesneler, baskı ve bazı özel hayvan durumları boyunca kapsar.",
+          "neighbor_only": "Konuşmaktan bilgisizlikle veya bilerek geri durma durumuyla sınırlıdır.",
+          "gloss": "genel reddediş ile konuşmaktan geri durma",
+          "shared_zone": "İki dal, öznenin belirli bir eylemi yapmaması bakımından kesişir.",
+          "distinction": "Komşu dal yalnızca konuşmama eylemini ve bunun bilinçli ya da bilgisizce oluşunu anlatır; odak dalının güçlü istememe ve boyun eğmeme çekirdeğini gerektirmez."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi. Yayımlanan üç karşılaştırma kabul etmeme, geri durma ve konuşmama sınırlarını doğrudan aydınlatır; öteki adaylar yalnızca öfke, kapasite, yön değiştirme veya uzak bir ortak senaryo sunduğu için çıkarıldı.",
+      "branch_image_ar": "الإِباء والامتناع",
+      "what_is_ar": "كل إِباء وامتناع شديد عن قبول الشيء أو تحمله وكراهته وما حمل عليه من وصف الإنسان أو الدابة أو الماء أو الداء بالامتناع",
+      "what_is_not_ar": "الأَبَاء بمعنى أطراف القصب أو الأَبَاءة للأجمة أو الرماح",
+      "source_phrase_ar": "الهمزة والباء والياء يدل على الامتناع (maqayis); أبيت الشيء آباه وقوم أبيون وأباة (maqayis); الإباء شدة الامتناع فكل إباء امتناع وليس كل امتناع إباءا (mufradat); أبيت الشيء آباه إباء كرهته (tahdhib); الأبية من الإبل الصعبة وماء مأباة أي تأباه الإبل (maqayis); رجل أبي ممتنع من تحمل الضيم وتيس آبى وعنز أبواء (mufradat)",
+      "sources": [
+        "MQ",
+        "MU",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000008/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi temel anlamı kamışların uçları, tekil biçimi de bir kamış ucu olarak verir; ardından aynı adın koruluk için kullanıldığını, bir yorumda da çok sayıdaki mızrağın çokluk bakımından kamışlara benzetildiğini belirtir. Hazırlanmış dal bu temel ile diğer kullanımları doğru sırada ve ayrı düzeylerde tutar.",
+        "boundary_note": "Dalın çekirdeği kamış uçlarıdır; koruluk aynı adın kaydedilmiş bir kullanımı, çok sayıdaki mızrak ise kamışlara benzetilen olası bir yorumdur."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın dalı kamış uçları temelinde kurar; koruluğu aynı adın kaydedilmiş kullanımı, çok sayıdaki mızrağı ise kamışlara benzetilen olası bir yorum olarak ayırır."
+      },
+      "concept_map": {
+        "definition": "Kamışların uç bölümleri ve bunlardan bir tekidir. Aynı ad koruluk için de kullanılır; bir yorumda ise çok sayıdaki mızrak, çokluk bakımından kamışlara benzetilerek bu adla açıklanır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Temel anlam kamışların uç bölümleridir; tekil biçim bu uçlardan birini gösterir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Aynı ad koruluk için de kullanılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Bir yorumda çok sayıdaki mızrak, çokluk bakımından kamışlara benzetilerek bu adla açıklanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Anlam çizgisi, tek bir kamış ucundan kamış uçlarının çoğuluna uzanır; aynı ad koruluk için de kaydedilir ve bir yorumda çok sayıdaki mızrak çokluk bakımından kamışlara benzetilir.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Tek tanıklık, temel anlam ile tekil biçimi açıklar; aynı adın koruluk için de kullanıldığını bildirir ve olası mızrak yorumunu çok sayıdaki mızrağın kamışlara benzetilmesiyle açıklar."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kamış uçları, koruluk ve kamışlara benzetilen çok sayıdaki mızrak",
+        "applicability": "Temel nesneyi, kaydedilmiş koruluk kullanımını ve çok sayıdaki mızrağa ilişkin benzetme yorumunu ayrı ayrı gösteren kapsamlı kısa karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kamış uçları çekirdeğini, koruluk kullanımını ve kamışlara benzetilen çok sayıdaki mızrak yorumunu birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kamış uçları",
+          "usage_role": "general",
+          "applicability": "Sözün doğrudan kamışların uç bölümlerini gösterdiği temel kullanım için uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Dalın somut temel anlamını eksiksiz korur.",
+            "loses": "Koruluk ve çok sayıdaki mızrak için kurulan benzetmeli uzantıları göstermez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "sık bitki topluluğu",
+          "usage_role": "contextual",
+          "applicability": "Sözün koruluk için kullanıldığı bağlamlara uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kaydedilmiş koruluk kullanımını korur.",
+            "loses": "Kamış uçlarının doğrudan adını ve mızraklara ilişkin yorum seçeneğini dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "sık mızrak topluluğu",
+          "usage_role": "explanatory",
+          "applicability": "Kaynakta olasılık olarak verilen, çok sayıdaki mızrağın kamışlara benzetildiği yorumu açıklamak için uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Çok sayıdaki mızrağa ilişkin benzetmeli kaynak yorumunu korur.",
+            "loses": "Kamış uçları çekirdeğini ve koruluk uzantısını tek başına karşılamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kamış uçları"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "tek bir kamış ucu"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "koruluk veya sık mızrak topluluğu"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "koruluk",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Sık bitki topluluğuna aktarılan kullanımı korur.",
+            "loses": "Kamış uçları temelini ve mızrak topluluğuna ilişkin kaynak yorumunu dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000294/B011",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Kamış uçlarını ve kamışlara benzetilen çok sayıdaki mızrak yorumunu da kapsar.",
+          "neighbor_only": null,
+          "gloss": "kaydedilmiş koruluk kullanımı ile doğrudan koruluk",
+          "shared_zone": "İki dal da yoğun bitki topluluğu anlamında koruluğu gösterebilir.",
+          "distinction": "Komşu dal doğrudan koruluğu adlandırır; odak dalında ise koruluk kaydedilmiş kullanımlardan yalnızca biridir ve dalın bütün kapsamının yerine geçmez."
+        },
+        {
+          "neighbor_ref": "root_001117/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Kamış uçlarını ve kamışlara benzetilen çok sayıdaki mızrak yorumunu da kapsar.",
+          "neighbor_only": "Koruluğun içine girenin gizlenebileceği kadar kapalı ve yoğun oluşunu belirginleştirir.",
+          "gloss": "kaydedilmiş koruluk kullanımı ile gizleyen koruluk",
+          "shared_zone": "Her iki dal da sık bitkilerin oluşturduğu koruluk alanını adlandırır.",
+          "distinction": "Odak dalı koruluk için de kullanılır; komşu dal ise içindekini gizleyen yoğun koruluğu doğrudan öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_000862/B006",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Kamışın uç bölümünü ve uçların sık topluluk görüntüsünü anlatır.",
+          "neighbor_only": "Düzgün, eğriliği giderilmeye ihtiyaç duymayan uzun gövdeyi veya silah sapını anlatır.",
+          "gloss": "kamış ucu ile düz kamış gövdesi",
+          "shared_zone": "İki dalın somut örnekleri kamış ve kamışa benzeyen silah parçaları alanında buluşur.",
+          "distinction": "Odak dalında belirleyici parça uç ve onun çoğul görünümüdür; komşu dalda ise belirleyici özellik uzun gövdenin düzlüğüdür, bu yüzden ortak nesne alanı anlam özdeşliği yaratmaz."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi. Yayımlanan karşılaştırmalar koruluk anlamına en yakın iki dalı ve kamışla ilgili biçimsel komşuyu ayırır; kenar, kıyı, bitki adı ve uzak topluluk adayları çekirdeği yeterince keskinleştirmediği için çıkarıldı.",
+      "branch_image_ar": "الأَبَاء من القصب والأجمة",
+      "what_is_ar": "أطراف القصب المسماة الأَبَاء والواحدة أَبَاءة وما سمي بذلك من الأجمة وما شبه به من الرماح",
+      "what_is_not_ar": "الإِباء بمعنى الامتناع وكراهة القبول",
+      "source_phrase_ar": "الأَبَاء أطراف القصب الواحدة أَبَاءة ثم قيل للأجمة أَبَاءة (maqayis); يجوز أن يكون أراد بالأَبَاءة الرماح شبهها بالقصب كثرة (maqayis)",
+      "sources": [
+        "MQ"
+      ],
+      "source_note": {
+        "MQ": "Tek tanıklık, temel anlam ile tekil biçimi açıklar; aynı adın koruluk için de kullanıldığını bildirir ve olası mızrak yorumunu çok sayıdaki mızrağın kamışlara benzetilmesiyle açıklar."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, bir yanda güçlü kabul etmeme ve boyun eğmeme davranışını ve bunun özel uzantılarını, öte yanda kamış uçlarını, koruluk kullanımını ve kamışlara benzetilen çok sayıdaki mızrak yorumunu anlatan iki ayrı dal kurar.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 13,
+      "word_count": 13,
+      "ayah_count": 12,
+      "surah_count": 8
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "أَبَى",
+        "stem_ar": "أَبَىٰ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "أَبَى",
+        "stem_ar": "يَأْبَ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:>abaY|ROOT:Aby|3MS|MOOD:JUS",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "أَبَى",
+        "stem_ar": "تَأْبَىٰ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:>abaY|ROOT:Aby|3FS",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "أَبَى",
+        "stem_ar": "يَأْبَى",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:>abaY|ROOT:Aby|3MS|MOOD:SUBJ",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "أَبَى",
+        "stem_ar": "أَبَىٰٓ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F006",
+        "lemma_ar": "أَبَى",
+        "stem_ar": "أَبَى",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F007",
+        "lemma_ar": "أَبَى",
+        "stem_ar": "أَبَ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MP",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F008",
+        "lemma_ar": "أَبَى",
+        "stem_ar": "أَبَيْ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3FP",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:34",
+        "surface_ar": "وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ وَٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَٰفِرِينَ"
+      },
+      {
+        "ayah_ref": "2:282",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍ مُّسَمًّى فَٱكْتُبُوهُ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًٔا فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةً تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ وَلَا يُضَآرَّ كَاتِبٌ وَلَا شَهِيدٌ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ وَٱتَّقُوا۟ ٱللَّهَ وَيُعَلِّمُكُمُ ٱللَّهُ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "9:8",
+        "surface_ar": "كَيْفَ وَإِن يَظْهَرُوا۟ عَلَيْكُمْ لَا يَرْقُبُوا۟ فِيكُمْ إِلًّا وَلَا ذِمَّةً يُرْضُونَكُم بِأَفْوَٰهِهِمْ وَتَأْبَىٰ قُلُوبُهُمْ وَأَكْثَرُهُمْ فَٰسِقُونَ"
+      },
+      {
+        "ayah_ref": "9:32",
+        "surface_ar": "يُرِيدُونَ أَن يُطْفِـُٔوا۟ نُورَ ٱللَّهِ بِأَفْوَٰهِهِمْ وَيَأْبَى ٱللَّهُ إِلَّآ أَن يُتِمَّ نُورَهُۥ وَلَوْ كَرِهَ ٱلْكَٰفِرُونَ"
+      },
+      {
+        "ayah_ref": "15:31",
+        "surface_ar": "إِلَّآ إِبْلِيسَ أَبَىٰٓ أَن يَكُونَ مَعَ ٱلسَّٰجِدِينَ"
+      },
+      {
+        "ayah_ref": "17:89",
+        "surface_ar": "وَلَقَدْ صَرَّفْنَا لِلنَّاسِ فِى هَٰذَا ٱلْقُرْءَانِ مِن كُلِّ مَثَلٍ فَأَبَىٰٓ أَكْثَرُ ٱلنَّاسِ إِلَّا كُفُورًا"
+      },
+      {
+        "ayah_ref": "17:99",
+        "surface_ar": "أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ قَادِرٌ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُمْ وَجَعَلَ لَهُمْ أَجَلًا لَّا رَيْبَ فِيهِ فَأَبَى ٱلظَّٰلِمُونَ إِلَّا كُفُورًا"
+      },
+      {
+        "ayah_ref": "18:77",
+        "surface_ar": "فَٱنطَلَقَا حَتَّىٰٓ إِذَآ أَتَيَآ أَهْلَ قَرْيَةٍ ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًا"
+      },
+      {
+        "ayah_ref": "20:56",
+        "surface_ar": "وَلَقَدْ أَرَيْنَٰهُ ءَايَٰتِنَا كُلَّهَا فَكَذَّبَ وَأَبَىٰ"
+      },
+      {
+        "ayah_ref": "20:116",
+        "surface_ar": "وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ"
+      },
+      {
+        "ayah_ref": "25:50",
+        "surface_ar": "وَلَقَدْ صَرَّفْنَٰهُ بَيْنَهُمْ لِيَذَّكَّرُوا۟ فَأَبَىٰٓ أَكْثَرُ ٱلنَّاسِ إِلَّا كُفُورًا"
+      },
+      {
+        "ayah_ref": "33:72",
+        "surface_ar": "إِنَّا عَرَضْنَا ٱلْأَمَانَةَ عَلَى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا ٱلْإِنسَٰنُ إِنَّهُۥ كَانَ ظَلُومًا جَهُولًا"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:34:9:1",
+        "qac_word_ref": "2:34:9",
+        "surah": 2,
+        "ayah": 34,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَىٰ",
+        "stem_ar": "أَبَىٰ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "ayah_ref": "2:34",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            40,
+            44
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:282:16:1",
+        "qac_word_ref": "2:282:16",
+        "surah": 2,
+        "ayah": 282,
+        "word_index": 16,
+        "morpheme_index": 1,
+        "surface_ar": "يَأْبَ",
+        "stem_ar": "يَأْبَ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "JUS",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:>abaY|ROOT:Aby|3MS|MOOD:JUS",
+        "ayah_ref": "2:282",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            73,
+            76
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:282:73:1",
+        "qac_word_ref": "2:282:73",
+        "surah": 2,
+        "ayah": 282,
+        "word_index": 73,
+        "morpheme_index": 1,
+        "surface_ar": "يَأْبَ",
+        "stem_ar": "يَأْبَ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "JUS",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:>abaY|ROOT:Aby|3MS|MOOD:JUS",
+        "ayah_ref": "2:282",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            314,
+            317
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:8:13:2",
+        "qac_word_ref": "9:8:13",
+        "surah": 9,
+        "ayah": 8,
+        "word_index": 13,
+        "morpheme_index": 2,
+        "surface_ar": "تَأْبَىٰ",
+        "stem_ar": "تَأْبَىٰ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:>abaY|ROOT:Aby|3FS",
+        "ayah_ref": "9:8",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            53,
+            59
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:32:7:2",
+        "qac_word_ref": "9:32:7",
+        "surah": 9,
+        "ayah": 32,
+        "word_index": 7,
+        "morpheme_index": 2,
+        "surface_ar": "يَأْبَى",
+        "stem_ar": "يَأْبَى",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "SUBJ",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:>abaY|ROOT:Aby|3MS|MOOD:SUBJ",
+        "ayah_ref": "9:32",
+        "form_id": "F004",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            28,
+            33
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "15:31:3:1",
+        "qac_word_ref": "15:31:3",
+        "surah": 15,
+        "ayah": 31,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَىٰٓ",
+        "stem_ar": "أَبَىٰٓ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "ayah_ref": "15:31",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            8,
+            12
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "17:89:10:2",
+        "qac_word_ref": "17:89:10",
+        "surah": 17,
+        "ayah": 89,
+        "word_index": 10,
+        "morpheme_index": 2,
+        "surface_ar": "أَبَىٰٓ",
+        "stem_ar": "أَبَىٰٓ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "ayah_ref": "17:89",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            34,
+            39
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "17:99:20:2",
+        "qac_word_ref": "17:99:20",
+        "surah": 17,
+        "ayah": 99,
+        "word_index": 20,
+        "morpheme_index": 2,
+        "surface_ar": "أَبَى",
+        "stem_ar": "أَبَى",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "ayah_ref": "17:99",
+        "form_id": "F006",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            73,
+            77
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:77:9:2",
+        "qac_word_ref": "18:77:9",
+        "surah": 18,
+        "ayah": 77,
+        "word_index": 9,
+        "morpheme_index": 2,
+        "surface_ar": "أَبَ",
+        "stem_ar": "أَبَ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MP",
+        "ayah_ref": "18:77",
+        "form_id": "F007",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            37,
+            42
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "20:56:6:2",
+        "qac_word_ref": "20:56:6",
+        "surah": 20,
+        "ayah": 56,
+        "word_index": 6,
+        "morpheme_index": 2,
+        "surface_ar": "أَبَىٰ",
+        "stem_ar": "أَبَىٰ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "ayah_ref": "20:56",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            25,
+            30
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "20:116:9:1",
+        "qac_word_ref": "20:116:9",
+        "surah": 20,
+        "ayah": 116,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَىٰ",
+        "stem_ar": "أَبَىٰ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "ayah_ref": "20:116",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            40,
+            44
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "25:50:5:2",
+        "qac_word_ref": "25:50:5",
+        "surah": 25,
+        "ayah": 50,
+        "word_index": 5,
+        "morpheme_index": 2,
+        "surface_ar": "أَبَىٰٓ",
+        "stem_ar": "أَبَىٰٓ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3MS",
+        "ayah_ref": "25:50",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            22,
+            27
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "33:72:8:2",
+        "qac_word_ref": "33:72:8",
+        "surah": 33,
+        "ayah": 72,
+        "word_index": 8,
+        "morpheme_index": 2,
+        "surface_ar": "أَبَيْ",
+        "stem_ar": "أَبَيْ",
+        "lemma_ar": "أَبَى",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:>abaY|ROOT:Aby|3FP",
+        "ayah_ref": "33:72",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            39,
+            44
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

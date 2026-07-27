@@ -1,0 +1,2839 @@
+{
+  "inputs_sha256": "a810178b6bb4d0faad48c9279520c99d305c660f0b825076a2c8d89c6a6c6a7b",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_001034",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_001034/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, bir nesnenin uçlarını bir araya getirip düğümleme çekirdeğini; ip, yapı kemeri, dizideki düğüm yerleri ve gerdanlık gibi somut gerçekleşmelerle birlikte açıkça destekler.",
+        "boundary_note": "Dal somut bağlama ve düğüm yerleriyle sınırlıdır; bağlayıcı söz, inanç, koyulaşma ve konuşma tutukluğu bu kapsama girmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, ortak somut çekirdeği korurken ip bağlama ve yapı kemeri gibi kuruluşlara bağlı kullanımları bağımsız bir yalın anlammış gibi genelleştirmez."
+      },
+      "concept_map": {
+        "definition": "Bir şeyin uçlarını veya parçalarını bir araya getirip çözülmesini önleyecek biçimde düğümleme ya da bağlama işlemidir. Bu somut çekirdek, yapıdaki kemer biçimine, dizideki düğüm noktalarına ve boynu çevreleyen gerdanlığa özel kullanımlarla uzanır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Uçlar veya parçalar bir araya getirilir ve düğümle sabitlenir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Yapıda kemer oluşturma ile bir dizinin ya da ipin düğüm noktaları bu somut bağlama örüntüsünü taşır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Boynu çevreleyen gerdanlık, birbirine bağlanmış parçaların oluşturduğu nesne olarak adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, uçları birleştiren somut düğümleme çekirdeğinde ve bunun ip, yapı, dizim noktası ile gerdanlık gerçekleşmelerinde birleşir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "uçları birleştirip düğümleme",
+        "applicability": "Somut bağlama çekirdeğini doğal ve kısa biçimde karşılar; özel yapı ve gerdanlık kullanımları bağlama göre ayrıca belirtilir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Uçları bir araya getirme ve düğümle sabitleme işlemlerinin ikisini de korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "düğüm atıp bağlamak",
+          "usage_role": "contextual",
+          "applicability": "İp veya benzeri esnek bir nesnenin uçlarının bağlandığı cümlelerde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Somut uçları düğümleme ve bağlama eylemini eksiksiz korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "kemer oluşturmak",
+          "usage_role": "contextual",
+          "applicability": "Yapıda kemerli bir bölüm meydana getirme kullanımına özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yapıya bağlı kemer oluşturma özelleşmesini doğru biçimde korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ipi düğümleyip bağlamak"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yapıda kemer oluşturmak"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "düğüm yeri veya üzerine düğüm atılan nokta"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "dizideki düğüm yerleri"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "gerdanlık"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000535/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, düğüm noktalarını, yapı kemerini ve gerdanlığı da somut düğümleme örüntüsüne bağlar.",
+          "neighbor_only": "Komşu dal, bağlama aracı ile kesilmiş tuzak ipi gibi daha genel bağ ve ip nesnelerini de kapsar.",
+          "gloss": "bağlayıp düğümleme",
+          "shared_zone": "Her iki dal da bir şeyi ip veya benzeri bir araçla bağlayıp sabitleme alanında örtüşür.",
+          "distinction": "Odak dalın ayırıcı yanı uçların düğümde birleştirilmesi ve bundan doğan düğüm noktalarıdır; komşu dal daha genel bağlama ve bağ aracını öne çıkarır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; en güçlü karışma genel bağlama dalıyla görüldüğü için yalnızca bu sınır karşılaştırması yayımlandı.",
+      "branch_image_ar": "شد الأطراف وربطها",
+      "what_is_ar": "يدخل فيه عقد الحبل والبناء والنظام والقلادة ومواضع العقد والمعاقد والعقدة الحسية.",
+      "what_is_not_ar": "ليس هو إلزام العهد أو عقد اليمين، ولا انعقاد العسل، ولا عقدة اللسان.",
+      "source_phrase_ar": "عقد البناء والجمع أعقاد وعقود (maqayis)؛ عقدت الحبل أعقده عقدا وقد انعقد (maqayis)؛ عقدت الحبل عقدا ونحوه فانعقد (ayn)؛ عقدت الحبل والبيع والعهد فانعقد (sihah)؛ عقدت الحبل فهو معقود (tahdhib)؛ العقد الجمع بين أطراف الشيء (mufradat)؛ عقد القلادة ما يكون طوار العنق (maqayis;ayn)؛ المعاقد مواضع العقد من النظام (maqayis;ayn;tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, bir sözün ya da işlemin bağlayıcılığını kurup kesinleştirmeyi; karşılıklı söz, ant, evlilik ve satış gibi açık uygulamalarla birlikte verir.",
+        "boundary_note": "Dal, yükümlülük doğuran söz ve işlemlerle sınırlıdır; somut düğüm, büyü düğümü ve yalnızca genel yakınlık ilişkisi değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım bağlayıcı kılma çekirdeğini korur; ant, evlilik ve satış anlamlarını yalnızca tanıklanan kuruluşlara bağlı özelleşmeler olarak gösterir."
+      },
+      "concept_map": {
+        "definition": "Bir söz, yükümlülük veya işlemi taraflar için geçerli ve bağlayıcı olacak biçimde kurup kesinleştirmektir. Karşılıklı sözleşme, ciddi ant, evlilik bağı ve satışın yürürlüğe konması bu çekirdeğin özel gerçekleşmeleridir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir söz veya işlem kesinleştirilerek yerine getirilmesi gereken bağlayıcı bir yükümlülük kurulur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Karşılıklı söz verme ve ciddi bir ant içme, bağlayıcılığın sözlü gerçekleşmeleridir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Evlilik ve satış işlemlerinin kurulup yürürlüğe girmesi, çekirdeğin hukuki işlem alanındaki gerçekleşmesidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, kesinleştirilmiş söz veya işlemin bağlayıcı yükümlülük doğurduğu konusunda birleşir ve bunu ant, evlilik, satış ile karşılıklı söz üzerinden örnekler.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bağlayıcı bir söz veya işlemi kesinleştirme",
+        "applicability": "Söz, ant, sözleşme, evlilik ve satış gibi yükümlülük doğuran kullanımların ortak çekirdeğini karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hem bağlayıcılık kurmayı hem de söz ya da işlemi kesinleştirmeyi korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bağlayıcı söz vermek",
+          "usage_role": "contextual",
+          "applicability": "Karşılıklı söz verme ve ciddi ant içme bağlamlarında doğal bir karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Sözlü yükümlülüğün kurulmasını ve bağlayıcı kılınmasını birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "işlemi yürürlüğe koymak",
+          "usage_role": "contextual",
+          "applicability": "Evlilik veya satış işleminin kurulup geçerli kılındığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İşlemin kesinleşmesi ve bağlayıcı sonuç doğurması özelliklerini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "andı bağlayıcı biçimde kesinleştirmek"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bağlayıcı sözler ve yükümlülükler"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "karşılıklı bağlayıcı söz vermek"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "evlilik bağını kurup kesinleştirme"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "satışı bağlayıcı kılıp kesinleştirme"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001623/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, karşılıklı sözün yanı sıra satış ve evlilik gibi işlemlerin kurulmasını da kapsar.",
+          "neighbor_only": "Komşu dal, özellikle pekiştirilmiş güvence ve antla sağlamlaştırılmış söz üzerinde yoğunlaşır.",
+          "gloss": "pekiştirilmiş bağlayıcı söz",
+          "shared_zone": "Her iki dal da tarafları bağlayan, güçlü biçimde kesinleştirilmiş söz ve yükümlülükleri kapsar.",
+          "distinction": "Odak dalın kapsamı işlem kurmaya kadar uzanır; komşu dalın çekirdeği ise güvenceli ve pekiştirilmiş sözleşme bağıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; en yakın sınır pekiştirilmiş bağlayıcı söz alanında bulundu ve diğerleri daha uzak tematik ilişkiler olarak elendi.",
+      "branch_image_ar": "إلزام العهد وإبرامه",
+      "what_is_ar": "يدخل فيه العقود والعهود والمعاقدة والبيع والنكاح وعقد اليمين وكل إيجاب أو إلزام موثق.",
+      "what_is_not_ar": "ليس هو العقد الحسي في الحبل، ولا عقد السحر في الخيوط، ولا عقد الرمل.",
+      "source_phrase_ar": "عاقدته مثل عاهدته وهو العقد والجمع عقود (maqayis)؛ العقد عقد اليمين (maqayis)؛ عقدة النكاح وكل شيء وجوبه وإبرامه (maqayis)؛ عقدة البيع إيجابه (maqayis)؛ عقد اليمين أن يحلف يمينا لا لغو فيها (ayn)؛ عقدة النكاح وجوبه وعقدة البيع وجوبه (ayn)؛ المعاقدة المعاهدة (sihah)؛ العقود العهود وهي أوكد العهود (tahdhib)؛ عقد فلان اليمين إذا وكدها (tahdhib)؛ يستعار ذلك للمعاني نحو عقد البيع والعهد (mufradat)؛ العقدة اسم لما يعقد من نكاح أو يمين أو غيرهما (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bal, yoğun şıra ve benzeri maddelerin koyulaşıp katılaşmasını açıkça destekler; asma çubuğunun suyunu yitirip sertleşmesi aynı sonuç durumuna bağlı bir uzantıdır.",
+        "boundary_note": "Dal maddesel koyulaşma ve sertleşmeyle sınırlıdır; ip düğümleme, söz bağlama ya da kum yığılması değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, koyulaşma ve sertleşme ortaklığını verir; balı koyulaştırma ve asma çubuğunun kurumasını kendi kuruluş sınırları içinde tutar."
+      },
+      "concept_map": {
+        "definition": "Bir sıvı ya da yumuşak maddenin yoğunlaşıp koyulaşması ve daha katı bir duruma gelmesidir. Asma çubuğunun suyunu yitirip sertleşmesi de sonuçtaki katılaşma yönüyle bu alana bağlanır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Sıvı veya yumuşak madde koyulaşarak daha katı ve tutarlı bir duruma gelir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bal, şıra ve koyu özsu bu değişimin başlıca sıvı örnekleridir; balla koyulaştırılan yemek de bu işleme dayanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Asma çubuğunun suyunu yitirip sertleşmesi, sıvı koyulaşmasından farklı fakat sonuç bakımından bağlı bir uzantıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar bal ve benzeri maddelerin koyulaşıp katılaşmasında birleşir; katılaşmış bal, yoğun şıra, balla hazırlanan yemek ve sertleşen asma çubuğu bu alanı örnekler.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "koyulaşıp katılaşma",
+        "applicability": "Maddenin daha yoğun ve sert bir duruma geçişini karşılar; ettirgen bağlamlarda koyulaştırma biçimi kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yoğunlaşma sürecini ve bunun daha katı bir sonuç doğurmasını birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "koyulaştırmak",
+          "usage_role": "contextual",
+          "applicability": "Bal veya benzeri bir sıvının işlemle yoğunlaştırıldığı ettirgen cümlelerde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Sıvıyı daha yoğun ve tutarlı duruma getirme işlemini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "sertleşip suyunu yitirmek",
+          "usage_role": "contextual",
+          "applicability": "Asma çubuğunun gelişimin sonunda kuruyup sertleştiği özel bağlamda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Asma çubuğundaki su kaybını ve bunun sertleşme sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "balı koyulaştırmak"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "koyulaşıp katılaşmış bal"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "balla koyulaştırılan yemek"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "katılaşıp sertleşmek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000067/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, ettirgen koyulaştırmayı, katılaşmayı ve asma çubuğunun sertleşmesini birlikte kapsar.",
+          "neighbor_only": "Komşu dal, özellikle süt, bitki özü, katran veya balın süreç sonunda pıhtılaşmış durumuna yönelir.",
+          "gloss": "sıvının pıhtılaşıp koyulaşması",
+          "shared_zone": "Her iki dal da sıvının akışkanlığını yitirerek koyu ve tutarlı bir duruma gelmesini anlatır.",
+          "distinction": "Odak dal hem koyulaştırma işlemini hem daha genel sertleşme sonucunu taşır; komşu dalın merkezi belirli sıvıların son aşamadaki pıhtılaşmasıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; en yakın anlamsal örtüşme sıvının pıhtılaşıp koyulaşması dalındadır, diğer adaylar yalnızca sonuç veya madde alanını paylaşır.",
+      "branch_image_ar": "غلظ المائع وصلبه",
+      "what_is_ar": "يدخل فيه إعقاد العسل والرب والعصير والطعام، واعتقاد الشيء إذا صلب، ويبس عود الكرم وانتهاؤه.",
+      "what_is_not_ar": "ليس هو عقد الحبل، ولا إلزام العهد، ولا تراكم الرمل.",
+      "source_phrase_ar": "أعقدت العسل وانعقد وعسل عقيد ومنعقد (maqayis)؛ اعتقد الشيء صلب (maqayis;ayn)؛ عقد الكرم إذا رأيت عوده قد يبس ماؤه وانتهى (maqayis)؛ أعقدت العسل فانعقد (ayn)؛ اليعقيد طعام يعقد بالعسل (ayn;tahdhib)؛ عقد الرب وغيره أي غلظ فهو عقيد (sihah)؛ أعقدت العسل ونحوه فهو معقد وعقيد (tahdhib)؛ عسل عقيد وكذلك عقيد عصير العنب (tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B004",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi taşınmazı, işletmeyi ya da malı kendine edinme, toplama ve mülk olarak tutma anlamını açıkça destekler.",
+        "boundary_note": "Dal edinme ve sahip olunan mal üzerinedir; satış işleminin kurulması, bitki örtüsünün sıklığı ve zihinsel benimseme bu kapsamın dışındadır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım edinme çekirdeğini korur; mal edinme kuruluşu ile edinilmiş taşınmaz adı arasındaki eylem ve sonuç ayrımını belirtir."
+      },
+      "concept_map": {
+        "definition": "Malı, toprağı veya bir işletmeyi kendine edinip biriktirmek ve elde tutmaktır. Aynı alan, edinilmiş taşınmazı ya da işletmeyi sahip olunan varlık olarak da adlandırır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Mal veya taşınmaz toplanır, kendine edinilir ve sahip olunan varlık olarak tutulur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Edinilmiş toprak, taşınmaz veya işletme, eylemin sonucu olan sahip olunan varlık adını taşır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar malı ve taşınmazı edinip biriktirme eylemiyle, bunun sonucunda kişinin sahip olduğu toprak veya işletme anlamını birlikte tanıklar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "mal veya taşınmaz edinip elde tutma",
+        "applicability": "Hem edinme eylemini hem de edinilen varlığın sahiplik altında tutulmasını kapsayan genel karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Toplama, kendine edinme ve sahiplik altında tutma bileşenlerini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "mal edinmek",
+          "usage_role": "contextual",
+          "applicability": "Kişinin mal veya taşınmazı kendine kattığı eylem bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Malı kendine katma ve sahip olma sonucunu doğal biçimde korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "edinilmiş taşınmaz",
+          "usage_role": "contextual",
+          "applicability": "Sahip olunan toprak, işletme veya taşınmazın ad olarak kullanıldığı bağlamlara uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Edinme sonucunda sahip olunan taşınmaz varlığı korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "mal biriktirip edinmek"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "edinilmiş mülk veya taşınmaz"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000374/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, edinilen malın veya taşınmazın kalıcı bir sahiplik birimi olarak tutulmasını öne çıkarır.",
+          "neighbor_only": "Komşu dal, herhangi bir şeyi toplama, korunaklı biçimde ele geçirme ve içine alma eylemlerine daha geniş uzanır.",
+          "gloss": "toplayıp ele geçirme",
+          "shared_zone": "Her iki dal da malı toplama, kişinin denetimine alma ve sahiplik alanına katma anlamlarında örtüşür.",
+          "distinction": "Odak dal kalıcı mal ve taşınmaz edinimine bağlıdır; komşu dal ise nesne türünden bağımsız daha genel toplama ve denetim altına alma çekirdeğine sahiptir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; toplama ve ele geçirme dalı en yakın eylem sınırını gösterdiği için yayımlandı.",
+      "branch_image_ar": "اقتناء المال والضيعة",
+      "what_is_ar": "يدخل فيه العقدة بمعنى الضيعة، واعتقاد المال والعقار واتخاذ العقدة واقتناؤها.",
+      "what_is_not_ar": "ليس هو عقد البيع نفسه، ولا عقدة الشجر والمرعى من حيث النبات، ولا عقد القلب.",
+      "source_phrase_ar": "العقدة الضيعة والجمع عقد (maqayis;ayn)؛ اعتقد فلان عقدة أي اتخذها (maqayis)؛ اعتقد مالا وأخا أي اقتناه (maqayis)؛ اعتقدت مالا جمعته (ayn)؛ اعتقد ضيعة ومالا أي اقتناها (sihah)؛ كل ما يعتقده الإنسان من العقار فهو عقدة له (tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B005",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, ağaçların veya otların bir yerde sık, bitişik ve köklü biçimde bulunmasını; ayrıca bu örtünün hayvanları beslemeye yetmesini açıkça destekler.",
+        "boundary_note": "Dal yalnızca ağaçlık, çayırlık ve otlak kuruluşlarına bağlıdır; mülk edinme, kum yığını veya tek bir bitki türü anlamına genellenmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım, sık bitki örtüsü anlamını yalnızca tanıklanan ağaçlık ve çayırlık kuruluşları içinde tutar; yalın kök anlamı ileri sürmez."
+      },
+      "concept_map": {
+        "definition": "Ağaçların ya da otların bir yerde sık, bitişik ve kökleri tutmuş biçimde oluşturduğu alanı anlatan kuruluştur. Böyle bir alanın hayvanları uzun süre beslemeye yetecek otlak sağlaması da kapsam içindedir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Belirli bir alandaki ağaç veya ot örtüsü sık, bitişik ve köklü durumdadır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Sık ağaçlık ya da hurmalık, hayvanları bir yıl beslemeye yetecek bir alan olarak değerlendirilebilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Bitkisi kesintisiz biçimde birleşen çayırlık ve yoğun otlak aynı kuruluş alanına girer.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar sık, bitişik ve köklü bitki örtüsünde birleşir; ağaçlık, hurmalık, çayırlık ve hayvanları beslemeye yeterli otlak bu kuruluşun kapsamını oluşturur.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sık ve köklü ağaçlık ya da otlak",
+        "applicability": "Yalnızca tanıklanan bitki alanı kuruluşlarında, örtünün sıklığını ve kalıcılığını birlikte anlatır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sık bitki örtüsünü, kök salmışlığı ve alanın ağaçlık ya da otlak niteliğini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "sık ağaçlık alan",
+          "usage_role": "contextual",
+          "applicability": "Ağaç veya hurmaların toplu ve köklü biçimde bulunduğu alan için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Ağaçların aynı yerde sık ve kalıcı biçimde toplanmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "bitkisi bitişik çayırlık",
+          "usage_role": "contextual",
+          "applicability": "Çayır bitkisinin aralıksız ve yoğun biçimde yayıldığı kuruluş için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Çayırlığın bitişik ve yoğun bitki örtüsünü korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sık, köklü ve hayvanları beslemeye yeterli ağaçlık alan"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bitkisi kesintisiz biçimde birleşmiş çayırlık"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001365/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, yoğun bitki örtüsünü belirli bir alan ve hayvanları besleme yeterliliğiyle birlikte kurar.",
+          "neighbor_only": "Komşu dal, ağaç ve otların birbirine dolanıp kıvrımlı bir bütün oluşturmasını öne çıkarır.",
+          "gloss": "birbirine dolanmış bitki örtüsü",
+          "shared_zone": "Her iki dal da ağaç veya otların yoğun biçimde bir araya geldiği bitki örtüsünü anlatır.",
+          "distinction": "Odak dalda sıklık, kök salmışlık ve alanın otlak değeri belirleyicidir; komşu dalda ise bitkilerin birbirine dolanmış görünümü çekirdektir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; bitkilerin birbirine dolanması, yoğunlukla en kolay karışan fakat çekirdeği farklı olan komşu olarak seçildi.",
+      "branch_image_ar": "كثافة الشجر والمرعى",
+      "what_is_ar": "يدخل فيه العقدة من الأرض والشجر والنخل والمرعى والروضة إذا اجتمع نباتها وثبت وكفى المال.",
+      "what_is_not_ar": "ليس هو الضيعة المملوكة من حيث الملك، ولا تراكم الرمل، ولا العنقود.",
+      "source_phrase_ar": "العقدة من الشجر ما يكفي المال سنته (maqayis)؛ العقدة من الشجر ما اجتمع وثبت أصله (maqayis)؛ المكان الذي يكثر شجره عقدة (maqayis)؛ العقدة المكان الكثير الشجر أو النخل (sihah)؛ العقدة من الأرض البقعة الكثيرة الشجر (tahdhib)؛ في أرض بني فلان عقدة تكفيهم سنتهم (tahdhib)؛ روضة عقدة إذا اتصل نبتها (tahdhib)؛ العقدة من المرعى هي الجنبة (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, gönlün bir düşünce üzerinde kararlı biçimde durmasını ve ondan vazgeçmemesini; görüş, inanç, dostluk ve sevginin yerleşmesiyle birlikte destekler.",
+        "boundary_note": "Dal zihinsel veya duygusal yerleşme ve kararlılıkla sınırlıdır; hukuki yükümlülük, konuşma güçlüğü ya da mal edinme değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, zihinsel kararlılık çekirdeğini korur; gönlünü bağlama, dostluğun yerleşmesi ve yerleşmiş inanç adını ayrı kuruluşlar olarak belirtir."
+      },
+      "concept_map": {
+        "definition": "Bir düşünceyi, görüşü veya inancı gönülde yerleştirip ondan vazgeçmeyecek biçimde kararlı kalmaktır. Dostluk ve sevginin kişiler arasında sağlam biçimde yerleşmesi de bu kalıcılık örüntüsüne uzanır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Gönül bir düşünce veya görüş üzerinde sabitlenir ve ondan dönmemeye yönelir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Gönülde yerleşmiş inanç, zihinsel sabitlenmenin adlaşmış sonucudur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Dostluk ve sevginin kişiler arasında sağlamlaşması, aynı kalıcılık örüntüsünün ilişkisel uzantısıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar gönlün bir düşünce üzerinde yerleşip vazgeçmemesinde birleşir; görüş, yerleşmiş inanç, dostluk ve sevginin kalıcılaşması bu çekirdeğe bağlanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bir düşünceye gönülden bağlanıp onda kararlı kalma",
+        "applicability": "Zihinsel benimseme ve süreklilik çekirdeğini birlikte gerektiren genel bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Düşünceyi benimseme, gönülde yerleştirme ve ondan dönmeme özelliklerini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "gönlünü bir şeye bağlamak",
+          "usage_role": "contextual",
+          "applicability": "Bir düşünce veya kararda ısrarla kalma bağlamlarında doğal karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Zihinsel yönelişi ve bundan vazgeçmeme kararlılığını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "dostluğun yerleşmesi",
+          "usage_role": "contextual",
+          "applicability": "Dostluk veya sevginin kişiler arasında kalıcı duruma geldiği bağlamlara özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İlişkinin sağlam ve kalıcı biçimde kurulmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeye gönülden bağlanıp vazgeçmemek"
+        },
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "dostluk ve sevginin yerleşmesi"
+        },
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "gönülde yerleşmiş inanç"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001010/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, yerleşmiş inancı ve dostluk ile sevginin kalıcılaşmasını da kapsar.",
+          "neighbor_only": "Komşu dal, belirli bir işi yapmaya karar verme, irade gösterme ve tereddüdü kesme üzerinde yoğunlaşır.",
+          "gloss": "bir işi yapmaya kesin karar verme",
+          "shared_zone": "Her iki dal da gönlün bir konu üzerinde sabitlenmesi ve kararsızlığın sona ermesi alanında örtüşür.",
+          "distinction": "Odak dal düşünce, inanç veya ilişkinin kalıcı benimsenmesini anlatır; komşu dal gelecekteki bir eyleme yönelik kesin kararı anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; eyleme kesin karar verme dalı zihinsel sabitlenmeyle en güçlü örtüşmeyi gösterdiği için seçildi.",
+      "branch_image_ar": "ثبات القلب والرأي",
+      "what_is_ar": "يدخل فيه عقد القلب على الشيء، والعقيدة، وعقد الرأي، وثبوت الإخاء والمودة.",
+      "what_is_not_ar": "ليس هو عقد اليمين القانوني، ولا عسر اللسان، ولا اقتناء المال.",
+      "source_phrase_ar": "عقد قلبه على كذا فلا ينزع عنه (maqayis)؛ اعتقد الإخاء ثبت (maqayis)؛ عقد قلبه على شيء لم ينزع عنه (ayn)؛ اعتقد الإخاء والمودة بينهما أي ثبت (ayn)؛ اعتقد كذا بقلبه (sihah)؛ ليس له معقود أي عقد رأى (sihah)؛ منه قيل لفلان عقيدة (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B007",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi hem dildeki tutukluk nedeniyle konuşmanın akmamasını hem de sözün bilinçli biçimde kapalı ve güç anlaşılır kılınmasını açıkça tanıklar.",
+        "boundary_note": "Dal yalnızca dil ve söz kuruluşlarına bağlıdır; zihinsel inanç, somut ip düğümü veya büyü uygulaması anlamına gelmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım, konuşma tutukluğu ile kapalı anlatımı ayırır ve ikisini yalnızca tanıklanan dil, kişi ve söz kuruluşları içinde tutar."
+      },
+      "concept_map": {
+        "definition": "Konuşmanın dildeki bir tutukluk yüzünden akmaması veya sözün kapalılaştırılarak güç anlaşılır duruma getirilmesidir. İlkinde söyleyiş yetisi engellenir, ikincisinde ise anlatımın açıklığı azalır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Dildeki tutukluk konuşmanın akıcı ve açık biçimde çıkmasını engeller.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Konuşması tutuk kişi, dilinde söyleyiş engeli bulunan kişi olarak nitelenir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Sözün kapalılaştırılması, anlatımı güç anlaşılır ve çözülmesi zor duruma getirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar dildeki tutukluk, bu özelliği taşıyan kişi ve kapalılaştırılmış söz kullanımlarını birlikte verir; bedensel söyleyiş engeli ile anlatımsal kapalılık ayrılabilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "konuşmanın tutulması veya anlaşılmaz duruma gelmesi",
+        "applicability": "Dalın iki kuruluş alanını birlikte özetler; gerçek cümlede tutukluk ya da anlatımsal kapalılık bağlama göre seçilir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hem söyleyiş engelini hem de sözün güç anlaşılır kılınmasını ayrı seçenekler olarak korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "konuşma tutukluğu",
+          "usage_role": "contextual",
+          "applicability": "Dildeki fiziksel veya işlevsel tutukluk ve bu yüzden akmayan konuşma için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Dildeki engeli ve konuşmanın akmaması sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "sözü kapalılaştırmak",
+          "usage_role": "contextual",
+          "applicability": "Bir anlatımın bilinçli biçimde güç ve anlaşılmaz duruma getirildiği bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Anlatımı kapalı ve güç anlaşılır kılma işlemini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "dil tutulması veya konuşma tutukluğu"
+        },
+        {
+          "lexical_unit_id": "lu_023",
+          "rendering_kind": "ordinary",
+          "target_gloss": "konuşması tutuk erkek"
+        },
+        {
+          "lexical_unit_id": "lu_024",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kapalı ve güç anlaşılır söz"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000288/B006",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, bedensel konuşma tutukluğunun yanında sözün kapalı ve güç anlaşılır kılınmasını da içerir.",
+          "neighbor_only": "Komşu dal, ağır dil, konuşamama ve susma gibi söyleyiş yetersizliği üzerinde yoğunlaşır.",
+          "gloss": "dil ve konuşma tutukluğu",
+          "shared_zone": "Her iki dal da dilin akıcı konuşmayı gerçekleştirememesi ve sözün çıkışının engellenmesi alanında örtüşür.",
+          "distinction": "Odak dal anlatımın bilinçli ya da yapısal kapalılığına da uzanır; komşu dalın çekirdeği konuşma yetisinin tutukluğudur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; doğrudan konuşma tutukluğu dalı en yakın eşleşmedir, anlatım kapalılığı adayları ise daha dar bir alt alanı paylaşır.",
+      "branch_image_ar": "حبسة اللسان وتعقيد الكلام",
+      "what_is_ar": "يدخل فيه عقدة اللسان وحبسة الكلام والرجل الأعقد والكلام المعقد المغمض.",
+      "what_is_not_ar": "ليس هو عقد القلب، ولا عقد السحر، ولا عقد الحبل.",
+      "source_phrase_ar": "عقد الرجل إذا كانت في لسانه عقدة فهو أعقد (maqayis)؛ عقد فلان كلامه إذا عماه وأعوصه (maqayis)؛ رجل أعقد وقد عقد يعقد عقدا أي في لسانه عقدة (ayn)؛ رجل أعقد وعقد للذي في لسانه عقدة (sihah)؛ كلام معقد أي مغمض (sihah)؛ رجل أعقد إذا كان في لسانه رتج (tahdhib)؛ عقد لسانه احتبس وبلسانه عقدة أي في كلامه حبسة (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B008",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi kumun üst üste yığılıp birbirine tutunmasını, yağmurla nemlenmesini ve bulutun yapılmış bir kemer gibi kümelenmesini kuruluşlara bağlı olarak destekler.",
+        "boundary_note": "Dal kum ve bulut kuruluşlarıyla sınırlıdır; bitki yoğunluğu, üzüm salkımı veya insan eliyle yapılan yapı kemeri değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım kum yığını ve bulut kümelenmesi kuruluşlarını ayrı tutar; bu özel kullanımlardan genel bir yalın yığılma anlamı çıkarmaz."
+      },
+      "concept_map": {
+        "definition": "Kumun üst üste yığılıp birbirine tutunan bir kütle oluşturmasını ve yağmurla nemlenip sıkışmasını anlatan kuruluştur. Bulutun yapılmış bir kemer ya da düğüm görünümünde kümelenmesi de ayrı bir kuruluş olarak aynı biçimsel örüntüye bağlanır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kum taneleri üst üste yığılır, birleşir ve birbirine tutunan bir kütle oluşturur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Kumun bol yağmurla nemlenip sıkışması, kum kuruluşunun belirtilen bir görünümüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Bulut, yapılmış bir kemer veya düğüm görünümünde yoğun bir küme oluşturur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar kumun yığılıp birbirine tutunmasında birleşir; yağmurla nemlenme bir görünüm, bulutun kemer gibi kümelenmesi ise ayrı bir kuruluş olarak verilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kumun yığılıp sıkışması veya bulutun düğüm gibi kümelenmesi",
+        "applicability": "Yalnızca kum ve bulut kuruluşlarının ikili kapsamını eksiksiz gösteren açıklayıcı karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kumun yığılma ve sıkışmasını, bulutun biçimli kümelenmesinden ayrı olarak korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yığılmış kum kütlesi",
+          "usage_role": "contextual",
+          "applicability": "Kumun üst üste birikip birbirine tutunduğu alan veya kütle için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kumun birikmiş, birleşmiş ve kütleleşmiş durumunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "bulutun düğüm gibi kümelenmesi",
+          "usage_role": "contextual",
+          "applicability": "Bulutun kemerli veya düğümlü bir yapı görünümünde toplandığı bağlama özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bulutun yoğun ve biçimli bir küme oluşturmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_025",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yığılmış veya yağmurla nemlenip sıkışmış kum"
+        },
+        {
+          "lexical_unit_id": "lu_026",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bulutun yapı kemeri gibi kümelenmesi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001257/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal yalnızca kumun sıkışmış yığınına ve bulutun kemer gibi kümelenmesine bağlıdır.",
+          "neighbor_only": "Komşu dal taşlar ve başka nesneler dahil olmak üzere genel yığılma, birleşme ve kendi üzerine kapanmayı kapsar.",
+          "gloss": "genel yığılma ve birleşme",
+          "shared_zone": "Her iki dal da parçaların üst üste gelip yoğun bir bütün oluşturması alanında örtüşür.",
+          "distinction": "Odak dalın kapsamı kum ve bulut kuruluşlarıyla sınırlıdır; komşu dal nesne türünden bağımsız genel bir birikme sürecidir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel yığılma dalı ortak süreci en iyi gösterir, öteki adaylar yalnızca kum, yağmur veya su ortamını paylaşır.",
+      "branch_image_ar": "تراكم الرمل وانقباض السحاب",
+      "what_is_ar": "يدخل فيه عقد الرمل وتراكمه وترطبه بالمطر، وتعقد السحاب إذا صار كالعقد المبني.",
+      "what_is_not_ar": "ليس هو عقدة الشجر والمرعى، ولا العنقود، ولا عقد البناء المصنوع.",
+      "source_phrase_ar": "عقد الرمل ما تراكم واجتمع والجمع أعقاد (maqayis;ayn)؛ أعطش من عقد الرمل وأشرب من عقد الرمل (maqayis)؛ تعقد السحاب إذا صار كأنه عقد مضروب مبني (ayn;maqayis)؛ العقد ما تعقد من الرمل أي تراكم (sihah)؛ تعقد الرمل والخيط وغيرهما (sihah)؛ العقدة من الرمل المتعقد بعضه على بعض (tahdhib)؛ العقد ترطب الرمل من كثرة المطر (tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B009",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi üzüm tanelerinin birbirine bağlı biçimde oluşturduğu salkımı ve bunun bir söyleyiş değişkesini açıkça tanımlar.",
+        "boundary_note": "Dal üzüm salkımının nesne adıyla sınırlıdır; genel meyve, ağaç ürünü, kum yığını veya gerdanlık anlamı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın dalı doğrudan üzüm salkımı olarak verir; komşu kuruluşlardan meyve toplama ya da başka bitki başakları eklenmez."
+      },
+      "concept_map": {
+        "definition": "Üzüm tanelerinin bir sap çevresinde birbirine bağlı ve toplu biçimde oluşturduğu salkımdır. İkinci biçim, aynı nesnenin yalnızca söyleyiş değişkesidir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Üzüm taneleri birbirine bağlı toplu bir yapı oluşturarak tek bir salkım meydana getirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Tanıklanan ikinci biçim, aynı üzüm salkımı adının söyleyiş değişkesidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar üzüm tanelerinin bağlı ve toplu yapısından oluşan salkım anlamında birleşir; ayrıca aynı adın bir söyleyiş değişkesi tanıklanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "üzüm salkımı",
+        "applicability": "Dalın yalın nesne anlamını doğal ve eksiksiz biçimde karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Üzümlerin birbirine bağlı toplu bir salkım oluşturduğu nesne anlamını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bir salkım üzüm",
+          "usage_role": "contextual",
+          "applicability": "Nesnenin sayılabilir tek bir örneğinin cümle içinde geçtiği bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Tek bir üzüm salkımı ve onun toplu yapısını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_027",
+          "rendering_kind": "ordinary",
+          "target_gloss": "üzüm salkımı"
+        },
+        {
+          "lexical_unit_id": "lu_028",
+          "rendering_kind": "ordinary",
+          "target_gloss": "üzüm salkımı adının bir söyleyiş biçimi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001241/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal yalnızca bağlı üzüm tanelerinden oluşan salkımın nesne adıdır.",
+          "neighbor_only": "Komşu dal koparılmış meyveyi, kolay erişilen alçak salkımı ve toplama sonucunu da kapsar.",
+          "gloss": "koparılmış meyve ve alçak salkım",
+          "shared_zone": "Her iki dal da üzüm salkımını belirli kullanımlarda aynı somut nesne olarak gösterebilir.",
+          "distinction": "Odak dal salkımın kendisini yapısal bütünlüğüyle adlandırır; komşu dal meyvenin koparılmış veya erişilebilir oluşunu da anlamın parçası yapar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; salkımı doğrudan içeren komşu en güçlü karışma noktasıdır, diğerleri yalnızca meyve veya bitki organı alanını paylaşır.",
+      "branch_image_ar": "عنقود متماسك",
+      "what_is_ar": "يدخل فيه العنقود والعنقاد في عناقيد العنب من جهة اجتماع أجزائه بعضها ببعض.",
+      "what_is_not_ar": "ليس هو عقد الرمل، ولا عقدة الشجر، ولا القلادة.",
+      "source_phrase_ar": "العنقود معروف وهو من العقد كأنه شيء عقد بعضه ببعض (maqayis)؛ العنقود واحد عناقيد العنب والعنقاد لغة فيه (sihah)",
+      "sources": [
+        "MQ",
+        "SI"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B010",
+      "identity_judgment": {
+        "status": "reframed",
+        "rationale": "Kaynak ifadesi boynuz, kuyruk ve boyun kıvrılmasını destekler; ancak dişi devenin gebelik işareti ile köpeklerin çiftleşmesi yalnızca uzuv kıvrılması diye tanımlanamaz. Dal, hayvanlarda düğümlü ya da kıvrık uzuv görünümü ve buna bağlı özel üreme durumları olarak yeniden çerçevelenmelidir.",
+        "boundary_note": "Uzuv kıvrılması çekirdektir; gebelik işareti ve çiftleşme ayrı, kuruluşa bağlı özel durumlardır ve dalın bütününe genellenmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım uzuv kıvrılması ile gebelik ve çiftleşme kuruluşlarını ayırır; bu özel hayvan kullanımlarını tek bir yalın anlamda birleştirmez."
+      },
+      "concept_map": {
+        "definition": "Hayvanın boynuz, kuyruk veya boyun gibi bir uzvunun kıvrılıp düğümlü görünmesini anlatan betimlemeler ile bu görünüşe bağlanan özel hayvan durumlarıdır. Dişi devenin kuyruğuyla gebeliğini belli etmesi ve köpeklerin çiftleşmesi, çekirdekle eşitlenmeyen kuruluşa bağlı kullanımlardır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Boynuz, kuyruk veya boyun kıvrılır ve düğümlü ya da bükülmüş bir görünüm kazanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Dişi ceylanın boynunu veya kuyruk ucunu bükmesi ile teke ve ceylanın kıvrık boynuz ya da kuyruğu özel betimlemelerdir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Dişi devenin kuyruğunu düğümleyerek gebeliğini belli etmesi, uzuv hareketine bağlı özel bir işarettir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "associated_use",
+            "statement": "Köpeklerin çiftleşmesi ve bu sıradaki bedensel durum, ayrı bir üreme kuruluşu olarak tanıklanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar hayvan uzuvlarının kıvrık veya düğümlü görünümünü çeşitli türlerle tanıklar; gebeliği kuyrukla belli etme ve köpeklerin çiftleşmesi ayrıca kuruluşa bağlı kullanımlardır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "hayvanda kıvrık uzuv görünümü ve buna bağlı özel durumlar",
+        "applicability": "Dalın ortak bedensel örüntüsünü korur; gebelik ve çiftleşme anlamları gerçek kullanımda kendi kuruluşlarıyla çevrilir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kıvrık uzuv çekirdeğini ve ona yalnızca kuruluşla bağlanan özel hayvan durumlarını ayrı tutar.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "boynuzu veya kuyruğu kıvrık",
+          "usage_role": "contextual",
+          "applicability": "Teke, ceylan veya köpeğin uzvundaki kalıcı kıvrımı betimleyen kullanımlara uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Hayvan uzvunun bükülmüş ve düğümlü görünümünü korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "kuyruğuyla gebeliğini belli etmek",
+          "usage_role": "contextual",
+          "applicability": "Dişi devenin kuyruğunu düğümleyerek gebe olduğunu gösterdiği özel bağlamda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kuyruk hareketini, dişi deve katılımcısını ve gebelik işaretini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_029",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kuyruğunu düğümleyerek gebeliğini belli eden dişi deve"
+        },
+        {
+          "lexical_unit_id": "lu_030",
+          "rendering_kind": "ordinary",
+          "target_gloss": "boynunu büken veya kuyruk ucunu kıvıran dişi ceylan"
+        },
+        {
+          "lexical_unit_id": "lu_031",
+          "rendering_kind": "ordinary",
+          "target_gloss": "boynuzu ya da kuyruğu kıvrık teke veya ceylan"
+        },
+        {
+          "lexical_unit_id": "lu_032",
+          "rendering_kind": "ordinary",
+          "target_gloss": "köpeklerin çiftleşmesi"
+        },
+        {
+          "lexical_unit_id": "lu_033",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çiftleşme sırasında ucu şişen köpek penisi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000305/B007",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal hayvan uzuvlarıyla ve gebelik ya da çiftleşmeye bağlı özel durumlarla sınırlıdır.",
+          "neighbor_only": "Komşu dal ip, oda ve kamış gibi hayvan dışı nesnelerdeki eğrilik ve biçim bozukluğunu da kapsar.",
+          "gloss": "nesnede eğrilik ve biçim bozukluğu",
+          "shared_zone": "Her iki dal da bir uzuv veya nesnenin düz çizgiden ayrılıp kıvrık görünmesi alanında örtüşür.",
+          "distinction": "Odak dal hayvan anatomisi ve kuruluşa bağlı üreme durumlarına özgüdür; komşu dal daha genel nesne eğriliğini anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel eğrilik dalı bedensel kıvrımla en yakın sınırı kurdu, anatomik bölge adayları ise yalnızca katılımcı alanını paylaştı.",
+      "branch_image_ar": "التواء عضو الحيوان",
+      "what_is_ar": "يدخل فيه التواء القرن والذنب والعنق، وعقد الناقة بذنبها للحمل، وتعاقد الكلاب، وما وصف من أعضاء الحيوان المعقودة.",
+      "what_is_not_ar": "ليس هو وثاقة الظهر، ولا قصر الجمل، ولا عقدة اللسان.",
+      "source_phrase_ar": "ناقة عاقد إذا عقدت (maqayis)؛ ظبية عاقد إذا كانت تلوى عنقها (maqayis)؛ الأعقد من التيوس والظباء الذي في قرنه عقدة أو عقد (maqayis)؛ تعاقدت الكلاب إذا تعاظلت (maqayis)؛ ظبية عاقد تعقد طرف ذنبها (ayn)؛ الأعقد من التيوس والظباء الذي في قرنه عقدة (ayn)؛ العقداء من الشاء التي ذنبها كأنه معقود (sihah)؛ العاقد الناقة التي قد أقرت باللقاح (sihah)؛ تيس وكلب أعقد ملتوي الذنب وتعاقدت الكلاب تعاظلت (mufradat)؛ الذنب الأعقد المعوج (tahdhib)؛ العاقد من الظباء الذي ثنى عنقه (tahdhib)؛ عقدت فم الرحم على الماء (tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B011",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi sağlam sırtlı dişi deveyi, sıkı yapılı erkek deveyi ve kısa fakat işe dayanıklı beden tipini birlikte tanıklar.",
+        "boundary_note": "Dal yalnızca tanıklanan hayvan ve kısa beden betimlemelerine bağlıdır; uzuv kıvrılması, öfke veya genel güç adı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım, sağlam sırt ve kısa dayanıklı deve betimlemelerini yalnızca verilen kuruluşlarda tutar; bunlardan genel bir yalın beden gücü anlamı çıkarmaz."
+      },
+      "concept_map": {
+        "definition": "Hayvanın, özellikle devenin, sırtı sağlam ve bedeni sıkı yapılı oluşunu anlatan kuruluşlardır. Kısa boylu fakat çalışmaya dayanıklı deve ve düğüm gibi toplu görünen kısa kişiler bu betimleme alanının özel görünümleridir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Dişi devenin sırtı sağlam, erkek devenin bedeni sıkı ve dayanıklı yapıdadır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Kısa boylu fakat işe dayanıklı erkek deve, sağlamlıkla kısalığın birleştiği özel betimlemedir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Kısa insanlar, toplu ve düğüm gibi görünen bedenleri nedeniyle aynı betimleme alanına bağlanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar sağlam sırtlı dişi deve ve sıkı yapılı erkek deve betimlemelerinde birleşir; kısa fakat işe dayanıklı deve ile kısa insan kullanımı da tanıklanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sağlam ve toplu beden yapısı",
+        "applicability": "Tanıklanan deve ve kısa beden kuruluşlarının ortak sağlamlık ile topluluk niteliğini karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bedenin sağlam, sıkı ve toplu oluşunu; kısalığın ise özel bir görünüm olduğunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "sırtı sağlam dişi deve",
+          "usage_role": "contextual",
+          "applicability": "Dişi devenin sırt sağlamlığını belirten tanıklanmış kuruluşa özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Dişi deve katılımcısını ve sırtın sağlam oluşunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "kısa fakat dayanıklı deve",
+          "usage_role": "contextual",
+          "applicability": "Kısa boy ile iş dayanıklılığının birlikte belirtildiği erkek deve bağlamına uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kısa beden yapısını ve çalışmaya dayanıklılığı birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_034",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sırtı sağlam dişi deve"
+        },
+        {
+          "lexical_unit_id": "lu_035",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sağlam yapılı ya da kısa ve işe dayanıklı erkek deve"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000874/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal sağlam sırtı ve kısa fakat işe dayanıklı deve betimlemesini kuruluşlara bağlı biçimde içerir.",
+          "neighbor_only": "Komşu dal kasların sıkılığını ve insan, deve ya da başka hayvanlarda genel güçlü yapıyı kapsar.",
+          "gloss": "kaslı ve güçlü beden",
+          "shared_zone": "Her iki dal da hayvan bedeninin sıkı, güçlü ve çalışmaya dayanıklı yapısını anlatabilir.",
+          "distinction": "Odak dal sırt sağlamlığı ve kısa deve gibi belirli betimlemelere bağlıdır; komşu dal genel kaslılık ve bedensel güç çekirdeğine sahiptir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kaslı ve güçlü beden dalı sağlamlık çekirdeğiyle en yakın örtüşmeyi gösterdiği için seçildi.",
+      "branch_image_ar": "وثاقة البدن وقصره",
+      "what_is_ar": "يدخل فيه الظهر الوثيق، والجمل العقد أو القصير الصبور، والقصار الذين كأنهم عقد.",
+      "what_is_not_ar": "ليس هو التواء الذنب والقرن، ولا عقدة اللسان، ولا لؤم الخلق.",
+      "source_phrase_ar": "ناقة معقودة القرى أي موثقة الظهر (maqayis)؛ جمل عقد أي ممر الخلق (maqayis)؛ للقصير أعقد لأنه كأنه عقدة والعقد القصار (maqayis)؛ ناقة معقودة القرا موثقة الظهر وجمل عقد (sihah)؛ ناقة معقودة القرا إذا كانت وثيقة الظهر (tahdhib)؛ العقد الجمل القصير الصبور على العمل (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B012",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi öfkenin yatışmasını düğümlerin çözülmesiyle, öfkelenip kötülüğe hazırlanmayı başın ön kısmını bağlamakla ve geçimsiz huyu düğümlülükle anlatan kuruluşları destekler.",
+        "boundary_note": "Dal öfke ve huy kuruluşlarıyla sınırlıdır; konuşma tutukluğu, zihinsel inanç veya hayvan uzvu kıvrılması değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım öfkenin yatışması, öfkeli hazırlık ve geçimsiz huyu ayrı kuruluşlar olarak korur; bunları genel bir yalın öfke anlamına dönüştürmez."
+      },
+      "concept_map": {
+        "definition": "Öfke ve geçimsiz huyun sıkışmış ya da düğümlenmiş bir durum gibi kavranmasına dayanan kuruluşlardır. Düğümlerin çözülmesi öfkenin yatışmasını, başın ön kısmını bağlama öfkelenip kötülüğe hazırlanmayı, düğümlü kişi betimi ise yumuşak huylu olmamayı anlatır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Öfkenin iç düğümlerinin çözülmesi, kişinin sakinleşip öfkesinin yatışmasını anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Başın ön kısmını bağlama kuruluşu, öfkelenme ve kötülük yapmaya hazırlanma durumunu anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Düğümlü kişi betimi, yumuşak huylu olmayan geçimsiz ve kötü yaradılışlı kişiyi belirtir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar öfkenin çözülüp yatışması ile öfkelenip kötülüğe hazırlanma kuruluşlarını tanıklar; geçimsiz ve yumuşak huylu olmayan kişi betimi de aynı alandadır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "öfkenin düğümlenmesi ve çözülmesiyle anlatılan huy durumu",
+        "applicability": "Dalın karşıt yönlü öfke kuruluşlarını ve geçimsiz huy betimini tek açıklayıcı çerçevede gösterir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Öfkenin sıkışması, kötülüğe hazırlık, çözülüp yatışma ve geçimsiz huy görünümlerini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "öfkesi yatışmak",
+          "usage_role": "contextual",
+          "applicability": "Kişinin öfkeden çıkıp sakinleştiğini belirten çözülme kuruluşunda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Öfkenin sona ermesini ve kişinin sakinleşmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "öfkelenip kötülüğe hazırlanmak",
+          "usage_role": "contextual",
+          "applicability": "Öfkenin eyleme dönük kötü bir hazırlıkla birleştiği kuruluşa özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Öfkelenme durumunu ve ardından kötülüğe hazırlanma aşamasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_036",
+          "rendering_kind": "ordinary",
+          "target_gloss": "öfkesi yatışmak"
+        },
+        {
+          "lexical_unit_id": "lu_037",
+          "rendering_kind": "ordinary",
+          "target_gloss": "öfkelenip kötülüğe hazırlanmak"
+        },
+        {
+          "lexical_unit_id": "lu_038",
+          "rendering_kind": "ordinary",
+          "target_gloss": "geçimsiz ve yumuşak huylu olmayan alçak kişi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001101/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal öfkenin yatışmasını, kötülüğe hazırlığı ve kalıcı geçimsiz huyu ayrı kuruluşlarda kapsar.",
+          "neighbor_only": "Komşu dal kişinin içine saplanıp kaldığı keskin öfke ve daralmış huy durumuna yoğunlaşır.",
+          "gloss": "keskin öfke ve daralmış huy",
+          "shared_zone": "Her iki dal da öfke, sert tepki ve yumuşak olmayan huy alanında örtüşür.",
+          "distinction": "Odak dal çözülerek sakinleşme yönünü ve belirli deyimsel kuruluşları da taşır; komşu dal doğrudan keskin öfke durumunu anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; keskin öfke ve dar huy dalı hem öfke hem huy boyutunu paylaştığı için en yararlı karşılaştırmadır.",
+      "branch_image_ar": "انقباض الغضب والخلق",
+      "what_is_ar": "يدخل فيه تحلل عقد الغضب، وعقد الناصية عند الغضب والتهيؤ للشر، واللئيم الأعقد.",
+      "what_is_not_ar": "ليس هو حبسة اللسان، ولا عقد القلب على اعتقاد، ولا التواء عضو الحيوان.",
+      "source_phrase_ar": "للرجل قد تحللت عقده إذا سكن غضبه (maqayis)؛ عقد ناصيته إذا غضب فتهيأ للشر (maqayis)؛ لئيم أعقد إذا لم يكن سهل الخلق (maqayis)؛ إذا سكن غضبه قد تحللت عقده (sihah)؛ عقد فلان ناصيته إذا غضب وتهيأ للشر (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B013",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi büyü amacıyla ipliklere düğüm atmayı, düğümlere üfleyen kadınları, büyü düğümünü ve bu işi yapan kişiyi açıkça destekler.",
+        "boundary_note": "Dal büyü amacı ve uygulamasıyla sınırlıdır; sıradan ip düğümleme, koruyucu nesne veya genel iyileştirme duası değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım büyülü düğüm uygulaması çekirdeğini korur; üfleyen kadınlar ve uygulayıcı adı gibi biçimleri kendi kuruluşlarında tutar."
+      },
+      "concept_map": {
+        "definition": "Büyü amacıyla ipliklere düğüm atma, bu düğümlere üfleme ve düğümü büyülü bir bağ olarak kullanma uygulamasıdır. Bu işi yapan kişi ile düğüm biçimindeki büyü sözü de aynı alanda adlandırılır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "İpliklere büyü amacıyla düğüm atılır ve düğümler uygulamanın taşıyıcısı yapılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Düğümlere üfleyen büyücü kadınlar, düğüm atma ile üflemeyi birleştiren uygulayıcılardır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Büyü sözü düğüm adıyla, büyüyü yapan kişi de düğümleyen kişi adıyla anılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar büyü amacıyla düğüm atma, düğümlere üfleme ve uygulayıcıyı düğümleme üzerinden adlandırma konusunda birleşir; büyü sözü de düğüm imgesiyle ilişkilendirilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "düğüme bağlanan büyü uygulaması",
+        "applicability": "İplik düğümü, düğüme üfleme ve uygulayıcıyı birlikte kapsayan açıklayıcı genel karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Büyü amacını, düğüm atma işlemini, üflemeyi ve uygulayıcı bağlantısını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "ipliklere düğüm atıp üflemek",
+          "usage_role": "contextual",
+          "applicability": "Büyücülerin iplik düğümleri üzerinde yaptığı somut uygulamayı anlatan bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İplik, düğüm atma ve üfleme aşamalarını sırasıyla korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "düğüm büyüsü yapan kişi",
+          "usage_role": "contextual",
+          "applicability": "Büyülü düğüm uygulamasını gerçekleştiren kişinin adlandırıldığı bağlamlara uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kişinin büyü uygulayıcısı ve düğümleyen kişi oluşunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_039",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ipliklere düğüm atıp üfleyen büyücü kadınlar"
+        },
+        {
+          "lexical_unit_id": "lu_040",
+          "rendering_kind": "ordinary",
+          "target_gloss": "düğüm büyüsü yapan büyücü"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001036/B014",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal ipliklere düğüm atma, düğümlere üfleme ve büyüyü yapan kişiyi birlikte kapsar.",
+          "neighbor_only": "Komşu dal tek bir büyü düğümünü ve ona karşı yapılan çözme uygulamasını da içerir.",
+          "gloss": "büyü düğümü ve onu çözme işlemi",
+          "shared_zone": "Her iki dal da büyünün bir düğümde bağlandığı kabulüne dayanan uygulama alanında örtüşür.",
+          "distinction": "Odak dal düğümün yapılması ile uygulayıcıyı öne çıkarır; komşu dal büyü düğümünün yanı sıra onu gidermeye yönelik işlemi de kapsar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; büyü düğümünü doğrudan paylaşan komşu en yakın sınırdır, öteki adaylar koruma, iyileştirme veya yalnızca iplik alanında kalır.",
+      "branch_image_ar": "عقد السحر والعزائم",
+      "what_is_ar": "يدخل فيه عقد الساحر في الخيوط، والنفاثات في العقد، والعزيمة التي تسمى عقدة والمعقد الساحر.",
+      "what_is_not_ar": "ليس هو مطلق عقد الحبل بغير سحر، ولا عقد اليمين، ولا عقدة اللسان.",
+      "source_phrase_ar": "المعقد الساحر (maqayis)؛ يعقد سحر البابليين طرفها (maqayis)؛ النفاثات في العقد من السواحر اللواتي يعقدن في الخيوط (maqayis)؛ النفاثات في العقد جمع عقدة وهي ما تعقده الساحرة (mufradat)؛ أصله من العزيمة ولذلك يقال لها عزيمة كما يقال لها عقدة (mufradat)؛ قيل للساحر معقد (mufradat)",
+      "sources": [
+        "MQ",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B014",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Tek kaynak ifadesi, sayan kişinin hesabı parmaklarını ve eklemlerini belirli biçimlerde bükerek yürütmesini doğrudan tanıklar.",
+        "boundary_note": "Dal yalnızca parmak bükerek sayma kuruluşudur; genel hesap, el işareti veya hesap düzeltme anlamına genişletilmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım parmaklarla sayma kuruluşuna sıkı biçimde bağlıdır ve genel sayma eylemini yalın kök anlamı olarak ileri sürmez."
+      },
+      "concept_map": {
+        "definition": "Sayan kişinin parmaklarını veya parmak eklemlerini belirli biçimlerde bükerek sayıyı göstermesi ve hesabı yürütmesidir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Hesap, parmakların belirli biçimlerde bükülüp konumlandırılmasıyla tutulur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Dal, parmakları bükme hareketiyle sayı gösterme ve hesap yürütme biçimini tanıklayan tek bir kaynak kaydına dayanır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Parmakların bükülmesi, sayıyı temsil eden ve hesabı sürdürmeye yarayan özel bir sayma tekniğidir."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "parmakları bükerek sayma",
+        "applicability": "Parmak konumlarının sayıları gösterdiği özel hesap tekniğini eksiksiz karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Parmak hareketini, sayma amacını ve hesabı yürütme işlevini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "parmak hesabı yapmak",
+          "usage_role": "contextual",
+          "applicability": "Kişinin sayıları parmak biçimleriyle göstererek hesap yaptığı cümlelerde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Hesabın parmaklar aracılığıyla yapılması özelliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_041",
+          "rendering_kind": "ordinary",
+          "target_gloss": "parmak eklemlerini bükerek saymak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000318/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, hesabı parmakların özel bükülüşleriyle gösterme yöntemine bağlıdır.",
+          "neighbor_only": "Komşu dal nesneleri sayma, genel hesap, karşılıklı hesaplaşma ve gök cisimlerinin hesabı gibi geniş alanları kapsar.",
+          "gloss": "genel sayma ve hesap",
+          "shared_zone": "Her iki dal da sayıların belirlenmesi ve bir hesabın yürütülmesi etkinliğini içerir.",
+          "distinction": "Odak dal sayma yöntemini parmak hareketiyle sınırlar; komşu dal araç ve yöntemden bağımsız genel hesap çekirdeğine sahiptir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel sayma ve hesap dalı amaç bakımından en yakın, yöntem bakımından ise açıkça daha geniş komşudur.",
+      "branch_image_ar": "الحساب بعقد الأصابع",
+      "what_is_ar": "يدخل فيه عقد الحاسب بأصابعه إذا حسب.",
+      "what_is_not_ar": "ليس هو عقد الحبل، ولا عقد اليمين، ولا عقد السحر.",
+      "source_phrase_ar": "الحاسب يعقد بأصابعه إذا حسب (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Parmakların bükülmesi, sayıyı temsil eden ve hesabı sürdürmeye yarayan özel bir sayma tekniğidir."
+      }
+    },
+    {
+      "branch_ref": "root_001034/B015",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Tek kaynak ifadesi, kuşağın bağlandığı yer üzerinden bir kişinin konuşana göre çok yakın konumda veya derecede oluşunu anlatan sabit kuruluşu doğrudan destekler.",
+        "boundary_note": "Dal yalnızca bu sabit yakınlık kuruluşudur; kuşağın gerçek düğümü veya bağlamdan bağımsız genel yakınlık anlamı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım sabit kuşak düğümü kuruluşuna bağlı mecazlı yakınlığı verir ve bunu yalın bir yakınlık anlamına genelleştirmez."
+      },
+      "concept_map": {
+        "definition": "Bir kişinin konuşana kuşağın bağlandığı yer kadar yakın sayıldığını belirten, çok yakın konum veya derece anlatan sabit bir kuruluştur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kuşak düğümünün bedene yakınlığı, kişi veya konumlar arasındaki çok yakın dereceyi anlatmak için kullanılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Dal, kuşak düğümünün bedene yakınlığını kişiler arasındaki çok yakın konum veya derece için kullanan tek bir kaynak kaydına dayanır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Sabit kuruluş, konuşana göre çok yakın bir konumu kuşağın bağlandığı yere benzeterek anlatır."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kuşak düğümü kadar yakın",
+        "applicability": "Yalnızca tanıklanan sabit kuruluşta, derece veya konum bakımından çok yakınlığı anlatır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kuşak düğümü imgesini, konuşana göre yakınlığı ve yüksek yakınlık derecesini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bana çok yakın konumda",
+          "usage_role": "contextual",
+          "applicability": "Sabit imgenin Türkçe cümlede doğal yakınlık ifadesiyle karşılanması gerektiğinde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Konuşana göre çok yakın olma ve konum derecesini korur.",
+            "loses": "Kuşağın bağlandığı yere dayanan özgün beden imgesini açıkça yansıtmaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_042",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kuşak düğümü kadar yakın, çok yakın konumda"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000029/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal konuşana göre yakınlığı kuşak düğümü imgesiyle anlatan tek bir sabit kuruluştur.",
+          "neighbor_only": "Komşu dal nesne, zaman ve olayların genel yaklaşmasını ve vaktin daralmasını da kapsar.",
+          "gloss": "genel yakınlık ve yaklaşma",
+          "shared_zone": "Her iki dal da bir şeyin başka bir şeye göre yakın konumda bulunması anlamını paylaşır.",
+          "distinction": "Odak dal sabit ve imgeli bir derece anlatımıdır; komşu dal herhangi bir nesne veya zaman için kullanılabilen genel yakınlık çekirdeğidir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel yakınlık dalı sabit kuruluşun açıklanmasında en yararlı sınırı verir, öteki adaylar özel tür veya uzaklık karşıtlığıdır.",
+      "branch_image_ar": "قرب معقد الإزار",
+      "what_is_ar": "يدخل فيه قولهم هو مني معقد الإزار في قرب المنزلة.",
+      "what_is_not_ar": "ليس هو عقد الإزار الحسي وحده، ولا القرابة العامة بلا هذا اللفظ.",
+      "source_phrase_ar": "هو مني معقد الإزار يراد به قرب المنزلة (sihah)",
+      "sources": [
+        "SI"
+      ],
+      "source_note": {
+        "SI": "Sabit kuruluş, konuşana göre çok yakın bir konumu kuşağın bağlandığı yere benzeterek anlatır."
+      }
+    },
+    {
+      "branch_ref": "root_001034/B016",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi kuyu çevresindeki koruma alanını, kuyu duvar örgüsünün alt ve üst bölümlerinin karşılıklı taşmasını ve vadinin bir topluluğun üzerine kapanmasını tanıklar. Bunlar genel bir çevreleme anlamında tam birleşmez; dal ancak yer çevresi, örtüşme ve kapanma kuruluşlarının ayrı tutulmasıyla kullanılabilir.",
+        "boundary_note": "Kuyu çevresi, duvar örgüsündeki taşma ve vadinin öldürücü kapanması ayrı kuruluşlardır; biri ötekilerin genel tanımı yapılmamalıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, yalın çevreleme varsaymadan üç tanıklanmış kuruluşu ayrı yüzler olarak korur ve her birinin katılımcılarını belirtir."
+      },
+      "concept_map": {
+        "definition": "Bir yerin çevresini belirleyen koruma alanı, yapı parçalarının birbirinin üzerine taşarak örtüşmesi veya doğal bir yer biçiminin insanların üzerine kapanmasıyla ilgili kuruluşlardır. Ortak mekânsal yakınlıklarına rağmen bu üç kullanımın sonucu ve katılımcıları ayrıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kuyunun çevresindeki alan, kuyuya bağlı koruma ve kullanım çevresi olarak adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Kuyu duvar örgüsünde alt bölüm dışarı, üst bölüm içeri taşarak katmanların karşılıklı örtüşmesini oluşturur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Vadi bir topluluğun üzerine kapanır ve bu kapanma onların yok olmasına yol açar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar tek bir genel eylemden çok üç ayrı mekânsal kuruluş sunar: kuyu çevresindeki koruma alanı, kuyu duvar örgüsünün örtüşmesi ve vadinin topluluğun üzerine kapanması.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yer çevresi, yapı örtüşmesi veya üzerine kapanma",
+        "applicability": "Üç kuruluşu tek bir yalın anlama indirgemeden birlikte gösteren açıklayıcı karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kuyu çevresini, örgü katmanlarının örtüşmesini ve vadinin üzerine kapanmasını ayrı tutar.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kuyunun koruma çevresi",
+          "usage_role": "contextual",
+          "applicability": "Kuyunun çevresindeki bağlı kullanım ve koruma alanının adlandırıldığı bağlama özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kuyu katılımcısını ve ona bağlı çevresel koruma alanını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "vadinin üzerlerine kapanması",
+          "usage_role": "contextual",
+          "applicability": "Vadinin bir topluluğu kuşatıp yok ettiği olay bağlamında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Vadiyi, etkilenen topluluğu ve öldürücü kapanma sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_043",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kuyunun çevresindeki koruma alanı"
+        },
+        {
+          "lexical_unit_id": "lu_044",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kuyu duvar örgüsünün alttan dışa, üstten içe taşması"
+        },
+        {
+          "lexical_unit_id": "lu_045",
+          "rendering_kind": "ordinary",
+          "target_gloss": "vadinin topluluğun üzerine kapanıp onları yok etmesi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000372/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal kuyu koruma çevresini, kuyu örgüsündeki örtüşmeyi ve vadinin öldürücü kapanmasını ayrı kuruluşlarda içerir.",
+          "neighbor_only": "Komşu dal bir şeyi duvar, çit veya atlılarla her yandan fiziksel olarak çevreleme eylemini genel biçimde kapsar.",
+          "gloss": "fiziksel olarak çevreleme",
+          "shared_zone": "Her iki dal da bir yerin veya varlığın çevresinin kapanması ve sınırlandırılması alanında örtüşür.",
+          "distinction": "Odak dalın bazı yüzleri çevreleme değil yapı katmanlarının örtüşmesidir ve tümü belirli kuruluşlara bağlıdır; komşu dal doğrudan çevreleme eylemidir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel fiziksel çevreleme dalı ortak mekânsal alanı en iyi açıklar, ancak odak dalın örgü örtüşmesi yüzünü karşılamaz.",
+      "branch_image_ar": "إحاطة الموضع وإطباقه",
+      "what_is_ar": "يدخل فيه حريم البئر وما حولها، وتداخل طي البئر، وإطباق الوادي على القوم.",
+      "what_is_not_ar": "ليس هو عقدة الشجر، ولا اقتناء الأرض، ولا عقد الحبل.",
+      "source_phrase_ar": "إذا أطبق الوادي على قوم فأهلكهم عقد عليهم (maqayis)؛ العاقد حريم البئر وما حوله (sihah)؛ التعقد في البئر أن يخرج أسفل الطي ويدخل أعلاه إلى جراب البئر (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001034/B017",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Tek kaynak ifadesi, boynu birine yöneltme imgesiyle o kişiye sığınma ve ondan korunma isteme anlamını doğrudan tanıklar.",
+        "boundary_note": "Dal yalnızca bu boyunlu sığınma kuruluşudur; hayvan boynunun bükülmesi, genel destek alma veya ayakla dayanma değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım boynu birine yöneltme kuruluşuna bağlı sığınmayı verir ve bunu bağlamdan bağımsız yalın bir sığınma anlamı olarak genelleştirmez."
+      },
+      "concept_map": {
+        "definition": "Kişinin boynunu birine yöneltme imgesiyle o kişiye sığınması, korunma istemesi ve kendisini onun himayesine bırakmasıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Sığınan kişi kendisini başka bir kişiye yöneltir ve ondan korunma bekler.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Yönelme, boynu sığınılan kişiye bağlama veya çevirme biçimindeki sabit beden imgesiyle anlatılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Dal, kişinin boynunu başka bir kişiye yöneltmesi imgesi üzerinden sığınma ve korunma istemeyi tanıklayan tek bir kaynak kaydına dayanır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Sabit kuruluş, bir kişiye yönelip kendini onun korumasına bırakmayı boyun imgesiyle anlatır."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "boynunu yöneltip birine sığınma",
+        "applicability": "Tanıklanan sabit kuruluşun beden imgesini ve korunma amaçlı yönelişini birlikte korur.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Boynu yöneltme imgesini, sığınılan kişiyi ve korunma isteme sonucunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "birine sığınmak",
+          "usage_role": "contextual",
+          "applicability": "Beden imgesinin Türkçe cümlede doğal bir eylemle karşılanması gereken bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Başka bir kişiye yönelme ve ondan korunma isteme çekirdeğini korur.",
+            "loses": "Boynu sığınılan kişiye yöneltmeye dayanan özgün beden imgesini açıkça yansıtmaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_046",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birine sığınmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001059/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal bir kişiye sığınmayı boynu ona yöneltme biçimindeki tek bir sabit beden imgesiyle anlatır.",
+          "neighbor_only": "Komşu dal kişi, yer veya yüce bir koruyucuya sığınma, korunma dileme ve güvenli barınak anlamlarını genişçe kapsar.",
+          "gloss": "sığınma ve korunma dileme",
+          "shared_zone": "Her iki dal da tehlike veya ihtiyaç karşısında bir koruyucuya yönelip güvenlik aramayı anlatır.",
+          "distinction": "Odak dal kişi katılımcısına ve boyun imgesine bağlı sabit bir kuruluştur; komşu dal araç ve hedef bakımından genel sığınma çekirdeğidir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel sığınma ve korunma dalı çekirdeği en yakın biçimde paylaşır, diğerleri barınak türü, destek veya beden bölgesiyle sınırlıdır.",
+      "branch_image_ar": "لجأ بعنقه",
+      "what_is_ar": "يدخل فيه عقد العنق إلى فلان بمعنى اللجوء إليه.",
+      "what_is_not_ar": "ليس هو ثني عنق الظبية، ولا قرب معقد الإزار، ولا عقد القلب.",
+      "source_phrase_ar": "عقد فلان عنقه إلى فلان وعكدها إذا لجأ إليه (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Sabit kuruluş, bir kişiye yönelip kendini onun korumasına bırakmayı boyun imgesiyle anlatır."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Kökün dalları, somut uçları düğümleme çekirdeğinden bağlayıcı söz, maddesel koyulaşma, zihinsel yerleşme, yoğunluk, kıvrılma ve çeşitli sabit kuruluşlara uzanan geniş bir anlam ağı oluşturur. Bazı dallar biçimsel sıkışma veya bağlanma imgesini korurken, parmakla sayma, yakınlık ve sığınma gibi kullanımlar yalnızca kendi kuruluşlarında yaşar.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 7,
+      "word_count": 7,
+      "ayah_count": 7,
+      "surah_count": 5
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "عُقْدَة",
+        "stem_ar": "عُقْدَةَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Euqodap|ROOT:Eqd|F|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "عُقْدَة",
+        "stem_ar": "عُقْدَةُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Euqodap|ROOT:Eqd|F|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "عَقَدَتْ",
+        "stem_ar": "عَقَدَتْ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:Eaqadato|ROOT:Eqd|3FS",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "عُقُود",
+        "stem_ar": "عُقُودِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Euquwd|ROOT:Eqd|MP|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "عَقَّد",
+        "stem_ar": "عَقَّد",
+        "pos": "V",
+        "measure": "II",
+        "morph_features": "STEM|POS:V|PERF|(II)|LEM:Eaq~ad|ROOT:Eqd|2MP",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F006",
+        "lemma_ar": "عُقْدَة",
+        "stem_ar": "عُقْدَةً",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Euqodap|ROOT:Eqd|F|INDEF|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F007",
+        "lemma_ar": "عُقْدَة",
+        "stem_ar": "عُقَدِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:Euqodap|ROOT:Eqd|MP|GEN",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:235",
+        "surface_ar": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ"
+      },
+      {
+        "ayah_ref": "2:237",
+        "surface_ar": "وَإِن طَلَّقْتُمُوهُنَّ مِن قَبْلِ أَن تَمَسُّوهُنَّ وَقَدْ فَرَضْتُمْ لَهُنَّ فَرِيضَةً فَنِصْفُ مَا فَرَضْتُمْ إِلَّآ أَن يَعْفُونَ أَوْ يَعْفُوَا۟ ٱلَّذِى بِيَدِهِۦ عُقْدَةُ ٱلنِّكَاحِ وَأَن تَعْفُوٓا۟ أَقْرَبُ لِلتَّقْوَىٰ وَلَا تَنسَوُا۟ ٱلْفَضْلَ بَيْنَكُمْ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ"
+      },
+      {
+        "ayah_ref": "4:33",
+        "surface_ar": "وَلِكُلٍّ جَعَلْنَا مَوَٰلِىَ مِمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ وَٱلَّذِينَ عَقَدَتْ أَيْمَٰنُكُمْ فَـَٔاتُوهُمْ نَصِيبَهُمْ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدًا"
+      },
+      {
+        "ayah_ref": "5:1",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَوْفُوا۟ بِٱلْعُقُودِ أُحِلَّتْ لَكُم بَهِيمَةُ ٱلْأَنْعَٰمِ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ غَيْرَ مُحِلِّى ٱلصَّيْدِ وَأَنتُمْ حُرُمٌ إِنَّ ٱللَّهَ يَحْكُمُ مَا يُرِيدُ"
+      },
+      {
+        "ayah_ref": "5:89",
+        "surface_ar": "لَا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَٰنِكُمْ وَلَٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلْأَيْمَٰنَ فَكَفَّٰرَتُهُۥٓ إِطْعَامُ عَشَرَةِ مَسَٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ تَحْرِيرُ رَقَبَةٍ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ ذَٰلِكَ كَفَّٰرَةُ أَيْمَٰنِكُمْ إِذَا حَلَفْتُمْ وَٱحْفَظُوٓا۟ أَيْمَٰنَكُمْ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَٰتِهِۦ لَعَلَّكُمْ تَشْكُرُونَ"
+      },
+      {
+        "ayah_ref": "20:27",
+        "surface_ar": "وَٱحْلُلْ عُقْدَةً مِّن لِّسَانِى"
+      },
+      {
+        "ayah_ref": "113:4",
+        "surface_ar": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:235:29:1",
+        "qac_word_ref": "2:235:29",
+        "surah": 2,
+        "ayah": 235,
+        "word_index": 29,
+        "morpheme_index": 1,
+        "surface_ar": "عُقْدَةَ",
+        "stem_ar": "عُقْدَةَ",
+        "lemma_ar": "عُقْدَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Euqodap|ROOT:Eqd|F|ACC",
+        "ayah_ref": "2:235",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:235:noun:32",
+          "attachment_word_unit_id": "q:2:235:32",
+          "qac_char_span": [
+            120,
+            124
+          ],
+          "attachment_char_spans": [
+            [
+              120,
+              123
+            ],
+            [
+              120,
+              124
+            ]
+          ],
+          "source_grammar": "noun, abstract, accusative (mafʿūl bihi of taʿzimū), definite by iḍāfa",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:235:pass1:attach:a18",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:235:31",
+              "other_surface": "تَعْزِمُوا",
+              "other_root": "ع ز م",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s002:235:pass1:attach:a19",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:2:235:33",
+              "other_surface": "النِّكَاحِ",
+              "other_root": "ن ك ح",
+              "other_form_tag": "GERUND",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "2:237:21:1",
+        "qac_word_ref": "2:237:21",
+        "surah": 2,
+        "ayah": 237,
+        "word_index": 21,
+        "morpheme_index": 1,
+        "surface_ar": "عُقْدَةُ",
+        "stem_ar": "عُقْدَةُ",
+        "lemma_ar": "عُقْدَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Euqodap|ROOT:Eqd|F|NOM",
+        "ayah_ref": "2:237",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:237:noun:26",
+          "attachment_word_unit_id": "q:2:237:26",
+          "qac_char_span": [
+            77,
+            81
+          ],
+          "attachment_char_spans": [
+            [
+              77,
+              80
+            ],
+            [
+              77,
+              81
+            ]
+          ],
+          "source_grammar": "noun, nominative (mubtadaʾ muʾakhkhar in the relative clause), iḍāfa with al-nikāḥ",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:237:pass1:attach:a13",
+              "relation": "predication",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:237:25",
+              "other_surface": "بِيَدِهِ",
+              "other_root": "ي د ي",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s002:237:pass1:attach:a12",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:2:237:25",
+              "other_surface": "بِيَدِهِ",
+              "other_root": "ي د ي",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s002:237:pass1:attach:a14",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:2:237:27",
+              "other_surface": "النِّكَاحِ",
+              "other_root": "ن ك ح",
+              "other_form_tag": "GERUND",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "4:33:9:1",
+        "qac_word_ref": "4:33:9",
+        "surah": 4,
+        "ayah": 33,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "عَقَدَتْ",
+        "stem_ar": "عَقَدَتْ",
+        "lemma_ar": "عَقَدَتْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:Eaqadato|ROOT:Eqd|3FS",
+        "ayah_ref": "4:33",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s004:033:pass1:frame:v3",
+          "attachment_word_unit_id": "q:4:33:13",
+          "qac_char_span": [
+            43,
+            47
+          ],
+          "attachment_char_spans": [
+            [
+              43,
+              46
+            ],
+            [
+              43,
+              47
+            ]
+          ],
+          "source_grammar": "perfect verb, 3rd person feminine singular (tāʾ al-taʾnīth), subject = aymānukum (feminine plural)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s004:033:pass1:attach:a7",
+              "relation": "direct_object",
+              "focus_role": "head",
+              "other_unit_id": "q:4:33:12",
+              "other_surface": "وَالَّذِينَ",
+              "other_root": "ل ل ذ",
+              "other_form_tag": "REL_PRON",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s004:033:pass1:attach:a8",
+              "relation": "subject",
+              "focus_role": "head",
+              "other_unit_id": "q:4:33:14",
+              "other_surface": "أَيْمَانُكُمْ",
+              "other_root": "ي م ن",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;word_order"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "5:1:5:3",
+        "qac_word_ref": "5:1:5",
+        "surah": 5,
+        "ayah": 1,
+        "word_index": 5,
+        "morpheme_index": 3,
+        "surface_ar": "عُقُودِ",
+        "stem_ar": "عُقُودِ",
+        "lemma_ar": "عُقُود",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Euquwd|ROOT:Eqd|MP|GEN",
+        "ayah_ref": "5:1",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s005:001:noun:7",
+          "attachment_word_unit_id": "q:5:1:7",
+          "qac_char_span": [
+            22,
+            29
+          ],
+          "attachment_char_spans": [
+            [
+              22,
+              29
+            ],
+            [
+              25,
+              29
+            ]
+          ],
+          "source_grammar": "Definite plural noun in genitive (governed by بِ); plural of ʿaqd \"knot, contract\"; al- universalizes — every category of binding obligation",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s005:001:pass1:attach:a3",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:5:1:5",
+              "other_surface": "أَوْفُوا",
+              "other_root": "و ف ي",
+              "other_form_tag": "CV",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "5:89:10:1",
+        "qac_word_ref": "5:89:10",
+        "surah": 5,
+        "ayah": 89,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "عَقَّد",
+        "stem_ar": "عَقَّد",
+        "lemma_ar": "عَقَّد",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "II",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|(II)|LEM:Eaq~ad|ROOT:Eqd|2MP",
+        "ayah_ref": "5:89",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s005:089:pass1:frame:v3",
+          "attachment_word_unit_id": "q:5:89:13",
+          "qac_char_span": [
+            43,
+            48
+          ],
+          "attachment_char_spans": [
+            [
+              43,
+              46
+            ],
+            [
+              43,
+              48
+            ]
+          ],
+          "source_grammar": "perfect verb, Form II (ʿaqqada), 2nd person masculine plural; active voice",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s005:089:pass1:attach:a8",
+              "relation": "direct_object",
+              "focus_role": "head",
+              "other_unit_id": "q:5:89:14",
+              "other_surface": "الْأَيْمَانَ",
+              "other_root": "ي م ن",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "20:27:2:1",
+        "qac_word_ref": "20:27:2",
+        "surah": 20,
+        "ayah": 27,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "عُقْدَةً",
+        "stem_ar": "عُقْدَةً",
+        "lemma_ar": "عُقْدَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Euqodap|ROOT:Eqd|F|INDEF|ACC",
+        "ayah_ref": "20:27",
+        "form_id": "F006",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s020:027:noun:3",
+          "attachment_word_unit_id": "q:20:27:3",
+          "qac_char_span": [
+            5,
+            9
+          ],
+          "attachment_char_spans": [
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          "source_grammar": "noun, indefinite accusative singular, tāʾ marbūṭa feminine, direct object of ٱحْلُلْ",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s020:027:pass1:attach:a1",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:20:27:2",
+              "other_surface": "وَاحْلُلْ",
+              "other_root": "ح ل ل",
+              "other_form_tag": "CV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s020:027:pass1:attach:a2",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:20:27:5",
+              "other_surface": "لِسَانِي",
+              "other_root": "ل س ن",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "مِن",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "113:4:5:2",
+        "qac_word_ref": "113:4:5",
+        "surah": 113,
+        "ayah": 4,
+        "word_index": 5,
+        "morpheme_index": 2,
+        "surface_ar": "عُقَدِ",
+        "stem_ar": "عُقَدِ",
+        "lemma_ar": "عُقْدَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:Euqodap|ROOT:Eqd|MP|GEN",
+        "ayah_ref": "113:4",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s113:004:noun:6",
+          "attachment_word_unit_id": "q:113:4:6",
+          "qac_char_span": [
+            15,
+            20
+          ],
+          "attachment_char_spans": [
+            [
+              17,
+              20
+            ]
+          ],
+          "source_grammar": "Noun (ism), plural of ʿuqda, genitive case (majrūr) governed by fī. Definite with al-. Pattern: fuʿal, broken plural. The root ʿ-q-d conveys tying, binding, contracting, making firm. Syntactically serves as PREP_OBJ (object of preposition fī)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s113:004:pass1:attach:a2",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:113:4:4",
+              "other_surface": "النَّفَّاثَاتِ",
+              "other_root": "ن ف ث",
+              "other_form_tag": "ADJ_INTENS",
+              "prep_base": "فِي",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

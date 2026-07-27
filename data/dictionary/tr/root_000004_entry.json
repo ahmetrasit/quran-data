@@ -1,0 +1,2288 @@
+{
+  "inputs_sha256": "26d9232f504f1e7a765aa21f24962f85e900df68194f08d588ea73e7bbc51331",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000004",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000004/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi uzun ve kesintisiz süreyi, bütün zaman boyunca sürmeyi ve bir şeyi kalıcı duruma getirmeyi birlikte destekler. Geçici kalış, yabanıllaşma ve ıssızlaşma bu dalın çekirdeğine girmez.",
+        "boundary_note": "Çekirdek zaman bakımından sonsuz ya da çok uzun sürmedir; kalıcı kılma bunun ettirgen uzantısıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Yalın zaman adı ile süreyi pekiştiren kalıplar ve kalıcı kılmayı bildiren türemiş biçimler ayrı tutulur."
+      },
+      "concept_map": {
+        "definition": "Bir sürenin son sınır düşünülmeden uzaması veya bütün zaman boyunca devam etmesi; ayrıca bir şeyi bu biçimde sürekli ve değişmez kılma.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Sonu belirlenmeyen, çok uzun veya kesintisiz bir zaman süresini bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Pekiştirici zaman kalıplarında bütün çağlar boyunca sürme anlamı öne çıkar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Bir şeyi sürekli, devredilemez veya sona erdirilemez duruma getirmeyi de kapsar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar dalı uzun zaman, sürekli devam ve bir şeyi kalıcı kılma çevresinde ortaklaştırır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sonsuz süre ve kalıcı kılma",
+        "applicability": "Zaman çekirdeği ile bir şeyi sürekli duruma getiren uzantıyı birlikte özetleyen üst karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sınırsız süreyi ve kalıcılaştırma işlemini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "sonsuza dek",
+          "usage_role": "contextual",
+          "applicability": "Bütün zaman boyunca süren eylem ve durumları anlatan pekiştirici kalıplarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Zamanın son sınırı bulunmadığı düşüncesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "kalıcı kılma",
+          "usage_role": "contextual",
+          "applicability": "Bir malı, düzenlemeyi veya durumu sürekli ve değişmez hale getiren türemiş biçimlerde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Sürekliliğin bir şeye kazandırılması işlemini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sonsuz zaman, çok uzun süre"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sonsuza dek, kesintisiz olarak"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çağlar boyunca, sonsuza dek"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bütün zaman boyunca"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kalıcı kılma"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sürekli kılınmış, devredilemez"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sonsuza dek veya çok uzun süre kalmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000695/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bir şeyi sürekli ve değişmez kılmaya uzanan türemiş kullanım da bu dalda bulunur.",
+          "neighbor_only": "Komşu dal, zamanın parçalarının birbirine bağlanmış kesintisizliği görüntüsünü özellikle öne çıkarır.",
+          "gloss": "kesintisiz zaman",
+          "shared_zone": "İki dal da son sınırı düşünülmeyen sürekli zamanı anlatır.",
+          "distinction": "Odak dal uzun süre ve kalıcı kılma uzantısını kapsarken komşu dal zamanın kesintisiz bağlantısını merkez alır."
+        },
+        {
+          "neighbor_ref": "root_000494/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Sürenin son sınırının bulunmaması ve kalıcı kılma uzantısı odak dala özgüdür.",
+          "neighbor_only": "Komşu dal sıradan zaman, yaşam süresi veya dünyanın süresi gibi sonlu uzantıları da kapsar.",
+          "gloss": "uzun zaman",
+          "shared_zone": "Her ikisi de uzun bir zaman dilimini gösterebilir.",
+          "distinction": "Komşu dal geniş anlamda zaman ve uzun süreyi kapsar; odak dal ise sınırsız devamı ve ondan türeyen kalıcılığı belirginleştirir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; zaman çekirdeğinin sınırını en açık gösteren iki yakın komşu seçildi.",
+      "branch_image_ar": "طول المدة والدوام",
+      "what_is_ar": "الأبد والآباد وأبد الآبدين وأبد الدهر والدوام والتأبيد والتخليد وما جعل مؤبدا",
+      "what_is_not_ar": "ليس التوحش ولا خلو المنزل ولا الإبد الولود ولا الغضب",
+      "source_phrase_ar": "طول المدة (maqayis)؛ الأبد الدهر (maqayis;sihah)؛ أبد الآبدين وأبد الدهر (tahdhib)؛ الأبد الدائم والتأبيد التخليد (sihah)؛ مدة الزمان الممتد (mufradat)؛ وقفا مؤبدا وتأبيدا (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000004/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi deve ve başka hayvanların insana alışıklığını yitirip yabani hayvanlar gibi ürkekleşmesini açıkça bir arada verir. Salt uzaklaşma, yerinde kalma veya zaman bakımından sürme bu kimliğe dahil değildir.",
+        "boundary_note": "Dal, özellikle hayvanın insan çevresinden koparak yabanıllaşması ve insandan ürkmesiyle sınırlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Hayvanla kurulan eylem kalıpları ile yabanıl hayvanları adlandıran biçimler ayrılarak tanımlanır."
+      },
+      "concept_map": {
+        "definition": "Bir hayvanın insana alışıklığını yitirerek yabanıllaşması, insanlardan ürküp kaçınması veya bu durumdaki yabanıl hayvanlardan olması.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Evcil ya da insana alışık bir hayvanın yabanıl duruma geçmesini bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bu değişim insandan ürkme, kaçınma ve yabani hayvanlara benzeme ile görünür olur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Türemiş adlar yabanıl, ürkek hayvanların kendisini de gösterebilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar hayvanın yabanıllaşmasını, insandan ürkmesini ve yabanıl hayvan adıyla anılmasını ortak bir anlam alanında birleştirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yabanıllaşıp insandan ürkme",
+        "applicability": "Hayvanın evcil çevreden kopuşunu ve bunun insana karşı ürkeklik sonucunu birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yabanıllaşma sürecini ve insandan kaçınma sonucunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yabani hayvanlar",
+          "usage_role": "contextual",
+          "applicability": "Süreci değil, insanlara alışık olmayan ürkek hayvanları adlandıran çoğul biçimlerde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İnsandan uzak duran yabanıl hayvan sınıfını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "devenin yabanıllaşması"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "hayvanın yabanıllaşıp insandan ürkmesi"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yabani ve ürkek hayvanlar"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yabani inek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000955/B006",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, insana alışıklığını yitiren deve ve başka hayvanlar ile bunların adlarına bağlanır.",
+          "neighbor_only": "Komşu dal insanları ve kuşları da içine alan daha geniş bir yabanıllık niteliğidir.",
+          "gloss": "yabanıllık",
+          "shared_zone": "İki dal da alışılmış insan çevresinin dışına çıkıp yabanıllaşmayı anlatır.",
+          "distinction": "Odak dal hayvanın insandan ürkerek yabanıllaşma sürecini belirtir; komşu dal daha geniş katılımcılara uygulanabilen bir niteliktir."
+        },
+        {
+          "neighbor_ref": "root_001532/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Yabanıl hayvan durumuna geçiş ve bu hayvanların adı odak dalda bulunur.",
+          "neighbor_only": "Komşu dal herhangi bir şeyden ya da doğrudan uzaklaşmayı ve başkasını uzaklaştırmayı da kapsar.",
+          "gloss": "ürküp uzaklaşma",
+          "shared_zone": "Hayvanın ürkerek bir şeyden uzaklaşması iki dalın ortak alanıdır.",
+          "distinction": "Komşu dal genel kaçınma ve uzaklaşma hareketidir; odak dal bu hareketi insana alışıklığın yitirilmesiyle oluşan yabanıllığa bağlar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yabanıllaşma ile genel ürkme arasındaki sınırı gösteren iki komşu yayımlandı.",
+      "branch_image_ar": "التوحش والنفور",
+      "what_is_ar": "توحش البهيمة والبعير والولد ونفورها من الإنس وكونها من الأوابد أو الوحشيات",
+      "what_is_not_ar": "ليس مجرد الإقامة بالمكان ولا خلو المنزل ولا الدوام الزماني",
+      "source_phrase_ar": "تأبد البعير توحش (maqayis;mufradat)؛ أوابد كأوابد الوحش (maqayis;tahdhib)؛ أبدت البهيمة أي توحشت (sihah)؛ توحشت ونفرت من الإنس (tahdhib)؛ الوحشيات (mufradat)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000004/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bir evin ya da yerleşimin sakinlerince terk edilmesini, ıssız kalmasını ve ardından yabani hayvanların oraya yerleşmesini birlikte verir. Bu, hayvanın kendisinin yabanıllaşmasından farklı bir yer durumu ve süreçtir.",
+        "boundary_note": "Anlam yalnızca terk edilen ev veya yerleşim kalıbına bağlıdır; genel bir boşluk ya da yabanıllık anlamı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım, terk edilen ev veya yerleşimle kurulan kalıba bağlı tutulur ve yalın kök anlamına genellenmez."
+      },
+      "concept_map": {
+        "definition": "Bir evin ya da yerleşimin sakinleri ayrıldıktan sonra boşalıp ıssızlaşması ve yabani hayvanların uğradığı bir yere dönüşmesi.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Evin veya yerleşimin sakinlerinden boşalarak ıssız kalmasını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "İnsanların ardından yabani hayvanların yeri benimsemesi sürecin sonucu olarak belirtilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar sakinlerin ayrılmasıyla evin boş ve ıssız kalmasını, ardından yabani hayvanların oraya gelmesini ortak biçimde aktarır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "terk edilip ıssızlaşmak",
+        "applicability": "Ev veya yerleşimin insanlardan boşalmasını ve terk edilmiş duruma gelmesini karşılayan kalıp anlamıdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sakinlerin ayrılmasıyla yerin ıssızlaşması sürecini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yabani hayvanlara kalmak",
+          "usage_role": "explanatory",
+          "applicability": "Terk edilmiş yerin insanlardan sonra yabani hayvanlarca kullanılmasını özellikle belirtir.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Terk edilmenin ardından gelen hayvan yerleşimini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "evin terk edilip ıssızlaşması ve yabani hayvanlara kalması"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001632/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal, sakinlerin ayrılmasından sonra yabani hayvanların yeri benimsemesi sonucunu içerir.",
+          "neighbor_only": "Komşu dal ülke, arazi, ev ve yıkıntılar yanında yalnızlıktan doğan iç sıkıntısını da kapsar.",
+          "gloss": "ıssız yer",
+          "shared_zone": "İki dal da insanların bulunmadığı boş ve ürkütücü bir yeri anlatır.",
+          "distinction": "Odak dal bir evin terk edilip hayvanlara kalma sürecidir; komşu dal daha geniş yer türlerini ve duygusal yalnızlığı da kapsayan bir durum alanıdır."
+        },
+        {
+          "neighbor_ref": "root_001027/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Terk edilen yerin ıssızlaşıp yabani hayvanlara kalması odak dala özgüdür.",
+          "neighbor_only": "Komşu dal kuyu, sürü, görev, sınır ve üretim gibi çok farklı şeylerin ilgilisiz ya da işlemez kalmasını kapsar.",
+          "gloss": "boş ve işlemez kalma",
+          "shared_zone": "Bir yerin sakin veya görevli bulunmaması iki dalda da görülebilir.",
+          "distinction": "Komşu dal genel boşluk ve işlevsizliği anlatır; odak dal insan konutunun terk edilerek ıssızlaşmasıyla sınırlıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; terk edilmiş konut anlamını genel ıssızlık ve boşluktan ayıran iki komşu seçildi.",
+      "branch_image_ar": "خلو المنزل وإقفاره",
+      "what_is_ar": "تأبد المنزل أو الدار إذا خلا أهلها وأقفر المكان وخلفتهم الوحوش فيه",
+      "what_is_not_ar": "ليس توحش الحيوان نفسه ولا الإقامة بالمكان",
+      "source_phrase_ar": "تأبد المنزل خلا (maqayis)؛ تأبد المنزل أي أقفر وألفته الوحوش (sihah)؛ خلا منها أهلها خلفتهم الوحش بها قد تأبدت (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000004/B004",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi dişi eşek, kısrak ve köle kadın gibi dişilerin düzenli, özellikle her yıl doğurmasını bu adın belirleyici özelliği olarak verir. Sürü, damızlık erkek veya yalnızca çok çocuk sahibi olma anlamları bu dalın çekirdeği değildir.",
+        "boundary_note": "Dal, belirtilen dişi katılımcıların her yıl ürün vermesi veya doğurması niteliğiyle sınırlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Yalın ad, düzenli doğuran dişiyi gösterir; komşu üreme kalıplarından ek anlam alınmaz."
+      },
+      "concept_map": {
+        "definition": "Dişi eşek, kısrak veya köle kadın gibi her yıl doğuran ve düzenli yavru veren dişi.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir dişinin düzenli ve özellikle her yıl doğurma niteliğini bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Dişi eşek, kısrak ve köle kadın kaynakta bu niteliğin katılımcıları olarak sayılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar adı, çeşitli dişiler arasında düzenli ve her yıl doğuran bireyin niteliği olarak ortak biçimde tanımlar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "her yıl doğuran dişi",
+        "applicability": "Düzenli yavru veren dişi hayvanı veya kaynakta aynı nitelikle anılan kadını gösterir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Dişi katılımcıyı ve yıllık doğurma düzenini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "düzenli yavrulayan",
+          "usage_role": "contextual",
+          "applicability": "Dişi hayvanın tekrarlanan ve verimli doğurma niteliğinin cümle içinde aktarılmasına uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Tekrarlanan doğurma ve yavru verme özelliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "her yıl doğuran dişi eşek, kısrak veya köle kadın"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001472/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal yıllık doğurma düzenini ve dişi hayvanları da kapsayan bir sınıf adını bildirir.",
+          "neighbor_only": "Komşu dal çok çocuk doğuran kadını ve doğurmanın çokluğunu saçılma görüntüsüyle anlatır.",
+          "gloss": "çok doğuran kadın",
+          "shared_zone": "Her iki dal da bir dişinin tekrarlanan doğurganlığını anlatır.",
+          "distinction": "Odak dal farklı dişilerin her yıl doğurmasına dayanır; komşu dal yalnız kadınlarda çocuk sayısının çokluğunu öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_000373/B007",
+          "relation_type": "polarity_pair",
+          "boundary_match": "opposed",
+          "focus_only": "Odak dal dişinin her yıl doğurmasını ve verimliliğini bildirir.",
+          "neighbor_only": "Komşu dal dişinin bir yıl veya daha uzun süre gebe kalmamasını bildirir.",
+          "gloss": "doğuran ve kısır kalan",
+          "shared_zone": "İki dal dişi hayvanın yıllık üreme durumunu karşıt yönlerden sınıflandırır.",
+          "distinction": "Odak dal düzenli doğumun olumlu kutbudur; komşu dal gebelik ve ürün vermenin kesildiği karşıt kutuptur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; düzenli doğurganlığın yakın alanını ve karşıt durumunu gösteren iki ilişki seçildi.",
+      "branch_image_ar": "الإبد الولود",
+      "what_is_ar": "الإبد من المال كالأتان والأمة والفرس التي تلد أو تنتج في كل عام",
+      "what_is_not_ar": "ليس الأبد بمعنى الدهر ولا الأوابد الوحشية",
+      "source_phrase_ar": "الإبد ذات النتاج من المال كالأمة والفرس والأتان (maqayis)؛ الابد الولود من أمة أو أتان (sihah)؛ أتان إبد في كل عام تلد (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000004/B005",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi aynı yüz kalıbını bir yanda lekelenme, öte yanda yabanıl veya sert bir görünüm alma biçiminde açıklar; öfkelenme ise ikinci açıklamanın ayrıca verilen yorumudur. Bu yüzden dal yüzün görünür değişimini çekirdek almalı, öfkeyi zorunlu anlam değil kaynak varyantı saymalıdır.",
+        "boundary_note": "Yüzün görünüşündeki olumsuz değişim çekirdektir; öfke yalnızca aktarılan bir yorum olarak korunur."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Anlam yalnız yüzle kurulan kalıba bağlıdır; genel değişme veya genel öfkelenme anlamına genişletilmez."
+      },
+      "concept_map": {
+        "definition": "Yüzün lekelenerek, rengi değişerek veya yabanıl ve sert bir görünüm alarak olumsuz biçimde değişmesi; bir yorumda bu görünüm öfkeye bağlanır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Yüzün lekeli veya rengi değişmiş bir görünüm almasını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Yüzün yabanıl, sert ve alışılmadık bir görünüm alması biçiminde de açıklanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Yüzdeki bu değişim bir açıklamada öfkelenme olarak yorumlanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Toplu kanıt yüzün lekelenmesi ile yabanıl veya sert görünmesi arasında değişen açıklamalar sunar; öfke de ikinci açıklamaya bağlı bir yorumdur.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yüzün lekelenip sertleşmesi",
+        "applicability": "Yüz kalıbındaki görünür ve olumsuz değişimin iki temel açıklamasını birlikte özetler.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Lekelenme ile yabanıl veya sert görünüm değişimini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yüzü öfkeden değişmek",
+          "usage_role": "contextual",
+          "applicability": "Yüzdeki değişimi öfke ile açıklayan kaynak varyantının cümle içindeki karşılığıdır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Öfke yorumunu ve bunun yüzde görünmesini birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yüzün lekelenmesi, sertleşmesi veya öfkeden değişmesi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000754/B007",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal yalnız belirli yüz kalıbında lekelenme ve yabanıl sertlik varyantlarını taşır.",
+          "neighbor_only": "Komşu dal kaygı veya savaş gibi nedenlerle yüzün asılması ve rengin genel değişmesini kapsar.",
+          "gloss": "yüz renginin değişmesi",
+          "shared_zone": "İki dalda da yüzün rengi veya görünüşü olumsuz yönde değişir.",
+          "distinction": "Komşu dal genel yüz ve renk değişimini anlatır; odak dal belirli kalıpta lekelenme, yabanıl görünüm ve öfke yorumunu bir arada tutar."
+        },
+        {
+          "neighbor_ref": "root_000198/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Lekelenme ve yabanıl sertlik öfkeden bağımsız olarak da odak dalda bulunur.",
+          "neighbor_only": "Komşu dal yalnız öfkenin yüzde bıraktığı görünür izi merkez alır.",
+          "gloss": "öfkeli yüz izi",
+          "shared_zone": "Öfkenin yüz görünümünü değiştirmesi iki dalın kesişme alanıdır.",
+          "distinction": "Komşu dal doğrudan öfke izidir; odak dalda öfke yalnız bir yorumdur ve yüz değişiminin diğer açıklamaları da vardır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yüz değişimi çekirdeğini ve öfke yorumunun sınırlı yerini gösteren iki komşu seçildi.",
+      "branch_image_ar": "تأبد الوجه وتغيره",
+      "what_is_ar": "تأبد الوجه إذا تغير بالوحشة أو الكلف أو فسر بالغضب",
+      "what_is_not_ar": "ليس توحش البهيمة ولا غضب الرجل المجرد إلا عند من فسره بذلك",
+      "source_phrase_ar": "تأبد وجهه كلف (maqayis)؛ تأبد وجه فلان توحش وقد فسر بغضب (mufradat)",
+      "sources": [
+        "MQ",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000004/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bir yerde kalmayı ve oradan ayrılmamayı açıkça verir; aynı anlam, kış ve yaz boyunca aynı arazide kalan kuşlara da uygulanır. Bu dal genel zamansal sonsuzluk değil, belirli bir yerde sürekli bulunmadır.",
+        "boundary_note": "Çekirdek belirli bir yerde kalıp ayrılmamaktır; kuşların yıl boyu aynı yerde bulunması bunun adlaşmış uzantısıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Yer tamlayıcılı kalış kalıbı ile aynı arazide yıl boyu kalan kuşları gösteren birim ayrı tutulur."
+      },
+      "concept_map": {
+        "definition": "Bir yerde kalmak ve oradan ayrılmamak; ayrıca kış ve yaz boyunca aynı arazide kalan kuşları bu yerleşiklikleriyle adlandırmak.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kişinin veya canlının belirli bir yerde kalıp oradan ayrılmamasını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Kış ve yaz boyunca aynı arazide kalan kuşlar bu yerleşikliğin özel örneğidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar belirli bir yerde kalıp ayrılmamayı ortak çekirdek sayar ve yıl boyu aynı arazide yaşayan kuşları özel kullanım olarak verir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bir yerde kalıp ayrılmama",
+        "applicability": "Yer tamlayıcılı eylemin kalış ve ayrılmama bileşenlerini birlikte karşılayan genel açıklamadır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Belirli yerde kalmayı ve oradan ayrılmamayı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yerleşik kuşlar",
+          "usage_role": "contextual",
+          "applicability": "Kış ve yaz boyunca aynı arazide kalan, göç etmeyen kuşları adlandırırken kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kuşların yıl boyu aynı yerde kalması özelliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir yerde kalıp oradan ayrılmamak"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kış yaz aynı arazide kalan kuşlar"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000026/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yıl boyunca aynı arazide kalan kuşlara ait adlaşmış kullanım odak dalda bulunur.",
+          "neighbor_only": "Komşu dal develerin belirli bir otlak türünde kalmasını ayrıca kapsar.",
+          "gloss": "bir yerde kalmak",
+          "shared_zone": "İki dal da bir yerde kalmayı ve oradan ayrılmamayı bildirir.",
+          "distinction": "Çekirdekler büyük ölçüde örtüşür; odak dal yerleşik kuşlara, komşu dal ise belirli yerde kalan develere uzanan farklı özelleşmeler taşır."
+        },
+        {
+          "neighbor_ref": "root_000776/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal bütün mevsimler boyunca aynı yerde kalabilmeyi içerir.",
+          "neighbor_only": "Komşu dal kış mevsiminin gelmesi, kışı geçirme ve kışlama yeri gibi mevsime bağlı anlamları kapsar.",
+          "gloss": "kışlamak",
+          "shared_zone": "Bir yerde kış boyunca kalma iki dalın kesiştiği kullanım alanıdır.",
+          "distinction": "Komşu dal kışla sınırlı mevsimsel bir çerçevedir; odak dalın yerinde kalma anlamı mevsimle sınırlı değildir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel yerinde kalma ile mevsimsel kalış arasındaki sınırı gösteren iki komşu seçildi.",
+      "branch_image_ar": "الإقامة وعدم البراح",
+      "what_is_ar": "أبد بالمكان إذا أقام به ولم يبرحه والطير المقيمة بأرض شتاءها وصيفها",
+      "what_is_not_ar": "ليس الدوام المطلق ولا التوحش والنفور",
+      "source_phrase_ar": "أبد بالمكان أي أقام به (sihah)؛ أبدت بالمكان إذا أقمت به ولم تبرحه (tahdhib)؛ الطير المقيمة بأرض شتاءها وصيفها أوابد (tahdhib)",
+      "sources": [
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000004/B007",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi olağanüstü, ağır veya şaşırtıcı bir işin uzun süre anılmasını dalın belirleyici bileşeni yapar. Yalnızca ün kazanma, haber anlatma ya da alışılmadık bir söz olma bu birleşik anlamı karşılamaz.",
+        "boundary_note": "Olayın sıra dışılığı ile anısının uzun süre kalması birlikte zorunludur."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Olağanüstü işi adlandıran biçim ile böyle bir iş yapmayı bildiren kalıp ayrı fakat aynı çekirdeğe bağlıdır."
+      },
+      "concept_map": {
+        "definition": "Sıra dışı, ağır veya şaşırtıcı olduğu için anısı çok uzun süre kalan bir iş ya da olay; böyle bir işi ortaya koyma.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Olağanüstü veya şaşırtıcı bir işin uzun süre anılmasını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Eylem kalıbı, anısı kalacak ölçüde sıra dışı bir iş ortaya koymayı anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar sıra dışı bir iş veya olay ile onun uzun süre unutulmayan anısını aynı anlam yapısında birleştirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "uzun süre anılan olağanüstü olay",
+        "applicability": "Olayın sıra dışılığını ve bellekte kalıcılığını birlikte taşıyan en kapsamlı doğal karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Olağanüstülüğü ve uzun süre anılma sonucunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "unutulmaz bir iş yapmak",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin anısı kalacak kadar sıra dışı bir iş ortaya koymasını anlatan eylem kalıbında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İşi ortaya koyan katılımcıyı ve kalıcı anıyı korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "uzun süre anılan olağanüstü iş veya olay"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "unutulmayacak kadar sıra dışı bir iş yapmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000299/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dalda işin sıra dışı veya ağır oluşu ve anısının kalıcılığı birlikte zorunludur.",
+          "neighbor_only": "Komşu dal kişi veya topluluğun insanlar arasında anlatılan bir öyküye dönüşmesini kapsar.",
+          "gloss": "dillere düşen olay",
+          "shared_zone": "Bir kişi veya olayın uzun süre insanlar arasında anlatılması iki dalda da bulunur.",
+          "distinction": "Komşu dal anlatılan kişi ya da topluluğu merkez alır; odak dal kalıcı anı bırakan olağanüstü işin kendisini merkez alır."
+        },
+        {
+          "neighbor_ref": "root_000823/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Olağanüstü işin anısının çok uzun sürmesi odak dala özgüdür.",
+          "neighbor_only": "Komşu dal iyi veya kötü herhangi bir şeyin açıkça bilinmesini, ününü ve rezilliğini kapsar.",
+          "gloss": "ünlü ve unutulmaz",
+          "shared_zone": "Sıra dışı bir olayın insanlarca bilinip anılması ortak alandır.",
+          "distinction": "Komşu dal genel bilinirlik ve ün alanıdır; odak dal sıra dışı olay ile onun kalıcı anısı arasındaki bağı gerektirir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kalıcı anı bırakan olay ile genel ün ve anlatılma arasındaki farkı gösteren iki komşu seçildi.",
+      "branch_image_ar": "الآبدة الباقية الذكر",
+      "what_is_ar": "الآبدة بمعنى بداهية أو فعلة يبقى ذكرها على الأبد",
+      "what_is_not_ar": "ليس الكلمة الوحشية ولا القافية الشاردة وحدها",
+      "source_phrase_ar": "الأبدة الفعلة تبقى على الأبد (maqayis)؛ جاء فلان بآبدة أي بداهية يبقى ذكرها على الأبد (sihah)",
+      "sources": [
+        "MQ",
+        "SI"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000004/B008",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi alışılmadık ve yadırgatıcı sözcük ile şiirde başıboş, aykırı uyakları aynı yabanıl ve ele avuca sığmaz benzetmesi altında toplar. Bu dal ne yabanıl hayvanı ne de uzun süre anılan olağanüstü olayı gösterir.",
+        "boundary_note": "Anlam yalnız alışılmadık söz ve aykırı şiir ya da uyak birimlerine bağlı özel kullanımdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Tanım, sözcük ve şiir birimlerine özgü adlaşmış kullanımlarla sınırlıdır; yalın kök anlamı kurulmaz."
+      },
+      "concept_map": {
+        "definition": "Dilde alışılmadık, yabansı ve yadırgatıcı bir sözcük ya da şiirde düzenin dışına çıkmış, başıboş görülen bir uyak.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Alışılmış dil kullanımının dışında kalan yadırgatıcı sözcüğü bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Şiirde başıboş veya aykırı görülen uyaklar için kullanılan özel bir addır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar alışılmadık sözcükleri ve şiirin başıboş uyaklarını, düzene sığmayan yadırgatıcı dil birimleri olarak bir araya getirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yadırgatıcı söz veya başıboş uyak",
+        "applicability": "Sözcük ve şiir alanındaki iki özel kullanımı ortak yadırgatıcılık görüntüsüyle birlikte özetler.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Alışılmadık sözü ve aykırı uyak kullanımını birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "alışılmadık sözcük",
+          "usage_role": "contextual",
+          "applicability": "Gündelik dilde yabansı ve anlaşılması güç görülen tek bir sözcüğü adlandırırken kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Sözcüğün alışılmış kullanımdan uzaklığını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "başıboş uyaklar",
+          "usage_role": "contextual",
+          "applicability": "Şiirde aykırı veya düzene bağlanmayan uyakları çoğul olarak adlandırırken kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Uyakların şiir düzeninden ayrılan niteliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yadırgatıcı, alışılmadık sözcük"
+        },
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "şiirin başıboş veya aykırı uyakları"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001659/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal aykırı veya başıboş görülen uyağı ve alışılmadık sözcüğü adlandırır.",
+          "neighbor_only": "Komşu dal aynı sözcüğün iki uyakta yinelenmesi biçimindeki belirli bir teknik kusuru tanımlar.",
+          "gloss": "aykırı uyak",
+          "shared_zone": "İki dal da şiirde uyak düzeninden kaynaklanan alışılmadık bir durumu ele alır.",
+          "distinction": "Komşu dal belirli bir sözcük yineleme kusurudur; odak dal teknik yapıyı belirtmeden başıboş veya aykırı uyağı adlandırır."
+        },
+        {
+          "neighbor_ref": "root_000166/B003",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal şiirdeki aykırı uyağı ve yadırgatıcı sözcüğü gösterir.",
+          "neighbor_only": "Komşu dal ölçülü sözlerden oluşan şiir dizesinin genel adıdır.",
+          "gloss": "şiir dizesi",
+          "shared_zone": "Her iki dal şiirin söz ve dize yapısı alanında yer alır.",
+          "distinction": "Komşu dal sıradan şiir dizesini tanımlar; odak dal yalnız düzene sığmayan veya yabansı görülen dil birimini seçer."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; özel şiir kullanımını teknik uyak kusuru ve genel dize kavramından ayıran iki komşu seçildi.",
+      "branch_image_ar": "الكلمة الوحشية والشاردة",
+      "what_is_ar": "الآبدة للكلمة الوحشية والشوارد من القوافي والأوابد من الشعر",
+      "what_is_not_ar": "ليس آبدة البداهية الباقية الذكر ولا الوحش الحيواني",
+      "source_phrase_ar": "الشوارد من القوافي أوابد (sihah)؛ الكلمة الوحشية آبدة وجمعه الأوابد (tahdhib)",
+      "sources": [
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000004/B009",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi kişinin öfkelenmesini ve birine yönelmiş öfkeyi açıkça bildirir. Yüzün öfkeden değişmesi bu dalın zorunlu parçası olmadığı gibi nefret, kin veya uzun süreli kırgınlık da eklenmez.",
+        "boundary_note": "Dal, öfke durumunu ve öfkenin bir kişiye yönelmesini kapsayan iki eylem kalıbıyla sınırlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Anlam kişi öznesi ve kişiye yönelme kalıplarında korunur; yalın köke genel duygu anlamı yüklenmez."
+      },
+      "concept_map": {
+        "definition": "Bir kişinin öfkelenmesi veya öfkesini belirli bir kişiye yöneltmesi.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişinin öfke durumuna girmesini bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "İlgeçli kalıpta öfkenin yöneldiği kişi ayrıca belirtilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar kişinin öfkelenmesi ile bu öfkenin belirli bir kişiye yönelmesini aynı eylem alanında birleştirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "öfkelenmek veya birine öfkelenmek",
+        "applicability": "Yöneltilmemiş öfke ile belirli bir kişiye yönelmiş öfkeyi birlikte kapsayan açıklayıcı karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Öfke durumunu ve isteğe bağlı yönelme ilişkisini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "birine kızmak",
+          "usage_role": "contextual",
+          "applicability": "Öfkenin belirli bir kişiye yöneldiği ilgeçli eylem kalıbında doğal cümle karşılığıdır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Öfkeyi ve öfkenin yöneldiği kişiyi birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "adamın öfkelenmesi"
+        },
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ona öfkelenmek"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000050/B002",
+          "relation_type": "synonym",
+          "boundary_match": "exact",
+          "focus_only": null,
+          "neighbor_only": null,
+          "gloss": "öfkelenmek",
+          "shared_zone": "Her iki dal da kişinin öfkelenmesini ve öfkenin birine yönelmesini aynı sınırlarla anlatır.",
+          "distinction": "Verilen kanıtta katılımcı, yönelme ve sonuç bakımından anlamlı bir sınır farkı görünmez."
+        },
+        {
+          "neighbor_ref": "root_000136/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal anlık öfke durumunu ve bunun birine yönelmesini bildirir.",
+          "neighbor_only": "Komşu dal sevginin karşıtı olan hoşlanmama, nefret ve karşılıklı nefret ilişkilerini kapsar.",
+          "gloss": "öfke ve nefret",
+          "shared_zone": "Bir kişiye karşı olumsuz duygu besleme iki dalın kesişebildiği alandır.",
+          "distinction": "Odak dal öfkelenme olayıdır; komşu dal daha kalıcı hoşlanmama ve nefret tutumudur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; tam eşleşen öfke dalı ile sık karışabilecek nefret alanı yayımlandı.",
+      "branch_image_ar": "الغضب والغضب عليه",
+      "what_is_ar": "أبد الرجل أو أبد عليه إذا غضب أو غضب عليه",
+      "what_is_not_ar": "ليس التوحش الحيواني ولا تأبد الوجه إلا إذا فسر بالغضب",
+      "source_phrase_ar": "أبد الرجل غضب (sihah)؛ أبد إذا غضب عليه (tahdhib)؛ وقد فسر بغضب (mufradat)",
+      "sources": [
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, sınırsız zaman ve kalıcı kılmadan hayvanın yabanıllaşmasına, yerin ıssızlaşmasına, düzenli doğurganlığa, yüz değişimine, yerleşikliğe, unutulmaz olaya, aykırı söze ve öfkeye uzanan dokuz ayrı anlam dalı kurar.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 28,
+      "word_count": 28,
+      "ayah_count": 28,
+      "surah_count": 15
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًۢا",
+        "pos": "T",
+        "measure": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "pos": "T",
+        "measure": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "occurrence_count": 26
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:95",
+        "surface_ar": "وَلَن يَتَمَنَّوْهُ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ"
+      },
+      {
+        "ayah_ref": "4:57",
+        "surface_ar": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَنُدْخِلُهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا لَّهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ وَنُدْخِلُهُمْ ظِلًّا ظَلِيلًا"
+      },
+      {
+        "ayah_ref": "4:122",
+        "surface_ar": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَنُدْخِلُهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا وَعْدَ ٱللَّهِ حَقًّا وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ قِيلًا"
+      },
+      {
+        "ayah_ref": "4:169",
+        "surface_ar": "إِلَّا طَرِيقَ جَهَنَّمَ خَٰلِدِينَ فِيهَآ أَبَدًا وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا"
+      },
+      {
+        "ayah_ref": "5:24",
+        "surface_ar": "قَالُوا۟ يَٰمُوسَىٰٓ إِنَّا لَن نَّدْخُلَهَآ أَبَدًا مَّا دَامُوا۟ فِيهَا فَٱذْهَبْ أَنتَ وَرَبُّكَ فَقَٰتِلَآ إِنَّا هَٰهُنَا قَٰعِدُونَ"
+      },
+      {
+        "ayah_ref": "5:119",
+        "surface_ar": "قَالَ ٱللَّهُ هَٰذَا يَوْمُ يَنفَعُ ٱلصَّٰدِقِينَ صِدْقُهُمْ لَهُمْ جَنَّٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ"
+      },
+      {
+        "ayah_ref": "9:22",
+        "surface_ar": "خَٰلِدِينَ فِيهَآ أَبَدًا إِنَّ ٱللَّهَ عِندَهُۥٓ أَجْرٌ عَظِيمٌ"
+      },
+      {
+        "ayah_ref": "9:83",
+        "surface_ar": "فَإِن رَّجَعَكَ ٱللَّهُ إِلَىٰ طَآئِفَةٍ مِّنْهُمْ فَٱسْتَـْٔذَنُوكَ لِلْخُرُوجِ فَقُل لَّن تَخْرُجُوا۟ مَعِىَ أَبَدًا وَلَن تُقَٰتِلُوا۟ مَعِىَ عَدُوًّا إِنَّكُمْ رَضِيتُم بِٱلْقُعُودِ أَوَّلَ مَرَّةٍ فَٱقْعُدُوا۟ مَعَ ٱلْخَٰلِفِينَ"
+      },
+      {
+        "ayah_ref": "9:84",
+        "surface_ar": "وَلَا تُصَلِّ عَلَىٰٓ أَحَدٍ مِّنْهُم مَّاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ قَبْرِهِۦٓ إِنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَمَاتُوا۟ وَهُمْ فَٰسِقُونَ"
+      },
+      {
+        "ayah_ref": "9:100",
+        "surface_ar": "وَٱلسَّٰبِقُونَ ٱلْأَوَّلُونَ مِنَ ٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحْسَٰنٍ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ وَأَعَدَّ لَهُمْ جَنَّٰتٍ تَجْرِى تَحْتَهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ"
+      },
+      {
+        "ayah_ref": "9:108",
+        "surface_ar": "لَا تَقُمْ فِيهِ أَبَدًا لَّمَسْجِدٌ أُسِّسَ عَلَى ٱلتَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَن تَقُومَ فِيهِ فِيهِ رِجَالٌ يُحِبُّونَ أَن يَتَطَهَّرُوا۟ وَٱللَّهُ يُحِبُّ ٱلْمُطَّهِّرِينَ"
+      },
+      {
+        "ayah_ref": "18:3",
+        "surface_ar": "مَّٰكِثِينَ فِيهِ أَبَدًا"
+      },
+      {
+        "ayah_ref": "18:20",
+        "surface_ar": "إِنَّهُمْ إِن يَظْهَرُوا۟ عَلَيْكُمْ يَرْجُمُوكُمْ أَوْ يُعِيدُوكُمْ فِى مِلَّتِهِمْ وَلَن تُفْلِحُوٓا۟ إِذًا أَبَدًا"
+      },
+      {
+        "ayah_ref": "18:35",
+        "surface_ar": "وَدَخَلَ جَنَّتَهُۥ وَهُوَ ظَالِمٌ لِّنَفْسِهِۦ قَالَ مَآ أَظُنُّ أَن تَبِيدَ هَٰذِهِۦٓ أَبَدًا"
+      },
+      {
+        "ayah_ref": "18:57",
+        "surface_ar": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ فَأَعْرَضَ عَنْهَا وَنَسِىَ مَا قَدَّمَتْ يَدَاهُ إِنَّا جَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًا وَإِن تَدْعُهُمْ إِلَى ٱلْهُدَىٰ فَلَن يَهْتَدُوٓا۟ إِذًا أَبَدًا"
+      },
+      {
+        "ayah_ref": "24:4",
+        "surface_ar": "وَٱلَّذِينَ يَرْمُونَ ٱلْمُحْصَنَٰتِ ثُمَّ لَمْ يَأْتُوا۟ بِأَرْبَعَةِ شُهَدَآءَ فَٱجْلِدُوهُمْ ثَمَٰنِينَ جَلْدَةً وَلَا تَقْبَلُوا۟ لَهُمْ شَهَٰدَةً أَبَدًا وَأُو۟لَٰٓئِكَ هُمُ ٱلْفَٰسِقُونَ"
+      },
+      {
+        "ayah_ref": "24:17",
+        "surface_ar": "يَعِظُكُمُ ٱللَّهُ أَن تَعُودُوا۟ لِمِثْلِهِۦٓ أَبَدًا إِن كُنتُم مُّؤْمِنِينَ"
+      },
+      {
+        "ayah_ref": "24:21",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ وَٱللَّهُ سَمِيعٌ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "33:53",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَدْخُلُوا۟ بُيُوتَ ٱلنَّبِىِّ إِلَّآ أَن يُؤْذَنَ لَكُمْ إِلَىٰ طَعَامٍ غَيْرَ نَٰظِرِينَ إِنَىٰهُ وَلَٰكِنْ إِذَا دُعِيتُمْ فَٱدْخُلُوا۟ فَإِذَا طَعِمْتُمْ فَٱنتَشِرُوا۟ وَلَا مُسْتَـْٔنِسِينَ لِحَدِيثٍ إِنَّ ذَٰلِكُمْ كَانَ يُؤْذِى ٱلنَّبِىَّ فَيَسْتَحْىِۦ مِنكُمْ وَٱللَّهُ لَا يَسْتَحْىِۦ مِنَ ٱلْحَقِّ وَإِذَا سَأَلْتُمُوهُنَّ مَتَٰعًا فَسْـَٔلُوهُنَّ مِن وَرَآءِ حِجَابٍ ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ وَمَا كَانَ لَكُمْ أَن تُؤْذُوا۟ رَسُولَ ٱللَّهِ وَلَآ أَن تَنكِحُوٓا۟ أَزْوَٰجَهُۥ مِنۢ بَعْدِهِۦٓ أَبَدًا إِنَّ ذَٰلِكُمْ كَانَ عِندَ ٱللَّهِ عَظِيمًا"
+      },
+      {
+        "ayah_ref": "33:65",
+        "surface_ar": "خَٰلِدِينَ فِيهَآ أَبَدًا لَّا يَجِدُونَ وَلِيًّا وَلَا نَصِيرًا"
+      },
+      {
+        "ayah_ref": "48:12",
+        "surface_ar": "بَلْ ظَنَنتُمْ أَن لَّن يَنقَلِبَ ٱلرَّسُولُ وَٱلْمُؤْمِنُونَ إِلَىٰٓ أَهْلِيهِمْ أَبَدًا وَزُيِّنَ ذَٰلِكَ فِى قُلُوبِكُمْ وَظَنَنتُمْ ظَنَّ ٱلسَّوْءِ وَكُنتُمْ قَوْمًۢا بُورًا"
+      },
+      {
+        "ayah_ref": "59:11",
+        "surface_ar": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ نَافَقُوا۟ يَقُولُونَ لِإِخْوَٰنِهِمُ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ لَئِنْ أُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيعُ فِيكُمْ أَحَدًا أَبَدًا وَإِن قُوتِلْتُمْ لَنَنصُرَنَّكُمْ وَٱللَّهُ يَشْهَدُ إِنَّهُمْ لَكَٰذِبُونَ"
+      },
+      {
+        "ayah_ref": "60:4",
+        "surface_ar": "قَدْ كَانَتْ لَكُمْ أُسْوَةٌ حَسَنَةٌ فِىٓ إِبْرَٰهِيمَ وَٱلَّذِينَ مَعَهُۥٓ إِذْ قَالُوا۟ لِقَوْمِهِمْ إِنَّا بُرَءَٰٓؤُا۟ مِنكُمْ وَمِمَّا تَعْبُدُونَ مِن دُونِ ٱللَّهِ كَفَرْنَا بِكُمْ وَبَدَا بَيْنَنَا وَبَيْنَكُمُ ٱلْعَدَٰوَةُ وَٱلْبَغْضَآءُ أَبَدًا حَتَّىٰ تُؤْمِنُوا۟ بِٱللَّهِ وَحْدَهُۥٓ إِلَّا قَوْلَ إِبْرَٰهِيمَ لِأَبِيهِ لَأَسْتَغْفِرَنَّ لَكَ وَمَآ أَمْلِكُ لَكَ مِنَ ٱللَّهِ مِن شَىْءٍ رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ"
+      },
+      {
+        "ayah_ref": "62:7",
+        "surface_ar": "وَلَا يَتَمَنَّوْنَهُۥٓ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ"
+      },
+      {
+        "ayah_ref": "64:9",
+        "surface_ar": "يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ذَٰلِكَ يَوْمُ ٱلتَّغَابُنِ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَٰلِحًا يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُدْخِلْهُ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ"
+      },
+      {
+        "ayah_ref": "65:11",
+        "surface_ar": "رَّسُولًا يَتْلُوا۟ عَلَيْكُمْ ءَايَٰتِ ٱللَّهِ مُبَيِّنَٰتٍ لِّيُخْرِجَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَٰلِحًا يُدْخِلْهُ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا قَدْ أَحْسَنَ ٱللَّهُ لَهُۥ رِزْقًا"
+      },
+      {
+        "ayah_ref": "72:23",
+        "surface_ar": "إِلَّا بَلَٰغًا مِّنَ ٱللَّهِ وَرِسَٰلَٰتِهِۦ وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ لَهُۥ نَارَ جَهَنَّمَ خَٰلِدِينَ فِيهَآ أَبَدًا"
+      },
+      {
+        "ayah_ref": "98:8",
+        "surface_ar": "جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:95:3:1",
+        "qac_word_ref": "2:95:3",
+        "surah": 2,
+        "ayah": 95,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًۢا",
+        "stem_ar": "أَبَدًۢا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "2:95",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            9,
+            13
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "4:57:13:1",
+        "qac_word_ref": "4:57:13",
+        "surah": 4,
+        "ayah": 57,
+        "word_index": 13,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "4:57",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            65,
+            69
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "4:122:13:1",
+        "qac_word_ref": "4:122:13",
+        "surah": 4,
+        "ayah": 122,
+        "word_index": 13,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "4:122",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            65,
+            69
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "4:169:6:1",
+        "qac_word_ref": "4:169:6",
+        "surah": 4,
+        "ayah": 169,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "4:169",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            21,
+            25
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "5:24:6:1",
+        "qac_word_ref": "5:24:6",
+        "surah": 5,
+        "ayah": 24,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "5:24",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            23,
+            27
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "5:119:16:1",
+        "qac_word_ref": "5:119:16",
+        "surah": 5,
+        "ayah": 119,
+        "word_index": 16,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "5:119",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            66,
+            70
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:22:3:1",
+        "qac_word_ref": "9:22:3",
+        "surah": 9,
+        "ayah": 22,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "9:22",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            10,
+            14
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:83:13:1",
+        "qac_word_ref": "9:83:13",
+        "surah": 9,
+        "ayah": 83,
+        "word_index": 13,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "9:83",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            52,
+            56
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:84:7:1",
+        "qac_word_ref": "9:84:7",
+        "surah": 9,
+        "ayah": 84,
+        "word_index": 7,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "9:84",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            20,
+            24
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:100:22:1",
+        "qac_word_ref": "9:100:22",
+        "surah": 9,
+        "ayah": 100,
+        "word_index": 22,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "9:100",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            110,
+            114
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:108:4:1",
+        "qac_word_ref": "9:108:4",
+        "surah": 9,
+        "ayah": 108,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "9:108",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            8,
+            12
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:3:3:1",
+        "qac_word_ref": "18:3:3",
+        "surah": 18,
+        "ayah": 3,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "18:3",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            9,
+            13
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:20:13:1",
+        "qac_word_ref": "18:20:13",
+        "surah": 18,
+        "ayah": 20,
+        "word_index": 13,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "18:20",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            52,
+            56
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:35:12:1",
+        "qac_word_ref": "18:35:12",
+        "surah": 18,
+        "ayah": 35,
+        "word_index": 12,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "18:35",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            41,
+            45
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:57:30:1",
+        "qac_word_ref": "18:57:30",
+        "surah": 18,
+        "ayah": 57,
+        "word_index": 30,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "18:57",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            118,
+            122
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "24:4:16:1",
+        "qac_word_ref": "24:4:16",
+        "surah": 24,
+        "ayah": 4,
+        "word_index": 16,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "24:4",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            74,
+            78
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "24:17:6:1",
+        "qac_word_ref": "24:17:6",
+        "surah": 24,
+        "ayah": 17,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "24:17",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            23,
+            27
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "24:21:26:1",
+        "qac_word_ref": "24:21:26",
+        "surah": 24,
+        "ayah": 21,
+        "word_index": 26,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "24:21",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            119,
+            123
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "33:53:63:1",
+        "qac_word_ref": "33:53:63",
+        "surah": 33,
+        "ayah": 53,
+        "word_index": 63,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "33:53",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            274,
+            278
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "33:65:3:1",
+        "qac_word_ref": "33:65:3",
+        "surah": 33,
+        "ayah": 65,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "33:65",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            10,
+            14
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "48:12:10:1",
+        "qac_word_ref": "48:12:10",
+        "surah": 48,
+        "ayah": 12,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "48:12",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            41,
+            45
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "59:11:21:1",
+        "qac_word_ref": "59:11:21",
+        "surah": 59,
+        "ayah": 11,
+        "word_index": 21,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "59:11",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            88,
+            92
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "60:4:28:1",
+        "qac_word_ref": "60:4:28",
+        "surah": 60,
+        "ayah": 4,
+        "word_index": 28,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "60:4",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            119,
+            123
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "62:7:3:1",
+        "qac_word_ref": "62:7:3",
+        "surah": 62,
+        "ayah": 7,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًۢا",
+        "stem_ar": "أَبَدًۢا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "62:7",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            11,
+            15
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "64:9:24:1",
+        "qac_word_ref": "64:9:24",
+        "surah": 64,
+        "ayah": 9,
+        "word_index": 24,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "64:9",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            105,
+            109
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "65:11:29:1",
+        "qac_word_ref": "65:11:29",
+        "surah": 65,
+        "ayah": 11,
+        "word_index": 29,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "65:11",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            136,
+            140
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "72:23:16:1",
+        "qac_word_ref": "72:23:16",
+        "surah": 72,
+        "ayah": 23,
+        "word_index": 16,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "72:23",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            63,
+            67
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "98:8:12:1",
+        "qac_word_ref": "98:8:12",
+        "surah": 98,
+        "ayah": 8,
+        "word_index": 12,
+        "morpheme_index": 1,
+        "surface_ar": "أَبَدًا",
+        "stem_ar": "أَبَدًا",
+        "lemma_ar": "أَبَدًا",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>abadFA|ROOT:Abd|M|INDEF|ACC",
+        "ayah_ref": "98:8",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            48,
+            52
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

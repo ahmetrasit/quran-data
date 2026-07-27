@@ -1,0 +1,2382 @@
+{
+  "inputs_sha256": "45af5a41f63037bc33c6da9b0a039eea66dba28b62bcedf18a9c0e956b7809dd",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000712",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000712/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, bir örtü veya engeli kaldırarak alttakini görünür kılma çekirdeğini açıkça destekler. Yüzü açma ve bir şeyi başka bir şeyin üzerinden kazıyıp kaldırma bu çekirdeğin doğrudan gerçekleşimleridir; evi süpürme ile döküntü adları ise kaldırma işleminin yerleşik uygulama ve sonuçlarıdır.",
+        "boundary_note": "Dal, fiziksel açığa çıkarma ile ona bağlı süpürme ve döküntü kullanımlarını kapsar; yolculuk, kitap ve elçilik anlamlarını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, çıplak açığa çıkarma çekirdeğini korur; yüz açma, bir yüzeyden sıyırma ve ev süpürme gibi kalıba bağlı kullanımları ayrı yönler olarak belirtir."
+      },
+      "concept_map": {
+        "definition": "Bir nesnenin üzerindeki örtüyü, engeli veya yüzey kalıntısını kaldırarak onu açığa çıkarmaktır. Evi süpürmek ve böylece yaprak, toprak ya da benzeri döküntüyü ayırmak bu işlemin yerleşik uygulamasıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Örtü veya engel kaldırılır ve önceden kapalı olan nesne görünür duruma gelir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bir kadının yüzündeki örtüyü kaldırması, açığa çıkarma çekirdeğinin kişi ve yüz odaklı gerçekleşimidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Bir şeyi başka bir şeyin üzerinden kazıyıp sıyırmak veya rüzgarın bulutu dağıtması, yüzeyi açığa çıkaran kaldırma biçimleridir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "associated_use",
+            "statement": "Evi süpürme, süpürge ve ayrılan yaprak ya da toprak döküntüsü, kaldırma işlemi çevresinde adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar örtüyü kaldırma, yüzü açma, bir yüzeyden kalıntıyı sıyırma ve evi süpürme kullanımlarını aynı açığa çıkarma alanında birleştirir; süpürge ile yaprak ve toprak döküntüsü de bu işlemle ilişkilendirilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "örtüyü kaldırıp açığa çıkarma",
+        "applicability": "Dalın fiziksel kaldırma ve görünür kılma çekirdeğini en kısa biçimde karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Örtünün kaldırılmasını ve alttakinin görünür olmasını birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yüzünü açmak",
+          "usage_role": "contextual",
+          "applicability": "Yüz örtüsünün kaldırıldığı kişi odaklı bağlamlarda doğal karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yüzün üzerindeki örtünün kaldırılması eylemini eksiksiz korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "üzerinden sıyırmak",
+          "usage_role": "contextual",
+          "applicability": "Bir yüzeydeki örtü veya kalıntının kazınarak kaldırıldığı bağlamlara uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yüzeydeki katmanın kaldırılmasını ve alttakinin açılmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        },
+        {
+          "text": "evi süpürmek",
+          "usage_role": "contextual",
+          "applicability": "Evdeki toprak, yaprak veya benzeri döküntünün süpürülerek ayrıldığı kullanıma özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Süpürme işlemini ve döküntünün evden ayrılmasını birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "örtüyü kaldırıp nesneyi açığa çıkarma"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sarığı baştan açma"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kadının yüzündeki örtüyü açması"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeyi ötekinin üzerinden sıyırıp örtüsünü kaldırma"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "evi süpürüp döküntüyü giderme"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "süpürge"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "dökülen yaprak, toprak veya süprüntü"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "süprüntü ve süpürülen döküntü"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000320/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, süpürme araçlarını ve süpürülerek ayrılan yaprak ya da toprak döküntüsünü de adlandırır.",
+          "neighbor_only": "Komşu dal, denizin kıyıdan veya suyun yatağından çekilmesi ve sınamayla bilgi açığa çıkarma gibi daha geniş gerçekleşimler taşır.",
+          "gloss": "örtüyü giderme",
+          "shared_zone": "İki dal da bir örtü ya da engelin kalkmasıyla alttakinin görünür olmasını anlatır.",
+          "distinction": "Çekirdekler büyük ölçüde örtüşür; ancak bu dalın süpürme ve süprüntü ailesi, komşunun ise suyun çekilmesi ve sınamayla açığa çıkarma alanı sınırları tam eşleşmekten çıkarır."
+        },
+        {
+          "neighbor_ref": "root_001302/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, evi süpürme ve yüzey döküntüsünü kaldırma gibi özel uygulamaları kapsar.",
+          "neighbor_only": "Komşu dal, sıkıntı veya kötülüğün giderilmesini de örtünün kaldırılması gibi kavramsallaştırır.",
+          "gloss": "örtüyü açma",
+          "shared_zone": "Her iki dalda da kapatan unsurun kaldırılması ve gizli olanın görünürleşmesi bulunur.",
+          "distinction": "Bu dal daha belirgin biçimde fiziksel kaldırma ve süpürme çevresindedir; komşu dal fiziksel örtünün yanında soyut sıkıntının giderilmesine uzanır."
+        },
+        {
+          "neighbor_ref": "root_001657/B009",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal genel açığa çıkarma işlemini ve yüz dışındaki nesne, yüzey ve ev uygulamalarını kapsar.",
+          "neighbor_only": "Komşu dal, bir kadının baş örtüsüz bulunması durumuna özgüdür.",
+          "gloss": "kadının örtüsünü açması",
+          "shared_zone": "Kadının üzerindeki bir örtüyü kaldırması iki dalın kesişimidir.",
+          "distinction": "Komşu dal belirli bir kişinin baş örtüsü durumunu adlandırırken bu dal yüzü açmayı genel örtü kaldırma işleminin özel bir örneği olarak taşır."
+        },
+        {
+          "neighbor_ref": "root_000294/B002",
+          "relation_type": "polarity_pair",
+          "boundary_match": "opposed",
+          "focus_only": "Bu dal engeli kaldırarak nesneyi görünür kılar.",
+          "neighbor_only": "Komşu dal bir engel koyarak nesneyi veya iki taraf arasındaki görüşü kapatır.",
+          "gloss": "açma ve örtme",
+          "shared_zone": "İki dal aynı görünürlük ve örtü ekseninde karşıt yönleri işler.",
+          "distinction": "Bu dal örtünün kaldırılması yönündedir; komşu dal örtünün konması veya görünürlüğün engellenmesi yönündedir."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tümü değerlendirildi; en yararlı sınırlar genel örtü kaldırma komşuları, kadın örtüsü kullanımı ve karşıt örtme dalıyla kuruldu.",
+      "branch_image_ar": "كشف الغطاء وإزالة الساتر",
+      "what_is_ar": "يدخل فيه كشف الغطاء عن الشيء وكشف المرأة وجهها وكنس البيت وإزالة الورق أو الغبار وما تكشفه الريح",
+      "what_is_not_ar": "ليس قطع المسافة ولا الكتابة ولا السفارة ولا السِّفار للبعير",
+      "source_phrase_ar": "الانكشاف والجلاء (maqayis)؛ سفرت الشيء عن الشيء أي كشطته (ayn)؛ سفرت المرأة كشفت عن وجهها (sihah;tahdhib)؛ سفرت البيت كنسته (maqayis;ayn;sihah;tahdhib;mufradat)؛ السفير ما تساقط من الشجر (maqayis;ayn;sihah;tahdhib)؛ السفر كشف الغطاء (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000712/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, karanlığın çözülmesiyle sabahın ve günün aydınlanmasını, yüzün parlak görünmesini ve tan belirginleştikten sonra sabah namazının kılınmasını açıkça bir araya getirir. Geçici dal çerçevesi bu ışık ve görünürlük alanını doğru temsil eder.",
+        "boundary_note": "Dal, ışık ve rengin karanlıktan sonra belirginleşmesini kapsar; fiziksel bir örtüyü kaldırma, yolculuk veya kitap anlamını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım günün aydınlık çekirdeğini, yüz parlaklığı ile tanın belirginleşmesine bağlı ibadet kullanımından ayrı tutar."
+      },
+      "concept_map": {
+        "definition": "Karanlığın çekilmesiyle sabahın veya günün ağarıp belirginleşmesi ve buna benzer biçimde yüzün aydınlık, parlak görünmesidir. Sabah namazını tan iyice seçilir olduktan sonra kılma kullanımı bu görünürlük evresine bağlıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Karanlık çözülürken sabahın ışığı görünürleşir ve gün ağarır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Bir yüzün aydınlık, ışıldayan ve canlı görünmesi aynı parlaklık alanının kişi odaklı uzantısıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Sabah namazının tan yeri açıkça belirdikten sonra kılınması, aydınlanmanın belirli evresine bağlı bir kullanımdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar sabahın ağarması, günün beyazlığı ve yüzün parlamasında ortak bir aydınlanma alanı kurar; sabah namazının tan iyice göründüğünde kılınması da bu alana zamanlama yoluyla bağlanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "aydınlanıp belirginleşme",
+        "applicability": "Sabahın ve günün ışıkla belirginleşen çekirdeğini, yüz parlaklığına da elveren genel bir ifadeyle karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Aydınlığın artmasını ve görünürlüğün belirginleşmesini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "tanın ağarması",
+          "usage_role": "contextual",
+          "applicability": "Karanlığın ardından sabah ışığının görünmeye başladığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Sabah ışığının karanlıktan çıkarak görünürleşmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "yüzü ışıldamak",
+          "usage_role": "contextual",
+          "applicability": "Bir yüzün aydınlık, parlak ve canlı görünmesini anlatan kişi bağlamlarına uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yüzdeki parlak ve aydınlık görünüşü eksiksiz korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "sabah namazını tan iyice ağarınca kılmak",
+          "usage_role": "explanatory",
+          "applicability": "İbadetin tan yerinin açıkça belirdiği bir vakte bırakılması bağlamına özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İbadeti ve tanın görünürlük düzeyine bağlı zamanlamayı birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "günün ağarması ve aydınlığı"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sabahın ağarıp aydınlanması"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "aydınlık ve ışıldayan yüz"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sabah namazını tan yeri iyice belirince kılmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000256/B007",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, yüz parlaklığını ve sabah namazının tanın belirginleşmesine göre zamanlanmasını da kapsar.",
+          "neighbor_only": "Komşu dal, günün beyazlığı yanında göğün açık ve duru oluşunu özellikle kapsar.",
+          "gloss": "günün ağarıp açılması",
+          "shared_zone": "Her iki dal karanlığın çözülmesiyle günün beyaz ve açık görünmesini anlatır.",
+          "distinction": "Gün ışığı alanında yakın karşılıklıdırlar; bu dalın yüz ve ibadet uzantıları ile komşunun açık gökyüzü vurgusu sınırları farklılaştırır."
+        },
+        {
+          "neighbor_ref": "root_000492/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dalın çekirdeği sabah ve gün ışığının karanlıktan sonra belirginleşmesidir.",
+          "neighbor_only": "Komşu dal yalnızca insan yüzünün parlayıp ışıldamasına odaklanır.",
+          "gloss": "yüzün parlaması",
+          "shared_zone": "Yüzün aydınlık ve ışıldayan görünmesi iki dalın kesişim alanıdır.",
+          "distinction": "Komşu dal bu yüz görünüşünü başlı başına çekirdek yapar; burada ise yüz parlaklığı daha geniş sabah ve gün aydınlığı alanının uzantısıdır."
+        },
+        {
+          "neighbor_ref": "root_000919/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, karanlıktan sonra sabahın belirli bir evrede açılmasını ve yüze aktarılan parlak görünüşü öne çıkarır.",
+          "neighbor_only": "Komşu dal, ateş, kandil, şimşek, sabah ve başka kaynaklardan yayılan ışığın genel alanını kapsar.",
+          "gloss": "ışık ve aydınlanma",
+          "shared_zone": "Sabah ışığının görünür çevreyi aydınlatması iki dalda da bulunur.",
+          "distinction": "Bu dal bir açılma ve belirginleşme evresine bağlıdır; komşu dal ise kaynağı ve evresi sınırlanmamış genel ışık yayılımını anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Adaylar içinden günün ağarması, yüzün parlaması ve genel ışık alanları dalın sınırını en açık gösteren üç karşılaştırma olarak seçildi.",
+      "branch_image_ar": "إسفار الضوء والوجه",
+      "what_is_ar": "يدخل فيه بياض النهار وإضاءة الصبح وإشراق الوجه ووضوح صلاة أو وقت بعد الظلمة",
+      "what_is_not_ar": "ليس كشف النقاب الحسي ولا السفر بمعنى الارتحال ولا الكتاب",
+      "source_phrase_ar": "أسفر الصبح انكشاف الظلام (maqayis)؛ السفر بياض النهار (ayn;sihah)؛ وجه مسفر منير مشرق (maqayis;ayn;sihah;tahdhib)؛ الإسفار يختص باللون (mufradat)؛ سفر الصبح وسفر المساء (tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000712/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, bir yerden ayrılıp mesafe katetme çekirdeğini; yolculuk eden kişi ve topluluğu, yolcu için hazırlanan yiyeceği ve yolculuğa dayanıklı deveyi açıkça destekler. Geçici çerçeve bu çekirdeği ve ona bağlı katılımcı ile gereç kullanımlarını doğru sınırlar.",
+        "boundary_note": "Dal, yolculuk eylemi ve ona bağlı yolcu, azık ve dayanıklılık kullanımlarını kapsar; kitap, elçilik ve fiziksel örtü kaldırma anlamlarını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, yolculuğa çıkıp mesafe katetme çekirdeğini korur; yolcu topluluğu, yol azığı ve dayanıklı deve kullanımlarını bağımlı yönler olarak ayırır."
+      },
+      "concept_map": {
+        "definition": "Kişinin bulunduğu yerden ayrılarak başka bir yere doğru yol alması ve mesafe katetmesidir. Yolcu veya yolcu topluluğu, yol için hazırlanan yiyecek ve yolculuğa dayanıklı deve bu eyleme bağlı olarak adlandırılır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişi bulunduğu yerden ayrılır, başka bir yere yönelir ve aradaki mesafeyi kateder.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Yolculuk eden tek kişi veya yolcu topluluğu, eylemin katılımcısı olarak aynı adlandırma alanına girer.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Yolcu için hazırlanan yiyecek ve yemek sermeye yarayan gereç, yolculuk durumuna bağlı kullanımlardır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "specialization",
+            "statement": "Bir devenin yolculuğu kaldıracak güçte oluşu, eyleme dayanıklılık bildiren hayvan odaklı nitelemedir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar yolculuğu yerden ayrılıp mesafe katetme olarak verir; yolcu ve yolcu topluluğu, yol için hazırlanan yiyecek ve yolculuğa güçlü deve bu çekirdeğe katılımcı, gereç ve yeterlilik ilişkileriyle bağlanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yolculuğa çıkıp mesafe katetme",
+        "applicability": "Dalın yerden ayrılma, yönelme ve mesafe aşma işlemlerini birlikte taşıyan ana karşılığıdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bulunulan yerden ayrılmayı ve yol üzerinde mesafe katetmeyi korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yolculuk etmek",
+          "usage_role": "general",
+          "applicability": "Bir yerden başka bir yere gitmek için yola çıkılan genel bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yola çıkma ve mesafe aşma eylemini doğal bir Türkçe karşılıkla korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "yolcu topluluğu",
+          "usage_role": "contextual",
+          "applicability": "Yolculuk eden kişilerin bir topluluk olarak adlandırıldığı bağlamlara özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yolculuk eden birden çok kişiyi toplu katılımcı olarak korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "yol azığı",
+          "usage_role": "contextual",
+          "applicability": "Yolcu için hazırlanan yiyecek veya onu taşıyan sofra gereci bağlamında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yolculuk amacıyla hazırlanan yiyecek ve gereç bağını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yolculuk etme ve mesafe katetme"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yolcular veya yolcu topluluğu"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yolcu, yolculuğa çıkan kişi"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir kente yolculuk etmek"
+        },
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yolcular topluluğu"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "develerin dağılıp araziye gitmesi"
+        },
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yol yiyeceği veya yemeğin üzerine konduğu yaygı"
+        },
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yolculuğa dayanıklı deve"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000964/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal yolcu topluluğunu, yol azığını ve yolculuğa dayanıklı deveyi de aynı alan içinde adlandırır.",
+          "neighbor_only": "Komşu dal kısa yolculuğu, göçer kişiyi ve genel olarak bir yerden başka yere geçişi daha geniş biçimde kapsar.",
+          "gloss": "bir yerden başka yere yolculuk",
+          "shared_zone": "Her iki dalın çekirdeğinde bir yerden ayrılıp başka yere doğru ilerleme bulunur.",
+          "distinction": "Eylem çekirdekleri yakındır; bu dal mesafe katetmeye ve yolculuk çevresindeki adlara bağlanırken komşu dal genel yer değiştirme ve göç kapsamını genişletir."
+        },
+        {
+          "neighbor_ref": "root_000040/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal belirli bir yolculuk eylemini ve yolcu, azık, dayanıklı deve gibi ona bağlı rolleri kapsar.",
+          "neighbor_only": "Komşu dal ufuklara ve yeryüzüne yayılmayı, uzak yerlerden gelip gitmeyi ve kazanç amacıyla dolaşmayı öne çıkarır.",
+          "gloss": "yeryüzünde uzaklara gitme",
+          "shared_zone": "Bulunulan yerden ayrılıp başka yörelere gitmek iki dalın ortak alanıdır.",
+          "distinction": "Bu dal yolculuk olayını mesafe aşma olarak kurar; komşu dal ise yönelinen geniş coğrafyayı ve kimi zaman kazanç amacını belirginleştirir."
+        },
+        {
+          "neighbor_ref": "root_000105/B007",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal yolculuğun fiilen başlamasını ve sürmesini anlatır.",
+          "neighbor_only": "Komşu dal yolculuğa karar verme ve niyeti açığa vurma evresini anlatır.",
+          "gloss": "yolculuğa niyetlenme",
+          "shared_zone": "İki dal da kişinin bulunduğu yerden ayrılarak yolculuk yapacağı senaryoya bağlıdır.",
+          "distinction": "Komşu dal hazırlık ve karar evresinde kalır; bu dal ise yola çıkma ve mesafe katetme olayını gerektirir."
+        },
+        {
+          "neighbor_ref": "root_001543/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal yolculuğu kaldırabilecek kadar güçlü deveyi özel bir niteleme olarak içerir.",
+          "neighbor_only": "Komşu dal çok sayıda yolculuk yüzünden gücü tükenmiş deve veya dişi deveyi anlatır.",
+          "gloss": "yolculuğun deve üzerindeki etkisi",
+          "shared_zone": "Her iki dal yolculuk ile devenin gücü arasındaki ilişkiyi kullanır.",
+          "distinction": "Buradaki özel niteleme yeterlilik ve dayanıklılık bildirir; komşu dal bunun tersine yolculukların yol açtığı tükenmişliği bildirir."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tümü değerlendirildi; genel yer değiştirme, uzaklara gitme, yolculuk niyeti ve devenin yolculuk gücü en açıklayıcı sınırları sağladı.",
+      "branch_image_ar": "الخروج في السفر والمسافرون",
+      "what_is_ar": "يدخل فيه السفر وقطع المسافة والمسافرون والسافر والسافرة وما يتخذ للمسافر من سفرة وقوة البعير على السفر",
+      "what_is_not_ar": "ليس الكتاب والأسفار ولا السفارة ولا كشف الوجه",
+      "source_phrase_ar": "السفر سمي بذلك لأن الناس ينكشفون عن أماكنهم (maqayis)؛ السفر قوم مسافرون (maqayis;ayn)؛ السفر قطع المسافة (sihah)؛ سفرت خرجت إلى السفر (sihah)؛ كثرت السافرة يعني المسافرين (sihah;tahdhib)؛ سفرة طعام يتخذ للمسافر (maqayis;ayn;sihah;mufradat)؛ بعير مسفر قوي على السفر (maqayis;sihah;tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000712/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi kitap ve kitaplar çekirdeğini desteklemekle birlikte yazma eylemini, yazıcıları ve göksel yazıcıları da aynı dalda verir. Bu nedenle dal korunabilir, ancak tanım kitabı tek başına bütün dal saymamalı; yazma işlemi ile yazıcı rolünü ona bağlı ve ayrı yönler olarak göstermelidir.",
+        "boundary_note": "Dal yazılı kitap, yazma eylemi ve yazıcı rolünü kapsar; yolculuk, yol azığı veya elçilik anlamlarını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım kitap çekirdeğini korur; yazma eylemi ve yazıcı topluluğu kullanımlarını kitaba bağlı fakat birbirinden ayrı yönler olarak sınırlar."
+      },
+      "concept_map": {
+        "definition": "Yazılı içeriği taşıyan kitap veya büyük kitap bölümü ve bunun çoğuludur. Kitabı yazma eylemi ile yazan kişi ya da yazıcı topluluğu, bu nesneye bağlı ayrı katılımcı ve işlem yönleridir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Yazılı içeriği taşıyan bir kitap, cilt veya büyük kitabın bölümü temel nesnedir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "Kitabı yazmak, yazılı nesneyi ortaya çıkaran işlem olarak aynı adlandırma alanına bağlanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Yazıcı kişi ve yazıcılar topluluğu, göksel yazıcıları da içerebilen katılımcı adlarıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar tek kitabı, kitapların çoğulunu ve büyük kitapların bölümlerini aynı nesne alanında verir; yazma işlemi ile yazıcı kişi ve topluluk bu yazılı nesneye bağlı roller olarak aktarılır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yazılı kitap ve yazıcılık alanı",
+        "applicability": "Kitap nesnesini, yazma işlemini ve yazıcı rolünü tek doğal üst ifadede birlikte gösterir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yazılı nesneyi, onu yazma işlemini ve yazan kişi rolünü birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kitap veya cilt",
+          "usage_role": "contextual",
+          "applicability": "Tek bir yazılı eser veya büyük bir eserin bölümü kastedildiğinde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yazılı içeriği taşıyan tek nesneyi ve bölüm olasılığını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "kitabı yazmak",
+          "usage_role": "contextual",
+          "applicability": "Yazılı eseri oluşturma eyleminin anlatıldığı bağlamlara özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kitabı meydana getiren yazma işlemini eksiksiz korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "yazıcılar",
+          "usage_role": "contextual",
+          "applicability": "Yazma görevini üstlenen kişiler veya göksel yazıcılar topluluğu kastedildiğinde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yazan kişileri çoğul katılımcı rolüyle korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kitap, cilt veya büyük kitap bölümü"
+        },
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kitaplar veya büyük kitap bölümleri"
+        },
+        {
+          "lexical_unit_id": "lu_023",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yazıcılar; göksel yazıcılar da buna dahildir"
+        },
+        {
+          "lexical_unit_id": "lu_024",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yazıcı, yazan kişi"
+        },
+        {
+          "lexical_unit_id": "lu_025",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kitabı yazmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001633/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal kitabı ve kitap bölümlerini, ayrıca yazıcı kişi ve topluluğu özel olarak adlandırır.",
+          "neighbor_only": "Komşu dal yazının taşa kazınması ve yazılı ileti niteliğindeki mektup gibi daha genel yazma ürünlerini kapsar.",
+          "gloss": "kitap ve yazma",
+          "shared_zone": "Her iki dalda yazılı bir ürün ve onu meydana getiren yazma işlemi bulunur.",
+          "distinction": "Bu dal kitap nesnesi ile yazıcı rolü çevresinde özelleşir; komşu dal yazma ve kazımayı daha geniş ürün ve yüzey çeşitleriyle ele alır."
+        },
+        {
+          "neighbor_ref": "root_000255/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal kitap bölümlerini, yazma işlemini ve yazıcıları da kapsar.",
+          "neighbor_only": "Komşu dal içine bilgelik veya bilgi yazılan yaprak, dergi ya da defter türü nesneye odaklanır.",
+          "gloss": "yazılı kitap veya yaprak",
+          "shared_zone": "İki dal da bilgiyi taşıyan yazılı bir nesneyi adlandırır.",
+          "distinction": "Komşu dal belirli bir yazı yüzeyi veya yayın nesnesidir; bu dal ise kitap ve cilt çekirdeğini işlem ve yazıcı rolleriyle genişletir."
+        },
+        {
+          "neighbor_ref": "root_001447/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal kitabın kendisini, yazılmasını ve yazıcı rolünü kapsar.",
+          "neighbor_only": "Komşu dal metni bir yazıcıya sözlü olarak söyleyip yazdırma işlemini gerektirir.",
+          "gloss": "yazma ve yazdırma",
+          "shared_zone": "Her iki dal yazılı bir kitabın oluşturulması senaryosuna katılır.",
+          "distinction": "Burada çekirdek yazılı kitap ve doğrudan yazma alanıdır; komşu dal konuşan ile yazan arasında sözlü aktarım aşamasını zorunlu kılar."
+        },
+        {
+          "neighbor_ref": "root_000470/B002",
+          "relation_type": "thematic",
+          "boundary_match": "thematic_only",
+          "focus_only": "Bu dal yazılı nesneyi üretme ve onu yazan kişiyle ilgilidir.",
+          "neighbor_only": "Komşu dal kitabı tekrar tekrar okuyup öğrenme, ezberleme ve çalışma eylemidir.",
+          "gloss": "kitabı yazma ve çalışma",
+          "shared_zone": "Her iki dalın ortak senaryosunda kitap ve yazılı bilgi bulunur.",
+          "distinction": "Bu dal kitabın nesne, üretim ve üretici yönlerini adlandırır; komşu dal hazır kitabın okunup öğrenilmesine odaklanır."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tümü değerlendirildi; genel yazma, yazılı yaprak, dikte ve kitap çalışma dalları nesne, üretim ve kullanım sınırlarını en iyi gösterdi.",
+      "branch_image_ar": "الكتاب يكشف المكتوب",
+      "what_is_ar": "يدخل فيه السفر بمعنى الكتاب والأسفار والكتابة والسفرة الكتبة والملائكة الكتبة",
+      "what_is_not_ar": "ليس السفر بمعنى الارتحال ولا السفير الرسول ولا سفرة الطعام",
+      "source_phrase_ar": "السفر الكتابة والسفرة الكتبة (maqayis)؛ الأسفار أجزاء التوراة (ayn)؛ السفر بالكسر الكتاب والجمع أسفار (sihah)؛ السفرة الكتبة يعني الملائكة (tahdhib)؛ السفر الكتاب الذي يسفر عن الحقائق (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000712/B005",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi topluluklar arasında haber taşıyan elçiyi ve arayı düzelten kişiyi açıkça destekler. Ancak haberci, yardımcı, hizmetli, simsar ve işi yürüten kişi anlamlarındaki ayrı biçim yalnızca uzlaştırma çekirdeğine indirgenemez; dal içinde kaynak varyantı olarak ayrıca sınırlandırılmalıdır.",
+        "boundary_note": "Dal elçilik, topluluklar arası aracılık ve uzlaştırmayı kapsar; yardımcı, hizmetli ve iş takipçisi anlamları bağımlı bir varyanttır, yolculuk veya kitap anlamı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım elçi ve uzlaştırıcı aracılık çekirdeğini korur; toplulukların arasını düzeltme kalıbını ve hizmetli ya da iş takipçisi varyantını ayrı tutar."
+      },
+      "concept_map": {
+        "definition": "Bir topluluktan diğerine haber götüren elçi olmak veya iki topluluk arasında aracılık ederek aralarını düzeltmektir. Haberci, yardımcı, hizmetli, simsar ya da bir işi yürüten kişi anlamındaki ayrı biçim, bu aracılık alanının daha gevşek bir varyantıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kişi, bir topluluğun haberini başka bir topluluğa taşıyan elçi olarak arada görev yapar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Aracı, tarafların tutumlarını açığa çıkarıp aralarındaki uzaklığı gidererek onları uzlaştırır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Elçilik veya uzlaştırma görevi, kişiler arasındaki aracılık faaliyetinin adıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "source_variant",
+            "statement": "Haberci, yardımcı, hizmetli, simsar veya bir işi çekip çeviren kişi anlamları daha gevşek bir görevli varyantı oluşturur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar elçiyi topluluklar arasında haber taşıyan ve arayı düzelten kişi olarak ortaklaştırır; elçilik ve uzlaştırma bu aracılık görevinin adıdır. Aynı toplu kanıt ayrıca haberci, yardımcı, hizmetli, simsar ve işi yürüten kişi anlamlarında daha gevşek bir görevli biçimi taşır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "elçi ve uzlaştırıcı aracılık",
+        "applicability": "Dalın haber taşıma ile tarafların arasını düzeltme çekirdeğini birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Elçi rolünü, arada bulunmayı ve uzlaştırma işlevini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "topluluklar arası elçi",
+          "usage_role": "contextual",
+          "applicability": "Bir topluluğun haberini başka bir topluluğa götüren kişi bağlamında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Aradaki haber taşıma görevini ve iki topluluklu yapıyı korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "aralarını düzeltmek",
+          "usage_role": "contextual",
+          "applicability": "İki topluluk arasındaki anlaşmazlığı giderip uzlaşma sağlama bağlamına özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Taraflar arasındaki uzaklığın giderilip ilişkinin düzeltilmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "iş takipçisi veya yardımcı",
+          "usage_role": "explanatory",
+          "applicability": "Haberci, yardımcı, hizmetli, simsar ya da işi yürüten görevli varyantı için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bir işi başkası adına yürüten yardımcı görevli alanını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_026",
+          "rendering_kind": "ordinary",
+          "target_gloss": "elçi veya topluluklar arası uzlaştırıcı"
+        },
+        {
+          "lexical_unit_id": "lu_027",
+          "rendering_kind": "ordinary",
+          "target_gloss": "toplulukların arasını düzeltmek"
+        },
+        {
+          "lexical_unit_id": "lu_028",
+          "rendering_kind": "ordinary",
+          "target_gloss": "elçilik görevi veya uzlaştırma işi"
+        },
+        {
+          "lexical_unit_id": "lu_029",
+          "rendering_kind": "ordinary",
+          "target_gloss": "haberci, yardımcı, hizmetli, simsar veya iş yöneticisi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000563/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal elçinin tarafların arasını düzeltme ve yabancılığı giderme işlevini de çekirdeğe bağlar.",
+          "neighbor_only": "Komşu dal taşınan sözü, iletiyi ve genel haberci rolünü uzlaştırma şartı olmadan kapsar.",
+          "gloss": "elçi ve haber taşıyıcı",
+          "shared_zone": "Bir kişinin başkasının sözünü veya haberini taraflar arasında taşıması iki dalda da bulunur.",
+          "distinction": "Elçi rolünde yakın karşılıklıdırlar; bu dal uzlaştırıcı aracılığı belirginleştirirken komşu dal ileti taşıma alanını daha genel tutar."
+        },
+        {
+          "neighbor_ref": "root_000564/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal elçilik ve haber taşıma rolünü uzlaştırmayla birlikte kapsar.",
+          "neighbor_only": "Komşu dal doğrudan topluluklar arasında barış kurma sonucuna odaklanır.",
+          "gloss": "arayı düzeltip barış kurma",
+          "shared_zone": "İki dal topluluklar arasındaki anlaşmazlığın giderilmesi alanında birleşir.",
+          "distinction": "Komşu dalın çekirdeği barışı kurma sonucudur; burada uzlaştırma, arada görev yapan elçinin işlevlerinden biridir."
+        },
+        {
+          "neighbor_ref": "root_000674/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal aradaki kişinin haber taşımasını veya uzlaşma sağlamasını gerektirir.",
+          "neighbor_only": "Komşu dal aradaki kişiyi iki tarafı ayıran ya da koruyan bir perde gibi kavramsallaştırır.",
+          "gloss": "iki taraf arasındaki aracı",
+          "shared_zone": "Her iki dalda iki tarafın arasında bulunan üçüncü bir kişi vardır.",
+          "distinction": "Bu dal işlevsel iletişim ve uzlaştırma rolünü anlatır; komşu dal aynı konumu koruyucu veya ayırıcı bir ara unsur olarak kurar."
+        },
+        {
+          "neighbor_ref": "root_000562/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal elçi aracılığıyla haber taşıma ve arayı düzeltme yönündedir.",
+          "neighbor_only": "Komşu dal hem dostluk ve barışı hem de düşmanlığı insanlar arasında yerleştirme olasılığını taşır.",
+          "gloss": "ilişkiyi düzeltme veya bozma",
+          "shared_zone": "İki dal insanların arasındaki ilişkinin bir aracı eylemle değiştirilmesini kapsar.",
+          "distinction": "Bu dal olumlu uzlaştırma yönüyle sınırlıdır; komşu dal ilişkinin düşmanlığa çevrilmesi gibi karşıt sonucu da kapsar."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tümü değerlendirildi; genel elçilik, doğrudan barış kurma, aradaki kişi ve çift yönlü ilişki değiştirme dalları temel sınırları gösterdi.",
+      "branch_image_ar": "السفير يزيل الوحشة",
+      "what_is_ar": "يدخل فيه السفير والرسول والمصلح بين القوم والسفارة والإصلاح وما يلحق بذلك من السفسرة أو السفسير إذا كان بمعنى الساعي أو القيم بالأمر",
+      "what_is_not_ar": "ليس الكتاب ولا السفر في الطريق ولا السِّفار للبعير",
+      "source_phrase_ar": "سفر بين القوم سفارة إذا أصلح (maqayis;tahdhib)؛ السفير رسول بعض القوم إلى قوم (ayn)؛ السفير الرسول المصلح بين القوم (sihah)؛ السفير الرسول بين القوم يكشف ويزيل ما بينهم من الوحشة (mufradat)؛ السفسير الفيج والتابع والخادم (ayn;tahdhib)؛ السمسار والقيم بالأمر المصلح له (tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000712/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, devenin veya dişi devenin burnuna ya da başlığına yerleştirilen demir, ip veya bağdan oluşan aracı ve kalan kısmının dizgin işlevini açıkça destekler. Geçici dal çerçevesi nesneyi yolculuk ve elçilik anlamlarından doğru biçimde ayırır.",
+        "boundary_note": "Dal, devenin burnuna veya başlığına takılan özel bağ ve onun takılmasıyla sınırlıdır; genel boyun ipi, eyer kayışı veya yolculuk anlamı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım özel burun bağını nesne çekirdeği olarak korur; onu deveye takma kalıbını nesnenin kullanımına bağlı ayrı yön olarak sınırlar."
+      },
+      "concept_map": {
+        "definition": "Devenin veya dişi devenin burnuna ya da başlığına takılan demir, ip veya bağdır; uzayan bölümü hayvanı yöneltmek için dizgin olarak kullanılır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Demir, ip veya bağ devenin burnuna ya da başlığına sabitlenir ve hayvanı denetlemeye yarar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Aracın burundan sonra uzanan bölümü dizgin olarak tutulup hayvanı yöneltir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar aracı devenin burnuna yerleştirilen demir olarak ve başlığa bağlanan ip ya da bağ biçiminde aktarır; çoğul biçimi de aynı özel hayvan koşum aracına gönderme yapar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "devenin burnuna takılan dizgin bağı",
+        "applicability": "Aracın takıldığı yeri ve hayvanı yöneltmeye yarayan uzantısını birlikte belirten ana karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Devenin burnuna takılma yerini ve dizgin işlevini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "deve burun bağı",
+          "usage_role": "contextual",
+          "applicability": "Demir, ip veya bağ biçimindeki özel koşum parçasının nesne olarak anıldığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Aracın deveye ve burun bölgesine özgü oluşunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "deveye burun bağı takmak",
+          "usage_role": "contextual",
+          "applicability": "Özel bağın deveye yerleştirilmesi eylemini anlatan kalıba uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Özel aracın devenin burun bölgesine takılması eylemini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_030",
+          "rendering_kind": "ordinary",
+          "target_gloss": "devenin burnuna veya başlığına takılan demir, ip ya da bağ"
+        },
+        {
+          "lexical_unit_id": "lu_031",
+          "rendering_kind": "ordinary",
+          "target_gloss": "deveye burun bağı takmak"
+        },
+        {
+          "lexical_unit_id": "lu_032",
+          "rendering_kind": "ordinary",
+          "target_gloss": "deve burun bağları"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000727/B009",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal demir, ip veya bağ biçiminde olabilir ve uzantısı dizgin olarak kullanılabilir.",
+          "neighbor_only": "Komşu dal yalnızca devenin ağız ve burun çıkıntısı üzerine bağlanan ince ipi anlatır ve onu tam başlıktan ayırır.",
+          "gloss": "devenin burun çevresindeki bağ",
+          "shared_zone": "Her iki dal devenin burun ve ağız çıkıntısı çevresine bağlanan denetim aracını adlandırır.",
+          "distinction": "Nesneler yakın işlevlidir; bu dal malzeme ve dizgin uzantısı bakımından daha genişken komşu dal ince bir ip parçasıyla sınırlıdır."
+        },
+        {
+          "neighbor_ref": "root_000363/B003",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Bu dal aracı devenin burun bölgesine takar ve kalan kısmını dizgin olarak kullanır.",
+          "neighbor_only": "Komşu dal ipi hayvanın çenesinin altından geçirerek bağlamayı ve onunla çekip götürmeyi anlatır.",
+          "gloss": "burun bağı ve çene altı yuları",
+          "shared_zone": "İki dal da hayvanın başına bağlanan bir araçla onu denetleme alanındadır.",
+          "distinction": "Bağın yerleşimi çekirdek farktır: burada burun veya başlık, komşu dalda çenenin altı belirleyicidir."
+        },
+        {
+          "neighbor_ref": "root_000235/B003",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Bu dal devenin burnuna takılan belirli bir demir, ip veya bağı adlandırır.",
+          "neighbor_only": "Komşu dal boyun ipini, genel yuları ve yularla çekilmeye yatkın at ya da deveyi kapsar.",
+          "gloss": "özel burun bağı ve genel yular",
+          "shared_zone": "Her iki dal hayvanı bağlayıp yöneltmeye yarayan koşum araçları alanındadır.",
+          "distinction": "Bu dal anatomik yer ve araç yapısı bakımından özeldir; komşu dal boyun ipi ile genel yular ve çekilme niteliğini daha geniş kapsar."
+        },
+        {
+          "neighbor_ref": "root_000783/B008",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Bu dal tek devenin burun veya başlık bölgesindeki özel aracı anlatır.",
+          "neighbor_only": "Komşu dal ipi hayvanın boynuna geçirmeyi veya her deveye eş olarak başka bir deve bağlamayı kapsar.",
+          "gloss": "burun bağı ve boyun ipi",
+          "shared_zone": "İki dal da deve veya başka binek hayvanını iple denetleme senaryosuna katılır.",
+          "distinction": "Burada belirleyici yer burundur ve araç dizgine dönüşür; komşu dal boyun ve hayvanları birbirine bağlama düzenine odaklanır."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tümü değerlendirildi; ince burun ipi, çene altı yuları, genel yular ve boyun ipi dalları aracın yerini ve yapısını en açık biçimde ayırdı.",
+      "branch_image_ar": "السِّفار في أنف البعير",
+      "what_is_ar": "يدخل فيه السِّفار حديدة أو خيط أو حبل يجعل في أنف البعير أو خطامه ويجعل بقيته زماما",
+      "what_is_not_ar": "ليس السفر بمعنى قطع المسافة ولا السفارة ولا كشف الغطاء",
+      "source_phrase_ar": "السِّفار حديدة تجعل في أنف الناقة (maqayis;sihah;tahdhib;mufradat)؛ خيط يشد طرفه على خطام البعير (maqayis;ayn;sihah;tahdhib)؛ جمعه الأسفرة (ayn;tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000712/B007",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Bu dal packet düzeyinde inceleme statüsünde tutulmuş sınır-riskli malzemeyi taşır. Kanıt, tek bir yalın kök imgesinden çok biçime veya özel kullanıma bağlı dağınık adlandırmaları gösterdiği için dal yapısal bölme şartı koşmadan sınırlı bir adlandırma kümesi olarak okunmalıdır.",
+        "boundary_note": "Bu dalın öğeleri genel kök anlamı gibi genişletilmemeli, birbirinin yerine geçebilen tek bir sözlük karşılığı sayılmamalı ve yalnız kanıtta verilen biçim veya bağlam sınırı içinde tutulmalıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Kapsam verilen biçim veya özel kullanım sınırıyla bağlıdır; ortak bir yalın anlam ya da üretken genel kullanım varsayılmaz."
+      },
+      "concept_map": {
+        "definition": "Kanıt, bir şeyin geri çekilip azalmasıyla açılan veya seyrekleşen durumu ve ayrıca deri ya da başka bir yüzeyde kalan izi aynı geçici kümede verir. Bu kullanımlar tek bir kurucu süreç oluşturmaktan çok yapısal ayrım gerektiren birkaç anlamdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir şey geri çekilir veya azalır; bunun sonucunda önce kapladığı bölüm açılır ya da seyrek kalır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Saçın başın önünden çekilmesi ve atın etinin az olması, eksilmenin ayrı varlık türlerine bağlı gerçekleşimleridir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Deri veya başka bir yüzeyde kalan iz, geri çekilme sürecinden farklı olarak kalıcı bir sonuç nesnesini adlandırır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "source_variant",
+            "statement": "Toplu kaynak ifadesindeki son tekil nitelemenin anlamı açıklanmadığından diğer yönlerle ilişkisi belirlenemez.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "İnceleme statüsündeki kanıt, tek bir birleşik anlamdan çok biçime veya özel bağlama bağlı sınırlı adlandırmaları gösterir; dal bu kayıtları kontrollü biçimde görünür tutar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yalıtık adlandırmalar",
+        "applicability": "Bu karşılık, kanıttaki dağınık veya biçime bağlı adlandırma kümesini güvenli biçimde etiketler; tek ve birleşik bir sözlük anlamı değildir.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Dalın inceleme statüsündeki sınırlı adlandırma niteliğini korur.",
+          "loses": "Tek tek kullanımların özel göndergelerini kavram karşılığının içine ayrı ayrı taşımaz.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "geri çekilip açılma",
+          "usage_role": "general",
+          "applicability": "Bir şeyin kapladığı yerden çekilerek alttaki bölümü görünür bıraktığı bağlamlara uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Geri çekilme işlemini ve önce kapalı yerin açılmasını birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "saçın önden çekilmesi",
+          "usage_role": "contextual",
+          "applicability": "Alın çizgisindeki saçın azalması ve başın ön bölümünün açılması bağlamına özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Saçın başın önünden azalmasını ve o bölümün açılmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "eti az at",
+          "usage_role": "contextual",
+          "applicability": "Bir atın etli veya dolgun olmayışını bildiren kalıba özgüdür.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Atın et miktarının az oluşunu doğrudan korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "yüzeyde kalan iz",
+          "usage_role": "contextual",
+          "applicability": "Deri veya başka bir yüzey üzerinde kalıcı bir izin adlandırıldığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yüzeyde kalan belirtiyi sonuç nesnesi olarak korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_033",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeyin geri çekilip açılması"
+        },
+        {
+          "lexical_unit_id": "lu_034",
+          "rendering_kind": "ordinary",
+          "target_gloss": "saçın başın önünden çekilmesi"
+        },
+        {
+          "lexical_unit_id": "lu_035",
+          "rendering_kind": "ordinary",
+          "target_gloss": "eti az at"
+        },
+        {
+          "lexical_unit_id": "lu_036",
+          "rendering_kind": "ordinary",
+          "target_gloss": "deride veya başka bir yüzeyde kalan iz"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [],
+      "neighbor_coverage_note": "Dal yalnız sınırlı veya biçime bağlı adlandırma malzemesini tuttuğu için yayımlanacak güvenilir komşu ayrımı seçilmedi.",
+      "branch_image_ar": "انحسار يظهر أثرا أو قلة",
+      "what_is_ar": "يدخل فيه انحسار مقدم الرأس من الشعر وقلة لحم الفرس والأثر الباقي على الجلد أو غيره",
+      "what_is_not_ar": "ليس إسفار الصبح ولا السفر في الطريق ولا السفير",
+      "source_phrase_ar": "الإسفار أيضا الانحسار (sihah)؛ السفر مقدم رأسه من الشعر (tahdhib)؛ فرس سافر اللحم أي قليله (tahdhib)؛ السفر الأثر يبقى على جلد الإنسان وغيره (tahdhib)؛ الملفوه سفيرا (ayn)",
+      "sources": [
+        "AY",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000712/B008",
+      "identity_judgment": {
+        "status": "reframed",
+        "rationale": "Yetkili kaynak ifadesi yalnızca yaban öküzüne verilen bir adı ve onun yanında anılan iki başka adı bildirir. Geçici çerçevedeki hayvanın arazide açığa çıkması düşüncesi kaynak ifadesinde yoktur; bu nedenle dal, gerekçesiz açığa çıkma imgesinden arındırılarak yaban öküzü adı olarak yeniden tanımlanmalıdır.",
+        "boundary_note": "Dal yalnızca yaban öküzüne verilen hayvan adını kapsar; insan yolcuyu, arazide yürüme olayını veya genel hayvan sınıfını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalnızca yalın hayvan adı değerini verir ve kaynakta bulunmayan yolculuk ya da arazide görünme anlamlarını içeri almaz."
+      },
+      "concept_map": {
+        "definition": "Yaban öküzüne verilen bir addır; kaynak aynı hayvan için iki başka adın da kullanıldığını bildirir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Sözcük bir insan yolcuyu değil, yaban öküzünü adlandırır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "Kaynak, aynı yaban öküzünün iki başka hayvan adıyla da anıldığını belirtir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kanıt yaban öküzünün bu adla ve iki başka adla anıldığını bildirir; adlandırmayı yolculuk etme veya arazide açığa çıkma düşüncesine bağlayan ek bir açıklama vermez.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Bu yaban öküzü adı ve yanında verilen iki alternatif ad, kanıtta tek bir sözlük tarafından aktarılır."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yaban öküzü için bir ad",
+        "applicability": "Dalın kaynakça desteklenen yalın hayvan adı değerini başka çağrışım eklemeden karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Adın yaban öküzüne gönderme yapan adlandırma işlevini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yaban öküzü",
+          "usage_role": "contextual",
+          "applicability": "Hayvanın türsel gönderiminin doğal Türkçe metinde doğrudan verilmesi gereken bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Adlandırılan hayvanın yaban öküzü oluşunu doğrudan korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_037",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yaban öküzüne verilen bir ad"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000507/B006",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal yaban öküzüne verilen alternatif bir adı bildirir ve davranış özelliği yüklemez.",
+          "neighbor_only": "Komşu dal yerinde durmayan yaban öküzünü ve çok gidip gelen kişiye yapılan benzetmeyi kapsar.",
+          "gloss": "yaban öküzü adı",
+          "shared_zone": "Her iki dal da yaban öküzünü adlandırır.",
+          "distinction": "Hayvan gönderimi ortaktır; bu dal yalnızca ad değerini taşırken komşu dal hareketlilik niteliğini ve insana aktarılan benzetmeyi de içerir."
+        },
+        {
+          "neighbor_ref": "root_000324/B004",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Bu dal belirli bir büyük yabani hayvanın adıdır.",
+          "neighbor_only": "Komşu dal küçük ve çoğalan kara hayvanlarını topluca adlandırır.",
+          "gloss": "belirli yaban hayvanı ve küçük kara hayvanları",
+          "shared_zone": "İki dal da karada yaşayan hayvanları adlandırma alanındadır.",
+          "distinction": "Bu dal tek bir yaban öküzüne gönderme yapar; komşu dal çok sayıda küçük hayvan türünü kapsayan toplu bir sınıftır."
+        },
+        {
+          "neighbor_ref": "root_000418/B010",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Bu dal yaban öküzü için kullanılan belirli bir addır.",
+          "neighbor_only": "Komşu dal yeşil rengin baskın olduğu belirli kuş ve evcil güvercin adlarını kapsar.",
+          "gloss": "hayvanlara verilen özel adlar",
+          "shared_zone": "İki dal da belirli hayvanlara verilen sözlü adları içerir.",
+          "distinction": "Ortaklık yalnızca hayvan adlandırma alanıdır; hayvan türleri ve adlandırmayı belirleyen özellikler birbirinden farklıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tümü yeniden çerçevelenen hayvan adı sınırına göre değerlendirildi; aynı hayvanı adlandıran dal ile iki genel hayvan adı alanı yararlı bulundu.",
+      "branch_image_ar": "أسماء الحيوان المنكشف في الأرض",
+      "what_is_ar": "يدخل فيه الثور الوحشي المسمى مسافرا ونابئا وناشطا",
+      "what_is_not_ar": "ليس المسافر من الناس ولا السفر بمعنى الكتاب ولا السفير",
+      "source_phrase_ar": "يقال للثور الوحشي مسافر ونابىء وناشط",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Bu yaban öküzü adı ve yanında verilen iki alternatif ad, kanıtta tek bir sözlük tarafından aktarılır."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Kökün anlam alanı örtüyü kaldırıp görünür kılma, sabahın aydınlanması, yolculuk, yazılı kitap, elçilik ve uzlaştırma, deve burun bağı, geri çekilme veya iz ve yaban öküzü adı olarak birçok kola ayrılır. İlk birkaç kol açığa çıkma düşüncesi çevresinde ilişkilendirilebilse de araç, iz ve hayvan adı gibi yerleşik kullanımlar ayrı anlam merkezleri oluşturur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 12,
+      "word_count": 12,
+      "ayah_count": 12,
+      "surah_count": 9
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "سَفَر",
+        "stem_ar": "سَفَرٍ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|INDEF|GEN",
+        "occurrence_count": 5
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "سَفَر",
+        "stem_ar": "سَفَرًا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|INDEF|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "سَفَر",
+        "stem_ar": "سَفَرِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "أَسْفَار",
+        "stem_ar": "أَسْفَارِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>asofaAr|ROOT:sfr|MP|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "أَسْفَار",
+        "stem_ar": "أَسْفَارًۢا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>asofaAr|ROOT:sfr|MP|INDEF|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F006",
+        "lemma_ar": "أَسْفَرَ",
+        "stem_ar": "أَسْفَرَ",
+        "pos": "V",
+        "measure": "IV",
+        "morph_features": "STEM|POS:V|PERF|(IV)|LEM:>asofara|ROOT:sfr|3MS",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F007",
+        "lemma_ar": "سَفَرَة",
+        "stem_ar": "سَفَرَةٍ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:safarap|ROOT:sfr|F|INDEF|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F008",
+        "lemma_ar": "مُّسْفِرَة",
+        "stem_ar": "مُّسْفِرَةٌ",
+        "pos": "N",
+        "measure": "IV",
+        "morph_features": "STEM|POS:N|ACT|PCPL|(IV)|LEM:m~usofirap|ROOT:sfr|F|INDEF|NOM",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:184",
+        "surface_ar": "أَيَّامًا مَّعْدُودَٰتٍ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌ طَعَامُ مِسْكِينٍ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُۥ وَأَن تَصُومُوا۟ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ"
+      },
+      {
+        "ayah_ref": "2:185",
+        "surface_ar": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ"
+      },
+      {
+        "ayah_ref": "2:283",
+        "surface_ar": "وَإِن كُنتُمْ عَلَىٰ سَفَرٍ وَلَمْ تَجِدُوا۟ كَاتِبًا فَرِهَٰنٌ مَّقْبُوضَةٌ فَإِنْ أَمِنَ بَعْضُكُم بَعْضًا فَلْيُؤَدِّ ٱلَّذِى ٱؤْتُمِنَ أَمَٰنَتَهُۥ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا تَكْتُمُوا۟ ٱلشَّهَٰدَةَ وَمَن يَكْتُمْهَا فَإِنَّهُۥٓ ءَاثِمٌ قَلْبُهُۥ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "4:43",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا"
+      },
+      {
+        "ayah_ref": "5:6",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ"
+      },
+      {
+        "ayah_ref": "9:42",
+        "surface_ar": "لَوْ كَانَ عَرَضًا قَرِيبًا وَسَفَرًا قَاصِدًا لَّٱتَّبَعُوكَ وَلَٰكِنۢ بَعُدَتْ عَلَيْهِمُ ٱلشُّقَّةُ وَسَيَحْلِفُونَ بِٱللَّهِ لَوِ ٱسْتَطَعْنَا لَخَرَجْنَا مَعَكُمْ يُهْلِكُونَ أَنفُسَهُمْ وَٱللَّهُ يَعْلَمُ إِنَّهُمْ لَكَٰذِبُونَ"
+      },
+      {
+        "ayah_ref": "18:62",
+        "surface_ar": "فَلَمَّا جَاوَزَا قَالَ لِفَتَىٰهُ ءَاتِنَا غَدَآءَنَا لَقَدْ لَقِينَا مِن سَفَرِنَا هَٰذَا نَصَبًا"
+      },
+      {
+        "ayah_ref": "34:19",
+        "surface_ar": "فَقَالُوا۟ رَبَّنَا بَٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ فَجَعَلْنَٰهُمْ أَحَادِيثَ وَمَزَّقْنَٰهُمْ كُلَّ مُمَزَّقٍ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ"
+      },
+      {
+        "ayah_ref": "62:5",
+        "surface_ar": "مَثَلُ ٱلَّذِينَ حُمِّلُوا۟ ٱلتَّوْرَىٰةَ ثُمَّ لَمْ يَحْمِلُوهَا كَمَثَلِ ٱلْحِمَارِ يَحْمِلُ أَسْفَارًۢا بِئْسَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِ ٱللَّهِ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ"
+      },
+      {
+        "ayah_ref": "74:34",
+        "surface_ar": "وَٱلصُّبْحِ إِذَآ أَسْفَرَ"
+      },
+      {
+        "ayah_ref": "80:15",
+        "surface_ar": "بِأَيْدِى سَفَرَةٍ"
+      },
+      {
+        "ayah_ref": "80:38",
+        "surface_ar": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:184:9:1",
+        "qac_word_ref": "2:184:9",
+        "surah": 2,
+        "ayah": 184,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَرٍ",
+        "stem_ar": "سَفَرٍ",
+        "lemma_ar": "سَفَر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|INDEF|GEN",
+        "ayah_ref": "2:184",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:184:noun:10",
+          "attachment_word_unit_id": "q:2:184:10",
+          "qac_char_span": [
+            33,
+            36
+          ],
+          "attachment_char_spans": [
+            [
+              33,
+              36
+            ]
+          ],
+          "source_grammar": "gerund (maṣdar), genitive singular indefinite (majrūr by ʿalā), tanwīn",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:184:pass1:attach:a5",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:184:5",
+              "other_surface": "كَانَ",
+              "other_root": "ك و ن",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s002:184:pass1:attach:a6",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:184:7",
+              "other_surface": "مَرِيضَاً",
+              "other_root": "م ر ض",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "2:185:23:1",
+        "qac_word_ref": "2:185:23",
+        "surah": 2,
+        "ayah": 185,
+        "word_index": 23,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَرٍ",
+        "stem_ar": "سَفَرٍ",
+        "lemma_ar": "سَفَر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|INDEF|GEN",
+        "ayah_ref": "2:185",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:185:noun:29",
+          "attachment_word_unit_id": "q:2:185:29",
+          "qac_char_span": [
+            94,
+            97
+          ],
+          "attachment_char_spans": [
+            [
+              94,
+              97
+            ]
+          ],
+          "source_grammar": "genitive indefinite noun (masdar), object of ʿalā",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:185:pass1:attach:a16",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:185:25",
+              "other_surface": "كَانَ",
+              "other_root": "ك و ن",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s002:185:pass1:attach:a17",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:185:26",
+              "other_surface": "مَرِيضَاً",
+              "other_root": "م ر ض",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "2:283:4:1",
+        "qac_word_ref": "2:283:4",
+        "surah": 2,
+        "ayah": 283,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَرٍ",
+        "stem_ar": "سَفَرٍ",
+        "lemma_ar": "سَفَر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|INDEF|GEN",
+        "ayah_ref": "2:283",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:283:noun:5",
+          "attachment_word_unit_id": "q:2:283:5",
+          "qac_char_span": [
+            11,
+            14
+          ],
+          "attachment_char_spans": [
+            [
+              11,
+              14
+            ]
+          ],
+          "source_grammar": "gerund (maṣdar), genitive indefinite",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:283:pass1:attach:a1",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:283:3",
+              "other_surface": "كُنْتُمْ",
+              "other_root": "ك و ن",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "4:43:25:1",
+        "qac_word_ref": "4:43:25",
+        "surah": 4,
+        "ayah": 43,
+        "word_index": 25,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَرٍ",
+        "stem_ar": "سَفَرٍ",
+        "lemma_ar": "سَفَر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|INDEF|GEN",
+        "ayah_ref": "4:43",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s004:043:noun:29",
+          "attachment_word_unit_id": "q:4:43:29",
+          "qac_char_span": [
+            109,
+            112
+          ],
+          "attachment_char_spans": [
+            [
+              109,
+              112
+            ]
+          ],
+          "source_grammar": "indefinite gerund, genitive (after ʿalā)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s004:043:pass1:attach:a13",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:4:43:25",
+              "other_surface": "كُنْتُمْ",
+              "other_root": "ك و ن",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s004:043:pass1:attach:a14",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:4:43:26",
+              "other_surface": "مَرْضَى",
+              "other_root": "م ر ض",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "5:6:27:1",
+        "qac_word_ref": "5:6:27",
+        "surah": 5,
+        "ayah": 6,
+        "word_index": 27,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَرٍ",
+        "stem_ar": "سَفَرٍ",
+        "lemma_ar": "سَفَر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|INDEF|GEN",
+        "ayah_ref": "5:6",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s005:006:noun:36",
+          "attachment_word_unit_id": "q:5:6:36",
+          "qac_char_span": [
+            131,
+            134
+          ],
+          "attachment_char_spans": [
+            [
+              131,
+              134
+            ]
+          ],
+          "source_grammar": "Indefinite noun, genitive (governed by ʿalā). Root s-f-r: to uncover, reveal, expose; to travel (because travel exposes one to the open). The traveler is one who is uncovered/exposed — away from the shelter of settled life",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s005:006:pass1:attach:a12",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:5:6:32",
+              "other_surface": "كُنْتُمْ",
+              "other_root": "ك و ن",
+              "other_form_tag": "PV",
+              "prep_base": "عَلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "9:42:5:2",
+        "qac_word_ref": "9:42:5",
+        "surah": 9,
+        "ayah": 42,
+        "word_index": 5,
+        "morpheme_index": 2,
+        "surface_ar": "سَفَرًا",
+        "stem_ar": "سَفَرًا",
+        "lemma_ar": "سَفَر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|INDEF|ACC",
+        "ayah_ref": "9:42",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s009:042:noun:6",
+          "attachment_word_unit_id": "q:9:42:6",
+          "qac_char_span": [
+            14,
+            19
+          ],
+          "attachment_char_spans": [
+            [
+              14,
+              19
+            ],
+            [
+              15,
+              18
+            ]
+          ],
+          "source_grammar": "indefinite accusative noun, second predicate of kāna",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s009:042:pass1:attach:a3",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:9:42:3",
+              "other_surface": "عَرَضَاً",
+              "other_root": "ع ر ض",
+              "other_form_tag": "GERUND",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s009:042:pass1:attach:a4",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:9:42:7",
+              "other_surface": "قَاصِدَاً",
+              "other_root": "ق ص د",
+              "other_form_tag": "NOUN_ACTIVE_PART",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "18:62:10:1",
+        "qac_word_ref": "18:62:10",
+        "surah": 18,
+        "ayah": 62,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَرِ",
+        "stem_ar": "سَفَرِ",
+        "lemma_ar": "سَفَر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safar|ROOT:sfr|M|GEN",
+        "ayah_ref": "18:62",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s018:062:noun:13",
+          "attachment_word_unit_id": "q:18:62:13",
+          "qac_char_span": [
+            39,
+            44
+          ],
+          "attachment_char_spans": [
+            [
+              39,
+              42
+            ],
+            [
+              39,
+              44
+            ]
+          ],
+          "source_grammar": "Noun (gerund/masdar), masculine singular, genitive (governed by min), with 1st person plural possessive pronoun -nā. safar = journey, travel, voyage",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s018:062:pass1:attach:a5",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:18:62:11",
+              "other_surface": "لَقِينَا",
+              "other_root": "ل ق ي",
+              "other_form_tag": "PV",
+              "prep_base": "مِن",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s018:062:pass1:attach:a10",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:18:62:13",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s018:062:pass1:attach:a6",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:18:62:14",
+              "other_surface": "هَذَا",
+              "other_root": "ه و ذ",
+              "other_form_tag": "DEM_PRON_MS",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "34:19:5:1",
+        "qac_word_ref": "34:19:5",
+        "surah": 34,
+        "ayah": 19,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَسْفَارِ",
+        "stem_ar": "أَسْفَارِ",
+        "lemma_ar": "أَسْفَار",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>asofaAr|ROOT:sfr|MP|GEN",
+        "ayah_ref": "34:19",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s034:019:noun:6",
+          "attachment_word_unit_id": "q:34:19:6",
+          "qac_char_span": [
+            17,
+            24
+          ],
+          "attachment_char_spans": [
+            [
+              17,
+              22
+            ],
+            [
+              17,
+              24
+            ]
+          ],
+          "source_grammar": "broken plural noun in genitive by relation to bayna, with first person plural possessive suffix",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s034:019:pass1:attach:a4",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:34:19:5",
+              "other_surface": "بَيْنَ",
+              "other_root": "ب ي ن",
+              "other_form_tag": "ADV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s034:019:pass1:attach:a20",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:34:19:6",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "62:5:11:1",
+        "qac_word_ref": "62:5:11",
+        "surah": 62,
+        "ayah": 5,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "أَسْفَارًۢا",
+        "stem_ar": "أَسْفَارًۢا",
+        "lemma_ar": "أَسْفَار",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>asofaAr|ROOT:sfr|MP|INDEF|ACC",
+        "ayah_ref": "62:5",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s062:005:noun:12",
+          "attachment_word_unit_id": "q:62:5:12",
+          "qac_char_span": [
+            46,
+            52
+          ],
+          "attachment_char_spans": [
+            [
+              46,
+              51
+            ],
+            [
+              46,
+              52
+            ]
+          ],
+          "source_grammar": "accusative indefinite noun, object of yaḥmilu, tanwīn indicates non-specificity",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s062:005:pass1:attach:a9",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:62:5:11",
+              "other_surface": "يَحْمِلُ",
+              "other_root": "ح م ل",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "74:34:3:1",
+        "qac_word_ref": "74:34:3",
+        "surah": 74,
+        "ayah": 34,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَسْفَرَ",
+        "stem_ar": "أَسْفَرَ",
+        "lemma_ar": "أَسْفَرَ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "IV",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|(IV)|LEM:>asofara|ROOT:sfr|3MS",
+        "ayah_ref": "74:34",
+        "form_id": "F006",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s074:034:pass1:frame:v1",
+          "attachment_word_unit_id": "q:74:34:4",
+          "qac_char_span": [
+            9,
+            13
+          ],
+          "attachment_char_spans": [
+            [
+              9,
+              13
+            ]
+          ],
+          "source_grammar": "Form IV perfect verb, third masculine singular; intransitive here with ٱلصُّبْحِ as semantic subject",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "80:15:2:1",
+        "qac_word_ref": "80:15:2",
+        "surah": 80,
+        "ayah": 15,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "سَفَرَةٍ",
+        "stem_ar": "سَفَرَةٍ",
+        "lemma_ar": "سَفَرَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:safarap|ROOT:sfr|F|INDEF|GEN",
+        "ayah_ref": "80:15",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s080:015:noun:3",
+          "attachment_word_unit_id": "q:80:15:3",
+          "qac_char_span": [
+            5,
+            9
+          ],
+          "attachment_char_spans": [
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE plural indefinite genitive; qualifier of أَيْدِى",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s080:015:pass1:attach:a1",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:80:15:2",
+              "other_surface": "بِأَيْدِي",
+              "other_root": "ي د ي",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "80:38:3:1",
+        "qac_word_ref": "80:38:3",
+        "surah": 80,
+        "ayah": 38,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "مُّسْفِرَةٌ",
+        "stem_ar": "مُّسْفِرَةٌ",
+        "lemma_ar": "مُّسْفِرَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "IV",
+        "aspect": "",
+        "mood": "",
+        "voice": "ACT",
+        "morph_features": "STEM|POS:N|ACT|PCPL|(IV)|LEM:m~usofirap|ROOT:sfr|F|INDEF|NOM",
+        "ayah_ref": "80:38",
+        "form_id": "F008",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s080:038:noun:3",
+          "attachment_word_unit_id": "q:80:38:3",
+          "qac_char_span": [
+            9,
+            14
+          ],
+          "attachment_char_spans": [
+            [
+              9,
+              13
+            ],
+            [
+              9,
+              14
+            ]
+          ],
+          "source_grammar": "NOUN_ACTIVE_PART; feminine singular nominative active participle predicate from Form IV أَسْفَرَ, agreeing collectively with non-human broken plural وُجُوهٌ",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s080:038:pass1:attach:a2",
+              "relation": "predication",
+              "focus_role": "dependent",
+              "other_unit_id": "q:80:38:1",
+              "other_surface": "وُجُوهٌ",
+              "other_root": "و ج ه",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s080:038:pass1:attach:a1",
+              "relation": "adverbial",
+              "focus_role": "head",
+              "other_unit_id": "q:80:38:2",
+              "other_surface": "يَوْمَئِذٍ",
+              "other_root": "ي و م",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

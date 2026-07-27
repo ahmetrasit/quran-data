@@ -1,0 +1,1055 @@
+{
+  "inputs_sha256": "09aeac9213df7f1fdfd7b0bb30158a803f8a0118c96ca2e7a48a1f2b6186df49",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000024",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000024/B001",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi temel olarak ihtiyaç, istenen şey ve kişinin ulaşmak istediği amaç alanını verir; önemli veya aşırı ihtiyaç da bu alanın belirgin bir derecesidir. Bu nedenle dal korunabilir, ancak her kullanımı zorunlu olarak acil ihtiyaç diye sınırlamak kaynak kapsamını gereksiz yere daraltır.",
+        "boundary_note": "Çekirdek anlam ihtiyaçtır; yoğunluk, belirli kullanımlarda öne çıkan bir derece, cinsel ihtiyaç ise bağlama bağlı bir özelleşmedir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım yalın ihtiyaç çekirdeğini, bir şeye ihtiyaç duyup onu isteme yapısından ve erkeklerin cinsel ihtiyacını bildiren kalıplaşmış kullanımdan ayrı tutar."
+      },
+      "concept_map": {
+        "definition": "Bir kişinin gerekli gördüğü, eksikliğini duyduğu veya elde etmek istediği şeydir. İhtiyaç önemli ya da çok güçlü olabilir; cinsel ilişkiye yönelik ihtiyaç ise belirli bir bağlamdaki özelleşmiş kullanımdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişinin gereksindiği veya gerçekleştirmek amacıyla istediği şey temel anlamı oluşturur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "İhtiyacın önemli, baskın ya da aşırı derecede güçlü olması çekirdeğin yoğunlaşmış bir görünümüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Erkeklerin kadınlara veya cinsel ilişkiye duyduğu ihtiyaç, belirli bir ifadede dolaylı biçimde anlatılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar ihtiyaç, kişinin aradığı amaç ve gereksinim anlamında birleşir. Bazı anlatımlar önem veya aşırılık derecesini öne çıkarırken, belirli bir insan grubunu niteleyen kullanım cinsel ihtiyacı dolaylı olarak belirtir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "ihtiyaç ve istenen amaç",
+        "applicability": "Yalın ihtiyaç çekirdeğini ve kişinin elde etmek istediği şeyi birlikte karşılayan genel kavram anlatımıdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hem eksiklikten doğan gereksinimi hem de kişinin yöneldiği veya istediği amacı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "ihtiyaç",
+          "usage_role": "general",
+          "applicability": "Yoğunluk veya özel bağlam belirtilmediğinde yalın gereksinimi doğal biçimde karşılar.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bir şeye gerek duyma ve onun eksikliğini hissetme çekirdeğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "şiddetli ihtiyaç",
+          "usage_role": "contextual",
+          "applicability": "Kaynak bağlamı ihtiyacın önemini veya aşırı gücünü özellikle vurguladığında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Gereksinim çekirdeğiyle birlikte yüksek yoğunluk derecesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "cinsel ihtiyaç",
+          "usage_role": "contextual",
+          "applicability": "Erkeklerin kadınlara veya cinsel ilişkiye yönelik gereksiniminin söz konusu olduğu özel bağlam içindir.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İhtiyaç çekirdeğini ve cinsel bağlamdaki özelleşmeyi birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ihtiyaç, gereksinim veya istenen şey"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeye ihtiyaç duymak ve onu istemek"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kadınlara veya cinsel ilişkiye ihtiyaç duyan erkekler"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "elindekini yitirip muhtaç olmak; başka açıklamaya göre ellerdeki organları yitirmek"
+        },
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "zaman ağırlaştı; başka açıklamaya göre zaman istedi ve talep etti"
+        },
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ihtiyaç duyup talepte bulunmak; ayrıca tecrübeli ve bilgili olmak ya da organları düşmek veya zarar görmek diye açıklanır"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "yoksulluk",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Bir eksiklik yüzünden ihtiyaç duyma durumunu kısmen korur.",
+            "loses": null,
+            "adds": "Maddi imkânsızlık ve geçim sıkıntısı anlamını zorunlu olarak ekler.",
+            "collision": "Her ihtiyaç yoksulluktan doğmadığı için dalın genel kapsamıyla çakışır."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000367/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "İstenen amaç, önemli ihtiyaç ve cinsel ihtiyaç gibi kullanımları kapsar.",
+          "neighbor_only": "Yoksulluk, zorunluluk ve bir başkasını muhtaç bırakma gibi daha geniş fiil ve durum alanlarını kapsar.",
+          "gloss": "zorunlu ihtiyaç",
+          "shared_zone": "İki dal da kişinin bir şeye ihtiyaç duymasını ve o şeyin eksikliğini temel alır.",
+          "distinction": "Komşu dal zorunluluk ve yoksunluk yönünü daha belirgin işler; bu dal ise ihtiyaçla birlikte istenen amacı, önem derecesini ve özel cinsel bağlamı taşır."
+        },
+        {
+          "neighbor_ref": "root_001660/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Sıradan ihtiyaçtan aşırı ihtiyaca kadar daha geniş bir derece aralığını kapsar.",
+          "neighbor_only": "Sahibinin güçlü biçimde yöneldiği önemli bir ihtiyacı ve onun giderilmesini özellikle belirtir.",
+          "gloss": "önemli ve güçlü ihtiyaç",
+          "shared_zone": "Her iki dal da önemli veya güçlü biçimde hissedilen bir gereksinimi anlatabilir.",
+          "distinction": "Komşu dal güçlü yönelim taşıyan önemli ihtiyaçta yoğunlaşır; bu dalın çekirdeği daha genel ihtiyaçtır ve yüksek yoğunluk zorunlu değildir."
+        },
+        {
+          "neighbor_ref": "root_001377/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Eksiklikten doğan gereksinim, talepte bulunulmasa bile var olabilir.",
+          "neighbor_only": "Bir şeyi arama ve onu elde etmek için yönelme eylemini merkeze alır.",
+          "gloss": "arama ve talep etme",
+          "shared_zone": "İhtiyaç duyulan şey çoğu zaman aranır veya talep edilir.",
+          "distinction": "Bu dal kişinin gereksinimini ya da istediği amacı adlandırır; komşu dal ise o şeye yönelen arama ve talep eylemini adlandırır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; ihtiyaçla doğrudan sınır karışıklığı yaratabilecek üç komşu seçildi, yalnızca aynı senaryoya katılan veya daha uzak özel alanlar dışarıda bırakıldı.",
+      "branch_image_ar": "الحاجة الملحّة",
+      "what_is_ar": "الحاجة والإربة والمأربة، وما يطلبه المرء أو يحتاج إليه، ومنه الحاجة إلى النكاح",
+      "what_is_not_ar": "ليس العضو ولا النصيب ولا العقد ولا الدهاء المجرد",
+      "source_phrase_ar": "الإرب الحاجة؛ المأربة والإربة كل ذلك الحاجة (maqayis); الإرب الحاجة المهمة؛ ما إربك أي حاجتك (ayn); الإرب أيضا الحاجة؛ غير أولي الإربة (sihah); الإربة والإرب الحاجة وهي المأربة وجمعها مآرب (tahdhib); الأرب فرط الحاجة؛ أولي الإربة كناية عن الحاجة إلى النكاح (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000024/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi akıl, kurnazlık, pratik kavrayış, bir konuda ustalaşma, karşısındakini zekâyla alt etme ve üstün gelme kullanımlarını açıkça bir arada verir. Geçici dal çerçevesi bu ortak pratik zekâ ve beceri alanını sadık biçimde temsil eder.",
+        "boundary_note": "Dal salt bilgi birikimi değil, durumları kavrayıp ustalık, strateji veya aldatıcı manevra yoluyla sonuç alma yetisidir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım akıl ve pratik zekâ çekirdeğini korur; belirli yapılarla anlatılan bir konuda ustalaşma ve bir topluluğa üstün gelme sonuçlarını ayrı bağımlı yüzler olarak gösterir."
+      },
+      "concept_map": {
+        "definition": "Akıl, kavrayış, kurnazlık ve hile yoluyla uygun çare bulma yetisidir. Belirli yapılarda bir konuda mahir olmayı, karşılıklı hileyi veya bir topluluğa üstün gelmeyi de anlatır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Akıl, güçlü kavrayış, kurnazlık ve duruma uygun çare bulma yetisi çekirdeği oluşturur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bir işi iyi bilip ustaca yapar hâle gelmek pratik beceri yüzüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Karşılıklı kurnazlık yapmak veya karşıdakini stratejik manevrayla yanıltmak yetinin ilişkisel kullanımını gösterir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "extension",
+            "statement": "Bir topluluğa üstün gelmek veya onu yenmek, belirli bir yapıda anlatılan sonuçtur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar akıl, keskin kavrayış ve kurnazca yol bulma çekirdeğinde birleşir. Aynı alan, bir konuda ustalaşma, karşılıklı stratejik manevra ve başkalarına üstün gelme biçimlerinde genişler.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "pratik zekâ ve ustaca strateji",
+        "applicability": "Akıl, kavrayış, beceri ve sonuç aldıran stratejiyi birlikte taşıyan dal geneli kavram anlatımıdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Keskin kavrayışı, uygulamalı ustalığı ve karşıdakine üstün gelmeye yarayan stratejik yönü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "akıllı ve kurnaz",
+          "usage_role": "general",
+          "applicability": "Bir kişinin hem güçlü kavrayışını hem de duruma göre ustaca yol bulmasını niteleyen bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Akıl ile stratejik kurnazlığın birlikte bulunduğu kişi niteliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        },
+        {
+          "text": "işin ustası olmak",
+          "usage_role": "contextual",
+          "applicability": "Belirli bir konuda deneyim ve beceri kazanmayı anlatan yapıya uygun doğal karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Belirli bir işte beceri, deneyim ve sağlam kavrayış kazanma anlamını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "bir topluluğa üstün gelmek",
+          "usage_role": "contextual",
+          "applicability": "Bir topluluğu yenme veya ona karşı üstünlük sağlama sonucunu anlatır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Başkalarına karşı başarı ve üstünlük sağlama sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "akıl, keskin kavrayış ve kurnazlık"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "akıllı, ileri görüşlü ve kurnaz"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "karşılıklı kurnazlık ve birbirini aldatmaya çalışma"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir konuda ustalaşıp onu iyi bilir hâle gelmek"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir topluluğa üstün gelmek ve onu yenmek"
+        },
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ihtiyaç duyup talepte bulunmak; ayrıca tecrübeli ve bilgili olmak ya da organları düşmek veya zarar görmek diye açıklanır"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "zekâ",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Akıl ve kavrayış yetisini korur.",
+            "loses": "Uygulamalı ustalık, karşılıklı kurnazlık ve başkalarına üstün gelme yönlerini siler.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001550/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bir konuda ustalaşma, karşılıklı stratejik manevra ve üstün gelme sonuçlarını da kapsar.",
+          "neighbor_only": "Kurnaz ve sıra dışı derecede uyanık kişi tipini daha doğrudan öne çıkarır.",
+          "gloss": "kurnazlık ve keskin zekâ",
+          "shared_zone": "İki dal da akıl, keskin kavrayış ve kurnazlıkla durumları yönetme yetisini anlatır.",
+          "distinction": "Komşu dal kurnaz ve uyanık kişi niteliğinde yoğunlaşır; bu dal aynı niteliği beceri kazanma, stratejik etkileşim ve üstün gelme yapılarıyla daha geniş işler."
+        },
+        {
+          "neighbor_ref": "root_000498/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Belirli bir işte ustalaşmayı ve karşılıklı aldatma manevrasını da kapsar.",
+          "neighbor_only": "İsabetli görüş ve işleri doğru değerlendirme niteliğini daha belirgin biçimde merkez alır.",
+          "gloss": "isabetli görüş ve kurnazlık",
+          "shared_zone": "Her iki dalda da olayları iyi görme, sağlam görüş ve kurnazca davranma bulunur.",
+          "distinction": "Komşu dal görüşün doğruluğuna ve iş bilirliğe odaklanır; bu dal bunlara ek olarak ustalaşma sürecini ve rakibe üstün gelme sonucunu içerir."
+        },
+        {
+          "neighbor_ref": "root_000201/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Strateji, kurnazlık ve başkasına üstün gelme yönleri vardır.",
+          "neighbor_only": "Hızlı öğrenme, duyduğunu kavrama ve bilgiyi sağlam biçimde tutma yönleri vardır.",
+          "gloss": "çabuk kavrayış ve beceri",
+          "shared_zone": "İki dal da kavrama ve yetkin eyleme dönüşen zihinsel beceriyi paylaşır.",
+          "distinction": "Komşu dal öğrenme ve algılama hızını öne çıkarır; bu dal durumu stratejik olarak kullanıp ustalık veya üstünlük üretmeye odaklanır."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tamamı karşılaştırıldı; pratik zekâ, kurnazlık ve beceri sınırını doğrudan aydınlatan üç komşu yayımlandı, yalnızca uzak sonuç veya kişi tipleri çıkarıldı.",
+      "branch_image_ar": "عقل الأريب وحيلته",
+      "what_is_ar": "العقل والدهاء والحيلة والمداهاة، والمهارة والبصر بالشيء، والفوز أو الفلج على القوم",
+      "what_is_not_ar": "ليست حاجة مجردة ولا عضوا ولا عقدة حسية",
+      "source_phrase_ar": "الإرب العقل؛ أريب؛ أربت بالشيء أي صرت به ماهرا؛ آربت عليهم فزت؛ المؤاربة المداهاة (maqayis); الأرب مصدر الأريب العاقل؛ المؤاربة مداهاة الرجل ومخاتلته (ayn); الإرب أيضا الدهاء وهو من العقل؛ فلان يؤارب صاحبه إذا داهاه؛ أرب بالشيء درب به؛ آربت على القوم فزت (sihah); الرجل الأريب أي ذو دهي وبصر؛ أربت بالشيء صرت فيه ماهرا بصيرا؛ آربت على القوم إذا فزت عليهم وفلجت (tahdhib); يستعمل تارة في الاحتيال؛ فلان ذو أرب وأريب (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000024/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi organı, bir bütünün parçasını ve payı aynı bölünmüş bütün ilişkisi altında açıkça birleştirir; eti parçalara ayırma ve eksiksiz organ ya da pay anlatımları da bu çekirdeğe bağlıdır. Geçici çerçeve bu yapıyı doğru yansıtır.",
+        "boundary_note": "Dal bir bütünün ayrılabilir parçasını kapsar; organ, pay ve kesilmiş parça bu ilişkinin ayrı gerçekleşmeleridir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım organ, parça ve pay çekirdeğini verir; eti parçalara ayırma ile eksiksiz organı bildiren kalıplar yalnızca kendi yapıları içinde ayrı tutulur."
+      },
+      "concept_map": {
+        "definition": "Bir bütünü oluşturan veya ondan ayrılan belirli bir parçadır; bedende organ, paylaşımda pay, kesme sonucunda parça olarak gerçekleşir. Belirli yapılarda organın ya da payın eksiksiz ve tam olması ayrıca belirtilir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir bütünün belirli bir parçası olma ilişkisi, organ ve pay anlamlarını birleştiren çekirdektir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bedenin işlevsel bir parçası olan organ, bütün-parça ilişkisinin canlı bedendeki özel görünümüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Bölüşülen bir bütünden bir kişiye düşen pay, aynı parça ilişkisinin paylaşım alanındaki görünümüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "associated_use",
+            "statement": "Eti organ büyüklüğünde veya ayrı ayrı parçalara kesmek, parça anlamına bağlı bir işlem olarak kullanılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F005",
+            "role": "specialization",
+            "statement": "Bir organın kırılmamış ve eti eksilmemiş olması ya da bir payın tam verilmesi eksiksizlik niteliğini ekler.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar organ, parça ve payı bir bütünün bölümü olma ortaklığında birleştirir. Etin ayrı parçalara kesilmesi bu parça anlamına, organın veya payın eksiksiz olması ise tamamlık niteliğine dayanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bütünün parçası, organı veya payı",
+        "applicability": "Organı, ayrılmış parçayı ve bölüşüm payını ortak bütün-parça ilişkisi altında birlikte gösteren kavram anlatımıdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bütüne bağlı parça çekirdeğini ve bunun organ ile pay olarak gerçekleşmesini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004",
+          "F005"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "organ",
+          "usage_role": "contextual",
+          "applicability": "İnsan veya hayvan bedeninin belirli bir parçası söz konusu olduğunda doğal karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Beden bütününe ait işlevsel ve belirli parça anlamını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "pay",
+          "usage_role": "contextual",
+          "applicability": "Bölüşülen bir bütünden bir kişiye ayrılan miktarın anlatıldığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bir bütünün kişiye ayrılmış bölümü olma anlamını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        },
+        {
+          "text": "parça parça kesmek",
+          "usage_role": "contextual",
+          "applicability": "Etin veya benzeri bir bütünün ayrı parçalara bölünmesini anlatan eylem bağlamına uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bütünü ayrı ve belirgin parçalara dönüştüren kesme işlemini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F004"
+          ]
+        },
+        {
+          "text": "eksiksiz organ",
+          "usage_role": "contextual",
+          "applicability": "Kırılmamış, eti eksilmemiş ve tam durumdaki beden parçasını niteleyen yapıda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Organ anlamıyla onun tam ve eksiksiz olma niteliğini birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002",
+            "F005"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "organlar veya bir bütünün parçaları"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "eti ayrı ayrı parçalara kesmek"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "elindekini yitirip muhtaç olmak; başka açıklamaya göre ellerdeki organları yitirmek"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "paylaşılmış hayvandan ayrılan pay"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kırılmamış, eti eksilmemiş tam organ"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "borcun veya felaketin her yandan sıkıştırdığı borçlu kişi"
+        },
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ihtiyaç duyup talepte bulunmak; ayrıca tecrübeli ve bilgili olmak ya da organları düşmek veya zarar görmek diye açıklanır"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "bölüm",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir bütünün ayrılmış parçası olma ilişkisini korur.",
+            "loses": "Beden organı, kişiye düşen pay ve parçanın eksiksizliği yönlerini açıkça taşımaz.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000241/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Beden organını, bölüşüm payını ve organın ya da payın eksiksizliğini kapsar.",
+          "neighbor_only": "Genel olarak bölme işlemini ve parçaların bütünü kurma ilişkisini daha açık işler.",
+          "gloss": "parça ve bölüm",
+          "shared_zone": "Her iki dal da bir bütünün onu oluşturan veya ondan ayrılan parçasını anlatır.",
+          "distinction": "Komşu dal genel parça ve bölme alanıdır; bu dal aynı çekirdeği özellikle organ, pay, kesilmiş et parçası ve eksiksizlik kullanımlarıyla sınırlar."
+        },
+        {
+          "neighbor_ref": "root_001309/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Organ ve kesilmiş parça anlamlarını da içerir.",
+          "neighbor_only": "Ödül ya da günah payı, kat ve eşdeğer miktar gibi soyut bölüşüm kullanımlarını içerir.",
+          "gloss": "pay ve eşdeğer bölüm",
+          "shared_zone": "İki dal da bir bütünden bir kimseye düşen pay veya bölümü anlatabilir.",
+          "distinction": "Bu dal payı daha geniş organ ve parça ailesine bağlar; komşu dal pay, karşılık ve kat anlamlarında yoğunlaşır."
+        },
+        {
+          "neighbor_ref": "root_000082/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Herhangi bir organı ya da parçayı ve bölüşüm payını adlandırabilir.",
+          "neighbor_only": "Organların ayrı ayrı biçimli ve güzel olmasıyla beden yaradılışının tamlığını niteler.",
+          "gloss": "organların belirginliği ve beden bütünlüğü",
+          "shared_zone": "İki dal beden organları ve onların eksiksiz görünümü alanında buluşur.",
+          "distinction": "Bu dal organı bütünün parçası olarak adlandırır; komşu dal organların birbirinden belirgin oluşunu ve bedenin düzgün, tam yaratılışını niteler."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tümü incelendi; genel parça, pay ve organ bütünlüğüyle en kolay karışabilecek üç sınır seçildi, yalnızca belirli beden parçaları veya kesme örnekleri olan uzak adaylar elendi.",
+      "branch_image_ar": "جزء من الشيء وعضوه",
+      "what_is_ar": "الإرب والآراب بمعنى العضو أو الجزء، وقطع اللحم آرابا، والنصيب، والعضو أو النصيب الموفر التام",
+      "what_is_not_ar": "ليس الحاجة ولا الدهاء ولا العقدة المشدودة",
+      "source_phrase_ar": "النصيب والعضو من باب واحد؛ الأربة نصيب اليسر؛ عضو مؤرب؛ تساقطت آرابه (maqayis); قطعت اللحم آرابا والواحد إرب؛ أربت يده أي قطعت يده (ayn); الإرب العضو؛ سبعة آراب؛ أرب الرجل إذا تساقطت أعضاؤه؛ عضو مؤرب أي تام (sihah); يقال لكل عضو إرب؛ قطعته إربا إربا؛ المؤربة الموفرة؛ التأريب تمام النصيب (tahdhib); تسمى الأعضاء التي تشتد الحاجة إليها آرابا؛ أرب نصيبه أي عظمه (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000024/B004",
+      "identity_judgment": {
+        "status": "reframed",
+        "rationale": "Kaynak ifadesi sağlam düğümün yanında sıkma ve sağlamlaştırmayı, insanın katılaşıp karşı çıkmasını, gergin kirişi, bir şeye bağlanıp ondan yararlanmayı ve çözümü güç belayı da içerir. Dal korunabilir, fakat yalnızca sağlam düğüm olarak tanımlanırsa kaynakta açıkça bulunan davranışsal ve mecazlı kullanımlar kaybolur.",
+        "boundary_note": "Dalın ortak ekseni fiziksel veya mecazlı sıkılık ve çözülmeye dirençtir; kışkırtma anlamının bu köke bağlanması kaynak içinde tartışmalıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım sıkılık ve direnç eksenini verir; düğüm sıkma, katı davranma, bir şeye tutunup ondan yararlanma ve çözümü güç bela kullanımlarını kendi yapısal sınırlarında ayırır."
+      },
+      "concept_map": {
+        "definition": "Bir şeyi fiziksel olarak sıkı ve çözülmesi güç duruma getirme ya da kişinin tutumunda sertleşip direnmesidir. Bu eksen, gergin nesneye, bir şeye bağlanıp ondan yararlanmaya ve çözümü güç karmaşık belaya uzanır; kışkırtma kullanımı ise tartışmalıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bağlanan şeyi sıkılaştırma, sağlamlaştırma ve kolay çözülmeyecek duruma getirme fiziksel çekirdektir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Bir kişinin tutumunda katılaşması, işi güçleştirmesi, karşı çıkması veya eğilip bükülerek direnmesi mecazlı davranış uzantısıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Bir kirişin iyi ve çok gergin olması, fiziksel sıkılık niteliğinin belirli bir nesnedeki görünümüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "associated_use",
+            "statement": "Bir şeye bağlanmak, ona tutunmak ve onu başka bir güçlüğe karşı araç olarak kullanmak ilişkisel bir kullanımdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F005",
+            "role": "extension",
+            "statement": "Çözülmesi güç, karmaşık ve insanı çare aramaya zorlayan bela sıkı düğüm imgesinin mecazlı uzantısıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F006",
+            "role": "source_variant",
+            "statement": "Kışkırtma anlamı bazı aktarımlarda yer alır, ancak başka bir açıklama bunu yazım veya aktarım yanlışı sayar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynak topluluğu sıkı bağlama ve sağlamlaştırmadan davranışta katılaşmaya, gergin nesneye, bir şeye tutunup ondan yararlanmaya ve çözümü zor belaya uzanan bir anlam ailesi sunar. Kışkırtma anlamının bu aileye ait olup olmadığı konusunda kaynak içi bir uyuşmazlık vardır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sıkılaştırma ve çözülmeye direnç",
+        "applicability": "Fiziksel bağlama çekirdeğiyle katı tutum, gerginlik ve çözümü güçlük gibi mecazlı uzantıları ortak eksende gösteren anlatımdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sıkı bağlama işlemini, ortaya çıkan sağlamlığı ve davranışsal ya da mecazlı çözülme direncini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004",
+          "F005",
+          "F006"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "düğümü sıkıca bağlamak",
+          "usage_role": "contextual",
+          "applicability": "Bir düğümün sağlamlaştırılıp kendiliğinden çözülmeyecek duruma getirildiği fiziksel bağlamda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bağlama işlemini, sıkılığı ve çözülmeye karşı dayanıklılığı birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "katılaşıp karşı koymak",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin tutumunu sertleştirerek işi güçleştirdiği, karşı çıktığı veya diretme gösterdiği bağlam içindir.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Davranışsal sertliği, direnmeyi ve karşı çıkmayı korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "bir şeye tutunup ondan yararlanmak",
+          "usage_role": "explanatory",
+          "applicability": "Kişinin bir araca bağlanarak onu başka bir güçlüğün üstesinden gelmek için kullandığı yapıyı açıklar.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bağlanma, tutunma ve bağlı olunan şeyi araç olarak kullanma ilişkisini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        },
+        {
+          "text": "çözümü güç bela",
+          "usage_role": "contextual",
+          "applicability": "Karmaşıklığı yüzünden özel çare ve dikkat gerektiren ağır bir sorun veya felaket için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Belanın ağır, karmaşık ve kolay çözülemeyen niteliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F005"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sağlam düğüm veya yere çakılı bağlama halkası"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "düğümü sıkıp sağlamlaştırmak"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "katılaşmak, işi güçleştirmek, karşı çıkmak veya diretmek"
+        },
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "iyi ve çok gergin kiriş"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "borcun veya felaketin her yandan sıkıştırdığı borçlu kişi"
+        },
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çözümü güç, karmaşık ve ürkütücü bela"
+        },
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeye bağlanmak, tutunmak ve ondan yararlanmak"
+        },
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "zaman ağırlaştı; başka açıklamaya göre zaman istedi ve talep etti"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "düğüm",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Fiziksel bağlama ve çözülmeye karşı sıkılık çekirdeğini korur.",
+            "loses": "Davranışta katılaşma, gergin kiriş, bir şeye tutunma ve çözümü güç bela uzantılarını siler.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000290/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Katı davranış, gergin kiriş, bir şeye tutunma ve çözümü güç bela uzantılarını kapsar.",
+          "neighbor_only": "Giysi, kuşak ve çevreleme bağlarının somut kullanım alanlarını daha ayrıntılı kapsar.",
+          "gloss": "sıkıca bağlama",
+          "shared_zone": "İki dal da bir bağı veya düğümü sıkma, sağlamlaştırma ve çözülmesini güçleştirme anlamını taşır.",
+          "distinction": "Komşu dal somut bağlama ve giysi bağları çevresinde yoğunlaşır; bu dal sıkılığı davranışsal direnç ve karmaşık sorun gibi mecazlı alanlara da genişletir."
+        },
+        {
+          "neighbor_ref": "root_001679/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Katılaşıp karşı çıkma, gergin kiriş, tutunma ve çözümü zor bela kullanımları vardır.",
+          "neighbor_only": "Yemin, antlaşma, söz, eylem ve sayıların pekiştirilmesini özellikle kapsar.",
+          "gloss": "sağlamlaştırma ve pekiştirme",
+          "shared_zone": "Her iki dal bir şeyi sıkı, sağlam ve çözülmesi ya da bozulması güç duruma getirmeyi anlatır.",
+          "distinction": "Komşu dal sağlamlaştırmayı söz, antlaşma ve eylem gibi geniş nesnelere uygular; bu dal düğüm sıkılığından davranışsal dirence uzanan kendine özgü aileyi taşır."
+        },
+        {
+          "neighbor_ref": "root_001012/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Fiziksel düğüm, sağlamlaştırma, gergin nesne ve tutunma anlamlarını içerir.",
+          "neighbor_only": "Karşılıklı güçlük çıkarma ve bir işin kendiliğinden güçleşmesi süreçlerini daha genel biçimde kapsar.",
+          "gloss": "karşı çıkma ve güçleştirme",
+          "shared_zone": "İki dal kişinin karşı çıkması, eğilip bükülmesi ve işi güçleştirmesi alanında buluşur.",
+          "distinction": "Komşu dal anlaşmazlık ve güçleştirme davranışını merkez alır; bu dal aynı davranışı fiziksel sıkılık ve çözülmeye direnç çekirdeğinin mecazlı uzantısı olarak taşır."
+        },
+        {
+          "neighbor_ref": "root_000840/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Belayı çözülmesi güç bir düğüm gibi kavrar ve fiziksel sıkılık ailesine bağlar.",
+          "neighbor_only": "Çıkış yolu bulunmayan savaş, felaket veya büyük sıkıntı durumunu doğrudan adlandırır.",
+          "gloss": "çıkışsız ağır bela",
+          "shared_zone": "İki dal da ağır, karmaşık ve kolayca içinden çıkılamayan bir belayı anlatabilir.",
+          "distinction": "Bu dalda bela, sıkı düğümün çözülmezliğinden gelişen bir uzantıdır; komşu dalın çekirdeği doğrudan çıkışsız ağır durumdur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; fiziksel bağlama, genel sağlamlaştırma, davranışsal direnç ve çözümü güç bela sınırlarını ayrı ayrı gösteren dört komşu seçildi.",
+      "branch_image_ar": "العقدة المستحكمة",
+      "what_is_ar": "العقد والإحكام، والتشدد والتعسر والمخالفة، والوتر الشديد، واللُّزوم والاستعانة بالشيء، والداهية المعقدة، والتحريش عند من أثبته",
+      "what_is_not_ar": "ليست الحاجة ولا العقل ولا العضو، والتحريش مختلف فيه",
+      "source_phrase_ar": "العقد والتشديد؛ أرب الرجل إذا تشدد وضن؛ التأريب التحريش؛ تأرب علينا؛ أربت العقدة؛ الأربة خلاف الأنشوطة؛ المستأرب من الأوتار الشديد؛ أربت بكذا أي استعنت؛ الأربي الداهية المستنكرة (maqayis); التأريب التحريش؛ تأرب فلان علينا أي تعسر وخالف والتوى؛ المستأرب من الأوتار الجيد الشديد (ayn); الأربة العقدة؛ تأريب العقدة إحكامها؛ التأرب التشدد؛ تأرب فلان علي أي تأبى وتشدد؛ الأربى الداهية (sihah); تأربت في حاجتي تشددت؛ أربت العقدة شددتها؛ علقتها ولزمتها واستعنت بها؛ الأربي من أسماء الداهية؛ الأربة حلقة الآخية؛ التأريب التحريش؛ هذا تصحيف والصواب التأريث (tahdhib); أربت العقدة أحكمتها؛ الأربى للداهية المقتضية للاحتيال (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, ihtiyaç ve istenen amaç; pratik zekâ ve stratejik ustalık; bütünün parçası, organı veya payı; sıkı bağlama ve çözülmeye direnç olmak üzere dört belirgin anlam dalında örgütlenir. Dallar arasında tarihsel veya imgesel çağrışımlar bulunabilse de kavramsal çekirdekleri birbirinin yerine geçmez.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 2,
+      "word_count": 2,
+      "ayah_count": 2,
+      "surah_count": 2
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "مَـَٔارِب",
+        "stem_ar": "مَـَٔارِبُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:ma_#aArib|ROOT:Arb|MP|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "إِرْبَة",
+        "stem_ar": "إِرْبَةِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:<irobap|ROOT:Arb|F|GEN",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "20:18",
+        "surface_ar": "قَالَ هِىَ عَصَاىَ أَتَوَكَّؤُا۟ عَلَيْهَا وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى وَلِىَ فِيهَا مَـَٔارِبُ أُخْرَىٰ"
+      },
+      {
+        "ayah_ref": "24:31",
+        "surface_ar": "وَقُل لِّلْمُؤْمِنَٰتِ يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "20:18:12:1",
+        "qac_word_ref": "20:18:12",
+        "surah": 20,
+        "ayah": 18,
+        "word_index": 12,
+        "morpheme_index": 1,
+        "surface_ar": "مَـَٔارِبُ",
+        "stem_ar": "مَـَٔارِبُ",
+        "lemma_ar": "مَـَٔارِب",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:ma_#aArib|ROOT:Arb|MP|NOM",
+        "ayah_ref": "20:18",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            42,
+            46
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "24:31:52:2",
+        "qac_word_ref": "24:31:52",
+        "surah": 24,
+        "ayah": 31,
+        "word_index": 52,
+        "morpheme_index": 2,
+        "surface_ar": "إِرْبَةِ",
+        "stem_ar": "إِرْبَةِ",
+        "lemma_ar": "إِرْبَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<irobap|ROOT:Arb|F|GEN",
+        "ayah_ref": "24:31",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            230,
+            236
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

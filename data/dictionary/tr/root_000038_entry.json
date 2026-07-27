@@ -1,0 +1,1290 @@
+{
+  "inputs_sha256": "426942d30f39da01bd2f92da7667c829c21a2e3bbfd727933d8be0a0e56a0225",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000038",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000038/B001",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak sözü, bir şeyin dayanağını, alt bölümünü ve kökünü çekirdek anlam olarak verir; kökünden sökme ve hiçbir parçasını bırakmadan alma ise bu çekirdekten kurulan bağımlı kullanımlardır. Bu nedenle dal korunabilir, ancak bu eylem ve kalıp kullanımları dayanak anlamıyla eş düzeyde tek bir tanım gibi sunulmamalıdır.",
+        "boundary_note": "Çekirdek, bir şeyin dayandığı kök ve alt bölümdür; bütünü alma ve kökünden giderme yalnızca bağlı kullanımlardır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Dal yalın kök-dayanak anlamını da kalıba ve türemiş biçime bağlı kullanımları da içerir; bağlı kullanımlar yalın anlamın kapsamına taşınmaz."
+      },
+      "concept_map": {
+        "definition": "Bir şeyin üzerinde durduğu, kendisinden çıktığı ya da en altında bulunan kök ve dayanaktır. Buna bağlı biçimler, şeyi kökünden söküp bütünüyle gidermeyi, ona kök kazandırmayı veya hiçbir parçasını bırakmadan bütünü almayı anlatır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir şeyin dayanağı, kökü ve en altta bulunan bölümüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Kökten hareketle, bir şeyi kökünden söküp geride dayanak bırakmadan giderme anlatılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Kalıplaşmış kullanımda bir şeyi bütün köküyle almak, hiçbir parçasını geride bırakmamak demektir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak anlatım, anlamı bir şeyin dayanağına, köküne ve alt bölümüne bağlar; aynı kök düşüncesi söküp giderme ve bir şeyi eksiksiz alma kullanımlarını da kurar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kök ve dayanak",
+        "applicability": "Bir şeyin üzerinde durduğu, kendisinden çıktığı veya en altında bulunan kurucu bölümü anlatan çekirdek kullanım için uygundur.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kök, dayanak ve kurucu alt bölüm özelliklerini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kökünden söküp bütünüyle ortadan kaldırmak",
+          "usage_role": "contextual",
+          "applicability": "Bir varlığın kökünü de geride bırakmayacak biçimde sökülmesi veya tümüyle giderilmesi bağlamında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kökten ayırma ve geride dayanak bırakmadan tümüyle giderme işlemlerini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "hiçbir parçasını bırakmadan tümünü almak",
+          "usage_role": "explanatory",
+          "applicability": "Bir şeyin yalnız bir bölümünü değil, köküyle ve bütün parçalarıyla alınmasını bildiren kalıplaşmış kullanımda geçerlidir.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bütünü alma ve hiçbir parçayı geride bırakmama koşullarını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeyin kökü, dayanağı ve alt bölümü"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bu ağaç kök salıp yerleşti"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kökünden söküp bütünüyle ortadan kaldırmak"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kök salmak veya köklendirmek"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "hepsi birlikte geldi"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "şeyi bütünüyle, hiçbir parçasını bırakmadan almak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000012/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Kökünden sökme ve bütünü köküyle alma gibi bağlı kullanımları da kapsar.",
+          "neighbor_only": "Kökün eskiliğini, toplanıp yerleşmesini ve sürekliliğini özellikle öne çıkarır.",
+          "gloss": "yerleşik kök ve dayanak",
+          "shared_zone": "Her iki dal da bir şeyin kökünü, dayanağını ve yerleşmiş temelini anlatır.",
+          "distinction": "Bu dal genel kök ve alt bölüm anlamından bağlı eylemlere uzanır; komşu dal ise kökün sabit, eski ve kalıcı oluşunu kendi sınırının parçası yapar."
+        },
+        {
+          "neighbor_ref": "root_001293/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Maddi veya soyut herhangi bir şeyin alt bölümünü ve dayanağını anlatabilir.",
+          "neighbor_only": "Soy, mülk veya başka bir şeyde eskilik ve yerleşmişlik özelliğini öne çıkarır.",
+          "gloss": "eski ve yerleşik kök",
+          "shared_zone": "İki dal kök, başlangıç dayanağı ve yerleşmiş temel düşüncesinde buluşur.",
+          "distinction": "Bu dalın çekirdeği genel dayanak ve alt bölümdür; komşuda eskilik ve sabitlik, özellikle soy ya da mülkle ilgili kapsamı belirginleştirir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yalnız kök ve dayanak sınırını doğrudan keskinleştiren iki yakın komşu yayımlandı.",
+      "branch_image_ar": "الأصل والقاعدة",
+      "what_is_ar": "الأساس والقاعدة وأسفل الشيء وما يتصل بالاستئصال والأخذ بجملة الشيء",
+      "what_is_not_ar": "ليس وقت الأصيل ولا حيّة الأصلة ولا الهلاك ولا أصيل الرأي",
+      "source_phrase_ar": "أساس الشيء (maqayis)؛ الأصل أسفل كل شيء (ayn;tahdhib)؛ الأصل واحد الأصول واستأصله أي قلعه من أصله (sihah)؛ أصل الشيء قاعدته (mufradat)؛ أخذت الشيء بأصيلته أي كله بأصله (sihah)؛ أخذت الشيء بأصلته إذا لم تدع منه شيئا (tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000038/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak sözü, soyda bir köke sahip olmayı ve görüş, ün ya da yerleşme bakımından sağlam ve kalıcı olmayı aynı köklülük çevresinde toplar. Geçici bir durumdan çok, niteliğin derine yerleşmiş ve kolayca ortadan kalkmaz oluşu belirleyicidir.",
+        "boundary_note": "Bu dal maddi bir tabanı değil, soyda, görüşte, ünde veya yerleşmede köklü ve kalıcı olma niteliğini anlatır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Köklülük niteliği yalın biçimde görülebilse de görüş, ün, hurma ve kişiyle ilgili ayrıntılı okumalar kendi kalıplarına bağlı tutulur."
+      },
+      "concept_map": {
+        "definition": "Bir kişinin soyunun, görüşünün ya da ününün köklü ve sağlam olması veya bir bitkinin bulunduğu yerde kalıcı biçimde yerleşmesidir. Ortak nokta, dayanağın geçici değil derin, güvenilir ve kolayca yok olmaz oluşudur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kişinin soy bakımından bilinen bir köke ve yerleşik bir çıkış yerine sahip olmasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Görüşün iyice düşünülmüş, sağlam ve sarsılmaz; ünün ise köklü olmasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Bir hurma ağacının bulunduğu toprağa yerleşip yok olmadan kalmasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak anlatım köklülüğü soy, sağlam görüş, yerleşmiş ün ve bulunduğu yerde kalıcı olan hurma üzerinden gösterir; bütün kullanımlarda süreklilik ve sağlam dayanak öne çıkar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "köklülük ve sağlam yerleşiklik",
+        "applicability": "Soyun, görüşün, ünün veya bulunduğu yerde kalmanın geçici olmayıp sağlam bir köke dayanmasını topluca anlatır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Köklü olma, sağlamlaşma ve kalıcılık özelliklerinin tümünü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "sağlam ve köklü görüş",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin görüşünün yüzeysel veya geçici değil, iyi kurulmuş ve sarsılmaz olduğunu anlatan kalıpta kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Görüşün sağlam, yerleşmiş ve sarsılması güç oluşunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "yerine kök salmış, kalıcı",
+          "usage_role": "contextual",
+          "applicability": "Bir hurma ağacının bulunduğu toprakta yok olmadan ve yerinden çekilmeden sürmesini anlatır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bulunduğu yere yerleşme, sürme ve kolayca yok olmama özelliklerini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "soy kökü ve yetişilen çevre"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sağlam ve köklü görüşlü"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "görüşte veya ünde köklülük"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "köklü ün ve yücelik"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "toprağına kök salmış, kalıcı hurma"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bilinen bir soy kökü olan kişi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001019/B011",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Sağlam görüşü, köklü ünü ve toprağında kalıcı bitkiyi de kapsar.",
+          "neighbor_only": "Soy bağıyla geriye doğru izlenen çıkış kökünü daha özel olarak anlatır.",
+          "gloss": "soy kökü",
+          "shared_zone": "Her iki dal da kişinin soy bakımından bağlı bulunduğu kökü ve çıkış yerini anlatır.",
+          "distinction": "Bu dal soy kökünü daha geniş bir köklülük niteliğinin parçası yapar; komşu dalın sınırı kişinin soy bağında geriye götürüldüğü çıkış köküne daha sıkı bağlıdır."
+        },
+        {
+          "neighbor_ref": "root_000589/B008",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Görüş, ün ve bitkinin kalıcılığı gibi kişi kökenini aşan kullanımları vardır.",
+          "neighbor_only": "Kişinin yetiştiği yer, bağlı bulunduğu konum ve soylu çıkış çevresiyle sınırlıdır.",
+          "gloss": "kişinin kökü ve yetiştiği yer",
+          "shared_zone": "İki dal bir insanın geldiği kökü, yetiştiği çevreyi ve soy dayanağını ifade edebilir.",
+          "distinction": "Bu dalın ortak çekirdeği farklı alanlara yayılan köklülüktür; komşu ise insanın geldiği yer ve bağlı olduğu toplumsal kökle sınırlı kalır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; soy köküyle doğrudan örtüşen iki aday, dalın daha geniş köklülük kapsamını göstermek için seçildi.",
+      "branch_image_ar": "الأصالة والرسوخ",
+      "what_is_ar": "الرسوخ في النسب أو الرأي أو المجد أو المكان؛ أصيل الرأي؛ مجد أصيل؛ نخل أصيل لا يفنى",
+      "what_is_not_ar": "ليس قاعدة الشيء المحسوسة ولا وقت الأصيل ولا حيّة الأصلة ولا الهلاك",
+      "source_phrase_ar": "مجد أصيل (maqayis;sihah;mufradat)؛ فلان أصيل الرأي (ayn;tahdhib)؛ النخل بأرضنا أصيل أي لا يفنى ولا يزول (ayn;tahdhib)؛ رجل أصيل له أصل (ayn;tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000038/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak sözü, günün geç bölümünü özellikle ikindi sonrasından gün batımına kadar olan zaman olarak tanımlar ve bu zaman için kullanılan tekil, çoğul ve zarflaşmış biçimleri birlikte verir. Dalın zaman aralığı diğer kök ve nitelik anlamlarından açıkça ayrıdır.",
+        "boundary_note": "Dal, ikindi sonrasından gün batımına uzanan geç gündüz zamanıyla ve bu zamanı bildiren biçimlerle sınırlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Zaman adı yalın biçimde tanımlanır; çoğullar, zaman bildiren türemiş biçimler ve bu zamana girme kalıbı ayrı bağlı kullanımlar olarak korunur."
+      },
+      "concept_map": {
+        "definition": "Günün ikindi sonrasından gün batımına kadar uzanan geç bölümüdür. Aynı zaman dilimini adlandıran çeşitli tekil ve çoğul biçimler ile o zamana girildiğini veya bir buluşmanın o sırada olduğunu bildiren kullanımlar da bu dala bağlıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "İkindi sonrasından gün batımına kadar süren geç gündüz zamanıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Bu zaman dilimi tekil, çoğul ve zaman zarfı görevindeki çeşitli biçimlerle adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Kalıplaşmış eylem kullanımı, bu geç gündüz zamanına girildiğini veya o sırada gelindiğini bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak anlatım günün geç bölümünü akşama doğru uzanan zaman olarak belirler; daha dar açıklama bunu ikindi sonrasından gün batımına kadar sınırlar ve çeşitli adlandırma biçimlerini sıralar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "ikindi sonrası, gün batımından önceki zaman",
+        "applicability": "Günün ikindi sonrasındaki ve güneşin henüz batmadığı geç bölümünü zaman adı olarak karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Başlangıç sınırını ikindi sonrası, bitiş sınırını gün batımı olarak korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "akşama doğru",
+          "usage_role": "contextual",
+          "applicability": "Kesin saat sınırından çok olayın günün geç bölümünde gerçekleştiğini doğal akış içinde bildirmek için uygundur.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Olayın günün geç ve gün batımına yakın bölümünde oluşunu korur.",
+            "loses": null,
+            "adds": "Bağlama göre gün batımından hemen sonraki kısa süreyi de düşündürebilir.",
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "geç gündüz zamanına girmek",
+          "usage_role": "explanatory",
+          "applicability": "Bir topluluğun ikindi sonrası zaman dilimine ulaştığını bildiren eylem kalıbını açıklamak için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Belirli zaman dilimine girme ve o sırada bulunma anlamını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ikindi sonrası, gün batımından önceki zaman"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "geç gündüz zamanının tekil ve çoğul adları"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "geç gündüz zamanında"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "geç gündüz zamanına girdik veya o sırada geldik"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001017/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "İkindi sonrasından gün batımına kadarki gündüz bölümünü özel olarak sınırlar.",
+          "neighbor_only": "Öğle sonrasını daha geniş biçimde kapsayabilir ve gün batımı sonrasındaki akşam bölümüne uzanabilir.",
+          "gloss": "geç gündüz ve akşam",
+          "shared_zone": "Her iki dal da günün öğleden sonraki geç bölümünü ve akşama yaklaşan zamanı kapsar.",
+          "distinction": "Bu dal güneş batmadan önceki daha belirli bir aralığa bağlıdır; komşu dal geç gündüzü daha geniş tutar ve gün batımından sonraki akşamı da içine alabilir."
+        },
+        {
+          "neighbor_ref": "root_000803/B002",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Bir zaman diliminin kendisini adlandırır.",
+          "neighbor_only": "Güneş battıktan sonra gökte kalan kızıllık veya ışık olayını adlandırır.",
+          "gloss": "gün batımı kızıllığı",
+          "shared_zone": "İkisi de gündüzden geceye geçiş çevresinde, gün batımına yakın bir bağlamda yer alır.",
+          "distinction": "Bu dal gün batımından önceki zamanı gösterir; komşu ise çoğunlukla güneş battıktan sonra görülen gökyüzü ışığını gösterir, dolayısıyla birbirinin yerine geçmez."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün zaman adayları değerlendirildi; biri kapsamdaki yakınlığı, diğeri aynı geçiş anındaki zaman ile gökyüzü olayı ayrımını gösterir.",
+      "branch_image_ar": "وقت الأصيل",
+      "what_is_ar": "وقت العشي وما بعد العصر إلى المغرب؛ الأصيل والأصيلة وآصال وأصائل وأصيلالا ومؤصلا",
+      "what_is_not_ar": "ليس أصل الشيء ولا الأصالة في الرأي أو النسب ولا حيّة الأصلة ولا الهلاك",
+      "source_phrase_ar": "الأصيل بعد العشي (maqayis)؛ الأصيل العشي (ayn;tahdhib)؛ الوقت بعد العصر إلى المغرب (sihah)؛ للعشية أصيل وأصيلة فجمع الأصيل أصل وآصال (mufradat)؛ لقيته أصيلالا وأصيلانا ومؤصلا (sihah;tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000038/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak sözü belirli bir yılan türünde birleşir, fakat onu kimi yerde iri, kimi yerde kısa ve sıçrayan, kimi yerde çok zararlı, kimi yerde de yuvarlak gövdeli olarak betimler. Dal kimliği geçerlidir; bu nitelikler tek bir zorunlu ve birleşik görünüş değil, kaynaklarda değişen betimlemeler olarak tutulmalıdır.",
+        "boundary_note": "Çekirdek belirli bir yılan türüdür; irilik, kısalık, sıçrama, zararlılık ve yuvarlaklık değişken betimlemelerdir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Yalın adın belirttiği yılan türü tanımlanır; başka dallardaki zaman, kök, köklülük veya yok oluş anlamları buraya alınmaz."
+      },
+      "concept_map": {
+        "definition": "Belirli bir yılan türünün adıdır. Kaynaklarda bu yılan iri, kısa ve sıçrayan, çok zararlı ya da gövdesi yuvarlak bir hayvan olarak farklı biçimlerde betimlenir; bu özelliklerin hepsi zorunlu sayılmaz.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Belirli bir yılanı veya yılan türünü adlandırır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Yılanın iri, kısa ve sıçrayan, çok zararlı veya yuvarlak gövdeli olduğu yönünde değişen betimlemeler bulunur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar bunun bir yılan adı olduğunda birleşir, ancak görünüş ve davranışını irilik, kısalık ve sıçrama, yüksek zararlılık ya da yuvarlak gövde gibi farklı özelliklerle açıklar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "iri veya kısa gövdeli diye betimlenen bir yılan türü",
+        "applicability": "Adın gösterdiği yılan türünü, kaynaklardaki değişken görünüş betimlemelerini zorunlu özelliklere dönüştürmeden açıklar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yılan türü kimliğini ve fiziksel betimlemelerin değişken oluşunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "çok zararlı bir yılan türü",
+          "usage_role": "contextual",
+          "applicability": "Yılanın tehlikeli ve zarar verici oluşunun öne çıkarıldığı kaynak bağlamında kullanılabilir.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Yılan türü oluşunu ve zararlılık betimlemesini korur.",
+            "loses": "Diğer kaynaklardaki irilik, kısalık, sıçrama ve yuvarlak gövde betimlemelerini dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "iri, kısa ya da yuvarlak gövdeli diye betimlenen bir yılan türü"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000199/B002",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Kısa, sıçrayan veya yuvarlak gövdeli oluş gibi değişken betimlemeler taşır.",
+          "neighbor_only": "Uzun ve iri oluşu kendi adlandırmasının daha belirgin bir parçasıdır.",
+          "gloss": "uzun ve iri yılan",
+          "shared_zone": "Her iki dal da iri veya güçlü görünüşlü bir yılan türünü adlandırabilir.",
+          "distinction": "Bu daldaki ad ayrı bir yılan türüne yönelir ve kaynaklarda kısa ya da yuvarlak da betimlenir; komşu adın uzun ve iri yılan sınırı bunlarla özdeş değildir."
+        },
+        {
+          "neighbor_ref": "root_000073/B002",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "İrilik, kısalık, sıçrama, zararlılık veya yuvarlaklıkla betimlenen ayrı bir tür adıdır.",
+          "neighbor_only": "Beyaz yılan veya başka bir yılan çeşidi için kullanılan farklı bir addır.",
+          "gloss": "başka bir yılan türü",
+          "shared_zone": "İki dal da belirli bir yılanı ya da yılan çeşidini adlandıran söz varlığına aittir.",
+          "distinction": "Ortak alan yalnız yılan adlandırmasıdır; tür adları ve onları ayırt eden betimlemeler farklı olduğundan olağan kullanımda birbirlerinin yerine geçmezler."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yalnız başka yılan adlarıyla karışma olasılığını açıklayan iki alan komşusu yayımlandı.",
+      "branch_image_ar": "الأصلة الحية",
+      "what_is_ar": "الأصلة وهي حيّة موصوفة بالعظم أو الخبث أو القصر أو الاستدارة",
+      "what_is_not_ar": "ليس أصل الشيء ولا وقت الأصيل ولا الأصيل بمعنى الهلاك",
+      "source_phrase_ar": "الأصلة الحية العظيمة (maqayis)؛ الأصلة حية قصيرة تثب (ayn)؛ الأصلة جنس من الحيات وهي أخبثها (sihah)؛ الأصلة حية مثل رئة الشاة وقيل مثل الرحى (tahdhib)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000038/B005",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak sözü yalın biçime doğrudan yok olma ve ortadan kalkma anlamı verir. Bu kısa ve bağımsız anlam, günün bir zamanı, köklülük, dayanak veya yılan adı olan öteki dallarla karıştırılmadan korunabilir.",
+        "boundary_note": "Dal yalnız yok oluş ve ortadan kalkma adıdır; kökünden giderme eylemiyle bağlantılı olsa da onun işlem yapısını içermez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Yalın biçimin yok oluş anlamı tanımlanır; kökünden sökme gibi türemiş bir eylem veya özel bir kalıp bu dala eklenmez."
+      },
+      "concept_map": {
+        "definition": "Bir varlığın yok olması, ortadan kalkması veya yaşamının sona ermesi durumudur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Yok olma ve ortadan kalkma durumunu adlandırır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynakların ortak ve kısa açıklaması, yalın sözcüğün yok oluş ve ortadan kalkma anlamına geldiğini bildirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yok oluş",
+        "applicability": "Bir varlığın ortadan kalkmasını veya yaşamının sona ermesini durum adı olarak anlatan yalın kullanımda geçerlidir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ortadan kalkma ve varlığın sona ermesi anlamlarını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "ortadan kalkma",
+          "usage_role": "general",
+          "applicability": "Canlı ölümüyle sınırlamadan bir şeyin varlığının sona erdiğini bildiren bağlamlarda doğal bir karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bir şeyin varlığını yitirip artık bulunmaması durumunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yok oluş, ortadan kalkma"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001596/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Tek bir yalın biçimin kısa durum anlamıyla sınırlıdır.",
+          "neighbor_only": "Bozulma, ölüm, tükenme, yok etme ve yok oluşa bağlı acı verme gibi daha geniş süreçleri kapsar.",
+          "gloss": "yok olma ve tükenme",
+          "shared_zone": "Her iki dal da bir varlığın sona ermesi, ortadan kalkması ve yok olması alanındadır.",
+          "distinction": "Bu dal yalnız yok oluşu adlandırır; komşu dal bozulma ve ölümden başkasını yok etmeye kadar daha geniş süreç ve ettirgenlik ayrımlarını içerir."
+        },
+        {
+          "neighbor_ref": "root_000167/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yok oluşu bağımsız bir durum adı olarak verir.",
+          "neighbor_only": "Dağılma, ölüp gitme ve bir topluluğu yok etme eylemlerini de açıkça kapsar.",
+          "gloss": "yok olup gitmek",
+          "shared_zone": "İki dal da bir şeyin varlığını yitirerek yok olması çekirdeğinde buluşur.",
+          "distinction": "Bu dal kısa bir ad anlamıdır; komşu dal yok olup gitme sürecini, dağılmayı ve başkasını yok etme biçimini de sözlüksel kapsamına alır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün yok oluş adayları değerlendirildi; en yakın iki aday, bu dalın dar durum adı sınırını göstermek için yayımlandı.",
+      "branch_image_ar": "الأصيل الهلاك",
+      "what_is_ar": "الأصيل بمعنى الهلاك",
+      "what_is_not_ar": "ليس وقت الأصيل ولا أصيل الرأي ولا أصل الشيء ولا الأصلة الحية",
+      "source_phrase_ar": "الأصيل الهلاك (ayn;tahdhib)",
+      "sources": [
+        "AY",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000038/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak sözü belirli bir kişi ve ardından gelen eylemle kurulan yapının, kişinin o eylemi yapmaya başladığını bildirdiğini açıkça gösterir. Anlam yalın bir kök veya genel başlangıç adı değil, bu özel kuruluşta başlayan eylemdir.",
+        "boundary_note": "Dal, öznenin ardından gelen eylemi yapmaya koyulduğunu bildiren özel yapıyla sınırlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Anlam yalnız özne ve ardından gelen eylemle kurulan yapıda geçerlidir; yalın biçime genel bir başlama anlamı yüklenmez."
+      },
+      "concept_map": {
+        "definition": "Belirli bir kuruluşta, bir kişinin ardından söylenen eylemi yapmaya başlamasını ve o işe koyulmasını bildirir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Öznenin belirtilen eylemi yapmaya başlaması ve işe koyulmasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bu anlam, kişi bildiren özne ile ardından gelen eylemin birlikte kurduğu özel yapıya bağlıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Tek tanıklık, kişi bildiren öznenin ardından gelen eyleme koyulmayı anlatan özel bir kuruluş verir ve bunu başlamayı bildiren benzer yapılarla açıklar.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Özel yapı, belirtilen kişinin ardından gelen işi yapmaya başladığını ve o işe koyulduğunu bildirir."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yapmaya koyulmak",
+        "applicability": "Yalnız öznenin ardından bir eylemin geldiği ve o eylemin başladığını bildiren özel kuruluşun bütününde geçerlidir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Eylemin başlamasını, öznenin işe girişmesini ve yapıya bağlılığı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "başladı ve yapmaya girişti",
+          "usage_role": "explanatory",
+          "applicability": "Başlamanın yalnız niyet veya yaklaşma değil, eyleme girişme olduğunu açıkça belirtmek gereken bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Başlama ile fiilen işe girişme aşamalarını birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "o işi yapmaya başladı, işe koyuldu"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000090/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Özne ile ardından gelen eylemden oluşan özel yapıda işe koyulmayı bildirir.",
+          "neighbor_only": "Bir işi, yaratmayı veya sıralamayı genel olarak başlatmayı ve bir şeyi öne almayı kapsar.",
+          "gloss": "bir işe başlamak",
+          "shared_zone": "Her iki dal da bir eylemin başlangıcını ve kişinin o eyleme girişmesini anlatabilir.",
+          "distinction": "Bu dal yalnız belirli dil bilgisel kuruluşta ardından gelen eylemin başlamasını bildirir; komşu dal başlangıç ve öne alma düşüncesini yapıdan bağımsız ve daha geniş biçimde kapsar."
+        },
+        {
+          "neighbor_ref": "root_001329/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Eylemin gerçekten başladığını ve öznenin işe giriştiğini bildirir.",
+          "neighbor_only": "Eylemin gerçekleşmeye yaklaşmasını bildirir ve başlamış olmasını zorunlu kılmaz.",
+          "gloss": "yapmaya yaklaşmak",
+          "shared_zone": "İki dal da bir özne ile henüz gelişmekte olan bir eylem arasındaki başlangıç çevresini anlatır.",
+          "distinction": "Bu dal eyleme girişildiğini bildirir; komşu dal yalnız gerçekleşmeye çok yaklaşmayı gösterebilir, bu yüzden eylemin başlaması bakımından birbirinin yerine geçmez."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel başlama ile yalnız yaklaşma arasındaki iki temel sınır karşılaştırması yayımlandı.",
+      "branch_image_ar": "أصل يفعل",
+      "what_is_ar": "قولهم أصل فلان يفعل كذا على مثال علق وطفق",
+      "what_is_not_ar": "ليس أصل الشيء ولا وقت الأصيل ولا الأصلة الحية ولا الأصيل الهلاك",
+      "source_phrase_ar": "أصل فلان يفعل كذا كقولك علق وطفق (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Özel yapı, belirtilen kişinin ardından gelen işi yapmaya başladığını ve o işe koyulduğunu bildirir."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök kümesi, bir şeyin dayanağı ve kökü çevresinden köklülük niteliğine uzanır; ayrıca geç gündüz zamanı, belirli bir yılan adı, yok oluş ve yapmaya koyulmayı bildiren özel bir kuruluş gibi birbirinden ayrılmış dallar içerir. Bu yan dallar ortak bir güncel kavram altında zorlanmadan bağımsız sözlüksel anlamlar olarak tutulmalıdır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 10,
+      "word_count": 10,
+      "ayah_count": 10,
+      "surah_count": 10
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "أَصِيل",
+        "stem_ar": "ءَاصَالِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aSiyl|ROOT:ASl|MP|GEN",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "أَصْل",
+        "stem_ar": "أَصْلُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aSol|ROOT:ASl|M|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "أَصِيل",
+        "stem_ar": "أَصِيلًا",
+        "pos": "T",
+        "measure": "",
+        "morph_features": "STEM|POS:T|LEM:>aSiyl|ROOT:ASl|M|INDEF|ACC",
+        "occurrence_count": 4
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "أَصْل",
+        "stem_ar": "أَصْلِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aSol|ROOT:ASl|M|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "أَصْل",
+        "stem_ar": "أُصُولِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aSol|ROOT:ASl|MP|GEN",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "7:205",
+        "surface_ar": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ"
+      },
+      {
+        "ayah_ref": "13:15",
+        "surface_ar": "وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا وَظِلَٰلُهُم بِٱلْغُدُوِّ وَٱلْءَاصَالِ"
+      },
+      {
+        "ayah_ref": "14:24",
+        "surface_ar": "أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًا كَلِمَةً طَيِّبَةً كَشَجَرَةٍ طَيِّبَةٍ أَصْلُهَا ثَابِتٌ وَفَرْعُهَا فِى ٱلسَّمَآءِ"
+      },
+      {
+        "ayah_ref": "24:36",
+        "surface_ar": "فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ وَٱلْءَاصَالِ"
+      },
+      {
+        "ayah_ref": "25:5",
+        "surface_ar": "وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةً وَأَصِيلًا"
+      },
+      {
+        "ayah_ref": "33:42",
+        "surface_ar": "وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا"
+      },
+      {
+        "ayah_ref": "37:64",
+        "surface_ar": "إِنَّهَا شَجَرَةٌ تَخْرُجُ فِىٓ أَصْلِ ٱلْجَحِيمِ"
+      },
+      {
+        "ayah_ref": "48:9",
+        "surface_ar": "لِّتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَتُعَزِّرُوهُ وَتُوَقِّرُوهُ وَتُسَبِّحُوهُ بُكْرَةً وَأَصِيلًا"
+      },
+      {
+        "ayah_ref": "59:5",
+        "surface_ar": "مَا قَطَعْتُم مِّن لِّينَةٍ أَوْ تَرَكْتُمُوهَا قَآئِمَةً عَلَىٰٓ أُصُولِهَا فَبِإِذْنِ ٱللَّهِ وَلِيُخْزِىَ ٱلْفَٰسِقِينَ"
+      },
+      {
+        "ayah_ref": "76:25",
+        "surface_ar": "وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةً وَأَصِيلًا"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "7:205:12:3",
+        "qac_word_ref": "7:205:12",
+        "surah": 7,
+        "ayah": 205,
+        "word_index": 12,
+        "morpheme_index": 3,
+        "surface_ar": "ءَاصَالِ",
+        "stem_ar": "ءَاصَالِ",
+        "lemma_ar": "أَصِيل",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aSiyl|ROOT:ASl|MP|GEN",
+        "ayah_ref": "7:205",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            46,
+            54
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "13:15:11:3",
+        "qac_word_ref": "13:15:11",
+        "surah": 13,
+        "ayah": 15,
+        "word_index": 11,
+        "morpheme_index": 3,
+        "surface_ar": "ءَاصَالِ",
+        "stem_ar": "ءَاصَالِ",
+        "lemma_ar": "أَصِيل",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aSiyl|ROOT:ASl|MP|GEN",
+        "ayah_ref": "13:15",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            48,
+            56
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "14:24:11:1",
+        "qac_word_ref": "14:24:11",
+        "surah": 14,
+        "ayah": 24,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "أَصْلُ",
+        "stem_ar": "أَصْلُ",
+        "lemma_ar": "أَصْل",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aSol|ROOT:ASl|M|NOM",
+        "ayah_ref": "14:24",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            36,
+            41
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "24:36:14:3",
+        "qac_word_ref": "24:36:14",
+        "surah": 24,
+        "ayah": 36,
+        "word_index": 14,
+        "morpheme_index": 3,
+        "surface_ar": "ءَاصَالِ",
+        "stem_ar": "ءَاصَالِ",
+        "lemma_ar": "أَصِيل",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aSiyl|ROOT:ASl|MP|GEN",
+        "ayah_ref": "24:36",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            50,
+            58
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "25:5:9:2",
+        "qac_word_ref": "25:5:9",
+        "surah": 25,
+        "ayah": 5,
+        "word_index": 9,
+        "morpheme_index": 2,
+        "surface_ar": "أَصِيلًا",
+        "stem_ar": "أَصِيلًا",
+        "lemma_ar": "أَصِيل",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>aSiyl|ROOT:ASl|M|INDEF|ACC",
+        "ayah_ref": "25:5",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            42,
+            48
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "33:42:3:2",
+        "qac_word_ref": "33:42:3",
+        "surah": 33,
+        "ayah": 42,
+        "word_index": 3,
+        "morpheme_index": 2,
+        "surface_ar": "أَصِيلًا",
+        "stem_ar": "أَصِيلًا",
+        "lemma_ar": "أَصِيل",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>aSiyl|ROOT:ASl|M|INDEF|ACC",
+        "ayah_ref": "33:42",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            10,
+            16
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "37:64:5:1",
+        "qac_word_ref": "37:64:5",
+        "surah": 37,
+        "ayah": 64,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَصْلِ",
+        "stem_ar": "أَصْلِ",
+        "lemma_ar": "أَصْل",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aSol|ROOT:ASl|M|GEN",
+        "ayah_ref": "37:64",
+        "form_id": "F004",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            14,
+            17
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "48:9:8:2",
+        "qac_word_ref": "48:9:8",
+        "surah": 48,
+        "ayah": 9,
+        "word_index": 8,
+        "morpheme_index": 2,
+        "surface_ar": "أَصِيلًا",
+        "stem_ar": "أَصِيلًا",
+        "lemma_ar": "أَصِيل",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>aSiyl|ROOT:ASl|M|INDEF|ACC",
+        "ayah_ref": "48:9",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            44,
+            50
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "59:5:9:1",
+        "qac_word_ref": "59:5:9",
+        "surah": 59,
+        "ayah": 5,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "أُصُولِ",
+        "stem_ar": "أُصُولِ",
+        "lemma_ar": "أَصْل",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aSol|ROOT:ASl|MP|GEN",
+        "ayah_ref": "59:5",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            32,
+            38
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "76:25:5:2",
+        "qac_word_ref": "76:25:5",
+        "surah": 76,
+        "ayah": 25,
+        "word_index": 5,
+        "morpheme_index": 2,
+        "surface_ar": "أَصِيلًا",
+        "stem_ar": "أَصِيلًا",
+        "lemma_ar": "أَصِيل",
+        "source_pos": "T",
+        "pos": "T",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:T|LEM:>aSiyl|ROOT:ASl|M|INDEF|ACC",
+        "ayah_ref": "76:25",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            15,
+            21
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

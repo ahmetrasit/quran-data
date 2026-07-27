@@ -1,0 +1,2439 @@
+{
+  "inputs_sha256": "01023743624edb4c5fdd25f54d651bd0578cc0635b79d2708c0821091cc60043",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_001059",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_001059/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bu dalın çekirdeğini bir varlığa yönelip onu sığınak edinme ve onun korumasına tutunma olarak açıkça kurar. Verilen çerçeve, hem eylemi hem de sığınılan kişi ya da varlığın koruyucu konumunu doğru biçimde yansıtır.",
+        "boundary_note": "Korunmak için yönelme ve tutunma bu dala girer; koruyucu nesnenin kendisi ile doğum, yapışma ve kaçıp kurtulma anlamları ayrı dallardadır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, yalın sığınma eylemini temel alır; Tanrı'ya sığınmayı bildiren kalıp sözler ile sığınağı adlandıran kullanımları bu çekirdeğin yapıya bağlı gerçekleşmeleri olarak ayırır."
+      },
+      "concept_map": {
+        "definition": "Tehlike ya da sıkıntı karşısında bir kişi, varlık veya yere yönelip onu sığınak edinmek ve onun korumasına tutunmaktır. Bu çekirdek, belirli kalıp sözlerde Tanrı'ya yönelme ve birinin sığınak olduğunu belirtme biçimlerinde gerçekleşir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Korunmak amacıyla bir kişi, varlık veya yere yönelip ona sığınma ve tutunma eylemidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Tanrı'ya sığınmayı bildiren sözler ile bir kişi ya da varlığı sığınak diye belirtme, çekirdeğin yapıya bağlı gerçekleşmeleridir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynakların ortak çizgisi, korunma gereksinimi içindeki kişinin başka bir kişi ya da varlığa yönelmesi, ona tutunması ve onu sığınak edinmesidir. Kalıp sözler de bu yönelişi doğrudan bildirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "korunmak için birine ya da bir yere sığınmak",
+        "applicability": "Dalın yönelme, sığınak edinme ve korumaya tutunma öğelerini birlikte karşılayan genel anlatımdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Korunma amacını, sığınılan hedefi ve ona yönelme eylemini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "birine sığınıp onun korumasına girmek",
+          "usage_role": "general",
+          "applicability": "Bir kişi ya da varlığın sığınak edinildiği düz eylem bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Sığınma eylemini ve koruyucuya bağlanma sonucunu birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "Tanrı'ya sığınırım",
+          "usage_role": "contextual",
+          "applicability": "Tanrı'ya yönelerek korunma istemini bildiren kalıp sözlerin doğal karşılığıdır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Konuşanın Tanrı'yı sığınak edinerek korunmaya yönelmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "başkasına sığınmak ve onun korumasına tutunmak"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "korunmak için sığınmak"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sığınarak korunmak"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Tanrı'ya sığınırım"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "senden korunmak için Tanrı'ya sığınırım"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Tanrı'ya sığınırım"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "o senin sığınağındır"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kendisine sığınılan koruyucu yer ya da varlık"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001385/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, sığınılanı koruyucu dayanak olarak adlandırmayı ve belirli sığınma sözlerini de kapsar.",
+          "neighbor_only": "Komşu dal, korkunun yanında bir beklenti uğruna birine ya da bir yere yönelmeyi açıkça kapsar.",
+          "gloss": "korunmak için yönelip sığınma",
+          "shared_zone": "Her iki dalda da kişi, gereksinim karşısında başka bir kişi, varlık ya da yere yönelerek korunma arar.",
+          "distinction": "Çekirdekler büyük ölçüde örtüşür; ancak bu dal koruyucuya tutunmayı ve sığınak adlandırmasını öne çıkarırken komşu dal yönelmenin korku veya beklenti kaynaklı olabilmesini ayrıca sınırına alır."
+        },
+        {
+          "neighbor_ref": "root_001343/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dalın odağı, korunmak isteyen kişinin sığınma ve koruyucuya tutunma eylemidir.",
+          "neighbor_only": "Komşu dal, sığınılan yerin ya da şeyin güvenli mekân olarak adlandırılmasını daha belirgin biçimde kapsar.",
+          "gloss": "sığınma eylemi ve sığınak",
+          "shared_zone": "İki dal da tehlike karşısında güvenli bir dayanağa yönelme durumunu işler.",
+          "distinction": "Bu dal eyleyen kişinin yönelişini ve koruyucuya tutunmasını merkez alır; komşu dal ise sığınılan yer ya da şeyin güvenli barınak niteliğini daha güçlü biçimde öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_001059/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, kişinin doğrudan bir koruyucuya yönelip ona sığınmasını anlatır.",
+          "neighbor_only": "Komşu dal, korunmayı sağladığı düşünülen söz, yazı, nesne veya uygulamayı anlatır.",
+          "gloss": "sığınma ile koruyucu araç",
+          "shared_zone": "Her iki dalın ortak alanı tehlike ya da kötülükten korunmadır.",
+          "distinction": "Burada çekirdek, korunmak isteyen kişinin sığınma eylemidir; komşu dalda ise çekirdek, başka birini koruma ya da koruyucu sayılan söz ve nesnedir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; sığınma eylemi, güvenli sığınak ve koruyucu araç arasındaki sınırı en açık gösteren üç komşu yayımlandı, yalnızca aynı sahneyi paylaşan daha uzak adaylar elendi.",
+      "branch_image_ar": "الالتجاء والاعتصام",
+      "what_is_ar": "يدخل فيه عاذ واستعاذ وتعوذ وأعوذ ومعاذ الله والعياذ والملجأ والملاذ والاستجارة بمن يحتمي به أو يعتصم به.",
+      "what_is_not_ar": "لا يدخل فيه اسم الشيء المعلّق للحفظ، ولا وصف الأنثى بعد الولادة، ولا الأعلام والأنساب مثل عيذ الله أو عائذة.",
+      "source_phrase_ar": "أصل صحيح يدل على معنى واحد وهو الالتجاء إلى الشيء (maqayis)؛ أعوذ بالله أي ألجأ إلى الله عوذا وعياذا (ayn)؛ عذت بفلان واستعذت به أي لجأت إليه وهو عياذي أي ملجئي (sihah)؛ عاذ فلان بربه يعوذ عوذا إذا لجأ إليه واعتصم به (tahdhib)؛ العوذ الالتجاء إلى الغير والتعلق به (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001059/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, bir insanı korku, ruhsal bozukluk, kötü bakış veya başka bir zarardan korumak için kullanılan söz, yazı ya da nesneyi ve bununla koruma eylemini birlikte verir. Verilen dal çerçevesi bu araç ve eylem birlikteliğini doğru sınırlar.",
+        "boundary_note": "Koruyucu söz, yazı, nesne ve bunlarla başkasını sakınma bu dala girer; kişinin doğrudan bir koruyucuya sığınması ayrı daldadır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, başkasını koruma eylemi ile koruma için kullanılan söz veya nesneyi ayrı yüzler olarak gösterir; belirli bir dinsel metin adı bütün dalın anlamına genellenmez."
+      },
+      "concept_map": {
+        "definition": "Birini korku, ruhsal bozukluk, kötü bakış, hastalık ya da başka bir zarardan sakınmak için koruyucu sayılan söz, yazı veya nesne kullanmak; ayrıca bu korumayı sağlayan söz ya da nesnenin kendisidir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Koruyucu sayılan söz veya nesne aracılığıyla başka birini tehlike ve zarardan sakınma eylemidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Korku, ruhsal bozukluk, kötü bakış veya hastalığa karşı kullanılan söz, yazı ve nesnenin kendisi de bu dalda adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, koruma eylemi ile koruyucu sayılan aracı aynı anlam alanında birleştirir. Araç; söylenen ya da yazılan söz, bedene takılan nesne veya kötülüğe karşı okunan metin olabilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "koruyucu söz, yazı veya nesneyle korunma sağlama",
+        "applicability": "Hem başkasını sakınma eylemini hem de bu amaçla kullanılan koruyucu aracı kapsayan genel anlatımdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Koruma eylemini, korunan kişiyi ve kullanılan söz ya da nesneyi korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "koruyucu sözler söyleyerek birini sakınmak",
+          "usage_role": "contextual",
+          "applicability": "Bir kişi için koruyucu sözlerin söylendiği ya da okunduğu eylem bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Söz aracını, koruma eylemini ve başkasına yönelişi korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "kötülükten koruduğuna inanılan yazı ya da nesne",
+          "usage_role": "explanatory",
+          "applicability": "Koruma amacıyla yazılan, taşınan veya bedene takılan aracın kendisini anlatır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Koruyucu sayılan aracın nesne veya yazı oluşunu ve korunma amacını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birini koruma altına almak"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "koruyucu sözlerle birini sakınmak"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "korku ya da kötülükten korunmak için kullanılan söz veya nesne"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "koruyucu söz söyleme, okuma ya da yazma işi"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kutsal kitabın korunmak için okunan iki bölümü"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000188/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, takılan nesnelerin yanında söylenen, okunan veya yazılan koruyucu sözleri ve koruma eylemini de kapsar.",
+          "neighbor_only": "Komşu dal, özellikle insanın ya da çocuğun üzerine takılan boncuk veya benzeri nesneyi merkez alır.",
+          "gloss": "koruyucu araç",
+          "shared_zone": "Her iki dal da zarardan koruduğuna inanılan ve insan üzerinde taşınabilen bir nesneyi kapsar.",
+          "distinction": "Bu dalın kapsamı söz, yazı, nesne ve bunlarla koruma eylemine uzanır; komşu dal ise üzerine takılan belirli nesne türüyle sınırlıdır."
+        },
+        {
+          "neighbor_ref": "root_000588/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, koruyucu nesne ve yazıları da kapsar; uygulayıcının üflemesi zorunlu değildir.",
+          "neighbor_only": "Komşu dal, bir uygulayıcının koruyucu sözler okuyup üflemesini ve bu uygulamanın istenmesini öne çıkarır.",
+          "gloss": "koruyucu söz ve okuma uygulaması",
+          "shared_zone": "İki dal da sözlerin okunması yoluyla bir kişiyi zarardan koruma amacını paylaşır.",
+          "distinction": "Burada koruyucu söz veya nesne ile bunların genel kullanımı merkezdir; komşu dalda ise okuyan kişinin gerçekleştirdiği, üflemenin de eşlik edebildiği uygulama merkezdir."
+        },
+        {
+          "neighbor_ref": "root_001059/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, başka birini korumayı ve koruma için kullanılan söz, yazı veya nesneyi anlatır.",
+          "neighbor_only": "Komşu dal, korunmak isteyen kişinin doğrudan bir kişi, varlık ya da yere yönelip sığınmasını anlatır.",
+          "gloss": "koruma aracı ile sığınma",
+          "shared_zone": "Her iki dalın ortak amacı tehlike veya kötülük karşısında korunmadır.",
+          "distinction": "Bu dalda koruma, söz ya da nesne gibi bir araçla sağlanır veya başkasına uygulanır; komşu dalda kişi kendisi bir koruyucuya yönelir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; taşınan koruyucu nesne, okuma uygulaması ve doğrudan sığınma ile olan en öğretici üç sınır yayımlandı, yalnızca tehdit veya zarar türünü adlandıran adaylar dışarıda bırakıldı.",
+      "branch_image_ar": "الوقاية بعوذة أو تعويذ",
+      "what_is_ar": "يدخل فيه العوذة والمعاذة والتعويذ والتعاويذ والرقية والتميمة وما يعاذ به الإنسان من فزع أو جنون أو عين أو داء.",
+      "what_is_not_ar": "لا يدخل فيه نفس فعل الالتجاء إذا لم يسم الشيء أو الكلام الذي يعاذ به؛ ولا تدخل أسماء القبائل والمواضع.",
+      "source_phrase_ar": "العوذة والمعاذة التي يعوذ بها الإنسان من فزع أو جنون (maqayis)؛ ومنه العوذة والتعويذ والمعاذة التي يعوذ بها الإنسان (ayn)؛ العوذة والمعاذة والتعويذ كله بمعنى (sihah)؛ التعاويذ التي تكتب وتعلق على الإنسان من العين تسمى المعاذات وهي العوذ واحدتها عوذة (tahdhib)؛ العوذة ما يعاذ به من الشيء ومنه قيل للتميمة والرقية عوذة (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001059/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, doğum yapmış dişinin ilk günlerdeki özel adını ve çoğulunu açıkça verir; süre çoğunlukla yedi gün olarak sınırlandırılır. Verilen çerçeve bu doğum sonrası ve süreli niteliği doğru biçimde korur.",
+        "boundary_note": "Herhangi bir dişi değil, yeni doğum yapmış ve doğumun ilk günlerinde bulunan dişi anlatılır; yavruya eşlik etme tek başına yeterli değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın dalı, doğum yapmış dişinin ilk günlerdeki özel durumu olarak verir; başka dallardaki sığınma veya genel bağlılık anlamlarını içeri almaz."
+      },
+      "concept_map": {
+        "definition": "Doğum yaptıktan sonraki ilk günlerinde bulunan dişidir; bu dönem kaynaklarda genellikle yedi günle sınırlandırılır. Aynı adın çoğul biçimi, bu durumdaki dişiler topluluğunu gösterir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir dişinin doğumdan hemen sonraki ilk günlerde içinde bulunduğu özel durumu adlandırır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bu doğum sonrası dönem çoğunlukla yedi güne kadar sürer ve çoğul biçim aynı durumdaki dişileri topluca gösterir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, yeni doğum yapmış dişiyi doğumdan sonraki sınırlı ilk dönem içinde adlandırma konusunda birleşir. Süre çoğunlukla yedi gün olarak verilir ve topluluk için ayrı bir çoğul biçim belirtilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "doğumdan sonraki ilk günlerindeki dişi",
+        "applicability": "Tür ayrımı yapmadan, yeni doğum yapmış dişinin yaklaşık ilk yedi günlük durumunu karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Dişi olma, yeni doğum yapma ve süreli ilk dönem öğelerini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yeni doğurmuş dişi",
+          "usage_role": "general",
+          "applicability": "Doğumun hemen ardından gelen ilk günlerdeki dişiyi doğal akışta belirtmek için kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Dişinin yakın zamanda doğum yapmış olması koşulunu korur.",
+            "loses": "Yaklaşık yedi günlük üst sınırı açıkça belirtmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "doğumdan sonraki ilk günlerindeki dişi"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "doğumdan sonraki ilk günlerinde bulunan dişiler"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001533/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, doğum yapmış dişiye ilk günleri boyunca verilen süreli adı ve bunun çoğulunu anlatır.",
+          "neighbor_only": "Komşu dal, kadının doğum yapmasını, doğum sonrası kanamayı ve doğan çocuğu içeren daha geniş bir olay alanını kapsar.",
+          "gloss": "doğum sonrası dişi",
+          "shared_zone": "Her iki dal da doğumdan hemen sonraki durumu ve doğum yapan dişiyi konu edinir.",
+          "distinction": "Bu dalın çekirdeği doğum yapmış dişinin sınırlı süreli niteliğidir; komşu dalın çekirdeği ise doğum olayı ve onun kadın ile çocuk üzerindeki sonuçlarıdır."
+        },
+        {
+          "neighbor_ref": "root_000802/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dalda doğumun gerçekleşmiş olması ve ilk günlerle sınırlı bir dönem zorunludur.",
+          "neighbor_only": "Komşu dal, yavrusu yanında olan ya da karnında yavru taşıyan dişiyi kapsar ve doğum sonrası kısa süreyle sınırlı değildir.",
+          "gloss": "yeni doğurmuş ve yavrulu dişi",
+          "shared_zone": "İki dal da dişi ile yavrusu arasındaki doğum çevresindeki bağı işler.",
+          "distinction": "Burada belirleyici koşul yeni gerçekleşmiş doğum ve ardından gelen kısa dönemdir; komşu dalda belirleyici koşul yavrunun dişiyle birlikte veya karnında bulunmasıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; doğum sonrası olay alanı ile yavrulu dişi arasındaki iki yakın sınır yayımlandı, yalnızca genel dişilik, annelik veya yavrunun izleyişini anlatan adaylar daha uzak kaldı.",
+      "branch_image_ar": "الأنثى العائذ بعد الولادة",
+      "what_is_ar": "يدخل فيه وصف الأنثى، وخاصة الناقة أو الظبية أو الفرس، إذا وضعت ولدها في أيامها الأولى وجمعها عوذ، مع تعليل الملازمة بينها وبين ولدها.",
+      "what_is_not_ar": "لا يدخل فيه مطلق الأنثى، ولا مطلق الملازمة بلا ولادة، ولا مطلق طلب الحماية.",
+      "source_phrase_ar": "لكل أنثى إذا وضعت عائذ وتكون كذا سبعة أيام والجمع عوذ (maqayis)؛ كل أنثى عائذ إذا وضعت مدة سبعة أيام والجميع عوذ (ayn)؛ العوذ الحديثات النتاج من الظباء والإبل والخيل واحدتها عائذ (sihah)؛ الناقة إذا وضعت ولدها فهي عائذ أياما وجمعها عوذ (tahdhib)؛ كل أنثى وضعت فهي عائذ إلى سبعة أيام (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001059/B004",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi önce her türlü yapışma veya bir şeye bağlı kalma çekirdeğini verir, ardından diken dibindeki ot, kemiğe bağlı et ve taş ya da kütük çevresinde dönen şey örnekleriyle bunu somutlaştırır. Verilen çerçeve bu çekirdek ile örnekleri doğru biçimde ayırır.",
+        "boundary_note": "Fiziksel olarak yapışma, dibinde kalma veya çevresinden ayrılmama bu dala girer; yalnızca korunmak için sığınma ya da soyut bağlılık tek başına girmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım genel yapışma ve bağlı kalma çekirdeğini öne alır; bitki, et ve çevrede dönen şey anlamlarını bu çekirdeğin ayrı, yapıya bağlı somutlaşmaları olarak tutar."
+      },
+      "concept_map": {
+        "definition": "Bir şeyin başka bir şeye fiziksel olarak yapışması, onun dibinde kalması veya çevresinden ayrılmamasıdır. Diken dibindeki erişilmesi güç ot, kemiğe bağlı et ve rüzgârla taş ya da kütük çevresinde dönen şey bu çekirdeğin ayrı somutlaşmalarıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir şeyin başka bir şeye fiziksel olarak yapışması veya ondan ayrılmadan yanında kalmasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "example",
+            "statement": "Dikenin dibinde ya da hayvanın güçlükle ulaşacağı sert bir yerde yetişen ot, dibinde kalma örneğidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "example",
+            "statement": "Kemiğe sıkıca bağlı kalan et, yapışma çekirdeğinin bedensel örneğidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "example",
+            "statement": "Rüzgârın taş ya da kütük çevresinde döndürdüğü ve o çevreden ayrılmayan şey, çevrede kalma örneğidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak anlam, bir şeyin başka bir şeye yapışması ya da onun yanında kalmasıdır. Toplu tanıklık bu çekirdeği diken dibindeki ot, kemiğe bağlı et ve rüzgârla bir taş veya kütüğün çevresinde dönen şey gibi farklı somut örneklerle açar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bir şeye yapışıp onun yanında kalan şey",
+        "applicability": "Dalın fiziksel yapışma ve ayrılmadan yanında kalma çekirdeğini, özel örnekleri tek tek genelleştirmeden karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Fiziksel yapışmayı, bağlı kalmayı ve iki şey arasındaki ilişkiyi korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "diken dibindeki erişilmesi güç ot",
+          "usage_role": "contextual",
+          "applicability": "Bitkinin diken dibinde veya hayvanın kolay ulaşamayacağı sert yerde yetiştiği özel kullanım içindir.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bitkiyi, dibinde yetiştiği korunaklı yeri ve erişilme güçlüğünü korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "kemiğe yapışık et",
+          "usage_role": "contextual",
+          "applicability": "Etin kemikten ayrılmadan ona bağlı kaldığı bedensel kullanım içindir.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Etin kemiğe sıkıca bağlı kalması ilişkisini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        },
+        {
+          "text": "taşın ya da kütüğün çevresinde dönen şey",
+          "usage_role": "explanatory",
+          "applicability": "Rüzgârın bir şeyi taş veya kütük çevresinde döndürdüğü özel kullanım içindir.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Rüzgârla dönmeyi, merkezdeki nesneyi ve onun çevresinde kalmayı korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "diken dibinde ya da erişilmesi güç sert yerde yetişen ot"
+        },
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kemiğe yapışık et"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "rüzgârla bir taşın ya da kütüğün çevresinde dönen şey"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001391/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, diken dibindeki ot, kemiğe bağlı et ve bir nesnenin çevresinde dönen şey gibi özel somut adlandırmaları kapsar.",
+          "neighbor_only": "Komşu dal, bir yerde kalıcı olmayı, bir kişiye veya gönle bağlanmayı ve yakın dostluğu da kapsar.",
+          "gloss": "yapışma ve bağlı kalma",
+          "shared_zone": "Her iki dalın çekirdeğinde bir şeyin başka bir şeye yapışması ve ondan ayrılmadan kalması vardır.",
+          "distinction": "Çekirdekler yakındır; bu dal belirli somut nesne örneklerine uzanırken komşu dal yerleşme ve kişiler arası soyut bağlılık gibi daha geniş kullanımlara açılır."
+        },
+        {
+          "neighbor_ref": "root_001039/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, bir şeyin dibinde veya çevresinde kalmayı ve belirli somut referentleri kapsar.",
+          "neighbor_only": "Komşu dal, bir şeye asılmayı, takılmayı ve nesnelerin asıldığı araç veya parçaları kapsar.",
+          "gloss": "yapışıp kalma ve asılma",
+          "shared_zone": "İki dal da bir şeyin başka bir şeyle temasını sürdürmesi ve ondan ayrılmaması alanında buluşur.",
+          "distinction": "Burada ilişki yapışma, dibinde kalma veya çevresinden ayrılmama biçimindedir; komşu dalda ise asılma, takılma ve taşıyıcı bağlantı öne çıkar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel yapışma ve asılma alanındaki iki yakın komşu, dalın somut bağlı kalma sınırını en iyi açıkladığı için yayımlandı; yer, yüzey veya tek bir yapışkan canlıyı adlandıran adaylar elendi.",
+      "branch_image_ar": "اللصوق والملازمة في كنف شيء",
+      "what_is_ar": "يدخل فيه ما لصق بشيء أو لازمه، كالنبت في أصل الشوك أو الموضع الحزن، واللحم اللازم للعظم، وما يدور حول حجر أو أرومة.",
+      "what_is_not_ar": "لا يدخل فيه الالتجاء المجرد بلا معنى لصوق أو ملازمة حسية، ولا وصف الأنثى الوالدة إلا من جهة التعليل لا من جهة الاسم الخاص.",
+      "source_phrase_ar": "كل شيء لصق بشيء أو لازمه (maqayis)؛ العوذ النبت في أصل الشوك أو في المكان الحزن لا يكاد المال يناله (sihah)؛ أطيب اللحم عوذه وهو ما عاذ بالعظم ولزمه (sihah)؛ العوذ ما دار به الشيء الذي تضربه الريح فهو يدور بالعوذ من حجر أو أرومة (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001059/B005",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, atın tasma geçen boyun bölgesinde bulunan ve atın beden işaretleri arasında sayılan dairesel izi açıkça tanımlar; bu izin beğenildiğini de belirtir. Verilen dal çerçevesi hem yeri hem de teknik niteliği doğru korur.",
+        "boundary_note": "Yalnızca atın tasma geçen boyun bölgesindeki dairesel beden işareti anlatılır; tasmanın kendisi, genel boyun bölgesi veya koruyucu nesne anlatılmaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, at beden işaretine özgü teknik adı korur; tek başına kullanılan ad ile bu işaretin dairesini belirten yapı aynı özel referentin iki sunumu olarak ayrılır."
+      },
+      "concept_map": {
+        "definition": "Atın boynunda tasmanın geçtiği yerde bulunan, atın bedenindeki dairesel işaretlerden biridir. Bu özel işaret beğenilen bir özellik olarak değerlendirilir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Atın boynunda tasmanın geçtiği yerde bulunan dairesel beden işaretidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "Bu dairesel işaret, atlarda beğenilen bir özellik olarak değerlendirilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar, bu özel adı atın tasma geçen boyun bölgesindeki dairesel beden işareti için verir. Ayrıca bu işaretin atlarda beğenilen bir özellik sayıldığı belirtilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "atın tasma yerindeki dairesel beden işareti",
+        "applicability": "At beden işaretleri alanında, yalnızca boyunda tasmanın geçtiği yerdeki özel daireyi anlatır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Atı, boyundaki kesin konumu ve işaretin dairesel niteliğini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "atın boynundaki beğenilen dairesel işaret",
+          "usage_role": "explanatory",
+          "applicability": "İşaretin hem at üzerindeki yerini hem de olumlu değerlendirilmesini açıklamak gereken bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "At üzerindeki daireyi, boyun bölgesini ve beğenilme niteliğini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "atın tasma geçen boyun yerindeki dairesel işaret"
+        },
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "atın tasma yerindeki dairesel beden işareti"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001531/B006",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Bu dalın işareti atın boynunda tasmanın geçtiği yerde bulunur ve bu konumla tanımlanır.",
+          "neighbor_only": "Komşu dalın işareti, atın iki yanında birden görülen belirli bir daire düzeniyle tanımlanır.",
+          "gloss": "at bedenindeki dairesel işaretler",
+          "shared_zone": "Her iki dal da at bedenindeki dairesel işaretleri adlandıran uzmanlık alanına aittir.",
+          "distinction": "İki işaret aynı alana ait olsa da konum ve biçim ölçütleri ayrıdır: burada boyundaki tasma yeri, komşuda ise iki yana geçen düzen belirleyicidir."
+        },
+        {
+          "neighbor_ref": "root_001249/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, atın bedeninde doğal olarak bulunan dairesel bir işareti anlatır.",
+          "neighbor_only": "Komşu dal, insanın veya hayvanın boynuna takılan, süs ya da ayırt etme amacı taşıyan nesneyi anlatır.",
+          "gloss": "boyun işareti ve boyna takılan nesne",
+          "shared_zone": "İki dal da boyun bölgesi ve tasma ya da gerdanlık konumuyla ilişkilidir.",
+          "distinction": "Burada söz konusu olan boyun üzerindeki beden işaretidir; komşu dalda ise boyna sonradan takılan veya bağlanan nesne merkezdir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; başka bir at dairesi ile boyna takılan nesne arasındaki iki sınır yayımlandı, genel beden izleri ve boynun kendisi gibi daha geniş alan adayları elendi.",
+      "branch_image_ar": "معوذ الفرس في موضع القلادة",
+      "what_is_ar": "يدخل فيه معوذ الفرس ودائرة المعوذ، وهي علامة أو دائرة في موضع القلادة من الفرس.",
+      "what_is_not_ar": "لا يدخل فيه التعويذ والتميمة رغم قرب اللفظ، ولا مطلق موضع القلادة في غير اصطلاح دوائر الخيل.",
+      "source_phrase_ar": "معوذ الفرس موضع القلادة ودائرة المعوذ تستحب (sihah)؛ من دوائر الخيل المعوذ وهي التي تكون في موضع القلادة يستحبونها (tahdhib)",
+      "sources": [
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001059/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi iki sonuçsuz saldırı yolunu aynı kalıp içinde birleştirir: rakip yalnız korkutur ve vurmaz ya da öldürmek amacıyla vurur fakat öldüremez. Verilen çerçeve, kişinin bu tamamlanmamış eylemden kurtulması sonucunu doğru biçimde korur.",
+        "boundary_note": "Genel kaçış değil, rakibin korkutma veya öldürmeye yönelen fakat tamamlanmayan eyleminden sağ kurtulma anlatılır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Anlam yalnızca verilen kalıp yapıya bağlıdır; korkutma ya da öldürme girişiminin tamamlanmamasıyla gerçekleşen kurtuluş, yalın bir kök anlamı gibi genellenmez."
+      },
+      "concept_map": {
+        "definition": "Belirli bir kalıp içinde, kişinin rakibinden ya yalnızca korkutulup hiç vurulmadan ya da öldürülmek üzere vurulduğu hâlde ölmeden kurtulmasıdır. İki durumda da rakibin amaçladığı zarar tamamlanmaz.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişinin rakibin tamamlanmamış korkutma veya öldürme eyleminden kurtulmasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Birinci gerçekleşmede rakip kişiyi korkutur fakat ona vurmaz.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "İkinci gerçekleşmede rakip öldürmek amacıyla vurur fakat kişiyi öldüremez.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar aynı kalıp kullanımını ve iki seçeneği birlikte verir: korkutmanın vuruşa dönüşmemesi veya öldürme amacıyla vurmanın ölümle sonuçlanmaması. Ortak sonuç, hedef kişinin rakibin elinden sağ çıkmasıdır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "rakibin korkutmasından ya da sonuçsuz öldürme girişiminden kurtulmak",
+        "applicability": "Yalnızca korkutulup vurulmama ile öldürülmek üzere vurulup sağ kalma seçeneklerini birlikte kapsayan kalıp karşılığıdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Rakibi, iki alternatif eylemi, eylemin tamamlanmamasını ve kurtuluş sonucunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "korkutulup vurulmadan kurtulmak",
+          "usage_role": "contextual",
+          "applicability": "Rakibin yalnızca korkuttuğu ve fiziksel saldırıya geçmediği birinci seçenek için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Korkutmayı, vurulmama koşulunu ve kişinin kurtulmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "öldürme amaçlı saldırıdan sağ çıkmak",
+          "usage_role": "contextual",
+          "applicability": "Rakibin vurduğu fakat öldürme amacına ulaşamadığı ikinci seçenek için kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Öldürme amacını, saldırıyı ve hedef kişinin ölmeden kurtulmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "rakibin korkutmasından ya da öldürmeyen saldırısından kurtulmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000383/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dalda hedef kişi rakibin korkutması veya sonuçsuz öldürme girişimi sonrasında kurtulur; bağışlama zorunlu değildir.",
+          "neighbor_only": "Komşu dalda eyleyen taraf, kadınları ya da güçsüzleri öldürmeyip bilinçli olarak hayatta bırakır.",
+          "gloss": "öldürülmeden kurtulma ve hayatta bırakma",
+          "shared_zone": "Her iki dalda da hedef kişi öldürülmez ve yaşamını sürdürür.",
+          "distinction": "Bu dal sonucu hedef kişinin rakibin elinden kurtuluşu açısından kurar ve eylem yalnız korkutmada kalabilir; komşu dal ise öldürmeme kararını eyleyen tarafın bilinçli davranışı olarak kurar."
+        },
+        {
+          "neighbor_ref": "root_000979/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dalda kurtuluş, rakibin saldırıyı tamamlayamaması veya korkutmayla yetinmesi sonucudur.",
+          "neighbor_only": "Komşu dalda kurtuluş, öne geçme, hız veya takipçiyi geride bırakma yoluyla gerçekleşir.",
+          "gloss": "saldırıdan kurtulma ve öne geçerek kaçma",
+          "shared_zone": "İki dal da bir tehlikeden sıyrılıp zarar görmeden ya da sağ kalarak uzaklaşmayı içerir.",
+          "distinction": "Burada belirleyici olan rakibin eyleminin tamamlanmamasıdır; komşu dalda belirleyici olan hedefin hızla öne geçip takipten kurtulmasıdır."
+        },
+        {
+          "neighbor_ref": "root_000604/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, korkutulan kişinin vurulmadan veya öldürülmeden kurtulması sonucunu zorunlu kılar.",
+          "neighbor_only": "Komşu dal, başkasında korku yaratma ve korkuyla geri itme eylemini, sonraki kurtuluş sonucu olmadan anlatır.",
+          "gloss": "korkutma ve korkutulup kurtulma",
+          "shared_zone": "İki dalda da bir tarafın diğerini korkutması ortak olay bileşenidir.",
+          "distinction": "Komşu dal korkutma eyleminin kendisini merkez alır; bu dal ise korkutmanın vuruşa dönüşmemesi veya öldürme girişiminin başarısız kalmasıyla hedefin kurtulmasını merkez alır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; hayatta bırakma, hızla kaçıp kurtulma ve korkutma eylemiyle olan üç sınır, katılımcı ve sonuç ayrımlarını en iyi gösterdiği için yayımlandı.",
+      "branch_image_ar": "الإفلات عوذا بتخويف دون تمام الفعل",
+      "what_is_ar": "يدخل فيه قولهم أفلت فلان عوذا إذا خوفه خصمه ولم يضربه، أو ضربه وهو يريد قتله فلم يقتله.",
+      "what_is_not_ar": "لا يدخل فيه مطلق الإفلات، ولا القتل أو الضرب التام، ولا استعاذة الدعاء.",
+      "source_phrase_ar": "أفلت منه فلان عوذا إذا خوفه ولم يضربه أو ضربه وهو يريد قتله فلم يقتله (sihah)؛ أفلت فلان من فلان عوذا إذا خوفه ولم يضربه أو ضربه وهو يريد قتله فلم يقتله (tahdhib)",
+      "sources": [
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_001059/B007",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, savaş sırasında topluluğun üyelerinin işi birbirine bırakmasını ve her birinin ötekine sığınmasını tek bir karşılıklı davranış olarak verir. Verilen çerçeve hem savaş koşulunu hem de sorumluluğun karşılıklı aktarılmasını doğru korur.",
+        "boundary_note": "Genel yardımlaşma veya tek yönlü sığınma değil, savaşta işi birbirine bırakıp karşılıklı olarak birbirine dayanma anlatılır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Tanım, yalnızca savaşta topluluğun karşılıklı işi birbirine bırakması ve birbirine sığınmasıyla sınırlı özel kullanımı korur; bunu genel bir dayanışma anlamına yaymaz."
+      },
+      "concept_map": {
+        "definition": "Savaş sırasında bir topluluğun üyelerinin sorumluluğu birbirine bırakması ve her birinin ötekine sığınarak işi üstlenmekten geri durmasıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Savaşta topluluk üyelerinin işi karşılıklı olarak birbirine bırakıp birbirine sığınmasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Paylaşılan bir kaynak özeti yoktur; savaşta karşılıklı sorumluluk aktarımı ve birbirine sığınma kullanımı tek bir tanıklığa dayanır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Savaş sırasında topluluk üyelerinin işi birbirine bırakıp her birinin ötekine sığınmasını anlatan özel kullanım yalnız bu tanıklıkta yer alır."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "savaşta işi birbirine bırakıp birbirine sığınmak",
+        "applicability": "Yalnızca savaş bağlamındaki karşılıklı sorumluluk aktarımı ve sığınma davranışını birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Savaş koşulunu, karşılıklılığı, işi başkasına bırakmayı ve birbirine sığınmayı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "savaşta sorumluluğu birbirine atmak",
+          "usage_role": "contextual",
+          "applicability": "Topluluk üyelerinin çatışma sırasında işi üstlenmeyip karşılıklı olarak ötekine bıraktığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Savaş koşulunu ve sorumluluğun karşılıklı aktarılmasını korur.",
+            "loses": "Üyelerin aynı zamanda birbirine sığınması öğesini açıkça belirtmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "savaşta işi birbirine bırakıp birbirine sığınmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001681/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal savaş koşuluna bağlıdır ve kişilerin işi birbirine bırakırken birbirine sığınmasını da içerir.",
+          "neighbor_only": "Komşu dal savaşla sınırlı değildir ve karşılıklı dayanmanın sonunda işin ortada kalmasını genel bir sonuç olarak belirtir.",
+          "gloss": "karşılıklı işi başkasına bırakma",
+          "shared_zone": "Her iki dalda da kişiler sorumluluğu karşılıklı olarak ötekine bırakır ve iş üstlenilmez.",
+          "distinction": "Çekirdekler yakındır; bu dal savaşta birbirine sığınma öğesini zorunlu tutar, komşu dal ise daha genel karşılıklı dayanma yüzünden işin ortada kalmasına odaklanır."
+        },
+        {
+          "neighbor_ref": "root_001062/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dalda birden çok kişi savaşta karşılıklı olarak işi ötekine bırakır ve birbirine sığınır.",
+          "neighbor_only": "Komşu dalda kişi bir başkasına tek yönlü olarak dayanır, ondan yardım alır veya işi ona bırakır.",
+          "gloss": "karşılıklı ve tek yönlü dayanma",
+          "shared_zone": "İki dal da bir işte başkasına dayanma ve sorumluluğu onun taşımasını bekleme alanını paylaşır.",
+          "distinction": "Burada karşılıklılık ve savaş bağlamı zorunludur; komşu dal tek bir kişinin başka birine dayanmasını anlatır ve savaş koşulu taşımaz."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; karşılıklı işi bırakma ile tek yönlü dayanma komşuları, savaş koşulu ve karşılıklılık sınırını en iyi gösterdiği için yayımlandı; yardımlaşma ve birlikte hareket etme adayları çekirdeğe daha uzaktır.",
+      "branch_image_ar": "تعاوذ القوم في الحرب وتواكلوا",
+      "what_is_ar": "يدخل فيه تعاوذ القوم في الحرب إذا تواكلوا وعاذ بعضهم ببعض.",
+      "what_is_not_ar": "لا يدخل فيه مطلق التعاون، ولا مطلق الاستجارة الفردية.",
+      "source_phrase_ar": "تعاوذ القوم في الحرب إذا تواكلوا وعاذ بعضهم ببعض (tahdhib)",
+      "sources": [
+        "TA"
+      ],
+      "source_note": {
+        "TA": "Savaş sırasında topluluk üyelerinin işi birbirine bırakıp her birinin ötekine sığınmasını anlatan özel kullanım yalnız bu tanıklıkta yer alır."
+      }
+    },
+    {
+      "branch_ref": "root_001059/B008",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi belirli bir kalıp içinde bir kişiyi bırakmanın nedenini ona duyulan hoşnutsuzluk olarak verir. Verilen çerçevedeki kaçınma düşüncesi ancak bu hoşnutsuzluğun davranışsal sonucu olarak kullanılabilir; bağımsız bir korunma veya sığınma anlamı kaynak ifadesince desteklenmez.",
+        "boundary_note": "Yalnızca verilen kalıpta, bir kişiyi ondan hoşlanmadığı için bırakma anlatılır; genel hoşlanmama, genel kaçınma veya korunmak için sığınma anlatılmaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım, anlamı yalnızca belirtilen bırakma kalıbına bağlar ve hoşnutsuzluğu bırakmanın nedeni olarak tutar; bunu yalın bir hoşlanmama ya da kaçınma anlamına genellemez."
+      },
+      "concept_map": {
+        "definition": "Belirli bir kalıp içinde, bir kişiyi yalnızca ondan hoşlanmadığı için bırakmak ve böylece ondan uzak durmaktır; çekirdekte hoşnutsuzluk, bırakma davranışının nedenidir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kişiyi, ona duyulan hoşnutsuzluk nedeniyle bırakmayı bildiren kalıba bağlı kullanımdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Paylaşılan bir kaynak özeti yoktur; kişinin yalnız hoşnutsuzluk nedeniyle bırakıldığını bildiren kalıp kullanımı tek bir tanıklığa dayanır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Bir kişiyi yalnız ondan hoşlanmadığı için bırakmayı bildiren iki biçimli kalıp, bu tek tanıklıkta aynı anlamla açıklanır."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "birini ondan hoşlanmadığı için bırakmak",
+        "applicability": "Yalnızca hoşnutsuzluğun kişiyi bırakma nedeni olduğu belirtilen kalıp kullanımını karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bırakma eylemini, hedef kişiyi ve hoşnutsuzluğun neden oluşunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "onu yalnız hoşlanmadığım için bıraktım",
+          "usage_role": "contextual",
+          "applicability": "Konuşanın bir kişiyi bırakma nedenini doğrudan hoşnutsuzluk olarak bildirdiği cümlelerde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Birinci kişi bakışını, bırakma eylemini ve tek neden olarak hoşnutsuzluğu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_023",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birini ondan hoşlanmadığı için bırakmak"
+        },
+        {
+          "lexical_unit_id": "lu_024",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birini ondan hoşlanmadığı için bırakmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000136/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal, hoşnutsuzluğu belirli bir kalıp içinde bir kişiyi bırakmanın nedeni olarak sunar.",
+          "neighbor_only": "Komşu dal, hoşlanmama ve karşılıklı hoşlanmama duygusunu herhangi bir bırakma eylemine bağlı olmadan anlatır.",
+          "gloss": "hoşlanmama nedeniyle bırakma",
+          "shared_zone": "İki dal da bir kişiye veya şeye yönelik olumsuz duyguyu içerir.",
+          "distinction": "Komşu dalın çekirdeği hoşlanmama duygusunun kendisidir; bu dalda ise aynı duygu, yalnızca belirli bir bırakma davranışının gerekçesi olarak yer alır."
+        },
+        {
+          "neighbor_ref": "root_001470/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dalda uzak durma, belirli bir kişiye duyulan hoşnutsuzluğun sonucu olan bırakma eylemidir.",
+          "neighbor_only": "Komşu dal, nesnenin sekmesi, gözün geri çekilmesi veya bir şeyin kendiliğinden uzaklaşması gibi fiziksel geri durmaları da kapsar.",
+          "gloss": "hoşnutsuzlukla bırakma ve geri çekilme",
+          "shared_zone": "Her iki dalda da bir şeyden uzaklaşma veya onu kendinden uzak tutma yönelimi bulunur.",
+          "distinction": "Burada uzaklaşmanın zorunlu nedeni kişiye duyulan hoşnutsuzluktur ve yapı bırakma eylemine bağlıdır; komşu dal fiziksel ya da algısal geri çekilmeyi daha geniş biçimde anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yalın hoşlanmama ile fiziksel veya davranışsal geri çekilme komşuları, bu kalıbın duygu-neden-eylem sınırını en iyi gösterdiği için yayımlandı.",
+      "branch_image_ar": "التحامي كراهة من الشيء",
+      "what_is_ar": "يدخل فيه قولهم ما تركت فلانا إلا عوذا منه أو عواذا منه، أي كراهة له أو تحاميا منه.",
+      "what_is_not_ar": "لا يدخل فيه طلب الحماية بالله أو بغيره إذا كان دعاء أو لجأ، ولا مطلق الكراهة بلا هذا التعبير.",
+      "source_phrase_ar": "ما تركت فلانا إلا عوذا منه بالتحريك وعواذا منه أي كراهة (sihah)",
+      "sources": [
+        "SI"
+      ],
+      "source_note": {
+        "SI": "Bir kişiyi yalnız ondan hoşlanmadığı için bırakmayı bildiren iki biçimli kalıp, bu tek tanıklıkta aynı anlamla açıklanır."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Anlam yapısı, sığınma ve koruma çekirdeğinin çevresinde koruyucu araç, doğum sonrası dişi, fiziksel yapışma ve birkaç dar uzmanlık kullanımına açılır. Bazı dallar bağlı kalma düşüncesiyle açıklanabilirken at işareti, sonuçsuz saldırıdan kurtulma, savaşta sorumluluğu birbirine bırakma ve hoşnutsuzlukla bırakma ayrı sözlüksel sınırlar taşır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 17,
+      "word_count": 17,
+      "ayah_count": 17,
+      "surah_count": 14
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "عُذْ",
+        "stem_ar": "أَعُوذُ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|1S",
+        "occurrence_count": 7
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "أُعِيذُ",
+        "stem_ar": "أُعِيذُ",
+        "pos": "V",
+        "measure": "IV",
+        "morph_features": "STEM|POS:V|IMPF|(IV)|LEM:>uEiy*u|ROOT:Ew*|1S",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "ٱسْتَعِذْ",
+        "stem_ar": "ٱسْتَعِذْ",
+        "pos": "V",
+        "measure": "X",
+        "morph_features": "STEM|POS:V|IMPV|(X)|LEM:{sotaEi*o|ROOT:Ew*|2MS",
+        "occurrence_count": 4
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "مَعَاذ",
+        "stem_ar": "مَعَاذَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:maEaA*|ROOT:Ew*|M|ACC",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "عُذْ",
+        "stem_ar": "عُذْ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:Eu*o|ROOT:Ew*|1S",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F006",
+        "lemma_ar": "عُذْ",
+        "stem_ar": "يَعُوذُ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|3MP",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:67",
+        "surface_ar": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦٓ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تَذْبَحُوا۟ بَقَرَةً قَالُوٓا۟ أَتَتَّخِذُنَا هُزُوًا قَالَ أَعُوذُ بِٱللَّهِ أَنْ أَكُونَ مِنَ ٱلْجَٰهِلِينَ"
+      },
+      {
+        "ayah_ref": "3:36",
+        "surface_ar": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّى وَضَعْتُهَآ أُنثَىٰ وَٱللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ ٱلذَّكَرُ كَٱلْأُنثَىٰ وَإِنِّى سَمَّيْتُهَا مَرْيَمَ وَإِنِّىٓ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ"
+      },
+      {
+        "ayah_ref": "7:200",
+        "surface_ar": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌ فَٱسْتَعِذْ بِٱللَّهِ إِنَّهُۥ سَمِيعٌ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "11:47",
+        "surface_ar": "قَالَ رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَٰسِرِينَ"
+      },
+      {
+        "ayah_ref": "12:23",
+        "surface_ar": "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ قَالَ مَعَاذَ ٱللَّهِ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّٰلِمُونَ"
+      },
+      {
+        "ayah_ref": "12:79",
+        "surface_ar": "قَالَ مَعَاذَ ٱللَّهِ أَن نَّأْخُذَ إِلَّا مَن وَجَدْنَا مَتَٰعَنَا عِندَهُۥٓ إِنَّآ إِذًا لَّظَٰلِمُونَ"
+      },
+      {
+        "ayah_ref": "16:98",
+        "surface_ar": "فَإِذَا قَرَأْتَ ٱلْقُرْءَانَ فَٱسْتَعِذْ بِٱللَّهِ مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ"
+      },
+      {
+        "ayah_ref": "19:18",
+        "surface_ar": "قَالَتْ إِنِّىٓ أَعُوذُ بِٱلرَّحْمَٰنِ مِنكَ إِن كُنتَ تَقِيًّا"
+      },
+      {
+        "ayah_ref": "23:97",
+        "surface_ar": "وَقُل رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَٰطِينِ"
+      },
+      {
+        "ayah_ref": "23:98",
+        "surface_ar": "وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ"
+      },
+      {
+        "ayah_ref": "40:27",
+        "surface_ar": "وَقَالَ مُوسَىٰٓ إِنِّى عُذْتُ بِرَبِّى وَرَبِّكُم مِّن كُلِّ مُتَكَبِّرٍ لَّا يُؤْمِنُ بِيَوْمِ ٱلْحِسَابِ"
+      },
+      {
+        "ayah_ref": "40:56",
+        "surface_ar": "إِنَّ ٱلَّذِينَ يُجَٰدِلُونَ فِىٓ ءَايَٰتِ ٱللَّهِ بِغَيْرِ سُلْطَٰنٍ أَتَىٰهُمْ إِن فِى صُدُورِهِمْ إِلَّا كِبْرٌ مَّا هُم بِبَٰلِغِيهِ فَٱسْتَعِذْ بِٱللَّهِ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ"
+      },
+      {
+        "ayah_ref": "41:36",
+        "surface_ar": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌ فَٱسْتَعِذْ بِٱللَّهِ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ"
+      },
+      {
+        "ayah_ref": "44:20",
+        "surface_ar": "وَإِنِّى عُذْتُ بِرَبِّى وَرَبِّكُمْ أَن تَرْجُمُونِ"
+      },
+      {
+        "ayah_ref": "72:6",
+        "surface_ar": "وَأَنَّهُۥ كَانَ رِجَالٌ مِّنَ ٱلْإِنسِ يَعُوذُونَ بِرِجَالٍ مِّنَ ٱلْجِنِّ فَزَادُوهُمْ رَهَقًا"
+      },
+      {
+        "ayah_ref": "113:1",
+        "surface_ar": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ"
+      },
+      {
+        "ayah_ref": "114:1",
+        "surface_ar": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:67:15:1",
+        "qac_word_ref": "2:67:15",
+        "surah": 2,
+        "ayah": 67,
+        "word_index": 15,
+        "morpheme_index": 1,
+        "surface_ar": "أَعُوذُ",
+        "stem_ar": "أَعُوذُ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|1S",
+        "ayah_ref": "2:67",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:067:pass1:frame:v7",
+          "attachment_word_unit_id": "q:2:67:17",
+          "qac_char_span": [
+            60,
+            64
+          ],
+          "attachment_char_spans": [
+            [
+              60,
+              64
+            ],
+            [
+              61,
+              64
+            ]
+          ],
+          "source_grammar": "imperfect verb, 1st person singular, Form I, indicative",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:067:pass1:attach:a15",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:2:67:19",
+              "other_surface": "بِاللَّهِ",
+              "other_root": "أ ل ه",
+              "other_form_tag": "NOUN_PROP",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s002:067:pass1:attach:a16",
+              "relation": "clausal_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:2:67:20",
+              "other_surface": "أَنْ",
+              "other_root": "",
+              "other_form_tag": "SUBJUNC_PART",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "3:36:19:1",
+        "qac_word_ref": "3:36:19",
+        "surah": 3,
+        "ayah": 36,
+        "word_index": 19,
+        "morpheme_index": 1,
+        "surface_ar": "أُعِيذُ",
+        "stem_ar": "أُعِيذُ",
+        "lemma_ar": "أُعِيذُ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "IV",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|(IV)|LEM:>uEiy*u|ROOT:Ew*|1S",
+        "ayah_ref": "3:36",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s003:036:pass1:frame:v6",
+          "attachment_word_unit_id": "q:3:36:26",
+          "qac_char_span": [
+            81,
+            87
+          ],
+          "attachment_char_spans": [
+            [
+              81,
+              87
+            ],
+            [
+              82,
+              85
+            ]
+          ],
+          "source_grammar": "Imperfect verb (IV), 1st person singular + object pronoun -hā; Form IV (ʾafʿala) causative: \"to cause to seek refuge\" = \"to place under protection\"; 9 IV occurrences of this root",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s003:036:pass1:attach:a21",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:3:36:27",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s003:036:pass1:attach:a25",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:3:36:31",
+              "other_surface": "الشَّيْطَانِ",
+              "other_root": "ش ط ن",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "مِن",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s003:036:pass1:attach:a20",
+              "relation": "direct_object",
+              "focus_role": "head",
+              "other_unit_id": "q:3:36:26",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s003:036:pass1:attach:a23",
+              "relation": "direct_object",
+              "focus_role": "head",
+              "other_unit_id": "q:3:36:29",
+              "other_surface": "وَذُرِّيَّتَهَا",
+              "other_root": "",
+              "other_form_tag": "GERUND_PROFESSION",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;parallelism"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "7:200:6:2",
+        "qac_word_ref": "7:200:6",
+        "surah": 7,
+        "ayah": 200,
+        "word_index": 6,
+        "morpheme_index": 2,
+        "surface_ar": "ٱسْتَعِذْ",
+        "stem_ar": "ٱسْتَعِذْ",
+        "lemma_ar": "ٱسْتَعِذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "X",
+        "aspect": "IMPV",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPV|(X)|LEM:{sotaEi*o|ROOT:Ew*|2MS",
+        "ayah_ref": "7:200",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s007:200:pass1:frame:v2",
+          "attachment_word_unit_id": "q:7:200:8",
+          "qac_char_span": [
+            22,
+            28
+          ],
+          "attachment_char_spans": [
+            [
+              22,
+              28
+            ],
+            [
+              23,
+              28
+            ]
+          ],
+          "source_grammar": "Form X imperative (fiʿl amr), 2ms, jussive (apocopated), addressed to the Prophet",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s007:200:pass1:attach:a4",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:7:200:10",
+              "other_surface": "بِاللَّهِ",
+              "other_root": "أ ل ه",
+              "other_form_tag": "NOUN_PROP",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "11:47:4:1",
+        "qac_word_ref": "11:47:4",
+        "surah": 11,
+        "ayah": 47,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أَعُوذُ",
+        "stem_ar": "أَعُوذُ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|1S",
+        "ayah_ref": "11:47",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s011:047:pass1:frame:v2",
+          "attachment_word_unit_id": "q:11:47:4",
+          "qac_char_span": [
+            8,
+            12
+          ],
+          "attachment_char_spans": [
+            [
+              8,
+              12
+            ],
+            [
+              9,
+              12
+            ]
+          ],
+          "source_grammar": "imperfect verb, Form I, 1st person singular, indicative",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s011:047:pass1:attach:a5",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:11:47:5",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s011:047:pass1:attach:a6",
+              "relation": "clausal_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:11:47:6",
+              "other_surface": "أَنْ",
+              "other_root": "",
+              "other_form_tag": "SUBJUNC_PART",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "12:23:14:1",
+        "qac_word_ref": "12:23:14",
+        "surah": 12,
+        "ayah": 23,
+        "word_index": 14,
+        "morpheme_index": 1,
+        "surface_ar": "مَعَاذَ",
+        "stem_ar": "مَعَاذَ",
+        "lemma_ar": "مَعَاذ",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:maEaA*|ROOT:Ew*|M|ACC",
+        "ayah_ref": "12:23",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s012:023:noun:17",
+          "attachment_word_unit_id": "q:12:23:17",
+          "qac_char_span": [
+            52,
+            56
+          ],
+          "attachment_char_spans": [
+            [
+              52,
+              56
+            ]
+          ],
+          "source_grammar": "GERUND_MEEM (mīm-prefixed verbal noun, Form I); COGN role; in construct with following Allah",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s012:023:pass1:attach:a11",
+              "relation": "quoted_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:12:23:16",
+              "other_surface": "قَالَ",
+              "other_root": "ق و ل",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s012:023:pass1:attach:a12",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:12:23:18",
+              "other_surface": "اللَّهِ",
+              "other_root": "أ ل ه",
+              "other_form_tag": "NOUN_PROP",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "12:79:2:1",
+        "qac_word_ref": "12:79:2",
+        "surah": 12,
+        "ayah": 79,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "مَعَاذَ",
+        "stem_ar": "مَعَاذَ",
+        "lemma_ar": "مَعَاذ",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:maEaA*|ROOT:Ew*|M|ACC",
+        "ayah_ref": "12:79",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s012:079:noun:2",
+          "attachment_word_unit_id": "q:12:79:2",
+          "qac_char_span": [
+            3,
+            7
+          ],
+          "attachment_char_spans": [
+            [
+              3,
+              7
+            ]
+          ],
+          "source_grammar": "Cognate accusative (mafʿūl muṭlaq / maṣdariyya); GERUND_MEEM form of ʿ-w-dh; construct state governing Allāh in genitive",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s012:079:pass1:attach:a1",
+              "relation": "quoted_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:12:79:1",
+              "other_surface": "قَالَ",
+              "other_root": "ق و ل",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s012:079:pass1:attach:a2",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:12:79:3",
+              "other_surface": "اللَّهِ",
+              "other_root": "أ ل ه",
+              "other_form_tag": "NOUN_PROP",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s012:079:pass1:attach:a3",
+              "relation": "clausal_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:12:79:4",
+              "other_surface": "أَنْ",
+              "other_root": "",
+              "other_form_tag": "SUBJUNC_PART",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "16:98:4:2",
+        "qac_word_ref": "16:98:4",
+        "surah": 16,
+        "ayah": 98,
+        "word_index": 4,
+        "morpheme_index": 2,
+        "surface_ar": "ٱسْتَعِذْ",
+        "stem_ar": "ٱسْتَعِذْ",
+        "lemma_ar": "ٱسْتَعِذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "X",
+        "aspect": "IMPV",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPV|(X)|LEM:{sotaEi*o|ROOT:Ew*|2MS",
+        "ayah_ref": "16:98",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s016:098:pass1:frame:v2",
+          "attachment_word_unit_id": "q:16:98:6",
+          "qac_char_span": [
+            15,
+            21
+          ],
+          "attachment_char_spans": [
+            [
+              15,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "source_grammar": "imperative verb (fiʿl amr), Form X (istafʿala), 2nd person masculine singular",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s016:098:pass1:attach:a3",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:16:98:8",
+              "other_surface": "بِاللَّهِ",
+              "other_root": "أ ل ه",
+              "other_form_tag": "NOUN_PROP",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s016:098:pass1:attach:a4",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:16:98:10",
+              "other_surface": "الشَّيْطَانِ",
+              "other_root": "ش ط ن",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "مِن",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "19:18:3:1",
+        "qac_word_ref": "19:18:3",
+        "surah": 19,
+        "ayah": 18,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَعُوذُ",
+        "stem_ar": "أَعُوذُ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|1S",
+        "ayah_ref": "19:18",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s019:018:pass1:frame:v2",
+          "attachment_word_unit_id": "q:19:18:3",
+          "qac_char_span": [
+            7,
+            11
+          ],
+          "attachment_char_spans": [
+            [
+              7,
+              11
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "source_grammar": "IV 1cs — imperfect active; present-tense performative",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s019:018:pass1:attach:a4",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:19:18:5",
+              "other_surface": "بِالرَّحْمَنِ",
+              "other_root": "ر ح م",
+              "other_form_tag": "NOUN_PROP",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s019:018:pass1:attach:a5",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:19:18:6",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "مِن",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "23:97:3:1",
+        "qac_word_ref": "23:97:3",
+        "surah": 23,
+        "ayah": 97,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَعُوذُ",
+        "stem_ar": "أَعُوذُ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|1S",
+        "ayah_ref": "23:97",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s023:097:pass1:frame:v2",
+          "attachment_word_unit_id": "q:23:97:4",
+          "qac_char_span": [
+            5,
+            9
+          ],
+          "attachment_char_spans": [
+            [
+              5,
+              9
+            ],
+            [
+              6,
+              9
+            ]
+          ],
+          "source_grammar": "IV — Form I imperfect 1st person singular indicative (marfūʿ); expresses ongoing/habitual refuge-seeking",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s023:097:pass1:attach:a3",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:23:97:5",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s023:097:pass1:attach:a4",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:23:97:7",
+              "other_surface": "هَمَزَاتِ",
+              "other_root": "ه م ز",
+              "other_form_tag": "GERUND_INSTANT",
+              "prep_base": "مِن",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "23:98:1:2",
+        "qac_word_ref": "23:98:1",
+        "surah": 23,
+        "ayah": 98,
+        "word_index": 1,
+        "morpheme_index": 2,
+        "surface_ar": "أَعُوذُ",
+        "stem_ar": "أَعُوذُ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|1S",
+        "ayah_ref": "23:98",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s023:098:pass1:frame:v1",
+          "attachment_word_unit_id": "q:23:98:2",
+          "qac_char_span": [
+            0,
+            5
+          ],
+          "attachment_char_spans": [
+            [
+              0,
+              5
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "source_grammar": "IV — imperfect verb 1st person singular, Form I (faʿūlu pattern), indicative mood (marfūʿ)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s023:098:pass1:attach:a1",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:23:98:3",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s023:098:pass1:attach:a3",
+              "relation": "clausal_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:23:98:5",
+              "other_surface": "أَنْ",
+              "other_root": "",
+              "other_form_tag": "SUBJUNC_PART",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "40:27:4:1",
+        "qac_word_ref": "40:27:4",
+        "surah": 40,
+        "ayah": 27,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "عُذْ",
+        "stem_ar": "عُذْ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:Eu*o|ROOT:Ew*|1S",
+        "ayah_ref": "40:27",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s040:027:pass1:frame:v2",
+          "attachment_word_unit_id": "q:40:27:5",
+          "qac_char_span": [
+            12,
+            15
+          ],
+          "attachment_char_spans": [
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "source_grammar": "PV.1CS Form I perfect; intransitive refuge verb completed by prepositional phrases bi-rabbī and min kulli",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s040:027:pass1:attach:a4",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:40:27:7",
+              "other_surface": "بِرَبِّي",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s040:027:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:40:27:11",
+              "other_surface": "كُلِّ",
+              "other_root": "ك ل ل",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "مِن",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "40:56:18:2",
+        "qac_word_ref": "40:56:18",
+        "surah": 40,
+        "ayah": 56,
+        "word_index": 18,
+        "morpheme_index": 2,
+        "surface_ar": "ٱسْتَعِذْ",
+        "stem_ar": "ٱسْتَعِذْ",
+        "lemma_ar": "ٱسْتَعِذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "X",
+        "aspect": "IMPV",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPV|(X)|LEM:{sotaEi*o|ROOT:Ew*|2MS",
+        "ayah_ref": "40:56",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s040:056:pass1:frame:v3",
+          "attachment_word_unit_id": "q:40:56:21",
+          "qac_char_span": [
+            67,
+            73
+          ],
+          "attachment_char_spans": [
+            [
+              67,
+              73
+            ],
+            [
+              68,
+              73
+            ]
+          ],
+          "source_grammar": "Form X imperative second masculine singular, apocopated; main command after فَ",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s040:056:pass1:attach:a14",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:40:56:23",
+              "other_surface": "بِاللَّهِ",
+              "other_root": "أ ل ه",
+              "other_form_tag": "NOUN_PROP",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "41:36:6:2",
+        "qac_word_ref": "41:36:6",
+        "surah": 41,
+        "ayah": 36,
+        "word_index": 6,
+        "morpheme_index": 2,
+        "surface_ar": "ٱسْتَعِذْ",
+        "stem_ar": "ٱسْتَعِذْ",
+        "lemma_ar": "ٱسْتَعِذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "X",
+        "aspect": "IMPV",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPV|(X)|LEM:{sotaEi*o|ROOT:Ew*|2MS",
+        "ayah_ref": "41:36",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s041:036:pass1:frame:v2",
+          "attachment_word_unit_id": "q:41:36:8",
+          "qac_char_span": [
+            22,
+            28
+          ],
+          "attachment_char_spans": [
+            [
+              22,
+              28
+            ],
+            [
+              23,
+              28
+            ]
+          ],
+          "source_grammar": "CV Form X imperative 2MS; apodosis command after فَ",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s041:036:pass1:attach:a4",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:41:36:10",
+              "other_surface": "بِاللَّهِ",
+              "other_root": "أ ل ه",
+              "other_form_tag": "NOUN_PROP",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "44:20:2:1",
+        "qac_word_ref": "44:20:2",
+        "surah": 44,
+        "ayah": 20,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "عُذْ",
+        "stem_ar": "عُذْ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:Eu*o|ROOT:Ew*|1S",
+        "ayah_ref": "44:20",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s044:020:pass1:frame:v1",
+          "attachment_word_unit_id": "q:44:20:3",
+          "qac_char_span": [
+            4,
+            7
+          ],
+          "attachment_char_spans": [
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "source_grammar": "PV 1CS - perfect active Form I; intransitive/reflexive refuge-seeking",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s044:020:pass1:attach:a3",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:44:20:5",
+              "other_surface": "بِرَبِّي",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s044:020:pass1:attach:a5",
+              "relation": "clausal_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:44:20:8",
+              "other_surface": "أَنْ",
+              "other_root": "",
+              "other_form_tag": "SUBJUNC_PART",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "72:6:6:1",
+        "qac_word_ref": "72:6:6",
+        "surah": 72,
+        "ayah": 6,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "يَعُوذُ",
+        "stem_ar": "يَعُوذُ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|3MP",
+        "ayah_ref": "72:6",
+        "form_id": "F006",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s072:006:pass1:frame:v2",
+          "attachment_word_unit_id": "q:72:6:7",
+          "qac_char_span": [
+            19,
+            25
+          ],
+          "attachment_char_spans": [
+            [
+              19,
+              25
+            ],
+            [
+              20,
+              23
+            ]
+          ],
+          "source_grammar": "IV 3mp, imperfect indicative, habitual aspect (with kāna)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s072:006:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:72:6:9",
+              "other_surface": "بِرِجَالٍ",
+              "other_root": "ر ج ل",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "113:1:2:1",
+        "qac_word_ref": "113:1:2",
+        "surah": 113,
+        "ayah": 1,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "أَعُوذُ",
+        "stem_ar": "أَعُوذُ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|1S",
+        "ayah_ref": "113:1",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s113:001:pass1:frame:v2",
+          "attachment_word_unit_id": "q:113:1:2",
+          "qac_char_span": [
+            2,
+            6
+          ],
+          "attachment_char_spans": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "source_grammar": "Form I imperfect (muḍāri'), 1st person singular. Root '-w-dh. The imperfect tense indicates ongoing, continuous, or habitual action — not a one-time request but a perpetual state of seeking refuge. No explicit direct object in this ayah",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s113:001:pass1:attach:a2",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:113:1:3",
+              "other_surface": "بِرَبِّ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "114:1:2:1",
+        "qac_word_ref": "114:1:2",
+        "surah": 114,
+        "ayah": 1,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "أَعُوذُ",
+        "stem_ar": "أَعُوذُ",
+        "lemma_ar": "عُذْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eu*o|ROOT:Ew*|1S",
+        "ayah_ref": "114:1",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s114:001:pass1:frame:v2",
+          "attachment_word_unit_id": "q:114:1:2",
+          "qac_char_span": [
+            2,
+            6
+          ],
+          "attachment_char_spans": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "source_grammar": "Imperfect verb (fiʿl muḍāriʿ), first person singular, Form I (faʿala/yafʿulu pattern: ʿādha/yaʿūdhu). The imperfect tense indicates ongoing, habitual, or renewed action — not a one-time act but a continuous state of seeking refuge. No explicit direct object in this ayah; the source of refuge is marked by bi- (bi-rabbi)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s114:001:pass1:attach:a2",
+              "relation": "prep_complement",
+              "focus_role": "head",
+              "other_unit_id": "q:114:1:3",
+              "other_surface": "بِرَبِّ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

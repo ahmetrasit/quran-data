@@ -1,0 +1,812 @@
+{
+  "inputs_sha256": "b08d0f749460e4ba1326d7a8ba3acc0bb22d9e2527e3f80435df1d5aa7af9898",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000136",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000136/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi dalın merkezini sevginin karşıtı olan ve kişinin istemediği şeyden içten uzaklaşmasıyla beliren sevmeme durumu olarak kurar. Geçişli, karşılıklı ve sonuç bildiren türevler bu merkezin katılımcı ve süreç uzantılarıdır; merkezin yerine geçirilmemelidir.",
+        "boundary_note": "Dal, içten uzak durma ile sevginin karşıtını kapsar; öfke, hoşnutsuzluk, düşmanlık ve yalnızca belirli bir sövgü sözü bu çekirdekle özdeş değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım yalın sevmeme çekirdeğini, birini sevmemeyi, karşılıklı sevmemeyi, sevilmez duruma gelmeyi ve başkasına sevilmez göstermeyi birbirine karıştırmadan kapsar."
+      },
+      "concept_map": {
+        "definition": "Birini ya da bir şeyi sevginin karşıtı bir tutumla istememek ve ondan içten uzak durmaktır. Bu çekirdek, bir başkasını sevmeme, karşılıklı sevmeme, birinin sevilmez duruma gelmesi ya da başkalarına sevilmez gösterilmesi biçimlerinde gerçekleşebilir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Temel durum, sevginin karşıtı olan sevmeme ve istenmeyen şeyden içten uzak durmadır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bu tutum daha yoğun olduğunda güçlü ve yerleşik bir sevmeme derecesine ulaşır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Tutum bir kişiye yöneltilebilir veya iki tarafın birbirini sevmemesi biçiminde karşılıklı kurulabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "extension",
+            "statement": "Bir kişi ya da şey sevilmez duruma gelebilir veya bir başkasının gözünde sevilmez duruma getirilebilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar sevmemeyi sevginin karşıtı olan bir tutum olarak ortaklaştırır. Toplu kanıtın kaynaklara göre ayrışan anlatımında bu tutum bir yerde kişinin istemediği şeyden içten uzak durmasıyla tanımlanır; başka yerlerde yoğunluk bildiren biçimler ve karşılıklı kullanım ayrıca belirtilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sevmeme ve içten uzak durma",
+        "applicability": "Yalın duygu çekirdeğini ve ona bağlı yöneltme, karşılıklılık ile sevilmez duruma gelme uzantılarını birlikte temsil eden genel karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sevginin karşıtını, sevmemeyi ve istenmeyen şeyden içten uzak durmayı birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "sevmemek",
+          "usage_role": "general",
+          "applicability": "Bir kişinin başka bir kişiye ya da şeye yönelik tutumunun kısa ve doğal biçimde anlatıldığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Sevginin karşıtı olan kişisel tutumu doğal ve kısa biçimde korur.",
+            "loses": "İstenmeyen şeyden içten uzak durma yönünü ve tutumun güçlü derecesini açıkça söylemez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "birbirinden hoşlanmamak",
+          "usage_role": "contextual",
+          "applicability": "İki tarafın aynı tutumu karşılıklı olarak taşıdığı durumları akıcı metin içinde anlatır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İki taraflı sevmeme durumunu ve karşılıklılığı korur.",
+            "loses": "Tek yönlü kullanımları, yoğun dereceyi ve sevilmez duruma getirme uzantısını dışarıda bırakır.",
+            "adds": null,
+            "collision": "Hoşlanmama, bazı bağlamlarda kaynak çekirdeğinden daha hafif anlaşılabilir."
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        },
+        {
+          "text": "sevilmez duruma getirmek",
+          "usage_role": "explanatory",
+          "applicability": "Bir kişi ya da şeyin başkalarının gözünde sevilmez kılındığı ettirgen kullanım için uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir başkasında sevmeme doğurulan ettirgen süreci korur.",
+            "loses": "Yalın iç tutumu, karşılıklı kullanımı ve kendiliğinden sevilmez duruma gelmeyi kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sevmeme ve içten uzak durma"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ondan nefret etti, ondan tiksindi"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "düşmanlar veya güçlü bir sevmeme taşıyanlar"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çok güçlü sevmeme"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çok güçlü sevmeme"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "adam sevilmez biri oldu"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "onun gözünde sevilmez oldu"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sevilmez duruma geliş"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sevilmeyen, itici bulunan"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sevmeme ve hoşlanmama eylemi"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birini veya bir şeyi başkalarına sevilmez göstermek"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sevilmez ve itici duruma getirilmiş"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çok güçlü sevmeme"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "karşılıklı olarak birbirini sevmeme"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Onu ne kadar da sevmiyorum!"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "öfkelenme",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Kişiye ya da şeye yönelik olumsuz tutumu korur.",
+            "loses": "Sevginin karşıtı olan yerleşik sevmeme ve içten uzak durma çekirdeğini kaybeder.",
+            "adds": "Geçici bir kızma ve taşkın tepki anlamı ekler.",
+            "collision": "Duygunun türünü sevmemeden kızgınlığa kaydırır."
+          }
+        },
+        {
+          "text": "düşmanlık",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Güçlü ve olumsuz kişiler arası tutum yönünü korur.",
+            "loses": null,
+            "adds": "Karşı koyma, zarar verme veya çatışma ilişkisini zorunluymuş gibi ekler.",
+            "collision": "İç tutumu kişiler arası eylemli bir ilişkiyle karıştırabilir."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001295/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Sevginin karşıtı olan güçlü iç tutumu, karşılıklı sevmemeyi ve sevilmez duruma getirme uzantılarını içerir.",
+          "neighbor_only": "Doğal eğilim, düşünsel değerlendirme veya kural bakımından uygun bulunmayan şeyleri de daha geniş biçimde kapsar.",
+          "gloss": "hoşlanmama ve uygun bulmama",
+          "shared_zone": "Her iki dal da kişinin istemediği bir şeye karşı olumsuz yönelişini ve ondan uzak durmasını anlatır.",
+          "distinction": "Odak dal sevginin karşıtı olan güçlü sevmeme tutumuna dayanır. Komşu dal ise daha hafif hoşlanmamayı ve duygu dışında değerlendirme ya da kural nedeniyle uygun bulmamayı da kapsadığı için tam eş anlamlı değildir."
+        },
+        {
+          "neighbor_ref": "root_000820/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Birinin sevilmez duruma gelmesini veya başkalarına sevilmez gösterilmesini ayrıca kapsar.",
+          "neighbor_only": "Sevmemeyi düşmanlık ilişkisi ve düşman kişi rolüyle birlikte kurar.",
+          "gloss": "güçlü sevmeme ve düşmanlık",
+          "shared_zone": "İki dalın ortak alanı güçlü sevmeme, bunu taşıyan kişi ve iki tarafın birbirini sevmemesi durumudur.",
+          "distinction": "Komşu dal güçlü sevmemeyi düşmanlık ve düşman kişiyle birleştirir. Odak dalın çekirdeği ise içten uzak durmadır; açık çatışma ya da düşmanlık ilişkisi gerektirmez."
+        },
+        {
+          "neighbor_ref": "root_001436/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Sevmeme için belirli bir neden veya en yüksek yoğunluk derecesi şart koşmaz.",
+          "neighbor_only": "Çirkin davranışta bulunan kişiye yönelen çok güçlü sevmeyi reddetme tutumunu ve bununla bağlantılı çirkin bulmayı öne çıkarır.",
+          "gloss": "çirkin davranana yönelik çok güçlü sevmeme",
+          "shared_zone": "Her iki dal da bir kişiye yönelen güçlü sevmeme tutumunu kapsayabilir.",
+          "distinction": "Komşu dal hem yoğunluk hem de çirkin davranışa tepki koşulu bakımından daha dardır. Odak dal herhangi bir kişi ya da şeye, bu özel neden bulunmadan da yöneltilebilir."
+        },
+        {
+          "neighbor_ref": "root_000686/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Sevginin karşıtı olan yerleşik sevmeme ve içten uzak durma durumunu temel alır.",
+          "neighbor_only": "Bir şeyden hoşnut olmama, ona kızma veya bir başkasını kızdırma durumlarını temel alır.",
+          "gloss": "hoşnutsuzluk ve kızgınlık",
+          "shared_zone": "Her iki dal da bir kişiye ya da şeye karşı olumsuz bir tutum ve istememe içerebilir.",
+          "distinction": "Hoşnutsuzluk ve kızgınlık belirli bir duruma verilen geçici tepki olabilir ve sevginin karşıtını gerektirmez. Odak dalda ise belirleyici çekirdek sevmeme ve içten uzak durmadır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı. Yayınlanan dört komşu, güçlü sevmeme, hoşlanmama, düşmanlık, yoğunluk ve hoşnutsuzluk sınırlarını belirginleştirir; öfke doğurma, hayvanın bir şeyden kaçınması, üzüntü ve ayrı sövgü sözü dalları çekirdeğe daha uzak kaldığı için eklenmedi.",
+      "branch_image_ar": "نفار النفس وخلاف الحب",
+      "what_is_ar": "البغض والإبغاض والبغضاء والبغضة والبغاضة والتباغض والتبغيض وصيرورة الشيء بغيضا",
+      "what_is_not_ar": "الأعلام؛ الدعاء على الجد؛ الصيغة الدعائية بالعين",
+      "source_phrase_ar": "أصل واحد وهو يدل على خلاف الحب (maqayis)؛ البغضة والبعضاء شدة البغض (ayn)؛ البغض ضد الحب (jamhara;sihah)؛ البغض نفار النفس عن الشيء الذي ترغب عنه (mufradat)؛ التباغض ضد التحاب (sihah)",
+      "sources": [
+        "MQ",
+        "AY",
+        "JA",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000136/B002",
+      "identity_judgment": {
+        "status": "reframed",
+        "rationale": "Kaynak ifadesi, bir erkeğe söylenen ve bahtının tökezlemesini dileyen başka bir sözle karşılaştırılan kalıplaşmış bir sövgüyü bildirir. Bu nedenle dal korunabilir; ancak geçici çerçevedeki 'dede' yorumu bırakılmalı, söz kişinin bahtına yönelen kötü dilek olarak anlaşılmalıdır.",
+        "boundary_note": "Bu dal bağımsız sevmeme anlamı değil, kişiye söylenen kalıplaşmış bir kötü dilek ve sövgüdür."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnızca kanıtlanan kalıplaşmış söz için geçerlidir; buradaki kötü dilek yalın kökün genel anlamına yayılmaz."
+      },
+      "concept_map": {
+        "definition": "Bir kişiye söylenen, onun bahtının kötü gitmesini dileyen kalıplaşmış bir sövgü sözüdür. Sözün işlevi doğrudan bir sevmeme durumunu bildirmek değil, karşıdakini kötü dilekle aşağılamaktır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişinin bahtının kötü gitmesini dileyen kalıplaşmış bir kötü dilektir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "Bu kalıplaşmış söz bir erkeğe yöneltilen sövgü ve aşağılama olarak kullanılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Kaynaklar sözün işlevini, kişinin bahtının tökezlemesini dileyen benzer bir sövgü sözüyle açıklar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar bu kalıplaşmış sözü bahtın tökezlemesini bildiren benzer bir sözle karşılaştırır. Toplu kanıtın kaynaklara göre ayrışan anlatımında bir erkeğe yöneltilen sövgü oluşu bir yerde açıkça belirtilirken başka bir yerde sözün zaman zaman kullanıldığı kaydedilir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bahtının kötü gitmesini dileyerek sövme",
+        "applicability": "Yalnızca kaynakta verilen kalıplaşmış sövgünün kötü dilek ve aşağılama işlevini açıklayan karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kişiye yönelişi, baht hakkında kötü dileği, kalıplaşmış sözü ve sövgü işlevini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "Bahtın kötü gitsin!",
+          "usage_role": "contextual",
+          "applicability": "Kalıplaşmış sözün bir kişiye doğrudan yöneltilen kötü dilek biçiminde çevrildiği konuşma bağlamına uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kişinin bahtına yönelen doğrudan kötü dileği korur.",
+            "loses": "Sözün sözlükte ayrıca sövgü olarak nitelenmesini tek başına açıkça göstermez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "bahtına kötü dilekte bulunmak",
+          "usage_role": "explanatory",
+          "applicability": "Sözün doğrudan alıntılanmadığı, işlevinin dolaylı biçimde açıklandığı anlatım bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kötü dileğin kişinin bahtına yönelmesini korur.",
+            "loses": "Kalıplaşmış söyleyiş biçimini ve sövgünün doğrudan hitap gücünü kaybeder.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Bahtın kötü gitsin!"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "dedene sövme",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Sövgünün bir kişiye yöneltilen aşağılayıcı niteliğini korur.",
+            "loses": "Kişinin bahtına yönelen kötü dileği ve karşılaştırılan tökezleme sözünü kaybeder.",
+            "adds": "Sövgünün hedefi olarak kişinin erkek atasını ekler.",
+            "collision": "Baht bildiren ögeyi akrabalık bildiren başka bir anlamla karıştırır."
+          }
+        },
+        {
+          "text": "sevmeme",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Olumsuz tutum yönünü genel olarak korur.",
+            "loses": "Kalıplaşmış kötü dileği, bahta yönelişi ve sövgü işlevini kaybeder.",
+            "adds": "Sözün bir iç duygu bildirdiği izlenimini ekler.",
+            "collision": "Bu dalı aynı kökün duygu bildiren ana dalıyla karıştırır."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000136/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bir kişiye bahtı hakkında yöneltilen kalıplaşmış kötü dilek ve sövgü işlevini taşır.",
+          "neighbor_only": "Sevginin karşıtı olan iç tutumu, karşılıklı sevmemeyi ve sevilmez duruma gelme uzantılarını taşır.",
+          "gloss": "sevmeme ve içten uzak durma",
+          "shared_zone": "İki dal da bir kişiye karşı olumsuz yöneliş taşıyabilir ve aynı söz ailesi içinde ilişkilidir.",
+          "distinction": "Odak dal bir duygu adı değil, kötü dilek yoluyla sövme işlevi taşıyan kalıplaşmış sözdür. Komşu dal ise kişinin birine ya da bir şeye yönelik sevmeme durumunu anlatır."
+        },
+        {
+          "neighbor_ref": "root_000182/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kötü dileği özellikle kişinin bahtına yöneltir.",
+          "neighbor_only": "Kişinin yıkıma uğramasını veya işlerinin ters gitmesini doğrudan dileyen ayrı söz biçimlerini içerir.",
+          "gloss": "yıkım ve terslik dileme",
+          "shared_zone": "Her iki dal da bir kişiye yönelik kalıplaşmış kötü dilek ve sövgü olarak kullanılabilir.",
+          "distinction": "Komşu dal yıkımı ya da tersliği doğrudan hedefler. Odak dalın ayırt edici sınırı ise kötü dileğin kişinin bahtı üzerinden kurulmasıdır."
+        },
+        {
+          "neighbor_ref": "root_001035/B010",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kişinin bahtının kötü gitmesini dileyen belirli bir sövgü sözüdür.",
+          "neighbor_only": "Bedene yönelen ve gerçekleşmesi amaçlanmayabilen başka bir kalıplaşmış sövgü biçimidir.",
+          "gloss": "bedene yönelik kalıplaşmış sövgü",
+          "shared_zone": "İki dal da doğrudan hitapta kötü dilek veya aşağılama değeri taşıyan kalıplaşmış sözlerdir.",
+          "distinction": "Odak dal bahtı hedefler ve kaynakta bahtın tökezlemesiyle açıklanır. Komşu dal bedeni hedefleyen farklı bir sövgü kalıbıdır ve dileğin gerçekleşmesi beklenmeyebilir."
+        },
+        {
+          "neighbor_ref": "root_001359/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kötü dileği kişinin bahtının kötü gitmesi üzerinden kurar.",
+          "neighbor_only": "Kınama ve lanetleme yoluyla sövmeyi, kişinin kendisine yönelen kullanımları ve karşılıklı kötü dilek sınamasını da kapsar.",
+          "gloss": "kınama yoluyla kötü dilek ve sövgü",
+          "shared_zone": "Her iki dal da bir kişiye kötü dilekte bulunma ile sövme işlevlerinin kesiştiği alandadır.",
+          "distinction": "Komşu dalın çekirdeği kınama yoluyla kötü dilektir ve kullanım alanı daha geniştir. Odak dal ise tek bir sözde kişinin bahtına yönelen kötü dilekle sınırlıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı. Yayınlanan dört komşu, duygu dalı ile kalıplaşmış kötü dilek arasındaki ayrımı ve kötü dileğin baht, yıkım, beden ya da kınama üzerinden kurulma farklarını gösterir; öteki adaylar aynı genel sövgü alanında daha uzak veya yinelenen karşılaştırmalar sunduğu için eklenmedi.",
+      "branch_image_ar": "دعاء على الجد بالسوء",
+      "what_is_ar": "قول بغض جده أو بغض جدك في الشتم على معنى عثر جدك",
+      "what_is_not_ar": "أصل البغض العام؛ اسم بغيض",
+      "source_phrase_ar": "وربما قالوا بغض جده كقولهم عثر (maqayis)؛ يقولون للرجل بغض جدك إذا شتموه كما يقولون عثر جدك (jamhara)",
+      "sources": [
+        "MQ",
+        "JA"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök iki anlam dalına ayrılır: biri sevginin karşıtı olan sevmeme ve içten uzak durma tutumunu, bunun yoğun, karşılıklı ve katılımcı değişimli uzantılarını anlatır; diğeri ise bir kişinin bahtının kötü gitmesini dileyen geleneksel bir sövgü işlevi taşır.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 5,
+      "word_count": 5,
+      "ayah_count": 5,
+      "surah_count": 3
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "بَغْضَآء",
+        "stem_ar": "بَغْضَآءُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:bagoDaA^'|ROOT:bgD|F|NOM",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "بَغْضَآء",
+        "stem_ar": "بَغْضَآءَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:bagoDaA^'|ROOT:bgD|F|ACC",
+        "occurrence_count": 3
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "3:118",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ بِطَانَةً مِّن دُونِكُمْ لَا يَأْلُونَكُمْ خَبَالًا وَدُّوا۟ مَا عَنِتُّمْ قَدْ بَدَتِ ٱلْبَغْضَآءُ مِنْ أَفْوَٰهِهِمْ وَمَا تُخْفِى صُدُورُهُمْ أَكْبَرُ قَدْ بَيَّنَّا لَكُمُ ٱلْءَايَٰتِ إِن كُنتُمْ تَعْقِلُونَ"
+      },
+      {
+        "ayah_ref": "5:14",
+        "surface_ar": "وَمِنَ ٱلَّذِينَ قَالُوٓا۟ إِنَّا نَصَٰرَىٰٓ أَخَذْنَا مِيثَٰقَهُمْ فَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ فَأَغْرَيْنَا بَيْنَهُمُ ٱلْعَدَاوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ وَسَوْفَ يُنَبِّئُهُمُ ٱللَّهُ بِمَا كَانُوا۟ يَصْنَعُونَ"
+      },
+      {
+        "ayah_ref": "5:64",
+        "surface_ar": "وَقَالَتِ ٱلْيَهُودُ يَدُ ٱللَّهِ مَغْلُولَةٌ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا۟ بِمَا قَالُوا۟ بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا وَأَلْقَيْنَا بَيْنَهُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ كُلَّمَآ أَوْقَدُوا۟ نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ وَيَسْعَوْنَ فِى ٱلْأَرْضِ فَسَادًا وَٱللَّهُ لَا يُحِبُّ ٱلْمُفْسِدِينَ"
+      },
+      {
+        "ayah_ref": "5:91",
+        "surface_ar": "إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ فَهَلْ أَنتُم مُّنتَهُونَ"
+      },
+      {
+        "ayah_ref": "60:4",
+        "surface_ar": "قَدْ كَانَتْ لَكُمْ أُسْوَةٌ حَسَنَةٌ فِىٓ إِبْرَٰهِيمَ وَٱلَّذِينَ مَعَهُۥٓ إِذْ قَالُوا۟ لِقَوْمِهِمْ إِنَّا بُرَءَٰٓؤُا۟ مِنكُمْ وَمِمَّا تَعْبُدُونَ مِن دُونِ ٱللَّهِ كَفَرْنَا بِكُمْ وَبَدَا بَيْنَنَا وَبَيْنَكُمُ ٱلْعَدَٰوَةُ وَٱلْبَغْضَآءُ أَبَدًا حَتَّىٰ تُؤْمِنُوا۟ بِٱللَّهِ وَحْدَهُۥٓ إِلَّا قَوْلَ إِبْرَٰهِيمَ لِأَبِيهِ لَأَسْتَغْفِرَنَّ لَكَ وَمَآ أَمْلِكُ لَكَ مِنَ ٱللَّهِ مِن شَىْءٍ رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "3:118:17:2",
+        "qac_word_ref": "3:118:17",
+        "surah": 3,
+        "ayah": 118,
+        "word_index": 17,
+        "morpheme_index": 2,
+        "surface_ar": "بَغْضَآءُ",
+        "stem_ar": "بَغْضَآءُ",
+        "lemma_ar": "بَغْضَآء",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:bagoDaA^'|ROOT:bgD|F|NOM",
+        "ayah_ref": "3:118",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s003:118:noun:18",
+          "attachment_word_unit_id": "q:3:118:18",
+          "qac_char_span": [
+            66,
+            73
+          ],
+          "attachment_char_spans": [
+            [
+              68,
+              73
+            ]
+          ],
+          "source_grammar": "Noun (NOUN_ABSTRACT), nominative definite with al-; subject of badati; intensive/emphatic noun form (faʿlāʾ) denoting extreme degree of the quality; from root b-gh-ḍ (to hate, to detest)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s003:118:pass1:attach:a8",
+              "relation": "subject",
+              "focus_role": "dependent",
+              "other_unit_id": "q:3:118:17",
+              "other_surface": "بَدَتِ",
+              "other_root": "ب د د",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "agreement;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "5:14:16:3",
+        "qac_word_ref": "5:14:16",
+        "surah": 5,
+        "ayah": 14,
+        "word_index": 16,
+        "morpheme_index": 3,
+        "surface_ar": "بَغْضَآءَ",
+        "stem_ar": "بَغْضَآءَ",
+        "lemma_ar": "بَغْضَآء",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:bagoDaA^'|ROOT:bgD|F|ACC",
+        "ayah_ref": "5:14",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s005:014:noun:20",
+          "attachment_word_unit_id": "q:5:14:20",
+          "qac_char_span": [
+            72,
+            80
+          ],
+          "attachment_char_spans": [
+            [
+              72,
+              80
+            ],
+            [
+              75,
+              80
+            ]
+          ],
+          "source_grammar": "abstract noun (NOUN_ABSTRACT), definite accusative (CONJ_N, second object of aghraynā)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s005:014:pass1:attach:a11",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:5:14:18",
+              "other_surface": "الْعَدَاوَةَ",
+              "other_root": "ع د و",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "5:64:30:3",
+        "qac_word_ref": "5:64:30",
+        "surah": 5,
+        "ayah": 64,
+        "word_index": 30,
+        "morpheme_index": 3,
+        "surface_ar": "بَغْضَآءَ",
+        "stem_ar": "بَغْضَآءَ",
+        "lemma_ar": "بَغْضَآء",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:bagoDaA^'|ROOT:bgD|F|ACC",
+        "ayah_ref": "5:64",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s005:064:noun:38",
+          "attachment_word_unit_id": "q:5:64:38",
+          "qac_char_span": [
+            132,
+            140
+          ],
+          "attachment_char_spans": [
+            [
+              132,
+              140
+            ],
+            [
+              135,
+              140
+            ]
+          ],
+          "source_grammar": "noun abstract (NOUN_ABSTRACT), accusative (coordinated object with al-ʿadāwata), definite (al-)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s005:064:pass1:attach:a20",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:5:64:36",
+              "other_surface": "الْعَدَاوَةَ",
+              "other_root": "ع د و",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "5:91:8:3",
+        "qac_word_ref": "5:91:8",
+        "surah": 5,
+        "ayah": 91,
+        "word_index": 8,
+        "morpheme_index": 3,
+        "surface_ar": "بَغْضَآءَ",
+        "stem_ar": "بَغْضَآءَ",
+        "lemma_ar": "بَغْضَآء",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:bagoDaA^'|ROOT:bgD|F|ACC",
+        "ayah_ref": "5:91",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s005:091:noun:9",
+          "attachment_word_unit_id": "q:5:91:9",
+          "qac_char_span": [
+            33,
+            41
+          ],
+          "attachment_char_spans": [
+            [
+              33,
+              41
+            ],
+            [
+              36,
+              41
+            ]
+          ],
+          "source_grammar": "Definite abstract noun, accusative (CONJ_N — coordinated object with al-ʿadāwa). From b-gh-ḍ: to hate, to detest, to feel intense aversion. Al-baghḍāʾ = the state of mutual hatred/aversion",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s005:091:pass1:attach:a5",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:5:91:7",
+              "other_surface": "الْعَدَاوَةَ",
+              "other_root": "ع د و",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax;parallelism"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "60:4:27:3",
+        "qac_word_ref": "60:4:27",
+        "surah": 60,
+        "ayah": 4,
+        "word_index": 27,
+        "morpheme_index": 3,
+        "surface_ar": "بَغْضَآءُ",
+        "stem_ar": "بَغْضَآءُ",
+        "lemma_ar": "بَغْضَآء",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:bagoDaA^'|ROOT:bgD|F|NOM",
+        "ayah_ref": "60:4",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s060:004:noun:34",
+          "attachment_word_unit_id": "q:60:4:34",
+          "qac_char_span": [
+            111,
+            119
+          ],
+          "attachment_char_spans": [
+            [
+              111,
+              119
+            ],
+            [
+              114,
+              119
+            ]
+          ],
+          "source_grammar": "abstract noun (ism), nominative (marfūʿ) as second subject of badā, definite with al-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s060:004:pass1:attach:a23",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:60:4:32",
+              "other_surface": "الْعَدَاوَةُ",
+              "other_root": "ع د و",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

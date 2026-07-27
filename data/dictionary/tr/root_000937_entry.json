@@ -1,0 +1,3386 @@
+{
+  "inputs_sha256": "6634a513657fc729a4535b904ef279986181f8dbe986096782b4f68a68ffe270",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000937",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000937/B001",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi, çekirdeği itaatsizlikte sınırı aşma olarak verirken ölçüsünü aşan her şeyi de kapsar; ayrıca başkasını bu duruma sürükleyen ettirgen kullanımı ve sınır tanımaz zorba kişiyi bildiren türemiş kullanımı belirtir. Bu nedenle dal korunabilir, ancak yalnızca insanın itaatsizliğiyle sınırlandırılmamalı ve türemiş kullanımlar çekirdek eylemle özdeşleştirilmemelidir.",
+        "boundary_note": "Dalın çekirdeği sınır veya ölçü aşımıdır; suyun taşması, sapmanın önderi ve pürüzsüz kaya anlamları bu dala girmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım yalın sınır aşma çekirdeğini, birini sınır aşmaya sürükleyen ettirgen kullanımdan ve zorba kişiyi bildiren türemiş kullanımdan ayrı tutar."
+      },
+      "concept_map": {
+        "definition": "Bir kimsenin itaatsizlikte ya da herhangi bir şeyin kendi ölçüsünde belirlenmiş sınırı aşmasıdır. Türemiş kullanımlar, birini böyle bir aşırılığa sürüklemeyi ve sınır tanımayan inatçı zorba kişiyi anlatır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir varlığın kendisi için geçerli sınırı veya uygun ölçüyü aşması çekirdek anlamdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "İnsan davranışında bu aşım, özellikle itaatsizlik ve başkaldırı içinde sınır tanımama biçiminde gerçekleşir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Ettirgen kullanım, bir kimseyi sınır aşan ve taşkın davranışa sürükleme sonucunu bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "specialization",
+            "statement": "Kişi adı olarak türemiş kullanım, yaptığını umursamayan, insanları ezen, inatçı ve kibirli zorbayı niteler.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynakların birleşen anlatımı, temel anlamı sınırın veya belirlenmiş ölçünün aşılması olarak kurar ve insan davranışında itaatsizliği öne çıkarır. Aynı kanıt, başkasını bu duruma sürükleme ile sınır tanımaz zorba kişiyi bildiren türemiş kullanımları da içerir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "itaatsizlikte veya ölçüde sınırı aşma",
+        "applicability": "Çekirdek eylemi hem insanın itaatsizliği hem de herhangi bir şeyin kendi ölçüsünü aşması için karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sınır veya ölçü aşımını ve itaatsizlik bağlamını birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "azıp sınırı aştı",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin itaatsizlik ve başkaldırı içinde kabul edilen sınırı aşmasını anlatan cümlelerde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İnsan davranışındaki itaatsiz sınır aşımını doğal biçimde korur.",
+            "loses": "İnsan dışındaki şeylerin kendi ölçüsünü aşabilmesi kapsamını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "onu azdırıp sınır aşmaya sürükledi",
+          "usage_role": "contextual",
+          "applicability": "Bir etkenin başka bir kişiyi sınır tanımaz davranışa yönelttiği ettirgen bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Başka bir katılımcıyı aşırılığa sürükleyen ettirgen ilişkiyi korur.",
+            "loses": "Yalın biçimde öznenin kendi sınırını aşması ve zorba kişi kullanımı bu karşılıkta yer almaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        },
+        {
+          "text": "sınır tanımaz zorba",
+          "usage_role": "contextual",
+          "applicability": "İnsanları ezen, yaptığı kötülüğü umursamayan inatçı ve kibirli kişiyi niteleyen bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kişiye yüklenen zorbalık, inat ve sınır tanımazlık özelliklerini korur.",
+            "loses": "Eylem olarak sınırı aşma ve başkasını bu eyleme sürükleme anlamlarını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sınırı veya ölçüyü aşmak, azmak"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "itaatsizlikte sınırı aşan, azgın"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "itaatsizlikte sınır tanımazlık ve azgınlık"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sınırı aşma ve azgınlık"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sınırı aşma durumu, azgınlık"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "onu azdırdı veya sınır aşmaya sürükledi"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "inatçı, kibirli ve sınır tanımaz zorba"
+        },
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Roma hükümdarına verilen unvan"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000936/B001",
+          "relation_type": "synonym",
+          "boundary_match": "exact",
+          "focus_only": null,
+          "neighbor_only": null,
+          "gloss": "sınırı aşma ve azgınlık",
+          "shared_zone": "Her iki dal da sınırın veya ölçünün aşılmasını, itaatsizliği ve birini bu duruma sürükleyen kullanımı kapsar.",
+          "distinction": "Verilen kartlarda çekirdek, kapsam ve türemiş kullanımlar bakımından anlamlı bir sınır farkı görünmez."
+        },
+        {
+          "neighbor_ref": "root_000699/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "İtaatsizlikte azgınlaşmayı, birini azdırmayı ve sınır tanımaz zorba kişiyi de kapsar.",
+          "neighbor_only": "Harcama, öldürme, yeme ve su kullanımı gibi alanlarda bir şeyi hak veya yarar dışında kullanmayı özellikle kapsar.",
+          "gloss": "ölçüsüzce sınırı aşma",
+          "shared_zone": "İki dalın ortak alanı, geçerli sınırı veya uygun ölçüyü aşan davranıştır.",
+          "distinction": "Odak dal itaatsizlik ve azgınlık ekseninde kişisel ve ettirgen türevler kurar; komşu dal ise amaçsız veya haksız kullanım ve savurganlık alanlarına uzanır."
+        },
+        {
+          "neighbor_ref": "root_000125/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Nimet veya sevinç koşulu olmadan genel sınır aşımını ve itaatsizliği kapsar.",
+          "neighbor_only": "Özellikle nimet karşısındaki aşırı sevinç, şımarıklık ve nimeti küçümseme durumunu kapsar.",
+          "gloss": "şımararak ölçüyü aşma",
+          "shared_zone": "Her iki dal da kişinin davranışta ölçüyü aşarak taşkınlaşmasını içerebilir.",
+          "distinction": "Komşu dalın ayırt edici koşulu nimet karşısındaki şımarma ve coşkudur; odak dal için böyle bir neden veya duygu gerekli değildir."
+        },
+        {
+          "neighbor_ref": "root_000937/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "İtaatsizlikte davranış sınırını aşmayı ve bundan türeyen zorba kişi anlamını taşır.",
+          "neighbor_only": "Su, sel, deniz, kan, ses veya rüzgarın miktar ya da güç bakımından kabarıp bastırmasını bildirir.",
+          "gloss": "sınırı aşan taşkınlık",
+          "shared_zone": "İki dalda da olağan sınırın veya ölçünün aşılması ortak bir kavramsal zemin oluşturur.",
+          "distinction": "Odak dal davranışsal ve ahlaki sınır aşımıdır; komşu dal yalnızca belirli maddi güçlerle kurulan söz öbeklerinde kabarma ve bastırma olayını anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; aynı kapsamlı dal ile sınır aşımı, nimet karşısında şımarma ve maddi taşkınlık arasındaki en yararlı dört karşılaştırma seçildi.",
+      "branch_image_ar": "مجاوزة الحد في العصيان",
+      "what_is_ar": "يدخل فيه طغى وطاغ والطغيان والطغوان والطغوى وأطغاه إذا حمله على الطغيان والطاغية بمعنى الجبار",
+      "what_is_not_ar": "ليس فيضان الماء ولا الطاغوت ولا الصخرة الملساء",
+      "source_phrase_ar": "مجاوزة الحد في العصيان (maqayis;mufradat); جاوز الحد وكل مجاوز حده في العصيان (sihah); كل شيء جاوز القدر فقد طغا (tahdhib); أطغاه المال أي جعله طاغيا (sihah); الطاغية الجبار العنيد (tahdhib)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000937/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, selin bol suyla gelmesini, suyun belirlenmiş miktarı aşmasını, deniz dalgalarının kabarmasını, kanın coşmasını ve su ya da denizin yükselip önündekileri sürüklemesini açıkça bir arada verir. Ses ve rüzgarın ölçüyü aşan güçle bastırması da aynı maddi kuvvet uzantısı içinde desteklenir.",
+        "boundary_note": "Bu dal yalın bir kök anlamı değil, su, sel, deniz, kan, ses veya rüzgar öznesiyle kurulan taşma ve bastırma kullanımlarıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnızca kanıtlanan söz öbeklerine bağlıdır; kabarma ve bastırma anlamı yalın biçime genellenmez."
+      },
+      "concept_map": {
+        "definition": "Su, sel, deniz veya kanın olağan miktarını ya da düzeyini aşarak kabarması, coşması ve kimi bağlamlarda önündekileri sürüklemesidir. Ses ve rüzgarla kurulan kullanımlarda, ölçüyü aşan gücün baskın gelmesini anlatır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Su veya sel, olağan miktarı ve düzeyi aşacak ölçüde çoğalır ve yükselir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Deniz kullanımında dalgaların şiddetle kabarıp yükselmesi ve önündekileri sürüklemesi öne çıkar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Kan kullanımında sıvının coşması ve basınçla kabarması anlatılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "extension",
+            "statement": "Ses veya rüzgar kullanımında olağan ölçüyü aşan kuvvetin üstün gelip bastırması anlatılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Toplu kanıt, söz öbeği içindeki öznenin olağan miktarı veya gücü aşmasını ortaklaştırır. Suda ve selde çokluk ile yükselme, denizde dalga kabarması ve sürükleme, kanda coşma, ses ve rüzgarda ise baskın güç bu çekirdeğin ayrı gerçekleşmeleridir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "ölçüyü aşarak kabarıp bastırma",
+        "applicability": "Kanıtlanan su, sel, deniz, kan, ses ve rüzgar söz öbeklerinin ortak taşma ve baskın gelme yapısını karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Olağan ölçünün aşılmasını, kabarmayı ve gücün baskın gelmesini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "sel bol suyla kabarıp taştı",
+          "usage_role": "contextual",
+          "applicability": "Selin olağan miktardan çok su taşıyarak yükseldiği bağlamlarda doğal bir cümle karşılığıdır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Sel suyunun çokluğunu, yükselmesini ve taşmasını korur.",
+            "loses": "Deniz, kan, ses ve rüzgarla kurulan diğer söz öbeği kullanımlarını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "deniz coşup önündekileri sürükledi",
+          "usage_role": "contextual",
+          "applicability": "Deniz dalgalarının yükseldiği ve kuvvetle sürüklediği olay bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Denizin dalga kabarmasını, yükselmesini ve sürükleyici gücünü korur.",
+            "loses": "Sel, su, kan, ses ve rüzgarla kurulan diğer kullanımlar bu karşılıkta yer almaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "kan kabarıp coştu",
+          "usage_role": "contextual",
+          "applicability": "Kanın basınçla kabardığını ve şiddetle hareketlendiğini anlatan bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kanla sınırlı coşma ve kabarma görünümünü korur.",
+            "loses": "Su, sel, deniz, ses ve rüzgarla kurulan kullanımları dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        },
+        {
+          "text": "çığlık ya da rüzgar baskın geldi",
+          "usage_role": "contextual",
+          "applicability": "Sesin veya rüzgarın olağan ölçüyü aşan bir güçle her şeye üstün geldiği bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Ses ve rüzgarın ölçüyü aşan baskın kuvvetini korur.",
+            "loses": "Sıvıların çoğalma, kabarma ve sürükleme görünümlerini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sel bol suyla geldi ve kabardı"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "su olağan düzeyi aşıp yükseldi"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "denizin dalgaları kabarıp yükseldi"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kan kabarıp coştu"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çığlık ya da rüzgar ölçüyü aşan güçle baskın geldi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000936/B002",
+          "relation_type": "synonym",
+          "boundary_match": "exact",
+          "focus_only": null,
+          "neighbor_only": null,
+          "gloss": "maddi gücün ölçüyü aşması",
+          "shared_zone": "Her iki dal su, sel, deniz ve kanın olağan miktarı aşarak kabarmasını ve benzer maddi güç uzantılarını kapsar.",
+          "distinction": "Verilen kartlarda çekirdek, katılımcılar ve maddi kuvvet uzantısı bakımından anlamlı bir sınır farkı görünmez."
+        },
+        {
+          "neighbor_ref": "root_000480/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Suyun düzeyi aşmasını, deniz dalgalarının kabarmasını, kanın coşmasını ve ses ya da rüzgarın bastırmasını kapsar.",
+          "neighbor_only": "Büyük sel ve dalga yanında insanların, yürüyüşün veya koşan atın birbirini iten yoğun hareketini de kapsar.",
+          "gloss": "itici taşkın güç",
+          "shared_zone": "Büyük selin veya dalganın yoğun ve itici hareketi iki dalın ortak alanıdır.",
+          "distinction": "Odak dalda temel sınır olağan miktar veya gücün aşılmasıdır; komşu dalda ise ögelerin birbirini iterek ilerlemesi ve kalabalık hareketi belirleyicidir."
+        },
+        {
+          "neighbor_ref": "root_000023/B003",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Denizin dışında sel, su, kan, ses ve rüzgarı da kapsar; olağan ölçüyü aşan güç belirleyicidir.",
+          "neighbor_only": "Deniz dalgasını veya rüzgarın su yüzeyinde kaldırdığı tabakaları, ölçü aşımı şartı olmadan adlandırır.",
+          "gloss": "deniz dalgası",
+          "shared_zone": "İki dal da deniz yüzeyinde yükselen ve hareketlenen suyu anlatabilir.",
+          "distinction": "Komşu dal su biçiminin adı ve betimidir; odak dal ise yalnız belirli söz öbeklerinde dalganın olağan ölçüyü aşarak coşmasını bildirir."
+        },
+        {
+          "neighbor_ref": "root_000810/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Sıvının miktar ve düzey aşımını, ayrıca sesin baskın gelmesini içerir.",
+          "neighbor_only": "Yağmurun düşüşü ile sıcak, soğuk ve rüzgarın şiddetlenmesini ölçü aşımı veya sürükleme şartı olmadan anlatır.",
+          "gloss": "şiddetlenip coşma",
+          "shared_zone": "Rüzgarın kuvvetlenmesi ve doğa olaylarının olağanın üstünde şiddet kazanması ortak alandır.",
+          "distinction": "Odak dal sınırı aşan kabarma ve baskın gelmeye bağlı söz öbekleridir; komşu dal daha genel biçimde hava olaylarının ve sıcaklık koşullarının şiddetlenmesini anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; tam eşleşen dal ile itici sel gücü, deniz dalgası ve doğa olaylarının şiddetlenmesi arasındaki dört sınır karşılaştırması yeterli bulundu.",
+      "branch_image_ar": "علو الماء والقوة الجارفة",
+      "what_is_ar": "يدخل فيه طغيان الماء والسيل والبحر والدم وما علا فاجترف من صيحة أو ريح",
+      "what_is_not_ar": "ليس العصيان المجرد ولا الطاغوت ولا الصخرة الملساء",
+      "source_phrase_ar": "طغى السيل إذا جاء بماء كثير (maqayis;sihah); طغى الماء خروجه عن المقدار (maqayis); طغى البحر هاجت أمواجه (maqayis;sihah); طغى الدم تبيغ (maqayis;sihah); طغا البحر والماء إذا علا كل شيء فاجترفه (tahdhib); استعير الطغيان فيه لتجاوز الماء الحد (mufradat)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000937/B003",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi yanlış yolun önderini merkezde tutmakla birlikte kapsamı tek bir önder türüne indirmez; falcıyı, büyücüyü, kötücül doğaüstü varlığı, Tanrı dışında tapınılan varlığı, sınır aşan kişiyi ve iyilik yolundan çevireni de aynı ad altında toplar. Dal bu geniş ve işlevsel sınır açıkça korunursa geçerlidir.",
+        "boundary_note": "Bu kategori her sınır aşan kişiyi değil, yanlış yola önderlik eden, tapınılan veya iyilikten saptıran kişi ya da gücü kapsar."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım, sözlük biriminin yalın kategori anlamını verir ve başka dallardaki su taşkınlığı ya da yıkıcı olay anlamlarını içeri almaz."
+      },
+      "concept_map": {
+        "definition": "Yanlış yolun başı sayılan, insanları iyilikten çeviren veya Tanrı dışında kendisine tapınılan kişi, varlık ya da güçtür. Falcı, büyücü ve kötücül doğaüstü varlıklar bu işlevleri taşıdıklarında kategoriye girer.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Yanlış yola önderlik eden ve başkalarını iyilik yolundan çeviren kişi, varlık veya güç temel kategoriyi oluşturur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Tanrı dışında kendisine tapınılan herhangi bir varlık bu kategoriye girer.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "example",
+            "statement": "Falcı, büyücü ve kötücül ya da başkaldıran doğaüstü varlıklar, saptırıcı işlevleriyle bu kategorinin örnekleridir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "extension",
+            "statement": "Sınırı aşan ve başkalarını iyi yoldan uzaklaştıran zorlayıcı kişi de aynı kategori adıyla anılabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Toplu kaynak anlatımı tek bir kişi türünden daha geniş bir işlevsel kategori kurar: yanlış yolun önderi, Tanrı dışında tapınılan varlık, kötücül doğaüstü güç, falcı, büyücü ve iyilikten saptıran sınır aşan kişi bu kapsamda birleşir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yanlış yolun önderi, tapınılan sahte varlık veya saptırıcı zorba güç",
+        "applicability": "Kategorinin önderlik, Tanrı dışında tapınılma ve iyilikten saptırma biçimindeki üç temel gerçekleşmesini birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yanlış yola önderliği, tapınılma nesnesini ve saptırıcı zorlayıcı gücü birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yanlış yolun önderi",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin veya varlığın sapmayı yönetip başkalarını iyilikten uzaklaştırdığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Saptırıcı önderlik ve iyilik yolundan çevirme işlevini korur.",
+            "loses": "Önderlik etmeyen tapınma nesneleri ile falcı, büyücü ve doğaüstü varlık örneklerini bütünüyle kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F004"
+          ]
+        },
+        {
+          "text": "Tanrı dışında tapınılan varlık",
+          "usage_role": "explanatory",
+          "applicability": "Sözcüğün Tanrı yerine bağlılık ve tapınma yöneltilen herhangi bir varlığı anlattığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Tanrı dışında tapınılma ölçütünü açık ve doğal biçimde korur.",
+            "loses": "Tapınılmadan da insanları iyilikten saptıran önder, falcı, büyücü veya zorba kişi kullanımlarını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "iyilikten saptıran kötücül güç",
+          "usage_role": "contextual",
+          "applicability": "Kötücül doğaüstü bir varlığın veya zorlayıcı gücün insanı iyi yoldan uzaklaştırdığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kötücül güç ve iyilik yolundan saptırma işlevini korur.",
+            "loses": "Tapınılan varlık ve insan olan falcı, büyücü ya da yanlış yol önderinin bütün kullanımlarını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003",
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yanlış yolun önderi, Tanrı dışında tapınılan varlık veya iyilikten saptıran zorba güç"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000936/B003",
+          "relation_type": "synonym",
+          "boundary_match": "exact",
+          "focus_only": null,
+          "neighbor_only": null,
+          "gloss": "sapmanın önderi ve tapınılan varlık",
+          "shared_zone": "Her iki dal yanlış yolun önderini, Tanrı dışında tapınılan varlığı ve falcı ya da kötücül güç gibi örnekleri kapsar.",
+          "distinction": "Verilen kartlarda kategori çekirdeği ve kapsamı bakımından anlamlı bir sınır farkı görünmez."
+        },
+        {
+          "neighbor_ref": "root_000937/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Tapınılan varlığı, yanlış yolun önderini ve iyilikten saptıran doğaüstü ya da beşeri gücü kapsar.",
+          "neighbor_only": "Genel sınır veya ölçü aşımını, itaatsizliği ve bundan türeyen zorba kişi niteliğini kapsar.",
+          "gloss": "sınır tanımaz saptırıcı güç",
+          "shared_zone": "Sınır tanımayan zorba bir kişi aynı zamanda başkalarını yanlış yola sürüklediğinde iki kategori kesişebilir.",
+          "distinction": "Odak dal saptırıcı veya tapınılan bir varlık kategorisidir; komşu dal ise böyle bir dini ya da yönlendirici işlev gerektirmeyen sınır aşımıdır."
+        },
+        {
+          "neighbor_ref": "root_000032/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Herhangi bir yanlış yol önderini, saptırıcı gücü veya Tanrı dışında tapınılan varlığı kapsayan genel kategoridir.",
+          "neighbor_only": "Belirli bir topluluğa ait tek bir tapınma nesnesinin özel adını ve ona ilişkin anlatıyı kapsar.",
+          "gloss": "tapınılan belirli nesne",
+          "shared_zone": "İki dal da Tanrı dışında kendisine tapınılan bir varlığa uygulanabilir.",
+          "distinction": "Komşu dal belirli bir nesnenin özel adıdır; odak dal ise ad, tür ve tekillik ayrımı yapmadan işlevsel bir genel kategori kurar."
+        },
+        {
+          "neighbor_ref": "root_001281/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Yanlış yola önderlik, tapınılma ve başkalarını iyilikten çevirme işlevlerini gerektirir.",
+          "neighbor_only": "Büyüklük, yücelik ve kişinin gerçeği kabul etmeyen kibri üzerinde durur; saptırma veya tapınılma gerektirmez.",
+          "gloss": "kibirli saptırıcı",
+          "shared_zone": "Kibirli ve gerçeğe direnen bir zorba, aynı zamanda başkalarını saptırdığında iki alan kesişebilir.",
+          "distinction": "Komşu dal bir büyüklük veya kibir niteliğidir; odak dal ise yanlış yola yönelten ya da tapınılan kişi, varlık veya güç kategorisidir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; tam eşleşen dal ile sınır aşan zorba, belirli tapınma nesnesi ve kibir alanı arasındaki dört karşılaştırma kategori sınırını en iyi açıklar.",
+      "branch_image_ar": "الطاغوت رأس الضلالة",
+      "what_is_ar": "يدخل فيه الطاغوت للكاهن والشيطان وكل رأس في الضلالة وكل معبود من دون الله والمتعدي الصارف عن طريق الخير",
+      "what_is_not_ar": "ليس كل طاغ ولا طغيان الماء ولا الصاعقة المسماة بالطاغية",
+      "source_phrase_ar": "الطاغوت الكاهن والشيطان وكل رأس في الضلالة (sihah); كل معبود من دون الله جبت وطاغوت (tahdhib); الطاغوت الشيطان (tahdhib); الطاغوت عبارة عن كل متعد وكل معبود من دون الله (mufradat); الساحر والكاهن والمارد من الجن والصارف عن طريق الخير طاغوتا (mufradat)",
+      "sources": [
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000937/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi tek ve bütünüyle birleşmiş bir ceza türü vermez; aynı biçimi yıkıcı yıldırım veya ceza çığlığı, büyük su baskını ve insanların yıkıma yol açan kendi sınır aşımı olarak ayrı biçimlerde açıklar. Dal, bu yorum farklarını ezici bir yıkım ekseni altında koruduğu sürece kullanılabilir.",
+        "boundary_note": "Dal yalnızca zorba kişiyi anlatmaz; yıkıcı olayı veya kimi yorumda yıkıma neden olan sınır aşımını bildirir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım, yalın sözlük biriminin kaynaklarda verilen olay ve neden yorumlarını korur; zorba kişi anlamını bu dala taşımaz."
+      },
+      "concept_map": {
+        "definition": "Bir topluluğu yok eden ezici olay veya yıkıma götüren sınır aşımıdır. Kaynak yorumlarında olay, yıkıcı yıldırım ya da ceza çığlığı veya büyük su baskını olarak; neden ise insanların kendi taşkın davranışı olarak açıklanır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Ortak eksen, bir topluluğun yok oluşuna bağlanan ezici olay veya nedendir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Bir yorum, yıkım aracını şiddetli yıldırım ya da ceza bildiren öldürücü çığlık olarak belirler.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Başka bir yorum, sözcüğü insanları yok eden büyük su baskınına gönderme sayar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "source_variant",
+            "statement": "Bir diğer yorum, sözcüğü yıkım aracı değil, insanların yıkıma yol açan kendi sınır aşımının adlaşmış biçimi sayar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kanıt aynı kullanım için üç açıklama sunar: öldürücü yıldırım veya ceza çığlığı, yıkıcı büyük su baskını ve insanların kendi sınır aşımı. Bunlar yıkım bağlantısında birleşir, fakat olayın aracı ile yıkımın davranışsal nedeni aynılaştırılmamalıdır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yıkıma götüren ezici olay veya sınır aşımı",
+        "applicability": "Yıkıcı yıldırım, ceza çığlığı, büyük su baskını ve yıkıma neden olan davranış yorumu birlikte söz konusu olduğunda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hem yıkıcı olay yorumlarını hem de yıkıma yol açan sınır aşımı yorumunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yıkıcı yıldırım ya da ceza çığlığı",
+          "usage_role": "explanatory",
+          "applicability": "Yok edici olayın gökten gelen şiddetli bir vuruş veya öldürücü bir ses olarak yorumlandığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Yıldırım ve öldürücü ses yoluyla gerçekleşen ezici yıkım yorumunu korur.",
+            "loses": "Büyük su baskını ve insanların kendi sınır aşımı biçimindeki diğer yorumları dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "yok eden büyük su baskını",
+          "usage_role": "explanatory",
+          "applicability": "Yıkım aracının geniş çaplı ve ezici bir su baskını olarak yorumlandığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Topluluğu yok eden büyük su baskını yorumunu açıkça korur.",
+            "loses": "Yıldırım, öldürücü ses ve davranışsal sınır aşımı yorumlarını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        },
+        {
+          "text": "yıkıma yol açan sınır aşımı",
+          "usage_role": "explanatory",
+          "applicability": "Sözcüğün yıkım aracını değil, toplumun kendi taşkın davranışını adlandırdığı yorumda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İnsanların kendi sınır aşımının yıkıma neden olması ilişkisini korur.",
+            "loses": "Yıldırım, ceza çığlığı ve büyük su baskını biçimindeki yıkıcı olay yorumlarını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yıkıcı yıldırım veya ceza çığlığı, büyük su baskını ya da yıkıma yol açan sınır aşımı"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000936/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Sözcüğü kimi yorumda insanların yıkıma yol açan kendi sınır aşımının adı sayar.",
+          "neighbor_only": "Bütün kapsamı baskın ceza başlığı altında toplar ve olay ile neden arasındaki yorum farkını daha az belirgin bırakır.",
+          "gloss": "ezici yıkım veya nedeni",
+          "shared_zone": "İki dal da yıkıcı yıldırım, ceza çığlığı ve büyük su baskınıyla bağlantılı ezici yok oluşu kapsar.",
+          "distinction": "Odak dal, yıkıcı olay yorumlarının yanında dilbilgisel olarak insanların kendi sınır aşımını bildiren neden yorumunu açıkça ayrı tutar."
+        },
+        {
+          "neighbor_ref": "root_000864/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Büyük su baskınını ve yıkıma neden olan davranışsal sınır aşımını da kapsar.",
+          "neighbor_only": "Göksel gürültü, şiddetli vuruş, ateş, ölüm veya ceza içerebilen yıldırım olayının kendisini daha genel biçimde anlatır.",
+          "gloss": "yıkıcı göksel vuruş",
+          "shared_zone": "Yok edici yıldırım veya şiddetli göksel ses iki dalın kesiştiği olaydır.",
+          "distinction": "Komşu dal yıldırım olayının genel alanıdır; odak dal belirli bir yıkım anlatısındaki sözcüğün yıldırım yanında su baskını ve davranışsal neden yorumlarını da taşır."
+        },
+        {
+          "neighbor_ref": "root_000164/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Yok oluşa yol açan yıldırım, ses, su baskını veya sınır aşımı biçimindeki araç ya da nedeni bildirir.",
+          "neighbor_only": "Bir şeyin veya kişinin yok olmuş, bozulmuş ya da geçersiz hale gelmiş durumunu ve bu duruma ilişkin yargıyı kapsar.",
+          "gloss": "yok oluş ve bozulma",
+          "shared_zone": "Her iki dal yıkım, yok olma ve ağır ceza sonucuyla ilişkilidir.",
+          "distinction": "Odak dal yıkımın ezici aracını veya nedenini öne çıkarır; komşu dal ise yok oluş ve bozulma sonucunun kendisini daha geniş biçimde adlandırır."
+        },
+        {
+          "neighbor_ref": "root_001088/B002",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Yıldırım, öldürücü ses, büyük su baskını veya davranışsal neden gibi belirli yıkım yorumlarını taşır.",
+          "neighbor_only": "İnsanları bütünüyle kaplayan kıyamet, bela, yaygın sıkıntı veya kişiyi tutan hastalık alanlarını kapsar.",
+          "gloss": "her yanı kaplayan bela",
+          "shared_zone": "İki dal da topluluğu kuşatan ağır bir ceza veya yıkıcı olay bağlamında kullanılabilir.",
+          "distinction": "Komşu dalın çekirdeği kapsayıp örtmedir; odak dalın çekirdeği ise yıkıma bağlanan ezici olay veya davranışsal nedendir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yakın eşleşen ceza dalı ile yıldırım, yok oluş ve kapsayıcı bela alanları arasındaki dört karşılaştırma yorum farklarını yeterince gösterir.",
+      "branch_image_ar": "الطاغية عذاب غالب",
+      "what_is_ar": "يدخل فيه الطاغية إذا أريد بها الصاعقة أو صيحة العذاب أو الطوفان أو مصدر الطغيان في الهلاك",
+      "what_is_not_ar": "ليس الطاغية بمعنى الجبار ولا مطلق الطاغوت",
+      "source_phrase_ar": "الطاغية الصاعقة ويعني صيحة العذاب (sihah); أهلكوا بالطاغية أي بطغيانهم مصدر على فاعلة (tahdhib); فأهلكوا بالطاغية فإشارة إلى الطوفان (mufradat)",
+      "sources": [
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000937/B005",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi pürüzsüz kaya yüzeyini, dağın en yüksek bölümünü ve aynı kökten başka bir biçimle herhangi bir yüksek yeri açıkça sıralar; kayanın kayganlığına yırtıcı kuş pençesinin tutunamaması da pürüzsüzlük niteliğini doğrular. Sağlanan dal çerçevesi bu üç kullanımı ayrıştırmaya elverişlidir.",
+        "boundary_note": "Dal kaya yüzeyi, dağ doruğu ve yüksek yer adlarıyla sınırlıdır; sınır aşımı, su taşkınlığı ve saptırıcı güç anlamlarını içermez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın ad biçimlerinin üç yer ve yüzey anlamını korur; bunları sınır aşma çekirdeğinden türetmez."
+      },
+      "concept_map": {
+        "definition": "Pürüzsüz bir kaya yüzeyi ya da dağın en yüksek bölümüdür; aynı kökten başka bir ad biçimi ise herhangi bir yüksek yeri bildirir. Kaya anlamında yüzey öylesine kaygandır ki yırtıcı kuşun pençesi geri seker.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Adın bir kullanımı, yüzeyi düz ve kaygan olan kaya parçasını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "example",
+            "statement": "Kayanın pürüzsüzlüğü, üzerine konmaya çalışan yırtıcı kuşun pençesini geri sektirecek kadar belirgindir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Aynı adın başka bir kullanımı dağın en yüksek bölümünü, yani doruğunu bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "source_variant",
+            "statement": "Aynı kökten farklı bir ad biçimi, türü belirtilmeyen herhangi bir yüksek yeri bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Toplu kanıt, pürüzsüz kaya ile dağın doruğunu aynı ad biçiminin iki kullanımı olarak, herhangi bir yüksek yeri ise aynı kökten başka bir ad biçiminin anlamı olarak verir. Yırtıcı kuşun pençesinin geri sekmesi, kaya yüzeyinin kayganlığına ilişkin açıklayıcı örnektir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer",
+        "applicability": "Dal içindeki iki ad biçiminin pürüzsüz kaya, dağın en yüksek bölümü ve genel yüksek yer anlamlarını birlikte gösterir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Pürüzsüz kaya yüzeyini, dağ doruğunu ve genel yüksek yer kullanımını birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "pürüzsüz kaya yüzeyi",
+          "usage_role": "contextual",
+          "applicability": "Yüzeyinin düzgünlüğü ve kayganlığı nedeniyle pençenin tutunamadığı kaya anlamında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kayanın pürüzsüz ve kaygan yüzey niteliğini korur.",
+            "loses": "Dağın doruğu ve genel yüksek yer anlamlarını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "dağın doruğu",
+          "usage_role": "contextual",
+          "applicability": "Aynı ad biçiminin dağın en yüksek bölümünü anlattığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Dağın en yüksek bölümü olma niteliğini açıkça korur.",
+            "loses": "Pürüzsüz kaya yüzeyi ve türü belirtilmeyen yüksek yer anlamlarını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        },
+        {
+          "text": "yüksek yer",
+          "usage_role": "contextual",
+          "applicability": "Aynı kökten farklı ad biçiminin genel olarak çevresinden yüksek bir yeri anlattığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Türü belirtilmeyen bir yerin çevresine göre yüksek olmasını korur.",
+            "loses": "Pürüzsüz kaya yüzeyi ve özel olarak dağın doruğu olan diğer ad kullanımlarını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F004"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "pürüzsüz ve kaygan kaya yüzeyi"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "dağın doruğu"
+        },
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yüksek yer"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000936/B006",
+          "relation_type": "synonym",
+          "boundary_match": "exact",
+          "focus_only": null,
+          "neighbor_only": null,
+          "gloss": "pürüzsüz kaya veya yüksek yer",
+          "shared_zone": "Her iki dal pürüzsüz kaya yüzeyini, dağın en yüksek bölümünü ve aynı kökten adla yüksek yeri kapsar.",
+          "distinction": "Verilen kartlarda çekirdek, ad biçimleri ve yer kapsamı bakımından anlamlı bir sınır farkı görünmez."
+        },
+        {
+          "neighbor_ref": "root_000873/B006",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Dağın doruğu ve genel yüksek yer anlamlarını da kapsar.",
+          "neighbor_only": "Geniş, sert ve pürüzsüz kayanın kumdan, çamurdan ve topraktan arınmış olmasını ve adı verilen belirli bir yeri de kapsar.",
+          "gloss": "pürüzsüz sert kaya",
+          "shared_zone": "İki dalın ortak alanı yüzeyi pürüzsüz olan sert kaya parçasıdır.",
+          "distinction": "Odak dal kaya yüzeyi yanında dağ doruğu ve yüksek yer anlamlarını taşır; komşu dal ise kayanın sertliği, genişliği ve yüzey temizliği üzerinde daha ayrıntılıdır."
+        },
+        {
+          "neighbor_ref": "root_000840/B017",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Dağın yalnız en yüksek bölümünü, ayrıca pürüzsüz kaya ve genel yüksek yeri kapsar.",
+          "neighbor_only": "Dağın bütünü ile dağların orta bölümünü adlandırır.",
+          "gloss": "dağ ve orta bölümü",
+          "shared_zone": "Her iki dal da bir dağın bölümü veya dağlık yükseltiyle ilişkilidir.",
+          "distinction": "Odak dalda dağa ilişkin bölüm doruktur; komşu dal ise dağın bütününü veya özellikle orta kısmını bildirir."
+        },
+        {
+          "neighbor_ref": "root_000298/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Pürüzsüz kaya yüzeyini ve özellikle dağın doruğunu adlandırabilir.",
+          "neighbor_only": "Toprağın tümsek, tepecik, kum sırtı veya rüzgarla oluşmuş kabarıklık gibi yükselen biçimlerini kapsar.",
+          "gloss": "yerden yükselen tümsek",
+          "shared_zone": "Çevresindeki zeminden yüksek olan bir yer iki dalın ortak alanına girebilir.",
+          "distinction": "Komşu dalın çekirdeği zeminden yükselmiş biçimdir; odak dal ise belirli ad biçimleriyle pürüzsüz kaya, dağ doruğu veya yüksek yer kategorilerini taşır."
+        },
+        {
+          "neighbor_ref": "root_000258/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kayada pürüzsüz yüzeyi ve dağda en yüksek bölümü özellikle ayırt eder.",
+          "neighbor_only": "Sert veya kaba yüksek araziyi, küçük tepeyi, taşları ve belirgin arazi işaretlerini daha geniş biçimde kapsar.",
+          "gloss": "sert yüksek arazi",
+          "shared_zone": "Sert, taşlık ve çevresine göre yüksek bir yer iki dalın kapsamında kesişebilir.",
+          "distinction": "Odak dalın ayırt edici özellikleri pürüzsüz kaya yüzeyi ile doruk konumudur; komşu dal sert ve yüksek arazi türlerini daha genel biçimde toplar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; tam eşleşen dal ile pürüzsüz kaya, dağ bölümü, yerden yükselti ve sert yüksek arazi arasındaki beş karşılaştırma seçildi.",
+      "branch_image_ar": "الطغية الصفاة الملساء",
+      "what_is_ar": "يدخل فيه الطغية للصفاة الملساء وأعلى الجبل والطغوة للمكان المرتفع",
+      "what_is_not_ar": "ليس مجاوزة الحد ولا الطغيان ولا الطاغوت",
+      "source_phrase_ar": "الطغية الصفاة الملساء (maqayis;tahdhib); الطغية أعلى الجبل (sihah); كل مكان مرتفع طغوة (sihah); تنبي العقاب لملاستها (sihah)",
+      "sources": [
+        "MQ",
+        "SI",
+        "TA"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, sınır veya ölçü aşımından başlayarak itaatsiz azgınlığı, maddi güçlerin kabarıp bastırmasını, yanlış yola yönelten ya da tapınılan varlık kategorisini ve yıkıcı olay adını kapsar; ayrıca pürüzsüz kaya, dağ doruğu ve yüksek yer bildiren ayrı bir ad kolu taşır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 39,
+      "word_count": 39,
+      "ayah_count": 39,
+      "surah_count": 27
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "طُغْيَٰن",
+        "stem_ar": "طُغْيَٰنِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|GEN",
+        "occurrence_count": 5
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "طَّٰغُوت",
+        "stem_ar": "طَّٰغُوتِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|GEN",
+        "occurrence_count": 4
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "طَّٰغُوت",
+        "stem_ar": "طَّٰغُوتُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "طَّٰغُوت",
+        "stem_ar": "طَّٰغُوتَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|ACC",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "طُغْيَٰن",
+        "stem_ar": "طُغْيَٰنًا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|INDEF|ACC",
+        "occurrence_count": 4
+      },
+      {
+        "form_id": "F006",
+        "lemma_ar": "طَغَىٰ",
+        "stem_ar": "تَطْغَ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:TagaY`|ROOT:Tgy|2MP|MOOD:JUS",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F007",
+        "lemma_ar": "طَغَىٰ",
+        "stem_ar": "طَغَىٰ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "occurrence_count": 5
+      },
+      {
+        "form_id": "F008",
+        "lemma_ar": "طَغَىٰ",
+        "stem_ar": "يَطْغَىٰ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:TagaY`|ROOT:Tgy|3MS|MOOD:SUBJ",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F009",
+        "lemma_ar": "طَٰغِين",
+        "stem_ar": "طَٰغِينَ",
+        "pos": "ADJ",
+        "measure": "",
+        "morph_features": "STEM|POS:ADJ|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F010",
+        "lemma_ar": "طَٰغِين",
+        "stem_ar": "طَّٰغِينَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|GEN",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F011",
+        "lemma_ar": "أَطْغَيْ",
+        "stem_ar": "أَطْغَيْ",
+        "pos": "V",
+        "measure": "IV",
+        "morph_features": "STEM|POS:V|PERF|(IV)|LEM:>aTogayo|ROOT:Tgy|1S",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F012",
+        "lemma_ar": "طَٰغِين",
+        "stem_ar": "طَاغُونَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F013",
+        "lemma_ar": "طَٰغِين",
+        "stem_ar": "طَاغُونَ",
+        "pos": "ADJ",
+        "measure": "",
+        "morph_features": "STEM|POS:ADJ|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F014",
+        "lemma_ar": "أَطْغَىٰ",
+        "stem_ar": "أَطْغَىٰ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aTogaY`|ROOT:Tgy|MS|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F015",
+        "lemma_ar": "طَٰغِين",
+        "stem_ar": "طَٰغِينَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F016",
+        "lemma_ar": "طَّاغِيَة",
+        "stem_ar": "طَّاغِيَةِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:T~aAgiyap|ROOT:Tgy|F|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F017",
+        "lemma_ar": "طَغَىٰ",
+        "stem_ar": "طَغَا",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F018",
+        "lemma_ar": "طَغَىٰ",
+        "stem_ar": "طَغَ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MP",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F019",
+        "lemma_ar": "طَغْوَىٰ",
+        "stem_ar": "طَغْوَىٰ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:TagowaY`|ROOT:Tgy|M|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F020",
+        "lemma_ar": "طَغَىٰ",
+        "stem_ar": "يَطْغَىٰٓ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:15",
+        "surface_ar": "ٱللَّهُ يَسْتَهْزِئُ بِهِمْ وَيَمُدُّهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ"
+      },
+      {
+        "ayah_ref": "2:256",
+        "surface_ar": "لَآ إِكْرَاهَ فِى ٱلدِّينِ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا وَٱللَّهُ سَمِيعٌ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "2:257",
+        "surface_ar": "ٱللَّهُ وَلِىُّ ٱلَّذِينَ ءَامَنُوا۟ يُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ وَٱلَّذِينَ كَفَرُوٓا۟ أَوْلِيَآؤُهُمُ ٱلطَّٰغُوتُ يُخْرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَٰتِ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ هُمْ فِيهَا خَٰلِدُونَ"
+      },
+      {
+        "ayah_ref": "4:51",
+        "surface_ar": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًا مِّنَ ٱلْكِتَٰبِ يُؤْمِنُونَ بِٱلْجِبْتِ وَٱلطَّٰغُوتِ وَيَقُولُونَ لِلَّذِينَ كَفَرُوا۟ هَٰٓؤُلَآءِ أَهْدَىٰ مِنَ ٱلَّذِينَ ءَامَنُوا۟ سَبِيلًا"
+      },
+      {
+        "ayah_ref": "4:60",
+        "surface_ar": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ يَزْعُمُونَ أَنَّهُمْ ءَامَنُوا۟ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى ٱلطَّٰغُوتِ وَقَدْ أُمِرُوٓا۟ أَن يَكْفُرُوا۟ بِهِۦ وَيُرِيدُ ٱلشَّيْطَٰنُ أَن يُضِلَّهُمْ ضَلَٰلًۢا بَعِيدًا"
+      },
+      {
+        "ayah_ref": "4:76",
+        "surface_ar": "ٱلَّذِينَ ءَامَنُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ كَفَرُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱلطَّٰغُوتِ فَقَٰتِلُوٓا۟ أَوْلِيَآءَ ٱلشَّيْطَٰنِ إِنَّ كَيْدَ ٱلشَّيْطَٰنِ كَانَ ضَعِيفًا"
+      },
+      {
+        "ayah_ref": "5:60",
+        "surface_ar": "قُلْ هَلْ أُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكَ مَثُوبَةً عِندَ ٱللَّهِ مَن لَّعَنَهُ ٱللَّهُ وَغَضِبَ عَلَيْهِ وَجَعَلَ مِنْهُمُ ٱلْقِرَدَةَ وَٱلْخَنَازِيرَ وَعَبَدَ ٱلطَّٰغُوتَ أُو۟لَٰٓئِكَ شَرٌّ مَّكَانًا وَأَضَلُّ عَن سَوَآءِ ٱلسَّبِيلِ"
+      },
+      {
+        "ayah_ref": "5:64",
+        "surface_ar": "وَقَالَتِ ٱلْيَهُودُ يَدُ ٱللَّهِ مَغْلُولَةٌ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا۟ بِمَا قَالُوا۟ بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا وَأَلْقَيْنَا بَيْنَهُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ كُلَّمَآ أَوْقَدُوا۟ نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ وَيَسْعَوْنَ فِى ٱلْأَرْضِ فَسَادًا وَٱللَّهُ لَا يُحِبُّ ٱلْمُفْسِدِينَ"
+      },
+      {
+        "ayah_ref": "5:68",
+        "surface_ar": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لَسْتُمْ عَلَىٰ شَىْءٍ حَتَّىٰ تُقِيمُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ"
+      },
+      {
+        "ayah_ref": "6:110",
+        "surface_ar": "وَنُقَلِّبُ أَفْـِٔدَتَهُمْ وَأَبْصَٰرَهُمْ كَمَا لَمْ يُؤْمِنُوا۟ بِهِۦٓ أَوَّلَ مَرَّةٍ وَنَذَرُهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ"
+      },
+      {
+        "ayah_ref": "7:186",
+        "surface_ar": "مَن يُضْلِلِ ٱللَّهُ فَلَا هَادِىَ لَهُۥ وَيَذَرُهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ"
+      },
+      {
+        "ayah_ref": "10:11",
+        "surface_ar": "وَلَوْ يُعَجِّلُ ٱللَّهُ لِلنَّاسِ ٱلشَّرَّ ٱسْتِعْجَالَهُم بِٱلْخَيْرِ لَقُضِىَ إِلَيْهِمْ أَجَلُهُمْ فَنَذَرُ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا فِى طُغْيَٰنِهِمْ يَعْمَهُونَ"
+      },
+      {
+        "ayah_ref": "11:112",
+        "surface_ar": "فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا تَطْغَوْا۟ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌ"
+      },
+      {
+        "ayah_ref": "16:36",
+        "surface_ar": "وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍ رَّسُولًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱجْتَنِبُوا۟ ٱلطَّٰغُوتَ فَمِنْهُم مَّنْ هَدَى ٱللَّهُ وَمِنْهُم مَّنْ حَقَّتْ عَلَيْهِ ٱلضَّلَٰلَةُ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ"
+      },
+      {
+        "ayah_ref": "17:60",
+        "surface_ar": "وَإِذْ قُلْنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِ وَمَا جَعَلْنَا ٱلرُّءْيَا ٱلَّتِىٓ أَرَيْنَٰكَ إِلَّا فِتْنَةً لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ فِى ٱلْقُرْءَانِ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلَّا طُغْيَٰنًا كَبِيرًا"
+      },
+      {
+        "ayah_ref": "18:80",
+        "surface_ar": "وَأَمَّا ٱلْغُلَٰمُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ فَخَشِينَآ أَن يُرْهِقَهُمَا طُغْيَٰنًا وَكُفْرًا"
+      },
+      {
+        "ayah_ref": "20:24",
+        "surface_ar": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ"
+      },
+      {
+        "ayah_ref": "20:43",
+        "surface_ar": "ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ"
+      },
+      {
+        "ayah_ref": "20:45",
+        "surface_ar": "قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن يَفْرُطَ عَلَيْنَآ أَوْ أَن يَطْغَىٰ"
+      },
+      {
+        "ayah_ref": "20:81",
+        "surface_ar": "كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَلَا تَطْغَوْا۟ فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِى وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ"
+      },
+      {
+        "ayah_ref": "23:75",
+        "surface_ar": "وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ"
+      },
+      {
+        "ayah_ref": "37:30",
+        "surface_ar": "وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ بَلْ كُنتُمْ قَوْمًا طَٰغِينَ"
+      },
+      {
+        "ayah_ref": "38:55",
+        "surface_ar": "هَٰذَا وَإِنَّ لِلطَّٰغِينَ لَشَرَّ مَـَٔابٍ"
+      },
+      {
+        "ayah_ref": "39:17",
+        "surface_ar": "وَٱلَّذِينَ ٱجْتَنَبُوا۟ ٱلطَّٰغُوتَ أَن يَعْبُدُوهَا وَأَنَابُوٓا۟ إِلَى ٱللَّهِ لَهُمُ ٱلْبُشْرَىٰ فَبَشِّرْ عِبَادِ"
+      },
+      {
+        "ayah_ref": "50:27",
+        "surface_ar": "قَالَ قَرِينُهُۥ رَبَّنَا مَآ أَطْغَيْتُهُۥ وَلَٰكِن كَانَ فِى ضَلَٰلٍۭ بَعِيدٍ"
+      },
+      {
+        "ayah_ref": "51:53",
+        "surface_ar": "أَتَوَاصَوْا۟ بِهِۦ بَلْ هُمْ قَوْمٌ طَاغُونَ"
+      },
+      {
+        "ayah_ref": "52:32",
+        "surface_ar": "أَمْ تَأْمُرُهُمْ أَحْلَٰمُهُم بِهَٰذَآ أَمْ هُمْ قَوْمٌ طَاغُونَ"
+      },
+      {
+        "ayah_ref": "53:17",
+        "surface_ar": "مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ"
+      },
+      {
+        "ayah_ref": "53:52",
+        "surface_ar": "وَقَوْمَ نُوحٍ مِّن قَبْلُ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ وَأَطْغَىٰ"
+      },
+      {
+        "ayah_ref": "55:8",
+        "surface_ar": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ"
+      },
+      {
+        "ayah_ref": "68:31",
+        "surface_ar": "قَالُوا۟ يَٰوَيْلَنَآ إِنَّا كُنَّا طَٰغِينَ"
+      },
+      {
+        "ayah_ref": "69:5",
+        "surface_ar": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ"
+      },
+      {
+        "ayah_ref": "69:11",
+        "surface_ar": "إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَٰكُمْ فِى ٱلْجَارِيَةِ"
+      },
+      {
+        "ayah_ref": "78:22",
+        "surface_ar": "لِّلطَّٰغِينَ مَـَٔابًا"
+      },
+      {
+        "ayah_ref": "79:17",
+        "surface_ar": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ"
+      },
+      {
+        "ayah_ref": "79:37",
+        "surface_ar": "فَأَمَّا مَن طَغَىٰ"
+      },
+      {
+        "ayah_ref": "89:11",
+        "surface_ar": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ"
+      },
+      {
+        "ayah_ref": "91:11",
+        "surface_ar": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ"
+      },
+      {
+        "ayah_ref": "96:6",
+        "surface_ar": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:15:6:1",
+        "qac_word_ref": "2:15:6",
+        "surah": 2,
+        "ayah": 15,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "طُغْيَٰنِ",
+        "stem_ar": "طُغْيَٰنِ",
+        "lemma_ar": "طُغْيَٰن",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|GEN",
+        "ayah_ref": "2:15",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:015:noun:8",
+          "attachment_word_unit_id": "q:2:15:8",
+          "qac_char_span": [
+            21,
+            28
+          ],
+          "attachment_char_spans": [
+            [
+              21,
+              26
+            ],
+            [
+              21,
+              28
+            ]
+          ],
+          "source_grammar": "verbal noun (maṣdar/gerund), genitive (majrūr by fī), with possessive pronoun -him",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:015:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:15:6",
+              "other_surface": "وَيَمُدُّهُمْ",
+              "other_root": "م د د",
+              "other_form_tag": "IV",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s002:015:pass1:attach:a7",
+              "relation": "idafa",
+              "focus_role": "head",
+              "other_unit_id": "q:2:15:8",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "2:256:12:3",
+        "qac_word_ref": "2:256:12",
+        "surah": 2,
+        "ayah": 256,
+        "word_index": 12,
+        "morpheme_index": 3,
+        "surface_ar": "طَّٰغُوتِ",
+        "stem_ar": "طَّٰغُوتِ",
+        "lemma_ar": "طَّٰغُوت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|GEN",
+        "ayah_ref": "2:256",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:256:noun:14",
+          "attachment_word_unit_id": "q:2:256:14",
+          "qac_char_span": [
+            38,
+            46
+          ],
+          "attachment_char_spans": [
+            [
+              38,
+              46
+            ],
+            [
+              41,
+              46
+            ]
+          ],
+          "source_grammar": "definite noun, genitive after bi",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:256:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:256:12",
+              "other_surface": "يَكْفُرْ",
+              "other_root": "ك ف ر",
+              "other_form_tag": "IV",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "2:257:13:2",
+        "qac_word_ref": "2:257:13",
+        "surah": 2,
+        "ayah": 257,
+        "word_index": 13,
+        "morpheme_index": 2,
+        "surface_ar": "طَّٰغُوتُ",
+        "stem_ar": "طَّٰغُوتُ",
+        "lemma_ar": "طَّٰغُوت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|NOM",
+        "ayah_ref": "2:257",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:257:noun:14",
+          "attachment_word_unit_id": "q:2:257:14",
+          "qac_char_span": [
+            60,
+            67
+          ],
+          "attachment_char_spans": [
+            [
+              62,
+              67
+            ]
+          ],
+          "source_grammar": "noun, nominative, predicate (or subject) of nominal sentence; singular form used with plural referent; definite with al-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:257:pass1:attach:a8",
+              "relation": "predication",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:257:13",
+              "other_surface": "أَوْلِيَاؤُهُمُ",
+              "other_root": "و ل ي",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "4:51:11:3",
+        "qac_word_ref": "4:51:11",
+        "surah": 4,
+        "ayah": 51,
+        "word_index": 11,
+        "morpheme_index": 3,
+        "surface_ar": "طَّٰغُوتِ",
+        "stem_ar": "طَّٰغُوتِ",
+        "lemma_ar": "طَّٰغُوت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|GEN",
+        "ayah_ref": "4:51",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s004:051:noun:13",
+          "attachment_word_unit_id": "q:4:51:13",
+          "qac_char_span": [
+            43,
+            51
+          ],
+          "attachment_char_spans": [
+            [
+              43,
+              51
+            ],
+            [
+              46,
+              51
+            ]
+          ],
+          "source_grammar": "definite genitive noun; coordinated with al-jibt as second object of bi-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s004:051:pass1:attach:a5",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:4:51:11",
+              "other_surface": "بِالْجِبْتِ",
+              "other_root": "ج ب ت",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s004:051:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:4:51:9",
+              "other_surface": "يُؤْمِنُونَ",
+              "other_root": "أ م ن",
+              "other_form_tag": "IV",
+              "prep_base": "بـ",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;parallelism"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "4:60:19:2",
+        "qac_word_ref": "4:60:19",
+        "surah": 4,
+        "ayah": 60,
+        "word_index": 19,
+        "morpheme_index": 2,
+        "surface_ar": "طَّٰغُوتِ",
+        "stem_ar": "طَّٰغُوتِ",
+        "lemma_ar": "طَّٰغُوت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|GEN",
+        "ayah_ref": "4:60",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s004:060:noun:21",
+          "attachment_word_unit_id": "q:4:60:21",
+          "qac_char_span": [
+            72,
+            79
+          ],
+          "attachment_char_spans": [
+            [
+              74,
+              79
+            ]
+          ],
+          "source_grammar": "noun (abstract/concrete), genitive (governed by ʾilā), definite with al-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s004:060:pass1:attach:a12",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:4:60:19",
+              "other_surface": "يَتَحَاكَمُوا",
+              "other_root": "ح ك م",
+              "other_form_tag": "IV",
+              "prep_base": "إِلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "4:76:12:2",
+        "qac_word_ref": "4:76:12",
+        "surah": 4,
+        "ayah": 76,
+        "word_index": 12,
+        "morpheme_index": 2,
+        "surface_ar": "طَّٰغُوتِ",
+        "stem_ar": "طَّٰغُوتِ",
+        "lemma_ar": "طَّٰغُوت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|GEN",
+        "ayah_ref": "4:76",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s004:076:noun:13",
+          "attachment_word_unit_id": "q:4:76:13",
+          "qac_char_span": [
+            52,
+            59
+          ],
+          "attachment_char_spans": [
+            [
+              54,
+              59
+            ]
+          ],
+          "source_grammar": "noun, masculine/feminine, genitive (iḍāfa with sabīl), definite with al-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s004:076:pass1:attach:a8",
+              "relation": "idafa",
+              "focus_role": "dependent",
+              "other_unit_id": "q:4:76:12",
+              "other_surface": "سَبِيلِ",
+              "other_root": "س ب ل",
+              "other_form_tag": "NOUN_ABSTRACT",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "5:60:20:2",
+        "qac_word_ref": "5:60:20",
+        "surah": 5,
+        "ayah": 60,
+        "word_index": 20,
+        "morpheme_index": 2,
+        "surface_ar": "طَّٰغُوتَ",
+        "stem_ar": "طَّٰغُوتَ",
+        "lemma_ar": "طَّٰغُوت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|ACC",
+        "ayah_ref": "5:60",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s005:060:noun:24",
+          "attachment_word_unit_id": "q:5:60:24",
+          "qac_char_span": [
+            76,
+            83
+          ],
+          "attachment_char_spans": [
+            [
+              78,
+              83
+            ]
+          ],
+          "source_grammar": "Abstract noun (NOUN_ABSTRACT), accusative, definite -- object of ʿabada or construct complement",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s005:060:pass1:attach:a18",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:5:60:23",
+              "other_surface": "وَعَبَدَ",
+              "other_root": "ع ب د",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "medium",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "5:64:25:1",
+        "qac_word_ref": "5:64:25",
+        "surah": 5,
+        "ayah": 64,
+        "word_index": 25,
+        "morpheme_index": 1,
+        "surface_ar": "طُغْيَٰنًا",
+        "stem_ar": "طُغْيَٰنًا",
+        "lemma_ar": "طُغْيَٰن",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|INDEF|ACC",
+        "ayah_ref": "5:64",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s005:064:noun:30",
+          "attachment_word_unit_id": "q:5:64:30",
+          "qac_char_span": [
+            102,
+            108
+          ],
+          "attachment_char_spans": [
+            [
+              102,
+              107
+            ],
+            [
+              102,
+              108
+            ]
+          ],
+          "source_grammar": "verbal noun/gerund (GERUND), accusative (tamyīz — specifying what the increase is in: \"increase them in rebellion\"), indefinite",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s005:064:pass1:attach:a16",
+              "relation": "accusative_specification",
+              "focus_role": "dependent",
+              "other_unit_id": "q:5:64:22",
+              "other_surface": "وَلَيَزِيدَنَّ",
+              "other_root": "ز ي د",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s005:064:pass1:attach:a17",
+              "relation": "conjoined",
+              "focus_role": "head",
+              "other_unit_id": "q:5:64:32",
+              "other_surface": "وَكُفْرَاً",
+              "other_root": "ك ف ر",
+              "other_form_tag": "GERUND",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "5:68:24:1",
+        "qac_word_ref": "5:68:24",
+        "surah": 5,
+        "ayah": 68,
+        "word_index": 24,
+        "morpheme_index": 1,
+        "surface_ar": "طُغْيَٰنًا",
+        "stem_ar": "طُغْيَٰنًا",
+        "lemma_ar": "طُغْيَٰن",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|INDEF|ACC",
+        "ayah_ref": "5:68",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s005:068:noun:29",
+          "attachment_word_unit_id": "q:5:68:29",
+          "qac_char_span": [
+            99,
+            105
+          ],
+          "attachment_char_spans": [
+            [
+              99,
+              104
+            ],
+            [
+              99,
+              105
+            ]
+          ],
+          "source_grammar": "Verbal noun (maṣdar), accusative (tamyīz, specifying what increases), indefinite with tanwīn",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s005:068:pass1:attach:a15",
+              "relation": "accusative_specification",
+              "focus_role": "dependent",
+              "other_unit_id": "q:5:68:21",
+              "other_surface": "وَلَيَزِيدَنَّ",
+              "other_root": "ز ي د",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s005:068:pass1:attach:a16",
+              "relation": "conjoined",
+              "focus_role": "head",
+              "other_unit_id": "q:5:68:31",
+              "other_surface": "وَكُفْرَاً",
+              "other_root": "ك ف ر",
+              "other_form_tag": "GERUND",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "6:110:12:1",
+        "qac_word_ref": "6:110:12",
+        "surah": 6,
+        "ayah": 110,
+        "word_index": 12,
+        "morpheme_index": 1,
+        "surface_ar": "طُغْيَٰنِ",
+        "stem_ar": "طُغْيَٰنِ",
+        "lemma_ar": "طُغْيَٰن",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|GEN",
+        "ayah_ref": "6:110",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s006:110:noun:16",
+          "attachment_word_unit_id": "q:6:110:16",
+          "qac_char_span": [
+            47,
+            54
+          ],
+          "attachment_char_spans": [
+            [
+              47,
+              52
+            ],
+            [
+              47,
+              54
+            ]
+          ],
+          "source_grammar": "noun, verbal noun (maṣdar), genitive (majrūr by fī), possessive pronoun -hum",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s006:110:pass1:attach:a8",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:6:110:14",
+              "other_surface": "وَنَذَرُهُمْ",
+              "other_root": "و ذ ر",
+              "other_form_tag": "IV",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "7:186:9:1",
+        "qac_word_ref": "7:186:9",
+        "surah": 7,
+        "ayah": 186,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "طُغْيَٰنِ",
+        "stem_ar": "طُغْيَٰنِ",
+        "lemma_ar": "طُغْيَٰن",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|GEN",
+        "ayah_ref": "7:186",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s007:186:noun:11",
+          "attachment_word_unit_id": "q:7:186:11",
+          "qac_char_span": [
+            28,
+            35
+          ],
+          "attachment_char_spans": [
+            [
+              28,
+              33
+            ],
+            [
+              28,
+              35
+            ]
+          ],
+          "source_grammar": "verbal noun (maṣdar/gerund), genitive (majrūr) governed by fī, + 3mp possessive pronoun -him",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s007:186:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:7:186:9",
+              "other_surface": "وَيَذَرُهُمْ",
+              "other_root": "و ذ ر",
+              "other_form_tag": "IV",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "10:11:17:1",
+        "qac_word_ref": "10:11:17",
+        "surah": 10,
+        "ayah": 11,
+        "word_index": 17,
+        "morpheme_index": 1,
+        "surface_ar": "طُغْيَٰنِ",
+        "stem_ar": "طُغْيَٰنِ",
+        "lemma_ar": "طُغْيَٰن",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|GEN",
+        "ayah_ref": "10:11",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s010:011:noun:22",
+          "attachment_word_unit_id": "q:10:11:22",
+          "qac_char_span": [
+            73,
+            80
+          ],
+          "attachment_char_spans": [
+            [
+              73,
+              78
+            ],
+            [
+              73,
+              80
+            ]
+          ],
+          "source_grammar": "verbal noun (gerund), genitive (governed by fī), with 3rd masculine plural possessive pronoun",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s010:011:pass1:attach:a10",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:10:11:23",
+              "other_surface": "يَعْمَهُونَ",
+              "other_root": "ع م ه",
+              "other_form_tag": "IV",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "11:112:8:1",
+        "qac_word_ref": "11:112:8",
+        "surah": 11,
+        "ayah": 112,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "تَطْغَ",
+        "stem_ar": "تَطْغَ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "JUS",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:TagaY`|ROOT:Tgy|2MP|MOOD:JUS",
+        "ayah_ref": "11:112",
+        "form_id": "F006",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            25,
+            30
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "16:36:11:2",
+        "qac_word_ref": "16:36:11",
+        "surah": 16,
+        "ayah": 36,
+        "word_index": 11,
+        "morpheme_index": 2,
+        "surface_ar": "طَّٰغُوتَ",
+        "stem_ar": "طَّٰغُوتَ",
+        "lemma_ar": "طَّٰغُوت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|ACC",
+        "ayah_ref": "16:36",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s016:036:noun:14",
+          "attachment_word_unit_id": "q:16:36:14",
+          "qac_char_span": [
+            41,
+            48
+          ],
+          "attachment_char_spans": [
+            [
+              43,
+              48
+            ]
+          ],
+          "source_grammar": "noun (ism), accusative (manṣūb) as direct object (mafʿūl bihi) of ijtanibū, definite with al-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s016:036:pass1:attach:a7",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:16:36:13",
+              "other_surface": "وَاجْتَنِبُوا",
+              "other_root": "ج ن ب",
+              "other_form_tag": "CV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "17:60:24:1",
+        "qac_word_ref": "17:60:24",
+        "surah": 17,
+        "ayah": 60,
+        "word_index": 24,
+        "morpheme_index": 1,
+        "surface_ar": "طُغْيَٰنًا",
+        "stem_ar": "طُغْيَٰنًا",
+        "lemma_ar": "طُغْيَٰن",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|INDEF|ACC",
+        "ayah_ref": "17:60",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s017:060:noun:31",
+          "attachment_word_unit_id": "q:17:60:31",
+          "qac_char_span": [
+            103,
+            109
+          ],
+          "attachment_char_spans": [
+            [
+              103,
+              108
+            ],
+            [
+              103,
+              109
+            ]
+          ],
+          "source_grammar": "GERUND — verbal noun (maṣdar), indefinite, accusative as tamyīz (specification of the increase); ṭughyān = transgression, overstepping bounds, insolence, flooding",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s017:060:pass1:attach:a19",
+              "relation": "accusative_specification",
+              "focus_role": "dependent",
+              "other_unit_id": "q:17:60:29",
+              "other_surface": "يَزِيدُهُمْ",
+              "other_root": "ز ي د",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s017:060:pass1:attach:a20",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:17:60:32",
+              "other_surface": "كَبِيرَاً",
+              "other_root": "ك ب ر",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "18:80:9:1",
+        "qac_word_ref": "18:80:9",
+        "surah": 18,
+        "ayah": 80,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "طُغْيَٰنًا",
+        "stem_ar": "طُغْيَٰنًا",
+        "lemma_ar": "طُغْيَٰن",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|INDEF|ACC",
+        "ayah_ref": "18:80",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s018:080:noun:12",
+          "attachment_word_unit_id": "q:18:80:12",
+          "qac_char_span": [
+            40,
+            46
+          ],
+          "attachment_char_spans": [
+            [
+              40,
+              45
+            ],
+            [
+              40,
+              46
+            ]
+          ],
+          "source_grammar": "verbal noun (maṣdar/gerund), indefinite accusative (manṣūb), serving as tamyīz (specification) or maf'ūl muṭlaq (cognate accusative) specifying the nature of the overburdening",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s018:080:pass1:attach:a6",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:18:80:11",
+              "other_surface": "يُرْهِقَهُمَا",
+              "other_root": "ر ه ق",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s018:080:pass1:attach:a7",
+              "relation": "conjoined",
+              "focus_role": "head",
+              "other_unit_id": "q:18:80:14",
+              "other_surface": "وَكُفْرَاً",
+              "other_root": "ك ف ر",
+              "other_form_tag": "GERUND",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "20:24:5:1",
+        "qac_word_ref": "20:24:5",
+        "surah": 20,
+        "ayah": 24,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "طَغَىٰ",
+        "stem_ar": "طَغَىٰ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "ayah_ref": "20:24",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s020:024:pass1:frame:v2",
+          "attachment_word_unit_id": "q:20:24:5",
+          "qac_char_span": [
+            17,
+            21
+          ],
+          "attachment_char_spans": [
+            [
+              17,
+              20
+            ]
+          ],
+          "source_grammar": "perfect verb (past tense), 3rd person masculine singular, Form I, intransitive",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "20:43:5:1",
+        "qac_word_ref": "20:43:5",
+        "surah": 20,
+        "ayah": 43,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "طَغَىٰ",
+        "stem_ar": "طَغَىٰ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "ayah_ref": "20:43",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s020:043:pass1:frame:v2",
+          "attachment_word_unit_id": "q:20:43:5",
+          "qac_char_span": [
+            18,
+            22
+          ],
+          "attachment_char_spans": [
+            [
+              18,
+              21
+            ]
+          ],
+          "source_grammar": "perfect verb (3rd person masculine singular, Form I, intransitive here)",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "20:45:10:1",
+        "qac_word_ref": "20:45:10",
+        "surah": 20,
+        "ayah": 45,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "يَطْغَىٰ",
+        "stem_ar": "يَطْغَىٰ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "SUBJ",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:TagaY`|ROOT:Tgy|3MS|MOOD:SUBJ",
+        "ayah_ref": "20:45",
+        "form_id": "F008",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "medium",
+          "attachment_unit_id": "ae:v3:s020:045:pass1:frame:v4",
+          "attachment_word_unit_id": "q:20:45:10",
+          "qac_char_span": [
+            31,
+            36
+          ],
+          "attachment_char_spans": [
+            [
+              31,
+              35
+            ],
+            [
+              32,
+              35
+            ]
+          ],
+          "source_grammar": "imperfect verb, Form I, 3rd person masculine singular, subjunctive (manṣūb), active voice",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "20:81:7:1",
+        "qac_word_ref": "20:81:7",
+        "surah": 20,
+        "ayah": 81,
+        "word_index": 7,
+        "morpheme_index": 1,
+        "surface_ar": "تَطْغَ",
+        "stem_ar": "تَطْغَ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "JUS",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:TagaY`|ROOT:Tgy|2MP|MOOD:JUS",
+        "ayah_ref": "20:81",
+        "form_id": "F006",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            23,
+            28
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "23:75:10:1",
+        "qac_word_ref": "23:75:10",
+        "surah": 23,
+        "ayah": 75,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "طُغْيَٰنِ",
+        "stem_ar": "طُغْيَٰنِ",
+        "lemma_ar": "طُغْيَٰن",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|VN|LEM:Tugoya`n|ROOT:Tgy|M|GEN",
+        "ayah_ref": "23:75",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s023:075:noun:14",
+          "attachment_word_unit_id": "q:23:75:14",
+          "qac_char_span": [
+            32,
+            39
+          ],
+          "attachment_char_spans": [
+            [
+              32,
+              37
+            ],
+            [
+              32,
+              39
+            ]
+          ],
+          "source_grammar": "GERUND — genitive governed by fī, with 3mp possessive suffix",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s023:075:pass1:attach:a6",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:23:75:12",
+              "other_surface": "لَلَجُّوا",
+              "other_root": "ل ج ج",
+              "other_form_tag": "PV",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "37:30:10:1",
+        "qac_word_ref": "37:30:10",
+        "surah": 37,
+        "ayah": 30,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "طَٰغِينَ",
+        "stem_ar": "طَٰغِينَ",
+        "lemma_ar": "طَٰغِين",
+        "source_pos": "ADJ",
+        "pos": "ADJ",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "ACT",
+        "morph_features": "STEM|POS:ADJ|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|ACC",
+        "ayah_ref": "37:30",
+        "form_id": "F009",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            31,
+            36
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "38:55:3:3",
+        "qac_word_ref": "38:55:3",
+        "surah": 38,
+        "ayah": 55,
+        "word_index": 3,
+        "morpheme_index": 3,
+        "surface_ar": "طَّٰغِينَ",
+        "stem_ar": "طَّٰغِينَ",
+        "lemma_ar": "طَٰغِين",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "ACT",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|GEN",
+        "ayah_ref": "38:55",
+        "form_id": "F010",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s038:055:noun:5",
+          "attachment_word_unit_id": "q:38:55:5",
+          "qac_char_span": [
+            7,
+            14
+          ],
+          "attachment_char_spans": [
+            [
+              7,
+              14
+            ],
+            [
+              9,
+              13
+            ]
+          ],
+          "source_grammar": "NOUN_ACTIVE_PART; masculine sound plural active participle in genitive after prefixed li, with definite article assimilated in the orthographic segment",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s038:055:pass1:attach:a1",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:38:55:3",
+              "other_surface": "وَإِنَّ",
+              "other_root": "",
+              "other_form_tag": "CONDITION_PART",
+              "prep_base": "لـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "39:17:3:2",
+        "qac_word_ref": "39:17:3",
+        "surah": 39,
+        "ayah": 17,
+        "word_index": 3,
+        "morpheme_index": 2,
+        "surface_ar": "طَّٰغُوتَ",
+        "stem_ar": "طَّٰغُوتَ",
+        "lemma_ar": "طَّٰغُوت",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:T~a`guwt|ROOT:Tgy|ACC",
+        "ayah_ref": "39:17",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s039:017:noun:4",
+          "attachment_word_unit_id": "q:39:17:4",
+          "qac_char_span": [
+            13,
+            20
+          ],
+          "attachment_char_spans": [
+            [
+              15,
+              20
+            ]
+          ],
+          "source_grammar": "definite accusative object of ijtanabū; collective or intensive noun from the root of overflowing/transgressing",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s039:017:pass1:attach:a1",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:39:17:3",
+              "other_surface": "اجْتَنَبُوا",
+              "other_root": "ج ن ب",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "50:27:5:1",
+        "qac_word_ref": "50:27:5",
+        "surah": 50,
+        "ayah": 27,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَطْغَيْ",
+        "stem_ar": "أَطْغَيْ",
+        "lemma_ar": "أَطْغَيْ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "IV",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|(IV)|LEM:>aTogayo|ROOT:Tgy|1S",
+        "ayah_ref": "50:27",
+        "form_id": "F011",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s050:027:pass1:frame:v2",
+          "attachment_word_unit_id": "q:50:27:5",
+          "qac_char_span": [
+            15,
+            22
+          ],
+          "attachment_char_spans": [
+            [
+              15,
+              19
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "source_grammar": "perfect verb 1cs, Form IV (causative), + 3ms object pronoun",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s050:027:pass1:attach:a4",
+              "relation": "direct_object",
+              "focus_role": "head",
+              "other_unit_id": "q:50:27:5",
+              "other_surface": "",
+              "other_root": "",
+              "other_form_tag": "",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "morphology;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "51:53:6:1",
+        "qac_word_ref": "51:53:6",
+        "surah": 51,
+        "ayah": 53,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "طَاغُونَ",
+        "stem_ar": "طَاغُونَ",
+        "lemma_ar": "طَٰغِين",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "ACT",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|NOM",
+        "ayah_ref": "51:53",
+        "form_id": "F012",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            17,
+            22
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "52:32:8:1",
+        "qac_word_ref": "52:32:8",
+        "surah": 52,
+        "ayah": 32,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "طَاغُونَ",
+        "stem_ar": "طَاغُونَ",
+        "lemma_ar": "طَٰغِين",
+        "source_pos": "ADJ",
+        "pos": "ADJ",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "ACT",
+        "morph_features": "STEM|POS:ADJ|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|NOM",
+        "ayah_ref": "52:32",
+        "form_id": "F013",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            27,
+            32
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "53:17:5:1",
+        "qac_word_ref": "53:17:5",
+        "surah": 53,
+        "ayah": 17,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "طَغَىٰ",
+        "stem_ar": "طَغَىٰ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "ayah_ref": "53:17",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s053:017:pass1:frame:v2",
+          "attachment_word_unit_id": "q:53:17:6",
+          "qac_char_span": [
+            13,
+            17
+          ],
+          "attachment_char_spans": [
+            [
+              13,
+              16
+            ]
+          ],
+          "source_grammar": "perfect verb (fiʿl māḍī), 3rd person masculine singular; subject elided (al-baṣar understood from word 3)",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "53:52:9:2",
+        "qac_word_ref": "53:52:9",
+        "surah": 53,
+        "ayah": 52,
+        "word_index": 9,
+        "morpheme_index": 2,
+        "surface_ar": "أَطْغَىٰ",
+        "stem_ar": "أَطْغَىٰ",
+        "lemma_ar": "أَطْغَىٰ",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aTogaY`|ROOT:Tgy|MS|ACC",
+        "ayah_ref": "53:52",
+        "form_id": "F014",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s053:052:noun:11",
+          "attachment_word_unit_id": "q:53:52:11",
+          "qac_char_span": [
+            27,
+            33
+          ],
+          "attachment_char_spans": [
+            [
+              27,
+              32
+            ],
+            [
+              28,
+              32
+            ]
+          ],
+          "source_grammar": "ADJ_COMP, elative/comparative adjective (afʿal pattern), second predicate of kāna",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s053:052:pass1:attach:a6",
+              "relation": "conjoined",
+              "focus_role": "dependent",
+              "other_unit_id": "q:53:52:9",
+              "other_surface": "أَظْلَمَ",
+              "other_root": "ظ ل م",
+              "other_form_tag": "ADJ_COMP",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s053:052:pass1:attach:a7",
+              "relation": "kana_predicate",
+              "focus_role": "dependent",
+              "other_unit_id": "q:53:52:7",
+              "other_surface": "كَانُوا",
+              "other_root": "ك و ن",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "parallelism;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "55:8:2:1",
+        "qac_word_ref": "55:8:2",
+        "surah": 55,
+        "ayah": 8,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "تَطْغَ",
+        "stem_ar": "تَطْغَ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "JUS",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:TagaY`|ROOT:Tgy|2MP|MOOD:JUS",
+        "ayah_ref": "55:8",
+        "form_id": "F006",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            3,
+            8
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "68:31:5:1",
+        "qac_word_ref": "68:31:5",
+        "surah": 68,
+        "ayah": 31,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "طَٰغِينَ",
+        "stem_ar": "طَٰغِينَ",
+        "lemma_ar": "طَٰغِين",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "ACT",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|ACC",
+        "ayah_ref": "68:31",
+        "form_id": "F015",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            18,
+            23
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "69:5:4:3",
+        "qac_word_ref": "69:5:4",
+        "surah": 69,
+        "ayah": 5,
+        "word_index": 4,
+        "morpheme_index": 3,
+        "surface_ar": "طَّاغِيَةِ",
+        "stem_ar": "طَّاغِيَةِ",
+        "lemma_ar": "طَّاغِيَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "ACT",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:T~aAgiyap|ROOT:Tgy|F|GEN",
+        "ayah_ref": "69:5",
+        "form_id": "F016",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s069:005:noun:7",
+          "attachment_word_unit_id": "q:69:5:7",
+          "qac_char_span": [
+            15,
+            23
+          ],
+          "attachment_char_spans": [
+            [
+              15,
+              23
+            ],
+            [
+              18,
+              22
+            ]
+          ],
+          "source_grammar": "noun, active participle (feminine), genitive (kasra), definite (al-), derived from ṭaghā (to transgress/overflow)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s069:005:pass1:attach:a2",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:69:5:5",
+              "other_surface": "فَأُهْلِكُوا",
+              "other_root": "ه ل ك",
+              "other_form_tag": "PV_PASS",
+              "prep_base": "بـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "69:11:3:1",
+        "qac_word_ref": "69:11:3",
+        "surah": 69,
+        "ayah": 11,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "طَغَا",
+        "stem_ar": "طَغَا",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "ayah_ref": "69:11",
+        "form_id": "F017",
+        "alignment": {
+          "status": "aligned",
+          "method": "root_form_monotonic",
+          "confidence": "medium",
+          "attachment_unit_id": "ae:v3:s069:011:pass1:frame:v1",
+          "attachment_word_unit_id": "q:69:11:3",
+          "qac_char_span": [
+            6,
+            9
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "perfect verb (PV), Form I, 3rd person masculine singular, intransitive here (no explicit object)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s069:011:pass1:attach:a4",
+              "relation": "subject",
+              "focus_role": "head",
+              "other_unit_id": "q:69:11:4",
+              "other_surface": "الْمَاءُ",
+              "other_root": "م و ه",
+              "other_form_tag": "NOUN_CONCRETE",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;word_order"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "78:22:1:3",
+        "qac_word_ref": "78:22:1",
+        "surah": 78,
+        "ayah": 22,
+        "word_index": 1,
+        "morpheme_index": 3,
+        "surface_ar": "طَّٰغِينَ",
+        "stem_ar": "طَّٰغِينَ",
+        "lemma_ar": "طَٰغِين",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "ACT",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:Ta`giyn|ROOT:Tgy|MP|GEN",
+        "ayah_ref": "78:22",
+        "form_id": "F010",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s078:022:noun:2",
+          "attachment_word_unit_id": "q:78:22:2",
+          "qac_char_span": [
+            0,
+            7
+          ],
+          "attachment_char_spans": [
+            [
+              0,
+              7
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "source_grammar": "NOUN_ACTIVE_PART, definite masculine sound plural genitive active participle; object of prefixed لِ (li), with article assimilated to ṭāʾ",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s078:022:pass1:attach:a1",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:78:22:3",
+              "other_surface": "مَآبَاً",
+              "other_root": "أ و ب",
+              "other_form_tag": "GERUND_MEEM",
+              "prep_base": "لـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "79:17:5:1",
+        "qac_word_ref": "79:17:5",
+        "surah": 79,
+        "ayah": 17,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "طَغَىٰ",
+        "stem_ar": "طَغَىٰ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "ayah_ref": "79:17",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s079:017:pass1:frame:v2",
+          "attachment_word_unit_id": "q:79:17:5",
+          "qac_char_span": [
+            17,
+            21
+          ],
+          "attachment_char_spans": [
+            [
+              17,
+              20
+            ]
+          ],
+          "source_grammar": "PV.3MS perfect Form I; intransitive here with pro-drop subject resumed from إِنَّهُۥ (innahu) and فِرْعَوْنَ (firʿawna)",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "79:37:3:1",
+        "qac_word_ref": "79:37:3",
+        "surah": 79,
+        "ayah": 37,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "طَغَىٰ",
+        "stem_ar": "طَغَىٰ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "ayah_ref": "79:37",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s079:037:pass1:frame:v1",
+          "attachment_word_unit_id": "q:79:37:4",
+          "qac_char_span": [
+            6,
+            10
+          ],
+          "attachment_char_spans": [
+            [
+              6,
+              9
+            ]
+          ],
+          "source_grammar": "PV.3MS Form I perfect; intransitive or object-eliding verb with مَن as subject, denoting completed excess beyond limits",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s079:037:pass1:attach:a1",
+              "relation": "subject",
+              "focus_role": "head",
+              "other_unit_id": "q:79:37:3",
+              "other_surface": "مَنْ",
+              "other_root": "م ن ن",
+              "other_form_tag": "REL_PRON",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "word_order;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "89:11:2:1",
+        "qac_word_ref": "89:11:2",
+        "surah": 89,
+        "ayah": 11,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "طَغَ",
+        "stem_ar": "طَغَ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "PERF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|PERF|LEM:TagaY`|ROOT:Tgy|3MP",
+        "ayah_ref": "89:11",
+        "form_id": "F018",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            5,
+            9
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "91:11:3:2",
+        "qac_word_ref": "91:11:3",
+        "surah": 91,
+        "ayah": 11,
+        "word_index": 3,
+        "morpheme_index": 2,
+        "surface_ar": "طَغْوَىٰ",
+        "stem_ar": "طَغْوَىٰ",
+        "lemma_ar": "طَغْوَىٰ",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:TagowaY`|ROOT:Tgy|M|GEN",
+        "ayah_ref": "91:11",
+        "form_id": "F019",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            8,
+            16
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "96:6:4:2",
+        "qac_word_ref": "96:6:4",
+        "surah": 96,
+        "ayah": 6,
+        "word_index": 4,
+        "morpheme_index": 2,
+        "surface_ar": "يَطْغَىٰٓ",
+        "stem_ar": "يَطْغَىٰٓ",
+        "lemma_ar": "طَغَىٰ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:TagaY`|ROOT:Tgy|3MS",
+        "ayah_ref": "96:6",
+        "form_id": "F020",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "medium",
+          "attachment_unit_id": "ae:v3:s096:006:pass1:frame:v1",
+          "attachment_word_unit_id": "q:96:6:5",
+          "qac_char_span": [
+            12,
+            18
+          ],
+          "attachment_char_spans": [
+            [
+              12,
+              17
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "source_grammar": "Imperfect Form I verb, 3rd person masculine singular, active, indicative; intransitive (no explicit object); imperfect tense indicates habitual ongoing action — transgression as continuous state",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

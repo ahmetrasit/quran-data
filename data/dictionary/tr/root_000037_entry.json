@@ -1,0 +1,1115 @@
+{
+  "inputs_sha256": "713084d06c7e40a39a9d25a97765a53a2b0a928e11e8edb23421832de7d3a748",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000037",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000037/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, bir şeyi zor kullanarak bağlama ve serbest kalmasını önleyecek biçimde alıkoyma çekirdeğini açıkça destekler. Verilen dal çerçevesi hem işlemi hem de bunun sonucundaki tutsaklığı korur.",
+        "boundary_note": "Bu anlam, ilişki kuran bağdan, taşınan ağırlıktan ve somut ip adlarından ayrıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım ortak bağlama ve alıkoyma çekirdeğini verir; nesneyi alıkoyma eylemi yalnızca ilgili kullanım kalıbında ayrıca gösterilir."
+      },
+      "concept_map": {
+        "definition": "Bir şeyi zor kullanarak bağlamak ve serbest kalmasını engelleyerek alıkoymaktır; bunun sonucu bağlı ve tutsak durumda bulunmaktır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Zorlayıcı bir bağlama işlemi, nesnenin hareketini ve serbest kalmasını önler.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "İşlemin sonucu, bağlanmış ve alıkonmuş bir durumda bulunmaktır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak tanıklık, zorlayıcı bağlama ile alıkoymayı aynı anlam çekirdeğinin işlem ve sonuç yönleri olarak birleştirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "zorla bağlayıp alıkoyma",
+        "applicability": "Zorlayıcı bağlama işlemini ve bunun serbestliği ortadan kaldıran sonucunu birlikte anlatan genel karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bağlama, zorlama ve alıkoyma bileşenlerinin tümünü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bağlayarak tutsak etme",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin ya da hareketli bir varlığın bağlanıp serbest bırakılmadığı bağlamlarda doğal bir karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bağlama eylemini ve ortaya çıkan tutsaklık durumunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "zorla bağlama ve alıkoyma"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeyi bağlayıp serbest bırakmamak"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bağlanmış ve alıkonmuş"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000030/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Zorlayıcı bağlama, alıkoymanın kurucu işlemi olarak öne çıkar.",
+          "neighbor_only": "Yakalanmış kişi bağlanmamış olsa da tutsak sayılabilir ve kullanım mecazi alana uzanabilir.",
+          "gloss": "bağlayarak tutsak etme",
+          "shared_zone": "Her iki dal da özgürlüğün kısıtlanmasını ve tutsak durumda tutulmayı kapsar.",
+          "distinction": "Odak dal bağlama ile alıkoymayı tek çekirdekte birleştirir; komşu dal ise bağ bulunmasa bile yakalanmış kişiyi ve mecazi tutsaklığı kapsayan daha geniş bir tutsaklık alanına sahiptir."
+        },
+        {
+          "neighbor_ref": "root_000118/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Alıkoyma, nesneyi zorlayıcı biçimde bağlama işlemiyle gerçekleşir.",
+          "neighbor_only": "Hakları vermeme, bir yeri koruma altına alma ve davranış yüzünden tehlikeye bırakma alanlarına uzanır.",
+          "gloss": "zorla alıkoyma",
+          "shared_zone": "İki dalda da engelleme ve serbest hareketi zor kullanarak durdurma vardır.",
+          "distinction": "Odak dalın belirleyici özelliği bağlayarak alıkoymadır; komşu dal bağlama gerektirmeyen engelleme, hak vermeme ve koruma uygulamalarını da içerir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yalnızca zorlayıcı alıkoymanın bağlama koşulunu belirginleştiren iki yakın anlamlı komşu yayımlandı.",
+      "branch_image_ar": "الحبس بعقد قاهر",
+      "what_is_ar": "الحبس والإمساك والقهر وعقد الشيء حتى يكون مأصورا",
+      "what_is_not_ar": "الصلة والقرابة؛ الثقل؛ الحبل؛ الحشيش؛ الكسر",
+      "source_phrase_ar": "فالأصر الحبس (maqayis)؛ والأصر الحبس (ayn)؛ أصره يأصره أصرا حبسه (sihah)؛ الأصر عقد الشيء وحبسه بقهره (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000037/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi antlaşma, akrabalık, evlilik bağı, iyilik, hak ve minnetin kişiyi başkasına yönelten bir bağ oluşturduğunu belirtir. Dal çerçevesi bu ilişki ile bağlayıcılık birlikteliğini doğru biçimde korur.",
+        "boundary_note": "Buradaki bağ, fiziksel alıkoyma değil, kişiyi ilişki veya yükümlülük yoluyla başkasına yönelten bağdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım ilişki ve yükümlülük çekirdeğini verir; bir bağın kişiyi belirli birine yöneltmesi ayrıca kullanım kalıbına bağlı tutulur."
+      },
+      "concept_map": {
+        "definition": "Antlaşma, akrabalık, evlilik, hak, iyilik veya minnet yoluyla kişiler arasında bağ kuran ve birini ötekine karşı yakınlık ya da yükümlülük duymaya yönelten ilişkidir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişiler arasında yöneltici ve bağlayıcı bir ilişki kurulur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bu ilişki antlaşma, akrabalık, evlilik, hak, iyilik veya minnetten doğabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak tanıklık, hem bağlayıcı antlaşmayı hem de kişiyi başkasına yaklaştıran akrabalık, hak ve iyilik bağlarını aynı ilişkisel alanda toplar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bağlayıcı ilişki",
+        "applicability": "Antlaşma veya toplumsal bağın kişiyi bir başkasına karşı yakınlık ve sorumluluk duymaya yönelttiği bütün kullanımları kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "İlişki kurma, yöneltme ve yükümlülük doğurma çekirdeğini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "gönül ve yükümlülük bağı",
+          "usage_role": "explanatory",
+          "applicability": "Akrabalık, evlilik, iyilik veya minnetin bir kişiyi diğerine yönelttiği bağlamlarda açıklayıcı karşılıktır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kişiler arası yönelişi ve bağlayıcı sorumluluğu korur.",
+            "loses": "Tek başına kullanıldığında resmi antlaşma yönünü geri plana iter.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bağlayıcı antlaşma"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "akrabalık ve yakınlık bağları"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir bağ beni ona karşı yakınlık duymaya yöneltiyor"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000170/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bağ, kişiyi yakınlık göstermeye veya yükümlülük taşımaya yöneltir.",
+          "neighbor_only": "Taraflar arasındaki bağlantının kendisini ve insanları bir arada tutan ortak ilişkiyi adlandırır.",
+          "gloss": "kişiler arası bağ",
+          "shared_zone": "Her iki dal kişiler arasında süren bir bağlantı veya yakınlık alanını paylaşır.",
+          "distinction": "Odak dal bağlantının kişiyi başkasına yönelten bağlayıcı gücünü içerir; komşu dal ise bu yöneltici sonuç şart olmadan taraflar arasındaki mevcut bağlantıyı öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_000349/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Akrabalık, evlilik, hak, iyilik ve minnet de bağın kaynağı olabilir.",
+          "neighbor_only": "Topluluklar arası antlaşma, karşılıklı ittifak ve bir şeye sürekli bağlı kalma anlamlarını içerir.",
+          "gloss": "bağlayıcı antlaşma",
+          "shared_zone": "Her iki dal antlaşmanın tarafları birbirine bağlayan yönünü kapsar.",
+          "distinction": "Antlaşma alanında yakınlık vardır; ancak odak dal çok sayıda toplumsal ve duygusal bağ kaynağını kapsarken komşu dal ittifak ve sürekli bağlılık yönünde genişler."
+        },
+        {
+          "neighbor_ref": "root_000104/B003",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Akrabalık veya başka bir neden kişiyi başkasına bağlayan ilişkinin kaynağıdır.",
+          "neighbor_only": "Yakınlara iyilik etme, onları gözetme ve kötü davranışın karşıtı olan eylemleri anlatır.",
+          "gloss": "akrabalık ilişkisi",
+          "shared_zone": "İki dal da akrabalık ve yakınlara karşı sorumluluk alanına girer.",
+          "distinction": "Odak dal sorumluluğu doğuran ilişkinin kendisini anlatır; komşu dal ise bu ilişkiye uygun iyilik, gözetme ve saygı davranışlarını anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; ilişki, antlaşma ve yakınlara iyilik eksenlerini ayıran üç komşu sınır açıklığı sağladığı için seçildi.",
+      "branch_image_ar": "آصرة العطف والصلة",
+      "what_is_ar": "العهد والقرابة والرحم والصهر والمعروف والحق والمنة التي تعطف وتصل",
+      "what_is_not_ar": "الحبس الحسي؛ الثقل؛ حبل الخباء؛ الحشيش؛ الكسر",
+      "source_phrase_ar": "العهد يقال له إصر والقرابة تسمى آصرة (maqayis)؛ كل شيء عطفته على شيء فهو آصر من عهد أو رحم (ayn)؛ ما يأصرني عليه حق (ayn)؛ الآصرة ما عطفك على رجل من رحم أو قرابة أو صهر أو معروف (sihah)؛ ما تعطفني عليه قرابة ولا منة (sihah)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000037/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi hem çadırın altını kazığa bağlayan kısa ipi hem de yol veya su yolu üzerinde gemileri ve geçenleri durduran ip ya da engeli açıkça sayar. Dal çerçevesi bu somut araçları doğru biçimde bir arada tutar.",
+        "boundary_note": "Dal, genel bağlama eylemini değil, çadırı sabitleyen veya geçişi durduran somut bağ ve engel araçlarını adlandırır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım dalın somut araç adlarını doğrudan kapsar ve başka dallardaki soyut ilişki ya da genel alıkoyma anlamlarını içeri almaz."
+      },
+      "concept_map": {
+        "definition": "Bir şeyi sabitlemek için kullanılan kısa bağ ipi veya yol ile su yolu üzerine gerilerek insanların ya da taşıtların geçişini durduran ip ve engeldir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Somut bir ip veya engel, sabitleme ya da geçişi durdurma işlevi görür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Kısa ip, çadırın alt bölümünü bir kazığa bağlayarak sabitler.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Yola veya su yoluna gerilen ip ya da engel, geçenleri veya taşıtları durdurur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak tanıklık somut bağ aracını iki işlevle sunar: çadırı kazığa sabitleyen kısa ip ve geçişi denetlemek için yola ya da su yoluna gerilen engel.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sabitleme ipi veya geçiş engeli",
+        "applicability": "Çadırı kazığa bağlayan kısa ip ile yol veya su yolu üzerinde geçişi durduran somut engeli birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Somut araç niteliğini, sabitleme işlevini ve geçişi durdurma işlevini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "çadır bağlama ipi",
+          "usage_role": "contextual",
+          "applicability": "Çadırın alt bölümünü kazığa sabitleyen kısa ipten söz edilen bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kısa ipin bağlama ve sabitleme işlevini korur.",
+            "loses": "Yol veya su yolu üzerindeki geçiş engeli kullanımını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "gerili geçiş engeli",
+          "usage_role": "contextual",
+          "applicability": "Yol veya su yolu üzerine gerilerek geçenleri ya da taşıtları durduran araç için kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Gerilmiş aracın geçişi durdurma işlevini korur.",
+            "loses": "Çadırı kazığa sabitleyen kısa ip kullanımını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yol veya su yolu üzerine gerilen geçiş engeli"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çadırı kazığa bağlayan kısa ip"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çadır için kısa bağlama ipi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000788/B004",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "İp çadırı kazığa sabitler veya yol ile su yolu üzerinde geçişi durdurur.",
+          "neighbor_only": "Şerit veya bükülmüş ip küçük hayvanları bağlama işleviyle öne çıkar.",
+          "gloss": "işlevsel bağ ipi",
+          "shared_zone": "Her iki dal somut şerit veya ipin bağlama ve sınırlama amacıyla kullanımını kapsar.",
+          "distinction": "Odak dalın araçları çadır sabitleme ve geçiş denetimine özgüdür; komşu dalın çekirdeği ise şerit ya da bükülmüş iple hayvan bağlamadır."
+        },
+        {
+          "neighbor_ref": "root_000583/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Araç çadırı sabitler veya yol ve su yolu geçişini keser.",
+          "neighbor_only": "Bağ, devenin kolunu alt bacağına ya da bileğine bağlayarak hareketini yavaşlatır.",
+          "gloss": "hareket sınırlayan bağ",
+          "shared_zone": "İki dalda da somut bir ip veya bağ hareketi sınırlayan işlev görür.",
+          "distinction": "Odak dal çadır ve geçiş düzeneklerini adlandırır; komşu dal ise belirli biçimde devenin uzuvlarına bağlanan ve yürüyüşünü yavaşlatan bağı adlandırır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; somut ipin işlev ve bağlandığı nesne bakımından sınırını en iyi gösteren iki aynı alan komşusu seçildi.",
+      "branch_image_ar": "حبل ومأصر يحبس المار",
+      "what_is_ar": "الإصار والأيصر وحبل الخباء والوتد والمأصر ومحبس السفينة والسابلة",
+      "what_is_not_ar": "العطف بالقرابة؛ الثقل والذنب؛ الحشيش؛ الكسر",
+      "source_phrase_ar": "المأصر من هذا لأنه شيء يحبس به (maqayis)؛ الإصار وهو الطنب وجمعه أصر (maqayis)؛ الأيصر حبيل قصير يشد في أسفل الخباء إلى وتد (ayn)؛ المأصر حبل يمد على نهر أو طريق تحبس به السفن أو السابلة (ayn)؛ الإصار والأيصر حبل قصير يشد به في أسفل الخباء إلى وتد (sihah)؛ المأصر محبس السفينة (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000037/B004",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi ağırlık, suç yükü ve ağır antlaşmayı birlikte verir. Dal çerçevesi bunları taşınan fiziksel veya manevi bir yükün farklı gerçekleşmeleri olarak doğru biçimde sunar.",
+        "boundary_note": "Bu dal yükün kendisini anlatır; zorla alıkoyma eylemi veya kişiler arası yakınlık bağı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım doğrudan fiziksel ağırlık ile suç veya ağır antlaşmadan doğan manevi yükü kapsar; özel bir kullanım kalıbına dayanmaz."
+      },
+      "concept_map": {
+        "definition": "Taşınan fiziksel ağırlık veya suç ve ağır bir antlaşma nedeniyle üstlenilen manevi yük ya da ağır yükümlülüktür.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kimsenin taşıdığı veya üstlendiği ağır bir yük bulunur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Yük fiziksel ağırlık, suçun sorumluluğu veya ağır antlaşmanın yükümlülüğü olabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak tanıklık fiziksel ağırlığı, suçun manevi yükünü ve ağır antlaşmadan doğan yükümlülüğü ortak bir taşınan yük düşüncesinde birleştirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "ağır yük veya yükümlülük",
+        "applicability": "Fiziksel ağırlık ile suç ya da antlaşmadan doğan manevi sorumluluğu tek üst anlamda karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Fiziksel ve manevi yükü, ağırlığı ve üstlenilen sorumluluğu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "taşınması ağır sorumluluk",
+          "usage_role": "contextual",
+          "applicability": "Suçun veya ağır bir antlaşmanın kişiye yüklediği manevi sorumluluk anlatılırken kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Ağırlık ve üstlenilmiş manevi sorumluluk düşüncesini korur.",
+            "loses": "Doğrudan fiziksel ağırlık anlamını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ağırlık, suç yükü veya ağır yükümlülük"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001643/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Ağır bir antlaşmanın üstlenilen yükümlülüğü de anlam alanına girer.",
+          "neighbor_only": "Suçlar çoğul manevi yükler olarak adlandırılır ve taşınan kötülükler yönü genişçe işlenir.",
+          "gloss": "ağır yük ve suç yükü",
+          "shared_zone": "Her iki dal fiziksel ağırlığı ve suçun insan üzerinde taşıdığı manevi yükü kapsar.",
+          "distinction": "Ortak yük ve suç alanına karşın odak dal ağır antlaşmanın yükümlülüğünü de içerir; komşu dal suçların taşınan manevi yükler oluşunu daha belirgin biçimde geliştirir."
+        },
+        {
+          "neighbor_ref": "root_000971/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Suç ve ağır antlaşmadan doğan manevi yükü de adlandırır.",
+          "neighbor_only": "Taşınan eşya, borç ve topluluk adına üstlenilen ödeme gibi somut ya da mali yükleri kapsar.",
+          "gloss": "taşınan ağır yük",
+          "shared_zone": "Her iki dal taşınması veya üstlenilmesi güç bir yük düşüncesini paylaşır.",
+          "distinction": "Odak dal fiziksel yükü ahlaki ve antlaşmaya bağlı sorumlulukla birleştirir; komşu dal somut yük, borç ve mali üstlenim yönünde genişler."
+        },
+        {
+          "neighbor_ref": "root_000066/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Ağırlığın veya yükümlülüğün kendisini adlandırır.",
+          "neighbor_only": "Bir yükün kişiyi zorlayıp bükecek kadar ağırlaştırması sürecini anlatır.",
+          "gloss": "ağırlaştıran yük",
+          "shared_zone": "İki dal da ağırlığın kişi üzerinde baskı ve güçlük oluşturmasını içerir.",
+          "distinction": "Odak dal taşınan yükün adıdır; komşu dal ise bir işin veya yükün kişiyi ağırlaştırıp büken etkisini ve sürecini öne çıkarır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; fiziksel, ahlaki ve antlaşmaya bağlı yük sınırlarını görünür kılan üç yakın komşu yayımlandı.",
+      "branch_image_ar": "إصر الثقل المحمول",
+      "what_is_ar": "الثقل والذنب والعهد الثقيل الذي يتحمل",
+      "what_is_not_ar": "الحبس الحسي؛ آصرة الرحم؛ حبل الخباء؛ الحشيش؛ الكسر",
+      "source_phrase_ar": "العهد الثقيل إصر (maqayis)؛ الإصر الثقل (ayn)؛ الإصر الذنب والثقل (sihah)",
+      "sources": [
+        "MQ",
+        "AY",
+        "SI"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000037/B005",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi çokluğu nedeniyle içine gireni durduran yoğun ot örtüsünü, birbirine dolaşmış otu ve genel ot adını verir. Dal çerçevesi yoğunluk, dolaşıklık ve geçişi güçleştiren sonuç arasındaki ilişkiyi doğru korur.",
+        "boundary_note": "Buradaki engelleme bağımsız bir alıkoyma eylemi değil, yoğun ve dolaşık bitki örtüsünün sonucudur."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım bitki alanını korur; geçişi durduran yoğunluk ve dolaşıklık belirli ot kullanımlarına bağlı tutulur, genel alıkoyma anlamına genişletilmez."
+      },
+      "concept_map": {
+        "definition": "Ot veya ot örtüsüdür; belirli kullanımlarda çok sık ya da birbirine dolaşmış olup içine girenin ilerlemesini durdurabilir veya güçleştirebilir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Ot veya çimen türü bitki örtüsüdür.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bazı kullanımlarda ot çok sık veya birbirine dolaşmıştır; bu yoğunluk içine girenin ilerlemesini durdurabilir veya güçleştirebilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Bazı biçimler yoğunluk niteliğini belirtmeden doğrudan ot veya çimen adıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak tanıklık ot ve çimeni, özellikle çok sık veya dolaşık olduğunda geçişi engelleyebilen bitki örtüsü olarak sunar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "ot ve çimen örtüsü",
+        "applicability": "Genel ot adını ve bağlama göre sık, dolaşık veya ilerlemeyi engelleyen ot örtüsünü karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ot ve çimen alanını, bazı kullanımlardaki yoğunluk, dolaşıklık ve geçişi engelleme özellikleriyle birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "geçişi zorlaştıran gür otluk",
+          "usage_role": "contextual",
+          "applicability": "Ot örtüsünün çokluğu nedeniyle içine girenin ilerleyemediği ya da zorlandığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Yoğun ot örtüsünü ve ilerlemeyi güçleştiren sonucunu korur.",
+            "loses": "Yalnızca dolaşıklığı bildiren ve genel ot adı olan kullanımları dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "çokluğuyla ilerlemeyi durduran ot örtüsü"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birbirine dolaşmış ot"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ot, çimen"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001365/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yoğun ot örtüsü içine girenin ilerlemesini durdurabilecek kadar sık olabilir.",
+          "neighbor_only": "Birbirine dolaşma ağaçları, bahçeleri ve farklı bitki topluluklarını da kapsar.",
+          "gloss": "birbirine dolaşmış bitki",
+          "shared_zone": "Her iki dal birbirine karışmış ve sıklaşmış bitki örtüsünü kapsar.",
+          "distinction": "Odak dal ot ve çimenle sınırlıdır ve yoğunluğun geçişi engelleyen sonucunu içerir; komşu dal ağaç ve bahçelere de uzanan daha genel bir bitki dolaşıklığıdır."
+        },
+        {
+          "neighbor_ref": "root_000003/B001",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Otun sıklığı, dolaşıklığı ve ilerlemeyi güçleştirmesi belirleyicidir.",
+          "neighbor_only": "Hayvanların yediği genel mera ve yeryüzündeki yenebilir bitki örtüsü öne çıkar.",
+          "gloss": "ot ve mera bitkisi",
+          "shared_zone": "İki dal da yerde yetişen ot ve mera bitkileri alanına aittir.",
+          "distinction": "Odak dal bitkinin sık ve dolaşık yapısını anlatır; komşu dal ise yoğunluk şartı aramadan hayvanların yediği mera ve bitki örtüsünü adlandırır."
+        },
+        {
+          "neighbor_ref": "root_000436/B013",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Ayakta duran ot örtüsünün yoğunluğu ve dolaşıklığı vurgulanır.",
+          "neighbor_only": "Nemli otun sökülmüş veya kesilmiş olması ve onu koparma eylemi öne çıkar.",
+          "gloss": "ot ve çimen",
+          "shared_zone": "Her iki dal ot ve çimen türü bitki malzemesini kapsar.",
+          "distinction": "Odak dal sık ve dolaşık ot örtüsünün durumunu verir; komşu dal ise nemli, koparılmış veya kesilmiş otu ve kesme işlemini öne çıkarır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; dolaşıklık, genel mera ve kesilmiş ot sınırlarını belirginleştiren üç komşu seçildi.",
+      "branch_image_ar": "كلأ يلتف فيحبس",
+      "what_is_ar": "الكلأ الكثير الذي يحبس من ينتهي إليه والحشيش الملتف",
+      "what_is_not_ar": "الحبس المجرد؛ آصرة الرحم؛ الثقل؛ حبل الخباء؛ الكسر",
+      "source_phrase_ar": "كلأ آصر يحبس من ينتهي إليه لكثرته (ayn)؛ كلأ أصير أي ملتف (ayn)؛ الاصارى والايصر أيضا الحشيش (sihah)",
+      "sources": [
+        "AY",
+        "SI"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000037/B006",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi yan yana evleri olan komşuyu, birbirine komşu topluluğu ve yakın duran şeyi destekler. Geçici çerçevedeki genel nesne kapsamı ancak fiziksel veya yerleşimsel yakın dizilişle sınırlandığında güvenlidir.",
+        "boundary_note": "Dal, soyut yakınlık veya akrabalık değil, evlerin, toplulukların ya da şeylerin yan yana ve birbirine yakın konumlanmasıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım yakın konumlanma çekirdeğini verir; komşu ve topluluk okumaları kendi kullanım kalıplarına bağlı tutulur, soyut yakınlığa genişletilmez."
+      },
+      "concept_map": {
+        "definition": "Evlerin, yerleşim birimlerinin veya şeylerin yan yana bulunacak kadar birbirine yakın konumlanması ve bu konumdan doğan komşuluktur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "İki veya daha çok şey fiziksel ya da yerleşimsel olarak birbirine yakın konumlanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Evlerin yan yana oluşu kişiler arasında komşuluk ilişkisi kurar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Bir topluluğun evleri veya üyeleri birbirine komşu biçimde yerleşmiş olabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Tek tanıklık, yan yana evlerden doğan komşuluğu, komşu biçimde yerleşmiş topluluğu ve genel fiziksel yakınlığı aynı konumsal çekirdekte toplar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yan yana yakınlık ve komşuluk",
+        "applicability": "Evlerin, toplulukların veya şeylerin yan yana denecek kadar yakın konumlanmasını ve bundan doğan komşuluğu karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Konumsal yakınlığı, yan yana oluşu ve yerleşimsel komşuluğu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bitişik komşuluk",
+          "usage_role": "contextual",
+          "applicability": "Evlerin yan yana bulunduğu ve kişiler ya da topluluklar arasında komşuluk doğurduğu bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Evlerin yan yana oluşunu ve bundan doğan komşuluğu korur.",
+            "loses": "Ev dışındaki şeylerin genel fiziksel yakınlığını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "evi evimin yanında olan komşum"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birbirine komşu yerleşmiş topluluk"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birbirine yakın, yan yana"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000275/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yakın diziliş niteliği ev dışındaki şeyler için de kullanılabilir.",
+          "neighbor_only": "Komşu kişi, komşuluk ilişkisi, komşular topluluğu ve eş için kullanılan komşuluk adlarını genişçe kapsar.",
+          "gloss": "yakın komşuluk",
+          "shared_zone": "Her iki dal evlerin yakınlığı ile bundan doğan komşuluk ilişkisini kapsar.",
+          "distinction": "Odak dal yan yana ve yakın konumlanma niteliğini merkeze alır; komşu dal ise komşu kişi ve komşulukla ilgili toplumsal adlandırmaları daha geniş biçimde kapsar."
+        },
+        {
+          "neighbor_ref": "root_000493/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yan yana evler ve komşu yerleşim düzeni özellikle belirgindir.",
+          "neighbor_only": "Yaklaştırma eylemi, iki şeyi birbirine yaklaştırma, akrabalık ve soyut yakınlık alanlarına uzanır.",
+          "gloss": "birbirine yakın olma",
+          "shared_zone": "Her iki dal nesnelerin veya kişilerin birbirine yakın bulunmasını kapsar.",
+          "distinction": "Odak dal fiziksel ve yerleşimsel yan yanalıkla sınırlıdır; komşu dal yakınlaştırma eylemi, karşılaştırmalı yakınlık ve akrabalık gibi daha geniş alanlara uzanır."
+        },
+        {
+          "neighbor_ref": "root_000374/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Evler veya şeyler arasındaki yakın konum ilişkisini adlandırır.",
+          "neighbor_only": "Bir ya da çok sayıda ev ve çadırın oluşturduğu yerleşim kümesinin kendisini adlandırır.",
+          "gloss": "yakın evler topluluğu",
+          "shared_zone": "İki dal yakın duran ev ve çadırların oluşturduğu yerleşim görünümünü paylaşır.",
+          "distinction": "Odak dal birimler arasındaki yakınlık ve komşuluk ilişkisidir; komşu dal ise yakın birimlerin oluşturduğu ev veya çadır kümesinin adıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; fiziksel yakınlık, toplumsal komşuluk ve yerleşim kümesi arasındaki sınırları gösteren üç komşu seçildi.",
+      "branch_image_ar": "تقارب الجوار",
+      "what_is_ar": "الجوار وتقارب البيوت والأحياء والأشياء",
+      "what_is_not_ar": "آصرة الرحم؛ الحبس؛ الثقل؛ الحشيش؛ الكسر",
+      "source_phrase_ar": "هو جاري مؤاصري أي إصار بيته إلى جنب إصار بيتي؛ حي متآصرون أي متجاورون؛ الأصير المتقارب",
+      "sources": [
+        "SI"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000037/B007",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi belirli eylem kalıbında bir şeyi kırmayı doğrudan bildirir. Dal çerçevesi bu dar ve yapısal olarak bağımlı anlamı genişletmeden doğru biçimde verir.",
+        "boundary_note": "Bu anlam yalnızca bir şeyi kırma eylemidir; yarma, parçalama, kesme veya ateşi güçlendirme kendiliğinden içerilmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnızca verilen nesneli eylem kalıbında bir şeyi kırma anlamına bağlıdır ve yalın kök anlamı olarak genellenmez."
+      },
+      "concept_map": {
+        "definition": "Verilen nesneli kullanım kalıbında bir şeyin bütünlüğünü bozarak onu kırmaktır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Eylem bir nesnenin bütünlüğünü bozup onu kırar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Tek tanıklık, nesne alan geçişli kullanımın doğrudan bir şeyi kırmak anlamına geldiğini bildirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bir şeyi kırma",
+        "applicability": "Yalnızca verilen nesneli eylem kalıbında bir nesnenin bütünlüğünü bozma anlamını karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Nesne üzerinde gerçekleşen kırma eylemini ve bütünlük kaybını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kırıp bütünlüğünü bozma",
+          "usage_role": "explanatory",
+          "applicability": "Eylemin nesne üzerinde yol açtığı yapısal bozulmanın açıklanması gerektiğinde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kırma eylemini ve nesnenin bütünlüğünün bozulmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeyi kırmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000495/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Anlam yalnızca nesneyi kırmayı gerektirir, kesme ayrıca belirtilmez.",
+          "neighbor_only": "Kırma ile birlikte nesneyi kesme ve parçalara ayırma işlemini de kapsar.",
+          "gloss": "kırma",
+          "shared_zone": "Her iki dal bir nesnenin yapısal bütünlüğünü kırma yoluyla bozar.",
+          "distinction": "Odak dal genel kırma eylemiyle sınırlıdır; komşu dal kırmaya ek olarak kesme ve parçalara ayırma işlemini de anlamın parçası yapar."
+        },
+        {
+          "neighbor_ref": "root_001230/B006",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Kırmanın parçaların tamamen ayrılmasıyla sonuçlanması şart değildir.",
+          "neighbor_only": "Kırılma sonucunda parçalanma ve iç bölüm ya da sırık gibi parçaların ayrılması özellikle belirtilir.",
+          "gloss": "kırılma ve ayrılma",
+          "shared_zone": "İki dal da bir nesnenin kırılmasıyla bütünlüğünün bozulmasını kapsar.",
+          "distinction": "Odak dal sonuç biçimini belirlemeyen genel kırmadır; komşu dal ise kırılmanın parçalara ayrılma veya bir bölümün kopması sonucunu öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_000850/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Nesnenin kırılması, yalnızca yüzeyde çatlak oluşmasından daha ileri olabilir.",
+          "neighbor_only": "Sert bir yüzeyde yarık, çatlak veya açılma oluşması kırılmadan bağımsız olarak yeterlidir.",
+          "gloss": "çatlama ve kırılma",
+          "shared_zone": "Her iki dal sert bir nesnenin yapısal bütünlüğünde bozulma meydana getirir.",
+          "distinction": "Odak dal nesneyi kırma eylemidir; komşu dal ise nesne tümüyle kırılmasa da yüzeyinde yarık veya çatlak oluşmasını anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kırmanın kesme, parçaların ayrılması ve yalnızca çatlama ile sınırlarını gösteren üç komşu yayımlandı.",
+      "branch_image_ar": "كسر الشيء",
+      "what_is_ar": "كسر الشيء",
+      "what_is_not_ar": "الحبس؛ الصلة؛ الثقل؛ الحبل؛ الحشيش؛ الجوار",
+      "source_phrase_ar": "أصرت الشيء أصرا كسرته",
+      "sources": [
+        "SI"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Kökün anlam alanı bağlayıp alıkoyma çekirdeği çevresinde ilişki bağına, somut iplere, ağır yüke ve engelleyici ot yoğunluğuna uzanır; konumsal yakınlık ve kırma ise daha bağımsız dallar oluşturur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 3,
+      "word_count": 3,
+      "ayah_count": 3,
+      "surah_count": 3
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "إِصْر",
+        "stem_ar": "إِصْرًا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:<iSor|ROOT:ASr|M|INDEF|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "إِصْر",
+        "stem_ar": "إِصْرِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:<iSor|ROOT:ASr|M|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "إِصْر",
+        "stem_ar": "إِصْرَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:<iSor|ROOT:ASr|M|ACC",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:286",
+        "surface_ar": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ"
+      },
+      {
+        "ayah_ref": "3:81",
+        "surface_ar": "وَإِذْ أَخَذَ ٱللَّهُ مِيثَٰقَ ٱلنَّبِيِّۦنَ لَمَآ ءَاتَيْتُكُم مِّن كِتَٰبٍ وَحِكْمَةٍ ثُمَّ جَآءَكُمْ رَسُولٌ مُّصَدِّقٌ لِّمَا مَعَكُمْ لَتُؤْمِنُنَّ بِهِۦ وَلَتَنصُرُنَّهُۥ قَالَ ءَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِى قَالُوٓا۟ أَقْرَرْنَا قَالَ فَٱشْهَدُوا۟ وَأَنَا۠ مَعَكُم مِّنَ ٱلشَّٰهِدِينَ"
+      },
+      {
+        "ayah_ref": "7:157",
+        "surface_ar": "ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ ٱلْمُنكَرِ وَيُحِلُّ لَهُمُ ٱلطَّيِّبَٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ فَٱلَّذِينَ ءَامَنُوا۟ بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُۥٓ أُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:286:24:1",
+        "qac_word_ref": "2:286:24",
+        "surah": 2,
+        "ayah": 286,
+        "word_index": 24,
+        "morpheme_index": 1,
+        "surface_ar": "إِصْرًا",
+        "stem_ar": "إِصْرًا",
+        "lemma_ar": "إِصْر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iSor|ROOT:ASr|M|INDEF|ACC",
+        "ayah_ref": "2:286",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            89,
+            93
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "3:81:25:1",
+        "qac_word_ref": "3:81:25",
+        "surah": 3,
+        "ayah": 81,
+        "word_index": 25,
+        "morpheme_index": 1,
+        "surface_ar": "إِصْرِ",
+        "stem_ar": "إِصْرِ",
+        "lemma_ar": "إِصْر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iSor|ROOT:ASr|M|ACC",
+        "ayah_ref": "3:81",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            108,
+            112
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "7:157:26:1",
+        "qac_word_ref": "7:157:26",
+        "surah": 7,
+        "ayah": 157,
+        "word_index": 26,
+        "morpheme_index": 1,
+        "surface_ar": "إِصْرَ",
+        "stem_ar": "إِصْرَ",
+        "lemma_ar": "إِصْر",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iSor|ROOT:ASr|M|ACC",
+        "ayah_ref": "7:157",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            136,
+            141
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

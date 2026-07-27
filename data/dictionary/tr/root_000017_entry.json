@@ -1,0 +1,4464 @@
+{
+  "inputs_sha256": "5a85a1a1f8175d0747153d0c4e4c0bbc98eda6e30c33f1f738f8667ccdc979f1",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000017",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000017/B001",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi tek olma, mutlak biçimde eşsiz sayılma ve yinelemeyle bu niteliği pekiştirme çekirdeğini destekler. Aynı ifade saymanın ilk basamağına da değindiği için dal korunabilir, ancak düzenli sayı kurma kullanımları ayrı sayı dalına bırakılmalıdır.",
+        "boundary_note": "Bu dal tekliği ve eşsizliği anlatır; olumsuzlukta kişi kapsamını, onlu sayı kuruluşlarını, gün adını ve dağ adını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım yalın biçimdeki tek olma anlamını ve yinelemeli pekiştirmeyi ayrı yüzler olarak tutar; yinelemeyi yalın biçimin zorunlu anlamı yapmaz."
+      },
+      "concept_map": {
+        "definition": "Bir varlığın bir tane, tek ya da eşi olmayan olmasıdır; mutlak kullanımda Tanrı'nın ortağı ve benzeri bulunmadığını bildirir. Sözcüğün yinelenmesi bu tekliği güçlü biçimde vurgular.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir varlığı bir tane, tek veya eşi bulunmayan olarak gösterir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Mutlak niteleme olarak kullanıldığında Tanrı'nın ortağı ve benzeri bulunmadığını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Aynı sözün art arda yinelenmesi tek olma bildirimini pekiştirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "source_variant",
+            "statement": "Kaynak ifadesi sözcüğü saymanın başlangıcındaki bir sayısıyla da ilişkilendirir; düzenli sayı kuruluşları ayrı dalda ele alınır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynakların ortak çizgisi tek olma düşüncesidir. Bu çizgi genel olarak bir tane olmayı, Tanrı için mutlak eşsizliği ve yineleme yoluyla yapılan güçlü vurguyu bir araya getirir; sayı başlangıcına ilişkin kayıt ise komşu sayı dalıyla sınır oluşturur.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "tek ve eşi olmayan olma",
+        "applicability": "Tek olma çekirdeğini, mutlak eşsizliği ve yinelemeli pekiştirmeyi birlikte temsil eden dal düzeyi karşılıktır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Tek olma, eşsiz bulunma ve bu niteliğin pekiştirilmesi birlikte korunur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bir tane",
+          "usage_role": "contextual",
+          "applicability": "Sayılabilir bir varlığın tek örnek olduğunu bildiren genel bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir tane olma çekirdeğini korur.",
+            "loses": "Mutlak eşsizlik ile yinelemeli pekiştirme yüzlerini taşımaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F004"
+          ]
+        },
+        {
+          "text": "tek ve eşsiz",
+          "usage_role": "contextual",
+          "applicability": "Tanrı'nın ortağı ve benzeri olmadığını bildiren mutlak niteleme bağlamına uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Mutlak tekliği ve eşsizliği korur.",
+            "loses": "Genel sayısal birliği ve yinelemeli söyleyiş biçimini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "yalnız bir, yalnız bir",
+          "usage_role": "explanatory",
+          "applicability": "Teklik bildiren sözün yinelenerek güçlü biçimde vurgulandığı söyleyiş için açıklayıcı karşılıktır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Yineleme yoluyla yapılan tek olma vurgusunu korur.",
+            "loses": "Yinelenmeyen genel kullanımın bütün kapsamını taşımaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir tane; tek ve eşsiz"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yalnız bir, yalnız bir"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001631/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal genel tekliği, sayı başlangıcına değen kullanımı ve yinelemeli pekiştirmeyi de içerir.",
+          "neighbor_only": "Komşu dal Tanrı'nın birliği inancını, ortak bulunmamasını ve bölünmezliği daha geniş bir inanç alanı olarak işler.",
+          "gloss": "Tanrı'nın ortak ve benzerden uzak tekliği",
+          "shared_zone": "İki dal da Tanrı için mutlak tekliği ve ortak bulunmamasını bildirir.",
+          "distinction": "Komşu dal yalnız Tanrı'nın birliği çevresinde kuruludur; odak dal ise genel tek olmayı ve yinelemeli vurguyu da taşıdığı için bütünüyle onun yerine geçmez."
+        },
+        {
+          "neighbor_ref": "root_001240/B018",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal sayısal birlik ve mutlak tek olma bildirebilir.",
+          "neighbor_only": "Komşu dal belirli bir üstünlük ya da kötülük alanında benzeri bulunmayan kişiyi anlatır.",
+          "gloss": "belirli bir alanda benzeri bulunmayan",
+          "shared_zone": "İki dal da eş ya da benzer bulunmaması düşüncesinde buluşur.",
+          "distinction": "Odak dalın tekliği varlığın bir tane veya mutlak eşsiz olmasıdır; komşu dalın eşsizliği ise belirli bir nitelik alanındaki karşılaştırmaya bağlıdır."
+        },
+        {
+          "neighbor_ref": "root_000017/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal varlığın tek ve eşi olmayan oluşunu, ayrıca bu niteliğin vurgulanmasını anlatır.",
+          "neighbor_only": "Komşu dal sayma dizisini, onlu sayı kuruluşlarını ve bir kümeyi on bire çıkarma işlemini kapsar.",
+          "gloss": "bir sayısı ve onlu sayı kuruluşları",
+          "shared_zone": "Her iki dalda da bir tane olma düşüncesi ve sayının ilk basamağıyla bağ vardır.",
+          "distinction": "Odak dal nitelik olarak tekliği merkez alır; komşu dal ise birin sayı dizisindeki ve birleşik sayılardaki görevini merkez alır."
+        },
+        {
+          "neighbor_ref": "root_000017/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal bir varlığın tek ya da eşsiz olma niteliğini bildirir.",
+          "neighbor_only": "Komşu dal kişinin tek başına kalması veya bir topluluğun birer birer gelmesi gibi değişme ve dağılım olaylarını bildirir.",
+          "gloss": "tek başına kalma ve birer birer dağılma",
+          "shared_zone": "Her iki dal da birlikten veya topluluktan ayrı tek olma görünümüne dokunur.",
+          "distinction": "Odak dal bir nitelik bildirirken komşu dal tek başına kalma ya da ayrı ayrı hareket etme sürecini ve sonucunu bildirir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; en güçlü sınırlar mutlak birlik, alana bağlı eşsizlik, sayısal bir ve tek başına kalma dallarıyla kuruldu, kalanlar yalnız uzak konu ortaklığı taşıdığı için yayımlanmadı.",
+      "branch_image_ar": "الأَحَدِيَّة والوَحْدَة",
+      "what_is_ar": "أحد بمعنى الواحد، والوصف المطلق بأحد، وتكرار أحد أحد للتأكيد",
+      "what_is_not_ar": "ليس نفي الجنس ولا أحد عشر ولا يوم الأحد ولا جبل أُحُد",
+      "source_phrase_ar": "أحد فرع والأصل الواو وحد (maqayis); أحد بمعنى الواحد وهو أول العدد (sihah); قل هو الله أحد (sihah;mufradat); يستعمل مطلقا وصفا في وصف الله تعالى وأصله وحد (mufradat); أحد أحد (sihah)",
+      "sources": [
+        "MQ",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000017/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, sözcüğün olumsuzluk içinde konuşmaya konu olabilecek kişilerin bütün türünü kapsadığını ve yalnız tek kişiyi değil iki ya da daha çok kişiyi de dışladığını açıkça belirtir. Hazırlanan dal çerçevesi bu kapsamı doğru yansıtır.",
+        "boundary_note": "Bu dal yalnız olumsuz bağlamdaki kişi kapsamıdır; olumlu tekliği, sayı kuruluşlarını, gün adını ve dağ adını içermez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım yalın birimin olumsuz cümledeki kapsamına bağlıdır ve başka bir söz öbeğine özgü anlamı bu dala taşımaz."
+      },
+      "concept_map": {
+        "definition": "Olumsuz bir cümlede, söz konusu olabilecek kişilerden bir tekinin bile bulunmadığını ya da eyleme katılmadığını bildirir. Kapsam yalnız bir kişiyi değil, iki ve daha çok kişiyi de dışarıda bırakır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Olumsuzluk altında konuşmaya konu olabilecek kişiler türünün tamamını kapsar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Bir kişinin yanı sıra iki veya daha çok kişinin varlığını ya da katılımını da dışlar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "example",
+            "statement": "Bir yerde hiç kimsenin bulunmadığını veya bir eylemi hiç kimsenin yapmadığını söyleyen cümlelerde gerçekleşir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar olumsuzluk içindeki kullanımın kişi türünü bütünüyle kapsadığı konusunda birleşir. Böylece söz yalnız tek bir kişinin yokluğunu değil, o türe giren herhangi bir sayıda kişinin bulunmamasını da bildirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "hiç kimse",
+        "applicability": "Olumsuzluk altında kişi türünün tamamını, sayı ayrımı yapmadan dışlayan doğal dal karşılığıdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Olumsuzluk, kişi kapsamı ve birden çok kişiyi de dışlama birlikte korunur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "hiç kimse yok",
+          "usage_role": "contextual",
+          "applicability": "Bir yerde kişi bulunmadığını bildiren varlık cümlelerinde doğal karşılıktır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kişilerin tümünü olumsuzluk altında dışlama kapsamını korur.",
+            "loses": "Bir eyleme katılmama gibi yer bildirmeyen olumsuz bağlamları kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ]
+        },
+        {
+          "text": "aranızdan hiç kimse",
+          "usage_role": "contextual",
+          "applicability": "Belirli bir insan topluluğunun hiçbir üyesinin eyleme katılmadığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Belirli bir topluluğun bütün üyelerini olumsuzluk kapsamına alır.",
+            "loses": "Belirsiz bir yerde insan bulunmaması gibi topluluğu belirtilmeyen bağlamları kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "olumsuzlukta hiç kimse"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000075/B008",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal olumsuzluk altında kişi türünün tamamını düzenli bir dil bilgisel kapsamla dışlar.",
+          "neighbor_only": "Komşu dal, bir yerde insanın ya da kimi kullanımlarda herhangi bir izin bulunmadığını bildiren kalıplaşmış sözleri kapsar.",
+          "gloss": "bir yerde kimse ya da iz bulunmaması",
+          "shared_zone": "İki dal da bir yerde kişinin bulunmadığını söyleyebilir.",
+          "distinction": "Odak dal kişi türünü olumsuzlukla kapsayan genel birimdir; komşu dal ise belirli kalıplaşmış sözlerle yerin boşluğunu, bazen de iz yokluğunu anlatır."
+        },
+        {
+          "neighbor_ref": "root_000187/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal yalnız konuşmaya konu olabilecek kişilerin tümünü dışlar.",
+          "neighbor_only": "Komşu dal kalıplaşmış bir sözle kişi, herhangi bir şey veya su gibi farklı varlıkların en küçüğünü bile dışlayabilir.",
+          "gloss": "en küçük kişi ya da şeyin bile yokluğu",
+          "shared_zone": "İki dal da olumsuzlukta en küçük bir örneğin bile bulunmadığını bildirebilir.",
+          "distinction": "Odak dalın alanı kişilerdir; komşu dalın kalıplaşmış kullanımı kişi dışındaki şeylere ve suya kadar genişleyebilir."
+        },
+        {
+          "neighbor_ref": "root_000017/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal olumsuzluk altında herhangi bir kişinin varlığını ya da katılımını dışlar.",
+          "neighbor_only": "Komşu dal olumlu biçimde bir tane, tek veya eşi olmayan olmayı bildirir.",
+          "gloss": "bir tane, tek ve eşsiz",
+          "shared_zone": "Her iki dalın biçiminde bir kişiye ya da varlığa ilişkin birlik düşüncesi bulunur.",
+          "distinction": "Odak dalın anlamı olumsuzluk ve bütün kişileri kapsama koşuluna bağlıdır; komşu dal olumlu tekliği veya eşsizliği anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tümü gözden geçirildi; yer boşluğunu bildiren kalıplar, daha geniş yokluk kalıbı ve olumlu teklik dalı okur açısından en yararlı karşıtlıkları verdi.",
+      "branch_image_ar": "استغراق النفي",
+      "what_is_ar": "أحد في سياق النفي لاستغراق جنس من يصلح أن يخاطب، فيشمل الواحد وما فوقه",
+      "what_is_not_ar": "ليس إثبات الواحد ولا العدد المركب ولا علم الجبل",
+      "source_phrase_ar": "لا أحد في الدار؛ ما في الدار أحد (sihah); أحد في النفي لاستغراق جنس الناطقين ولا واحد ولا اثنان فصاعدا (mufradat); فما منكم من أحد عنه حاجزين (sihah;mufradat)",
+      "sources": [
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000017/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bir sayısını saymanın başlangıcı olarak, on ve yirmi gibi onluklarla kurulan sayılarda bir bileşen olarak ve bir kümeyi on bire çıkaran eylem biçiminde açıkça sunar. Dal çerçevesi bu üç kullanımı doğru biçimde ayırarak bir arada tutar.",
+        "boundary_note": "Bu dal sayı ve sayı kurma alanındadır; olumsuz kişi kapsamını, mutlak eşsizliği, gün adını ve özel dağ adını içermez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım yalın bir sayısını, onluklarla kurulan söz öbeklerini ve on bire çıkarma biçimini ayrı yüzler olarak gösterir; söz öbeği anlamını yalın biçime yaymaz."
+      },
+      "concept_map": {
+        "definition": "Saymanın başlangıcındaki bir sayısını, bu sayının on ve yirmi gibi onluklarla birleşerek kurduğu sayıları ve bir topluluğu on bire çıkarma işlemini kapsar. Yalın sayı, birleşik sayı ve yapma eylemi birbirinden ayrı kullanımlardır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Sayma dizisinin başlangıcındaki bir sayısını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Bir sayısı on veya yirmi gibi onluklarla birleşerek on bir ve yirmi bir türü sayıları kurar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Eylem biçimi, bir topluluğun sayısını on bire çıkarma işlemini bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynakların ortak kaydı bir sayısının hem sayma dizisindeki yalın yerini hem de onluklarla kurduğu sayıları gösterir. Aynı kanıt, ayrı bir eylem biçiminde bir kümeyi on bire çıkarma sonucunu da korur.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bir sayısı, onlu kuruluşları ve on bire çıkarma",
+        "applicability": "Yalın sayıyı, onluklarla kurulan sayı biçimlerini ve on bire çıkarma eylemini birlikte temsil eder.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sayma başlangıcı, onluklarla sayı kurma ve on bire çıkarma işlemi birlikte korunur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bir",
+          "usage_role": "contextual",
+          "applicability": "Sayma dizisinin ilk sayısını yalın olarak bildiren bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir sayısının sayma başlangıcındaki değerini korur.",
+            "loses": "Onluklarla kurulan sayıları ve on bire çıkarma eylemini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "on bir ya da yirmi bir",
+          "usage_role": "contextual",
+          "applicability": "Bir sayısının on veya yirmiyle kurduğu birleşik ya da bağlı sayı örneklerinde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir sayısının onluklarla birleşerek sayı kurmasını korur.",
+            "loses": "Yalın bir sayısını ve bir topluluğu on bire çıkarma eylemini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "on bire çıkarmak",
+          "usage_role": "contextual",
+          "applicability": "Bir topluluğun sayısını on bire ulaştıran eylem biçiminin doğal karşılığıdır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir topluluğu on bire ulaştırma işlemini ve sonucunu korur.",
+            "loses": "Yalın sayıyı ve onluklarla kurulan sayı adlarını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "saymanın başlangıcındaki bir"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "on bir, on bir dişil biçimi ve yirmi bir"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "onları on bire çıkarmak"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001016/B001",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal bir sayısını, onluklara eklenmesini ve on bire çıkarma işlemini merkez alır.",
+          "neighbor_only": "Komşu dal on, yirmi ve bunlara komşu onluk sayı sözlerini merkez alır.",
+          "gloss": "on ve onluk sayılar",
+          "shared_zone": "İki dal on bir ve yirmi bir gibi sayı kuruluşlarında birlikte görünür.",
+          "distinction": "Odak dal kuruluş içindeki bir bileşenini ve on bire çıkarma eylemini izler; komşu dal ise onluk sayıların kendisini ve çevresindeki biçimleri izler."
+        },
+        {
+          "neighbor_ref": "root_000203/B001",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal bir sayısını ve onun onluklarla kurduğu biçimleri kapsar.",
+          "neighbor_only": "Komşu dal üç sayısını, onun sıra, dağıtma, yüzlük ve binlik gibi geniş türevlerini kapsar.",
+          "gloss": "üç sayısı ve bağlı biçimleri",
+          "shared_zone": "İki dal sayı adlarını ve bu adların düzenli kuruluşlarını işler.",
+          "distinction": "Ortak alan sayı sistemidir, ancak merkez sayılar ve bunlardan kurulan biçimler farklıdır; birbirlerinin yerine kullanılamazlar."
+        },
+        {
+          "neighbor_ref": "root_000017/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal sayma, onluklarla sayı kurma ve bir kümeyi on bire çıkarma görevlerini kapsar.",
+          "neighbor_only": "Komşu dal tek ve eşi olmayan olmayı, mutlak nitelemeyi ve yinelemeli pekiştirmeyi kapsar.",
+          "gloss": "tek ve eşi olmayan olma",
+          "shared_zone": "İki dal bir tane olma ve saymanın ilk basamağı çevresinde temas eder.",
+          "distinction": "Odak dal sayı dizisi ve sayı kuruluşuyla sınırlıdır; komşu dal nitelik olarak tekliği ve eşsizliği merkez alır."
+        },
+        {
+          "neighbor_ref": "root_000439/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal bir sayısını, onun onluklarla kurduğu sayıları ve bir topluluğu on bire çıkarma işlemini bildirir.",
+          "neighbor_only": "Komşu dal beş sayısını, beşinci olmayı, beş kişiden birini ve bir topluluğu beşe tamamlamayı bildirir.",
+          "gloss": "beş, beşinci ve beşe tamamlama",
+          "shared_zone": "İki dal sayı adı, sıra içindeki yer ve bir topluluğu belirli sayıya ulaştırma alanlarında temas eder.",
+          "distinction": "Odak dalın merkez sayısı bir ve onlu kuruluşlarıdır; komşu dalın merkez sayısı beş, sıra değeri beşinci ve tamamlama sonucu beştir."
+        }
+      ],
+      "neighbor_coverage_note": "Tüm adaylar değerlendirildi; onluklar, üç sayısı, teklik dalı ve üçe tamamlama dalı sayı alanının en açıklayıcı sınırlarını verdi.",
+      "branch_image_ar": "الواحد في العد والتركيب",
+      "what_is_ar": "أحد في العد، وتركيبه مع العشرات، وتصْيير المعدود أحد عشر",
+      "what_is_not_ar": "ليس نفي الجنس ولا الأحدية المطلقة ولا يوم الأحد",
+      "source_phrase_ar": "أحد واثنان وأحد عشر وإحدى عشرة (sihah); الواحد المضموم إلى العشرات نحو أحد عشر وأحد وعشرين (mufradat); فأحدهن أي صيرهن أحد عشر (sihah)",
+      "sources": [
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000017/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi bir ad öbeği içinde bir kişiyi ayıran ya da ilk olanı bildiren kullanımla haftanın ilk gününün adını birlikte verir ve gün adının çoğulunu da kaydeder. Hazırlanan çerçeve kullanılabilir, ancak iki kişiden birini seçme anlamı her bağlamda sıra bakımından ilk olmayı zorunlu kılmaz.",
+        "boundary_note": "Ad öbeğindeki seçme veya ilk olma kullanımı ile haftanın gün adı ayrı yüzlerdir; sayı kuruluşları ve dağ adı bu dala girmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım ad öbeğine bağlı seçme kullanımını, gün adı söz öbeğini ve gün adının çoğul biçimini ayırır; bunları yalın kökün tek bir genel anlamına dönüştürmez."
+      },
+      "concept_map": {
+        "definition": "Bir ad öbeğinin parçası olduğunda iki kişiden birini seçer veya bağlama göre ilk olanı bildirir. Gün adıyla kurulan kullanımda haftanın ilk gününü ve bu günün özel adını, ayrıca gün adının çoğul biçimini kapsar.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir ad öbeği içinde iki kişiden birini ayırır veya bağlama göre ilk olanı gösterir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Gün sözüyle kurulan söz öbeği haftanın ilk gününü ve o günün özel adını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Kaynak ifadesi haftanın bu gününe verilen adın çoğul biçimini de kaydeder.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynakların birleşik kaydı, ad öbeği içindeki birini ayırma veya ilk sayma işlevini haftanın ilk gününün adıyla ilişkilendirir. Gün adının çoğul biçimi de aynı kanıt içinde korunur.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "iki kişiden biri, ilk olan ve haftanın ilk günü",
+        "applicability": "Ad öbeğindeki seçme ya da ilk olma işlevini ve gün adıyla sınırlı takvim kullanımını birlikte temsil eder.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "İki kişiden birini ayırma, ilk olma, gün adı ve gün adının çoğul yüzü korunur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "ikinizden biri",
+          "usage_role": "contextual",
+          "applicability": "İki kişilik bir topluluktan herhangi bir üyeyi ad öbeği içinde ayıran bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İki kişiden birini seçme işlevini korur.",
+            "loses": "Sıra bakımından ilk olmayı, gün adını ve gün adının çoğulunu kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "Pazar günü",
+          "usage_role": "contextual",
+          "applicability": "Haftanın ilk gününün Türkçedeki yerleşik adını gerektiren takvim bağlamlarında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Haftanın ilk gününün özel gün adı olma işlevini korur.",
+            "loses": "İki kişiden birini ayırma işlevini ve çoğul gün adı biçimini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "Pazar günleri",
+          "usage_role": "contextual",
+          "applicability": "Gün adının çoğul ya da yinelenen günler anlamındaki kullanımını karşılar.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Gün adının çoğul kullanımını korur.",
+            "loses": "Tek bir günü ve iki kişiden birini ayırma işlevini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ikinizden biri"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Pazar günü"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Pazar günleri"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000849/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal ad öbeğinde iki kişiden birini ayırmayı ve haftanın ilk gününün adını da kapsar.",
+          "neighbor_only": "Komşu dal bir nesnenin önü, üstü ya da başlangıcı gibi uzamsal ve sıralı öncelikleri geniş biçimde kapsar.",
+          "gloss": "ön, üst ve ilk bölüm",
+          "shared_zone": "İki dal sıra bakımından ilk veya önde olanı gösterebilir.",
+          "distinction": "Odak dalın ilk olma yüzü belirli ad öbeklerine ve gün adına bağlıdır; komşu dal ise nesnelerin ön, üst ve başlangıç bölümlerine uzanan daha geniş bir öncelik alanıdır."
+        },
+        {
+          "neighbor_ref": "root_000203/B006",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal haftanın ilk gününün adını ve bu adın çoğulunu kapsar.",
+          "neighbor_only": "Komşu dal Salı gününün adını ve onun tekil ile çoğul biçimlerini kapsar.",
+          "gloss": "Salı günü",
+          "shared_zone": "İki dal haftanın belirli bir gününe verilen adı ve adın sayı biçimlerini işler.",
+          "distinction": "Ortak alan haftanın günleridir, ancak gösterdikleri günler farklıdır ve gün adları birbirinin yerine geçmez."
+        },
+        {
+          "neighbor_ref": "root_000439/B004",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal haftanın ilk gününü ve adını bildirir.",
+          "neighbor_only": "Komşu dal haftanın beşinci gününün yerleşik adını bildirir.",
+          "gloss": "Perşembe günü",
+          "shared_zone": "İki dal haftanın gün adları dizgesine aittir.",
+          "distinction": "Odak dal ilk güne, komşu dal beşinci güne işaret eder; ortak takvim alanına karşın gösterdikleri gün ayrıdır."
+        },
+        {
+          "neighbor_ref": "root_000536/B010",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal haftanın ilk gününü, adını ve çoğul biçimini kapsar.",
+          "neighbor_only": "Komşu dal Çarşamba gününün adını, söyleniş ayrıntısını ve çoğulunu kapsar.",
+          "gloss": "Çarşamba günü",
+          "shared_zone": "İki dal bir hafta gününün adı ve çoğul kullanımı çevresinde buluşur.",
+          "distinction": "Aynı takvim alanındadırlar, fakat haftanın farklı günlerini gösterirler ve odak dal ayrıca ad öbeğinde birini ayırma işlevi taşır."
+        },
+        {
+          "neighbor_ref": "root_000017/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal ad öbeğinde bir kişiyi ayırma ve haftanın ilk gününü adlandırma işlevlerini taşır.",
+          "neighbor_only": "Komşu dal bir sayısını, onluklarla sayı kurmayı ve bir topluluğu on bire çıkarmayı taşır.",
+          "gloss": "bir sayısı ve onlu sayı kuruluşları",
+          "shared_zone": "İki dal bir ve ilk düşüncelerinde temas eder.",
+          "distinction": "Odak dal seçme, sıra ve gün adı yapılarıyla sınırlıdır; komşu dal sayma ve sayı oluşturma işlemleriyle sınırlıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; ilk olma alanındaki komşu ile üç farklı gün adı ve sayı dalı, dalın hem sıra hem takvim sınırlarını en açık biçimde gösterdi.",
+      "branch_image_ar": "الأول والإضافة",
+      "what_is_ar": "أحد مضافا أو مضافا إليه بمعنى الأول، واسم يوم الأحد",
+      "what_is_not_ar": "ليس أحد عشر ولا لا أحد ولا جبل أُحُد",
+      "source_phrase_ar": "أن يستعمل مضافا أو مضافا إليه بمعنى الأول (mufradat); أما أحدكما (mufradat); يوم الأحد أي يوم الأول (mufradat); يوم الأحد يجمع على آحاد (sihah)",
+      "sources": [
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000017/B005",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi kişinin bir işi yalnız üstlenmesi ya da tek başına kalması ile insanların ayrı ayrı, birer birer gelmesini açıkça birbirine bağlı iki kullanım olarak verir. Hazırlanan dal bu eylem ve dağılım ayrımını doğru korur.",
+        "boundary_note": "Bu dal tek başına kalma ve ayrı ayrı hareket etme olaylarıdır; sayısal biri, olumsuz kişi kapsamını ve özel adları içermez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım türemiş eylem biçimindeki yalnızlaşmayı ve yinelemeli dağılım sözündeki birer birer gelişi ayrı yüzler olarak tutar; ikisini yalın kök anlamı saymaz."
+      },
+      "concept_map": {
+        "definition": "Bir kişinin bir işi başkalarından ayrı olarak yalnız üstlenmesi ya da tek başına kalmasıdır. Topluluk için kullanıldığında kişilerin toplu değil, ayrı ayrı ve birer birer gelmesini bildirir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kişinin bir işi başkalarından ayrı olarak üstlenmesini veya tek başına kalmasını bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Bir topluluğun üyelerinin toplu halde değil, ayrı ayrı ve birer birer gelmesini bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar tek başına kalma veya bir işi yalnız üstlenme anlamını birlikte destekler. Aynı kayıt, topluluğun üyelerinin ayrı ayrı ve birer birer gelişiyle bu çekirdeğin dağılımsal uzantısını da gösterir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "tek başına kalma ve birer birer gelme",
+        "applicability": "Bireyin yalnızlaşmasını veya işi yalnız üstlenmesini ve topluluğun ayrı ayrı gelişini birlikte temsil eder.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yalnız üstlenme, tek başına kalma ve birer birer dağınık geliş korunur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "tek başına kalmak",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin başkalarından ayrılarak yalnız kalmasını bildiren bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bireyin başkalarından ayrı ve yalnız duruma gelmesini korur.",
+            "loses": "Bir işi yalnız üstlenme ayrıntısını ve topluluğun birer birer gelişini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "işi yalnız üstlenmek",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin belirli bir işi başkalarının katılımı olmadan üstlendiği bağlamlara uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir işi başkalarından ayrı olarak üstlenme ilişkisini korur.",
+            "loses": "Genel tek başına kalmayı ve topluluğun ayrı ayrı gelişini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "birer birer gelmek",
+          "usage_role": "contextual",
+          "applicability": "Bir topluluğun üyelerinin toplu halde değil, ayrı ayrı geldiği bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Ayrı ayrı ve birer birer geliş biçimini korur.",
+            "loses": "Bireyin bir işi yalnız üstlenmesini veya tek başına kalmasını kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "tek başına kalmak; işi yalnız üstlenmek"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birer birer, ayrı ayrı"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000305/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal bir işi yalnız üstlenmeyi ve topluluğun birer birer gelişini de kapsar.",
+          "neighbor_only": "Komşu dal topluluktan yana çekilmeyi, yer değiştirmeyi ve ayrı bir konumda bulunmayı kapsar.",
+          "gloss": "yana çekilme ve topluluktan ayrılma",
+          "shared_zone": "İki dal bir kişinin topluluktan ayrılıp tek başına bulunmasını anlatabilir.",
+          "distinction": "Odak dal yalnız üstlenme ile birer birer gelişe uzanır; komşu dal ise yana çekilme ve konumsal ayrılmayı daha belirgin biçimde taşır."
+        },
+        {
+          "neighbor_ref": "root_000154/B008",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal bireyin yalnızlaşmasını ve kişilerin birer birer gelişini kapsar.",
+          "neighbor_only": "Komşu dal insanların genel olarak dağılmış ve darmadağın durumda bulunmasını anlatan kalıplaşmış bir sözdür.",
+          "gloss": "insanların dağılıp darmadağın olması",
+          "shared_zone": "İki dal bir topluluğun üyelerinin birlikte değil, dağınık durumda bulunmasını anlatır.",
+          "distinction": "Odak dal birer birer geliş biçimini ve bireysel yalnızlaşmayı belirtir; komşu dal yalnız topluluğun dağılmış durumunu kalıplaşmış biçimde bildirir."
+        },
+        {
+          "neighbor_ref": "root_001331/B008",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal tek başına kalmayı ve ayrı ayrı gelmeyi bildirir.",
+          "neighbor_only": "Komşu dal topluluğun farklı yönlere giderek dağılmasını bildiren kalıplaşmış bir anlatımdır.",
+          "gloss": "farklı yönlere dağılıp gitmek",
+          "shared_zone": "İki dal bir topluluğun üyelerinin birbirinden ayrılarak dağılmasını kapsar.",
+          "distinction": "Odak dal gelişin birer birer oluşunu ve bireysel yalnızlaşmayı da içerir; komşu dal yönlere dağılıp gitme olayına bağlıdır."
+        },
+        {
+          "neighbor_ref": "root_000877/B009",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dal yalnızlaşma sürecini veya kişilerin ayrı ayrı hareket etmesini anlatır.",
+          "neighbor_only": "Komşu dal belirli yaban hayvanlarının topluluktan ayrı duran tek üyesini adlandırır.",
+          "gloss": "topluluktan ayrı duran tek hayvan",
+          "shared_zone": "İki dal bir canlının başkalarından ayrı ve tek başına bulunması düşüncesinde buluşur.",
+          "distinction": "Odak dal insanların yalnızlaşma ya da ayrı ayrı hareket etme sürecini bildirir; komşu dal ise belirli bir hayvanın tek başına oluşunu adlandıran türle sınırlı bir kullanımdır."
+        }
+      ],
+      "neighbor_coverage_note": "Adayların tümü değerlendirildi; yana çekilme, dağınık bulunma, yönlere dağılma ve benzeri az tek örnek dalları süreç ile nitelik sınırlarını en iyi gösterdi.",
+      "branch_image_ar": "الانفراد والتفرق آحادا",
+      "what_is_ar": "الانفراد بالفعل، والمجيء آحادا أفرادا",
+      "what_is_not_ar": "ليس الواحد في العدد ولا نفي الجنس ولا علم الجبل",
+      "source_phrase_ar": "ما استأحدت بهذا الأمر أي ما انفردت به (maqayis); استأحد الرجل انفرد (sihah); جاءوا آحاد أحاد (sihah)",
+      "sources": [
+        "MQ",
+        "SI"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000017/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi bu birimi genel bir dağ türü olarak değil, belirli bir kentteki tek bir dağın özel adı olarak tanımlar. Hazırlanan dalın özel yer adı çerçevesi bu kanıtla doğrudan uyumludur.",
+        "boundary_note": "Bu dal yalnız belirli bir dağın özel adıdır; tek olma, olumsuz kişi kapsamı, sayı, gün adı ve yalnızlaşma anlamlarını taşımaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Tanım yalnız kaynakta belirlenen özel dağ adına bağlıdır ve bu yer adı kullanımından genel bir dağ ya da yalın kök anlamı çıkarmaz."
+      },
+      "concept_map": {
+        "definition": "Medine'de bulunan belirli bir dağa verilen özel addır. Genel olarak dağ türünü ya da dağın bir niteliğini değil, tek bir coğrafi varlığın kimliğini gösterir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Belirli bir dağın özel adı olarak tek bir coğrafi varlığı gösterir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Dağın yeri kaynakta Medine ile ilişkilendirilmiştir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Bu dal genel bir sözlük anlamından çok, tek bir coğrafi varlığı gösteren özel ad kullanımını kapsar. Kaynak kaydı, gösterilen varlığın Medine'de bulunan dağ olduğunu bildirir.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Tek kaynak tanıklığı, birimi Medine'deki belirli dağın özel adı olarak kaydeder."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "Medine'deki belirli bir dağın özel adı",
+        "applicability": "Genel dağ anlamı yüklemeden, kaynakta Medine'de bulunduğu belirtilen tek coğrafi varlığın özel ad işlevini açıklar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Belirli bir dağa gönderim, özel ad işlevi ve Medine ile ilişki korunur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "o dağın özel adı",
+          "usage_role": "explanatory",
+          "applicability": "Dağın kimliği bağlamdan zaten biliniyorsa, adı yeniden üretmeden özel ad işlevini açıklamak için kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Belirli bir dağın özel adı olma işlevini korur.",
+            "loses": "Kaynakta belirtilen kentle kurulan yer bağını açıkça taşımaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Medine'deki dağın özel adı"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000706/B006",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal kaynakta belirtilen kentteki belirli bir dağı adlandırır.",
+          "neighbor_only": "Komşu dal başka bir belirli dağa verilen ayrı özel adı kapsar.",
+          "gloss": "başka bir dağın özel adı",
+          "shared_zone": "İki dal da genel dağ türünü değil, belirli bir dağın özel adını bildirir.",
+          "distinction": "Özel ad işlevleri aynı olsa da gösterdikleri coğrafi varlıklar ayrıdır; adlar birbirinin yerine kullanılamaz."
+        },
+        {
+          "neighbor_ref": "root_000314/B006",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal kaynakta belirtilen kentteki belirli dağı gösterir.",
+          "neighbor_only": "Komşu dal başka bir kentteki tanınmış dağı gösteren ayrı bir özel addır.",
+          "gloss": "başka bir kentteki tanınmış dağın adı",
+          "shared_zone": "İki dal da bir kentle ilişkilendirilen tanınmış dağın özel adıdır.",
+          "distinction": "Aynı özel ad türüne girseler de farklı kentlerdeki farklı dağları gösterirler; kimlikleri ortak değildir."
+        },
+        {
+          "neighbor_ref": "root_000602/B002",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak dal yalnız tek bir belirli dağın özel adıdır.",
+          "neighbor_only": "Komşu dal aynı adla anılan birden çok yer, dağ veya tepeyi kapsayabilir.",
+          "gloss": "dağ ve tepeler için kullanılan başka bir yer adı",
+          "shared_zone": "İki dal coğrafi varlıkları gösteren özel yer adları alanındadır.",
+          "distinction": "Odak dal tek bir dağa bağlıdır; komşu dalın adı birden çok yer biçimine ve birden çok coğrafi varlığa uygulanabilir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; başka dağ ve yer adları yalnız alan ortaklığı düzeyinde karşılaştırıldı, anlamdaşlık kurulmadı ve en açıklayıcı üç özel ad adayı yayımlandı.",
+      "branch_image_ar": "جبل أُحُد",
+      "what_is_ar": "اسم جبل بالمدينة",
+      "what_is_not_ar": "ليس معنى الواحد ولا النفي ولا الاستئحاد",
+      "source_phrase_ar": "أحد جبل بالمدينة (sihah)",
+      "sources": [
+        "SI"
+      ],
+      "source_note": {
+        "SI": "Tek kaynak tanıklığı, birimi Medine'deki belirli dağın özel adı olarak kaydeder."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Kökün dalları tek ve eşi olmayan olmayı, olumsuzlukta hiçbir kişiyi dışarıda bırakmayan kapsamı, bir sayısı ile onlu kuruluşlarını, ad öbeğinde seçme ve haftanın ilk günü kullanımını, tek başına kalma ile birer birer gelişi ve belirli bir dağın özel adını kapsar. Bu anlamlar birlik düşüncesi çevresinde kısmen bağlansa da sayı, dil bilgisel kapsam, takvim, eylem ve özel ad düzeylerinde ayrı sınırlar taşır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 85,
+      "word_count": 85,
+      "ayah_count": 82,
+      "surah_count": 33
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "أَحَد",
+        "stem_ar": "أَحَدُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "occurrence_count": 9
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "أَحَد",
+        "stem_ar": "أَحَدٍ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "occurrence_count": 19
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "أَحَد",
+        "stem_ar": "أَحَدَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "occurrence_count": 9
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَىٰ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "occurrence_count": 5
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "أَحَد",
+        "stem_ar": "أَحَدٌ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "occurrence_count": 12
+      },
+      {
+        "form_id": "F006",
+        "lemma_ar": "أَحَد",
+        "stem_ar": "أَحَدِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|GEN",
+        "occurrence_count": 4
+      },
+      {
+        "form_id": "F007",
+        "lemma_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَىٰ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F008",
+        "lemma_ar": "أَحَد",
+        "stem_ar": "أَحَدًا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "occurrence_count": 19
+      },
+      {
+        "form_id": "F009",
+        "lemma_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَى",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F010",
+        "lemma_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَى",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F011",
+        "lemma_ar": "أَحَد",
+        "stem_ar": "أَحَدًۢا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F012",
+        "lemma_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَى",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F013",
+        "lemma_ar": "أَحَد",
+        "stem_ar": "أَحَدٌۢ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:96",
+        "surface_ar": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ"
+      },
+      {
+        "ayah_ref": "2:102",
+        "surface_ar": "وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَٰنَ وَمَا كَفَرَ سُلَيْمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُوا۟ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحْرَ وَمَآ أُنزِلَ عَلَى ٱلْمَلَكَيْنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيْنَ ٱلْمَرْءِ وَزَوْجِهِۦ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَلَقَدْ عَلِمُوا۟ لَمَنِ ٱشْتَرَىٰهُ مَا لَهُۥ فِى ٱلْءَاخِرَةِ مِنْ خَلَٰقٍ وَلَبِئْسَ مَا شَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ لَوْ كَانُوا۟ يَعْلَمُونَ"
+      },
+      {
+        "ayah_ref": "2:136",
+        "surface_ar": "قُولُوٓا۟ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْنَا وَمَآ أُنزِلَ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَمَآ أُوتِىَ مُوسَىٰ وَعِيسَىٰ وَمَآ أُوتِىَ ٱلنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَ"
+      },
+      {
+        "ayah_ref": "2:180",
+        "surface_ar": "كُتِبَ عَلَيْكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ إِن تَرَكَ خَيْرًا ٱلْوَصِيَّةُ لِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ بِٱلْمَعْرُوفِ حَقًّا عَلَى ٱلْمُتَّقِينَ"
+      },
+      {
+        "ayah_ref": "2:266",
+        "surface_ar": "أَيَوَدُّ أَحَدُكُمْ أَن تَكُونَ لَهُۥ جَنَّةٌ مِّن نَّخِيلٍ وَأَعْنَابٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلْكِبَرُ وَلَهُۥ ذُرِّيَّةٌ ضُعَفَآءُ فَأَصَابَهَآ إِعْصَارٌ فِيهِ نَارٌ فَٱحْتَرَقَتْ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ"
+      },
+      {
+        "ayah_ref": "2:282",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍ مُّسَمًّى فَٱكْتُبُوهُ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًٔا فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةً تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ وَلَا يُضَآرَّ كَاتِبٌ وَلَا شَهِيدٌ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ وَٱتَّقُوا۟ ٱللَّهَ وَيُعَلِّمُكُمُ ٱللَّهُ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "2:285",
+        "surface_ar": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِۦ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ"
+      },
+      {
+        "ayah_ref": "3:73",
+        "surface_ar": "وَلَا تُؤْمِنُوٓا۟ إِلَّا لِمَن تَبِعَ دِينَكُمْ قُلْ إِنَّ ٱلْهُدَىٰ هُدَى ٱللَّهِ أَن يُؤْتَىٰٓ أَحَدٌ مِّثْلَ مَآ أُوتِيتُمْ أَوْ يُحَآجُّوكُمْ عِندَ رَبِّكُمْ قُلْ إِنَّ ٱلْفَضْلَ بِيَدِ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "3:84",
+        "surface_ar": "قُلْ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ عَلَيْنَا وَمَآ أُنزِلَ عَلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَمَآ أُوتِىَ مُوسَىٰ وَعِيسَىٰ وَٱلنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَ"
+      },
+      {
+        "ayah_ref": "3:91",
+        "surface_ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَمَاتُوا۟ وَهُمْ كُفَّارٌ فَلَن يُقْبَلَ مِنْ أَحَدِهِم مِّلْءُ ٱلْأَرْضِ ذَهَبًا وَلَوِ ٱفْتَدَىٰ بِهِۦٓ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ وَمَا لَهُم مِّن نَّٰصِرِينَ"
+      },
+      {
+        "ayah_ref": "3:153",
+        "surface_ar": "إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ عَلَىٰٓ أَحَدٍ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَىٰكُمْ فَأَثَٰبَكُمْ غَمًّۢا بِغَمٍّ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَٰبَكُمْ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ"
+      },
+      {
+        "ayah_ref": "4:18",
+        "surface_ar": "وَلَيْسَتِ ٱلتَّوْبَةُ لِلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ حَتَّىٰٓ إِذَا حَضَرَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ إِنِّى تُبْتُ ٱلْـَٰٔنَ وَلَا ٱلَّذِينَ يَمُوتُونَ وَهُمْ كُفَّارٌ أُو۟لَٰٓئِكَ أَعْتَدْنَا لَهُمْ عَذَابًا أَلِيمًا"
+      },
+      {
+        "ayah_ref": "4:20",
+        "surface_ar": "وَإِنْ أَرَدتُّمُ ٱسْتِبْدَالَ زَوْجٍ مَّكَانَ زَوْجٍ وَءَاتَيْتُمْ إِحْدَىٰهُنَّ قِنطَارًا فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا أَتَأْخُذُونَهُۥ بُهْتَٰنًا وَإِثْمًا مُّبِينًا"
+      },
+      {
+        "ayah_ref": "4:43",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا"
+      },
+      {
+        "ayah_ref": "4:152",
+        "surface_ar": "وَٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ وَلَمْ يُفَرِّقُوا۟ بَيْنَ أَحَدٍ مِّنْهُمْ أُو۟لَٰٓئِكَ سَوْفَ يُؤْتِيهِمْ أُجُورَهُمْ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا"
+      },
+      {
+        "ayah_ref": "5:6",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ"
+      },
+      {
+        "ayah_ref": "5:20",
+        "surface_ar": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَعَلَ فِيكُمْ أَنۢبِيَآءَ وَجَعَلَكُم مُّلُوكًا وَءَاتَىٰكُم مَّا لَمْ يُؤْتِ أَحَدًا مِّنَ ٱلْعَٰلَمِينَ"
+      },
+      {
+        "ayah_ref": "5:27",
+        "surface_ar": "وَٱتْلُ عَلَيْهِمْ نَبَأَ ٱبْنَىْ ءَادَمَ بِٱلْحَقِّ إِذْ قَرَّبَا قُرْبَانًا فَتُقُبِّلَ مِنْ أَحَدِهِمَا وَلَمْ يُتَقَبَّلْ مِنَ ٱلْءَاخَرِ قَالَ لَأَقْتُلَنَّكَ قَالَ إِنَّمَا يَتَقَبَّلُ ٱللَّهُ مِنَ ٱلْمُتَّقِينَ"
+      },
+      {
+        "ayah_ref": "5:106",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ شَهَٰدَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ حِينَ ٱلْوَصِيَّةِ ٱثْنَانِ ذَوَا عَدْلٍ مِّنكُمْ أَوْ ءَاخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنتُمْ ضَرَبْتُمْ فِى ٱلْأَرْضِ فَأَصَٰبَتْكُم مُّصِيبَةُ ٱلْمَوْتِ تَحْبِسُونَهُمَا مِنۢ بَعْدِ ٱلصَّلَوٰةِ فَيُقْسِمَانِ بِٱللَّهِ إِنِ ٱرْتَبْتُمْ لَا نَشْتَرِى بِهِۦ ثَمَنًا وَلَوْ كَانَ ذَا قُرْبَىٰ وَلَا نَكْتُمُ شَهَٰدَةَ ٱللَّهِ إِنَّآ إِذًا لَّمِنَ ٱلْءَاثِمِينَ"
+      },
+      {
+        "ayah_ref": "5:115",
+        "surface_ar": "قَالَ ٱللَّهُ إِنِّى مُنَزِّلُهَا عَلَيْكُمْ فَمَن يَكْفُرْ بَعْدُ مِنكُمْ فَإِنِّىٓ أُعَذِّبُهُۥ عَذَابًا لَّآ أُعَذِّبُهُۥٓ أَحَدًا مِّنَ ٱلْعَٰلَمِينَ"
+      },
+      {
+        "ayah_ref": "6:61",
+        "surface_ar": "وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ وَيُرْسِلُ عَلَيْكُمْ حَفَظَةً حَتَّىٰٓ إِذَا جَآءَ أَحَدَكُمُ ٱلْمَوْتُ تَوَفَّتْهُ رُسُلُنَا وَهُمْ لَا يُفَرِّطُونَ"
+      },
+      {
+        "ayah_ref": "7:80",
+        "surface_ar": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ أَتَأْتُونَ ٱلْفَٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَٰلَمِينَ"
+      },
+      {
+        "ayah_ref": "8:7",
+        "surface_ar": "وَإِذْ يَعِدُكُمُ ٱللَّهُ إِحْدَى ٱلطَّآئِفَتَيْنِ أَنَّهَا لَكُمْ وَتَوَدُّونَ أَنَّ غَيْرَ ذَاتِ ٱلشَّوْكَةِ تَكُونُ لَكُمْ وَيُرِيدُ ٱللَّهُ أَن يُحِقَّ ٱلْحَقَّ بِكَلِمَٰتِهِۦ وَيَقْطَعَ دَابِرَ ٱلْكَٰفِرِينَ"
+      },
+      {
+        "ayah_ref": "9:4",
+        "surface_ar": "إِلَّا ٱلَّذِينَ عَٰهَدتُّم مِّنَ ٱلْمُشْرِكِينَ ثُمَّ لَمْ يَنقُصُوكُمْ شَيْـًٔا وَلَمْ يُظَٰهِرُوا۟ عَلَيْكُمْ أَحَدًا فَأَتِمُّوٓا۟ إِلَيْهِمْ عَهْدَهُمْ إِلَىٰ مُدَّتِهِمْ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ"
+      },
+      {
+        "ayah_ref": "9:6",
+        "surface_ar": "وَإِنْ أَحَدٌ مِّنَ ٱلْمُشْرِكِينَ ٱسْتَجَارَكَ فَأَجِرْهُ حَتَّىٰ يَسْمَعَ كَلَٰمَ ٱللَّهِ ثُمَّ أَبْلِغْهُ مَأْمَنَهُۥ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْلَمُونَ"
+      },
+      {
+        "ayah_ref": "9:52",
+        "surface_ar": "قُلْ هَلْ تَرَبَّصُونَ بِنَآ إِلَّآ إِحْدَى ٱلْحُسْنَيَيْنِ وَنَحْنُ نَتَرَبَّصُ بِكُمْ أَن يُصِيبَكُمُ ٱللَّهُ بِعَذَابٍ مِّنْ عِندِهِۦٓ أَوْ بِأَيْدِينَا فَتَرَبَّصُوٓا۟ إِنَّا مَعَكُم مُّتَرَبِّصُونَ"
+      },
+      {
+        "ayah_ref": "9:84",
+        "surface_ar": "وَلَا تُصَلِّ عَلَىٰٓ أَحَدٍ مِّنْهُم مَّاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ قَبْرِهِۦٓ إِنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَمَاتُوا۟ وَهُمْ فَٰسِقُونَ"
+      },
+      {
+        "ayah_ref": "9:127",
+        "surface_ar": "وَإِذَا مَآ أُنزِلَتْ سُورَةٌ نَّظَرَ بَعْضُهُمْ إِلَىٰ بَعْضٍ هَلْ يَرَىٰكُم مِّنْ أَحَدٍ ثُمَّ ٱنصَرَفُوا۟ صَرَفَ ٱللَّهُ قُلُوبَهُم بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ"
+      },
+      {
+        "ayah_ref": "11:81",
+        "surface_ar": "قَالُوا۟ يَٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوٓا۟ إِلَيْكَ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍ"
+      },
+      {
+        "ayah_ref": "12:4",
+        "surface_ar": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا وَٱلشَّمْسَ وَٱلْقَمَرَ رَأَيْتُهُمْ لِى سَٰجِدِينَ"
+      },
+      {
+        "ayah_ref": "12:36",
+        "surface_ar": "وَدَخَلَ مَعَهُ ٱلسِّجْنَ فَتَيَانِ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًا وَقَالَ ٱلْءَاخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًا تَأْكُلُ ٱلطَّيْرُ مِنْهُ نَبِّئْنَا بِتَأْوِيلِهِۦٓ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ"
+      },
+      {
+        "ayah_ref": "12:41",
+        "surface_ar": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًا وَأَمَّا ٱلْءَاخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ"
+      },
+      {
+        "ayah_ref": "12:78",
+        "surface_ar": "قَالُوا۟ يَٰٓأَيُّهَا ٱلْعَزِيزُ إِنَّ لَهُۥٓ أَبًا شَيْخًا كَبِيرًا فَخُذْ أَحَدَنَا مَكَانَهُۥٓ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ"
+      },
+      {
+        "ayah_ref": "15:65",
+        "surface_ar": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ"
+      },
+      {
+        "ayah_ref": "16:58",
+        "surface_ar": "وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ"
+      },
+      {
+        "ayah_ref": "16:76",
+        "surface_ar": "وَضَرَبَ ٱللَّهُ مَثَلًا رَّجُلَيْنِ أَحَدُهُمَآ أَبْكَمُ لَا يَقْدِرُ عَلَىٰ شَىْءٍ وَهُوَ كَلٌّ عَلَىٰ مَوْلَىٰهُ أَيْنَمَا يُوَجِّههُّ لَا يَأْتِ بِخَيْرٍ هَلْ يَسْتَوِى هُوَ وَمَن يَأْمُرُ بِٱلْعَدْلِ وَهُوَ عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ"
+      },
+      {
+        "ayah_ref": "17:23",
+        "surface_ar": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا كَرِيمًا"
+      },
+      {
+        "ayah_ref": "18:19",
+        "surface_ar": "وَكَذَٰلِكَ بَعَثْنَٰهُمْ لِيَتَسَآءَلُوا۟ بَيْنَهُمْ قَالَ قَآئِلٌ مِّنْهُمْ كَمْ لَبِثْتُمْ قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ قَالُوا۟ رَبُّكُمْ أَعْلَمُ بِمَا لَبِثْتُمْ فَٱبْعَثُوٓا۟ أَحَدَكُم بِوَرِقِكُمْ هَٰذِهِۦٓ إِلَى ٱلْمَدِينَةِ فَلْيَنظُرْ أَيُّهَآ أَزْكَىٰ طَعَامًا فَلْيَأْتِكُم بِرِزْقٍ مِّنْهُ وَلْيَتَلَطَّفْ وَلَا يُشْعِرَنَّ بِكُمْ أَحَدًا"
+      },
+      {
+        "ayah_ref": "18:22",
+        "surface_ar": "سَيَقُولُونَ ثَلَٰثَةٌ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًۢا بِٱلْغَيْبِ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَآءً ظَٰهِرًا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًا"
+      },
+      {
+        "ayah_ref": "18:26",
+        "surface_ar": "قُلِ ٱللَّهُ أَعْلَمُ بِمَا لَبِثُوا۟ لَهُۥ غَيْبُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَبْصِرْ بِهِۦ وَأَسْمِعْ مَا لَهُم مِّن دُونِهِۦ مِن وَلِىٍّ وَلَا يُشْرِكُ فِى حُكْمِهِۦٓ أَحَدًا"
+      },
+      {
+        "ayah_ref": "18:32",
+        "surface_ar": "وَٱضْرِبْ لَهُم مَّثَلًا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَٰبٍ وَحَفَفْنَٰهُمَا بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا زَرْعًا"
+      },
+      {
+        "ayah_ref": "18:38",
+        "surface_ar": "لَّٰكِنَّا۠ هُوَ ٱللَّهُ رَبِّى وَلَآ أُشْرِكُ بِرَبِّىٓ أَحَدًا"
+      },
+      {
+        "ayah_ref": "18:42",
+        "surface_ar": "وَأُحِيطَ بِثَمَرِهِۦ فَأَصْبَحَ يُقَلِّبُ كَفَّيْهِ عَلَىٰ مَآ أَنفَقَ فِيهَا وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَيَقُولُ يَٰلَيْتَنِى لَمْ أُشْرِكْ بِرَبِّىٓ أَحَدًا"
+      },
+      {
+        "ayah_ref": "18:47",
+        "surface_ar": "وَيَوْمَ نُسَيِّرُ ٱلْجِبَالَ وَتَرَى ٱلْأَرْضَ بَارِزَةً وَحَشَرْنَٰهُمْ فَلَمْ نُغَادِرْ مِنْهُمْ أَحَدًا"
+      },
+      {
+        "ayah_ref": "18:49",
+        "surface_ar": "وَوُضِعَ ٱلْكِتَٰبُ فَتَرَى ٱلْمُجْرِمِينَ مُشْفِقِينَ مِمَّا فِيهِ وَيَقُولُونَ يَٰوَيْلَتَنَا مَالِ هَٰذَا ٱلْكِتَٰبِ لَا يُغَادِرُ صَغِيرَةً وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًا وَلَا يَظْلِمُ رَبُّكَ أَحَدًا"
+      },
+      {
+        "ayah_ref": "18:110",
+        "surface_ar": "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًا صَٰلِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا"
+      },
+      {
+        "ayah_ref": "19:26",
+        "surface_ar": "فَكُلِى وَٱشْرَبِى وَقَرِّى عَيْنًا فَإِمَّا تَرَيِنَّ مِنَ ٱلْبَشَرِ أَحَدًا فَقُولِىٓ إِنِّى نَذَرْتُ لِلرَّحْمَٰنِ صَوْمًا فَلَنْ أُكَلِّمَ ٱلْيَوْمَ إِنسِيًّا"
+      },
+      {
+        "ayah_ref": "19:98",
+        "surface_ar": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًۢا"
+      },
+      {
+        "ayah_ref": "23:99",
+        "surface_ar": "حَتَّىٰٓ إِذَا جَآءَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ رَبِّ ٱرْجِعُونِ"
+      },
+      {
+        "ayah_ref": "24:6",
+        "surface_ar": "وَٱلَّذِينَ يَرْمُونَ أَزْوَٰجَهُمْ وَلَمْ يَكُن لَّهُمْ شُهَدَآءُ إِلَّآ أَنفُسُهُمْ فَشَهَٰدَةُ أَحَدِهِمْ أَرْبَعُ شَهَٰدَٰتٍۭ بِٱللَّهِ إِنَّهُۥ لَمِنَ ٱلصَّٰدِقِينَ"
+      },
+      {
+        "ayah_ref": "24:21",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ وَٱللَّهُ سَمِيعٌ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "24:28",
+        "surface_ar": "فَإِن لَّمْ تَجِدُوا۟ فِيهَآ أَحَدًا فَلَا تَدْخُلُوهَا حَتَّىٰ يُؤْذَنَ لَكُمْ وَإِن قِيلَ لَكُمُ ٱرْجِعُوا۟ فَٱرْجِعُوا۟ هُوَ أَزْكَىٰ لَكُمْ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ"
+      },
+      {
+        "ayah_ref": "28:25",
+        "surface_ar": "فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا سَقَيْتَ لَنَا فَلَمَّا جَآءَهُۥ وَقَصَّ عَلَيْهِ ٱلْقَصَصَ قَالَ لَا تَخَفْ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ"
+      },
+      {
+        "ayah_ref": "28:26",
+        "surface_ar": "قَالَتْ إِحْدَىٰهُمَا يَٰٓأَبَتِ ٱسْتَـْٔجِرْهُ إِنَّ خَيْرَ مَنِ ٱسْتَـْٔجَرْتَ ٱلْقَوِىُّ ٱلْأَمِينُ"
+      },
+      {
+        "ayah_ref": "28:27",
+        "surface_ar": "قَالَ إِنِّىٓ أُرِيدُ أَنْ أُنكِحَكَ إِحْدَى ٱبْنَتَىَّ هَٰتَيْنِ عَلَىٰٓ أَن تَأْجُرَنِى ثَمَٰنِىَ حِجَجٍ فَإِنْ أَتْمَمْتَ عَشْرًا فَمِنْ عِندِكَ وَمَآ أُرِيدُ أَنْ أَشُقَّ عَلَيْكَ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰلِحِينَ"
+      },
+      {
+        "ayah_ref": "29:28",
+        "surface_ar": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ إِنَّكُمْ لَتَأْتُونَ ٱلْفَٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَٰلَمِينَ"
+      },
+      {
+        "ayah_ref": "33:32",
+        "surface_ar": "يَٰنِسَآءَ ٱلنَّبِىِّ لَسْتُنَّ كَأَحَدٍ مِّنَ ٱلنِّسَآءِ إِنِ ٱتَّقَيْتُنَّ فَلَا تَخْضَعْنَ بِٱلْقَوْلِ فَيَطْمَعَ ٱلَّذِى فِى قَلْبِهِۦ مَرَضٌ وَقُلْنَ قَوْلًا مَّعْرُوفًا"
+      },
+      {
+        "ayah_ref": "33:39",
+        "surface_ar": "ٱلَّذِينَ يُبَلِّغُونَ رِسَٰلَٰتِ ٱللَّهِ وَيَخْشَوْنَهُۥ وَلَا يَخْشَوْنَ أَحَدًا إِلَّا ٱللَّهَ وَكَفَىٰ بِٱللَّهِ حَسِيبًا"
+      },
+      {
+        "ayah_ref": "33:40",
+        "surface_ar": "مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًا"
+      },
+      {
+        "ayah_ref": "35:41",
+        "surface_ar": "إِنَّ ٱللَّهَ يُمْسِكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ أَن تَزُولَا وَلَئِن زَالَتَآ إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍ مِّنۢ بَعْدِهِۦٓ إِنَّهُۥ كَانَ حَلِيمًا غَفُورًا"
+      },
+      {
+        "ayah_ref": "35:42",
+        "surface_ar": "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ لَئِن جَآءَهُمْ نَذِيرٌ لَّيَكُونُنَّ أَهْدَىٰ مِنْ إِحْدَى ٱلْأُمَمِ فَلَمَّا جَآءَهُمْ نَذِيرٌ مَّا زَادَهُمْ إِلَّا نُفُورًا"
+      },
+      {
+        "ayah_ref": "38:35",
+        "surface_ar": "قَالَ رَبِّ ٱغْفِرْ لِى وَهَبْ لِى مُلْكًا لَّا يَنۢبَغِى لِأَحَدٍ مِّنۢ بَعْدِىٓ إِنَّكَ أَنتَ ٱلْوَهَّابُ"
+      },
+      {
+        "ayah_ref": "43:17",
+        "surface_ar": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًا ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ"
+      },
+      {
+        "ayah_ref": "49:9",
+        "surface_ar": "وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى ٱلْأُخْرَىٰ فَقَٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ تَفِىٓءَ إِلَىٰٓ أَمْرِ ٱللَّهِ فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ"
+      },
+      {
+        "ayah_ref": "49:12",
+        "surface_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱجْتَنِبُوا۟ كَثِيرًا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌ وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا فَكَرِهْتُمُوهُ وَٱتَّقُوا۟ ٱللَّهَ إِنَّ ٱللَّهَ تَوَّابٌ رَّحِيمٌ"
+      },
+      {
+        "ayah_ref": "59:11",
+        "surface_ar": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ نَافَقُوا۟ يَقُولُونَ لِإِخْوَٰنِهِمُ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ لَئِنْ أُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيعُ فِيكُمْ أَحَدًا أَبَدًا وَإِن قُوتِلْتُمْ لَنَنصُرَنَّكُمْ وَٱللَّهُ يَشْهَدُ إِنَّهُمْ لَكَٰذِبُونَ"
+      },
+      {
+        "ayah_ref": "63:10",
+        "surface_ar": "وَأَنفِقُوا۟ مِن مَّا رَزَقْنَٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍ قَرِيبٍ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّٰلِحِينَ"
+      },
+      {
+        "ayah_ref": "69:47",
+        "surface_ar": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَٰجِزِينَ"
+      },
+      {
+        "ayah_ref": "72:2",
+        "surface_ar": "يَهْدِىٓ إِلَى ٱلرُّشْدِ فَـَٔامَنَّا بِهِۦ وَلَن نُّشْرِكَ بِرَبِّنَآ أَحَدًا"
+      },
+      {
+        "ayah_ref": "72:7",
+        "surface_ar": "وَأَنَّهُمْ ظَنُّوا۟ كَمَا ظَنَنتُمْ أَن لَّن يَبْعَثَ ٱللَّهُ أَحَدًا"
+      },
+      {
+        "ayah_ref": "72:18",
+        "surface_ar": "وَأَنَّ ٱلْمَسَٰجِدَ لِلَّهِ فَلَا تَدْعُوا۟ مَعَ ٱللَّهِ أَحَدًا"
+      },
+      {
+        "ayah_ref": "72:20",
+        "surface_ar": "قُلْ إِنَّمَآ أَدْعُوا۟ رَبِّى وَلَآ أُشْرِكُ بِهِۦٓ أَحَدًا"
+      },
+      {
+        "ayah_ref": "72:22",
+        "surface_ar": "قُلْ إِنِّى لَن يُجِيرَنِى مِنَ ٱللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِن دُونِهِۦ مُلْتَحَدًا"
+      },
+      {
+        "ayah_ref": "72:26",
+        "surface_ar": "عَٰلِمُ ٱلْغَيْبِ فَلَا يُظْهِرُ عَلَىٰ غَيْبِهِۦٓ أَحَدًا"
+      },
+      {
+        "ayah_ref": "74:35",
+        "surface_ar": "إِنَّهَا لَإِحْدَى ٱلْكُبَرِ"
+      },
+      {
+        "ayah_ref": "89:25",
+        "surface_ar": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ"
+      },
+      {
+        "ayah_ref": "89:26",
+        "surface_ar": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ"
+      },
+      {
+        "ayah_ref": "90:5",
+        "surface_ar": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ"
+      },
+      {
+        "ayah_ref": "90:7",
+        "surface_ar": "أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ"
+      },
+      {
+        "ayah_ref": "92:19",
+        "surface_ar": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ"
+      },
+      {
+        "ayah_ref": "112:1",
+        "surface_ar": "قُلْ هُوَ ٱللَّهُ أَحَدٌ"
+      },
+      {
+        "ayah_ref": "112:4",
+        "surface_ar": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:96:10:1",
+        "qac_word_ref": "2:96:10",
+        "surah": 2,
+        "ayah": 96,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدُ",
+        "stem_ar": "أَحَدُ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "ayah_ref": "2:96",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            43,
+            48
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:102:27:1",
+        "qac_word_ref": "2:102:27",
+        "surah": 2,
+        "ayah": 102,
+        "word_index": 27,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "2:102",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            125,
+            128
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:102:48:1",
+        "qac_word_ref": "2:102:48",
+        "surah": 2,
+        "ayah": 102,
+        "word_index": 48,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "2:102",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            209,
+            212
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:136:27:1",
+        "qac_word_ref": "2:136:27",
+        "surah": 2,
+        "ayah": 136,
+        "word_index": 27,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "2:136",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            120,
+            123
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:180:5:1",
+        "qac_word_ref": "2:180:5",
+        "surah": 2,
+        "ayah": 180,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدَ",
+        "stem_ar": "أَحَدَ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "ayah_ref": "2:180",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            14,
+            19
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:266:2:1",
+        "qac_word_ref": "2:266:2",
+        "surah": 2,
+        "ayah": 266,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدُ",
+        "stem_ar": "أَحَدُ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "ayah_ref": "2:266",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            4,
+            9
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:282:68:1",
+        "qac_word_ref": "2:282:68",
+        "surah": 2,
+        "ayah": 282,
+        "word_index": 68,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَىٰ",
+        "stem_ar": "إِحْدَىٰ",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "ayah_ref": "2:282",
+        "form_id": "F004",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            283,
+            291
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:282:70:1",
+        "qac_word_ref": "2:282:70",
+        "surah": 2,
+        "ayah": 282,
+        "word_index": 70,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَىٰ",
+        "stem_ar": "إِحْدَىٰ",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "ayah_ref": "2:282",
+        "form_id": "F004",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            296,
+            304
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "2:285:18:1",
+        "qac_word_ref": "2:285:18",
+        "surah": 2,
+        "ayah": 285,
+        "word_index": 18,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "2:285",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            77,
+            80
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "3:73:14:1",
+        "qac_word_ref": "3:73:14",
+        "surah": 3,
+        "ayah": 73,
+        "word_index": 14,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "3:73",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            47,
+            50
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "3:84:25:1",
+        "qac_word_ref": "3:84:25",
+        "surah": 3,
+        "ayah": 84,
+        "word_index": 25,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "3:84",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            111,
+            114
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "3:91:10:1",
+        "qac_word_ref": "3:91:10",
+        "surah": 3,
+        "ayah": 91,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدِ",
+        "stem_ar": "أَحَدِ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|GEN",
+        "ayah_ref": "3:91",
+        "form_id": "F006",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            34,
+            39
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "3:153:6:1",
+        "qac_word_ref": "3:153:6",
+        "surah": 3,
+        "ayah": 153,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "3:153",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            20,
+            23
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "4:18:9:1",
+        "qac_word_ref": "4:18:9",
+        "surah": 4,
+        "ayah": 18,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدَ",
+        "stem_ar": "أَحَدَ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "ayah_ref": "4:18",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            38,
+            43
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "4:20:8:1",
+        "qac_word_ref": "4:20:8",
+        "surah": 4,
+        "ayah": 20,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَىٰ",
+        "stem_ar": "إِحْدَىٰ",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|ACC",
+        "ayah_ref": "4:20",
+        "form_id": "F007",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            32,
+            39
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "4:43:28:1",
+        "qac_word_ref": "4:43:28",
+        "surah": 4,
+        "ayah": 43,
+        "word_index": 28,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "4:43",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            117,
+            120
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "4:152:8:1",
+        "qac_word_ref": "4:152:8",
+        "surah": 4,
+        "ayah": 152,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "4:152",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            35,
+            38
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "5:6:30:1",
+        "qac_word_ref": "5:6:30",
+        "surah": 5,
+        "ayah": 6,
+        "word_index": 30,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "5:6",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            139,
+            142
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "5:20:20:1",
+        "qac_word_ref": "5:20:20",
+        "surah": 5,
+        "ayah": 20,
+        "word_index": 20,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "5:20",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            82,
+            86
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "5:27:12:1",
+        "qac_word_ref": "5:27:12",
+        "surah": 5,
+        "ayah": 27,
+        "word_index": 12,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدِ",
+        "stem_ar": "أَحَدِ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|GEN",
+        "ayah_ref": "5:27",
+        "form_id": "F006",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            44,
+            50
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "5:106:8:1",
+        "qac_word_ref": "5:106:8",
+        "surah": 5,
+        "ayah": 106,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدَ",
+        "stem_ar": "أَحَدَ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "ayah_ref": "5:106",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            33,
+            38
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "5:115:15:1",
+        "qac_word_ref": "5:115:15",
+        "surah": 5,
+        "ayah": 115,
+        "word_index": 15,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "5:115",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            58,
+            62
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "6:61:11:1",
+        "qac_word_ref": "6:61:11",
+        "surah": 6,
+        "ayah": 61,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدَ",
+        "stem_ar": "أَحَدَ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "ayah_ref": "6:61",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            42,
+            47
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "7:80:11:1",
+        "qac_word_ref": "7:80:11",
+        "surah": 7,
+        "ayah": 80,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "7:80",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            41,
+            44
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "8:7:4:1",
+        "qac_word_ref": "8:7:4",
+        "surah": 8,
+        "ayah": 7,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَى",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|ACC",
+        "ayah_ref": "8:7",
+        "form_id": "F009",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            12,
+            16
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:4:13:1",
+        "qac_word_ref": "9:4:13",
+        "surah": 9,
+        "ayah": 4,
+        "word_index": 13,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "9:4",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            53,
+            57
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:6:2:1",
+        "qac_word_ref": "9:6:2",
+        "surah": 9,
+        "ayah": 6,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "9:6",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            3,
+            6
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:52:6:1",
+        "qac_word_ref": "9:52:6",
+        "surah": 9,
+        "ayah": 52,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَى",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "ayah_ref": "9:52",
+        "form_id": "F010",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            16,
+            20
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:84:4:1",
+        "qac_word_ref": "9:84:4",
+        "surah": 9,
+        "ayah": 84,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "9:84",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            10,
+            13
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "9:127:12:1",
+        "qac_word_ref": "9:127:12",
+        "surah": 9,
+        "ayah": 127,
+        "word_index": 12,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "9:127",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            40,
+            43
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "11:81:17:1",
+        "qac_word_ref": "11:81:17",
+        "surah": 11,
+        "ayah": 81,
+        "word_index": 17,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "11:81",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            61,
+            64
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "12:4:8:1",
+        "qac_word_ref": "12:4:8",
+        "surah": 12,
+        "ayah": 4,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدَ",
+        "stem_ar": "أَحَدَ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "ayah_ref": "12:4",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            26,
+            29
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "12:36:6:1",
+        "qac_word_ref": "12:36:6",
+        "surah": 12,
+        "ayah": 36,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدُ",
+        "stem_ar": "أَحَدُ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "ayah_ref": "12:36",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            20,
+            26
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "12:41:4:1",
+        "qac_word_ref": "12:41:4",
+        "surah": 12,
+        "ayah": 41,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدُ",
+        "stem_ar": "أَحَدُ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "ayah_ref": "12:41",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            16,
+            22
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "12:78:10:1",
+        "qac_word_ref": "12:78:10",
+        "surah": 12,
+        "ayah": 78,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدَ",
+        "stem_ar": "أَحَدَ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "ayah_ref": "12:78",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            37,
+            42
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "15:65:11:1",
+        "qac_word_ref": "15:65:11",
+        "surah": 15,
+        "ayah": 65,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "15:65",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            43,
+            46
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "16:58:3:1",
+        "qac_word_ref": "16:58:3",
+        "surah": 16,
+        "ayah": 58,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدُ",
+        "stem_ar": "أَحَدُ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "ayah_ref": "16:58",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            7,
+            12
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "16:76:5:1",
+        "qac_word_ref": "16:76:5",
+        "surah": 16,
+        "ayah": 76,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدُ",
+        "stem_ar": "أَحَدُ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "ayah_ref": "16:76",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            17,
+            23
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "17:23:13:1",
+        "qac_word_ref": "17:23:13",
+        "surah": 17,
+        "ayah": 23,
+        "word_index": 13,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدُ",
+        "stem_ar": "أَحَدُ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "ayah_ref": "17:23",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            57,
+            63
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:19:22:1",
+        "qac_word_ref": "18:19:22",
+        "surah": 18,
+        "ayah": 19,
+        "word_index": 22,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدَ",
+        "stem_ar": "أَحَدَ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "ayah_ref": "18:19",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            95,
+            100
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:19:38:1",
+        "qac_word_ref": "18:19:38",
+        "surah": 18,
+        "ayah": 19,
+        "word_index": 38,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "18:19",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            173,
+            177
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:22:33:1",
+        "qac_word_ref": "18:22:33",
+        "surah": 18,
+        "ayah": 22,
+        "word_index": 33,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "18:22",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            147,
+            151
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:26:23:1",
+        "qac_word_ref": "18:26:23",
+        "surah": 18,
+        "ayah": 26,
+        "word_index": 23,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "18:26",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            81,
+            85
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:32:6:2",
+        "qac_word_ref": "18:32:6",
+        "surah": 18,
+        "ayah": 32,
+        "word_index": 6,
+        "morpheme_index": 2,
+        "surface_ar": "أَحَدِ",
+        "stem_ar": "أَحَدِ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|GEN",
+        "ayah_ref": "18:32",
+        "form_id": "F006",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            22,
+            29
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:38:8:1",
+        "qac_word_ref": "18:38:8",
+        "surah": 18,
+        "ayah": 38,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "18:38",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            25,
+            29
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:42:19:1",
+        "qac_word_ref": "18:42:19",
+        "surah": 18,
+        "ayah": 42,
+        "word_index": 19,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "18:42",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            78,
+            82
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:47:11:1",
+        "qac_word_ref": "18:47:11",
+        "surah": 18,
+        "ayah": 47,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "18:47",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            48,
+            52
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:49:27:1",
+        "qac_word_ref": "18:49:27",
+        "surah": 18,
+        "ayah": 49,
+        "word_index": 27,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "18:49",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            120,
+            124
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "18:110:24:1",
+        "qac_word_ref": "18:110:24",
+        "surah": 18,
+        "ayah": 110,
+        "word_index": 24,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًۢا",
+        "stem_ar": "أَحَدًۢا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "18:110",
+        "form_id": "F011",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            94,
+            98
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "19:26:9:1",
+        "qac_word_ref": "19:26:9",
+        "surah": 19,
+        "ayah": 26,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "19:26",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            33,
+            37
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "19:98:10:1",
+        "qac_word_ref": "19:98:10",
+        "surah": 19,
+        "ayah": 98,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "19:98",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            30,
+            33
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "23:99:4:1",
+        "qac_word_ref": "23:99:4",
+        "surah": 23,
+        "ayah": 99,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدَ",
+        "stem_ar": "أَحَدَ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "ayah_ref": "23:99",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            10,
+            15
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "24:6:11:1",
+        "qac_word_ref": "24:6:11",
+        "surah": 24,
+        "ayah": 6,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدِ",
+        "stem_ar": "أَحَدِ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|GEN",
+        "ayah_ref": "24:6",
+        "form_id": "F006",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            47,
+            52
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "24:21:25:1",
+        "qac_word_ref": "24:21:25",
+        "surah": 24,
+        "ayah": 21,
+        "word_index": 25,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "24:21",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            116,
+            119
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "24:28:5:1",
+        "qac_word_ref": "24:28:5",
+        "surah": 24,
+        "ayah": 28,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "24:28",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            14,
+            18
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "28:25:2:1",
+        "qac_word_ref": "28:25:2",
+        "surah": 28,
+        "ayah": 25,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَىٰ",
+        "stem_ar": "إِحْدَىٰ",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "ayah_ref": "28:25",
+        "form_id": "F004",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            6,
+            14
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "28:26:2:1",
+        "qac_word_ref": "28:26:2",
+        "surah": 28,
+        "ayah": 26,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَىٰ",
+        "stem_ar": "إِحْدَىٰ",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "ayah_ref": "28:26",
+        "form_id": "F004",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            4,
+            12
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "28:27:6:1",
+        "qac_word_ref": "28:27:6",
+        "surah": 28,
+        "ayah": 27,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَى",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "ayah_ref": "28:27",
+        "form_id": "F010",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            17,
+            21
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "29:28:12:1",
+        "qac_word_ref": "29:28:12",
+        "surah": 29,
+        "ayah": 28,
+        "word_index": 12,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "29:28",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            45,
+            48
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "33:32:4:2",
+        "qac_word_ref": "33:32:4",
+        "surah": 33,
+        "ayah": 32,
+        "word_index": 4,
+        "morpheme_index": 2,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "33:32",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            15,
+            19
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "33:39:8:1",
+        "qac_word_ref": "33:39:8",
+        "surah": 33,
+        "ayah": 39,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "33:39",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            37,
+            41
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "33:40:5:1",
+        "qac_word_ref": "33:40:5",
+        "surah": 33,
+        "ayah": 40,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "33:40",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            12,
+            15
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "35:41:13:1",
+        "qac_word_ref": "35:41:13",
+        "surah": 35,
+        "ayah": 41,
+        "word_index": 13,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "35:41",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            51,
+            54
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "35:42:11:1",
+        "qac_word_ref": "35:42:11",
+        "surah": 35,
+        "ayah": 42,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَى",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|GEN",
+        "ayah_ref": "35:42",
+        "form_id": "F012",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            47,
+            51
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "38:35:10:2",
+        "qac_word_ref": "38:35:10",
+        "surah": 38,
+        "ayah": 35,
+        "word_index": 10,
+        "morpheme_index": 2,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "38:35",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            27,
+            31
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "43:17:3:1",
+        "qac_word_ref": "43:17:3",
+        "surah": 43,
+        "ayah": 17,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدُ",
+        "stem_ar": "أَحَدُ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "ayah_ref": "43:17",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            7,
+            12
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "49:9:10:1",
+        "qac_word_ref": "49:9:10",
+        "surah": 49,
+        "ayah": 9,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "إِحْدَىٰ",
+        "stem_ar": "إِحْدَىٰ",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "ayah_ref": "49:9",
+        "form_id": "F004",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            46,
+            54
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "49:12:19:1",
+        "qac_word_ref": "49:12:19",
+        "surah": 49,
+        "ayah": 12,
+        "word_index": 19,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدُ",
+        "stem_ar": "أَحَدُ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|NOM",
+        "ayah_ref": "49:12",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            76,
+            81
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "59:11:20:1",
+        "qac_word_ref": "59:11:20",
+        "surah": 59,
+        "ayah": 11,
+        "word_index": 20,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "59:11",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            84,
+            88
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "63:10:9:1",
+        "qac_word_ref": "63:10:9",
+        "surah": 63,
+        "ayah": 10,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدَ",
+        "stem_ar": "أَحَدَ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|ACC",
+        "ayah_ref": "63:10",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            29,
+            34
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "69:47:4:1",
+        "qac_word_ref": "69:47:4",
+        "surah": 69,
+        "ayah": 47,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "69:47",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            9,
+            12
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "72:2:9:1",
+        "qac_word_ref": "72:2:9",
+        "surah": 72,
+        "ayah": 2,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "72:2",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            32,
+            36
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "72:7:9:1",
+        "qac_word_ref": "72:7:9",
+        "surah": 72,
+        "ayah": 7,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "72:7",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            29,
+            33
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "72:18:8:1",
+        "qac_word_ref": "72:18:8",
+        "surah": 72,
+        "ayah": 18,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "72:18",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            27,
+            31
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "72:20:8:1",
+        "qac_word_ref": "72:20:8",
+        "surah": 72,
+        "ayah": 20,
+        "word_index": 8,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "72:20",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            24,
+            28
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "72:22:7:1",
+        "qac_word_ref": "72:22:7",
+        "surah": 72,
+        "ayah": 22,
+        "word_index": 7,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "72:22",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            19,
+            22
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "72:26:7:1",
+        "qac_word_ref": "72:26:7",
+        "surah": 72,
+        "ayah": 26,
+        "word_index": 7,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدًا",
+        "stem_ar": "أَحَدًا",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|ACC",
+        "ayah_ref": "72:26",
+        "form_id": "F008",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            25,
+            29
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "74:35:2:2",
+        "qac_word_ref": "74:35:2",
+        "surah": 74,
+        "ayah": 35,
+        "word_index": 2,
+        "morpheme_index": 2,
+        "surface_ar": "إِحْدَى",
+        "stem_ar": "إِحْدَى",
+        "lemma_ar": "إِحْدَى",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:<iHodaY|ROOT:AHd|F|NOM",
+        "ayah_ref": "74:35",
+        "form_id": "F010",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            4,
+            9
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "89:25:5:1",
+        "qac_word_ref": "89:25:5",
+        "surah": 89,
+        "ayah": 25,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "89:25",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            18,
+            21
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "89:26:4:1",
+        "qac_word_ref": "89:26:4",
+        "surah": 89,
+        "ayah": 26,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "89:26",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            13,
+            16
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "90:5:6:1",
+        "qac_word_ref": "90:5:6",
+        "surah": 90,
+        "ayah": 5,
+        "word_index": 6,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "90:5",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            17,
+            20
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "90:7:5:1",
+        "qac_word_ref": "90:7:5",
+        "surah": 90,
+        "ayah": 7,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "90:7",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            13,
+            16
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "92:19:2:2",
+        "qac_word_ref": "92:19:2",
+        "surah": 92,
+        "ayah": 19,
+        "word_index": 2,
+        "morpheme_index": 2,
+        "surface_ar": "أَحَدٍ",
+        "stem_ar": "أَحَدٍ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|GEN",
+        "ayah_ref": "92:19",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            3,
+            7
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "112:1:4:1",
+        "qac_word_ref": "112:1:4",
+        "surah": 112,
+        "ayah": 1,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌ",
+        "stem_ar": "أَحَدٌ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "112:1",
+        "form_id": "F005",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            8,
+            11
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "112:4:5:1",
+        "qac_word_ref": "112:4:5",
+        "surah": 112,
+        "ayah": 4,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أَحَدٌۢ",
+        "stem_ar": "أَحَدٌۢ",
+        "lemma_ar": "أَحَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM",
+        "ayah_ref": "112:4",
+        "form_id": "F013",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            13,
+            16
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

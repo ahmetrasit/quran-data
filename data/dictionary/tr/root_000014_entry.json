@@ -1,0 +1,878 @@
+{
+  "inputs_sha256": "262f145c1a90943ad4fbae83d9bb566974131aea4c90ff0ff96eee4f65514a73",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000014",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000014/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, koşu ya da hızlı yürüyüş sırasında çıkan hışırtıyı; körükteki ateşin hışırtısını ve bir topluluğun ayak sesleriyle birbirine karışan konuşmalarını aynı işitilebilir hareket alanında toplar. Verilen dal çerçevesi bu ortak çekirdeği doğru biçimde yansıtır.",
+        "boundary_note": "Dal yalnız bir ses türünü değil, hareket veya karışma sırasında işitilen hışırtılı uğultuyu kapsar; ısı, parlama ve suyun tadı bu sınırın dışındadır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, tek başına kullanılan hızlanma fiiliyle belirli varlık ve topluluklara bağlı ses anlatımlarını ayırarak birlikte gösterir; özel kullanımlar yalın fiilin tüm anlamı sayılmaz."
+      },
+      "concept_map": {
+        "definition": "Koşma, hızlı ilerleme, yürüme, ateşin hareketi ya da kalabalık konuşması sırasında hışırtılı ve karışık bir ses çıkmasıdır. Yalın eylem hızlı koşmayı veya seğirtmeyi bildirirken öteki kullanımlar sesi doğuran varlığa ya da topluluğa bağlıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Hareket sırasında işitilen hışırtılı, sürekli veya birbirine karışmış ses ortak çekirdektir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Koşan bir kuşun ya da hızla ilerleyen bir varlığın hareketi belirgin bir hışırtı çıkarır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Körükteki ateşin sesi, yürüyen insanların ayak sesleri ve karışan konuşmaları aynı işitilebilir hareket örüntüsüne uzanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Aktarımlar, hızlı hareketin çıkardığı hışırtı ile ateşin, ayak seslerinin ve iç içe geçen konuşmaların uğultusunu ortak bir işitilebilir hareket çerçevesinde birleştirir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "hareketten doğan hışırtılı uğultu",
+        "applicability": "Koşma, yürüme, ateş hareketi ve karışık konuşma örneklerinin tümündeki işitilebilir hareket çekirdeğini karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hareket kaynağını, hışırtılı ses niteliğini ve toplu seslerdeki karışmayı birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "hışırdayarak hızla koşmak",
+          "usage_role": "contextual",
+          "applicability": "Hızlı ilerleyen veya koşan bir varlığın hareketiyle sesinin birlikte anlatıldığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Hızlı hareketi ve bu hareket sırasında çıkan hışırtıyı korur.",
+            "loses": "Ateşin sesi ile kalabalığın ayak ve konuşma uğultusunu kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "hışırtılı bir uğultu çıkarmak",
+          "usage_role": "contextual",
+          "applicability": "Ateş, yürüyen topluluk veya birbirine karışan konuşmaların çıkardığı ses için uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İşitilen hışırtıyı ve çoklu seslerin uğultulu niteliğini korur.",
+            "loses": "Yalın eylemdeki hızla koşma veya seğirtme yönünü belirtmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "hışırdayarak koşmak; hızlanıp seğirtmek"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "körükteki ateşin hışırtısı"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "topluluğun ayak sesleri ve karışık konuşma uğultusu"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "gürültü",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "İşitilebilir ve rahatsız edici olabilen ses niteliğini genel olarak korur.",
+            "loses": null,
+            "adds": "Hareketten doğmayan her türlü yüksek veya düzensiz sesi de kapsar.",
+            "collision": "Hışırtı ile hızlı hareket arasındaki özgül bağı görünmez kılar."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000343/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Hızlı koşma ve topluluğun birbirine karışan konuşmaları da bu dalın kapsamındadır.",
+          "neighbor_only": "Komşu dal ağaç, kanat, at ve yağmur gibi daha geniş hareket kaynaklarının hışırtısını kapsar.",
+          "gloss": "hareket kaynaklı hışırtı",
+          "shared_zone": "Her iki dal da bir şeyin hareketinden doğan ve hışırtı olarak algılanan sesi anlatır.",
+          "distinction": "Bu dal koşu, ateş ve kalabalığın karışık sesleri çevresinde kümelenir; komşu dal ise hışırtıyı ses çıkaran varlıkların daha geniş bir dizisine yayar."
+        },
+        {
+          "neighbor_ref": "root_000321/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Ses, belirgin hareket, hız veya toplu karışmayla bağlantılı hışırtılı bir uğultudur.",
+          "neighbor_only": "Komşu dal görünmeden sezilen çok hafif bir hareketi veya sesi de kapsar.",
+          "gloss": "hafifçe işitilen hareket",
+          "shared_zone": "İki dalda da hareketin görmeden, ses ya da duyum yoluyla fark edilmesi mümkündür.",
+          "distinction": "Bu dal sesin hışırtılı hareket örüntüsünü öne çıkarır; komşu dalın çekirdeği ise sesin ya da hareketin gizli ve hafifçe sezilmesidir."
+        },
+        {
+          "neighbor_ref": "root_000541/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kalabalık konuşmasındaki karışma, işitilen uğultunun bir gerçekleşmesidir.",
+          "neighbor_only": "Komşu dal konuşmanın veya karanlığın anlaşılmaz ve içinden çıkılmaz hâle gelmesini anlatır.",
+          "gloss": "konuşmanın karışması",
+          "shared_zone": "İki dal, bir topluluğun konuşmalarının birbirine girmesi bağlamında kesişir.",
+          "distinction": "Bu dal karışmayı çıkan ses üzerinden kavrar; komşu dal ise konuşmanın anlamca bulanıklaşmasını, hatta benzetmeyle karanlığın belirsizleşmesini merkez alır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; en yararlı sınırlar genel hışırtı, hafifçe sezilen hareket ve konuşmanın anlamca karışmasıyla kuruldu. Isı, su ve üstünlük dalları ortak kökün ayrı anlamları olduğundan burada komşu olarak yayımlanmadı.",
+      "branch_image_ar": "حفيف واضطراب مسموع",
+      "what_is_ar": "حفيف العدو والمشي وأجيج الكير والنار واختلاط كلام القوم",
+      "what_is_not_ar": "ليس ملوحة الماء ولا شدة الحر المحضة ولا الاسم العلم المختلف في اشتقاقه",
+      "source_phrase_ar": "أج الظليم إذا عدا أجيجا وذلك إذا سمعت حفيفه في عدوه (maqayis)؛ أجيج الكير من حفيف النار (maqayis;jamhara)؛ أجة القوم حفيف مشيهم واختلاط كلامهم (maqayis;jamhara;sihah)؛ أج في سيره إذا أسرع وهرول (tahdhib)؛ أج الظليم إذا عدا أجيجا تشبيها بأجيج النار (mufradat)",
+      "sources": [
+        "MQ",
+        "JA",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000014/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi ateşin yanıp alevlenmesini, ısının şiddetlenip kavurucu hâle gelmesini ve bir biçimde ışık saçmayı açıkça bir araya getirir. Dal çerçevesi bu yanma, yoğun ısı ve parlama alanını doğru sınırlar.",
+        "boundary_note": "Çekirdek ateşin alevlenmesi ve buna bağlı yoğun ısıdır; gün veya yaz için kullanım ısının şiddetlenmesine, ışık bildiren biçim ise parlamaya bağlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Tanım, ateş için kullanılan yalın ve türemiş biçimlerle sıcak gün ya da yaz yapısına bağlı kullanımları ayrı tutar; yapı bağımlı yoğun ısı anlamı bütün köke genellenmez."
+      },
+      "concept_map": {
+        "definition": "Ateşin tutuşup gittikçe daha güçlü yanması, ışık saçması ve yoğun ısı üretmesidir. Gün ya da yaz için kullanılan yapılarda ateşin kendisi değil, ısının kavurucu ölçüde şiddetlenmesi anlatılır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Ateşin tutuşması, alevlenmesi ve güçlü biçimde yanmayı sürdürmesi temel süreçtir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Yanmanın ısı yönü, günün veya yaz sıcağının kavurucu biçimde şiddetlenmesine aktarılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Yanmanın görünür sonucu olan ışık saçma, belirli bir niteleme biçiminde bağımsız olarak öne çıkar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Aktarımlar ateşin tutuşup alevlenmesi, bunun yoğun ısısı, sıcaklığın gün veya yaz boyunca şiddetlenmesi ve yanmaya bağlı parlama çevresinde birleşir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "alevlenip kavurucu ölçüde ısınma",
+        "applicability": "Ateşin güçlü yanışıyla buna bağlı yoğun ısıyı birleştirir; sıcak gün kullanımı ve parlama bu çekirdeğin uzantılarıdır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Alevlenme sürecini, güçlü yanmayı ve kavurucu ısı sonucunu birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "alevlenip harlanmak",
+          "usage_role": "contextual",
+          "applicability": "Ateşin tutuşarak daha güçlü ve daha sıcak yanmaya başladığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Ateşin tutuşmasını ve yanış şiddetinin artmasını korur.",
+            "loses": "Gün veya yaz sıcağının şiddetlenmesini ve yalnız ışık saçan niteliği kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "sıcak bastırıp kavurmak",
+          "usage_role": "contextual",
+          "applicability": "Günün, havanın veya yaz mevsiminin ısısının dayanılması güç ölçüde arttığı bağlamlara uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Isının yoğunlaşmasını ve kavurucu etkisini korur.",
+            "loses": "Ateşin tutuşup alevlenme sürecini ve ışık saçma yönünü kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "ışık saçan",
+          "usage_role": "contextual",
+          "applicability": "Kaynakta yalnız aydınlık ve parlaklık bildiren niteleme biçimi için kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Yanmayla ilişkilendirilen görünür aydınlığı korur.",
+            "loses": "Tutuşma sürecini, alevin güçlenmesini ve kavurucu ısıyı kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ateşin alevlenip harlanması"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ateşi tutuşturup harlandırmak"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "alevlenmek, harlanmak"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sıcağın şiddetlenip kavurması"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kavurucu sıcak ve ısı dalgası"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "alev gibi yakan yoğun sıcak"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ışık saçan, parlak"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "yanmak",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Ateşin sürmekte olan yanma durumunu korur.",
+            "loses": null,
+            "adds": "Şiddetlenme, kavurucu ısı veya parlama bulunmayan sıradan yanma olaylarını da kapsar.",
+            "collision": "Sürecin güçlenme yönünü ve yapı bağımlı yoğun sıcak anlamını belirsizleştirir."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001686/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal ateşi tutuşturma, ateşin harlanması ve sıcak günün kavuruculuğunu birlikte kapsar.",
+          "neighbor_only": "Komşu dal güneş, kor, kandil ve yıldız gibi ısı ya da ışık kaynaklarını daha geniş biçimde kapsar.",
+          "gloss": "yakıcı ısı ve parlama",
+          "shared_zone": "İki dal da güçlü yanma, yoğun ısı ve ışık saçma özelliklerinde geniş ölçüde örtüşür.",
+          "distinction": "Bu dal yanışın başlayıp güçlenmesini ve sıcağın bastırmasını merkez alır; komşu dal ise sıcaklık ve parlaklığı farklı kaynakların niteliği olarak daha geniş bir alana yayar."
+        },
+        {
+          "neighbor_ref": "root_000708/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Sıcak günün şiddeti ve yalnız ışık saçma niteliği de bu dalın uzantılarıdır.",
+          "neighbor_only": "Komşu dal yakıt verme, tutuşturma araçları ve ateş için kullanılan adları daha geniş biçimde içerir.",
+          "gloss": "ateşi tutuşturup harlandırma",
+          "shared_zone": "Her iki dal ateşin tutuşturulması, alevlenmesi ve güçlü biçimde yanması alanında örtüşür.",
+          "distinction": "Bu dal alevlenme ile yoğun ısı ve parlamayı bağlar; komşu dal ateşi yakma eylemiyle yakıt ve ateş adlarını da içine alan daha geniş bir ateş alanıdır."
+        },
+        {
+          "neighbor_ref": "root_000225/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal ateşin alevlenme sürecini, ışığını ve sıcak günün şiddetini kapsar.",
+          "neighbor_only": "Komşu dal bol korlu ateşi, yakıcı ateş yerini ve yoğun ateş durumunu öne çıkarır.",
+          "gloss": "şiddetli ateş ve yoğun sıcak",
+          "shared_zone": "İki dal güçlü ateş ve dayanılması zor ısı alanında kesişir.",
+          "distinction": "Bu dal dinamik olarak tutuşup harlanmayı anlatır; komşu dalın merkezi ise ateşin çok korlu ve son derece sıcak durumudur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; güçlü yanma, yakıcı ısı ve ateşi harlandırma bakımından en yakın üç sınır yayımlandı. Ses, tuzlu su ve üstünlük dalları ayrı çekirdekler taşıdığı için dışarıda bırakıldı.",
+      "branch_image_ar": "التهاب وتوهج وشدة حر",
+      "what_is_ar": "تلهب النار وتأججها وتوهج الحر وائتجاج النهار وأَجّة الصيف وإضاءة الأَجوج",
+      "what_is_not_ar": "ليس حفيف المشي والكلام ولا ملوحة الماء",
+      "source_phrase_ar": "الأجاج الحار المشتعل المتوهج (maqayis)؛ تأججت النار (maqayis)؛ أجت النار تؤج أجيجا وأججتها تأجيجا وائتج الحر (ayn;tahdhib)؛ الأجيج تلهب النار (sihah)؛ الأجة شدة الحر وتوهجه (sihah)؛ الأجة شدة الحر (jamhara)؛ شديد الملوحة والحرارة من قولهم أجيج النار وأجتها وائتج النهار (mufradat)؛ الأجوج المضئ (sihah)",
+      "sources": [
+        "MQ",
+        "AY",
+        "JA",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000014/B003",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi suyu yalnız tuzlu değil, aynı zamanda acı olarak niteler. Dalın tuzluluk çerçevesi kullanılabilir, ancak anlamın belirleyici sınırı yoğun tuzlulukla acı tadın birlikte bulunmasıdır.",
+        "boundary_note": "Bu anlam suya bağlı yapılarda geçerlidir; sıradan tuzluluk, ateşin ısısı veya hareket sesi bu dalın kapsamına girmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "collocation",
+        "note": "Tanım yalnız suyu yoğun tuzlu ve acı olarak niteleyen yapılarla suyun bu tada dönüşmesini anlatan yapıya bağlıdır; yalın kök anlamı olarak genellenmez."
+      },
+      "concept_map": {
+        "definition": "Suyun yoğun tuzlulukla birlikte acı bir tat kazanmasıdır. Anlam, suyu niteleyen veya suyun bu duruma dönüşmesini bildiren yapılara bağlıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Suda belirgin ve güçlü bir tuz tadının bulunması temel niteliktir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Tuzluluğa eşlik eden acı tat, suyu sıradan tuzlu sudan ayırır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Eylemli yapı, suyun sonradan yoğun tuzlu ve acı bir duruma gelmesini bildirir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Aktarımlar, suyun güçlü biçimde tuzlu olmasını acı tatla birlikte verir ve ayrıca suyun bu tat durumuna gelmesini bildiren bir eylemli kullanımı destekler.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "acı ve çok tuzlu su",
+        "applicability": "Suyu niteleyen yapılarda yoğun tuzluluk ile acı tadı eksiksiz biçimde birlikte karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Su kapsamını, güçlü tuzluluğu ve ona eşlik eden acı tadı birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "çok tuzlu ve acı",
+          "usage_role": "contextual",
+          "applicability": "Suyun yoğun tuz ve acı tat taşıdığı bağlamlarda niteleme olarak kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Suyu, yoğun tuzluluğu ve acılığı birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "su tuzlanıp acılaşmak",
+          "usage_role": "contextual",
+          "applicability": "Suyun sonradan güçlü tuzlu ve acı bir tada dönüştüğünü bildiren eylemli kullanım için uygundur.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Suyun durum değişimini, tuzlanmayı ve acı tat kazanmayı birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "acı ve çok tuzlu su"
+        },
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "suyun tuzlanıp acılaşması"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "tuzlu su",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Suyu ve tuz tadını korur.",
+            "loses": null,
+            "adds": "Acı olmayan ve daha düşük tuzluluktaki suları da kapsar.",
+            "collision": "Kaynakta tuzlulukla birlikte verilen belirgin acı tadı siler."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000086/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal güçlü tuzluluğa eşlik eden acı tadı zorunlu bir sınır olarak taşır.",
+          "neighbor_only": "Komşu dal deniz suyunu ve yalnız tuzlu hâle gelmeyi acılık koşulu olmadan kapsar.",
+          "gloss": "suyun tuzluluğu",
+          "shared_zone": "Her iki dal da suyun tuzlu olması veya sonradan tuzlu hâle gelmesi alanında örtüşür.",
+          "distinction": "Bu dal çok tuzlu ve acı suyu belirtir; komşu dalın daha genel tuzluluk alanında acı tat ve aşırı derece gerekli değildir."
+        },
+        {
+          "neighbor_ref": "root_000783/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal suyun acı ve yoğun tuzlu tat niteliğini doğrudan tanımlar.",
+          "neighbor_only": "Komşu dal kusurlu tada rağmen içilebilen veya içilmesi hoş karşılanmayan suyu kullanım yönünden sınıflar.",
+          "gloss": "isteksizce içilen su",
+          "shared_zone": "İki dal da tuzluluk veya acılık taşıyan su bağlamında kesişir.",
+          "distinction": "Bu dal suyun tadındaki güçlü tuzluluk ve acılığı merkez alır; komşu dal ise böyle bir suyun yine de içilebilir oluşunu ve içme tutumunu öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_001137/B001",
+          "relation_type": "antonym",
+          "boundary_match": "opposed",
+          "focus_only": "Su yoğun tuzlu ve acıdır.",
+          "neighbor_only": "Su tatlı, hoş ve kolay içilebilirdir.",
+          "gloss": "tatlı ve içimi hoş su",
+          "shared_zone": "İki dal suyu tadı bakımından niteler.",
+          "distinction": "Ortak tat ekseninde bu dal acı ve aşırı tuzlu suyu, komşu dal ise tatlı ve hoş suyu gösterir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel tuzluluk, kötü tada rağmen içilebilme ve tatlı su karşıtlığı dalın sınırını en açık biçimde gösterdi. Isı ve ses dalları yalnız kök ortaklığı taşıdığı için yayımlanmadı.",
+      "branch_image_ar": "ماء أجاج مالح مر",
+      "what_is_ar": "الماء الأجاج والملوحة الشديدة مع المرارة",
+      "what_is_not_ar": "ليس أجيج النار ولا حفيف العدو ولا أَجّة الحر",
+      "source_phrase_ar": "الماء الأجاج الملح (maqayis;jamhara)؛ الأجاج الماء المر الملح (ayn;tahdhib)؛ ماء أجاج أي ملح مر وقد أج الماء يؤج أجوجا (sihah)؛ ملح أجاج شديد الملوحة والحرارة (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "JA",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000014/B004",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Tek kaynak ifadesi, belirli bir yapıda herhangi bir şeyin en büyük veya en şiddetli bölümünü açıkça bildirir. Verilen dal çerçevesi bu sınırlı üstünlük ve yoğunluk anlamını değiştirmeden yansıtır.",
+        "boundary_note": "Anlam belirli bir tamlama yapısına bağlıdır; genel büyüklük, yükseklik veya her türlü şiddet için yalın bir kök anlamı değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "non_bare",
+        "note": "Tanım yalnız herhangi bir şeyin en büyük ya da en şiddetli bölümünü bildiren kayıtlı yapıya bağlıdır ve yalın kullanıma genişletilmez."
+      },
+      "concept_map": {
+        "definition": "Belirli bir yapı içinde, söz konusu şeyin büyüklük veya şiddet bakımından en ileri düzeyde olan bölümü ya da görünümüdür.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir şeyin kendi içindeki en büyük bölümü veya en yüksek derecesi seçilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Üstünlük ölçüsü bağlama göre fiziksel büyüklük ya da niteliksel şiddet olarak gerçekleşebilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kayıt, belirli bir yapıyı bir şeyin kendi içindeki en büyük veya en şiddetli bölümü için kullanır.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Bu sınırlı yapı, tek aktarımda büyüklük ve şiddet ölçülerinin ikisini de kapsayan bir üstünlük anlatımı olarak kayıtlıdır."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bir şeyin en büyüğü veya en şiddetlisi",
+        "applicability": "Yalnız kayıtlı tamlama yapısında, bir şeyin kendi içindeki en ileri büyüklük ya da şiddet derecesini karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Karşılaştırma alanını, en ileri dereceyi ve büyüklük ile şiddet seçeneklerini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "en büyük bölümü",
+          "usage_role": "contextual",
+          "applicability": "Bağlamdaki üstünlük fiziksel büyüklük veya kapsam bakımından belirlendiğinde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir şeyin kendi içindeki en ileri büyüklük derecesini korur.",
+            "loses": "Üstünlüğün şiddet derecesiyle belirlendiği kullanımı kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "en şiddetli hâli",
+          "usage_role": "contextual",
+          "applicability": "Bağlamdaki üstünlük yoğunluk veya güç derecesi bakımından belirlendiğinde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir şeyin kendi içindeki en yüksek şiddet derecesini korur.",
+            "loses": "Üstünlüğün fiziksel büyüklükle belirlendiği kullanımı kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir şeyin en büyüğü veya en şiddetlisi"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "zirve",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Bir dizide en ileri veya en yüksek konum düşüncesini korur.",
+            "loses": "Büyüklük ile şiddet arasındaki iki ayrı ölçüyü ve yapının bölüm bildirebilmesini siler.",
+            "adds": null,
+            "collision": "Fiziksel tepe veya başarı doruğu anlamlarıyla karışabilir."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001188/B004",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal bir şeyin kendi içindeki en büyük veya en şiddetli öğeyi seçer.",
+          "neighbor_only": "Komşu dal sayı ve miktar bakımından bir sınırın ötesini ya da kademeli karşılaştırmayı bildirir.",
+          "gloss": "ölçü veya sayı bakımından üstü",
+          "shared_zone": "İki dal da bir ölçekte daha ileri veya daha yüksek konum bildirebilir.",
+          "distinction": "Bu dal en uç öğeyi belirli bir yapıyla adlandırır; komşu dal ise bir eşiğin üstündeki miktarı veya karşılaştırma basamağını gösterir."
+        },
+        {
+          "neighbor_ref": "root_000952/B002",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Üstünlük, söz konusu şeyin en büyük ya da en şiddetli bölümü olmaktan gelir.",
+          "neighbor_only": "Komşu dal çokluğun artarak başkasını örtmesi, aşması veya ona baskın gelmesi sürecini içerir.",
+          "gloss": "çoklukla aşıp baskın gelme",
+          "shared_zone": "İki dalda da derece artışı bir şeyin ötekilere üstün görünmesine yol açar.",
+          "distinction": "Bu dal bir bütün içindeki en ileri örneği seçer; komşu dalın çekirdeği çokluğun yükselip başka şeylere baskın gelmesidir."
+        },
+        {
+          "neighbor_ref": "root_000513/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Bu dal büyüklük veya şiddet bakımından en ileri öğeyi bildirir.",
+          "neighbor_only": "Komşu dal bir nesnenin fiziksel üst kısmını, doruğunu veya yüksek konumunu bildirir.",
+          "gloss": "bir şeyin doruğu",
+          "shared_zone": "Her iki dal bir şeyin öne çıkan en ileri bölümüne gönderme yapabilir.",
+          "distinction": "Bu dal ölçüsel üstünlüğü ve yoğunluğu kapsar; komşu dalın çekirdeği uzamsal yükseklik ve fiziksel doruktur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; ölçüsel üstünlük, çoklukla baskın gelme ve fiziksel doruk en açıklayıcı karşılaştırmaları sağladı. Yaz sıcağındaki şiddet aynı kökün ayrı bir yapı bağımlı anlamı olduğundan yayımlanmadı.",
+      "branch_image_ar": "أَجّة الشيء أعظمه وأشده",
+      "what_is_ar": "أَجّة كل شيء بمعنى أعظمه وأشده",
+      "what_is_not_ar": "ليست أَجّة القوم بمعنى الاختلاط ولا أَجّة الصيف بمعنى شدة الحر",
+      "source_phrase_ar": "وأجة كل شيء أعظمه وأشده (jamhara)",
+      "sources": [
+        "JA"
+      ],
+      "source_note": {
+        "JA": "Bu sınırlı yapı, tek aktarımda büyüklük ve şiddet ölçülerinin ikisini de kapsayan bir üstünlük anlatımı olarak kayıtlıdır."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, hareketten doğan hışırtılı uğultu, ateşin alevlenmesiyle kavurucu ısı, suyun acı ve çok tuzlu oluşu ve belirli bir yapıda en büyük ya da en şiddetli bölümü bildiren dört ayrı dalda örgütlenir. Ses ile yanma arasında benzetimsel bir bağ görülebilse de su tadı ve üstünlük kullanımı bağımsız anlam çekirdekleri oluşturur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 3,
+      "word_count": 3,
+      "ayah_count": 3,
+      "surah_count": 3
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "أُجَاج",
+        "stem_ar": "أُجَاجٌ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>ujaAj|ROOT:Ajj|M|INDEF|NOM",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "أُجَاج",
+        "stem_ar": "أُجَاجًا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>ujaAj|ROOT:Ajj|M|INDEF|ACC",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "25:53",
+        "surface_ar": "وَهُوَ ٱلَّذِى مَرَجَ ٱلْبَحْرَيْنِ هَٰذَا عَذْبٌ فُرَاتٌ وَهَٰذَا مِلْحٌ أُجَاجٌ وَجَعَلَ بَيْنَهُمَا بَرْزَخًا وَحِجْرًا مَّحْجُورًا"
+      },
+      {
+        "ayah_ref": "35:12",
+        "surface_ar": "وَمَا يَسْتَوِى ٱلْبَحْرَانِ هَٰذَا عَذْبٌ فُرَاتٌ سَآئِغٌ شَرَابُهُۥ وَهَٰذَا مِلْحٌ أُجَاجٌ وَمِن كُلٍّ تَأْكُلُونَ لَحْمًا طَرِيًّا وَتَسْتَخْرِجُونَ حِلْيَةً تَلْبَسُونَهَا وَتَرَى ٱلْفُلْكَ فِيهِ مَوَاخِرَ لِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ"
+      },
+      {
+        "ayah_ref": "56:70",
+        "surface_ar": "لَوْ نَشَآءُ جَعَلْنَٰهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "25:53:10:1",
+        "qac_word_ref": "25:53:10",
+        "surah": 25,
+        "ayah": 53,
+        "word_index": 10,
+        "morpheme_index": 1,
+        "surface_ar": "أُجَاجٌ",
+        "stem_ar": "أُجَاجٌ",
+        "lemma_ar": "أُجَاج",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>ujaAj|ROOT:Ajj|M|INDEF|NOM",
+        "ayah_ref": "25:53",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            36,
+            40
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "35:12:11:1",
+        "qac_word_ref": "35:12:11",
+        "surah": 35,
+        "ayah": 12,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "أُجَاجٌ",
+        "stem_ar": "أُجَاجٌ",
+        "lemma_ar": "أُجَاج",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>ujaAj|ROOT:Ajj|M|INDEF|NOM",
+        "ayah_ref": "35:12",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            44,
+            48
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "56:70:4:1",
+        "qac_word_ref": "56:70:4",
+        "surah": 56,
+        "ayah": 70,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أُجَاجًا",
+        "stem_ar": "أُجَاجًا",
+        "lemma_ar": "أُجَاج",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>ujaAj|ROOT:Ajj|M|INDEF|ACC",
+        "ayah_ref": "56:70",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            12,
+            17
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

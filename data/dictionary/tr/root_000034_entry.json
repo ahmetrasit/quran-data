@@ -1,0 +1,1273 @@
+{
+  "inputs_sha256": "8df7e2fc48e77b2affdeeb6184123f68d3539be83e3461c0cec4ef0bc00b4747",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000034",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000034/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesinin ortak çekirdeği, bir yarayı ya da yaralı kişiyi ilaç, dikiş veya başka bir tıbbi müdahaleyle tedavi etmektir. Hekim, ilaç, tedavi edilmiş kişi ve kadın sünnetçisi için kullanılan örtmeceli ad aynı alana bağlı adlandırmalardır; bunlar tedavi eyleminin kurucu parçaları değildir.",
+        "boundary_note": "Bu dal yalnızca bedensel yara tedavisini ve ona bağlı adlandırmaları kapsar; toplumsal uzlaştırma, örnek alma, keder ve yapı direği anlamlarını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Dal yalın kullanım düzeyinde yara veya yaralı kişiyi tedavi etmeyi bildirir; türemiş kişi, ilaç ve hasta adları bu çekirdeğe bağlı kalır."
+      },
+      "concept_map": {
+        "definition": "Bir yarayı ya da yaralı kişiyi ilaç, dikiş veya benzeri tıbbi müdahalelerle iyileştirmeye çalışmaktır. Bu alana tedaviyi yapan hekim, kullanılan ilaç ve tedavi edilen kişi için kullanılan bağlı adlar da girer.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Yara veya yaralı kişi üzerinde iyileştirici bir tedavi uygulanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Tedavi, hekimin ilaç ve dikiş kullanması gibi tıbbi işlemlerle gerçekleştirilebilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Hekim, ilaç, tedavi edilmiş yaralı ve kadın sünnetçisi için bu tedavi alanından türeyen adlandırmalar kullanılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar yara veya yaralı kişiyi tedavi etme çekirdeğinde birleşir; ilaç, dikiş, hekim ve tedavi sonucu ortaya çıkan kişi adları bu çekirdeğin çevresinde toplanır. Kadın sünnetçisi için kullanılan ad ise örtmeceli ve ikincil bir kullanımdır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yarayı tedavi etme",
+        "applicability": "Dalın yara veya yaralı kişiye iyileştirici müdahale uygulama çekirdeğini en kısa biçimde karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yarayı iyileştirmek amacıyla uygulanan tedavi işlemini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yarayı ilaçla ve dikişle tedavi etmek",
+          "usage_role": "contextual",
+          "applicability": "Hekimin kullandığı tedavi yöntemlerinin açıkça belirtildiği bağlamlarda uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Yaraya yönelik tıbbi müdahaleyi ve belirtilen iki yöntemi korur.",
+            "loses": "İlaç ve dikiş dışındaki tedavi yollarını ve bağlı adlandırmaları dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        },
+        {
+          "text": "yarayı iyileştirmeye çalışmak",
+          "usage_role": "general",
+          "applicability": "Tedavinin yöntemi belirtilmeden eylemin amacı öne çıkarıldığında doğal bir karşılıktır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yaraya yönelik iyileştirici müdahalenin amaç ve süreç yönünü korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yarayı veya yaralı kişiyi tedavi etmek"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yarayı tedavi etme ve iyileştirme"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yara hekimi; tedavi eden kişi"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yara hekimleri; tedavi edenler"
+        },
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ilaç"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yarayı tedavi etmekte kullanılan ilaç"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yaralanmış veya yarası tedavi edilmiş kişi"
+        },
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kadın sünnetçisi için örtmeceli ad"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "iyileşmek",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "İyileşmeyle ilgili sonuç yönünü çağrıştırır.",
+            "loses": "Bir kişinin yaraya uyguladığı tedavi eylemini siler.",
+            "adds": "Tedavi işlemi yerine hastanın kendiliğinden veya sonuç olarak iyileşmesini bildirir.",
+            "collision": null
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000295/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Genel olarak yarayı veya yaralı kişiyi ilaç, dikiş ya da başka yollarla tedavi etmeyi kapsar.",
+          "neighbor_only": "Özellikle baş yarasını yoklama, ölçme ve kemik ya da beyin içindeki maddeleri çıkarma işlemlerini kapsar.",
+          "gloss": "baş yarasını yoklayıp tedavi etme",
+          "shared_zone": "Her iki dal da bir yaraya iyileştirici tıbbi müdahale uygulanmasını anlatır.",
+          "distinction": "Odak dal tedavinin genel adıdır; komşu dal ise baş yarasına özgü inceleme, ölçme ve çıkarma işlemleri bulunan daha dar bir cerrahi uygulamadır."
+        },
+        {
+          "neighbor_ref": "root_000026/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Yarayı iyileştirmek amacıyla uygulanan tedavi sürecini bildirir.",
+          "neighbor_only": "Tedaviden sonra yaranın düzelip şişliğinin inmesi ve sağlam etin görünmesi durumunu bildirir.",
+          "gloss": "yaranın düzelip sakinleşmesi",
+          "shared_zone": "İki dal da yaranın iyileşmesiyle ilgili aynı olay dizisinde yer alır.",
+          "distinction": "Odak dal bir iyileştirme müdahalesidir; komşu dal ise yaranın düzelmesiyle ortaya çıkan durum ve sonuçtur."
+        },
+        {
+          "neighbor_ref": "root_000125/B001",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "İnsan yarası veya yaralı kişi üzerinde genel tedavi uygulanmasını bildirir.",
+          "neighbor_only": "Deri ya da başka bir yüzeydeki yarığı ve özellikle hayvanların tedavisini de kapsar.",
+          "gloss": "yarık ve hayvan tedavisi",
+          "shared_zone": "Her iki dal bedensel hasar ve bunun tedavisi alanına girer.",
+          "distinction": "Odak dalın çekirdeği yarayı tedavi etmektir; komşu dalın çekirdeğinde yarık bulunur ve tedavi özellikle hayvan hekimliği alanına uzanır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yayımlanan üç ilişki tedavi süreci, iyileşme sonucu ve özel tedavi alanı sınırlarını en açık biçimde gösterir. Diğer adaylar yalnızca uzak bir sağlık teması taşır ya da bu kökün ayrı dallarıdır.",
+      "branch_image_ar": "مداواة الجرح",
+      "what_is_ar": "مداواة الجرح والعلاج بالدواء والخياطة والطبيب والدواء والمداوى والآسية كناية عن الخاتنة",
+      "what_is_not_ar": "القدوة؛ الحزن؛ إصلاح ذات البين؛ السارية",
+      "source_phrase_ar": "أسوت الجرح إذا داويته (maqayis); الأسو علاج الطبيب الجراحات بالأدوية والخياطة (ayn); أسوت الرجل إذا داويته (jamhara); الأساء الدواء والإساء الأطبة والآسي الطبيب والآسية الخاتنة (sihah); الأسو إصلاح الجرح والآسي طبيب الجرح (mufradat)",
+      "sources": [
+        "MQ",
+        "AY",
+        "JA",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000034/B002",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi iki bağlı fakat ayrı kullanım verir: insanların arasını düzeltmek ve bir kimseyi canıyla ya da malıyla kendine ortak ederek desteklemek. Karşılıklı destekleşme de ikinci kullanımın çoğul ve karşılıklı görünümüdür; bu nedenle dal tek bir genel 'iyilik etme' anlamına indirgenmemelidir.",
+        "boundary_note": "Uzlaştırma yalnızca insanlar arasındaki ilişkiyi düzeltme yapısında, maddi veya kişisel destek ise paylaşma ve ortak etme yapısında geçerlidir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Dal, insanlar arasını düzeltmeye bağlı bir söz öbeğiyle, malı veya canı paylaşmaya bağlı destek yapısını ve karşılıklı destekleşme biçimini ayrı tutar."
+      },
+      "concept_map": {
+        "definition": "Belirli yapılarda, insanların bozulan arasını düzeltmek veya bir kimseyi malına ya da kişisel desteğine ortak ederek ona dayanışma göstermektir. Karşılıklı biçimi, kişilerin birbirini aynı yolla desteklemesini anlatır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "İnsanların arasındaki bozuk ilişki düzeltilip yeniden uyum sağlanır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "core",
+            "statement": "Bir kişi malını veya kişisel gücünü başkasıyla paylaşarak onu destekler.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Eylem karşılıklı olduğunda insanlar birbirlerini destekleyip dayanışırlar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Toplu kaynak ifadesi, insanlar arasını düzeltme kullanımıyla mal veya kişisel imkân paylaşarak destek olma kullanımını birlikte verir. Karşılıklı biçim, bu desteğin taraflarca birbirine yöneltilmesidir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "uzlaştırma ve paylaşarak destek olma",
+        "applicability": "Dalın ilişkiyi düzeltme ve mal ya da kişisel imkânı paylaşma çekirdeklerini birbirine karıştırmadan birlikte gösterir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hem insanlar arasını düzeltmeyi hem de paylaşma yoluyla destek olmayı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "insanların arasını düzeltmek",
+          "usage_role": "contextual",
+          "applicability": "Eylem iki veya daha çok kişi arasındaki anlaşmazlığı giderme yapısında kullanıldığında uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bozulmuş toplumsal ilişkiyi düzeltme yönünü korur.",
+            "loses": "Mal veya kişisel destek paylaşma ve karşılıklı dayanışma yönlerini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "malıyla veya canıyla destek olmak",
+          "usage_role": "contextual",
+          "applicability": "Bir kimse başkasını maddi imkânlarına veya kişisel desteğine ortak ettiğinde kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Paylaşma yoluyla kişisel veya maddi destek sunmayı korur.",
+            "loses": "İnsanların arasını düzeltme ve desteğin karşılıklı olma yönlerini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "birbirine destek olmak",
+          "usage_role": "contextual",
+          "applicability": "Desteğin tek yönlü değil karşılıklı olarak verildiği çoğul bağlamlarda uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Tarafların karşılıklı dayanışmasını korur.",
+            "loses": "Uzlaştırma kullanımını ve mal ya da can paylaşımının açık ayrıntısını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "insanların arasını düzeltmek"
+        },
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "malıyla veya canıyla destek olup paylaşmak"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "birbirine destek olmak; karşılıklı dayanışma"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "yardım etmek",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Bir başkasına destek sağlama yönünü genel düzeyde korur.",
+            "loses": null,
+            "adds": "Uzlaştırma veya malı ve kişisel gücü paylaşma koşulu bulunmayan her türlü yardımı kapsar.",
+            "collision": "Genel yardım alanıyla çakışarak dalın yapı ve katılımcı sınırlarını belirsizleştirir."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000554/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "İnsanları uzlaştırmayı ve birini malına ya da kişisel desteğine ortak etmeyi bildirir.",
+          "neighbor_only": "Bir kişi veya nesneyi güç, dayanak ve yardımcı kılmayı; duvarı desteklemeyi de kapsar.",
+          "gloss": "yardımcı ve dayanak olma",
+          "shared_zone": "İki dal da bir tarafa destek ve güç sağlama alanında buluşur.",
+          "distinction": "Odak dal kişiler arası uzlaşma ve paylaşma temellidir; komşu dalın çekirdeği ise canlı ya da cansız bir dayanak ve yardımcı sağlamaktır."
+        },
+        {
+          "neighbor_ref": "root_000709/B006",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Uzlaştırmayı doğrudan ilişki düzeltme ve paylaşarak destek olma olarak bildirir.",
+          "neighbor_only": "Erdem, cömertlik ve yüce amaç peşinde koşmayı; bunların örneği olarak barış için çaba göstermeyi kapsar.",
+          "gloss": "erdem uğruna çaba gösterme",
+          "shared_zone": "Her iki dalda insanlar arasında barış sağlamaya yönelik bir kullanım bulunabilir.",
+          "distinction": "Odak dalda uzlaştırma bağımsız çekirdektir; komşu dalda barış çabası daha geniş bir erdem ve cömertlik alanının örneğidir."
+        },
+        {
+          "neighbor_ref": "root_000485/B006",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "İlişkiyi düzeltme veya kaynaklarını paylaşarak destek olma sonucuna yönelir.",
+          "neighbor_only": "Bir kişiye yumuşak ve incelikli davranma tarzını bildirir.",
+          "gloss": "yumuşak davranma",
+          "shared_zone": "Her iki dal kişiler arası ilişkide yapıcı ve destekleyici davranışı anlatabilir.",
+          "distinction": "Odak dalın belirleyicisi uzlaştırma ya da paylaşmadır; komşu dalın belirleyicisi davranışın yumuşak ve incelikli oluşudur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilen ilişkiler genel destek, barış için çaba ve yumuşak davranışla olan başlıca karışmaları açıklar. Güç, cömertlik, kopuş ve kökün diğer dalları odak anlamın yerine geçmez.",
+      "branch_image_ar": "إصلاح ومواساة",
+      "what_is_ar": "إصلاح ما بين القوم والمواساة بالنفس أو المال ومشاركة الناس في التآسي",
+      "what_is_not_ar": "مداواة الجرح؛ القدوة المجردة؛ الحزن المجرد؛ السارية",
+      "source_phrase_ar": "أسوت بين القوم إذا أصلحت بينهم (maqayis;sihah;mufradat); آسيته بنفسي (maqayis;mufradat); آسيت الرجل وواسيته مواساة (jamhara); آسيته بمالي مواساة (sihah); تآسوا أي آسى بعضهم بعضا (sihah)",
+      "sources": [
+        "MQ",
+        "JA",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000034/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifadesi, bir kişiyi veya onun içinde bulunduğu hâli izlenecek örnek saymayı ve o örneğe uymayı açıkça bir araya getirir. Kederli kişinin kendini avutmak için bir başkasını örnek alması bu genel örnek alma ilişkisinin özel bir bağlamıdır.",
+        "boundary_note": "Dal, izlenecek örnek ile o örneğe uyma ilişkisini kapsar; sırf benzerlik, genel yöntem veya bağımsız keder anlamını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Dal, örnek veya örnek alınan durum bildiren ad kullanımını, belirli bir kişiye uyma yapısındaki eylem kullanımından ayırır."
+      },
+      "concept_map": {
+        "definition": "Bir kişi veya onun içinde bulunduğu hâl, başkasının davranışını kendisine göre yönelttiği bir örnek olur; kişi de bu örneği izleyerek ona uyar. Keder bağlamında aynı ilişki, benzer durumu yaşamış birini örnek alıp teselli bulmaya yarayabilir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir kişi veya durum, başkasınca izlenecek örnek kabul edilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "core",
+            "statement": "Örnek alan kişi davranışını seçtiği kişiye veya duruma uydurur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Kederli kişi benzer kaybı yaşamış birini örnek alarak kendini avutabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar izlenecek örnek, o örneğe uyma ve başkasının hâlini takip etme çekirdeğinde birleşir. Kederli kişinin teselli bulmak üzere bir örneğe yönelmesi, genel örnek alma ilişkisinin bağlama özgü uygulamasıdır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "örnek alma ve ona uyma",
+        "applicability": "İzlenecek örnek ile örnek alan kişinin davranışını ona uydurması arasındaki tam ilişkiyi karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hem model işlevini hem de kişinin bu modele uymasını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "örnek alınacak kişi veya durum",
+          "usage_role": "explanatory",
+          "applicability": "Ad kullanımında izlenen kişinin ya da onun hâlinin model işlevi öne çıktığında uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bir kişi veya durumun izlenecek model oluşunu korur.",
+            "loses": "Örnek alan kişinin etkin biçimde ona uyma eylemini açıkça bildirmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "birini örnek alıp izlemek",
+          "usage_role": "contextual",
+          "applicability": "Eylem kullanımında kişinin davranışını seçtiği modele uydurması anlatıldığında doğaldır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Model seçme ve onun davranışına uyma ilişkisini birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001",
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "örnek; izlenecek kişi veya durum"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "onu örnek almak; ona uymak"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "benzemek",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "İki kişi veya durum arasındaki benzerlik sonucunu çağrıştırabilir.",
+            "loses": "Bir tarafın diğerini bilinçli biçimde model alıp izlemesi ilişkisini siler.",
+            "adds": "Örnek alma bulunmadan ortaya çıkan her türlü benzerliği kapsar.",
+            "collision": "Karşılıklı veya rastlantısal benzerlikle karışır."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001208/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Bir kişi veya durumun örnek alınması ve örnek alanın ona uyması ilişkisine odaklanır.",
+          "neighbor_only": "Dalların kendisinden çıktığı kökeni ve öne geçerek başkalarını ardından sürüklemeyi de kapsar.",
+          "gloss": "izlenen örnek ve öncü",
+          "shared_zone": "Her iki dal da başkalarının izlediği bir örnek ve ona uyma ilişkisini anlatır.",
+          "distinction": "Odak dal model ile onu izleyen arasındaki örnek alma ilişkisidir; komşu dal buna köken olma ve öncülük etme kapsamını da ekler."
+        },
+        {
+          "neighbor_ref": "root_000018/B009",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "İzlenecek kişi veya hâlin model statüsünü de adlandırır.",
+          "neighbor_only": "Bir topluluğun gidişini, biçimini, huylarını ve davranış yolunu benimseme eylemine yoğunlaşır.",
+          "gloss": "başkalarının gidişini benimseme",
+          "shared_zone": "Her iki dal bir başkasının davranışını izleyip ona uyma eyleminde örtüşür.",
+          "distinction": "Odak dal hem örneği hem ona uymayı kapsar; komşu dal daha çok bir topluluğun davranış biçimini fiilen benimsemeyi bildirir."
+        },
+        {
+          "neighbor_ref": "root_000053/B009",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kişi yanında bir hâl veya yaşantı da izlenecek örnek olabilir.",
+          "neighbor_only": "Önder, yönetici, ibadet yöneticisi, kitap, yol ve yapı kılavuzu gibi geniş öncülük kullanımlarını kapsar.",
+          "gloss": "önder ve kılavuz",
+          "shared_zone": "Bir kişi başkalarınca izlenen örnek veya önder olduğunda iki alan kesişir.",
+          "distinction": "Odak dal örnek alma ilişkisidir; komşu dal ise öne konan, yöneten veya yol gösteren varlığın görev ve konumunu adlandırır."
+        },
+        {
+          "neighbor_ref": "root_001211/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "İnsan davranışı veya yaşantısı için izlenecek örneği bildirir.",
+          "neighbor_only": "Bir şiirin başka bir şiirin biçim ve yolu üzerinde kurulmasını bildirir.",
+          "gloss": "şiirde örnek alınan biçim",
+          "shared_zone": "Her iki dalda sonraki bir şeyin önceki bir örneğe göre biçimlenmesi vardır.",
+          "distinction": "Odak dal kişi ve davranış düzeyinde örnek almadır; komşu dal yalnızca şiirsel biçim ve yöntem alanındaki modele bağlıdır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilen dört aday örnek, izleme, önderlik ve biçim modeli arasındaki temel sınırları gösterir. Din, tür, miras ve kökün diğer dalları yalnızca daha uzak tematik bağlantılar taşır.",
+      "branch_image_ar": "أسوة يقتدى بها",
+      "what_is_ar": "الأسوة والإسوة بمعنى القدوة والائتمام واتباع الغير في حاله",
+      "what_is_not_ar": "التعزية والحزن إلا حيث تكون الأسوة سبب التعزي؛ مداواة الجرح؛ الإساءة من ساء؛ السارية",
+      "source_phrase_ar": "لي في فلان إسوة أي قدوة أقتدي به (maqayis); الاسم الأسوة والجمع الأسى (jamhara); الإسوة ما يأتسي به الحزين وائتسى به أي اقتدى (sihah); الأسوة والإسوة كالقدوة والقدوة وهي الحالة التي يكون الإنسان عليها في اتباع غيره (mufradat)",
+      "sources": [
+        "MQ",
+        "JA",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000034/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifadesi kaybedilen şeyin ardından duyulan kederi, bir başkasını teselli etmeyi ve kişinin teselli bulmasını birlikte destekler. Sabrın aynı adla anılması kederin özdeş anlamı değil, kayıp karşısında dayanma yönündeki ikincil bir adlandırmadır; izlenecek örnek de yalnızca teselli sağladığı bağlamda bu dala girer.",
+        "boundary_note": "Dal kayıp kaynaklı keder ile bu kederi yatıştırma sürecini kapsar; genel örnek alma ve her tür üzüntü bu sınıra kendiliğinden girmez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Dal, keder bildiren yalın biçimleri, bir kişi için üzülme yapısını ve birini teselli etme ya da teselli bulma biçimlerini ayrı kullanım katmanları olarak korur."
+      },
+      "concept_map": {
+        "definition": "Kaybedilen veya geçmişte kalan bir şeyin ardından keder duymak ya da bu kederi yaşayan kişiyi teselli edip yatıştırmaktır. Kişinin benzer bir durumu örnek alarak kendini avutması ve kayba sabırla dayanması bu sürecin bağlı görünümleridir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişi kaybedilen veya geçmişte kalan şeyin ardından keder duyar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "core",
+            "statement": "Bir başkası kederli kişiyi teselli ederek acısını yatıştırmaya çalışır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Kederli kişi teselli bularak kendini avutur ve kayba sabırla dayanabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "associated_use",
+            "statement": "Benzer kaybı yaşamış bir kişi veya durum, kederliye teselli sağlayan örnek olabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar kaybın ardından gelen keder ile birini teselli etme kullanımlarını birlikte verir. Teselli bulma, sabır gösterme ve benzer durumdaki birini örnek edinme, bu kederin yatışmasına bağlı yönlerdir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kayıp acısı ve teselli",
+        "applicability": "Dalın kayıptan doğan keder ile bu kederi yatıştırma yönlerini kısa ve dengeli biçimde karşılar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kayıp kaynaklı kederi, teselli etmeyi ve teselli bulmayı birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kaybedilenin ardından kederlenmek",
+          "usage_role": "contextual",
+          "applicability": "Kişinin bir kayıp veya geçmişte kalan şey yüzünden duyduğu acı anlatıldığında uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kederin kaybedilen şeye yönelmesini korur.",
+            "loses": "Teselli etme, teselli bulma ve sabır gösterme yönlerini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "teselli etmek",
+          "usage_role": "contextual",
+          "applicability": "Bir kişinin kederli bir başkasının acısını yatıştırmaya çalıştığı geçişli kullanımda doğaldır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kederli kişiye dışarıdan teselli verme eylemini korur.",
+            "loses": "Keder duyma, kişinin kendi kendine teselli bulması ve sabır yönlerini kapsamaz.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        },
+        {
+          "text": "avunup dayanmak",
+          "usage_role": "contextual",
+          "applicability": "Kederli kişinin teselli bulup kaybına sabır göstermesi öne çıktığında uygundur.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Teselli bulma ve kayba dayanma yönlerini korur.",
+            "loses": "İlk kederi ve başkasının teselli etme eylemini açıkça bildirmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "onu teselli etmek; avutmak"
+        },
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kayıp acısı; keder; sabırla dayanma"
+        },
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "onun için veya ondan ötürü kederlenmek"
+        },
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kederli"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "teselli bulmak; avunmak"
+        },
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kederliyi avutan örnek veya dayanak"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "üzülmek",
+          "category": "alternative",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Olumsuz duygulanım ve keder yönünü genel olarak korur.",
+            "loses": null,
+            "adds": "Kayıp koşulu bulunmayan her türlü üzüntüyü kapsar.",
+            "collision": "Genel üzüntü alanıyla çakışır ve teselli ilişkisini görünmez kılar."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000317/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Kederi kaybedilen şeye bağlar ve teselli etme, avunma ile sabır yönlerini de kapsar.",
+          "neighbor_only": "Genel olarak ruhun sıkıntılı kederini, keder veren şeyi ve kederli ses kullanımını kapsar.",
+          "gloss": "genel keder ve sıkıntı",
+          "shared_zone": "Her iki dal kişinin içinde yaşadığı keder durumunu anlatır.",
+          "distinction": "Odak dal kayıp sonrasındaki keder ve onun yatıştırılmasıyla sınırlıdır; komşu dal sebebi belirtilmeyen genel kederi ve keder doğuran başka kullanımları da kapsar."
+        },
+        {
+          "neighbor_ref": "root_000032/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Keder yanında teselli etme, teselli bulma ve sabırla dayanmayı kapsar.",
+          "neighbor_only": "Kaçırılan şey karşısındaki yoğun pişmanlık, özlem, ağlamaya yatkınlık ve çökkünlüğü vurgular.",
+          "gloss": "yoğun kayıp üzüntüsü ve pişmanlık",
+          "shared_zone": "İki dal da kaybedilen veya kaçırılan bir şey yüzünden duyulan kederi anlatır.",
+          "distinction": "Odak dal kederin teselliyle yatışmasına da uzanır; komşu dal ise kederin şiddetini, pişmanlığı ve yakınmayı öne çıkarır."
+        },
+        {
+          "neighbor_ref": "root_000243/B003",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Kayıp karşısında kederlenmenin yanında teselli bulup sabırla dayanmayı da kapsar.",
+          "neighbor_only": "Keder yüzünden sabrın tükenmesini ve kişinin yapmakta olduğu işten kopmasını bildirir.",
+          "gloss": "sabrın tükenmesi",
+          "shared_zone": "Her iki dal kederin kişinin dayanma gücü üzerindeki etkisiyle ilgilidir.",
+          "distinction": "Odak dal sabır ve teselliye ulaşabilir; komşu dal tam tersine kederin sabrı kesintiye uğratmasını anlatır."
+        },
+        {
+          "neighbor_ref": "root_000974/B005",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Kayıp kederini, teselliyi ve dayanmayı gözyaşı şartı olmadan kapsar.",
+          "neighbor_only": "Gözyaşının akması, ağlamanın tekrarı ve kederin gözdeki sıcaklıkla belirmesini kapsar.",
+          "gloss": "gözyaşlı keder",
+          "shared_zone": "Her iki dalda keder ve onun dışa vurumu bulunabilir.",
+          "distinction": "Odak dal duygunun kayıp ve teselli yapısına odaklanır; komşu dal gözyaşı ve ağlama belirtilerine odaklanır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yayımlanan ilişkiler genel keder, yoğun kayıp üzüntüsü, sabrın tükenmesi ve gözyaşlı kederle sınırları gösterir. Açlık, hastalık derecesi, feryat ve kökün diğer dalları daha uzak kalır.",
+      "branch_image_ar": "أسى وتعزية",
+      "what_is_ar": "الحزن على الفائت والتعزية والتعزي والصبر المسمى أسى",
+      "what_is_not_ar": "القدوة العامة إلا إذا صارت موضع تعز؛ المداواة الحسية؛ إصلاح ذات البين؛ السارية",
+      "source_phrase_ar": "أسيت فلانا إذا عزيته (maqayis); أسي الرجل يأسى أسى شديدا إذا حزن وأسيت الرجل تأسية إذا عزيته (jamhara); أسيته تأسية أي عزيته والأسى الحزن ثم سمي الصبر أسى (sihah); الأسى الحزن وحقيقته إتباع الفائت بالغم (mufradat)",
+      "sources": [
+        "MQ",
+        "JA",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000034/B005",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Tek kaynak ifadesi, söz konusu biçimi doğrudan dikey taşıyıcı yapı elemanı olarak tanımlar ve çoğul biçimini de verir. Bu anlam, aynı ses çevresindeki hekim, kadın sünnetçisi, örnek ve keder adlarından bağımsız bir eş adlılıktır.",
+        "boundary_note": "Dal yalnızca yapıdaki dikey taşıyıcıyı ve onun çoğul adını kapsar; insan, tedavi, örnek alma veya keder anlamlarını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Dal yalın ad olarak dikey bir yapı taşıyıcısını bildirir; herhangi bir söz öbeğine veya özel bağlama bağlı değildir."
+      },
+      "concept_map": {
+        "definition": "Bir yapıda dik duran ve üst bölümleri taşımaya yarayan sütun veya direktir. Aynı adın ayrı bir çoğul biçimi de bulunur.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Yapıda dik duran sütun veya direk türü bir taşıyıcı elemandır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Bu yapı elemanı için ayrıca bir çoğul ad biçimi kaydedilmiştir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Bu dal tek sözlükte, dikey yapı taşıyıcısı anlamı ve onun çoğul biçimiyle kaydedilmiştir.",
+        "common_claim_ids": [],
+        "source_details": [
+          {
+            "claim_ids": [
+              "bc_001"
+            ],
+            "kind": "sole_attestation",
+            "summary": "Dikey yapı taşıyıcısı anlamı ve buna ait çoğul biçim yalnız bu kaynakta kayıtlıdır."
+          }
+        ],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sütun; direk",
+        "applicability": "Yapıda dik duran taşıyıcı elemanı doğal ve kapsamı aşmayan iki yakın karşılıkla verir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Dikey yapı taşıyıcısı anlamını tam olarak korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "yapı direği",
+          "usage_role": "contextual",
+          "applicability": "Elemanın bir yapıyı taşıma görevi açıkça belirtilmek istendiğinde kullanılır.",
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yapıda dik duran taşıyıcı direk anlamını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "sütun; direk; sütunlar"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "temel",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Yapıyı destekleme işlevini genel düzeyde çağrıştırır.",
+            "loses": "Elemanın dik duran sütun veya direk biçimini siler.",
+            "adds": "Yapının altındaki yatay veya gömülü dayanak anlamını getirir.",
+            "collision": "Yapının tabanını oluşturan temel elemanıyla karışır."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001043/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Yalnızca bir yapıda dik duran sütun veya direği bildirir.",
+          "neighbor_only": "Genel direk ve dayanak adlarını, ev veya çadırı taşıyan öğeleri ve yapı dışındaki sütun kullanımlarını da kapsar.",
+          "gloss": "sütun ve direk",
+          "shared_zone": "Her iki dalın çekirdeği bir yapıda dik duran ve üst kısmı taşıyan sütun veya direktir.",
+          "distinction": "Odak dal yapıdaki sütun veya direkle sınırlıdır; komşu dal ise bu ortak çekirdeğin yanında daha geniş direk ve dayanak kullanımlarına uzanır."
+        },
+        {
+          "neighbor_ref": "root_000702/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Biçim veya malzeme şartı koymadan genel sütun ya da direği bildirir.",
+          "neighbor_only": "Taş veya tuğladan yapılmış silindirik sütun türünü özellikle bildirir.",
+          "gloss": "taş veya tuğla sütun",
+          "shared_zone": "Her iki dal yapıda dik duran sütun elemanını adlandırır.",
+          "distinction": "Odak dal genel yapı direğidir; komşu dal silindirik biçim ve taş ya da tuğla malzeme yönüyle daha özeldir."
+        },
+        {
+          "neighbor_ref": "root_000156/B009",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Genel bir yapı sütunu veya direğini bildirir.",
+          "neighbor_only": "Çadır ya da ev direkleri yanında göğüs kafesi kemiklerini ve yerleşip kalma anlatımını da kapsar.",
+          "gloss": "direkler ve destekleyici kemikler",
+          "shared_zone": "İki dal yapı direği anlamında örtüşür.",
+          "distinction": "Odak dal yalnız yapıdaki sütundur; komşu dal aynı destek imgesini beden kemiklerine ve yerleşme anlatımına da genişletir."
+        },
+        {
+          "neighbor_ref": "root_000631/B006",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Bir yapının genel dikey taşıyıcı elemanıdır.",
+          "neighbor_only": "Kuyunun başındaki iki özel destek ile bunların taşıdığı kiriş ve makarayı bildirir.",
+          "gloss": "kuyu başı destekleri",
+          "shared_zone": "Her iki dal dik duran ve başka bir parçayı taşıyan destek elemanlarını kapsar.",
+          "distinction": "Odak dal genel sütun veya direktir; komşu dal kuyu düzeneğine bağlı, çift ve işlevi özelleşmiş desteklerdir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilen ilişkiler genel sütun, özel silindirik sütun, genişlemiş destek adı ve kuyu desteği ayrımlarını gösterir. Temel, çatı taşıyıcısı, araç parçası ve kökün diğer dalları aynı çekirdeği paylaşmaz.",
+      "branch_image_ar": "الآسِية السارية",
+      "what_is_ar": "الآسِية بمعنى السارية والجمع الأواسي",
+      "what_is_not_ar": "الآسي الطبيب؛ الآسية الخاتنة؛ الأسوة؛ الأسى",
+      "source_phrase_ar": "الآسية أيضا السارية والجمع الأواسي (sihah)",
+      "sources": [
+        "SI"
+      ],
+      "source_note": {
+        "SI": "Dikey yapı taşıyıcısı anlamı ve buna ait çoğul biçim yalnız bu kaynakta kayıtlıdır."
+      }
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, yara tedavisi; insanlar arasını düzeltme ve paylaşarak destek olma; birini veya bir durumu örnek alıp izleme; kayıp acısı ile teselli; ayrıca yapı sütunu olmak üzere beş ayrı dalda örgütlenir. İlk dört dal arasında onarma, destekleme veya bir başkasının durumuyla ilişki kurma yönünde çağrışımsal bağlar bulunabilse de sütun anlamı bağımsız bir eş adlılık görünümündedir.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 7,
+      "word_count": 7,
+      "ayah_count": 7,
+      "surah_count": 5
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "تَأْسَ",
+        "stem_ar": "تَأْسَ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:ta>osa|ROOT:Asw|2MS|MOOD:JUS",
+        "occurrence_count": 2
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "تَأْسَ",
+        "stem_ar": "ءَاسَىٰ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:ta>osa|ROOT:Asw|1S",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "أُسْوَة",
+        "stem_ar": "أُسْوَةٌ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:>usowap|ROOT:Asw|F|INDEF|NOM",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "تَأْسَ",
+        "stem_ar": "تَأْسَ",
+        "pos": "V",
+        "measure": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:ta>osa|ROOT:Asw|2MP|MOOD:SUBJ",
+        "occurrence_count": 1
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "5:26",
+        "surface_ar": "قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ أَرْبَعِينَ سَنَةً يَتِيهُونَ فِى ٱلْأَرْضِ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْفَٰسِقِينَ"
+      },
+      {
+        "ayah_ref": "5:68",
+        "surface_ar": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لَسْتُمْ عَلَىٰ شَىْءٍ حَتَّىٰ تُقِيمُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ"
+      },
+      {
+        "ayah_ref": "7:93",
+        "surface_ar": "فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰقَوْمِ لَقَدْ أَبْلَغْتُكُمْ رِسَٰلَٰتِ رَبِّى وَنَصَحْتُ لَكُمْ فَكَيْفَ ءَاسَىٰ عَلَىٰ قَوْمٍ كَٰفِرِينَ"
+      },
+      {
+        "ayah_ref": "33:21",
+        "surface_ar": "لَّقَدْ كَانَ لَكُمْ فِى رَسُولِ ٱللَّهِ أُسْوَةٌ حَسَنَةٌ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ ٱلْءَاخِرَ وَذَكَرَ ٱللَّهَ كَثِيرًا"
+      },
+      {
+        "ayah_ref": "57:23",
+        "surface_ar": "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ وَٱللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ"
+      },
+      {
+        "ayah_ref": "60:4",
+        "surface_ar": "قَدْ كَانَتْ لَكُمْ أُسْوَةٌ حَسَنَةٌ فِىٓ إِبْرَٰهِيمَ وَٱلَّذِينَ مَعَهُۥٓ إِذْ قَالُوا۟ لِقَوْمِهِمْ إِنَّا بُرَءَٰٓؤُا۟ مِنكُمْ وَمِمَّا تَعْبُدُونَ مِن دُونِ ٱللَّهِ كَفَرْنَا بِكُمْ وَبَدَا بَيْنَنَا وَبَيْنَكُمُ ٱلْعَدَٰوَةُ وَٱلْبَغْضَآءُ أَبَدًا حَتَّىٰ تُؤْمِنُوا۟ بِٱللَّهِ وَحْدَهُۥٓ إِلَّا قَوْلَ إِبْرَٰهِيمَ لِأَبِيهِ لَأَسْتَغْفِرَنَّ لَكَ وَمَآ أَمْلِكُ لَكَ مِنَ ٱللَّهِ مِن شَىْءٍ رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ"
+      },
+      {
+        "ayah_ref": "60:6",
+        "surface_ar": "لَقَدْ كَانَ لَكُمْ فِيهِمْ أُسْوَةٌ حَسَنَةٌ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ ٱلْءَاخِرَ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "5:26:11:1",
+        "qac_word_ref": "5:26:11",
+        "surah": 5,
+        "ayah": 26,
+        "word_index": 11,
+        "morpheme_index": 1,
+        "surface_ar": "تَأْسَ",
+        "stem_ar": "تَأْسَ",
+        "lemma_ar": "تَأْسَ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "JUS",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:ta>osa|ROOT:Asw|2MS|MOOD:JUS",
+        "ayah_ref": "5:26",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            43,
+            46
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "5:68:27:1",
+        "qac_word_ref": "5:68:27",
+        "surah": 5,
+        "ayah": 68,
+        "word_index": 27,
+        "morpheme_index": 1,
+        "surface_ar": "تَأْسَ",
+        "stem_ar": "تَأْسَ",
+        "lemma_ar": "تَأْسَ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "JUS",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:ta>osa|ROOT:Asw|2MS|MOOD:JUS",
+        "ayah_ref": "5:68",
+        "form_id": "F001",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            113,
+            116
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "7:93:12:1",
+        "qac_word_ref": "7:93:12",
+        "surah": 7,
+        "ayah": 93,
+        "word_index": 12,
+        "morpheme_index": 1,
+        "surface_ar": "ءَاسَىٰ",
+        "stem_ar": "ءَاسَىٰ",
+        "lemma_ar": "تَأْسَ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:ta>osa|ROOT:Asw|1S",
+        "ayah_ref": "7:93",
+        "form_id": "F002",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            50,
+            55
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "33:21:7:1",
+        "qac_word_ref": "33:21:7",
+        "surah": 33,
+        "ayah": 21,
+        "word_index": 7,
+        "morpheme_index": 1,
+        "surface_ar": "أُسْوَةٌ",
+        "stem_ar": "أُسْوَةٌ",
+        "lemma_ar": "أُسْوَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>usowap|ROOT:Asw|F|INDEF|NOM",
+        "ayah_ref": "33:21",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            19,
+            23
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "57:23:2:1",
+        "qac_word_ref": "57:23:2",
+        "surah": 57,
+        "ayah": 23,
+        "word_index": 2,
+        "morpheme_index": 1,
+        "surface_ar": "تَأْسَ",
+        "stem_ar": "تَأْسَ",
+        "lemma_ar": "تَأْسَ",
+        "source_pos": "V",
+        "pos": "V",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "IMPF",
+        "mood": "SUBJ",
+        "voice": "",
+        "morph_features": "STEM|POS:V|IMPF|LEM:ta>osa|ROOT:Asw|2MP|MOOD:SUBJ",
+        "ayah_ref": "57:23",
+        "form_id": "F004",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            5,
+            10
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "60:4:4:1",
+        "qac_word_ref": "60:4:4",
+        "surah": 60,
+        "ayah": 4,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "أُسْوَةٌ",
+        "stem_ar": "أُسْوَةٌ",
+        "lemma_ar": "أُسْوَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>usowap|ROOT:Asw|F|INDEF|NOM",
+        "ayah_ref": "60:4",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            9,
+            13
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      },
+      {
+        "qac_ref": "60:6:5:1",
+        "qac_word_ref": "60:6:5",
+        "surah": 60,
+        "ayah": 6,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "أُسْوَةٌ",
+        "stem_ar": "أُسْوَةٌ",
+        "lemma_ar": "أُسْوَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:>usowap|ROOT:Asw|F|INDEF|NOM",
+        "ayah_ref": "60:6",
+        "form_id": "F003",
+        "alignment": {
+          "status": "unmatched",
+          "method": "no_compatible_form",
+          "confidence": "high",
+          "attachment_unit_id": "",
+          "attachment_word_unit_id": "",
+          "qac_char_span": [
+            13,
+            17
+          ],
+          "attachment_char_spans": [],
+          "source_grammar": "",
+          "attachments": []
+        }
+      }
+    ]
+  }
+}

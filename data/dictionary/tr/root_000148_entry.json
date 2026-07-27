@@ -1,0 +1,2983 @@
+{
+  "inputs_sha256": "0c4b24c05c72b012f932ea218e9851b115471412b4ada8e0c8ed2ead0880667a",
+  "artifact_format": "dictionary-v2-root-entry-draft-v1",
+  "generated_by": "v2/scripts/accept_root_writer.py",
+  "root_envelope_id": "root_000148",
+  "language": "tr",
+  "branches": [
+    {
+      "branch_ref": "root_000148/B001",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifade, yerleşilmiş olup olmamasına bakılmaksızın sınırları belirli bir yeryüzü parçasını çekirdek anlam olarak verir; mezarlık, mezar, toprak ve açık alan kullanımlarını da ayrıca bildirir. Bu nedenle dal korunabilir, ancak ikincil adlandırmalar genel yer anlamıyla özdeşleştirilmemelidir.",
+        "boundary_note": "Dal, göğüs bölgesini, kaş arası açıklığı ve göksel durağı değil, yeryüzündeki sınırlı yeri ve buna bağlı özel adlandırmaları kapsar."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Temel biçimler sınırlı yeryüzü parçasını gösterir; mezarlık, mezar, toprak ve açık alan anlamları ayrı sözlüksel kullanımlardır ve çekirdeğin bütün kapsamına genellenmez."
+      },
+      "concept_map": {
+        "definition": "Bayındır veya bayındır olmayan, boş veya yerleşilmiş olabilen, sınırları belirli bir yeryüzü parçasıdır. Aynı ad mezarlık, mezar, toprak veya açık alan için de özel olarak kullanılabilir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Çekirdek, sınırları seçilebilen ve yerleşim durumu anlamı değiştirmeyen bir yeryüzü parçasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Mezarlık, tek bir mezar ve toprak da bu adla anılabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "extension",
+            "statement": "Yerleşim dışındaki açık ve çıplak alan da özel bir kullanım olarak kapsama girer.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar sınırlı yeryüzü parçası anlamında birleşir ve bu parçanın bayındır veya bayındır olmayan, boş veya yerleşilmiş olabileceğini gösterir. Toprak, mezarlık, mezar ve açık alan kullanımları çekirdeğe bağlı özel genişlemelerdir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "sınırları belirli yer; ayrıca mezarlık, mezar, toprak veya açık alan",
+        "applicability": "Dalın genel yer çekirdeğini ve kaynaklarda ayrıca verilen özel yer adlandırmalarını birlikte temsil eder.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sınırlı yer çekirdeğini ve mezarlık, mezar, toprak ile açık alan genişlemelerini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "sınırları belirli yeryüzü parçası",
+          "usage_role": "general",
+          "applicability": "Yerleşim durumundan bağımsız olarak genel coğrafi çekirdeğin anlatıldığı bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Sınırlı yeryüzü parçası olan temel anlamı korur.",
+            "loses": "Mezarlık, mezar, toprak ve açık alan için verilen özel kullanımları dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "açık, çıplak alan",
+          "usage_role": "contextual",
+          "applicability": "Sözcüğün yerleşim dışındaki geniş ve açık bir alanı gösterdiği özel bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Açık alan için verilen özel kullanımı korur.",
+            "loses": "Genel sınırlı yer anlamını ve mezarlık, mezar ile toprak kullanımlarını vermez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_001",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yerleşilmiş ya da boş, sınırları belirli yer"
+        },
+        {
+          "lexical_unit_id": "lu_002",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yerler, yöreler"
+        },
+        {
+          "lexical_unit_id": "lu_003",
+          "rendering_kind": "ordinary",
+          "target_gloss": "mezarlık, mezar veya toprak"
+        },
+        {
+          "lexical_unit_id": "lu_004",
+          "rendering_kind": "ordinary",
+          "target_gloss": "açık, çıplak alan"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000025/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak dalı, çevresi belirlenmiş bir yeri ve mezar ya da açık alan gibi özel adlandırmaları içerir.",
+          "neighbor_only": "Komşu dal, göğün karşısındaki bütün yeryüzünü ve genel olarak aşağıda olanı kapsar.",
+          "gloss": "yeryüzü ve aşağı taraf",
+          "shared_zone": "Her iki dal da yeryüzündeki alanlardan söz edebilir.",
+          "distinction": "Odak, sınırları belirli bir yer birimini adlandırır; komşu ise bütün yeryüzünü veya göğe göre aşağı konumu anlatır."
+        },
+        {
+          "neighbor_ref": "root_001535/B011",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak yerleşilmiş veya boş her türlü sınırlı yeri kapsar.",
+          "neighbor_only": "Komşu yalnızca bayındır veya yerleşilmiş olmayan araziyi belirtir.",
+          "gloss": "bayındır veya yerleşilmiş olmayan arazi",
+          "shared_zone": "Bayındır veya yerleşilmiş olmayan bir arazi iki dalın da kapsamına girebilir.",
+          "distinction": "Komşunun bayındır veya yerleşilmiş olmama koşulu zorunludur; odakta böyle bir koşul yoktur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı; genel yeryüzü ile işlenmemiş arazi adayları sınırı en iyi aydınlattığı için seçildi, öteki adaylar yalnızca belirli arazi türleri ya da aynı kökün ayrı anlamlarıdır.",
+      "branch_image_ar": "الموضع المحدود من الأرض",
+      "what_is_ar": "يدخل فيه البلد والبلدة والبلاد والبلدان، وكل موضع من الأرض عامر أو غير عامر أو خال أو مسكون، والمفازة، والمقبرة والقبر، والتراب، والفضاء البراز.",
+      "what_is_not_ar": "ليس فيه الصدر ولا البلجة ولا منزلة القمر إلا من جهة التشبيه أو التسمية الخاصة.",
+      "source_phrase_ar": "البلد معروف والبلدة أيضا والبلاد جمع بلد (jamhara)؛ البلد كل موضع مستحيز من الأرض عامر أو غير عامر أو خال أو مسكون (tahdhib)؛ البلد المكان المحيط المحدود المتأثر باجتماع قطانه وإقامتهم فيه (mufradat)؛ البلد المقبرة ويقال هو نفس القبر وربما جاء البلد يعني به التراب (tahdhib)؛ من البلد وهو الفضاء البراز (maqayis)",
+      "sources": [
+        "JA",
+        "SI",
+        "TA",
+        "MU",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B002",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifade, göğsü ve özellikle boğaz altındaki göğüs çukurunu temel beden bölgesi olarak verir; insan göğsüne aktarımı, hayvanın göğüs altı bölgesini ve devenin çökerken göğsünü yere koymasını da açıkça destekler.",
+        "boundary_note": "Dal genel bir yer adını değil, göğüs ve boğaz altı bölgesini; eylem kalıbında ise devenin bu bölgeyi yere koymasını kapsar."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Bağımsız biçim göğsü gösterebilir; boğaz altı merkezi ve devenin göğsünü yere koyması yalnız kendi kalıplarında okunmalı, bütün dala genellenmemelidir."
+      },
+      "concept_map": {
+        "definition": "Göğsün, özellikle boğazın altındaki çukurun ve çevresinin bulunduğu ön beden bölgesidir. Devenin çöküşünde bu bölgeyi yere koyması ayrıca kalıplaşmış bir eylem olarak anlatılır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Çekirdek, göğüs ile boğaz altındaki orta çukur ve çevresidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Ad, insan göğsüne ve hayvanın göğüs altındaki etli bölümüne uygulanabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "associated_use",
+            "statement": "Devenin çökerken göğsünü yere koyması belirli bir söz kalıbıyla ifade edilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar göğüs ile boğaz altındaki orta çukur çevresini aynı beden bölgesi altında toplar. İnsan göğsüne aktarım ve devenin çökerken göğsünü yere koyması, bu çekirdeğe bağlı fakat ayrı kapsamlı kullanımlardır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "göğüs ve boğaz altındaki göğüs çukuru; devede göğsü yere koyma",
+        "applicability": "Beden bölgesini ve yalnızca ilgili eylem kalıbında görülen deve hareketini birlikte kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Göğüs bölgesini, boğaz altı merkezini ve devenin göğsünü yere koyma kullanımını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "boğazın altındaki göğüs çukuru",
+          "usage_role": "contextual",
+          "applicability": "Beden bölgesinin dar ve anatomik olarak belirli merkezi anlatıldığında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Boğaz altındaki orta göğüs bölgesini korur.",
+            "loses": "Göğsün daha geniş kullanımını ve devenin çöküş eylemini dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_005",
+          "rendering_kind": "ordinary",
+          "target_gloss": "boğazın altındaki göğüs çukuru ve çevresi"
+        },
+        {
+          "lexical_unit_id": "lu_006",
+          "rendering_kind": "ordinary",
+          "target_gloss": "göğüs"
+        },
+        {
+          "lexical_unit_id": "lu_007",
+          "rendering_kind": "ordinary",
+          "target_gloss": "deve çökerken göğsünü yere koydu"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001479/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak, bütün göğse aktarılabilir ve devenin çökerken göğsünü yere koyması kullanımını içerir.",
+          "neighbor_only": "Komşu, boğaz önü ile üst göğsü, kesim yerini ve kolye bölgesini daha geniş ayrıntıyla kapsar.",
+          "gloss": "boğaz önü ve üst göğüs",
+          "shared_zone": "İki dal boğazın altındaki üst göğüs bölgesinde örtüşür.",
+          "distinction": "Odak göğüs çukuru merkezli ve belirli bir deve eylemine bağlıdır; komşu boğaz önü ve kesim yeri merkezlidir."
+        },
+        {
+          "neighbor_ref": "root_001315/B007",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak boğaz altındaki çukuru ve devenin çökme kalıbını ayrıca belirtir.",
+          "neighbor_only": "Komşu göğsü ayrıntılandırmadan genel bir beden bölgesi olarak adlandırır.",
+          "gloss": "göğüs",
+          "shared_zone": "Her iki dal da göğüs bölgesini adlandırabilir.",
+          "distinction": "Komşu genel göğüs adıdır; odak göğsün belirli merkezini ve ona bağlı kullanımları öne çıkarır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün beden bölgesi ve kök içi adaylar değerlendirildi; boğaz önü ile genel göğüs adayları en yakın sınır karşılaştırmalarını sağladı.",
+      "branch_image_ar": "الصدر وبلدة النحر",
+      "what_is_ar": "يدخل فيه الصدر، وبلدة النحر والثغرة وما حولها، والكركرة، ووضع الناقة صدرها على الأرض في البروك.",
+      "what_is_not_ar": "ليس فيه الموضع الأرضي العام ولا البلجة بين الحاجبين إلا إذا نص المصدر على التشبيه.",
+      "source_phrase_ar": "بلدة النحر وسطه (jamhara)؛ البلدة الصدر وفلان واسع البلدة أي واسع الصدر (sihah)؛ البلدة بلدة النحر وهي الثغرة وما حولها (tahdhib)؛ سميت الكركرة بلدة لذلك وربما استعير ذلك لصدر الإنسان (mufradat)؛ الأصل الصدر ويقال وضعت الناقة بلدتها بالأرض إذا بركت (maqayis)",
+      "sources": [
+        "JA",
+        "SI",
+        "TA",
+        "MU",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B003",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifade, kaşların arasındaki temiz ve açık bölgeyi ve kaşları birleşmemiş kişiyi tutarlı biçimde aynı görünüş altında tanımlar. Beden iriliği ve zihinsel yavaşlık yalnızca benzer biçimli başka anlamlardır.",
+        "boundary_note": "Dal, alın bütünü veya kaşın kendisi değil, iki kaş arasındaki açık bölge ve bu açıklığa sahip kişiyle sınırlıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım, çıplak biçimin kaşlar arasındaki açıklık anlamıyla sınırlıdır; aynı biçimin beden iriliği ya da zihinsel yavaşlık anlamları içeri alınmaz."
+      },
+      "concept_map": {
+        "definition": "İki kaşın arasında kalan temiz, açık ve kılsız görünümlü bölgedir; bu açıklığa sahip, yani kaşları birleşmemiş kişi de aynı anlam alanında nitelenir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "İki kaş arasındaki temiz ve açık bölge çekirdeği oluşturur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Kaşları birbirine birleşmemiş kişi bu görünüş üzerinden nitelenir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar iki kaş arasındaki açıklıkta ve bu açıklığın kaşları birleşmemiş kişiyi nitelemesinde birleşir. Benzetme açıklığın yayılmış görünüşüne dayanır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kaşların arasındaki açıklık ve kaşları birleşmemiş olma",
+        "applicability": "Hem yüz bölgesini hem de bu bölgenin görünüşüyle nitelenen kişiyi kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kaşlar arasındaki açık bölgeyi ve kaşları birleşmemiş kişi niteliğini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kaş arası açıklık",
+          "usage_role": "general",
+          "applicability": "Doğrudan yüz bölgesinin kendisi anlatıldığında kullanılan kısa karşılıktır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İki kaş arasındaki açık bölgeyi korur.",
+            "loses": "Kaşları birleşmemiş kişiye yönelik nitelemeyi dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_008",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kaşların arasındaki açık ve temiz bölge"
+        },
+        {
+          "lexical_unit_id": "lu_009",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kaşları birleşmemiş"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000219/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak kaşların arasındaki açıklığı ve kaşların birleşmemiş olmasını belirtir.",
+          "neighbor_only": "Komşu alın bölgesini ve alın kemiğini daha geniş olarak kapsar.",
+          "gloss": "alın",
+          "shared_zone": "İki dal yüzün kaşların çevresindeki ön bölümüne ilişkindir.",
+          "distinction": "Odak iki kaş arasındaki boşluğa, komşu ise kaşların üstündeki daha geniş alın bölgesine yönelir."
+        },
+        {
+          "neighbor_ref": "root_000294/B005",
+          "relation_type": "near_neighbor",
+          "boundary_match": "field_only",
+          "focus_only": "Odak, iki kaşın arasında kalan açıklığı adlandırır.",
+          "neighbor_only": "Komşu, gözün üstündeki kıl, et ve kemikten oluşan kaşın kendisini adlandırır.",
+          "gloss": "kaş",
+          "shared_zone": "İki dal aynı yüz bölgesinde yan yana bulunan yapılara ilişkindir.",
+          "distinction": "Biri kaşların arasındaki boşluğu, öteki kaş yapısının kendisini gösterir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün yüz ve görünüş adayları değerlendirildi; alın ve kaş, odak bölgesinin iki doğrudan anatomik sınırını gösterdiği için seçildi.",
+      "branch_image_ar": "البلجة بين الحاجبين",
+      "what_is_ar": "يدخل فيه البلجة أو النقاوة بين الحاجبين، والرجل الأبلد الذي ليس بمقرون الحاجبين.",
+      "what_is_not_ar": "ليس فيه عظم الخلق ولا بلادة الذهن، وإن اشترك معها لفظ أبلد.",
+      "source_phrase_ar": "ربما سميت البلجة بلدة (jamhara)؛ البلدة والبلدة نقاوة ما بين الحاجبين ورجل أبلد أي أبلج بين البلد (sihah)؛ الأبلد من الرجال الذي ليس بمقرون وهي البلدة والبلدة (tahdhib)؛ البلدة البلجة ما بين الحاجبين تشبيها بالبلد لتمددها (mufradat)؛ الأبلد الذي ليس بمقرون الحاجبين يقال لما بين حاجبيه بلدة (maqayis)",
+      "sources": [
+        "JA",
+        "SI",
+        "TA",
+        "MU",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B004",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifade dalı bir Ay durağı olarak destekler, fakat fiziksel tasvirler tam olarak birleşmez: bir anlatım onu altı yıldızlık bir küme, bir başkası iki göksel işaret arasındaki yıldızsız alan, bir diğeri göksel aslanın göğsü olarak verir. Dal korunabilir, ancak bu tasvirler tek bir değişmez gök biçimiymiş gibi birleştirilemez.",
+        "boundary_note": "Dal yeryüzündeki yer anlamından ayrıdır; Ay durağına verilen adın farklı göksel tasvirlerini birlikte, fakat kaynak değişkeleri olarak kapsar."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Temel biçim Ay durağını veya yıldızsız gök alanını gösterir; göksel aslanın göğsü olan özel adlandırma yalnız kendi sözlüksel biriminde tutulur."
+      },
+      "concept_map": {
+        "definition": "Ay'ın konaklarından biri olarak adlandırılan bir gök bölgesidir; kaynaklarda altı yıldızlık bir küme veya iki belirli göksel işaret arasındaki yıldızsız alan olarak farklı biçimlerde tasvir edilir. Göksel aslanın göğsü için kullanılan ad da bu dala bağlıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Çekirdek, Ay'ın konaklarından biri sayılan belirli bir gök bölgesidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "source_variant",
+            "statement": "Bir tasvir bu durağı bir göksel yay içinde yer alan altı yıldız olarak açıklar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Başka bir tasvir onu iki belirli göksel işaret arasındaki yıldızsız alan olarak açıklar.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "extension",
+            "statement": "Göksel aslanın göğsü de bu adla anılan özel bir gök konumudur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Ortak çekirdek bir Ay durağına verilen addır. Toplu kanıt, durağın altı yıldızlık bir küme ile yıldızsız bir gök alanı arasında değişen tasvirlerini ve göksel aslanın göğsü adlandırmasını birlikte aktarır; bu tasvirler tek bir fiziksel tanıma indirgenemez.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "yıldız kümesi ya da yıldızsız alan diye tasvir edilen Ay durağı",
+        "applicability": "Ortak göksel durak çekirdeğini ve birbirinden farklı iki fiziksel tasviri birlikte gösterir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ay durağı çekirdeğini, yıldızlı ve yıldızsız tasvirleri ve özel göksel konum kullanımını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "Ay'ın belirli bir durağı",
+          "usage_role": "general",
+          "applicability": "Durağın yıldız düzeni hakkında hüküm vermeden yalnız ortak göksel işlevi anlatır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Ay durağı olan ortak çekirdeği korur.",
+            "loses": "Altı yıldız, yıldızsız alan ve göksel aslanın göğsü tasvirlerini belirtmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_010",
+          "rendering_kind": "ordinary",
+          "target_gloss": "Ay durağı veya yıldızsız gök bölgesi"
+        },
+        {
+          "lexical_unit_id": "lu_011",
+          "rendering_kind": "ordinary",
+          "target_gloss": "göksel aslanın göğüs bölgesi"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000925/B004",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak farklı kaynaklarda yıldız kümesi veya yıldızsız alan olarak tasvir edilen ayrı bir Ay durağıdır.",
+          "neighbor_only": "Komşu, başka iki göksel işaretin yanında konumlandırılan farklı bir Ay durağının özel adıdır.",
+          "gloss": "başka bir Ay durağı",
+          "shared_zone": "Her ikisi de Ay'ın konaklarından birini adlandırır.",
+          "distinction": "Aynı tür göksel birimler olsalar da gökte farklı konumları ve farklı özel adları gösterirler."
+        },
+        {
+          "neighbor_ref": "root_000101/B002",
+          "relation_type": "same_field",
+          "boundary_match": "field_only",
+          "focus_only": "Odak belirli bir Ay durağını ve onun değişken fiziksel tasvirlerini gösterir.",
+          "neighbor_only": "Komşu göğün on iki geniş bölümünü, yıldız kümelerini veya göksel yapıları kapsar.",
+          "gloss": "göksel bölümler",
+          "shared_zone": "İki dal da göğün adlandırılmış bölümleriyle ilgilidir.",
+          "distinction": "Odak Ay'ın hareket dizisindeki tek bir duraktır; komşu daha geniş bir göksel bölümleme sistemini anlatır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün göksel adaylar karşılaştırıldı; başka bir Ay durağı ile daha geniş göksel bölümleme, durağın kimliği ve sınıf sınırını en açık biçimde gösterdi.",
+      "branch_image_ar": "منزلة القمر والموضع السماوي الخالي",
+      "what_is_ar": "يدخل فيه البلدة منزلة من منازل القمر، والموضع الخالي في السماء بين النعائم وسعد الذابح، وبلدة الأسد إذا أريد صدره السماوي.",
+      "what_is_not_ar": "ليس فيه الأرض والبلد المسكون إلا من جهة الاسم المشترك أو التشبيه.",
+      "source_phrase_ar": "البلدة منزل من منازل القمر (jamhara)؛ البلدة من منازل القمر وهي ستة أنجم من القوس (sihah)؛ البلدة في السماء موضع لا نجوم فيه بين النعائم وسعد الذابح (tahdhib)؛ البلدة منزل من منازل القمر (mufradat)؛ البلدة النجم يقولون هو بلدة الأسد أي صدره (maqayis)",
+      "sources": [
+        "JA",
+        "SI",
+        "TA",
+        "MU",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B005",
+      "identity_judgment": {
+        "status": "reframed",
+        "rationale": "Kaynak ifade şaşkınlık içinde duraksama ve ne yapacağını bilememe çekirdeğini, buna eşlik eden eli göğse koyma hareketini ve metanetin karşıtı olan boyun eğmeyi destekler. Provisional çerçevedeki yoğun üzüntü koşulu kaynak ifadesinde kurulmadığı için tanımdan çıkarılmalı, boyun eğme ise ayrı bir anlam değişkesi olarak tutulmalıdır.",
+        "boundary_note": "Dal kalıcı zeka düşüklüğünü değil, şaşkınlıktan doğan duraksamayı; ayrı kullanımda ise metaneti yitirip boyun eğmeyi anlatır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Tanım çıplak biçimlerin şaşkınlık, duraksama ve boyun eğme kullanımlarını kapsar; zihinsel yetersizlik anlamı bu dala aktarılmaz."
+      },
+      "concept_map": {
+        "definition": "Bir iş karşısında şaşkınlığa düşüp kararsızca duraksamak ve ne yapacağını bilememektir; bu durumda eli göğse koyma hareketi eşlik edebilir. Ayrı bir kullanımda metaneti yitirerek sinmek ve boyun eğmek anlamına gelir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Kişi şaşkınlık yüzünden kararsız kalır, duraksar ve ilerleyemez.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "Şaşkın kişi elini göğsünün üstüne koyabilir; bu hareket durumun kendisi değil, ona eşlik eden belirtidir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "source_variant",
+            "statement": "Metaneti korumanın karşıtı olarak sinme, teslim olma ve boyun eğme de aynı biçimle anlatılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Toplu kanıt şaşkınlıkla kararsızca duraksamayı ortak merkez yapar ve eli göğse koymayı buna eşlik eden hareket olarak verir. Metanetin karşıtı olan sinme ve boyun eğme, yoğun üzüntü koşulu gerektirmeyen ayrı bir kullanım değişkesidir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "şaşkınlıkla duraksama; metaneti yitirip boyun eğme",
+        "applicability": "Hem kararsız şaşkınlık çekirdeğini hem de ayrı teslimiyet değişkesini kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Şaşkınlık, kararsız duraksama, eşlik eden göğüs hareketi ve boyun eğme değişkesini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "şaşkınlıktan ne yapacağını bilememek",
+          "usage_role": "general",
+          "applicability": "Bir iş karşısında kararsızca duraksama ve yönünü bulamama öne çıktığında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Şaşkınlık ve kararsız duraksama çekirdeğini korur.",
+            "loses": "Eli göğse koyma belirtisini ve metaneti yitirip boyun eğme değişkesini dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "sinip boyun eğmek",
+          "usage_role": "contextual",
+          "applicability": "Metaneti korumanın karşıtı olan teslimiyet ve sinme anlatıldığında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Sinme ve boyun eğme değişkesini korur.",
+            "loses": "Şaşkınlıkla kararsız duraksamayı ve ona eşlik eden göğüs hareketini vermez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F003"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_012",
+          "rendering_kind": "ordinary",
+          "target_gloss": "şaşkınlığa düşüp kararsızca duraksamak"
+        },
+        {
+          "lexical_unit_id": "lu_013",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir işte şaşırıp ne yapacağını bilememek"
+        },
+        {
+          "lexical_unit_id": "lu_014",
+          "rendering_kind": "ordinary",
+          "target_gloss": "metaneti yitirip sinme ve boyun eğme"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "aptallık",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "İlerleyememe görünüşünü çok genel biçimde çağrıştırır.",
+            "loses": "Geçici şaşkınlığı, kararsız duraksamayı, göğüs hareketini ve boyun eğme değişkesini kaybeder.",
+            "adds": "Kaynak çekirdeğinde bulunmayan kalıcı zihinsel yetersizlik yargısını ekler.",
+            "collision": "Zihinsel yavaşlık dalıyla karışır."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001048/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak eli göğse koyma belirtisini ve metaneti yitirip boyun eğme değişkesini içerir.",
+          "neighbor_only": "Komşu şaşkınlığın yanı sıra yol, görüş veya yön bulamama ve sapkınlıkta bocalama kapsamına uzanır.",
+          "gloss": "yönünü bulamadan bocalama",
+          "shared_zone": "İki dal da bir işte ne yapacağını bilemeyip kararsızca bocalamayı kapsar.",
+          "distinction": "Odak şaşkın duraksama ve teslimiyet görünüşüne, komşu ise yön ve doğru yol bulamama koşuluna ağırlık verir."
+        },
+        {
+          "neighbor_ref": "root_000086/B008",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak kararsız duraksamayı, göğüs hareketini ve boyun eğme değişkesini belirtir.",
+          "neighbor_only": "Komşu korku, ani afallama ve şaşkın kişinin başka olumsuz nitelendirmelerini de kapsar.",
+          "gloss": "afallama ve şaşkınlık",
+          "shared_zone": "Her iki dal da kişinin şaşkın ve afallamış duruma düşmesini anlatabilir.",
+          "distinction": "Komşuda ani şaşkınlık ve korku daha geniştir; odakta kararsızca duraksama belirleyicidir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün şaşkınlık, üzüntü ve belirsizlik adayları değerlendirildi; yön bulamayan bocalama ile ani afallama en yakın iki karşılaştırmadır.",
+      "branch_image_ar": "الحيرة والتبلد",
+      "what_is_ar": "يدخل فيه تبلد وبلد وأبلد إذا تردد متحيرا، ووضع يده على صدره عند الحيرة، والاستكانة والخضوع عند غلبة الحزن.",
+      "what_is_not_ar": "ليس هو البلادة بمعنى ضد الذكاء إلا حيث يصرح المصدر بانتقال المعنى إليها.",
+      "source_phrase_ar": "تبلد الرجل من هذا إذا لحقته حيرة فضرب بيده على بلدة نحره (jamhara)؛ تبلد أي تردد متحيرا (sihah)؛ المتبلد الذي يتردد متحيرا (tahdhib)؛ التبلد نقيض التجلد وهو استكانة وخضوع (tahdhib)؛ قيل للمتحير بلد في أمره وأبلد وتبلد (mufradat)؛ تبلد الرجل إذا وضع يده على صدره عند تحيره في الأمر (maqayis)",
+      "sources": [
+        "JA",
+        "SI",
+        "TA",
+        "MU",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B006",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifade, bedende, deride veya başka bir yüzeyde bulunan izi doğrudan ve tutarlı biçimde verir; çoğul biçimi de aynı izi topluca gösterir. İzin yaradan, hastalıktan veya bilinçli işaretlemeden doğması çekirdek tanımın zorunlu koşulu değildir.",
+        "boundary_note": "Dal izin kendisini kapsar; yara, deri hastalığı, ben veya tanıtma amacıyla yapılan işaret gibi belirli nedenler zorunlu değildir."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Çıplak dal genel iz anlamıyla sınırlıdır; izin belirli bir yara, hastalık ya da işaretleme türünden doğduğu varsayılmaz."
+      },
+      "concept_map": {
+        "definition": "Bedende, deride veya başka bir yüzeyde kalmış görünür izdir; tekil ya da çoğul olarak, izin nedenini zorunlu biçimde belirtmeden kullanılır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir beden veya yüzey üzerinde seçilebilen kalıcı ya da belirgin iz çekirdeği oluşturur.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Anlam yalnız deriye değil, bedenin başka bölümlerine ve başka yüzeylere de uzanabilir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar bedende veya başka bir yerde kalan iz anlamında birleşir ve çoğul biçimin birden çok izi gösterdiğini bildirir. İzin nedeni belirtilmediğinden anlam yara ya da işaretleme gibi tek bir oluşum yoluyla sınırlandırılamaz.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bedende, deride veya başka bir yüzeyde kalan iz",
+        "applicability": "Nedeni belirtilmemiş genel iz anlamını ve beden dışına uzanan kapsamı birlikte verir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "İz çekirdeğini, beden ve deri odağını ve başka yüzeylere uzanabilmesini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "deride kalan iz",
+          "usage_role": "contextual",
+          "applicability": "İzin özellikle insan ya da hayvan derisinde bulunduğu bağlamlarda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Deride görülen iz çekirdeğini korur.",
+            "loses": "Bedenin başka bölümlerindeki ve beden dışındaki yüzeylerdeki izleri dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_015",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bedende veya başka bir yüzeyde kalan iz; izler"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000287/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak bedende veya başka bir yüzeyde nedeni belirtilmemiş genel izi kapsar.",
+          "neighbor_only": "Komşu bir şeyden geriye kalan belirtiyi ve özellikle iyileşmiş yaranın deride bıraktığı kalıntıyı öne çıkarır.",
+          "gloss": "geride kalan belirti",
+          "shared_zone": "İki dal da deride veya başka bir nesnede kalan görünür izi anlatabilir.",
+          "distinction": "Odak izin oluşumunu belirtmez; komşu önceki bir olaydan ya da yaradan geriye kalma ilişkisini daha açık taşır."
+        },
+        {
+          "neighbor_ref": "root_001650/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak kendiliğinden ya da herhangi bir nedenle oluşmuş genel izi kapsar.",
+          "neighbor_only": "Komşu tanıtma veya ayırt etme amacıyla bilerek yapılan damga, yakı ya da kesik işaretini gerektirir.",
+          "gloss": "tanıtıcı işaret",
+          "shared_zone": "Bilerek yapılan bir işaret de yüzeyde iz bırakabilir.",
+          "distinction": "Odakta amaç ve yapılış biçimi belirsizdir; komşuda bilinçli işaretleme ve tanıtma işlevi kurucudur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün iz, yara, ben ve işaretleme adayları değerlendirildi; genel kalıntı ile amaçlı tanıtma işareti, neden ve işlev sınırını en iyi gösterdi.",
+      "branch_image_ar": "الأثر في الجلد والبدن",
+      "what_is_ar": "يدخل فيه البلد بمعنى الأثر في البدن أو الجلد أو غيره، وجمعه أبلاد.",
+      "what_is_not_ar": "ليس فيه البلد بمعنى الأرض ولا البلادة بمعنى قلة الذكاء.",
+      "source_phrase_ar": "البلد الأثر في البدن وغيره والجمع أبلاد (jamhara)؛ البلد الأثر والجمع أبلاد (sihah)؛ البلد الأثر بالجسد وجمعه أبلاد (tahdhib)؛ ولاعتبار الأثر قيل بجلده بلد أي أثر وجمعه أبلاد (mufradat)؛ البلد الأثر وجمعه أبلاد (maqayis)",
+      "sources": [
+        "JA",
+        "SI",
+        "TA",
+        "MU",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B007",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifade insan için zeka, kavrayış ve işlerde atılganlık eksikliğini; hayvan için yarışta geri kalmayı; belirli bir iş kalıbında çalışma ve cömertlikte güçsüzleşmeyi bildirir. İri ve kaba bedenle kurulan ilişki açıklayıcı bir çağrışımdır, anlamın zorunlu koşulu değildir.",
+        "boundary_note": "Dal geçici şaşkınlıktan ve sırf iri bedenden ayrılır; kalıcı yavaş kavrayış, ilerleyememe veya işte güçsüz kalma odağındadır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Temel biçimler zeka ve ilerleme yavaşlığını gösterir; işte ve vermede güçsüzleşme yalnız belirtilen eylem kalıbına bağlıdır ve bütün dala yayılmaz."
+      },
+      "concept_map": {
+        "definition": "Kavrayışta, karar vermede veya ilerlemede ağır ve yetersiz kalma niteliğidir; insanın zihinsel ve pratik çevikliğini, hayvanın yarışta geri kalmasını kapsayabilir. Belirli bir kullanımda işte ve vermede güçsüzleşmeyi anlatır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Zeka, kavrayış, nüfuz ve işleri hızla yürütme gücünün düşük olması çekirdektir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Bir atın öndeki atlara yetişemeyip geride kalması aynı yavaşlık niteliğiyle anlatılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Belirli eylem kalıbında kişi çalışmada ve cömertçe vermede geriler ve güçsüzleşir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F004",
+            "role": "associated_use",
+            "statement": "Kaba ve iri bedenli kişilerde sık görülmesi anlamın nedeni olarak anılır, fakat zorunlu bir özellik değildir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Toplu kanıt zeka, kavrayış, nüfuz ve ilerleme gücündeki düşüklüğü ortaklaştırır; atın yarışta geri kalması ve kişinin işte ya da cömertlikte güçsüzleşmesi bu çekirdeğin özel gerçekleşmeleridir. Kaba bedenle bağlantı zorunlu tanım değil, açıklayıcı bir ilişkilendirmedir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kavrayışta, ilerlemede veya işte ağır ve yetersiz kalma",
+        "applicability": "İnsan, hayvan ve belirli iş bağlamlarındaki ortak yavaşlık ve yetersizlik çekirdeğini kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Zihinsel yavaşlığı, ilerlemede geri kalmayı ve iş ile vermedeki güçsüzleşmeyi korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "ağır kavrayışlı",
+          "usage_role": "general",
+          "applicability": "Bir insanın zeka, kavrayış ve işlerde ilerleme çevikliği düşük olduğunda kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Zihinsel ve pratik kavrayış yavaşlığını korur.",
+            "loses": "Atın yarışta geri kalmasını ve iş ile vermedeki özel güçsüzleşmeyi dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "yarışta geri kalan",
+          "usage_role": "contextual",
+          "applicability": "Bir atın öndeki atlara yetişememesi anlatıldığında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İlerleme ve yarış bakımından geri kalmayı korur.",
+            "loses": "İnsandaki kavrayış yavaşlığını ve işteki güçsüzleşmeyi vermez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_016",
+          "rendering_kind": "ordinary",
+          "target_gloss": "zeka, kavrayış ve atılganlık düşüklüğü"
+        },
+        {
+          "lexical_unit_id": "lu_017",
+          "rendering_kind": "ordinary",
+          "target_gloss": "ağır kavrayışlı; yarışta geri kalan"
+        },
+        {
+          "lexical_unit_id": "lu_018",
+          "rendering_kind": "ordinary",
+          "target_gloss": "işte ve cömertlikte gerileyip güçsüzleşti"
+        }
+      ],
+      "excluded_glosses": [
+        {
+          "text": "şaşkın",
+          "category": "confusable",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Kişinin bir işte ilerleyememesi görünüşünü kısmen çağrıştırır.",
+            "loses": "Kalıcı kavrayış yavaşlığını, yarışta geri kalmayı ve işte güçsüzleşmeyi kaybeder.",
+            "adds": "Kaynakta bu dal için zorunlu olmayan geçici afallama durumunu ekler.",
+            "collision": "Şaşkınlıkla duraksama dalıyla karışır."
+          }
+        }
+      ],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001551/B005",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak zeka ve kavrayış düşüklüğünü, ayrıca işte güçsüzleşmeyi açıkça kapsar.",
+          "neighbor_only": "Komşu düşük değer, yiğitlik ve soyluluk ölçüsüne erişememe ile başını kaldıramayan atı da kapsar.",
+          "gloss": "zayıf ve hedefe erişemeyen",
+          "shared_zone": "İki dal insanın yetersizliğini ve atın öndekilere yetişememesini anlatabilir.",
+          "distinction": "Odak ağır kavrayış ve yavaş ilerleme merkezlidir; komşu genel güçsüzlük ve değer ölçüsünde eksik kalmaya uzanır."
+        },
+        {
+          "neighbor_ref": "root_000124/B001",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak zeka ve kavrayış düşüklüğü ile işte yetersizliği içerir.",
+          "neighbor_only": "Komşu hareket, geliş ve yolculuk dahil her türlü salt yavaşlığı anlatır.",
+          "gloss": "yavaşlık ve gecikme",
+          "shared_zone": "Yavaş ilerleme ve geride kalma iki dalda da görülebilir.",
+          "distinction": "Komşu yalnız hız eksikliğidir; odakta kavrayış ve yeterlilik düşüklüğü de kurucudur."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün yavaşlık, zayıflık ve işte geri kalma adayları değerlendirildi; genel yetersizlik ile salt yavaşlık odak dalının iki temel sınırını gösterdi.",
+      "branch_image_ar": "البلادة وضعف النفاذ",
+      "what_is_ar": "يدخل فيه البلادة ضد الذكاء والنفاذ والمضاء، والبليد من الناس أو الدواب، وتأخر الفرس عن الخيل السوابق، وضعف المرء في العمل والجود.",
+      "what_is_not_ar": "ليس فيه الحيرة العابرة ولا عظم الخلق إلا إذا نص المصدر على علاقة بينهما.",
+      "source_phrase_ar": "رجل بليد بين البلادة ضد النحرير (jamhara)؛ البلادة ضد الذكاء وقد بلد بالضم فهو بليد (sihah)؛ أبلد الرجل إذا كانت دابته بليدة (sihah)؛ البلادة نقيض النفاذ والمضاء في الأمور (tahdhib)؛ فرس بليد إذا تأخر عن الخيل السوابق (tahdhib)؛ بلد إذا نكس في العمل وضعف حتى في الجود (tahdhib)؛ لكثرة وجود البلادة فيمن كان جلف البدن (mufradat)",
+      "sources": [
+        "JA",
+        "SI",
+        "TA",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B008",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifade insan için iri ve kaba yapıyı, ilgili başka biçimler için enli olmayı ve devenin sağlam, sert bedenini açıkça destekler. Zihinsel yavaşlıkla kurulan açıklayıcı ilişki bu fiziksel yapının tanımına katılmaz.",
+        "boundary_note": "Dal yalnız fiziksel irilik, enlilik, kabalık ve sağlamlıkla ilgilidir; kaş görünüşü veya zihinsel yavaşlık anlamlarını içermez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Çıplak biçimlerin fiziksel beden yapısı anlamı tanımlanır; zihinsel nitelik ve kaşların görünüşüyle ilgili eş biçimli anlamlar dışarıda tutulur."
+      },
+      "concept_map": {
+        "definition": "Bir insanın veya hayvanın iri, enli ve kaba yapılı olmasıdır; deve söz konusu olduğunda bedenin sert ve dayanıklı oluşu da kapsama girer.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "İri ve kaba beden yapısı çekirdek fiziksel niteliktir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "İlgili bir biçim özellikle enli ve geniş bedeni anlatır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F003",
+            "role": "specialization",
+            "statement": "Deve için kullanılan biçim iri bedenle birlikte sertlik ve dayanıklılığı belirtir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar iri ve kaba beden yapısında birleşir; enli insan ile sert ve dayanıklı deve nitelemeleri bu fiziksel çekirdeğin özel biçimleridir. Zihinsel yavaşlık bu dalın tanımsal parçası değildir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "iri, enli ve kaba yapılı; hayvanda sert ve dayanıklı",
+        "applicability": "İnsan ve hayvan bedenine ilişkin irilik, enlilik, kabalık ve dayanıklılık niteliklerini kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "İri ve kaba yapıyı, enlilik özel biçimini ve devedeki sert dayanıklılığı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "iri ve kaba yapılı",
+          "usage_role": "general",
+          "applicability": "İnsan bedeninin büyüklüğü ve kaba yapısı anlatıldığında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İri ve kaba beden çekirdeğini korur.",
+            "loses": "Enlilik özel biçimini ve devedeki sert, dayanıklı yapı vurgusunu dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_019",
+          "rendering_kind": "ordinary",
+          "target_gloss": "iri ve kaba yapılı"
+        },
+        {
+          "lexical_unit_id": "lu_020",
+          "rendering_kind": "ordinary",
+          "target_gloss": "enli; deve için sert ve dayanıklı"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000217/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak enli insanı ve sert, dayanıklı deveyi belirli biçimlerle kapsar.",
+          "neighbor_only": "Komşu kalınlığı deri, kemik, baş derisi ve hörgüç gibi tek tek beden bölümlerine de uygular.",
+          "gloss": "kalın ve kaba beden yapısı",
+          "shared_zone": "İki dal iri, kalın ve kaba fiziksel yapıyı anlatır.",
+          "distinction": "Odak bütün bedenin iriliği ve enliliğine yönelir; komşu tek tek dokuların ve beden bölümlerinin kalınlığına da uzanır."
+        },
+        {
+          "neighbor_ref": "root_001250/B020",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak insan ve hayvanda kaba yapı ile dayanıklılığı kapsar.",
+          "neighbor_only": "Komşu özellikle dişi deve veya kadında irilikle birlikte ağırlık ve hoyratlığı belirtir.",
+          "gloss": "iri ve ağır yapılı",
+          "shared_zone": "İki dal iri ve geniş bedenli olmayı anlatabilir.",
+          "distinction": "Komşuda ağırlık, belirli dişi varlıklar ve hoyratlık öne çıkar; odakta bu koşullar zorunlu değildir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün irilik ve beden bölgesi adayları değerlendirildi; genel kalın yapı ile iri-ağır yapı, odaktaki enlilik ve dayanıklılık sınırını en iyi açıkladı.",
+      "branch_image_ar": "غلظ الخلق وعظم الجسم",
+      "what_is_ar": "يدخل فيه الأبلد العظيم أو الغليظ الخلق، والبلندى العريض، والمبلندى من الجمال الصلب الشديد.",
+      "what_is_not_ar": "ليس فيه الأبلد الذي ليس بمقرون الحاجبين، ولا البليد ضد الذكي إلا على جهة التعليل الذي ذكره بعض المصادر.",
+      "source_phrase_ar": "رجل أبلد غليظ الخلق (jamhara)؛ الأبلد الرجل العظيم الخلق والبلندى العريض والمبلندى من الجمال الصلب الشديد (sihah)؛ رجل أبلد عبارة عن عظيم الخلق (mufradat)",
+      "sources": [
+        "JA",
+        "SI",
+        "MU"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B009",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifade bir yerde kalmayı, orayı terk etmeyip yerleşmeyi ve bu durumda olan kişiyi tutarlı biçimde verir. Yere fiziksel olarak yapışma ve memlekete dönme isteği bu eylemin parçası değildir.",
+        "boundary_note": "Dal bir yerde kalıp ikamet etmeyi kapsar; yere temas edip yapışmayı, yalnızca bir yere varmayı veya oraya dönmeyi içermez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Kalma eylemi yer belirten tamamlayıcıyla kurulur; kişi adı ise orada oturanı gösterir. Bu yapılar fiziksel yapışma anlamına genellenmez."
+      },
+      "concept_map": {
+        "definition": "Bir yerde kalmak, orayı terk etmeyip orada ikamet etmektir; aynı anlam alanındaki kişi adı, o yerde oturan ve kalan kimseyi gösterir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bir yerde bulunmayı sürdürmek ve orayı terk etmeden kalmak çekirdektir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Bu eylemi sürdüren kişi, bulunduğu yerde oturan kimse olarak adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar bir yerde kalma ve orayı sürekli tutma anlamında birleşir; kişi biçimi de aynı yerle ilişkisini sürdüren sakini gösterir. Kalışın süresi veya yere fiziksel temas zorunlu değildir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "bir yerde kalıp ikamet etme ve orada oturan kişi",
+        "applicability": "Yer belirten eylem kalıbını ve bu eylemden türeyen sakin adını birlikte kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bir yerde kalmayı, orayı terk etmemeyi ve orada oturan kişi anlamını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "bir yerde kalıp oturmak",
+          "usage_role": "general",
+          "applicability": "Kişinin bir yeri terk etmeyip orada ikamet etmesi anlatıldığında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kalma ve ikamet etme eylemini korur.",
+            "loses": "O yerde oturan kişiyi adlandıran türemiş anlamı dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_021",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir yerde kalıp ikamet etmek"
+        },
+        {
+          "lexical_unit_id": "lu_022",
+          "rendering_kind": "ordinary",
+          "target_gloss": "bir yerde oturan, sakin"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001243/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak yerle ilişkili kişi adını ayrıca verir ve kalmayı yer adından hareketle anlatır.",
+          "neighbor_only": "Komşu yerleşme, sakin durma ve bir konutu sürekli tutma görünüşünü daha açık taşır.",
+          "gloss": "yerleşip oturma",
+          "shared_zone": "İki dal da bir yerde kalmayı ve orada oturmayı anlatır.",
+          "distinction": "Odak genel olarak yerde kalma ve sakin adıdır; komşuda yerleşme ve konutu sürekli tutma görünüşü daha belirgindir."
+        },
+        {
+          "neighbor_ref": "root_000377/B004",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak süresi belirtilmeyen ikameti ve orada oturan kişiyi kapsar.",
+          "neighbor_only": "Komşu bir yerde birkaç gün kalmayı özellikle sınırlar.",
+          "gloss": "birkaç gün bir yerde kalma",
+          "shared_zone": "Her iki dal da kişinin bir yerde bir süre kalmasını anlatır.",
+          "distinction": "Komşunun birkaç günlük süre sınırı vardır; odakta süre belirtilmez ve daha sürekli ikamet mümkün olabilir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün ikamet, varış, yurt ve dönüş adayları değerlendirildi; yerleşip oturma ile birkaç günlük kalış, süre ve süreklilik sınırlarını en iyi gösterdi.",
+      "branch_image_ar": "الإقامة ولزوم البلد",
+      "what_is_ar": "يدخل فيه بلد بالمكان إذا أقام به، وبلد إذا لزم البلد، والبالد المقيم بالبلد.",
+      "what_is_not_ar": "ليس فيه اللصوق بالأرض ولا الحيرة التي تحصل لمن خرج عن موطنه إلا حيث يصرح المصدر بالاشتقاق.",
+      "source_phrase_ar": "بلد بالمكان أقام به فهو بالد (sihah)؛ بلدت بالمكان أبلد بلودا أي أقمت به (tahdhib)؛ بلد لزم البلد (mufradat)؛ البالد قياسا المقيم بالبلد (maqayis)",
+      "sources": [
+        "SI",
+        "TA",
+        "MU",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B010",
+      "identity_judgment": {
+        "status": "qualified",
+        "rationale": "Kaynak ifade kişinin kendini yere atmasını veya yere yapışmasını ve yere yapışık eski havuz kullanımını destekler. Çökme yorumu kaynak ifadesinin ötesine geçtiğinden dışarıda tutulmalı; bu fiziksel temas da bir yerde ikamet etme anlamından ayrılmalıdır.",
+        "boundary_note": "Dal yere fiziksel olarak uzanma veya yapışmayı ve yere yapışık eski havuzu kapsar; çökme veya aynı yerde yaşamayı sürdürme anlamını içermez."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Kişinin yere yapışması yer tamamlayıcılı kalıba bağlıdır; eski su yapısı için kullanılan ad ise ayrı bir nesne kullanımını gösterir ve genel ikamet anlamına açılmaz."
+      },
+      "concept_map": {
+        "definition": "Bir kişinin kendini yere atarak yere uzanması veya yere yapışmasıdır. Aynı ad, yere yapışık eski havuz için de kullanılır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Bedenin yere atılması, uzanması veya yere sıkıca yapışması çekirdek eylemdir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "extension",
+            "statement": "Yere yapışık eski havuz aynı fiziksel ilişkiyle adlandırılır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar yere atılma ve yere yapışma eyleminde birleşir. Yere yapışık eski havuza verilen ad, bu özel nesne kullanımını aynı fiziksel çekirdeğe bağlar.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kendini yere atıp yapışma; yere yapışık eski havuz",
+        "applicability": "İnsan bedeninin yere teması ile eski havuzun yere yapışık konumunu birlikte kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yere atılmayı, yapışmayı ve eski havuzun yere yapışık konumunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "kendini yere atıp yapışmak",
+          "usage_role": "general",
+          "applicability": "Bir kişinin bedeniyle yere uzanması veya yere yapışması anlatıldığında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bedenin yere atılması ve yapışması eylemini korur.",
+            "loses": "Eski su yapısının yere oturmuş veya çökmüş görünümünü dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_023",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kendini yere atmak veya yere yapışmak"
+        },
+        {
+          "lexical_unit_id": "lu_024",
+          "rendering_kind": "ordinary",
+          "target_gloss": "yere yapışık eski havuz"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000928/B006",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak yere yapışmış eski su yapısı için nesne adını da kapsar.",
+          "neighbor_only": "Komşu insan ve hayvandan yere yayılan bitkiye kadar daha geniş uzanma ve yayılma örneklerini içerir.",
+          "gloss": "yere uzanıp yayılma",
+          "shared_zone": "İki dal da bedenin yere uzanmasını ve yere yapışmasını anlatır.",
+          "distinction": "Odak kendini yere atma ve belirli nesne kullanımına bağlıdır; komşu uzanma ile yüzeye yayılmayı daha geniş kapsar."
+        },
+        {
+          "neighbor_ref": "root_000222/B001",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak kendini yere atma hareketini ve yere oturmuş eski su yapısını kapsar.",
+          "neighbor_only": "Komşu kuş, yırtıcı, insan veya ağır nesnenin bulunduğu yeri terk etmeyip çömelerek kalmasını içerir.",
+          "gloss": "yere çömelip yerinde kalma",
+          "shared_zone": "İki dal da bir varlığın yere yakın biçimde yapışık ve hareketsiz görünmesini anlatabilir.",
+          "distinction": "Odakta yere atılma ya da yapışma, komşuda ise çömelip aynı noktada kalma belirleyicidir."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün yapışma, yayılma, çökme ve ikamet adayları değerlendirildi; yere yayılma ile çömelip kalma, hareket ve sonuç farkını en iyi gösterdi.",
+      "branch_image_ar": "اللصوق بالأرض",
+      "what_is_ar": "يدخل فيه بلد تبليدا إذا ضرب بنفسه الأرض، وأبلد إذا لصق بالأرض، والمبلد من الحوض القديم اللاصق بالأرض أو المتداعي.",
+      "what_is_not_ar": "ليس فيه الإقامة بالمكان ولا الصدر إلا في بروك الناقة إذا نص المصدر على وضع الصدر.",
+      "source_phrase_ar": "بلد تبليدا ضرب بنفسه الأرض وأبلد لصق بالأرض (sihah)؛ المبلد الحوض القديم ههنا وأراد ملبد فقلب وهو اللاصق بالأرض (tahdhib)؛ بلد الرجل بالأرض إذا لزق بها (maqayis)؛ مبلد بين موماة يذكر حوضا لاصقا بالأرض (maqayis)",
+      "sources": [
+        "SI",
+        "TA",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B011",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifade iki tarafın kılıç veya sopalarla karşılıklı vuruşmasını doğrudan verir; yerde tutunarak savaşma açıklaması ise olası bir türetim yorumudur. Bu yorum eylemin zorunlu parçası yapılmadan dal korunabilir.",
+        "boundary_note": "Dal genel savaşmayı değil, tarafların kılıç veya sopalarla karşılıklı vuruşmasını kapsar; yerde kalma yalnız türetim açıklamasıdır."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "bare",
+        "note": "Çıplak biçim karşılıklı silahlı vuruşma anlamıyla tanımlanır; olası yerle bağlantı eylemin zorunlu koşulu sayılmaz."
+      },
+      "concept_map": {
+        "definition": "İki tarafın kılıç veya sopalarla birbirine karşılıklı vurup çatışmasıdır. Savaşçıların yerde tutunarak dövüşmesiyle kurulan bağlantı, anlamın kendisi değil olası bir türetim açıklamasıdır.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Tarafların kılıç veya sopalarla birbirine karşılıklı vurması çekirdek eylemdir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "associated_use",
+            "statement": "Yerde tutunup onun üzerinde savaşma düşüncesi, eyleme ilişkin olası bir türetim açıklamasıdır.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Kaynaklar kılıç ve sopalarla karşılıklı vuruşma anlamında birleşir. Eylemin yerde tutunarak savaşmadan türediği görüşü açıklayıcı bir öneridir ve çatışmanın zorunlu koşulu değildir.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "kılıç veya sopalarla karşılıklı vuruşma",
+        "applicability": "Silahlı karşılıklılık çekirdeğini ve bunun çatışma niteliğini doğrudan temsil eder.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Karşılıklı vuruşmayı, kılıç ve sopa araçlarını ve olası yer bağlantısını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "silahlarla karşılıklı dövüşmek",
+          "usage_role": "general",
+          "applicability": "Araçların kılıç veya sopa olduğu karşılıklı çatışma bağlamında doğal eylem karşılığıdır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Karşılıklı silahlı dövüşme çekirdeğini korur.",
+            "loses": "Yerde tutunarak savaşmaya dayanan olası türetim açıklamasını belirtmez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_025",
+          "rendering_kind": "ordinary",
+          "target_gloss": "kılıç veya sopalarla karşılıklı dövüşme"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_001219/B002",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak kılıç veya sopa araçlarını ve karşılıklı vuruşmayı açıkça sınırlar.",
+          "neighbor_only": "Komşu kahramanların çarpışmasını, rakibe üstün gelmeyi ve daha genel karşılıklı mücadeleyi kapsar.",
+          "gloss": "rakiple çarpışma",
+          "shared_zone": "İki dal da rakip tarafların karşılıklı vuruşup mücadele etmesini anlatır.",
+          "distinction": "Odakta belirli vurma araçları kurucudur; komşuda araç sınırlaması yoktur ve üstün gelme görünüşü öne çıkabilir."
+        },
+        {
+          "neighbor_ref": "root_001200/B011",
+          "relation_type": "near_neighbor",
+          "boundary_match": "partial",
+          "focus_only": "Odak kılıç ve sopalarla karşılıklı vuruşma biçimini belirtir.",
+          "neighbor_only": "Komşu iki veya daha çok tarafın öldürme amacı taşıyan genel savaşmasını kapsar.",
+          "gloss": "karşılıklı savaşma",
+          "shared_zone": "Karşılıklı silahlı dövüş iki dalın da kapsamına girebilir.",
+          "distinction": "Komşu daha geniş savaş eylemi ve öldürme amacıyla tanımlanır; odak belirli araçlarla vuruşma biçimine dayanır."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün savaş, düello, silah ve tek yönlü vurma adayları değerlendirildi; genel karşılıklı çarpışma ile öldürme amaçlı savaş en yararlı iki sınırı verdi.",
+      "branch_image_ar": "المبالدة بالسيوف والعصي",
+      "what_is_ar": "يدخل فيه المبالدة بمعنى المجالدة أو المباطلة بالسيوف والعصي، واشتقاقها من لزوم الأرض في القتال إذا ذكر المصدر ذلك.",
+      "what_is_not_ar": "ليس فيه البلادة ضد الذكاء ولا مجرد الإقامة بالبلد.",
+      "source_phrase_ar": "المبالدة مثل المباطلة (sihah)؛ المبالدة كالمبالطة بالسيوف والعصي إذا تجالدوا بها (tahdhib)؛ المبالدة بالسيوف مثل المبالطة وقال بعضهم اشتق من الأول كأنهم لزموا الأرض فقاتلوا عليها (maqayis)",
+      "sources": [
+        "SI",
+        "TA",
+        "MQ"
+      ],
+      "source_note": {}
+    },
+    {
+      "branch_ref": "root_000148/B012",
+      "identity_judgment": {
+        "status": "accepted",
+        "rationale": "Kaynak ifade aynı dalda deve kuşunun yumurtlamak için kullandığı çukuru ve bu kuşun orada bırakıp gittiği yumurtayı açıkça verir. Genel yeryüzü parçası anlamı burada yalnız ortak biçimdir ve tanıma katılmaz.",
+        "boundary_note": "Dal deve kuşunun yumurta çukuru ile terk edilmiş yumurtasına özgüdür; genel yer, başka kuşların yumurtası veya yavru anlamını kapsamaz."
+      },
+      "lexicalization_scope": {
+        "branch_kind": "mixed_non_bare",
+        "note": "Temel biçim deve kuşunun yumurta çukurunu gösterir; terk edilmiş yumurta anlamı yalnız belirtilen ad tamlamasına bağlıdır ve genel yumurta anlamına genişletilmez."
+      },
+      "concept_map": {
+        "definition": "Deve kuşunun yumurtlamak için kullandığı çukur veya yuvadır; belirli bir ad tamlamasında, deve kuşunun bu yerde bırakıp gittiği yumurtayı da gösterir.",
+        "facets": [
+          {
+            "facet_id": "F001",
+            "role": "core",
+            "statement": "Deve kuşunun yumurta bıraktığı çukur veya yuva çekirdektir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          },
+          {
+            "facet_id": "F002",
+            "role": "specialization",
+            "statement": "Belirli ad tamlaması, deve kuşunun bırakıp gittiği yumurtayı gösterir.",
+            "claim_ids": [
+              "bc_001"
+            ]
+          }
+        ]
+      },
+      "source_synthesis": {
+        "common_summary": "Tek kaynaklı kanıt deve kuşunun yumurta çukurunu temel kullanım, kuşun bırakıp gittiği yumurtayı ise belirli ad tamlamasına bağlı kullanım olarak verir. Yuva ile yumurta aynı varlık değildir ve tanımda ayrı tutulmalıdır.",
+        "common_claim_ids": [
+          "bc_001"
+        ],
+        "source_details": [],
+        "supporting_claim_ids": [],
+        "duplicate_claims": []
+      },
+      "concept_gloss": {
+        "text": "deve kuşunun yumurta çukuru ve orada bırakılmış yumurtası",
+        "applicability": "Yuva niteliğindeki çukuru ve yalnız özel ad tamlamasındaki terk edilmiş yumurtayı birlikte kapsar.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Deve kuşu yuvasını, yumurtlama işlevini ve bırakılmış yumurta kullanımını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      "contextual_glosses": [
+        {
+          "text": "deve kuşunun yumurta çukuru",
+          "usage_role": "general",
+          "applicability": "Sözcük doğrudan kuşun yumurtladığı yer için kullanıldığında geçerlidir.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Deve kuşunun yumurtlama çukuru olan çekirdeği korur.",
+            "loses": "Özel ad tamlamasında gösterilen bırakılmış yumurta anlamını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F001"
+          ]
+        },
+        {
+          "text": "deve kuşunun bırakıp gittiği yumurta",
+          "usage_role": "contextual",
+          "applicability": "Yalnız terk edilmiş yumurtayı gösteren belirli ad tamlamasında kullanılır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Bırakılmış deve kuşu yumurtası anlamını korur.",
+            "loses": "Yumurtanın bırakıldığı çukur veya yuva anlamını vermez.",
+            "adds": null,
+            "collision": null
+          },
+          "facet_ids": [
+            "F002"
+          ]
+        }
+      ],
+      "lexical_glosses": [
+        {
+          "lexical_unit_id": "lu_026",
+          "rendering_kind": "ordinary",
+          "target_gloss": "deve kuşunun yumurta çukuru"
+        },
+        {
+          "lexical_unit_id": "lu_027",
+          "rendering_kind": "ordinary",
+          "target_gloss": "deve kuşunun bırakıp gittiği yumurta"
+        }
+      ],
+      "excluded_glosses": [],
+      "neighbor_distinctions": [
+        {
+          "neighbor_ref": "root_000462/B003",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak özel ad tamlamasında bırakılmış deve kuşu yumurtasını da kapsar.",
+          "neighbor_only": "Komşu yuvanın kuş tarafından ayağıyla hazırlanmasını ve ayrıca göksel bir yer kullanımını bildirir.",
+          "gloss": "deve kuşunun yumurtlama çukuru",
+          "shared_zone": "İki dal da deve kuşunun yumurtlamak için kullandığı çukuru adlandırır.",
+          "distinction": "Yuva anlamında büyük ölçüde örtüşürler; odak terk edilmiş yumurtaya, komşu ise çukurun hazırlanışına ve göksel kullanıma ayrıca uzanır."
+        },
+        {
+          "neighbor_ref": "root_000180/B008",
+          "relation_type": "near_synonym",
+          "boundary_match": "partial",
+          "focus_only": "Odak yumurtanın yanında deve kuşunun yumurta çukurunu da kapsar.",
+          "neighbor_only": "Komşu bırakılmış yumurtadan başlık ve baş gibi benzetmeli nesnelere de genişler.",
+          "gloss": "bırakılmış deve kuşu yumurtası",
+          "shared_zone": "İki dal da kırda bırakılmış deve kuşu yumurtasını anlatabilir.",
+          "distinction": "Odak yuva ile yumurtayı aynı dalda tutar; komşu yumurtadan benzetmeyle türeyen başka nesne adlarını kapsar."
+        }
+      ],
+      "neighbor_coverage_note": "Bütün yumurta, yavru, yuva ve çöl adayları değerlendirildi; deve kuşu çukuru ile bırakılmış yumurta adayları dalın iki kurucu unsuruna doğrudan karşılık verdi.",
+      "branch_image_ar": "أدحي النعام",
+      "what_is_ar": "يدخل فيه البلد بمعنى أدحي النعام، وبيضة البلد أي بيضة النعام التي تتركها.",
+      "what_is_not_ar": "ليس فيه البلد بمعنى القرية أو الأرض العامة إلا على جهة الموضع الخاص.",
+      "source_phrase_ar": "البلد أدحي النعام يقال هو أذل من بيضة البلد أي من بيضة النعام التي تتركها (sihah)",
+      "sources": [
+        "SI"
+      ],
+      "source_note": {}
+    }
+  ],
+  "root_profile": {
+    "summary": "Kök, sınırlı yer çekirdeğinden göğüs bölgesi, kaş arası açıklık, göksel durak, bedensel iz ve deve kuşu yuvası gibi adlara; şaşkınlık, ağır kavrayış, iri beden, ikamet, yere yapışma ve karşılıklı dövüşme gibi eylem ve niteliklere uzanan geniş bir anlam kümesi oluşturur. Dalların bir bölümü yer, beden ve yüzey düşünceleriyle ilişkilendirilebilse de hepsi tek bir eşzamanlı tanıma indirgenemez.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "occurrence_evidence": {
+    "summary": {
+      "morpheme_count": 19,
+      "word_count": 19,
+      "ayah_count": 19,
+      "surah_count": 15
+    },
+    "forms": [
+      {
+        "form_id": "F001",
+        "lemma_ar": "بَلَد",
+        "stem_ar": "بَلَدًا",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|INDEF|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F002",
+        "lemma_ar": "بَلَد",
+        "stem_ar": "بِلَٰدِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|MP|GEN",
+        "occurrence_count": 5
+      },
+      {
+        "form_id": "F003",
+        "lemma_ar": "بَلَد",
+        "stem_ar": "بَلَدٍ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|INDEF|GEN",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F004",
+        "lemma_ar": "بَلَد",
+        "stem_ar": "بَلَدُ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F005",
+        "lemma_ar": "بَلَد",
+        "stem_ar": "بَلَدَ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|ACC",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F006",
+        "lemma_ar": "بَلْدَة",
+        "stem_ar": "بَلْدَةً",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:balodap|ROOT:bld|F|INDEF|ACC",
+        "occurrence_count": 3
+      },
+      {
+        "form_id": "F007",
+        "lemma_ar": "بَلْدَة",
+        "stem_ar": "بَلْدَةِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:balodap|ROOT:bld|F|GEN",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F008",
+        "lemma_ar": "بَلْدَة",
+        "stem_ar": "بَلْدَةٌ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:balodap|ROOT:bld|F|INDEF|NOM",
+        "occurrence_count": 1
+      },
+      {
+        "form_id": "F009",
+        "lemma_ar": "بَلَد",
+        "stem_ar": "بَلَدِ",
+        "pos": "N",
+        "measure": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|GEN",
+        "occurrence_count": 3
+      }
+    ],
+    "ayahs": [
+      {
+        "ayah_ref": "2:126",
+        "surface_ar": "وَإِذْ قَالَ إِبْرَٰهِۦمُ رَبِّ ٱجْعَلْ هَٰذَا بَلَدًا ءَامِنًا وَٱرْزُقْ أَهْلَهُۥ مِنَ ٱلثَّمَرَٰتِ مَنْ ءَامَنَ مِنْهُم بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ قَالَ وَمَن كَفَرَ فَأُمَتِّعُهُۥ قَلِيلًا ثُمَّ أَضْطَرُّهُۥٓ إِلَىٰ عَذَابِ ٱلنَّارِ وَبِئْسَ ٱلْمَصِيرُ"
+      },
+      {
+        "ayah_ref": "3:196",
+        "surface_ar": "لَا يَغُرَّنَّكَ تَقَلُّبُ ٱلَّذِينَ كَفَرُوا۟ فِى ٱلْبِلَٰدِ"
+      },
+      {
+        "ayah_ref": "7:57",
+        "surface_ar": "وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًا ثِقَالًا سُقْنَٰهُ لِبَلَدٍ مَّيِّتٍ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ"
+      },
+      {
+        "ayah_ref": "7:58",
+        "surface_ar": "وَٱلْبَلَدُ ٱلطَّيِّبُ يَخْرُجُ نَبَاتُهُۥ بِإِذْنِ رَبِّهِۦ وَٱلَّذِى خَبُثَ لَا يَخْرُجُ إِلَّا نَكِدًا كَذَٰلِكَ نُصَرِّفُ ٱلْءَايَٰتِ لِقَوْمٍ يَشْكُرُونَ"
+      },
+      {
+        "ayah_ref": "14:35",
+        "surface_ar": "وَإِذْ قَالَ إِبْرَٰهِيمُ رَبِّ ٱجْعَلْ هَٰذَا ٱلْبَلَدَ ءَامِنًا وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ"
+      },
+      {
+        "ayah_ref": "16:7",
+        "surface_ar": "وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ إِنَّ رَبَّكُمْ لَرَءُوفٌ رَّحِيمٌ"
+      },
+      {
+        "ayah_ref": "25:49",
+        "surface_ar": "لِّنُحْۦِىَ بِهِۦ بَلْدَةً مَّيْتًا وَنُسْقِيَهُۥ مِمَّا خَلَقْنَآ أَنْعَٰمًا وَأَنَاسِىَّ كَثِيرًا"
+      },
+      {
+        "ayah_ref": "27:91",
+        "surface_ar": "إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ رَبَّ هَٰذِهِ ٱلْبَلْدَةِ ٱلَّذِى حَرَّمَهَا وَلَهُۥ كُلُّ شَىْءٍ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُسْلِمِينَ"
+      },
+      {
+        "ayah_ref": "34:15",
+        "surface_ar": "لَقَدْ كَانَ لِسَبَإٍ فِى مَسْكَنِهِمْ ءَايَةٌ جَنَّتَانِ عَن يَمِينٍ وَشِمَالٍ كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ وَٱشْكُرُوا۟ لَهُۥ بَلْدَةٌ طَيِّبَةٌ وَرَبٌّ غَفُورٌ"
+      },
+      {
+        "ayah_ref": "35:9",
+        "surface_ar": "وَٱللَّهُ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ فَتُثِيرُ سَحَابًا فَسُقْنَٰهُ إِلَىٰ بَلَدٍ مَّيِّتٍ فَأَحْيَيْنَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا كَذَٰلِكَ ٱلنُّشُورُ"
+      },
+      {
+        "ayah_ref": "40:4",
+        "surface_ar": "مَا يُجَٰدِلُ فِىٓ ءَايَٰتِ ٱللَّهِ إِلَّا ٱلَّذِينَ كَفَرُوا۟ فَلَا يَغْرُرْكَ تَقَلُّبُهُمْ فِى ٱلْبِلَٰدِ"
+      },
+      {
+        "ayah_ref": "43:11",
+        "surface_ar": "وَٱلَّذِى نَزَّلَ مِنَ ٱلسَّمَآءِ مَآءًۢ بِقَدَرٍ فَأَنشَرْنَا بِهِۦ بَلْدَةً مَّيْتًا كَذَٰلِكَ تُخْرَجُونَ"
+      },
+      {
+        "ayah_ref": "50:11",
+        "surface_ar": "رِّزْقًا لِّلْعِبَادِ وَأَحْيَيْنَا بِهِۦ بَلْدَةً مَّيْتًا كَذَٰلِكَ ٱلْخُرُوجُ"
+      },
+      {
+        "ayah_ref": "50:36",
+        "surface_ar": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَشَدُّ مِنْهُم بَطْشًا فَنَقَّبُوا۟ فِى ٱلْبِلَٰدِ هَلْ مِن مَّحِيصٍ"
+      },
+      {
+        "ayah_ref": "89:8",
+        "surface_ar": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ"
+      },
+      {
+        "ayah_ref": "89:11",
+        "surface_ar": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ"
+      },
+      {
+        "ayah_ref": "90:1",
+        "surface_ar": "لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ"
+      },
+      {
+        "ayah_ref": "90:2",
+        "surface_ar": "وَأَنتَ حِلٌّۢ بِهَٰذَا ٱلْبَلَدِ"
+      },
+      {
+        "ayah_ref": "95:3",
+        "surface_ar": "وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ"
+      }
+    ],
+    "occurrences": [
+      {
+        "qac_ref": "2:126:7:1",
+        "qac_word_ref": "2:126:7",
+        "surah": 2,
+        "ayah": 126,
+        "word_index": 7,
+        "morpheme_index": 1,
+        "surface_ar": "بَلَدًا",
+        "stem_ar": "بَلَدًا",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|INDEF|ACC",
+        "ayah_ref": "2:126",
+        "form_id": "F001",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s002:126:noun:8",
+          "attachment_word_unit_id": "q:2:126:8",
+          "qac_char_span": [
+            23,
+            27
+          ],
+          "attachment_char_spans": [
+            [
+              23,
+              26
+            ],
+            [
+              23,
+              27
+            ]
+          ],
+          "source_grammar": "noun, accusative indefinite (second object of jaʿala); tanwin indicates non-specific — \"a settlement\" (not yet \"the settlement\")",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s002:126:pass1:attach:a6",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:2:126:6",
+              "other_surface": "اجْعَلْ",
+              "other_root": "ج ع ل",
+              "other_form_tag": "CV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s002:126:pass1:attach:a7",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:2:126:9",
+              "other_surface": "آمِنَاً",
+              "other_root": "أ م ن",
+              "other_form_tag": "NOUN_ACTIVE_PART",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "3:196:7:2",
+        "qac_word_ref": "3:196:7",
+        "surah": 3,
+        "ayah": 196,
+        "word_index": 7,
+        "morpheme_index": 2,
+        "surface_ar": "بِلَٰدِ",
+        "stem_ar": "بِلَٰدِ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|MP|GEN",
+        "ayah_ref": "3:196",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s003:196:noun:7",
+          "attachment_word_unit_id": "q:3:196:7",
+          "qac_char_span": [
+            23,
+            29
+          ],
+          "attachment_char_spans": [
+            [
+              25,
+              29
+            ]
+          ],
+          "source_grammar": "noun, definite with al-, genitive (governed by fī), plural of balad",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s003:196:pass1:attach:a5",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:3:196:3",
+              "other_surface": "تَقَلُّبُ",
+              "other_root": "ق ل ب",
+              "other_form_tag": "GERUND",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "7:57:15:2",
+        "qac_word_ref": "7:57:15",
+        "surah": 7,
+        "ayah": 57,
+        "word_index": 15,
+        "morpheme_index": 2,
+        "surface_ar": "بَلَدٍ",
+        "stem_ar": "بَلَدٍ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|INDEF|GEN",
+        "ayah_ref": "7:57",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s007:057:noun:17",
+          "attachment_word_unit_id": "q:7:57:17",
+          "qac_char_span": [
+            59,
+            63
+          ],
+          "attachment_char_spans": [
+            [
+              59,
+              63
+            ],
+            [
+              60,
+              63
+            ]
+          ],
+          "source_grammar": "indefinite genitive singular noun; object of preposition li-",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s007:057:pass1:attach:a10",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:7:57:15",
+              "other_surface": "سُقْنَاهُ",
+              "other_root": "س و ق",
+              "other_form_tag": "PV",
+              "prep_base": "لـ",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s007:057:pass1:attach:a11",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:7:57:18",
+              "other_surface": "مَيِّتٍ",
+              "other_root": "م و ت",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "7:58:1:3",
+        "qac_word_ref": "7:58:1",
+        "surah": 7,
+        "ayah": 58,
+        "word_index": 1,
+        "morpheme_index": 3,
+        "surface_ar": "بَلَدُ",
+        "stem_ar": "بَلَدُ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|NOM",
+        "ayah_ref": "7:58",
+        "form_id": "F004",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s007:058:noun:2",
+          "attachment_word_unit_id": "q:7:58:2",
+          "qac_char_span": [
+            0,
+            6
+          ],
+          "attachment_char_spans": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "source_grammar": "definite noun, masculine singular, nominative (mubtadaʾ of nominal sentence)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s007:058:pass1:attach:a1",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:7:58:3",
+              "other_surface": "الطَّيِّبُ",
+              "other_root": "ط ي ب",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s007:058:pass1:attach:a2",
+              "relation": "predication",
+              "focus_role": "head",
+              "other_unit_id": "q:7:58:4",
+              "other_surface": "يَخْرُجُ",
+              "other_root": "خ ر ج",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "14:35:7:2",
+        "qac_word_ref": "14:35:7",
+        "surah": 14,
+        "ayah": 35,
+        "word_index": 7,
+        "morpheme_index": 2,
+        "surface_ar": "بَلَدَ",
+        "stem_ar": "بَلَدَ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|ACC",
+        "ayah_ref": "14:35",
+        "form_id": "F005",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s014:035:noun:8",
+          "attachment_word_unit_id": "q:14:35:8",
+          "qac_char_span": [
+            23,
+            28
+          ],
+          "attachment_char_spans": [
+            [
+              25,
+              28
+            ]
+          ],
+          "source_grammar": "definite accusative noun (maʿrifa bi-l-alif wa-l-lām), apposition to hādhā or second specifier in the double-accusative construction",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s014:035:pass1:attach:a6",
+              "relation": "apposition",
+              "focus_role": "dependent",
+              "other_unit_id": "q:14:35:7",
+              "other_surface": "هَذَا",
+              "other_root": "",
+              "other_form_tag": "DEM_PRON_MS",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "16:7:4:1",
+        "qac_word_ref": "16:7:4",
+        "surah": 16,
+        "ayah": 7,
+        "word_index": 4,
+        "morpheme_index": 1,
+        "surface_ar": "بَلَدٍ",
+        "stem_ar": "بَلَدٍ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|INDEF|GEN",
+        "ayah_ref": "16:7",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s016:007:noun:5",
+          "attachment_word_unit_id": "q:16:7:5",
+          "qac_char_span": [
+            16,
+            19
+          ],
+          "attachment_char_spans": [
+            [
+              16,
+              19
+            ]
+          ],
+          "source_grammar": "noun, singular, genitive (majrūr) governed by ilā, indefinite (tankīr)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s016:007:pass1:attach:a3",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:16:7:2",
+              "other_surface": "وَتَحْمِلُ",
+              "other_root": "ح م ل",
+              "other_form_tag": "IV",
+              "prep_base": "إِلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "25:49:3:1",
+        "qac_word_ref": "25:49:3",
+        "surah": 25,
+        "ayah": 49,
+        "word_index": 3,
+        "morpheme_index": 1,
+        "surface_ar": "بَلْدَةً",
+        "stem_ar": "بَلْدَةً",
+        "lemma_ar": "بَلْدَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balodap|ROOT:bld|F|INDEF|ACC",
+        "ayah_ref": "25:49",
+        "form_id": "F006",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s025:049:noun:4",
+          "attachment_word_unit_id": "q:25:49:4",
+          "qac_char_span": [
+            8,
+            12
+          ],
+          "attachment_char_spans": [
+            [
+              8,
+              11
+            ],
+            [
+              8,
+              12
+            ]
+          ],
+          "source_grammar": "noun, accusative indefinite (direct object of nuḥyiya); feminine singular of balad",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s025:049:pass1:attach:a2",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:25:49:2",
+              "other_surface": "لِنُحْيِيَ",
+              "other_root": "ح ي ي",
+              "other_form_tag": "IV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government"
+            },
+            {
+              "attachment_id": "ae:v3:s025:049:pass1:attach:a3",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:25:49:5",
+              "other_surface": "مَيْتَاً",
+              "other_root": "م و ت",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;case_government"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "27:91:7:2",
+        "qac_word_ref": "27:91:7",
+        "surah": 27,
+        "ayah": 91,
+        "word_index": 7,
+        "morpheme_index": 2,
+        "surface_ar": "بَلْدَةِ",
+        "stem_ar": "بَلْدَةِ",
+        "lemma_ar": "بَلْدَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balodap|ROOT:bld|F|GEN",
+        "ayah_ref": "27:91",
+        "form_id": "F007",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s027:091:noun:7",
+          "attachment_word_unit_id": "q:27:91:7",
+          "qac_char_span": [
+            20,
+            26
+          ],
+          "attachment_char_spans": [
+            [
+              22,
+              25
+            ],
+            [
+              22,
+              26
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE, definite genitive, appositive to hādhihi",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s027:091:pass1:attach:a4",
+              "relation": "apposition",
+              "focus_role": "dependent",
+              "other_unit_id": "q:27:91:6",
+              "other_surface": "هَذِهِ",
+              "other_root": "",
+              "other_form_tag": "DEM_PRON_F",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "34:15:17:1",
+        "qac_word_ref": "34:15:17",
+        "surah": 34,
+        "ayah": 15,
+        "word_index": 17,
+        "morpheme_index": 1,
+        "surface_ar": "بَلْدَةٌ",
+        "stem_ar": "بَلْدَةٌ",
+        "lemma_ar": "بَلْدَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balodap|ROOT:bld|F|INDEF|NOM",
+        "ayah_ref": "34:15",
+        "form_id": "F008",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s034:015:noun:21",
+          "attachment_word_unit_id": "q:34:15:21",
+          "qac_char_span": [
+            61,
+            65
+          ],
+          "attachment_char_spans": [
+            [
+              61,
+              64
+            ],
+            [
+              61,
+              65
+            ]
+          ],
+          "source_grammar": "Indefinite nominative noun; verbless evaluative phrase with ṭayyibah, variant accusative span",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s034:015:pass1:attach:a12",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:34:15:22",
+              "other_surface": "طَيِّبَةٌ",
+              "other_root": "ط ي ب",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s034:015:pass1:attach:a13",
+              "relation": "conjoined",
+              "focus_role": "head",
+              "other_unit_id": "q:34:15:24",
+              "other_surface": "وَرَبٌّ",
+              "other_root": "ر ب ب",
+              "other_form_tag": "PREP",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "35:9:9:1",
+        "qac_word_ref": "35:9:9",
+        "surah": 35,
+        "ayah": 9,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "بَلَدٍ",
+        "stem_ar": "بَلَدٍ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|INDEF|GEN",
+        "ayah_ref": "35:9",
+        "form_id": "F003",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s035:009:noun:12",
+          "attachment_word_unit_id": "q:35:9:12",
+          "qac_char_span": [
+            39,
+            42
+          ],
+          "attachment_char_spans": [
+            [
+              39,
+              42
+            ]
+          ],
+          "source_grammar": "indefinite genitive noun governed by إِلَىٰ; qualified by مَّيِّتٍ",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s035:009:pass1:attach:a5",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:35:9:10",
+              "other_surface": "فَسُقْنَاهُ",
+              "other_root": "س و ق",
+              "other_form_tag": "PV",
+              "prep_base": "إِلَى",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s035:009:pass1:attach:a6",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:35:9:13",
+              "other_surface": "مَيِّتٍ",
+              "other_root": "م و ت",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "40:4:13:2",
+        "qac_word_ref": "40:4:13",
+        "surah": 40,
+        "ayah": 4,
+        "word_index": 13,
+        "morpheme_index": 2,
+        "surface_ar": "بِلَٰدِ",
+        "stem_ar": "بِلَٰدِ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|MP|GEN",
+        "ayah_ref": "40:4",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s040:004:noun:14",
+          "attachment_word_unit_id": "q:40:4:14",
+          "qac_char_span": [
+            47,
+            53
+          ],
+          "attachment_char_spans": [
+            [
+              49,
+              53
+            ]
+          ],
+          "source_grammar": "definite plural noun in genitive after فِى; concrete place noun",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s040:004:pass1:attach:a8",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:40:4:12",
+              "other_surface": "تَقَلُّبُهُمْ",
+              "other_root": "ق ل ب",
+              "other_form_tag": "GERUND",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "43:11:9:1",
+        "qac_word_ref": "43:11:9",
+        "surah": 43,
+        "ayah": 11,
+        "word_index": 9,
+        "morpheme_index": 1,
+        "surface_ar": "بَلْدَةً",
+        "stem_ar": "بَلْدَةً",
+        "lemma_ar": "بَلْدَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balodap|ROOT:bld|F|INDEF|ACC",
+        "ayah_ref": "43:11",
+        "form_id": "F006",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s043:011:noun:12",
+          "attachment_word_unit_id": "q:43:11:12",
+          "qac_char_span": [
+            33,
+            37
+          ],
+          "attachment_char_spans": [
+            [
+              33,
+              36
+            ],
+            [
+              33,
+              37
+            ]
+          ],
+          "source_grammar": "Indefinite accusative feminine noun; direct object of ansharnā",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s043:011:pass1:attach:a5",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:43:11:10",
+              "other_surface": "فَأَنْشَرْنَا",
+              "other_root": "ن ش ر",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s043:011:pass1:attach:a6",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:43:11:13",
+              "other_surface": "مَيْتَاً",
+              "other_root": "م و ت",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "50:11:5:1",
+        "qac_word_ref": "50:11:5",
+        "surah": 50,
+        "ayah": 11,
+        "word_index": 5,
+        "morpheme_index": 1,
+        "surface_ar": "بَلْدَةً",
+        "stem_ar": "بَلْدَةً",
+        "lemma_ar": "بَلْدَة",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balodap|ROOT:bld|F|INDEF|ACC",
+        "ayah_ref": "50:11",
+        "form_id": "F006",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s050:011:noun:7",
+          "attachment_word_unit_id": "q:50:11:7",
+          "qac_char_span": [
+            20,
+            24
+          ],
+          "attachment_char_spans": [
+            [
+              20,
+              23
+            ],
+            [
+              20,
+              24
+            ]
+          ],
+          "source_grammar": "noun (ism), accusative (manṣūb) as direct object (mafʿūl bihi) of aḥyaynā, indefinite (nakirah)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s050:011:pass1:attach:a3",
+              "relation": "direct_object",
+              "focus_role": "dependent",
+              "other_unit_id": "q:50:11:5",
+              "other_surface": "وَأَحْيَيْنَا",
+              "other_root": "ح ي ي",
+              "other_form_tag": "PV",
+              "prep_base": "",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s050:011:pass1:attach:a4",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:50:11:8",
+              "other_surface": "مَيْتَاً",
+              "other_root": "م و ت",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "50:36:12:2",
+        "qac_word_ref": "50:36:12",
+        "surah": 50,
+        "ayah": 36,
+        "word_index": 12,
+        "morpheme_index": 2,
+        "surface_ar": "بِلَٰدِ",
+        "stem_ar": "بِلَٰدِ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|MP|GEN",
+        "ayah_ref": "50:36",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s050:036:noun:14",
+          "attachment_word_unit_id": "q:50:36:14",
+          "qac_char_span": [
+            40,
+            46
+          ],
+          "attachment_char_spans": [
+            [
+              42,
+              46
+            ]
+          ],
+          "source_grammar": "NOUN_CONCRETE — definite noun, genitive (majrūr by fī); plural of balad",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s050:036:pass1:attach:a8",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:50:36:12",
+              "other_surface": "فَنَقَّبُوا",
+              "other_root": "ن ق ب",
+              "other_form_tag": "PV",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "89:8:6:2",
+        "qac_word_ref": "89:8:6",
+        "surah": 89,
+        "ayah": 8,
+        "word_index": 6,
+        "morpheme_index": 2,
+        "surface_ar": "بِلَٰدِ",
+        "stem_ar": "بِلَٰدِ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|MP|GEN",
+        "ayah_ref": "89:8",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s089:008:noun:6",
+          "attachment_word_unit_id": "q:89:8:6",
+          "qac_char_span": [
+            17,
+            23
+          ],
+          "attachment_char_spans": [
+            [
+              19,
+              23
+            ]
+          ],
+          "source_grammar": "definite plural/genus noun in genitive after فِى (fī); object of the preposition and domain of the comparison",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s089:008:pass1:attach:a3",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:89:8:3",
+              "other_surface": "يُخْلَقْ",
+              "other_root": "خ ل ق",
+              "other_form_tag": "IV",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "89:11:4:2",
+        "qac_word_ref": "89:11:4",
+        "surah": 89,
+        "ayah": 11,
+        "word_index": 4,
+        "morpheme_index": 2,
+        "surface_ar": "بِلَٰدِ",
+        "stem_ar": "بِلَٰدِ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|MP|GEN",
+        "ayah_ref": "89:11",
+        "form_id": "F002",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s089:011:noun:4",
+          "attachment_word_unit_id": "q:89:11:4",
+          "qac_char_span": [
+            11,
+            17
+          ],
+          "attachment_char_spans": [
+            [
+              13,
+              17
+            ]
+          ],
+          "source_grammar": "definite plural noun in the genitive after فِى (fī); names the spatial-social domain where the transgression occurs",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s089:011:pass1:attach:a1",
+              "relation": "prep_complement",
+              "focus_role": "dependent",
+              "other_unit_id": "q:89:11:2",
+              "other_surface": "طَغَوْا",
+              "other_root": "ط غ و",
+              "other_form_tag": "PV",
+              "prep_base": "فِي",
+              "status": "syntactically_forced",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "90:1:4:2",
+        "qac_word_ref": "90:1:4",
+        "surah": 90,
+        "ayah": 1,
+        "word_index": 4,
+        "morpheme_index": 2,
+        "surface_ar": "بَلَدِ",
+        "stem_ar": "بَلَدِ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|GEN",
+        "ayah_ref": "90:1",
+        "form_id": "F009",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s090:001:noun:5",
+          "attachment_word_unit_id": "q:90:1:5",
+          "qac_char_span": [
+            11,
+            16
+          ],
+          "attachment_char_spans": [
+            [
+              13,
+              16
+            ]
+          ],
+          "source_grammar": "definite concrete noun, masculine singular, genitive by apposition within bi-hādhā phrase",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s090:001:pass1:attach:a3",
+              "relation": "apposition",
+              "focus_role": "dependent",
+              "other_unit_id": "q:90:1:4",
+              "other_surface": "بِهَذَا",
+              "other_root": "",
+              "other_form_tag": "DEM_PRON",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "90:2:4:2",
+        "qac_word_ref": "90:2:4",
+        "surah": 90,
+        "ayah": 2,
+        "word_index": 4,
+        "morpheme_index": 2,
+        "surface_ar": "بَلَدِ",
+        "stem_ar": "بَلَدِ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|GEN",
+        "ayah_ref": "90:2",
+        "form_id": "F009",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s090:002:noun:6",
+          "attachment_word_unit_id": "q:90:2:6",
+          "qac_char_span": [
+            11,
+            16
+          ],
+          "attachment_char_spans": [
+            [
+              13,
+              16
+            ]
+          ],
+          "source_grammar": "definite singular noun in genitive as apposition or specification of هَٰذَا (hādhā) after بِ (bi)",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s090:002:pass1:attach:a3",
+              "relation": "apposition",
+              "focus_role": "dependent",
+              "other_unit_id": "q:90:2:5",
+              "other_surface": "بِهَذَا",
+              "other_root": "",
+              "other_form_tag": "DEM_PRON",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "case_government;local_syntax"
+            }
+          ]
+        }
+      },
+      {
+        "qac_ref": "95:3:2:2",
+        "qac_word_ref": "95:3:2",
+        "surah": 95,
+        "ayah": 3,
+        "word_index": 2,
+        "morpheme_index": 2,
+        "surface_ar": "بَلَدِ",
+        "stem_ar": "بَلَدِ",
+        "lemma_ar": "بَلَد",
+        "source_pos": "N",
+        "pos": "N",
+        "morpheme_role": "STEM",
+        "measure": "",
+        "aspect": "",
+        "mood": "",
+        "voice": "",
+        "morph_features": "STEM|POS:N|LEM:balad|ROOT:bld|M|GEN",
+        "ayah_ref": "95:3",
+        "form_id": "F009",
+        "alignment": {
+          "status": "aligned",
+          "method": "qac_character_span_root_form_monotonic",
+          "confidence": "high",
+          "attachment_unit_id": "ae:v3:s095:003:noun:3",
+          "attachment_word_unit_id": "q:95:3:3",
+          "qac_char_span": [
+            5,
+            10
+          ],
+          "attachment_char_spans": [
+            [
+              7,
+              10
+            ]
+          ],
+          "source_grammar": "noun, concrete, genitive singular, definite",
+          "attachments": [
+            {
+              "attachment_id": "ae:v3:s095:003:pass1:attach:a2",
+              "relation": "apposition",
+              "focus_role": "dependent",
+              "other_unit_id": "q:95:3:2",
+              "other_surface": "وَهَذَا",
+              "other_root": "",
+              "other_form_tag": "DEM_PRON",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            },
+            {
+              "attachment_id": "ae:v3:s095:003:pass1:attach:a3",
+              "relation": "adjective",
+              "focus_role": "head",
+              "other_unit_id": "q:95:3:4",
+              "other_surface": "الْأَمِينِ",
+              "other_root": "أ م ن",
+              "other_form_tag": "ADJ_QUALIT",
+              "prep_base": "",
+              "status": "strongly_licensed",
+              "confidence": "high",
+              "evidence": "agreement;local_syntax"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
