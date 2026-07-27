@@ -1,0 +1,78 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s099",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s099/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 66,
+    "similarity_edges": 206,
+    "families": 5,
+    "family_size_buckets": {
+      "medium_5_14": 2,
+      "large_15_plus": 3
+    },
+    "structural_type_counts": {
+      "distributed": 5
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.6135,
+      "label_hint": "soil / heaviness / tremor / ground",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 16,
+      "branch_count": 54
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.5791,
+      "label_hint": "revelation / separation / definition / authority",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 15,
+      "branch_count": 55
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.5048,
+      "label_hint": "ewe / abundance / reflection / gambling",
+      "member_count": 15,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 17,
+      "branch_count": 93
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.4785,
+      "label_hint": "attention / question / reputation / grammar",
+      "member_count": 17,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 16,
+      "branch_count": 82
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.4669,
+      "label_hint": "selection / reputation / news / welfare",
+      "member_count": 20,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 17,
+      "branch_count": 102
+    }
+  ]
+}

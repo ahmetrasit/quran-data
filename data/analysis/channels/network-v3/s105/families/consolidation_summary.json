@@ -1,0 +1,58 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s105",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s105/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 43,
+    "similarity_edges": 146,
+    "families": 3,
+    "family_size_buckets": {
+      "medium_5_14": 1,
+      "large_15_plus": 2
+    },
+    "structural_type_counts": {
+      "distributed": 3
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.5954,
+      "label_hint": "association / compatibility / retention / production",
+      "member_count": 9,
+      "structural_type": "distributed",
+      "ayah_count": 5,
+      "root_count": 15,
+      "branch_count": 61
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.4907,
+      "label_hint": "welfare / kinship_society/hospitality_welfare / generosity / opinion",
+      "member_count": 16,
+      "structural_type": "distributed",
+      "ayah_count": 5,
+      "root_count": 16,
+      "branch_count": 89
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.4621,
+      "label_hint": "herd / abundance / desert / water",
+      "member_count": 18,
+      "structural_type": "distributed",
+      "ayah_count": 5,
+      "root_count": 16,
+      "branch_count": 98
+    }
+  ]
+}

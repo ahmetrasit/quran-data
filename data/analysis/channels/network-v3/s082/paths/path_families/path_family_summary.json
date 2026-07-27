@@ -1,0 +1,462 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 10047,
+    "similarity_edges": 45008,
+    "path_families": 729
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6899,
+      "label_hint": "meteorology / sky / overcast / stratification",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث ر",
+        "ب ل ل",
+        "ر ب ب",
+        "ر ك ب",
+        "س م و",
+        "ن ث ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6684,
+      "label_hint": "virtue / generosity / character / magnanimity",
+      "member_count": 2,
+      "roots": [
+        "خ ل ق",
+        "ش ي ء",
+        "ف ج ر",
+        "ف ع ل",
+        "ق د م",
+        "ك ر م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6671,
+      "label_hint": "hydrology / basin / carpenter / baking",
+      "member_count": 2,
+      "roots": [
+        "ب ح ر",
+        "خ ل ق",
+        "ر ب ب",
+        "ع ل م",
+        "ف ط ر",
+        "ف ع ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.6659,
+      "label_hint": "concealment / rupture / material / wrinkle",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث ر",
+        "ب ل ل",
+        "خ ل ق",
+        "غ ر ر",
+        "ف ط ر",
+        "ق ب ر",
+        "ك ذ ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6655,
+      "label_hint": "fabrication / forgery / emotion_ethics/deception_corruption / invention",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث ر",
+        "ب ل ل",
+        "خ ل ق",
+        "ف ج ر",
+        "ف ع ل",
+        "ك ذ ب",
+        "ن ث ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6608,
+      "label_hint": "hunting / carpenter / stalking / baking",
+      "member_count": 2,
+      "roots": [
+        "ب ح ر",
+        "ب ر ر",
+        "د ر ي",
+        "س م و",
+        "ف ط ر",
+        "ف ع ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6557,
+      "label_hint": "otherness / lastness / second / difference",
+      "member_count": 2,
+      "roots": [
+        "ء خ ر",
+        "س و ي",
+        "ش ي ء",
+        "ص ل ي",
+        "ق د م"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.6506,
+      "label_hint": "sapling / concealment / depression / hollow",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث ر",
+        "ش ي ء",
+        "ص و ر",
+        "غ ي ب",
+        "ق ب ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.6469,
+      "label_hint": "worship / ritual_belief/religion_worship / city / adoration",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "د ي ن",
+        "ص ل ي",
+        "غ ي ب",
+        "ك ر م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.6413,
+      "label_hint": "blessing / honor / hindpart / courtesy",
+      "member_count": 2,
+      "roots": [
+        "ء خ ر",
+        "ق د م",
+        "ك ر م",
+        "م ل ك",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.64,
+      "label_hint": "kinship_society/hierarchy_status / precious / espousal / beloved",
+      "member_count": 2,
+      "roots": [
+        "د ي ن",
+        "ر ك ب",
+        "غ ر ر",
+        "ك ر م",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.6378,
+      "label_hint": "vessel / land_water_sky/fire_heat / dampness / water",
+      "member_count": 2,
+      "roots": [
+        "ب ل ل",
+        "ج ح م",
+        "ر ب ب",
+        "ص ل ي",
+        "غ ر ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.6356,
+      "label_hint": "judgment / justice / ethics / fairness",
+      "member_count": 2,
+      "roots": [
+        "ء خ ر",
+        "ب ر ر",
+        "د ي ن",
+        "ع د ل",
+        "غ ر ر",
+        "ك ذ ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.6252,
+      "label_hint": "concealment / material / wrinkle / folding",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث ر",
+        "ب ل ل",
+        "خ ل ق",
+        "غ ر ر",
+        "غ ي ب",
+        "ق ب ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.6188,
+      "label_hint": "syntax / grammar / approach / emotion_ethics/intention_character",
+      "member_count": 2,
+      "roots": [
+        "ح ف ظ",
+        "س و ي",
+        "ص ل ي",
+        "غ ي ب",
+        "ف ع ل",
+        "ق د م"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.618,
+      "label_hint": "burial / city / grave / mortuary",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث ر",
+        "د ي ن",
+        "غ ي ب",
+        "ق ب ر",
+        "ن ث ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.6177,
+      "label_hint": "emergence / burial / daybreak / grave",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث ر",
+        "غ ي ب",
+        "ف ج ر",
+        "ق ب ر",
+        "ن ف س",
+        "ي و م"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.6173,
+      "label_hint": "history / duration / relation / exchange",
+      "member_count": 2,
+      "roots": [
+        "س و ي",
+        "ع د ل",
+        "ف ع ل",
+        "ق د م",
+        "ك ذ ب",
+        "ي و م"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.6128,
+      "label_hint": "worship / law_governance/authority_governance / rule / dominion",
+      "member_count": 2,
+      "roots": [
+        "ء م ر",
+        "ح ف ظ",
+        "ر ب ب",
+        "ص ل ي",
+        "ك ت ب",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.6082,
+      "label_hint": "city / meteorology / overcast / forest",
+      "member_count": 2,
+      "roots": [
+        "د ي ن",
+        "ر ب ب",
+        "ر ك ب",
+        "س م و",
+        "غ ي ب",
+        "ك و ك ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.6077,
+      "label_hint": "concealment / depression / propagation / spike",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث ر",
+        "ر ك ب",
+        "ص ل ي",
+        "غ ي ب",
+        "ق ب ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.6014,
+      "label_hint": "settlement / city / value / condition_force_change/value_quality",
+      "member_count": 5,
+      "roots": [
+        "ء م ر",
+        "ب ح ر",
+        "ب ل ل",
+        "ج ح م",
+        "ح ف ظ",
+        "د ر ي",
+        "د ي ن",
+        "ر ب ب",
+        "ر ك ب",
+        "س و ي",
+        "ش ي ء",
+        "ص ل ي",
+        "غ ر ر",
+        "غ ي ب",
+        "ك ر م",
+        "ن ع م",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.5917,
+      "label_hint": "fruit / agriculture_food/plant_vegetation / prosperity / tree",
+      "member_count": 6,
+      "roots": [
+        "ء م ر",
+        "ب ح ر",
+        "ب ر ر",
+        "ر ب ب",
+        "ر ك ب",
+        "س م و",
+        "ص ل ي",
+        "ع ل م",
+        "ف ج ر",
+        "ف ط ر",
+        "ف ع ل",
+        "ك ر م",
+        "م ل ك",
+        "ن ع م",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5902,
+      "label_hint": "hunting / blessing / body_health_life/health_medicine / welfare",
+      "member_count": 5,
+      "roots": [
+        "ء ن س",
+        "ب ح ر",
+        "ب ر ر",
+        "ب ل ل",
+        "خ ل ق",
+        "د ر ي",
+        "ر ب ب",
+        "ر ك ب",
+        "س م و",
+        "س و ي",
+        "ش ي ء",
+        "ص ل ي",
+        "ص و ر",
+        "ق د م",
+        "ن ث ر",
+        "ن ع م",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.5885,
+      "label_hint": "movement_travel/transport / nomadism / tool / pad",
+      "member_count": 4,
+      "roots": [
+        "ب ح ر",
+        "ر ك ب",
+        "س و ي",
+        "ف ط ر",
+        "ق د م",
+        "ك و ك ب",
+        "ن ث ر",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.5834,
+      "label_hint": "blessing / honor / vision / soul",
+      "member_count": 3,
+      "roots": [
+        "ء ن س",
+        "ب ح ر",
+        "ج ح م",
+        "ك ذ ب",
+        "ك ر م",
+        "ك و ك ب",
+        "ن ث ر",
+        "ن ع م",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.582,
+      "label_hint": "pedestrian / travel / nurture / will",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ش ي ء",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5809,
+      "label_hint": "relation / exchange / event / sacrilege",
+      "member_count": 2,
+      "roots": [
+        "ف ج ر",
+        "ف ع ل",
+        "ي و م"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.5764,
+      "label_hint": "ritual_belief/religion_worship / obedience / virtue / land_water_sky/fire_heat",
+      "member_count": 3,
+      "roots": [
+        "ء ل ه",
+        "ب ر ر",
+        "ج ح م",
+        "ح ف ظ",
+        "د ي ن",
+        "س م و",
+        "ص ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.5759,
+      "label_hint": "event / sacrilege / ardor / violation",
+      "member_count": 2,
+      "roots": [
+        "ح ف ظ",
+        "ف ج ر",
+        "ي و م"
+      ]
+    }
+  ]
+}

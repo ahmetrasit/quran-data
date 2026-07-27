@@ -1,0 +1,469 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 80,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s080",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s080",
+    "catalog_branch_count": 600,
+    "eligible_branch_count": 600,
+    "affinity_shape": [
+      600,
+      600
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04094961,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=5 ayahs"
+  },
+  "counts": {
+    "graph_edges": 3804,
+    "raw_candidates": 477,
+    "deduped_candidates": 395
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.7564,
+      "label_hint": "fruit / tree / agriculture_food/plant_vegetation / palm",
+      "ayahs": [
+        6,
+        9,
+        12,
+        13,
+        16,
+        17,
+        18,
+        21,
+        22,
+        24,
+        28,
+        29,
+        31,
+        32,
+        42
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 40
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.7518,
+      "label_hint": "victory / dominance / competition / conquest",
+      "ayahs": [
+        1,
+        2,
+        8,
+        12,
+        13,
+        16,
+        18,
+        22,
+        26,
+        30,
+        31,
+        33,
+        42
+      ],
+      "root_count": 10,
+      "branch_count": 14,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.7498,
+      "label_hint": "dawn / night / morning / onset",
+      "ayahs": [
+        15,
+        17,
+        22,
+        26,
+        34,
+        38,
+        39,
+        40,
+        42
+      ],
+      "root_count": 9,
+      "branch_count": 9,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.7483,
+      "label_hint": "palm / genealogy / tribe / name",
+      "ayahs": [
+        1,
+        6,
+        9,
+        12,
+        18,
+        22,
+        27,
+        28,
+        29,
+        32,
+        34,
+        36
+      ],
+      "root_count": 10,
+      "branch_count": 14,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.7475,
+      "label_hint": "sound / cognition_perception/perception / noise / sheep",
+      "ayahs": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        14,
+        16,
+        20,
+        22,
+        25,
+        32,
+        33,
+        37
+      ],
+      "root_count": 10,
+      "branch_count": 13,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.746,
+      "label_hint": "throat / uvula / mouth / body_health_life/anatomy",
+      "ayahs": [
+        10,
+        20,
+        24,
+        26,
+        34,
+        37
+      ],
+      "root_count": 7,
+      "branch_count": 11,
+      "edge_count": 16
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.7426,
+      "label_hint": "fruit / agriculture_food/plant_vegetation / tree / berry",
+      "ayahs": [
+        9,
+        12,
+        13,
+        16,
+        17,
+        18,
+        22,
+        24,
+        27,
+        28,
+        29,
+        31,
+        42
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 40
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.7424,
+      "label_hint": "fruit / hospitality / agriculture_food/plant_vegetation / tree",
+      "ayahs": [
+        9,
+        13,
+        16,
+        17,
+        24,
+        28,
+        29,
+        31,
+        34,
+        36,
+        37,
+        42
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 42
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7341,
+      "label_hint": "agriculture_food/plant_vegetation / palm / fruit / tree",
+      "ayahs": [
+        1,
+        6,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        22,
+        27,
+        28,
+        29,
+        38,
+        40,
+        42
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7302,
+      "label_hint": "fragrance / perfume / paradise / craft_material_built/ornament_beauty",
+      "ayahs": [
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        22,
+        24,
+        25,
+        26,
+        31,
+        34,
+        37,
+        42
+      ],
+      "root_count": 11,
+      "branch_count": 14,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7281,
+      "label_hint": "sound / cognition_perception/perception / noise / voice",
+      "ayahs": [
+        5,
+        6,
+        14,
+        16,
+        20,
+        26,
+        32,
+        33,
+        37
+      ],
+      "root_count": 8,
+      "branch_count": 14,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7274,
+      "label_hint": "death / attention / sacrifice / audition",
+      "ayahs": [
+        12,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24
+      ],
+      "root_count": 6,
+      "branch_count": 11,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7272,
+      "label_hint": "fruit / agriculture_food/plant_vegetation / tree / berry",
+      "ayahs": [
+        1,
+        4,
+        11,
+        12,
+        13,
+        16,
+        17,
+        24,
+        27,
+        28,
+        29,
+        30,
+        31,
+        37,
+        42
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 36
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7264,
+      "label_hint": "intention / purpose / aim / direction",
+      "ayahs": [
+        2,
+        3,
+        8,
+        12,
+        18,
+        22,
+        24,
+        29,
+        31,
+        34,
+        35,
+        37,
+        38,
+        40
+      ],
+      "root_count": 11,
+      "branch_count": 12,
+      "edge_count": 16
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7256,
+      "label_hint": "palm / tree / agriculture_food/plant_vegetation / seedling",
+      "ayahs": [
+        6,
+        9,
+        12,
+        13,
+        16,
+        18,
+        22,
+        24,
+        27,
+        29,
+        36
+      ],
+      "root_count": 8,
+      "branch_count": 13,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7246,
+      "label_hint": "water / surface / basin / liquid",
+      "ayahs": [
+        2,
+        8,
+        13,
+        14,
+        17,
+        18,
+        19,
+        25,
+        26,
+        27,
+        33,
+        36,
+        42
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7225,
+      "label_hint": "fullness / water / abundance / pouring",
+      "ayahs": [
+        17,
+        19,
+        23,
+        25,
+        27,
+        36,
+        39,
+        42
+      ],
+      "root_count": 9,
+      "branch_count": 13,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7216,
+      "label_hint": "tooth / smile / sparkle / joy",
+      "ayahs": [
+        23,
+        24,
+        27,
+        34,
+        37,
+        39,
+        41
+      ],
+      "root_count": 7,
+      "branch_count": 10,
+      "edge_count": 11
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7209,
+      "label_hint": "victory / generosity / honor / dominance",
+      "ayahs": [
+        1,
+        2,
+        8,
+        13,
+        16,
+        22,
+        30,
+        31,
+        33,
+        42
+      ],
+      "root_count": 9,
+      "branch_count": 15,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7194,
+      "label_hint": "dawn / onset / morning / land_water_sky/light_darkness",
+      "ayahs": [
+        2,
+        13,
+        15,
+        17,
+        32,
+        34,
+        37,
+        38,
+        39,
+        40,
+        42
+      ],
+      "root_count": 11,
+      "branch_count": 12,
+      "edge_count": 15
+    }
+  ]
+}

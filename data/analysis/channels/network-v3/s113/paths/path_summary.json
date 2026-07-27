@@ -1,0 +1,640 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 113,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 103,
+    "path_graph_edges": 1240,
+    "raw_path_states": 71139,
+    "unique_path_states": 29377,
+    "deduped_paths": 3409
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8642,
+      "label_hint": "ecology / plant / herb / vegetation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8588,
+      "label_hint": "tongue / language / articulator / stammer",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ش ر ر",
+        "ع ق د",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8427,
+      "label_hint": "division / texture / separation / shredding",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ف ل ق",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.837,
+      "label_hint": "harm / incantation / spell / magic",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "خ ل ق",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "ف ل ق",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8351,
+      "label_hint": "ornament / articulator / cowrie / conflict",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ش ر ر",
+        "ق و ل",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8254,
+      "label_hint": "youth / eagerness / body_health_life/reproduction_birth / horn",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8177,
+      "label_hint": "darkness / incantation / spell / magic",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8172,
+      "label_hint": "harm / incantation / spell / magic",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "ف ل ق",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8159,
+      "label_hint": "incantation / spell / magic / knot",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "ف ل ق",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8074,
+      "label_hint": "articulator / captain / pilot / sailor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8041,
+      "label_hint": "youth / condition_force_change/control_restraint / bat / imprisonment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8032,
+      "label_hint": "rumor / thousand / badness / circulation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8025,
+      "label_hint": "ecology / plant / food / herb",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8023,
+      "label_hint": "darkness / incantation / spell / magic",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8021,
+      "label_hint": "self / shirking / mutuality / belt",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ق و ل",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8005,
+      "label_hint": "articulator / counting / conflict / calculation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ش ر ر",
+        "ع ق د",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7997,
+      "label_hint": "seepage / discharge / fluid / survival",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7993,
+      "label_hint": "incantation / spell / magic / division",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7989,
+      "label_hint": "fire / battalion / troop / appropriation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ش ر ر",
+        "ف ل ق",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7974,
+      "label_hint": "incantation / spell / magic / harm",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7974,
+      "label_hint": "gambling / burden / bat / club",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7963,
+      "label_hint": "youth / food / furnishing / gear",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "غ س ق",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7953,
+      "label_hint": "harm / incantation / spell / magic",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح س د",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7949,
+      "label_hint": "harm / darkness / incantation / spell",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7947,
+      "label_hint": "darkness / condition_force_change/control_restraint / ecology / bat",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7922,
+      "label_hint": "gambling / fat / condition_force_change/control_restraint / bat",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7913,
+      "label_hint": "gambling / burden / storage / condition_force_change/control_restraint",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7911,
+      "label_hint": "darkness / separation / weather / puff",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7904,
+      "label_hint": "creation / production / release / shirking",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7903,
+      "label_hint": "darkness / decay / wealth / textile",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ق و ل",
+        "و ق ب"
+      ]
+    }
+  ]
+}

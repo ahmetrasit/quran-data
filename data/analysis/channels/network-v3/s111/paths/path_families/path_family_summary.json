@@ -1,0 +1,554 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 1988,
+    "similarity_edges": 11968,
+    "path_families": 60
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6768,
+      "label_hint": "proximity / feud / trick / ruse",
+      "member_count": 2,
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ل ه ب",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6735,
+      "label_hint": "land_water_sky/light_darkness / soot / tattoo / kohl",
+      "member_count": 2,
+      "roots": [
+        "ح ب ل",
+        "ح م ل",
+        "ص ل ي",
+        "ل ه ب",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6664,
+      "label_hint": "benefit / transfer / ownership / deixis",
+      "member_count": 2,
+      "roots": [
+        "ح ب ل",
+        "ح م ل",
+        "ذ و و",
+        "ك س ب",
+        "م ر ء",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.6041,
+      "label_hint": "pledge / submission / bean / surrender",
+      "member_count": 3,
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "ك س ب",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.5686,
+      "label_hint": "earning / responsibility / covenant / trust",
+      "member_count": 4,
+      "roots": [
+        "ء ب و",
+        "ح ب ل",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.5626,
+      "label_hint": "endurance / night / woodcutter / judgment",
+      "member_count": 14,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.5626,
+      "label_hint": "speed / ligament / tendon / sinew",
+      "member_count": 2,
+      "roots": [
+        "ح ب ل",
+        "ح م ل",
+        "ل ه ب",
+        "م ر ء",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.5534,
+      "label_hint": "craft_material_built/tools_equipment / rotation / tool / axle",
+      "member_count": 3,
+      "roots": [
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "ك س ب",
+        "م س د",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.5439,
+      "label_hint": "alliance / covenant / trust / protection",
+      "member_count": 4,
+      "roots": [
+        "ح ب ل",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.5412,
+      "label_hint": "comfort / hospitality / abundance / celebration",
+      "member_count": 9,
+      "roots": [
+        "ء ب و",
+        "ح ب ل",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "م ر ء",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.5412,
+      "label_hint": "identity / language_communication/naming_classification / lineage / name",
+      "member_count": 4,
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "غ ن ي",
+        "ل ه ب",
+        "م ر ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.5331,
+      "label_hint": "tree / individual / fetus / body_health_life/reproduction_birth",
+      "member_count": 9,
+      "roots": [
+        "ج ي د",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.5309,
+      "label_hint": "oil / lineage / name / kinship_society/kinship",
+      "member_count": 7,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ج ي د",
+        "ح ب ل",
+        "ح م ل",
+        "ص ل ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.5284,
+      "label_hint": "alliance / hospitality / fatherhood / upbringing",
+      "member_count": 8,
+      "roots": [
+        "ء ب و",
+        "ح ب ل",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.528,
+      "label_hint": "alliance / protection / bond / guardianship",
+      "member_count": 6,
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.5272,
+      "label_hint": "lineage / name / kinship_society/kinship / identity",
+      "member_count": 29,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.5269,
+      "label_hint": "body_health_life/reproduction_birth / alliance / fetus / gestation",
+      "member_count": 6,
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.5252,
+      "label_hint": "land_water_sky/fire_heat / fuel / kindling / cord",
+      "member_count": 14,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.5248,
+      "label_hint": "medicine / storage / soot / esophagus",
+      "member_count": 7,
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.5217,
+      "label_hint": "society / burden / feud / carrying",
+      "member_count": 16,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.5182,
+      "label_hint": "comfort / music / bowing / prostration",
+      "member_count": 26,
+      "roots": [
+        "ح ب ل",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.5164,
+      "label_hint": "land_water_sky/fire_heat / hospitality / fire / fuel",
+      "member_count": 5,
+      "roots": [
+        "ج ي د",
+        "ح ط ب",
+        "ص ل ي",
+        "غ ن ي",
+        "ل ه ب",
+        "م ر ء",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.5144,
+      "label_hint": "covenant / trust / tool / handle",
+      "member_count": 9,
+      "roots": [
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5142,
+      "label_hint": "alliance / vocative / perdition / intercession",
+      "member_count": 25,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.51,
+      "label_hint": "tree / oil / bean / tendril",
+      "member_count": 25,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ج ي د",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.5082,
+      "label_hint": "craft_material_built/ornament_beauty / beauty / hair / character",
+      "member_count": 93,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ج ي د",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.5064,
+      "label_hint": "utility / alliance / support / condition_force_change/support_dependence",
+      "member_count": 3,
+      "roots": [
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5057,
+      "label_hint": "covenant / trust / order / supremacy",
+      "member_count": 47,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ج ي د",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.5051,
+      "label_hint": "beauty / marriage / humanity / chivalry",
+      "member_count": 5,
+      "roots": [
+        "ج ي د",
+        "ص ل ي",
+        "غ ن ي",
+        "م ر ء",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.5043,
+      "label_hint": "hospitality / condition_force_change/capacity_ability / fatherhood / upbringing",
+      "member_count": 72,
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ج ي د",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    }
+  ]
+}

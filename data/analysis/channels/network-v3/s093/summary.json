@@ -1,0 +1,420 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 93,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s093",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s093",
+    "catalog_branch_count": 162,
+    "eligible_branch_count": 162,
+    "affinity_shape": [
+      162,
+      162
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04539395,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 1043,
+    "raw_candidates": 152,
+    "deduped_candidates": 100
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8547,
+      "label_hint": "creation / circumstance / goal / existence",
+      "ayahs": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 8,
+      "branch_count": 12,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8472,
+      "label_hint": "creation / circumstance / existence / priority",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "root_count": 8,
+      "branch_count": 12,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8248,
+      "label_hint": "victory / power / dominance / conflict_security/conflict",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 14,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8235,
+      "label_hint": "name / woman / language_communication/naming_classification / onomastics",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 11,
+      "edge_count": 13
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8117,
+      "label_hint": "welfare / darkness / sequence / night",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 14,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8116,
+      "label_hint": "circumstance / goal / object / priority",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 15,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8072,
+      "label_hint": "offering / marriage / gift / daylight",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.8063,
+      "label_hint": "creation / welfare / blessing / circumstance",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8039,
+      "label_hint": "victory / power / daylight / freedom",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 16,
+      "branch_count": 17,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.8025,
+      "label_hint": "approval / love / satisfaction / law_governance/obligation_contract",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.8004,
+      "label_hint": "kinship_society/hospitality_welfare / request / gift / need",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7991,
+      "label_hint": "approval / satisfaction / name / onomastics",
+      "ayahs": [
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.797,
+      "label_hint": "welfare / cattle / livestock / gift",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7954,
+      "label_hint": "kinship_society/hospitality_welfare / gift / charity / circumstance",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7943,
+      "label_hint": "marriage / refuge / darkness / night",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7941,
+      "label_hint": "approval / satisfaction / victory / power",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7925,
+      "label_hint": "time_measure_quantity/sequence_cycle / darkness / night / forenoon",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7884,
+      "label_hint": "residence / stay / burial / comfort",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7857,
+      "label_hint": "giving / utility / bounty / priority",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7831,
+      "label_hint": "comfort / care / stewardship / household",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 30
+    }
+  ]
+}

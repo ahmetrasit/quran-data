@@ -1,0 +1,920 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 90,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 403,
+    "path_graph_edges": 4914,
+    "raw_path_states": 278803,
+    "unique_path_states": 106587,
+    "deduped_paths": 10834
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8097,
+      "label_hint": "deixis / attention / question / condition_force_change/capacity_ability",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        19
+      ],
+      "roots": [
+        "ء ي ي",
+        "ج ع ل",
+        "ح س ب",
+        "خ ل ق",
+        "ذ و و",
+        "ر ء ي",
+        "ر ق ب",
+        "ع ق ب",
+        "ق و ل",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.7943,
+      "label_hint": "deixis / attention / grammar / pronoun",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        19
+      ],
+      "roots": [
+        "ء ي ي",
+        "ج ع ل",
+        "ح س ب",
+        "خ ل ق",
+        "ذ و و",
+        "ر ء ي",
+        "ع ق ب",
+        "ف ك ك",
+        "ق و ل",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.7905,
+      "label_hint": "production / creation / existence / ontology",
+      "ayahs": [
+        3,
+        4,
+        8,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ج ع ل",
+        "خ ل ق",
+        "ر ق ب",
+        "ص ب ر",
+        "ص ح ب",
+        "ط ع م",
+        "ع ق ب",
+        "ك و ن",
+        "و ل د",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.7769,
+      "label_hint": "liability / cohort / equal / surety",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ت ر ب",
+        "ح س ب",
+        "ذ و و",
+        "ص ب ر",
+        "ص ح ب",
+        "ق و ل",
+        "ك ف ر",
+        "ك و ن",
+        "و ل د",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.7756,
+      "label_hint": "deixis / attention / question / inquiry",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح س ب",
+        "ح ل ل",
+        "خ ل ق",
+        "ذ و و",
+        "ر ء ي",
+        "ف ك ك",
+        "ق و ل",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.7751,
+      "label_hint": "hunting / concealment / flag / banner",
+      "ayahs": [
+        4,
+        5,
+        7,
+        11,
+        12,
+        13,
+        14,
+        17,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ص د",
+        "د ر ي",
+        "ر ء ي",
+        "ر ق ب",
+        "ص ب ر",
+        "ط ع م",
+        "ع ق ب",
+        "ق د ر",
+        "ك ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.7746,
+      "label_hint": "wool / waterskin / craft / organ",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ب ل د",
+        "ت ر ب",
+        "د ر ي",
+        "ر ء ي",
+        "ر ق ب",
+        "ص ح ب",
+        "ع ي ن",
+        "ق ر ب",
+        "ك ب د",
+        "ل ب د"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.7743,
+      "label_hint": "concealment / toponym / space_form_boundary/place_location / center",
+      "ayahs": [
+        4,
+        5,
+        7,
+        8,
+        12,
+        13,
+        16,
+        17,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ص د",
+        "ت ر ب",
+        "ج ع ل",
+        "د ر ي",
+        "ر ق ب",
+        "ص ب ر",
+        "ق د ر",
+        "ك ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.7697,
+      "label_hint": "obedience / condition_force_change/capacity_ability / persistence / justice",
+      "ayahs": [
+        2,
+        4,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح ل ل",
+        "خ ل ق",
+        "ص ب ر",
+        "ص ح ب",
+        "ط ع م",
+        "ع ق ب",
+        "ف ك ك",
+        "ق و ل",
+        "ل س ن"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.7696,
+      "label_hint": "water / waterskin / organ / contact",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        13,
+        15,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ب ل د",
+        "ج ع ل",
+        "ر ء ي",
+        "ر ح م",
+        "ر ق ب",
+        "ص ح ب",
+        "ع ي ن",
+        "ق ر ب",
+        "ك ب د",
+        "ل ب د"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.7696,
+      "label_hint": "pot / obedience / travel / cooking",
+      "ayahs": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        12,
+        15,
+        17,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ج ع ل",
+        "ص ب ر",
+        "ص ح ب",
+        "ع ق ب",
+        "ق د ر",
+        "ق ر ب",
+        "ق و ل",
+        "ك ب د",
+        "ك ف ر",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.7691,
+      "label_hint": "deixis / attention / oath / adjuration",
+      "ayahs": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        14,
+        18,
+        19
+      ],
+      "roots": [
+        "ء ي ي",
+        "ح س ب",
+        "ذ و و",
+        "ر ء ي",
+        "ر ق ب",
+        "ع ق ب",
+        "ق س م",
+        "ق و ل",
+        "ه ا ء",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.7685,
+      "label_hint": "obedience / travel / condition_force_change/capacity_ability / persistence",
+      "ayahs": [
+        2,
+        4,
+        6,
+        8,
+        11,
+        12,
+        13,
+        15,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح ل ل",
+        "خ ل ق",
+        "ص ب ر",
+        "ص ح ب",
+        "ع ق ب",
+        "ف ك ك",
+        "ق ر ب",
+        "ق و ل",
+        "ك ب د"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.7684,
+      "label_hint": "deixis / attention / grammar / question",
+      "ayahs": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        14,
+        19
+      ],
+      "roots": [
+        "ء ي ي",
+        "ح س ب",
+        "ذ و و",
+        "ر ء ي",
+        "ر ق ب",
+        "ع ق ب",
+        "ق و ل",
+        "ه ا ء",
+        "ه ل ك"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7683,
+      "label_hint": "planning / calculation / deliberation / consultation",
+      "ayahs": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        10,
+        13,
+        17,
+        19
+      ],
+      "roots": [
+        "ء م ن",
+        "ء ي ي",
+        "ح س ب",
+        "خ ل ق",
+        "ر ء ي",
+        "ف ك ك",
+        "ق د ر",
+        "ق س م",
+        "ق و ل",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.7663,
+      "label_hint": "planning / calculation / deliberation / judgment",
+      "ayahs": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        10,
+        17,
+        19
+      ],
+      "roots": [
+        "ء م ن",
+        "ح س ب",
+        "خ ل ق",
+        "ر ء ي",
+        "ص ب ر",
+        "ق د ر",
+        "ق س م",
+        "ق و ل",
+        "ك ف ر",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7659,
+      "label_hint": "liability / cohort / equal / surety",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ت ر ب",
+        "ح س ب",
+        "ذ و و",
+        "س غ ب",
+        "ص ب ر",
+        "ص ح ب",
+        "ك ب د",
+        "ك و ن",
+        "ن ج د",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7651,
+      "label_hint": "pot / redness / travel / cooking",
+      "ayahs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        18,
+        19
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح س ب",
+        "ر ء ي",
+        "ص ح ب",
+        "ع ق ب",
+        "ق د ر",
+        "ق ر ب",
+        "ق و ل",
+        "ك ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.764,
+      "label_hint": "attention / deixis / question / travel",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        13,
+        15,
+        19
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح ل ل",
+        "خ ل ق",
+        "ر ء ي",
+        "ف ك ك",
+        "ق ر ب",
+        "ق و ل",
+        "ك ب د",
+        "ك ف ر",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7638,
+      "label_hint": "production / land_water_sky/sky_astronomy / existence / creation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ب ل د",
+        "ج ع ل",
+        "خ ل ق",
+        "ر ق ب",
+        "ص ح ب",
+        "ع ق ب",
+        "ف ك ك",
+        "ك و ن",
+        "و ل د",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7633,
+      "label_hint": "condition_force_change/capacity_ability / cohort / equal / power",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        14,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ت ر ب",
+        "ج ع ل",
+        "خ ل ق",
+        "ذ و و",
+        "ص ح ب",
+        "ط ع م",
+        "ق د ر",
+        "ق و ل",
+        "ل س ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7633,
+      "label_hint": "ancestry / virtue / hardness / pen",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        13,
+        17,
+        20
+      ],
+      "roots": [
+        "ء ص د",
+        "ب ل د",
+        "ح س ب",
+        "خ ل ق",
+        "ر ق ب",
+        "ص ب ر",
+        "ع ق ب",
+        "ن ج د",
+        "و ص د",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.763,
+      "label_hint": "attention / deixis / question / inquiry",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح س ب",
+        "ح ل ل",
+        "ر ء ي",
+        "ر ق ب",
+        "ع ق ب",
+        "ف ك ك",
+        "ق و ل",
+        "ك ب د",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7625,
+      "label_hint": "condition_force_change/capacity_ability / attention / power / deixis",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح س ب",
+        "خ ل ق",
+        "ر ء ي",
+        "ط ع م",
+        "ع ق ب",
+        "ق د ر",
+        "ق و ل",
+        "ل س ن",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7615,
+      "label_hint": "ancestry / nobility / lineage / encounter",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        17
+      ],
+      "roots": [
+        "ب ل د",
+        "ح س ب",
+        "ر ء ي",
+        "ر ق ب",
+        "ع ق ب",
+        "ع ي ن",
+        "ق ر ب",
+        "ن ج د",
+        "و ص ي",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7615,
+      "label_hint": "pot / travel / cooking / journey",
+      "ayahs": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        11,
+        12,
+        13,
+        15,
+        19,
+        20
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح ل ل",
+        "ع ق ب",
+        "ف ك ك",
+        "ق د ر",
+        "ق ر ب",
+        "ق و ل",
+        "ك ب د",
+        "ك ف ر",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.761,
+      "label_hint": "virtue / language_communication/language_speech / ancestry / inheritance",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "roots": [
+        "ب ل د",
+        "ح س ب",
+        "خ ل ق",
+        "ر ق ب",
+        "س ك ن",
+        "ع ق ب",
+        "ق ر ب",
+        "ق و ل",
+        "ل س ن",
+        "ن ج د"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.761,
+      "label_hint": "travel / condition_force_change/capacity_ability / persistence / journey",
+      "ayahs": [
+        2,
+        4,
+        6,
+        8,
+        9,
+        13,
+        14,
+        15,
+        19
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح ل ل",
+        "خ ل ق",
+        "ط ع م",
+        "ف ك ك",
+        "ق ر ب",
+        "ق و ل",
+        "ك ب د",
+        "ك ف ر",
+        "ل س ن"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.761,
+      "label_hint": "ancestry / nobility / virtue / lineage",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        13,
+        17,
+        20
+      ],
+      "roots": [
+        "ب ل د",
+        "ح س ب",
+        "خ ل ق",
+        "ر ء ي",
+        "ر ق ب",
+        "ع ي ن",
+        "ق س م",
+        "ن و ر",
+        "و ص ي",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7602,
+      "label_hint": "question / inquiry / reference / condition_force_change/capacity_ability",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        19
+      ],
+      "roots": [
+        "ء ي ي",
+        "ج ع ل",
+        "ح س ب",
+        "خ ل ق",
+        "ذ و و",
+        "ر ء ي",
+        "ر ق ب",
+        "ع ق ب",
+        "ف ك ك",
+        "ق و ل"
+      ]
+    }
+  ]
+}

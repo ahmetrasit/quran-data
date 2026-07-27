@@ -1,0 +1,921 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 92,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 326,
+    "path_graph_edges": 4025,
+    "raw_path_states": 217016,
+    "unique_path_states": 92884,
+    "deduped_paths": 7931
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.7841,
+      "label_hint": "household / piety / office / cattle",
+      "ayahs": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ء و ل",
+        "ز ك و",
+        "س ع ي",
+        "ص د ق",
+        "ع ط و",
+        "م و ل",
+        "ن ع م",
+        "ه د ي",
+        "و ق ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.7801,
+      "label_hint": "priority / sequence / worthiness / compatibility",
+      "ayahs": [
+        3,
+        9,
+        10,
+        12,
+        13,
+        16,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ح د",
+        "ء خ ر",
+        "ء و ل",
+        "خ ل ق",
+        "ر ب ب",
+        "ز ك و",
+        "ع س ر",
+        "ك ذ ب",
+        "ه د ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.7792,
+      "label_hint": "law_governance/authority_governance / care / governance / piety",
+      "ayahs": [
+        4,
+        5,
+        6,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ز ك و",
+        "س ع ي",
+        "ص د ق",
+        "ع ط و",
+        "ن ذ ر",
+        "ن ع م",
+        "و ق ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.7756,
+      "label_hint": "cattle / household / wealth / office",
+      "ayahs": [
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        16,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "س ع ي",
+        "ع ط و",
+        "غ ن ي",
+        "م و ل",
+        "ن ع م",
+        "ه د ي",
+        "و ل ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.7687,
+      "label_hint": "flexibility / compliance / walking / travel",
+      "ayahs": [
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        17,
+        19,
+        20
+      ],
+      "roots": [
+        "ب غ ي",
+        "ج ن ب",
+        "ر د ي",
+        "س ع ي",
+        "ع ط و",
+        "ن ع م",
+        "ه د ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.767,
+      "label_hint": "cattle / wealth / livestock / herd",
+      "ayahs": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ج ل و",
+        "ر ب ب",
+        "ص ل ي",
+        "غ ن ي",
+        "ك ذ ب",
+        "م و ل",
+        "ن ع م",
+        "ه د ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.767,
+      "label_hint": "name / onomastics / language_communication/naming_classification / tribe",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        14,
+        17,
+        20,
+        21
+      ],
+      "roots": [
+        "ء ن ث",
+        "ح س ن",
+        "ر ب ب",
+        "ر ض و",
+        "ر ض ي",
+        "ع س ر",
+        "ل ظ ي",
+        "ل ي ل",
+        "ن ه ر",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.7663,
+      "label_hint": "household / office / cattle / administration",
+      "ayahs": [
+        4,
+        5,
+        6,
+        9,
+        11,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "س ع ي",
+        "ص د ق",
+        "ع ط و",
+        "ك ذ ب",
+        "م و ل",
+        "ن ع م",
+        "ن و ر",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.7653,
+      "label_hint": "priority / worthiness / compatibility / propriety",
+      "ayahs": [
+        3,
+        6,
+        9,
+        11,
+        12,
+        13,
+        16,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ح س ن",
+        "خ ل ق",
+        "ر ب ب",
+        "ر د ي",
+        "ز ك و",
+        "ك ذ ب",
+        "ن ع م",
+        "ه د ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.7643,
+      "label_hint": "astronomy / piety / office / administration",
+      "ayahs": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ح س ن",
+        "ز ك و",
+        "س ع ي",
+        "ص د ق",
+        "ص ل ي",
+        "ن ع م",
+        "ن ه ر",
+        "ن و ر",
+        "و ق ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.7639,
+      "label_hint": "name / language_communication/naming_classification / fire / onomastics",
+      "ayahs": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        14,
+        15,
+        17,
+        19,
+        21
+      ],
+      "roots": [
+        "ح س ن",
+        "ر ض و",
+        "ر ض ي",
+        "ص ل ي",
+        "ل ظ ي",
+        "ل ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ن و ر",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.7628,
+      "label_hint": "household / office / administration / service",
+      "ayahs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        16,
+        18,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ز ك و",
+        "س ع ي",
+        "ص د ق",
+        "ع ط و",
+        "غ ن ي",
+        "م و ل",
+        "و ل ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.7622,
+      "label_hint": "law_governance/authority_governance / governance / institution / piety",
+      "ayahs": [
+        4,
+        5,
+        6,
+        9,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ح س ن",
+        "ر ب ب",
+        "ز ك و",
+        "س ع ي",
+        "ص د ق",
+        "ص ل ي",
+        "ن ع م",
+        "و ق ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.7615,
+      "label_hint": "law_governance/authority_governance / transfer / governance / piety",
+      "ayahs": [
+        4,
+        5,
+        6,
+        12,
+        13,
+        16,
+        17,
+        18,
+        20
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء و ل",
+        "ر ب ب",
+        "ز ك و",
+        "س ع ي",
+        "ص د ق",
+        "ع ط و",
+        "ه د ي",
+        "و ق ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7589,
+      "label_hint": "name / tribe / astronomy / piety",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ن ث",
+        "ح س ن",
+        "ر ب ب",
+        "ز ك و",
+        "ص ل ي",
+        "ع س ر",
+        "ن ع م",
+        "ن ه ر",
+        "ن و ر",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.7588,
+      "label_hint": "gambling / stone / astronomy / tool",
+      "ayahs": [
+        2,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ح س ن",
+        "ر ب ب",
+        "ر د ي",
+        "ص ل ي",
+        "ع ل و",
+        "ن ع م",
+        "ن ه ر",
+        "ن و ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7585,
+      "label_hint": "piety / office / substitution / utility",
+      "ayahs": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ج ز ي",
+        "ر ب ب",
+        "ز ك و",
+        "س ع ي",
+        "ص د ق",
+        "غ ن ي",
+        "ن ذ ر",
+        "و ق ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7584,
+      "label_hint": "law_governance/authority_governance / governance / piety / office",
+      "ayahs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ج ز ي",
+        "ر ب ب",
+        "ز ك و",
+        "س ع ي",
+        "ص د ق",
+        "غ ن ي",
+        "و ق ي",
+        "و ل ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7573,
+      "label_hint": "cattle / household / livestock / service",
+      "ayahs": [
+        4,
+        5,
+        11,
+        12,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء و ل",
+        "ر ب ب",
+        "س ع ي",
+        "ع ط و",
+        "م و ل",
+        "ن ع م",
+        "ن و ر",
+        "ه د ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7572,
+      "label_hint": "cattle / handling / livestock / acquisition",
+      "ayahs": [
+        2,
+        5,
+        9,
+        11,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء و ل",
+        "ج ل و",
+        "ر ب ب",
+        "ص ل ي",
+        "ع ط و",
+        "ك ذ ب",
+        "م و ل",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7566,
+      "label_hint": "name / individuality / tribe / society",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        14,
+        17,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ن ث",
+        "ح س ن",
+        "ر ب ب",
+        "ش ت ت",
+        "ع س ر",
+        "ل ظ ي",
+        "ن ع م",
+        "ن ه ر",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7562,
+      "label_hint": "command / grammar / preposition / exhortation",
+      "ayahs": [
+        4,
+        5,
+        6,
+        9,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ر ب ب",
+        "ز ك و",
+        "س ع ي",
+        "ص د ق",
+        "ع ل و",
+        "ع ن د",
+        "ك ذ ب",
+        "ن ذ ر",
+        "و ق ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7558,
+      "label_hint": "household / wealth / cattle / service",
+      "ayahs": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ص د ق",
+        "ع ط و",
+        "غ ن ي",
+        "ك ذ ب",
+        "م و ل",
+        "ن ع م",
+        "ن و ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7556,
+      "label_hint": "name / onomastics / place / language_communication/naming_classification",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        14,
+        17,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ن ث",
+        "ح س ن",
+        "ر ب ب",
+        "ع س ر",
+        "ل ظ ي",
+        "ن ع م",
+        "ن ه ر",
+        "ن و ر",
+        "و ق ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7555,
+      "label_hint": "law_governance/authority_governance / governance / office / administration",
+      "ayahs": [
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        17,
+        19,
+        20
+      ],
+      "roots": [
+        "ء و ل",
+        "ج ن ب",
+        "ح س ن",
+        "ر ب ب",
+        "ر د ي",
+        "س ع ي",
+        "ن ع م",
+        "ه د ي",
+        "و ل ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7546,
+      "label_hint": "name / rain / deluge / astronomy",
+      "ayahs": [
+        2,
+        3,
+        6,
+        9,
+        10,
+        14,
+        16,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء ن ث",
+        "ب غ ي",
+        "ح س ن",
+        "ر ب ب",
+        "ع س ر",
+        "ن ع م",
+        "ن ه ر",
+        "ن و ر",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7539,
+      "label_hint": "friendship / emotion_ethics/trust_loyalty / alliance / guidance",
+      "ayahs": [
+        2,
+        3,
+        6,
+        9,
+        12,
+        13,
+        16,
+        18,
+        20
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء خ ر",
+        "ج ل و",
+        "خ ل ق",
+        "ص د ق",
+        "ع ل و",
+        "ك ذ ب",
+        "ه د ي",
+        "و ج ه",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7539,
+      "label_hint": "fire / name / astronomy / onomastics",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        9,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ت ي",
+        "ح س ن",
+        "خ ل ق",
+        "ر ب ب",
+        "ل ظ ي",
+        "ن ع م",
+        "ن ه ر",
+        "ن و ر",
+        "و ق ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7531,
+      "label_hint": "residence / flexibility / compliance / stay",
+      "ayahs": [
+        2,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "roots": [
+        "ء ت ي",
+        "ج ل و",
+        "ج ن ب",
+        "ر ب ب",
+        "ع ط و",
+        "غ ن ي",
+        "ن ع م",
+        "ه د ي",
+        "و ل ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7526,
+      "label_hint": "flexibility / compliance / welfare / blessing",
+      "ayahs": [
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        17,
+        19,
+        20
+      ],
+      "roots": [
+        "ب غ ي",
+        "ج ن ب",
+        "ح س ن",
+        "ر ب ب",
+        "ر د ي",
+        "س ع ي",
+        "ع ط و",
+        "ن ع م",
+        "ه د ي",
+        "ي س ر"
+      ]
+    }
+  ]
+}

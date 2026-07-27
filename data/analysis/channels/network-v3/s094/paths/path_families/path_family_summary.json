@@ -1,0 +1,550 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 3868,
+    "similarity_edges": 21350,
+    "path_families": 149
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6656,
+      "label_hint": "spaciousness / space / placement / space_form_boundary/space",
+      "member_count": 2,
+      "roots": [
+        "ر غ ب",
+        "ر ف ع",
+        "ص د ر",
+        "ف ر غ",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6505,
+      "label_hint": "composition / settlement / fraction / section",
+      "member_count": 2,
+      "roots": [
+        "ء ل ي",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6491,
+      "label_hint": "efficiency / time / speed / hurry",
+      "member_count": 2,
+      "roots": [
+        "ر ف ع",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.649,
+      "label_hint": "body_health_life/reproduction_birth / delivery / birth / reproduction",
+      "member_count": 2,
+      "roots": [
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ن ق ض",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6132,
+      "label_hint": "travel / journey / tribe / place",
+      "member_count": 7,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ن ص ب",
+        "ن ق ض",
+        "و ز ر",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6069,
+      "label_hint": "emotion_ethics/suffering_hardship / reputation / honor / toil",
+      "member_count": 4,
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ع س ر",
+        "ن ص ب",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6,
+      "label_hint": "dismantling / unraveling / elevation / treaty",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ر ف ع",
+        "ن ص ب",
+        "ن ق ض"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.5942,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / delivery / birth",
+      "member_count": 7,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.587,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / delivery / birth",
+      "member_count": 4,
+      "roots": [
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.5828,
+      "label_hint": "speed / camel / motion / desirability",
+      "member_count": 6,
+      "roots": [
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.5758,
+      "label_hint": "economy_property/wealth_property / honor / repetition / writing",
+      "member_count": 5,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "م ع ع",
+        "ن ص ب",
+        "و ز ر",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.5691,
+      "label_hint": "reproduction / body_health_life/reproduction_birth / honor / delivery",
+      "member_count": 5,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "ن ص ب",
+        "و ز ر",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.569,
+      "label_hint": "travel / journey / motivation / egress",
+      "member_count": 13,
+      "roots": [
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ص ب",
+        "و ز ر",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.5636,
+      "label_hint": "kinship_society/recreation_sport / accusative / declension / notation",
+      "member_count": 2,
+      "roots": [
+        "ص د ر",
+        "ع س ر",
+        "ن ص ب",
+        "ن ق ض"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.5615,
+      "label_hint": "economy_property/finance_debt / information / discovery / finance",
+      "member_count": 10,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.5612,
+      "label_hint": "shame / release / attention / motivation",
+      "member_count": 16,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ز ر",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.5542,
+      "label_hint": "origin / infinitive / derivation / abundance",
+      "member_count": 4,
+      "roots": [
+        "ء ل ي",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ص د ر",
+        "ف ر غ",
+        "ن ص ب",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.547,
+      "label_hint": "victory / dominance / sound / control",
+      "member_count": 8,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ز ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.5462,
+      "label_hint": "gambling / sound / lot / war",
+      "member_count": 15,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ع س ر",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ز ر",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.5455,
+      "label_hint": "elevation / ribcage / dorsum / sternum",
+      "member_count": 4,
+      "roots": [
+        "ر ب ب",
+        "ر ف ع",
+        "ص د ر",
+        "ظ ه ر",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.5445,
+      "label_hint": "discovery / information / resistance / obstruction",
+      "member_count": 14,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "ن ص ب",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.5344,
+      "label_hint": "spaciousness / prosperity / space / economy_property/finance_debt",
+      "member_count": 12,
+      "roots": [
+        "ء ل ي",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.5276,
+      "label_hint": "economy_property/finance_debt / confiscation / enforcement / finance",
+      "member_count": 3,
+      "roots": [
+        "ء ل ي",
+        "ص د ر",
+        "ظ ه ر",
+        "و ز ر",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5274,
+      "label_hint": "fluid / sperm / unveiling / abundance",
+      "member_count": 12,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ص ب",
+        "و ز ر",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.5268,
+      "label_hint": "reproduction / body_health_life/reproduction_birth / delivery / nurse",
+      "member_count": 21,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "ن ص ب",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.5267,
+      "label_hint": "grammar / inflection / visibility / case",
+      "member_count": 8,
+      "roots": [
+        "ء ل ي",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "م ع ع",
+        "ن ص ب",
+        "و ز ر",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.5243,
+      "label_hint": "asylum / origin / conflict_security/protection_security / infinitive",
+      "member_count": 3,
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ص د ر",
+        "ظ ه ر",
+        "ن ص ب",
+        "و ز ر",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5233,
+      "label_hint": "travel / journey / asylum / meat",
+      "member_count": 1,
+      "roots": [
+        "ء ل ي",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ن ص ب",
+        "و ز ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.5204,
+      "label_hint": "travel / journey / settlement / desirability",
+      "member_count": 13,
+      "roots": [
+        "ء ل ي",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ص ب",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.5177,
+      "label_hint": "sound / tumult / arsenal / munition",
+      "member_count": 11,
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ز ر"
+      ]
+    }
+  ]
+}

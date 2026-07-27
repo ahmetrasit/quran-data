@@ -1,0 +1,487 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 2652,
+    "similarity_edges": 18985,
+    "path_families": 47
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6037,
+      "label_hint": "animal_life/wildlife / bird / ornithology / species",
+      "member_count": 5,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.5863,
+      "label_hint": "eye / beauty / loveliness / glare",
+      "member_count": 3,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ع ل م",
+        "ع ي ن",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.5322,
+      "label_hint": "aggregation / collection / land_water_sky/water_hydrology / time_measure_quantity/quantity_number",
+      "member_count": 29,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.4985,
+      "label_hint": "aggregation / collection / time_measure_quantity/quantity_number / land_water_sky/water_hydrology",
+      "member_count": 69,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.4968,
+      "label_hint": "grain / mill / plenty / coin",
+      "member_count": 3,
+      "roots": [
+        "ر ء ي",
+        "ع ل م",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.4755,
+      "label_hint": "bird / animal_life/wildlife / species / grain",
+      "member_count": 10,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.47,
+      "label_hint": "question / asker / knowledge / recognition",
+      "member_count": 69,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.4669,
+      "label_hint": "dialogue / question / preoccupation / distraction",
+      "member_count": 4,
+      "roots": [
+        "ر ء ي",
+        "س ء ل",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.4639,
+      "label_hint": "question / attention / comfort / knowledge",
+      "member_count": 88,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.4513,
+      "label_hint": "authority / flag / banner / symbol",
+      "member_count": 3,
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.4503,
+      "label_hint": "comfort / settlement / encounter / visibility",
+      "member_count": 4,
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م",
+        "ع ي ن",
+        "ل ه ي",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.4458,
+      "label_hint": "calling / asker / visit / visitor",
+      "member_count": 4,
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.4435,
+      "label_hint": "authority / wealth / protection / pedestrian",
+      "member_count": 1,
+      "roots": [
+        "ز و ر",
+        "ع ي ن",
+        "ك ث ر",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.4352,
+      "label_hint": "land_water_sky/water_hydrology / wealth / asker / source",
+      "member_count": 590,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.4349,
+      "label_hint": "comfort / amusement / entertainment / enjoyment",
+      "member_count": 7,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ع ي ن",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.4309,
+      "label_hint": "honor / carnivore / hyena / solace",
+      "member_count": 4,
+      "roots": [
+        "ج ح م",
+        "ع ل م",
+        "ع ي ن",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.43,
+      "label_hint": "banner / heraldry / semiotics / sign",
+      "member_count": 591,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.43,
+      "label_hint": "bird / species / animal_life/wildlife / carnivore",
+      "member_count": 143,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.4287,
+      "label_hint": "beauty / loveliness / carnivore / hyena",
+      "member_count": 4,
+      "roots": [
+        "ر ء ي",
+        "ع ل م",
+        "ع ي ن",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.4284,
+      "label_hint": "goal / need / judgment / desideratum",
+      "member_count": 10,
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.4282,
+      "label_hint": "knowledge / display / specificity / revelation",
+      "member_count": 132,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.4262,
+      "label_hint": "avian / lark / songbird / animal_life/wildlife",
+      "member_count": 4,
+      "roots": [
+        "ر ء ي",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.424,
+      "label_hint": "judgment / belief / consultation / recognition",
+      "member_count": 387,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.4238,
+      "label_hint": "invalidity / hawk / falcon / raptor",
+      "member_count": 5,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.4225,
+      "label_hint": "body_health_life/anatomy / uvula / swallowing / palate",
+      "member_count": 4,
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م",
+        "ل ه و",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.4167,
+      "label_hint": "body_health_life/anatomy / uvula / split / fissure",
+      "member_count": 249,
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.4166,
+      "label_hint": "aggregation / collection / time_measure_quantity/quantity_number / chamber",
+      "member_count": 4,
+      "roots": [
+        "ز و ر",
+        "س ء ل",
+        "ك ث ر",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.416,
+      "label_hint": "notable / carnivore / hyena / noble",
+      "member_count": 5,
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م",
+        "ع ي ن",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.4132,
+      "label_hint": "encounter / visibility / competition / facing",
+      "member_count": 5,
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.4129,
+      "label_hint": "preoccupation / distraction / recognition / awareness",
+      "member_count": 5,
+      "roots": [
+        "ر ء ي",
+        "س ء ل",
+        "ع ل م",
+        "ك ث ر",
+        "ل ه ي",
+        "ن ع م"
+      ]
+    }
+  ]
+}

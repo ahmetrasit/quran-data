@@ -1,0 +1,604 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 2940,
+    "similarity_edges": 16077,
+    "path_families": 100
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.672,
+      "label_hint": "blindness / body_health_life/disease_injury / smock / mouse",
+      "member_count": 2,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح ط م",
+        "خ ل د",
+        "ع م د",
+        "ك ل ل",
+        "م د د"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6409,
+      "label_hint": "inheritance / decedent / collateral / heir",
+      "member_count": 2,
+      "roots": [
+        "ح س ب",
+        "خ ل د",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "ن ب ذ"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6295,
+      "label_hint": "neglect / hydrology / dam / momentum",
+      "member_count": 2,
+      "roots": [
+        "ج م ع",
+        "ع م د",
+        "ل م ز",
+        "ن ب ذ",
+        "ن و ر",
+        "ه م ز"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.5771,
+      "label_hint": "sealing / closure / occlusion / shutting",
+      "member_count": 2,
+      "roots": [
+        "ء ص د",
+        "ح ط م",
+        "و ص د",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.5704,
+      "label_hint": "blindness / inheritance / body_health_life/disease_injury / lineage",
+      "member_count": 10,
+      "roots": [
+        "ء ص د",
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "ل م ز",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر",
+        "ه م ز",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.5663,
+      "label_hint": "fatigue / bluntness / driver / herder",
+      "member_count": 2,
+      "roots": [
+        "ح ط م",
+        "ط ل ع",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.5633,
+      "label_hint": "aggregation / collection / consolidation / unification",
+      "member_count": 4,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ك ل ل",
+        "ن ب ذ",
+        "ن و ر",
+        "و ص د"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.5486,
+      "label_hint": "land_water_sky/fire_heat / bake / soot / dustiness",
+      "member_count": 7,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.5477,
+      "label_hint": "appetite / glutton / metabolism / smile",
+      "member_count": 2,
+      "roots": [
+        "ح ط م",
+        "ط ل ع",
+        "ع م د",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.5463,
+      "label_hint": "drink / fatigue / driver / herder",
+      "member_count": 9,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن ب ذ",
+        "ن و ر",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.5286,
+      "label_hint": "shame / palm / fist / handful",
+      "member_count": 13,
+      "roots": [
+        "ء ص د",
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر",
+        "ه م ز",
+        "و ص د",
+        "و ق د",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.5262,
+      "label_hint": "land_water_sky/fire_heat / flame / dustiness / heat",
+      "member_count": 18,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن ب ذ",
+        "ن و ر",
+        "و ص د",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.5242,
+      "label_hint": "craft_material_built/architecture_construction / condition_force_change/control_restraint / upright / smile",
+      "member_count": 5,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح ط م",
+        "ط ل ع",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "ن و ر",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.5191,
+      "label_hint": "shame / woe / growth / lament",
+      "member_count": 7,
+      "roots": [
+        "ء ص د",
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ك ل ل",
+        "ن ب ذ",
+        "ن و ر",
+        "و ص د",
+        "و ق د",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.5177,
+      "label_hint": "desire / curiosity / peeking / shyness",
+      "member_count": 3,
+      "roots": [
+        "ج م ع",
+        "ح ط م",
+        "ط ل ع",
+        "ع م د",
+        "ك ل ل",
+        "ن ب ذ",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.5169,
+      "label_hint": "time_measure_quantity/quantity_number / count / mathematics / aggregation",
+      "member_count": 30,
+      "roots": [
+        "ء ص د",
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر",
+        "و ص د",
+        "و ق د",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.5163,
+      "label_hint": "pillow / heat / anguish / cushion",
+      "member_count": 4,
+      "roots": [
+        "ح س ب",
+        "د ر ي",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "م د د",
+        "ن ب ذ",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.5149,
+      "label_hint": "grooming / depilatory / wreath / ink",
+      "member_count": 13,
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر",
+        "و ص د",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.5127,
+      "label_hint": "depilatory / wreath / lime / mainstay",
+      "member_count": 6,
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.5122,
+      "label_hint": "emotion / fervor / conflict / heat",
+      "member_count": 28,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن ب ذ",
+        "ن و ر",
+        "و ص د",
+        "و ق د",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.5094,
+      "label_hint": "fatigue / mainstay / importance / core",
+      "member_count": 7,
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "د ر ي",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "م د د"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.5089,
+      "label_hint": "body_health_life/disease_injury / abscess / pus / lesion",
+      "member_count": 4,
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع م د",
+        "م د د",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.5085,
+      "label_hint": "pillow / cushion / furniture / comfort",
+      "member_count": 7,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "د ر ي",
+        "ط ل ع",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5069,
+      "label_hint": "organ / heat / thorax / heart",
+      "member_count": 19,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "ل م ز",
+        "م د د",
+        "ن و ر",
+        "ه م ز",
+        "و ق د",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.5066,
+      "label_hint": "afterlife / fear / permanence / armament",
+      "member_count": 3,
+      "roots": [
+        "خ ل د",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "م د د",
+        "ن ب ذ"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.5058,
+      "label_hint": "land_water_sky/fire_heat / flame / neglect / combustion",
+      "member_count": 12,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "د ر ي",
+        "ط ل ع",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "ل م ز",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر",
+        "ه م ز",
+        "و ص د",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.5014,
+      "label_hint": "administration / accountability / desire / curiosity",
+      "member_count": 22,
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "ل م ز",
+        "م د د",
+        "م و ل",
+        "ن ب ذ",
+        "ن و ر",
+        "ه م ز",
+        "و ص د",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5001,
+      "label_hint": "fatigue / bluntness / driver / herder",
+      "member_count": 21,
+      "roots": [
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "ل م ز",
+        "م د د",
+        "م و ل",
+        "ن ب ذ",
+        "ن و ر",
+        "ه م ز",
+        "و ق د"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.4997,
+      "label_hint": "neglect / palm / cultivar / growth",
+      "member_count": 10,
+      "roots": [
+        "ء ص د",
+        "ء ل ه",
+        "ج م ع",
+        "د ر ي",
+        "ط ل ع",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "ل م ز",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر",
+        "ه م ز",
+        "و ص د",
+        "و ق د",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.4958,
+      "label_hint": "land_water_sky/water_hydrology / hydrology / dam / engineering",
+      "member_count": 20,
+      "roots": [
+        "ء ص د",
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن و ر",
+        "ه م ز",
+        "و ق د",
+        "و ي ل"
+      ]
+    }
+  ]
+}

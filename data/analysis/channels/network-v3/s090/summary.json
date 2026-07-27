@@ -1,0 +1,450 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 90,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s090",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s090",
+    "catalog_branch_count": 403,
+    "eligible_branch_count": 403,
+    "affinity_shape": [
+      403,
+      403
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04190456,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 2531,
+    "raw_candidates": 330,
+    "deduped_candidates": 258
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8033,
+      "label_hint": "body_health_life/reproduction_birth / parturition / reproduction / biology",
+      "ayahs": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        13,
+        15,
+        16,
+        17
+      ],
+      "root_count": 9,
+      "branch_count": 10,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.7847,
+      "label_hint": "body_health_life/reproduction_birth / parturition / reproduction / biology",
+      "ayahs": [
+        2,
+        3,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "root_count": 10,
+      "branch_count": 15,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.7749,
+      "label_hint": "ordeal / severity / hardship / crisis",
+      "ayahs": [
+        1,
+        4,
+        6,
+        10,
+        11,
+        14,
+        15,
+        17,
+        18,
+        19
+      ],
+      "root_count": 10,
+      "branch_count": 11,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.7711,
+      "label_hint": "fruit / tree / agriculture_food/plant_vegetation / milk",
+      "ayahs": [
+        2,
+        4,
+        7,
+        8,
+        11,
+        12,
+        14,
+        17,
+        19,
+        20
+      ],
+      "root_count": 9,
+      "branch_count": 11,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.7692,
+      "label_hint": "oath / direction / testimony / adjuration",
+      "ayahs": [
+        1,
+        2,
+        8,
+        17,
+        18,
+        19
+      ],
+      "root_count": 8,
+      "branch_count": 14,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.7622,
+      "label_hint": "body_health_life/reproduction_birth / biology / offspring / birth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        17
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.7596,
+      "label_hint": "body_health_life/reproduction_birth / offspring / descendant / family",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        11,
+        12,
+        13,
+        15,
+        17,
+        18,
+        19
+      ],
+      "root_count": 12,
+      "branch_count": 15,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.7574,
+      "label_hint": "mountain / toponym / terrain / architecture",
+      "ayahs": [
+        4,
+        5,
+        7,
+        11,
+        12,
+        13,
+        16,
+        17,
+        19,
+        20
+      ],
+      "root_count": 10,
+      "branch_count": 12,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7558,
+      "label_hint": "reputation / rumor / calculation / reflection",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13,
+        14,
+        19,
+        20
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7555,
+      "label_hint": "planning / calculation / deliberation / accountability",
+      "ayahs": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.755,
+      "label_hint": "growth / agriculture_food/plant_vegetation / fruit / vegetation",
+      "ayahs": [
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        19,
+        20
+      ],
+      "root_count": 11,
+      "branch_count": 12,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7544,
+      "label_hint": "camel / body_health_life/reproduction_birth / grease / lactation",
+      "ayahs": [
+        2,
+        6,
+        7,
+        8,
+        9,
+        13,
+        14,
+        17,
+        19,
+        20
+      ],
+      "root_count": 10,
+      "branch_count": 12,
+      "edge_count": 16
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.754,
+      "label_hint": "fruit / tree / agriculture_food/plant_vegetation / growth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "root_count": 13,
+      "branch_count": 15,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7538,
+      "label_hint": "wealth / adulthood / abundance / money",
+      "ayahs": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "root_count": 11,
+      "branch_count": 11,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7529,
+      "label_hint": "vegetation / flora / fragrance / water",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.75,
+      "label_hint": "space_form_boundary/place_location / settlement / residence / dwelling",
+      "ayahs": [
+        1,
+        2,
+        6,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "root_count": 10,
+      "branch_count": 16,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7483,
+      "label_hint": "growth / agriculture_food/plant_vegetation / fruit / vegetation",
+      "ayahs": [
+        2,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "root_count": 11,
+      "branch_count": 14,
+      "edge_count": 14
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7477,
+      "label_hint": "hollow / hardness / height / mountain",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        17,
+        19,
+        20
+      ],
+      "root_count": 12,
+      "branch_count": 14,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7473,
+      "label_hint": "space_form_boundary/place_location / settlement / dwelling / residence",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        14,
+        16,
+        17
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7472,
+      "label_hint": "wealth / abundance / money / prosperity",
+      "ayahs": [
+        6,
+        8,
+        9,
+        10,
+        13,
+        16
+      ],
+      "root_count": 9,
+      "branch_count": 9,
+      "edge_count": 11
+    }
+  ]
+}

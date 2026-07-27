@@ -1,0 +1,413 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 91,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s091",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s091",
+    "catalog_branch_count": 306,
+    "eligible_branch_count": 306,
+    "affinity_shape": [
+      306,
+      306
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04469218,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 1944,
+    "raw_candidates": 263,
+    "deduped_candidates": 198
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8305,
+      "label_hint": "ascent / elevation / height / terrain",
+      "ayahs": [
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "root_count": 10,
+      "branch_count": 12,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8146,
+      "label_hint": "lie / testimony / falsehood / compatibility",
+      "ayahs": [
+        1,
+        2,
+        6,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15
+      ],
+      "root_count": 8,
+      "branch_count": 14,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8075,
+      "label_hint": "night / elevation / ascent / rock",
+      "ayahs": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15
+      ],
+      "root_count": 11,
+      "branch_count": 15,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.7959,
+      "label_hint": "night / emergence / daylight / cycle",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        13,
+        14,
+        15
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 40
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.792,
+      "label_hint": "night / light / astronomy / visibility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        14
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 49
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.7919,
+      "label_hint": "competition / contest / deception / compatibility",
+      "ayahs": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "root_count": 12,
+      "branch_count": 13,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.7883,
+      "label_hint": "ascent / elevation / terrain / rock",
+      "ayahs": [
+        1,
+        5,
+        6,
+        8,
+        11,
+        12,
+        13,
+        15
+      ],
+      "root_count": 10,
+      "branch_count": 13,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.7848,
+      "label_hint": "night / opening / daylight / light",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 45
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7806,
+      "label_hint": "elevation / ascent / rock / height",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        11,
+        13,
+        14,
+        15
+      ],
+      "root_count": 11,
+      "branch_count": 12,
+      "edge_count": 16
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7803,
+      "label_hint": "competition / contest / conflict_security/conflict / deception",
+      "ayahs": [
+        2,
+        3,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "root_count": 9,
+      "branch_count": 12,
+      "edge_count": 14
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7769,
+      "label_hint": "night / moon / cycle / calendar",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 36
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7763,
+      "label_hint": "competition / contest / rivalry / conflict_security/conflict",
+      "ayahs": [
+        1,
+        2,
+        5,
+        12,
+        13,
+        14,
+        15
+      ],
+      "root_count": 10,
+      "branch_count": 14,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7718,
+      "label_hint": "intercourse / swoon / unconsciousness / concealment",
+      "ayahs": [
+        3,
+        4,
+        8,
+        11,
+        14,
+        15
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7714,
+      "label_hint": "night / color / whiteness / daylight",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        14
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 49
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7697,
+      "label_hint": "generosity / self / cognition_perception/cognition / kinship_society/hospitality_welfare",
+      "ayahs": [
+        3,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7695,
+      "label_hint": "self / cognition_perception/cognition / morality / piety",
+      "ayahs": [
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15
+      ],
+      "root_count": 9,
+      "branch_count": 14,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7689,
+      "label_hint": "affliction / calamity / swoon / unconsciousness",
+      "ayahs": [
+        3,
+        4,
+        8,
+        11,
+        14,
+        15
+      ],
+      "root_count": 7,
+      "branch_count": 17,
+      "edge_count": 36
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7686,
+      "label_hint": "sky / light / fasting / daylight",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7686,
+      "label_hint": "courtship / bride / confrontation / lie",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 12,
+      "branch_count": 15,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.768,
+      "label_hint": "lie / testimony / falsehood / hunting",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        11,
+        13,
+        14,
+        15
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 28
+    }
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 112,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 48,
+    "path_graph_edges": 563,
+    "raw_path_states": 16390,
+    "unique_path_states": 7369,
+    "deduped_paths": 824
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8306,
+      "label_hint": "definition / unity / existence / event",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8133,
+      "label_hint": "unity / theology / submission / articulator",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.7888,
+      "label_hint": "unity / existence / event / language_communication/language_speech",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.7822,
+      "label_hint": "definition / unity / existence / body_health_life/reproduction_birth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.7741,
+      "label_hint": "articulator / adoration / first / progenitor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ق و ل",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.7727,
+      "label_hint": "unity / responsibility / counterpart / absoluteness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.7696,
+      "label_hint": "submission / language / articulator / first",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.7689,
+      "label_hint": "law_governance/authority_governance / responsibility / kinship_society/hierarchy_status / prince",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.7676,
+      "label_hint": "individuality / law_governance/authority_governance / kinship_society/hierarchy_status / separation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.7669,
+      "label_hint": "unity / density / language / articulator",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.7668,
+      "label_hint": "definition / unity / existence / theology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.7657,
+      "label_hint": "unity / kinship_society/hierarchy_status / survival / prince",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.7646,
+      "label_hint": "unity / responsibility / offspring / absoluteness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.7639,
+      "label_hint": "density / space_form_boundary/place_location / articulator / adoration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7637,
+      "label_hint": "density / space_form_boundary/place_location / language_communication/language_speech / uhud",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.7633,
+      "label_hint": "density / space_form_boundary/place_location / kinship_society/hierarchy_status / prince",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7619,
+      "label_hint": "body_health_life/reproduction_birth / responsibility / bargaining / supervision",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7593,
+      "label_hint": "unity / submission / survival / language",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7558,
+      "label_hint": "density / articulator / first / progenitor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7551,
+      "label_hint": "kinship_society/hierarchy_status / survival / prince / law_governance/authority_governance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7548,
+      "label_hint": "law_governance/authority_governance / unity / responsibility / prince",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7527,
+      "label_hint": "meaning / density / evidence / space_form_boundary/place_location",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7525,
+      "label_hint": "responsibility / negation / offspring / exhaustiveness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7523,
+      "label_hint": "unity / offspring / absoluteness / daughter",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ك ف ء",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7508,
+      "label_hint": "unity / kinship_society/hierarchy_status / prince / absoluteness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ق و ل",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7489,
+      "label_hint": "negation / offspring / survival / exhaustiveness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7485,
+      "label_hint": "unity / density / language_communication/language_speech / language",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7464,
+      "label_hint": "unity / density / counterpart / absoluteness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7461,
+      "label_hint": "individuality / submission / separation / articulator",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7461,
+      "label_hint": "definition / unity / absoluteness / agemate",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ق و ل",
+        "ك ف ء",
+        "و ل د"
+      ]
+    }
+  ]
+}

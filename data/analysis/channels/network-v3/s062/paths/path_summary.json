@@ -1,0 +1,898 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 62,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 682,
+    "path_graph_edges": 8361,
+    "raw_path_states": 482090,
+    "unique_path_states": 216436,
+    "deduped_paths": 22511
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8491,
+      "label_hint": "fertility / growth / abundance / increase",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ح م ل",
+        "ر ء ي",
+        "ر د د",
+        "ز ك و",
+        "ع ز ز",
+        "ع ل م",
+        "ق و ل",
+        "ك ث ر",
+        "ل ح ق"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8474,
+      "label_hint": "fertility / abundance / increase / time_measure_quantity/quantity_number",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء ي ي",
+        "د و ن",
+        "ر ء ي",
+        "ر د د",
+        "ر س ل",
+        "ز ك و",
+        "ع ز ز",
+        "ع ل م",
+        "ك ث ر"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8467,
+      "label_hint": "limb / restraint / anatomy / condition_force_change/control_restraint",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ج م ع",
+        "ح ك م",
+        "ح م ر",
+        "ع ظ م",
+        "غ ي ب",
+        "ق ب ل",
+        "ق د م",
+        "ق و م",
+        "ن ش ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8455,
+      "label_hint": "favor / body_health_life/reproduction_birth / blessing / gift",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ء م م",
+        "ت ل و",
+        "ج م ع",
+        "ح م ل",
+        "ل ح ق",
+        "م و ت",
+        "و ل ي",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8437,
+      "label_hint": "knowledge / description / definition / imagination",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م ن",
+        "ح ك م",
+        "ر ء ي",
+        "ش ه د",
+        "ش ي ء",
+        "ع ل م",
+        "ق ض ي",
+        "ق و ل",
+        "م ث ل",
+        "م ن ي"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8431,
+      "label_hint": "fertility / fruit / body_health_life/reproduction_birth / pregnancy",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ج م ع",
+        "ح م ل",
+        "ر ء ي",
+        "ر د د",
+        "ز ك و",
+        "ع ل م",
+        "ك ث ر",
+        "ل ح ق",
+        "م و ت"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8428,
+      "label_hint": "language / tongue / utterance / organ",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ح ك م",
+        "ح م ر",
+        "ذ ك ر",
+        "ش ه د",
+        "ع ظ م",
+        "غ ي ب",
+        "ق و ل",
+        "ق و م",
+        "ن ش ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8407,
+      "label_hint": "fertility / milk / abundance / fruit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ر ء ي",
+        "ر د د",
+        "ر س ل",
+        "ز ك و",
+        "ع ز ز",
+        "ع ل م",
+        "ك ث ر",
+        "ك ذ ب",
+        "ل ح ق"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8384,
+      "label_hint": "knowledge / safety / evidence / imagination",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م ن",
+        "ب ء س",
+        "ح ك م",
+        "ر ء ي",
+        "ش ه د",
+        "ع ل م",
+        "ق ض ي",
+        "م ن ي",
+        "ن ب ء"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8378,
+      "label_hint": "increase / selection / abundance / rumor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "خ ي ر",
+        "ر د د",
+        "ز ك و",
+        "ع ز ز",
+        "ع ل م",
+        "ف ض ل",
+        "ق و ل",
+        "ك ث ر",
+        "م ث ل"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8373,
+      "label_hint": "knowledge / description / definition / reason",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ج م ع",
+        "ح ك م",
+        "ش ه د",
+        "ش ي ء",
+        "ع ل م",
+        "ق ض ي",
+        "ق و ل",
+        "ك ت ب",
+        "م ث ل"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8364,
+      "label_hint": "fertility / selection / increase / pregnancy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "خ ي ر",
+        "ر ء ي",
+        "ر د د",
+        "ز ك و",
+        "ع ز ز",
+        "ف ض ل",
+        "ل ق ي",
+        "م ث ل",
+        "م ن ي"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.832,
+      "label_hint": "body_health_life/reproduction_birth / fertility / reproduction / pregnancy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ت ل و",
+        "ج م ع",
+        "ح م ل",
+        "ر ء ي",
+        "ر د د",
+        "ص ل و",
+        "ع ز ز",
+        "ل ح ق",
+        "م و ت"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8318,
+      "label_hint": "limb / palm / restraint / medicine",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ج م ع",
+        "ح ك م",
+        "ح م ر",
+        "ع ظ م",
+        "ع م ل",
+        "غ ي ب",
+        "ق و م",
+        "ن ش ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.83,
+      "label_hint": "selection / body_health_life/reproduction_birth / increase / fruit",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ت ل و",
+        "ج م ع",
+        "ح م ل",
+        "خ ي ر",
+        "ز ك و",
+        "ف ض ل",
+        "ل ح ق",
+        "م ث ل",
+        "م و ت"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8297,
+      "label_hint": "knowledge / evidence / description / definition",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ب ي ن",
+        "ح ك م",
+        "س ف ر",
+        "ش ه د",
+        "ش ي ء",
+        "ع ل م",
+        "ف ر ر",
+        "ق ض ي",
+        "ق و ل",
+        "م ث ل"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8297,
+      "label_hint": "abundance / increase / time_measure_quantity/quantity_number / quantity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء ل ي",
+        "ء ي ي",
+        "ر د د",
+        "ز ك و",
+        "ع ز ز",
+        "ع ل م",
+        "ف ر ر",
+        "ق و ل",
+        "ك ث ر"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8293,
+      "label_hint": "fertility / abundance / body_health_life/reproduction_birth / increase",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ر ء ي",
+        "ر د د",
+        "ز ك و",
+        "ع ز ز",
+        "ع ل م",
+        "ك ث ر",
+        "ك ذ ب",
+        "ل ق ي",
+        "م ن ي"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8289,
+      "label_hint": "hunting / proximity / capture / command",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ل ي",
+        "ء م م",
+        "ت ر ك",
+        "س ف ر",
+        "س م و",
+        "ش ي ء",
+        "ص ل و",
+        "ق د م",
+        "م و ت",
+        "و ذ ر"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.828,
+      "label_hint": "description / definition / banner / expansion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ج م ع",
+        "ر ء ي",
+        "ش ي ء",
+        "ع ز ز",
+        "ع ل م",
+        "ق و ل",
+        "ك ت ب",
+        "م ث ل",
+        "ن ش ر"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8273,
+      "label_hint": "imagination / reason / reference / description",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ء م ن",
+        "ج م ع",
+        "ح ك م",
+        "ر ء ي",
+        "ش ي ء",
+        "ع ل م",
+        "ك ت ب",
+        "م ث ل",
+        "م ن ي"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.827,
+      "label_hint": "fertility / growth / increase / fruit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء ل ي",
+        "ج م ع",
+        "ح م ل",
+        "ر د د",
+        "ز ك و",
+        "ع ز ز",
+        "ك ث ر",
+        "ل ح ق",
+        "م و ت"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8263,
+      "label_hint": "stone / water / infrastructure / blood",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ب ي ن",
+        "ح م ر",
+        "ش ه د",
+        "ص ل و",
+        "ظ ل م",
+        "ف ض ض",
+        "ق ب ل",
+        "ق د س",
+        "م ن ي"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8262,
+      "label_hint": "knowledge / communication / imagination / envoy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م ن",
+        "ب ع ث",
+        "ح ك م",
+        "ح م ل",
+        "ر ء ي",
+        "ر س ل",
+        "ش ه د",
+        "ع ل م",
+        "ق ض ي",
+        "م ن ي"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8261,
+      "label_hint": "fruit / reproduction / body_health_life/reproduction_birth / fertility",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء ل ي",
+        "ت ل و",
+        "ج م ع",
+        "ح م ل",
+        "ز ك و",
+        "ص ل و",
+        "ك ث ر",
+        "ل ح ق",
+        "م و ت"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.826,
+      "label_hint": "wood / watering / craft_material_built/craft / husbandry",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ح م ر",
+        "ع ظ م",
+        "ق ب ل",
+        "ق د س",
+        "ق د م",
+        "ق و ل",
+        "ن د و",
+        "ن د ي",
+        "ن ش ر",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8256,
+      "label_hint": "alliance / oath / community / swearing",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ء م ن",
+        "ء ي ي",
+        "ب ء س",
+        "ص د ق",
+        "ه و د",
+        "و ذ ر",
+        "و ل ي",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8256,
+      "label_hint": "fertility / pregnancy / body_health_life/reproduction_birth / agriculture_food/plant_vegetation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ج م ع",
+        "ر ء ي",
+        "ر د د",
+        "ز ك و",
+        "ش ي ء",
+        "ع ز ز",
+        "ك ث ر",
+        "ل ق ي",
+        "م ن ي"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8254,
+      "label_hint": "gift / favor / bounty / kinship_society/hospitality_welfare",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ء م م",
+        "ت ل و",
+        "خ ي ر",
+        "س ع ي",
+        "ف ض ل",
+        "م و ت",
+        "و ل ي",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8251,
+      "label_hint": "space_form_boundary/place_location / station / residence / place",
+      "ayahs": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ب د",
+        "ء ر ض",
+        "ق و م",
+        "ك و ن"
+      ]
+    }
+  ]
+}

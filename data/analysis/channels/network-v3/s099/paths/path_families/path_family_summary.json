@@ -1,0 +1,517 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 5678,
+    "similarity_edges": 32155,
+    "path_families": 238
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6492,
+      "label_hint": "tremor / articulator / conflict / quiver",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ث ق ل",
+        "ز ل ز ل",
+        "ش ر ر",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6124,
+      "label_hint": "separation / outside / solicitude / attention",
+      "member_count": 2,
+      "roots": [
+        "خ ر ج",
+        "ر ء ي",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6076,
+      "label_hint": "judgment / tremor / belief / consultation",
+      "member_count": 4,
+      "roots": [
+        "ء ر ض",
+        "ث ق ل",
+        "خ ب ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.5999,
+      "label_hint": "separation / outside / exit / secrecy",
+      "member_count": 2,
+      "roots": [
+        "خ ر ج",
+        "ع م ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.5959,
+      "label_hint": "solicitude / news / concern / expertise",
+      "member_count": 2,
+      "roots": [
+        "خ ب ر",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.5938,
+      "label_hint": "spirit / healing / derangement / apparition",
+      "member_count": 4,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "خ ب ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ش ر ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.5924,
+      "label_hint": "reputation / scattering / rumor / ostentation",
+      "member_count": 7,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ب ر",
+        "خ ي ر",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ش ر ر",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.5875,
+      "label_hint": "dream / welfare / sleep / virtue",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "خ ي ر",
+        "ر ء ي",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.5867,
+      "label_hint": "transport / captain / pilot / sailor",
+      "member_count": 2,
+      "roots": [
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.5862,
+      "label_hint": "meaning / fire / evidence / plurality",
+      "member_count": 10,
+      "roots": [
+        "ء ر ض",
+        "ث ق ل",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ش ر ر",
+        "ص د ر",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.5832,
+      "label_hint": "organ / articulator / captain / pilot",
+      "member_count": 2,
+      "roots": [
+        "ر ء ي",
+        "ر ب ب",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.5797,
+      "label_hint": "solicitude / eagerness / concern / vigor",
+      "member_count": 2,
+      "roots": [
+        "ش ر ر",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.5789,
+      "label_hint": "drink / purity / solicitude / attention",
+      "member_count": 2,
+      "roots": [
+        "ر ء ي",
+        "ز ل ز ل",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.5712,
+      "label_hint": "thoroughfare / conflict / quarrel / track",
+      "member_count": 2,
+      "roots": [
+        "خ ر ج",
+        "ش ر ر",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.5637,
+      "label_hint": "boil / farming / sharecropping / tenancy",
+      "member_count": 2,
+      "roots": [
+        "ث ق ل",
+        "خ ب ر",
+        "خ ر ج",
+        "ر ء ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.5598,
+      "label_hint": "plant / tremor / herb / quiver",
+      "member_count": 6,
+      "roots": [
+        "ء ر ض",
+        "ث ق ل",
+        "خ ب ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ش ر ر",
+        "ص د ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.5597,
+      "label_hint": "separation / outside / welfare / badness",
+      "member_count": 3,
+      "roots": [
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ش ر ر",
+        "ص د ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.5567,
+      "label_hint": "crisis / fate / affliction / calamity",
+      "member_count": 16,
+      "roots": [
+        "ء ر ض",
+        "ث ق ل",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.5562,
+      "label_hint": "elegy / wailing / mourning / partition",
+      "member_count": 6,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "خ ب ر",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.5514,
+      "label_hint": "rumor / reputation / self / news",
+      "member_count": 8,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.547,
+      "label_hint": "creation / badness / inception / rebellion",
+      "member_count": 10,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.5466,
+      "label_hint": "conflict / articulator / quarrel / partition",
+      "member_count": 8,
+      "roots": [
+        "ء ر ض",
+        "خ ب ر",
+        "خ ر ج",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.5447,
+      "label_hint": "society / spirit / healing / mankind",
+      "member_count": 26,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "خ ي ر",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5439,
+      "label_hint": "plant / fragrance / herb / abundance",
+      "member_count": 12,
+      "roots": [
+        "ء ر ض",
+        "ث ق ل",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.5338,
+      "label_hint": "law_governance/authority_governance / fire / power / prince",
+      "member_count": 24,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.53,
+      "label_hint": "selection / manifestation / cognition_perception/knowledge_learning / revelation",
+      "member_count": 11,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.5273,
+      "label_hint": "hydrology / badness / drink / water",
+      "member_count": 48,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5256,
+      "label_hint": "inscription / engraving / badness / kinship_society/recreation_sport",
+      "member_count": 5,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.524,
+      "label_hint": "ulcer / chest / body_health_life/health_medicine / ribcage",
+      "member_count": 10,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.5163,
+      "label_hint": "revelation / favorite / confidant / intimate",
+      "member_count": 64,
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "خ ي ر",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ش ت ت",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    }
+  ]
+}

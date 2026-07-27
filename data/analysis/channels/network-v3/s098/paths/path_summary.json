@@ -1,0 +1,817 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 98,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 362,
+    "path_graph_edges": 4512,
+    "raw_path_states": 249328,
+    "unique_path_states": 99245,
+    "deduped_paths": 11071
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8505,
+      "label_hint": "contract / marriage / debt / household",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ه ل",
+        "ب ر ء",
+        "ب ي ن",
+        "ج ز ي",
+        "د ي ن",
+        "ر س ل",
+        "ش ر ك",
+        "ع م ل",
+        "ق و م",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8428,
+      "label_hint": "purity / penetration / repair / judgment",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ت ي",
+        "ب ع د",
+        "ت ل و",
+        "ذ و و",
+        "ر ب ب",
+        "ز ك و",
+        "ش ر ك",
+        "ص ل ح",
+        "ط ه ر",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8365,
+      "label_hint": "emancipation / invocation / hierarchy / slave",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء م ن",
+        "ب ر ء",
+        "ب ع د",
+        "د ي ن",
+        "ر ب ب",
+        "ص ل و",
+        "ع ب د",
+        "ك ت ب"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.828,
+      "label_hint": "hierarchy / emancipation / invocation / slave",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء م ن",
+        "ء ه ل",
+        "ب ع د",
+        "د ي ن",
+        "ر ب ب",
+        "ص ل و",
+        "ع ب د",
+        "ق و م",
+        "ك ت ب"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8278,
+      "label_hint": "group / people / sequence / faction",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ه ل",
+        "ت ح ت",
+        "ت ل و",
+        "ج ن ن",
+        "ر ب ب",
+        "ر س ل",
+        "ع د ن",
+        "ع م ل",
+        "ف ر ق",
+        "ق و م"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8271,
+      "label_hint": "disavowal / purity / penetration / emotion_ethics/ethics_morality",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ت ي",
+        "ب ر ء",
+        "ب ع د",
+        "ذ و و",
+        "ر ب ب",
+        "ز ك و",
+        "ص ل ح",
+        "ط ه ر",
+        "ع م ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8265,
+      "label_hint": "separation / parting / welfare / inclination",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ب ي ن",
+        "ح ن ف",
+        "خ ي ر",
+        "ش ر ر",
+        "ص ح ف",
+        "ع ن د",
+        "ف ر ق",
+        "ف ك ك",
+        "ك ت ب",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8244,
+      "label_hint": "penetration / fullness / judgment / decisiveness",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ت ي",
+        "ب ع د",
+        "ت ل و",
+        "ذ و و",
+        "ش ر ر",
+        "ش ر ك",
+        "ع د ن",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8238,
+      "label_hint": "language_communication/writing_text / love / law_governance/obligation_contract / guarantor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء م ن",
+        "ج ر ي",
+        "ر ب ب",
+        "ر س ل",
+        "ر ض و",
+        "ر ض ي",
+        "ص ح ف",
+        "ص ل و",
+        "ك ت ب"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8229,
+      "label_hint": "debt / contract / household / competition",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ه ل",
+        "ب ر ء",
+        "ت ل و",
+        "ج ز ي",
+        "د ي ن",
+        "ر س ل",
+        "ش ر ك",
+        "ص ل و",
+        "ع م ل",
+        "ق و م"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8219,
+      "label_hint": "marriage / debt / contract / household",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء م ر",
+        "ء ه ل",
+        "ب ر ء",
+        "ب ي ن",
+        "ج ز ي",
+        "د ي ن",
+        "ر ب ب",
+        "ر س ل",
+        "ش ر ك",
+        "ق و م"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8213,
+      "label_hint": "emancipation / invocation / hierarchy / messenger",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء م ن",
+        "ج ر ي",
+        "د ي ن",
+        "ر ب ب",
+        "ر س ل",
+        "ر ض ي",
+        "ص ل و",
+        "ع ب د",
+        "ك ت ب"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8209,
+      "label_hint": "reproduction / land_water_sky/fire_heat / parturition / estrus",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ب د",
+        "ء ت ي",
+        "ت ل و",
+        "ر س ل",
+        "ص ل و",
+        "ع م ل",
+        "ف ر ق",
+        "ف ك ك",
+        "ق و م",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8209,
+      "label_hint": "youth / development / penetration / life",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ت ي",
+        "ب ع د",
+        "ت ل و",
+        "ج ن ن",
+        "ذ و و",
+        "ر ب ب",
+        "ش ر ر",
+        "ش ر ك",
+        "ع م ل",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8208,
+      "label_hint": "practice / circumstance / parting / separation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء م ر",
+        "ب ي ن",
+        "ج ر ي",
+        "د ي ن",
+        "ص ح ف",
+        "ع م ل",
+        "ف ر ق",
+        "ف ك ك",
+        "ك ت ب",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8193,
+      "label_hint": "sequence / herd / succession / group",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ت ح ت",
+        "ت ل و",
+        "ج ن ن",
+        "ر ب ب",
+        "ر س ل",
+        "ش ر ك",
+        "ص ل و",
+        "ع د ن",
+        "ع م ل",
+        "ف ر ق"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8189,
+      "label_hint": "reproduction / permanence / body_health_life/reproduction_birth / parturition",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ب د",
+        "ء ت ي",
+        "ت ل و",
+        "ج ن ن",
+        "خ ل د",
+        "ر ب ب",
+        "ع د ن",
+        "ع م ل",
+        "ف ر ق",
+        "ف ك ك"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8179,
+      "label_hint": "righteousness / penetration / selection / fat",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ت ي",
+        "ب ع د",
+        "خ ي ر",
+        "ذ و و",
+        "ر ب ب",
+        "ز ك و",
+        "ش ر ر",
+        "ص ل ح",
+        "ط ه ر",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8179,
+      "label_hint": "language_communication/writing_text / kinship_society/social_relations / relation / page",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ب ع د",
+        "ب ي ن",
+        "ر ب ب",
+        "ص ح ف",
+        "ص ل ح",
+        "ع ن د",
+        "ق و م",
+        "ك ت ب",
+        "ك و ن",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8175,
+      "label_hint": "economy_property/finance_debt / tax / tribute / levy",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ت ي",
+        "ب ر ء",
+        "ت ل و",
+        "ج ر ي",
+        "ج ز ي",
+        "ج ي ء",
+        "ش ر ك",
+        "ط ه ر",
+        "ك ف ر",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8173,
+      "label_hint": "marriage / sky / household / courtship",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ه ل",
+        "ب ر ء",
+        "ب ي ن",
+        "ر ب ب",
+        "ر س ل",
+        "ش ر ك",
+        "ع ب د",
+        "ك ف ر",
+        "ن ه ر",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.8172,
+      "label_hint": "space_form_boundary/place_location / space / terror / familiarity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ب د",
+        "ء م ن",
+        "ء ه ل",
+        "خ ش ي",
+        "ر س ل",
+        "ص ح ف",
+        "ف ر ق",
+        "ق و م",
+        "ك و ن",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8171,
+      "label_hint": "youth / development / gait / disease",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ت ي",
+        "ج ن ن",
+        "ر ب ب",
+        "ر س ل",
+        "ش ر ر",
+        "ع م ل",
+        "ف ر ق",
+        "ف ك ك",
+        "ق و م",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8169,
+      "label_hint": "relation / parting / separation / destination",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "roots": [
+        "ب ع د",
+        "ب ي ن",
+        "ت ح ت",
+        "خ ل ص",
+        "ر س ل",
+        "ص ح ف",
+        "ف ر ق",
+        "ف ك ك",
+        "ك ت ب",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8168,
+      "label_hint": "righteousness / selection / repair / purity",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ب ع د",
+        "خ ي ر",
+        "ذ و و",
+        "ر ب ب",
+        "ز ك و",
+        "ش ر ر",
+        "ش ر ك",
+        "ص ل ح",
+        "ط ه ر",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.8165,
+      "label_hint": "space_form_boundary/place_location / residence / permanence / nearness",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "roots": [
+        "ء ب د",
+        "ب ع د",
+        "ب ي ن",
+        "خ ل د",
+        "د ي ن",
+        "ر ب ب",
+        "ع د ن",
+        "ع ن د",
+        "ق و م",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8164,
+      "label_hint": "space_form_boundary/place_location / residence / nearness / habitation",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "roots": [
+        "ء ب د",
+        "ب ع د",
+        "ب ي ن",
+        "ج ن ن",
+        "ر ب ب",
+        "ع د ن",
+        "ع ن د",
+        "ق و م",
+        "ك ف ر",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8153,
+      "label_hint": "permanence / immortality / emancipation / invocation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ب د",
+        "ء ل ه",
+        "ء م ن",
+        "خ ل د",
+        "د ي ن",
+        "ر ب ب",
+        "ص ل و",
+        "ع ب د",
+        "ع د ن",
+        "ك ت ب"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8152,
+      "label_hint": "judgment / invocation / recompense / retaliation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء م ن",
+        "ب ر ء",
+        "ب ع د",
+        "ج ز ي",
+        "د ي ن",
+        "ر ب ب",
+        "ص ل و",
+        "ق و م",
+        "ك ت ب"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8152,
+      "label_hint": "space_form_boundary/place_location / residence / nearness / habitation",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ب د",
+        "ب ع د",
+        "ب ي ن",
+        "ر ب ب",
+        "ص ل ح",
+        "ع د ن",
+        "ع ن د",
+        "ق و م",
+        "ك و ن",
+        "ن و ر"
+      ]
+    }
+  ]
+}

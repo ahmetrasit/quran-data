@@ -1,0 +1,331 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s027",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s027/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 1357,
+    "similarity_edges": 4012,
+    "families": 183,
+    "family_size_buckets": {
+      "small_2_4": 39,
+      "medium_5_14": 118,
+      "large_15_plus": 11,
+      "singleton": 15
+    },
+    "structural_type_counts": {
+      "distributed": 181,
+      "root_centered": 2
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.6764,
+      "label_hint": "desire / estrus / reproduction / mating",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 45,
+      "root_count": 18,
+      "branch_count": 20
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.6692,
+      "label_hint": "right / economy_property/finance_debt / justice / claim",
+      "member_count": 2,
+      "structural_type": "distributed",
+      "ayah_count": 37,
+      "root_count": 13,
+      "branch_count": 17
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.6687,
+      "label_hint": "gait / travel / transport / horse",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 48,
+      "root_count": 27,
+      "branch_count": 31
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.6685,
+      "label_hint": "economy_property/commerce_exchange / sale / price / exchange",
+      "member_count": 6,
+      "structural_type": "distributed",
+      "ayah_count": 68,
+      "root_count": 26,
+      "branch_count": 36
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.6678,
+      "label_hint": "duration / time / history / interval",
+      "member_count": 6,
+      "structural_type": "distributed",
+      "ayah_count": 74,
+      "root_count": 33,
+      "branch_count": 40
+    },
+    {
+      "family_id": "F006",
+      "family_score": 0.6575,
+      "label_hint": "marriage / family / gender / woman",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 49,
+      "root_count": 23,
+      "branch_count": 27
+    },
+    {
+      "family_id": "F007",
+      "family_score": 0.6551,
+      "label_hint": "time / dawn / night / light",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 57,
+      "root_count": 33,
+      "branch_count": 36
+    },
+    {
+      "family_id": "F008",
+      "family_score": 0.6495,
+      "label_hint": "grammar / command / preposition / attention",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 49,
+      "root_count": 21,
+      "branch_count": 25
+    },
+    {
+      "family_id": "F009",
+      "family_score": 0.6445,
+      "label_hint": "stinginess / miserliness / withholding / avarice",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 43,
+      "root_count": 22,
+      "branch_count": 27
+    },
+    {
+      "family_id": "F010",
+      "family_score": 0.6386,
+      "label_hint": "deliberation / planning / cognition_perception/reasoning_decision / decision",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 75,
+      "root_count": 47,
+      "branch_count": 60
+    },
+    {
+      "family_id": "F011",
+      "family_score": 0.6356,
+      "label_hint": "ecology / plant / growth / vegetation",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 43,
+      "root_count": 30,
+      "branch_count": 35
+    },
+    {
+      "family_id": "F012",
+      "family_score": 0.6352,
+      "label_hint": "wealth / prosperity / abundance / sufficiency",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 61,
+      "root_count": 30,
+      "branch_count": 40
+    },
+    {
+      "family_id": "F013",
+      "family_score": 0.6275,
+      "label_hint": "oath / swearing / testimony / pledge",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 72,
+      "root_count": 24,
+      "branch_count": 39
+    },
+    {
+      "family_id": "F014",
+      "family_score": 0.6272,
+      "label_hint": "judgment / governance / authority / law",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 71,
+      "root_count": 38,
+      "branch_count": 56
+    },
+    {
+      "family_id": "F015",
+      "family_score": 0.6265,
+      "label_hint": "increase / growth / prosperity / abundance",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 64,
+      "root_count": 40,
+      "branch_count": 49
+    },
+    {
+      "family_id": "F016",
+      "family_score": 0.6265,
+      "label_hint": "land / unknown / geography / barrenness",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 34,
+      "root_count": 22,
+      "branch_count": 27
+    },
+    {
+      "family_id": "F017",
+      "family_score": 0.6257,
+      "label_hint": "victory / competition / dominance / conflict_security/conflict",
+      "member_count": 9,
+      "structural_type": "distributed",
+      "ayah_count": 80,
+      "root_count": 48,
+      "branch_count": 60
+    },
+    {
+      "family_id": "F018",
+      "family_score": 0.6233,
+      "label_hint": "return / recurrence / repetition / restoration",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 35,
+      "root_count": 20,
+      "branch_count": 28
+    },
+    {
+      "family_id": "F019",
+      "family_score": 0.6207,
+      "label_hint": "language_communication/writing_text / writing / inscription / documentation",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 79,
+      "root_count": 41,
+      "branch_count": 57
+    },
+    {
+      "family_id": "F020",
+      "family_score": 0.6204,
+      "label_hint": "repair / purity / compatibility / settlement",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 74,
+      "root_count": 32,
+      "branch_count": 45
+    },
+    {
+      "family_id": "F021",
+      "family_score": 0.6149,
+      "label_hint": "hearing / sound / ear / cognition_perception/perception",
+      "member_count": 9,
+      "structural_type": "root_centered",
+      "ayah_count": 78,
+      "root_count": 40,
+      "branch_count": 65
+    },
+    {
+      "family_id": "F022",
+      "family_score": 0.6109,
+      "label_hint": "residence / space_form_boundary/place_location / settlement / stay",
+      "member_count": 11,
+      "structural_type": "distributed",
+      "ayah_count": 83,
+      "root_count": 60,
+      "branch_count": 80
+    },
+    {
+      "family_id": "F023",
+      "family_score": 0.6101,
+      "label_hint": "fastening / cord / rope / girdle",
+      "member_count": 2,
+      "structural_type": "distributed",
+      "ayah_count": 25,
+      "root_count": 14,
+      "branch_count": 15
+    },
+    {
+      "family_id": "F024",
+      "family_score": 0.6098,
+      "label_hint": "land_water_sky/water_hydrology / hydrology / abundance / water",
+      "member_count": 12,
+      "structural_type": "distributed",
+      "ayah_count": 77,
+      "root_count": 47,
+      "branch_count": 63
+    },
+    {
+      "family_id": "F025",
+      "family_score": 0.6083,
+      "label_hint": "pride / honor / dignity / arrogance",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 63,
+      "root_count": 30,
+      "branch_count": 44
+    },
+    {
+      "family_id": "F026",
+      "family_score": 0.6063,
+      "label_hint": "cultivation / crop / agriculture / field",
+      "member_count": 9,
+      "structural_type": "distributed",
+      "ayah_count": 65,
+      "root_count": 42,
+      "branch_count": 54
+    },
+    {
+      "family_id": "F027",
+      "family_score": 0.6061,
+      "label_hint": "aesthetics / beauty / appearance / craft_material_built/ornament_beauty",
+      "member_count": 11,
+      "structural_type": "distributed",
+      "ayah_count": 66,
+      "root_count": 47,
+      "branch_count": 63
+    },
+    {
+      "family_id": "F028",
+      "family_score": 0.6059,
+      "label_hint": "epistemology / truth / knowledge / testimony",
+      "member_count": 6,
+      "structural_type": "distributed",
+      "ayah_count": 51,
+      "root_count": 29,
+      "branch_count": 42
+    },
+    {
+      "family_id": "F029",
+      "family_score": 0.604,
+      "label_hint": "prevention / repulsion / reform / restriction",
+      "member_count": 9,
+      "structural_type": "distributed",
+      "ayah_count": 66,
+      "root_count": 54,
+      "branch_count": 68
+    },
+    {
+      "family_id": "F030",
+      "family_score": 0.6039,
+      "label_hint": "measure / measurement / volume / capacity",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 60,
+      "root_count": 22,
+      "branch_count": 25
+    }
+  ]
+}

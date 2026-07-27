@@ -1,0 +1,454 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 2808,
+    "similarity_edges": 18284,
+    "path_families": 48
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6521,
+      "label_hint": "refuge / horse / shelter / circle",
+      "member_count": 2,
+      "roots": [
+        "ج ن ن",
+        "خ ن س",
+        "ص د ر",
+        "ع و ذ",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.606,
+      "label_hint": "recourse / asylum / conflict_security/protection_security / retreat",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "خ ن س",
+        "ع و ذ"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.5977,
+      "label_hint": "loquacity / verbosity / personality / invocation",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء ن س",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.5686,
+      "label_hint": "favorite / confidant / intimate / nurture",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "ر ب ب",
+        "ش ر ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.5345,
+      "label_hint": "blackness / darkness / clinging / spreading",
+      "member_count": 12,
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.5203,
+      "label_hint": "horse / insanity / derangement / circle",
+      "member_count": 4,
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ع و ذ",
+        "ق و ل",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.5191,
+      "label_hint": "dominion / hierarchy / governance / theology",
+      "member_count": 8,
+      "roots": [
+        "ء ل ه",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.5021,
+      "label_hint": "mother / shortness / body_health_life/reproduction_birth / familiarity",
+      "member_count": 9,
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ع و ذ",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.5015,
+      "label_hint": "clinging / spreading / concealment / drying",
+      "member_count": 81,
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.4993,
+      "label_hint": "youth / development / definition / beginning",
+      "member_count": 79,
+      "roots": [
+        "ء ل ه",
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.4882,
+      "label_hint": "badness / malice / familiarity / property",
+      "member_count": 200,
+      "roots": [
+        "ء ل ه",
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.4836,
+      "label_hint": "shelter / deer / satan / tempter",
+      "member_count": 203,
+      "roots": [
+        "ء ل ه",
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.4733,
+      "label_hint": "sternum / chest / bone / shelter",
+      "member_count": 1,
+      "roots": [
+        "ج ن ن",
+        "خ ن س",
+        "ص د ر",
+        "ع و ذ"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.4707,
+      "label_hint": "water / egress / leaving / resource",
+      "member_count": 27,
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.4694,
+      "label_hint": "kingship / dominion / sovereignty / theology",
+      "member_count": 3,
+      "roots": [
+        "ء ن س",
+        "ر ب ب",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.4691,
+      "label_hint": "circle / collar / shortness / contraction",
+      "member_count": 4,
+      "roots": [
+        "ء ن س",
+        "خ ن س",
+        "ع و ذ",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.4672,
+      "label_hint": "bone / property / prince / law_governance/authority_governance",
+      "member_count": 1,
+      "roots": [
+        "ج ن ن",
+        "ص د ر",
+        "ق و ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.4547,
+      "label_hint": "mankind / inhabitant / human / people",
+      "member_count": 6,
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "ر ب ب",
+        "ص د ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.4519,
+      "label_hint": "orientation / spatiality / facing / benefaction",
+      "member_count": 3,
+      "roots": [
+        "ء ن س",
+        "ر ب ب",
+        "ع و ذ"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.4476,
+      "label_hint": "detection / self / favorite / confidant",
+      "member_count": 1254,
+      "roots": [
+        "ء ل ه",
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.4446,
+      "label_hint": "favorite / confidant / intimate / kinship_society/social_relations",
+      "member_count": 4,
+      "roots": [
+        "ء ن س",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.4433,
+      "label_hint": "theology / ritual_belief/religion_worship / cognition_perception/knowledge_learning / sage",
+      "member_count": 9,
+      "roots": [
+        "ء ل ه",
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.4414,
+      "label_hint": "favorite / confidant / intimate / self",
+      "member_count": 9,
+      "roots": [
+        "ء ن س",
+        "خ ن س",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.4405,
+      "label_hint": "pupil / reflection / image / optics",
+      "member_count": 302,
+      "roots": [
+        "ء ل ه",
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.4393,
+      "label_hint": "familiarity / domestication / companionship / comfort",
+      "member_count": 8,
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "ر ب ب",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.4356,
+      "label_hint": "orientation / spatiality / facing / horse",
+      "member_count": 304,
+      "roots": [
+        "ء ل ه",
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.4354,
+      "label_hint": "rumor / mankind / inhabitant / human",
+      "member_count": 5,
+      "roots": [
+        "ء ن س",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.4316,
+      "label_hint": "mankind / inhabitant / human / anthropology",
+      "member_count": 12,
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ص د ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.4314,
+      "label_hint": "favorite / self / confidant / intimate",
+      "member_count": 8,
+      "roots": [
+        "ء ن س",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل",
+        "و س و س"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.4236,
+      "label_hint": "favorite / confidant / intimate / kinship_society/social_relations",
+      "member_count": 4,
+      "roots": [
+        "ء ل ه",
+        "ء ن س",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 61,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s061",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s061",
+    "catalog_branch_count": 708,
+    "eligible_branch_count": 708,
+    "affinity_shape": [
+      708,
+      708
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.0401927,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 4444,
+    "raw_candidates": 517,
+    "deduped_candidates": 431
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.851,
+      "label_hint": "disaster / rain / flood / weather",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 12,
+      "branch_count": 12,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8469,
+      "label_hint": "protection / veil / concealment / cover",
+      "ayahs": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14
+      ],
+      "root_count": 9,
+      "branch_count": 11,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8402,
+      "label_hint": "hardness / ground / solidity / barrenness",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "root_count": 14,
+      "branch_count": 16,
+      "edge_count": 39
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8396,
+      "label_hint": "craft_material_built/tools_equipment / handle / rotation / container",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14
+      ],
+      "root_count": 10,
+      "branch_count": 11,
+      "edge_count": 14
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8357,
+      "label_hint": "evidence / path / road / access",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14
+      ],
+      "root_count": 11,
+      "branch_count": 12,
+      "edge_count": 16
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8356,
+      "label_hint": "eye / vision / contrast / ophthalmology",
+      "ayahs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14
+      ],
+      "root_count": 9,
+      "branch_count": 9,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8331,
+      "label_hint": "dawn / daylight / drinking / morning",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 13,
+      "branch_count": 16,
+      "edge_count": 36
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.833,
+      "label_hint": "dawn / daylight / morning / time",
+      "ayahs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 12,
+      "branch_count": 14,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8319,
+      "label_hint": "hardness / ground / land / surface",
+      "ayahs": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 14,
+      "branch_count": 17,
+      "edge_count": 43
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.8266,
+      "label_hint": "hardness / rotation / container / wood",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 13,
+      "branch_count": 13,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.8257,
+      "label_hint": "rotation / wood / craft_material_built/tools_equipment / handle",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ],
+      "root_count": 11,
+      "branch_count": 11,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.8247,
+      "label_hint": "hardness / ground / land / barrenness",
+      "ayahs": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 38
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.8234,
+      "label_hint": "appetite / watering / drink / agriculture_food/food_nutrition",
+      "ayahs": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 11,
+      "branch_count": 12,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.8225,
+      "label_hint": "testimony / fabrication / lie / commitment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.8185,
+      "label_hint": "dawn / daylight / redress / time",
+      "ayahs": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 39
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.8129,
+      "label_hint": "marriage / courtship / sexuality / intercourse",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 13,
+      "branch_count": 13,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.8091,
+      "label_hint": "hardness / ground / land / barrenness",
+      "ayahs": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 50
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.8089,
+      "label_hint": "virtue / generosity / character / goodness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 13,
+      "branch_count": 14,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.8089,
+      "label_hint": "marriage / gender / courtship / consummation",
+      "ayahs": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "root_count": 12,
+      "branch_count": 12,
+      "edge_count": 13
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.8075,
+      "label_hint": "leather / material / surface / craft",
+      "ayahs": [
+        1,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "root_count": 9,
+      "branch_count": 11,
+      "edge_count": 14
+    }
+  ]
+}

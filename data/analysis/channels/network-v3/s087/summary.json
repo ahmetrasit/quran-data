@@ -1,0 +1,447 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 87,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s087",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s087",
+    "catalog_branch_count": 367,
+    "eligible_branch_count": 367,
+    "affinity_shape": [
+      367,
+      367
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.041592,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 2320,
+    "raw_candidates": 297,
+    "deduped_candidates": 248
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.7944,
+      "label_hint": "worship / ritual_belief/religion_worship / prayer / devotion",
+      "ayahs": [
+        1,
+        7,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "root_count": 8,
+      "branch_count": 14,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.7886,
+      "label_hint": "worship / ritual_belief/religion_worship / devotion / theology",
+      "ayahs": [
+        1,
+        2,
+        7,
+        9,
+        10,
+        12,
+        13,
+        15,
+        16
+      ],
+      "root_count": 8,
+      "branch_count": 15,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.7848,
+      "label_hint": "name / language / language_communication/language_speech / grammar",
+      "ayahs": [
+        1,
+        5,
+        7,
+        15,
+        16,
+        18,
+        19
+      ],
+      "root_count": 9,
+      "branch_count": 12,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.7736,
+      "label_hint": "praise / welfare / blessing / mercy",
+      "ayahs": [
+        1,
+        3,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.771,
+      "label_hint": "reproduction / birth / body_health_life/reproduction_birth / womb",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "root_count": 12,
+      "branch_count": 14,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.7621,
+      "label_hint": "grammar / deixis / discourse / preposition",
+      "ayahs": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        10,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.7596,
+      "label_hint": "blessing / praise / welfare / gift",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "root_count": 16,
+      "branch_count": 17,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.7586,
+      "label_hint": "calculation / condition_force_change/capacity_ability / planning / compatibility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7584,
+      "label_hint": "vision / gaze / birth / second",
+      "ayahs": [
+        1,
+        4,
+        7,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "root_count": 11,
+      "branch_count": 14,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7575,
+      "label_hint": "welfare / reputation / praise / benefit",
+      "ayahs": [
+        1,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7554,
+      "label_hint": "welfare / ritual_belief/religion_worship / praise / benefit",
+      "ayahs": [
+        1,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7536,
+      "label_hint": "production / creation / appearance / making",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        12,
+        13,
+        16,
+        18,
+        19
+      ],
+      "root_count": 9,
+      "branch_count": 16,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7529,
+      "label_hint": "welfare / life / reputation / praise",
+      "ayahs": [
+        1,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "root_count": 10,
+      "branch_count": 15,
+      "edge_count": 29
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7528,
+      "label_hint": "honor / invitation / name / ascent",
+      "ayahs": [
+        1,
+        2,
+        7,
+        9,
+        10,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7528,
+      "label_hint": "praise / welfare / reputation / attention",
+      "ayahs": [
+        1,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 29
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7516,
+      "label_hint": "pasture / ascent / visibility / sky",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7516,
+      "label_hint": "grammar / deixis / invitation / approach",
+      "ayahs": [
+        1,
+        2,
+        3,
+        6,
+        13,
+        15,
+        16,
+        18
+      ],
+      "root_count": 11,
+      "branch_count": 14,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7506,
+      "label_hint": "community / kinship_society/household_community / fertility / society",
+      "ayahs": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        11,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "root_count": 10,
+      "branch_count": 15,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7505,
+      "label_hint": "pasture / fertility / plant / agriculture",
+      "ayahs": [
+        1,
+        5,
+        11,
+        12,
+        13,
+        15,
+        16,
+        19
+      ],
+      "root_count": 10,
+      "branch_count": 13,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7489,
+      "label_hint": "reproduction / birth / vision / body_health_life/reproduction_birth",
+      "ayahs": [
+        1,
+        4,
+        6,
+        7,
+        11,
+        12,
+        13,
+        15,
+        16,
+        19
+      ],
+      "root_count": 11,
+      "branch_count": 16,
+      "edge_count": 30
+    }
+  ]
+}

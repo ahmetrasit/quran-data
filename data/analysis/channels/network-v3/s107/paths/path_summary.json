@@ -1,0 +1,796 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 107,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 100,
+    "path_graph_edges": 1258,
+    "raw_path_states": 69044,
+    "unique_path_states": 29769,
+    "deduped_paths": 2920
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.849,
+      "label_hint": "ritual_belief/religion_worship / inquiry / submission / worship",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ذ و و",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8394,
+      "label_hint": "question / movement_travel/motion / attention / horse",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ع ع",
+        "ر ء ي",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8385,
+      "label_hint": "judgment / inquiry / blessing / reputation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ذ و و",
+        "ر ء ي",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "و ي ل",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8383,
+      "label_hint": "inquiry / discipline / reputation / ritual_belief/religion_worship",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ذ و و",
+        "ر ء ي",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8367,
+      "label_hint": "inquiry / discipline / reputation / ritual_belief/religion_worship",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ذ و و",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8347,
+      "label_hint": "city / inquiry / discipline / reputation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ذ و و",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8322,
+      "label_hint": "submission / devotion / blessing / reputation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8306,
+      "label_hint": "question / herding / shame / attention",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ع ع",
+        "ر ء ي",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "و ي ل",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.83,
+      "label_hint": "spirit / healing / submission / ritual_belief/religion_worship",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8297,
+      "label_hint": "reflection / submission / poverty / beauty",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ذ و و",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8293,
+      "label_hint": "submission / devotion / blessing / poverty",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8292,
+      "label_hint": "city / worship / reputation / ostentation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8289,
+      "label_hint": "agency / inquiry / discipline / judgment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ذ و و",
+        "ر ء ي",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.826,
+      "label_hint": "ritual_belief/religion_worship / submission / worship / reputation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ذ و و",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "م ع ن",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8247,
+      "label_hint": "inquiry / condition_force_change/capacity_ability / reputation / ritual_belief/religion_worship",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح ض ض",
+        "د ي ن",
+        "ذ و و",
+        "ر ء ي",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8244,
+      "label_hint": "attention / question / submission / ritual_belief/religion_worship",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ع ع",
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8241,
+      "label_hint": "blessing / judgment / agency / negligence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.822,
+      "label_hint": "condition_force_change/capacity_ability / judgment / prompting / conflict_security/conflict",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح ض ض",
+        "د ع ع",
+        "د ي ن",
+        "ر ء ي",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8218,
+      "label_hint": "discipline / reputation / ritual_belief/religion_worship / space_form_boundary/place_location",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح ض ض",
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8218,
+      "label_hint": "pasture / reflection / city / fodder",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح ض ض",
+        "د ع ع",
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "م ع ن",
+        "م ن ع"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8214,
+      "label_hint": "condition_force_change/capacity_ability / prompting / conflict_security/conflict / negligence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح ض ض",
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.8214,
+      "label_hint": "judgment / blessing / agency / negligence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ء ي",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "و ي ل",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8213,
+      "label_hint": "household / family / kinship_society/household_community / negligence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ع ع",
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8205,
+      "label_hint": "attention / judgment / question / blessing",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ع ع",
+        "د ي ن",
+        "ر ء ي",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "و ي ل",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8202,
+      "label_hint": "herding / command / inquiry / shame",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ع ع",
+        "ذ و و",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.8199,
+      "label_hint": "judgment / submission / devotion / blessing",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "و ي ل",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8198,
+      "label_hint": "reflection / city / isolation / livelihood",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8196,
+      "label_hint": "city / inquiry / worship / reputation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ذ و و",
+        "ر ء ي",
+        "س ك ن",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.819,
+      "label_hint": "ritual_belief/religion_worship / worship / reputation / emotion_ethics/deception_corruption",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ء ي",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "و ي ل",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8189,
+      "label_hint": "spirit / inquiry / healing / blessing",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ذ و و",
+        "ر ء ي",
+        "س ه و",
+        "ص ل و",
+        "ط ع م",
+        "ك ذ ب",
+        "م ع ن",
+        "م ن ع",
+        "ي ت م"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 99,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 150,
+    "path_graph_edges": 1850,
+    "raw_path_states": 110641,
+    "unique_path_states": 43481,
+    "deduped_paths": 5678
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8452,
+      "label_hint": "spirit / healing / society / mankind",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ر ء ي",
+        "ر ب ب"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8355,
+      "label_hint": "reputation / rumor / anecdote / ostentation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ح د ث",
+        "ر ء ي",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8339,
+      "label_hint": "freshness / ewe / beginning / body_health_life/life_stage_aging",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ب ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ص د ر",
+        "ع م ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.832,
+      "label_hint": "purity / drink / hydrology / orientation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "خ ب ر",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ص د ر",
+        "ع م ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8312,
+      "label_hint": "question / language_communication/communication / attention / orientation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "خ ب ر",
+        "خ ر ج",
+        "ر ء ي",
+        "ش ت ت",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8302,
+      "label_hint": "manifestation / spirit / revelation / healing",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8278,
+      "label_hint": "revelation / display / showing / manifestation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8261,
+      "label_hint": "levy / spirit / healing / weight",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "خ ب ر",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8258,
+      "label_hint": "agency / manifestation / spirit / revelation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8235,
+      "label_hint": "levy / taxation / spirit / freshness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ب ر",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8231,
+      "label_hint": "revelation / display / showing / manifestation",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ن س",
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ش ر ر",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8224,
+      "label_hint": "theology / belief / opinion / cognition_perception/knowledge_learning",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "خ ب ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8221,
+      "label_hint": "grammar / manifestation / tremor / revelation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ث ق ل",
+        "ح د ث",
+        "خ ر ج",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.822,
+      "label_hint": "fire / manifestation / revelation / law_governance/authority_governance",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ث ق ل",
+        "ح د ث",
+        "خ ر ج",
+        "ذ ر ر",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8215,
+      "label_hint": "fire / law_governance/authority_governance / value / power",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "خ ب ر",
+        "ذ ر ر",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8213,
+      "label_hint": "law_governance/authority_governance / purity / value / hierarchy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "خ ب ر",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب",
+        "ص د ر",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8211,
+      "label_hint": "revelation / display / showing / manifestation",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8202,
+      "label_hint": "finance / fire / law_governance/authority_governance / levy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "خ ب ر",
+        "خ ر ج",
+        "ذ ر ر",
+        "ر ء ي",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8192,
+      "label_hint": "manifestation / revelation / origin / disclosure",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8192,
+      "label_hint": "question / creation / language_communication/communication / attention",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ر ج",
+        "ر ء ي",
+        "ش ت ت",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8184,
+      "label_hint": "burden / biology / pregnancy / anatomy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "خ ب ر",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.8174,
+      "label_hint": "levy / society / spirit / scattering",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "خ ب ر",
+        "خ ر ج",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ش ر ر",
+        "ص د ر"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.817,
+      "label_hint": "confrontation / scattering / opposition / food",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "خ ب ر",
+        "خ ر ج",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ش ر ر",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8166,
+      "label_hint": "manifestation / spirit / meaning / revelation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8164,
+      "label_hint": "revelation / display / showing / manifestation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.8163,
+      "label_hint": "purity / orientation / separation / nurse",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "خ ب ر",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ص د ر",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8162,
+      "label_hint": "manifestation / spirit / revelation / healing",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ل",
+        "ح د ث",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8162,
+      "label_hint": "revelation / display / grammar / showing",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ن س",
+        "ح د ث",
+        "خ ر ج",
+        "خ ي ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع م ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8158,
+      "label_hint": "confrontation / scattering / opposition / encounter",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ر ض",
+        "خ ب ر",
+        "ذ ر ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ش ت ت",
+        "ش ر ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8153,
+      "label_hint": "revelation / display / showing / manifestation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ن س",
+        "ح د ث",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ب ب",
+        "ز ل ز ل",
+        "ش ر ر",
+        "ع م ل",
+        "ق و ل",
+        "و ح ي"
+      ]
+    }
+  ]
+}

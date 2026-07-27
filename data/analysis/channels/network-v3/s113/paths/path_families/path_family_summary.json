@@ -1,0 +1,427 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 3409,
+    "similarity_edges": 21264,
+    "path_families": 74
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.63,
+      "label_hint": "rumor / emulation / aspiration / admiration",
+      "member_count": 2,
+      "roots": [
+        "ح س د",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6145,
+      "label_hint": "survival / appropriation / self / threat",
+      "member_count": 2,
+      "roots": [
+        "ش ر ر",
+        "ع و ذ",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.61,
+      "label_hint": "meaning / evidence / expectoration / indication",
+      "member_count": 2,
+      "roots": [
+        "ش ر ر",
+        "ق و ل",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.6086,
+      "label_hint": "expectoration / pool / sweetness / chest",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.601,
+      "label_hint": "fat / dripping / expectoration / roast",
+      "member_count": 2,
+      "roots": [
+        "ش ر ر",
+        "ق و ل",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.5975,
+      "label_hint": "condition_force_change/capacity_ability / vocation / aptitude / worthiness",
+      "member_count": 2,
+      "roots": [
+        "خ ل ق",
+        "ش ر ر",
+        "ع و ذ"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.5663,
+      "label_hint": "care / nurture / decay / mother",
+      "member_count": 6,
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "ق و ل",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.5509,
+      "label_hint": "encirclement / self / devotion / closure",
+      "member_count": 2,
+      "roots": [
+        "ش ر ر",
+        "ع ق د",
+        "غ س ق",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.5379,
+      "label_hint": "nurse / stepchild / childcare / ward",
+      "member_count": 6,
+      "roots": [
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.516,
+      "label_hint": "notch / cavity / hole / depression",
+      "member_count": 3,
+      "roots": [
+        "ش ر ر",
+        "ع و ذ",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.5065,
+      "label_hint": "dimness / blindness / impairment / incantation",
+      "member_count": 3,
+      "roots": [
+        "ش ر ر",
+        "ع و ذ",
+        "غ س ق",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.5043,
+      "label_hint": "food / residue / syrup / fragrance",
+      "member_count": 23,
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.5039,
+      "label_hint": "decay / nurture / fraying / wealth",
+      "member_count": 82,
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.5028,
+      "label_hint": "creation / expectoration / release / thought",
+      "member_count": 52,
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.4961,
+      "label_hint": "condition_force_change/capacity_ability / vocation / aptitude / worthiness",
+      "member_count": 3,
+      "roots": [
+        "خ ل ق",
+        "ش ر ر",
+        "ف ل ق"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.4896,
+      "label_hint": "conflict_security/protection_security / refuge / recourse / asylum",
+      "member_count": 29,
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.4869,
+      "label_hint": "food / contamination / debris / impurity",
+      "member_count": 3,
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "غ س ق"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.4742,
+      "label_hint": "bat / club / kinship_society/recreation_sport / food",
+      "member_count": 159,
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.4737,
+      "label_hint": "self / emulation / aspiration / appropriation",
+      "member_count": 5,
+      "roots": [
+        "ح س د",
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.4679,
+      "label_hint": "grammar / preposition / quantification / linguistics",
+      "member_count": 7,
+      "roots": [
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.4648,
+      "label_hint": "hollow / reservoir / notch / cavity",
+      "member_count": 3,
+      "roots": [
+        "خ ل ق",
+        "ر ب ب",
+        "ع ق د",
+        "ق و ل",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.4633,
+      "label_hint": "furnishing / gear / eagerness / youth",
+      "member_count": 32,
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.4552,
+      "label_hint": "avoidance / wariness / fabrication / dislike",
+      "member_count": 55,
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.4545,
+      "label_hint": "fire / prince / law_governance/authority_governance / ruler",
+      "member_count": 5,
+      "roots": [
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.4527,
+      "label_hint": "plant / ecology / herb / greenery",
+      "member_count": 49,
+      "roots": [
+        "ح س د",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ",
+        "غ س ق",
+        "ف ل ق",
+        "ق و ل",
+        "ن ف ث",
+        "و ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.4515,
+      "label_hint": "survival / emotion_ethics/intention_character / threat / self",
+      "member_count": 5,
+      "roots": [
+        "ش ر ر",
+        "ع ق د",
+        "ع و ذ"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.4473,
+      "label_hint": "fat / dripping / food / roast",
+      "member_count": 8,
+      "roots": [
+        "خ ل ق",
+        "ش ر ر",
+        "غ س ق",
+        "ق و ل",
+        "ن ف ث"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.4467,
+      "label_hint": "belt / self / knot / devotion",
+      "member_count": 7,
+      "roots": [
+        "ش ر ر",
+        "ع ق د",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.4465,
+      "label_hint": "imperforation / conflict / quarrel / blockage",
+      "member_count": 7,
+      "roots": [
+        "خ ل ق",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.4445,
+      "label_hint": "badness / malice / vice / enormity",
+      "member_count": 6,
+      "roots": [
+        "خ ل ق",
+        "ر ب ب",
+        "ش ر ر",
+        "ف ل ق"
+      ]
+    }
+  ]
+}

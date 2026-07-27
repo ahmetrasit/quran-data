@@ -1,0 +1,925 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 66,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 826,
+    "path_graph_edges": 10080,
+    "raw_path_states": 600650,
+    "unique_path_states": 245099,
+    "deduped_paths": 30561
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.854,
+      "label_hint": "submission / surrender / release / condition_force_change/control_restraint",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ح ل ل",
+        "س ل م",
+        "ش د د",
+        "ط ل ق",
+        "ع ب د",
+        "ك ف ر",
+        "ك و ن",
+        "م ل ك",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8453,
+      "label_hint": "family / marriage / relative / container",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ب ي ن",
+        "ح ر م",
+        "د خ ل",
+        "ر ب ب",
+        "ر ح م",
+        "ظ ه ر",
+        "ع س ي",
+        "ك و ن",
+        "ن و ر",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8416,
+      "label_hint": "power / dominance / pity / conquest",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء و ي",
+        "ب ء س",
+        "ت و ب",
+        "ر ب ب",
+        "ر ح م",
+        "ر و ح",
+        "ش د د",
+        "ظ ه ر",
+        "ع ب د",
+        "ع ذ ر"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8395,
+      "label_hint": "marriage / family / union / wedding",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ب ي ن",
+        "ح ر م",
+        "ح ص ن",
+        "د خ ل",
+        "ر ب ب",
+        "ر ح م",
+        "ز و ج",
+        "غ ن ي",
+        "ك ف ر",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8368,
+      "label_hint": "submission / ritual_belief/religion_worship / devotion / obedience",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "س ل م",
+        "ع ب د",
+        "ع ر ض",
+        "ع ن د",
+        "ق ن ت",
+        "ق و م",
+        "ك ف ر",
+        "ك و ن",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8344,
+      "label_hint": "concealment / protection / screen / safety",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء م ن",
+        "ب ء س",
+        "ب ع ض",
+        "ب ن ي",
+        "ج ن ن",
+        "خ و ن",
+        "غ ف ر",
+        "ف ر ض",
+        "ك ف ر",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8336,
+      "label_hint": "marriage / union / wedding / wedlock",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "roots": [
+        "ح ص ن",
+        "ز و ج",
+        "غ ن ي",
+        "ك ف ر",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8328,
+      "label_hint": "star / marriage / land_water_sky/sky_astronomy / astronomy",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ح ص ن",
+        "ز و ج",
+        "ص غ و",
+        "ع ذ ر",
+        "غ ف ر",
+        "غ ن ي",
+        "ق ل ب",
+        "ك ف ر",
+        "م ل ك",
+        "ن ج و"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8315,
+      "label_hint": "ownership / dominion / invocation / ritual_belief/prayer_supplication",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء م ن",
+        "ذ و و",
+        "ر ب ب",
+        "ظ ه ر",
+        "ع ذ ر",
+        "ق ل ب",
+        "ق و ل",
+        "م ل ك",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8309,
+      "label_hint": "dominion / invocation / sound / response",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء م ن",
+        "ر ب ب",
+        "ع ذ ر",
+        "غ ن ي",
+        "ق ل ب",
+        "ق و ل",
+        "م ل ك",
+        "ن ب ء",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8294,
+      "label_hint": "marriage / union / equipment / family",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ح ر م",
+        "ح ص ن",
+        "ح ل ل",
+        "ز و ج",
+        "ظ ه ر",
+        "غ ن ي",
+        "ك ف ر",
+        "م ر ء",
+        "م ل ك",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8284,
+      "label_hint": "family / marriage / wedlock / relative",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ح ر م",
+        "ح ص ن",
+        "د خ ل",
+        "ر ب ب",
+        "ر ح م",
+        "ز و ج",
+        "ع س ي",
+        "ك و ن",
+        "م ل ك",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.828,
+      "label_hint": "astronomy / star / season / rain",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ج ه د",
+        "ح ج ر",
+        "خ ب ر",
+        "ر ب ب",
+        "ض ر ب",
+        "ع ذ ر",
+        "غ ف ر",
+        "ق ل ب",
+        "ك ل ل",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8279,
+      "label_hint": "perfume / road / cognition_perception/perception / aroma",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ح ل ل",
+        "ر و ح",
+        "ع ب د",
+        "ع ر ف",
+        "ع م ل",
+        "ك ف ر",
+        "م ع ع",
+        "م ل ك",
+        "ن ب ء",
+        "ن ب و"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8275,
+      "label_hint": "submission / surrender / obedience / ritual_belief/religion_worship",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "س ل م",
+        "ظ ه ر",
+        "ع ب د",
+        "ع ر ض",
+        "ك ف ر",
+        "ك و ن",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8273,
+      "label_hint": "power / capacity / condition_force_change/capacity_ability / ownership",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ج ه د",
+        "ر ب ب",
+        "ع ب د",
+        "ع ذ ر",
+        "ق د ر",
+        "م ل ك",
+        "ي د ي",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8264,
+      "label_hint": "road / route / path / boundary",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ب ن ي",
+        "ظ ه ر",
+        "ع ب د",
+        "ع م ل",
+        "م ع ع",
+        "م ل ك",
+        "ن ب ء",
+        "ن ب و"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8248,
+      "label_hint": "horse / breeding / body_health_life/reproduction_birth / lamb",
+      "ayahs": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء م ر",
+        "ب غ ي",
+        "ج ن ن",
+        "ح ج ر",
+        "ح ص ن",
+        "ح ل ل",
+        "ر ح م",
+        "ر و ح",
+        "ش ي ء",
+        "ط ل ق"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8239,
+      "label_hint": "capacity / power / condition_force_change/capacity_ability / strength",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ي",
+        "ج ه د",
+        "ر و ح",
+        "ش د د",
+        "ع ب د",
+        "ع ذ ر",
+        "ق و ل",
+        "ن ب ء",
+        "ي د ي",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8238,
+      "label_hint": "prohibition / law_governance/authority_governance / dominion / interdiction",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ح ج ر",
+        "ح ر م",
+        "ح ك م",
+        "ر ب ب",
+        "ض ر ب",
+        "ع ذ ر",
+        "ق ل ب",
+        "ق و ل",
+        "م ل ك",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8238,
+      "label_hint": "enclosure / mecca / tribe / precinct",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ب ن ي",
+        "ب ي ت",
+        "ت م م",
+        "ح ج ر",
+        "ح ر م",
+        "ص ل ح",
+        "ص ي ر",
+        "ع ر ض",
+        "ن ه ر",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.8233,
+      "label_hint": "perfume / noon / cognition_perception/perception / aroma",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ب ك ر",
+        "ح ل ل",
+        "ر و ح",
+        "ش د د",
+        "ظ ه ر",
+        "ع ب د",
+        "ع ر ف",
+        "ق و م",
+        "ك ف ر",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.822,
+      "label_hint": "devotion / ritual_belief/religion_worship / darkness / submission",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ب غ ي",
+        "ج ن ن",
+        "ظ ل م",
+        "ع ب د",
+        "ع س ي",
+        "ع ن د",
+        "ق ن ت",
+        "ق و م",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8213,
+      "label_hint": "prevention / covenant / inheritance / interdiction",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ي",
+        "ب ع د",
+        "ح ج ر",
+        "ح ر م",
+        "ح ك م",
+        "ر ب ب",
+        "ض ر ب",
+        "ظ ل م",
+        "ك ل ل",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8212,
+      "label_hint": "protection / shield / concealment / conflict_security/protection_security",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ج ن ن",
+        "ح ج ر",
+        "ح ر م",
+        "ح ص ن",
+        "ز و ج",
+        "غ ف ر",
+        "ف ر ض",
+        "ك ف ر",
+        "م ث ل",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.8209,
+      "label_hint": "gift / power / kinship_society/hospitality_welfare / blessing",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ب ء س",
+        "ب غ ي",
+        "ر ب ب",
+        "ر و ح",
+        "ش د د",
+        "ظ ه ر",
+        "ع ب د",
+        "غ ن ي",
+        "ك ف ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8208,
+      "label_hint": "submission / devotion / ritual_belief/religion_worship / obedience",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ب غ ي",
+        "ر و ح",
+        "ط ل ق",
+        "ع ب د",
+        "ع ر ض",
+        "ع ن د",
+        "ق ن ت",
+        "ق و م",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8207,
+      "label_hint": "craft_material_built/tools_equipment / tool / tension / mechanics",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ب ك ر",
+        "ب ن ي",
+        "ب ي ن",
+        "ض ر ب",
+        "ع م ل",
+        "ف ر ج",
+        "ق و ل",
+        "ق و م",
+        "م ل ك",
+        "ن ب و"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8206,
+      "label_hint": "road / route / path / boundary",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ب ن ي",
+        "ح ل ل",
+        "ظ ه ر",
+        "ع ب د",
+        "ع م ل",
+        "ك ف ر",
+        "م ل ك",
+        "ن ب ء",
+        "ن ب و",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8203,
+      "label_hint": "power / capacity / strength / dominance",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ي",
+        "ج ه د",
+        "ر ب ب",
+        "ر و ح",
+        "ش د د",
+        "ظ ه ر",
+        "ع ب د",
+        "ع ذ ر",
+        "ي د ي",
+        "ي م ن"
+      ]
+    }
+  ]
+}

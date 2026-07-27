@@ -1,0 +1,464 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 86,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s086",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s086",
+    "catalog_branch_count": 316,
+    "eligible_branch_count": 316,
+    "affinity_shape": [
+      316,
+      316
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.0424375,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 2019,
+    "raw_candidates": 267,
+    "deduped_candidates": 206
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8338,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / death / fertility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13
+      ],
+      "root_count": 11,
+      "branch_count": 13,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.7938,
+      "label_hint": "sky / visibility / rain / land_water_sky/weather_climate",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        17
+      ],
+      "root_count": 11,
+      "branch_count": 14,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.7847,
+      "label_hint": "land_water_sky/water_hydrology / water / liquid / transparency",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.7781,
+      "label_hint": "death / divorce / childbirth / separation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        17
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.778,
+      "label_hint": "water / body_health_life/reproduction_birth / reproduction / land_water_sky/water_hydrology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.7719,
+      "label_hint": "land_water_sky/water_hydrology / water / soul / liquid",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.7716,
+      "label_hint": "water / sky / land_water_sky/weather_climate / irrigation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.7707,
+      "label_hint": "sky / land_water_sky/weather_climate / visibility / covering",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        17
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7661,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / inheritance / fertility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        13,
+        17
+      ],
+      "root_count": 11,
+      "branch_count": 15,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.766,
+      "label_hint": "strength / condition_force_change/capacity_ability / proportion / virtue",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        17
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7643,
+      "label_hint": "body_health_life/reproduction_birth / separation / reproduction / fertility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7641,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / virtue / fertility",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7641,
+      "label_hint": "separation / reproduction / division / body_health_life/reproduction_birth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.762,
+      "label_hint": "articulation / language / definition / explanation",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7594,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / virtue / transparency",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        17
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7593,
+      "label_hint": "water / land_water_sky/water_hydrology / irrigation / transparency",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7586,
+      "label_hint": "passage / geology / wall / route",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        12,
+        13,
+        17
+      ],
+      "root_count": 11,
+      "branch_count": 15,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7584,
+      "label_hint": "growth / agriculture / flora / ecology",
+      "ayahs": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        17
+      ],
+      "root_count": 12,
+      "branch_count": 14,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7579,
+      "label_hint": "decay / condition_force_change/capacity_ability / virtue / capacity",
+      "ayahs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        17
+      ],
+      "root_count": 9,
+      "branch_count": 15,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7557,
+      "label_hint": "land_water_sky/water_hydrology / passage / terrain / path",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        17
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 26
+    }
+  ]
+}

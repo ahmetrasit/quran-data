@@ -1,0 +1,67 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s111",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s111/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 36,
+    "similarity_edges": 113,
+    "families": 4,
+    "family_size_buckets": {
+      "medium_5_14": 4
+    },
+    "structural_type_counts": {
+      "distributed": 4
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.6298,
+      "label_hint": "benefit / utility / kinship_society/hospitality_welfare / pledge",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 5,
+      "root_count": 16,
+      "branch_count": 56
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.536,
+      "label_hint": "land_water_sky/fire_heat / character / fire / chivalry",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 5,
+      "root_count": 13,
+      "branch_count": 50
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.4955,
+      "label_hint": "hospitality / celebration / inquiry / deixis",
+      "member_count": 9,
+      "structural_type": "distributed",
+      "ayah_count": 5,
+      "root_count": 16,
+      "branch_count": 62
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.462,
+      "label_hint": "cord / body_health_life/reproduction_birth / fetus / gestation",
+      "member_count": 14,
+      "structural_type": "distributed",
+      "ayah_count": 5,
+      "root_count": 16,
+      "branch_count": 75
+    }
+  ]
+}

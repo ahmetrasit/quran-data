@@ -1,0 +1,939 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 65,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 794,
+    "path_graph_edges": 9678,
+    "raw_path_states": 584783,
+    "unique_path_states": 259990,
+    "deduped_paths": 32224
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8574,
+      "label_hint": "sky / rain / following / order",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء ر ض",
+        "ب ع د",
+        "ت ح ت",
+        "ح م ل",
+        "ر ب ب",
+        "ر ز ق",
+        "س م و",
+        "ع ق ب",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8536,
+      "label_hint": "growth / agriculture_food/plant_vegetation / sapling / palm",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء م ر",
+        "ج ع ل",
+        "ر س ل",
+        "ر ض ع",
+        "ش ي ء",
+        "ط ل ق",
+        "ك ف ر",
+        "ل ب ب",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.85,
+      "label_hint": "circumstance / condition / case / ailment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء م ر",
+        "ء و ل",
+        "ت ل و",
+        "د خ ل",
+        "س و ء",
+        "ع د و",
+        "ق و م",
+        "ك ل ف",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.849,
+      "label_hint": "household / family / dependent / law_governance/authority_governance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ء و ل",
+        "ب ي ت",
+        "س ك ن",
+        "ع ر ف",
+        "ق ر ي",
+        "ق و م",
+        "ك ل ل",
+        "و ك ل"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8483,
+      "label_hint": "freshness / beginning / youth / fertility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء خ ر",
+        "ء م ر",
+        "ء و ل",
+        "ب ع د",
+        "ج ن ن",
+        "ح د ث",
+        "ر ب ب",
+        "ر س ل",
+        "ر ض ع"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8482,
+      "label_hint": "rain / sky / fertility / downpour",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ر ض",
+        "ت ح ت",
+        "ح م ل",
+        "ر ب ب",
+        "ر ز ق",
+        "س م و",
+        "ع ر ف",
+        "ن ز ل",
+        "ن ف س",
+        "و ب ل"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8472,
+      "label_hint": "household / family / dependent / follower",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ء م ر",
+        "ء و ل",
+        "ب ل غ",
+        "ب ي ت",
+        "س ك ن",
+        "ق ر ي",
+        "ك ل ل",
+        "و ك ل"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8455,
+      "label_hint": "circumstance / condition / token / case",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء م ر",
+        "ء و ل",
+        "ء ي ي",
+        "د خ ل",
+        "س و ء",
+        "ق و م",
+        "ك ف ر",
+        "ك ل ف",
+        "ك و ن",
+        "م ث ل"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8423,
+      "label_hint": "sign / token / landmark / condition",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ج ل",
+        "ء م ر",
+        "ء و ل",
+        "ء ي ي",
+        "س و ء",
+        "ع ل م",
+        "ك ف ر",
+        "ك و ن",
+        "م ث ل",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.842,
+      "label_hint": "freshness / fertility / growth / increase",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء م ر",
+        "ج ن ن",
+        "ح د ث",
+        "ر ب ب",
+        "ر س ل",
+        "ر ض ع",
+        "ك و ن",
+        "ل ب ب",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8419,
+      "label_hint": "fertility / increase / growth / yield",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء م ر",
+        "ء و ل",
+        "خ ر ج",
+        "ر ب ب",
+        "ر س ل",
+        "ل ب ب",
+        "ن ب و",
+        "ن ك ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8411,
+      "label_hint": "horse / speed / gallop / running",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ب ل غ",
+        "خ ر ج",
+        "ش د د",
+        "ش ي ء",
+        "ط ل ق",
+        "ع د و",
+        "و س ع",
+        "و ض ع",
+        "و ق ي",
+        "و ك ل"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8409,
+      "label_hint": "household / family / dependent / question",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ء و ل",
+        "ء ي ي",
+        "ب ي ت",
+        "ذ و و",
+        "س ك ن",
+        "ش ي ء",
+        "ق ر ي",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8408,
+      "label_hint": "residence / space_form_boundary/place_location / location / hierarchy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ب د",
+        "ج ع ل",
+        "ح ي ث",
+        "ر ب ب",
+        "ق و م",
+        "ك و ن",
+        "ل ب ب",
+        "ن ز ل",
+        "ن ك ر",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8406,
+      "label_hint": "household / family / dependent / imitation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ه",
+        "ء م ر",
+        "ء و ل",
+        "ب ي ت",
+        "س ك ن",
+        "ق ر ي",
+        "ق و م",
+        "ك ل ل",
+        "م ث ل",
+        "و ك ل"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8391,
+      "label_hint": "circumstance / condition / imposture / case",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء م ر",
+        "ء و ل",
+        "ت ل و",
+        "د خ ل",
+        "ق ر ي",
+        "ك ل ف",
+        "ك و ن",
+        "ن ب ء",
+        "ن ب و"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8387,
+      "label_hint": "agriculture_food/plant_vegetation / sapling / palm / growth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء م ر",
+        "ء و ل",
+        "ج ع ل",
+        "د خ ل",
+        "ر ب ب",
+        "ر س ل",
+        "ر ض ع",
+        "ش ي ء",
+        "ط ل ق"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8368,
+      "label_hint": "sign / duration / token / landmark",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ب د",
+        "ء ج ل",
+        "ء م ر",
+        "ء ي ي",
+        "ع د د",
+        "ع ل م",
+        "ك ف ر",
+        "م ث ل",
+        "ن و ر",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8366,
+      "label_hint": "beginning / sky / following / freshness",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء ر ض",
+        "ء و ل",
+        "ب ع د",
+        "ت ح ت",
+        "ج ن ن",
+        "ح د ث",
+        "ر ب ب",
+        "س م و",
+        "ع ق ب"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8362,
+      "label_hint": "circumstance / condition / case / pleasure",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء م ر",
+        "ء و ل",
+        "ت ل و",
+        "ح س ب",
+        "د خ ل",
+        "س و ء",
+        "ش ي ء",
+        "ك ل ف",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8351,
+      "label_hint": "fertility / increase / growth / estrus",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء م ر",
+        "ء و ل",
+        "ج ع ل",
+        "ر ب ب",
+        "ر س ل",
+        "س م و",
+        "ل ب ب",
+        "و ب ل",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.835,
+      "label_hint": "fertility / increase / milk / growth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء م ر",
+        "ء و ل",
+        "ب ي ت",
+        "ر ب ب",
+        "ر س ل",
+        "ش ه د",
+        "ظ ل م",
+        "ل ب ب",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8342,
+      "label_hint": "sound / commitment / readiness / performance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء م ر",
+        "ت ل و",
+        "ر س ل",
+        "ش ي ء",
+        "ع د د",
+        "ع م ل",
+        "ق و م",
+        "ن ب ء",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8339,
+      "label_hint": "circumstance / condition / wage / fee",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ج ر",
+        "ء م ر",
+        "ء و ل",
+        "ج ر ي",
+        "ج ع ل",
+        "س و ء",
+        "ع م ل",
+        "ق ر ي",
+        "ق و م",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8339,
+      "label_hint": "freshness / beginning / youth / priority",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء ر ض",
+        "ء و ل",
+        "ب ع د",
+        "ت ح ت",
+        "ج ن ن",
+        "ح د ث",
+        "ر ب ب",
+        "ع ق ب",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.8338,
+      "label_hint": "law_governance/authority_governance / rule / bureaucracy / reform",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء م ر",
+        "ء و ل",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8329,
+      "label_hint": "planning / calculation / deliberation / law_governance/authority_governance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ل ي",
+        "ء م ر",
+        "ح س ب",
+        "خ ل ق",
+        "ض ر ر",
+        "ق د ر",
+        "ق ر ي",
+        "ق و م",
+        "ك ل ل",
+        "و ك ل"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8322,
+      "label_hint": "sky / priority / rain / sequence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء ر ض",
+        "ء و ل",
+        "ب ع د",
+        "ت ح ت",
+        "ر ب ب",
+        "ر ز ق",
+        "س م و",
+        "ع ق ب",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8303,
+      "label_hint": "fertility / yield / increase / prosperity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء م ر",
+        "ء و ل",
+        "ب ي ت",
+        "د خ ل",
+        "ر ب ب",
+        "ر س ل",
+        "ظ ل م",
+        "ع ق ب",
+        "م س ك"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8302,
+      "label_hint": "readiness / preparation / imitation / commitment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ت ي",
+        "ء م ر",
+        "ش ي ء",
+        "ع د د",
+        "ع ر ف",
+        "ع م ل",
+        "ق و م",
+        "م ث ل",
+        "و ض ع",
+        "و ك ل"
+      ]
+    }
+  ]
+}

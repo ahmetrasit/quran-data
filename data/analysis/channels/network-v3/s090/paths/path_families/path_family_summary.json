@@ -1,0 +1,463 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 10834,
+    "similarity_edges": 46831,
+    "path_families": 826
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6786,
+      "label_hint": "alphabet / adulthood / body_health_life/life_stage_aging / elder",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "ش ف ه",
+        "ص ح ب",
+        "ف ك ك",
+        "ق ح م",
+        "ك و ن",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6753,
+      "label_hint": "adulthood / offspring / body_health_life/life_stage_aging / descendant",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "ر ق ب",
+        "ص ح ب",
+        "ع ق ب",
+        "ق ح م",
+        "ل س ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6743,
+      "label_hint": "language_communication/rhetoric_discourse / authorship / fiction / forgery",
+      "member_count": 2,
+      "roots": [
+        "خ ل ق",
+        "ر ق ب",
+        "ع ق ب",
+        "ف ك ك",
+        "ق و ل",
+        "ل س ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.6739,
+      "label_hint": "waterskin / equipment / water / container",
+      "member_count": 2,
+      "roots": [
+        "ج ع ل",
+        "ح ل ل",
+        "ر ق ب",
+        "ع ي ن",
+        "ق ر ب",
+        "ن ج د",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6698,
+      "label_hint": "hardship / incursion / toil / plunge",
+      "member_count": 2,
+      "roots": [
+        "ص ب ر",
+        "ق ح م",
+        "ق و ل",
+        "ك ب د",
+        "ك ف ر",
+        "ن ج د",
+        "و ص ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6585,
+      "label_hint": "oath / share / release / supervisor",
+      "member_count": 2,
+      "roots": [
+        "ح ل ل",
+        "ر ق ب",
+        "ص ب ر",
+        "ط ع م",
+        "ع ي ن",
+        "ق س م",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6427,
+      "label_hint": "space_form_boundary/place_location / habitation / settlement / dwelling",
+      "member_count": 2,
+      "roots": [
+        "ب ل د",
+        "ح ل ل",
+        "س ك ن",
+        "ك ف ر",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.6339,
+      "label_hint": "obedience / justice / tractability / lag",
+      "member_count": 2,
+      "roots": [
+        "ب ل د",
+        "ح ل ل",
+        "ص ب ر",
+        "ص ح ب",
+        "ه د ي",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.6318,
+      "label_hint": "direction / sacrifice / movement_travel/orientation_direction / north",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "س ك ن",
+        "ش ء م",
+        "ق ر ب",
+        "ه د ي",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.6278,
+      "label_hint": "space_form_boundary/place_location / toponym / uhud / medina",
+      "member_count": 2,
+      "roots": [
+        "ء ح د",
+        "ء ص د",
+        "ح ل ل",
+        "س ك ن",
+        "ص ب ر",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.6251,
+      "label_hint": "hunting / concealment / stalking / hunt",
+      "member_count": 2,
+      "roots": [
+        "د ر ي",
+        "ر ق ب",
+        "س ك ن",
+        "ق و ل",
+        "ك ف ر",
+        "و ص ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.623,
+      "label_hint": "school / gloss / paraphrase / ideology",
+      "member_count": 2,
+      "roots": [
+        "ء ي ي",
+        "ج ع ل",
+        "خ ل ق",
+        "ف ك ك",
+        "ق و ل",
+        "ه ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.6174,
+      "label_hint": "land_water_sky/sky_astronomy / agriculture_food/plant_vegetation / astronomy / void",
+      "member_count": 2,
+      "roots": [
+        "ب ل د",
+        "ت ر ب",
+        "ج ع ل",
+        "ط ع م",
+        "ف ك ك",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.6167,
+      "label_hint": "release / deixis / attention / opening",
+      "member_count": 2,
+      "roots": [
+        "ح س ب",
+        "ح ل ل",
+        "ذ و و",
+        "ر ء ي",
+        "ف ك ك",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.6164,
+      "label_hint": "spirit / healing / settlement / mankind",
+      "member_count": 2,
+      "roots": [
+        "ء ح د",
+        "ء ن س",
+        "ب ل د",
+        "ر ء ي",
+        "س ك ن",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.6157,
+      "label_hint": "spirit / number / healing / time_measure_quantity/quantity_number",
+      "member_count": 2,
+      "roots": [
+        "ء ح د",
+        "ء ن س",
+        "ج ع ل",
+        "ح س ب",
+        "ر ء ي",
+        "ق ر ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.6153,
+      "label_hint": "tribe / spring / fragrance / ghassan",
+      "member_count": 2,
+      "roots": [
+        "خ ل ق",
+        "ص ب ر",
+        "ع ي ن",
+        "ك ف ر",
+        "ل ب د",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.6149,
+      "label_hint": "permission / production / creation / event",
+      "member_count": 2,
+      "roots": [
+        "ج ع ل",
+        "ح ل ل",
+        "خ ل ق",
+        "ك و ن",
+        "ه د ي",
+        "و ل د",
+        "ي و م"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.614,
+      "label_hint": "adversity / condition / misfortune / skiff",
+      "member_count": 2,
+      "roots": [
+        "س ك ن",
+        "ص ب ر",
+        "ق ر ب",
+        "ق و ل",
+        "ك و ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.6115,
+      "label_hint": "soot / tattoo / imprint / heel",
+      "member_count": 2,
+      "roots": [
+        "ب ل د",
+        "ط ع م",
+        "ع ق ب",
+        "ل ب د",
+        "ل س ن",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.6085,
+      "label_hint": "husband / family / marriage / cohabitant",
+      "member_count": 2,
+      "roots": [
+        "ح ل ل",
+        "ع ي ن",
+        "ه د ي",
+        "و ص ي",
+        "و ل د",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.607,
+      "label_hint": "planning / calculation / deliberation / compatibility",
+      "member_count": 7,
+      "roots": [
+        "ء م ن",
+        "ج ع ل",
+        "ح س ب",
+        "خ ل ق",
+        "ر ء ي",
+        "ر ق ب",
+        "ص ح ب",
+        "ع ق ب",
+        "ف ك ك",
+        "ق د ر",
+        "ق س م",
+        "ق و ل",
+        "ه د ي",
+        "ه ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.6042,
+      "label_hint": "direction / release / movement_travel/orientation_direction / north",
+      "member_count": 2,
+      "roots": [
+        "ح ل ل",
+        "ش ء م",
+        "ق س م",
+        "ك ف ر",
+        "ي ت م",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5987,
+      "label_hint": "land_water_sky/weather_climate / drought / rain / scarcity",
+      "member_count": 2,
+      "roots": [
+        "ء ح د",
+        "ء ن س",
+        "ر ء ي",
+        "ع ي ن",
+        "ق ح م",
+        "ه ل ك",
+        "ي و م"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.5964,
+      "label_hint": "calculation / planning / belief / obedience",
+      "member_count": 4,
+      "roots": [
+        "ء م ن",
+        "ح س ب",
+        "خ ل ق",
+        "ر ء ي",
+        "ص ب ر",
+        "ص ح ب",
+        "ط ع م",
+        "ع ق ب",
+        "ق د ر",
+        "ق ر ب",
+        "ق و ل",
+        "ك ف ر",
+        "ل س ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.5921,
+      "label_hint": "language_communication/language_speech / tongue / tribe / organ",
+      "member_count": 6,
+      "roots": [
+        "ب ل د",
+        "ح س ب",
+        "ح ل ل",
+        "د ر ي",
+        "س ك ن",
+        "ص ب ر",
+        "ق ر ب",
+        "ق و ل",
+        "ل ب د",
+        "ل س ن",
+        "ن ج د",
+        "ه د ي",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.5894,
+      "label_hint": "companion / companionship / kinship_society/social_relations / favorite",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "ت ر ب",
+        "ص ح ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5858,
+      "label_hint": "deixis / duration / attention / introduction",
+      "member_count": 2,
+      "roots": [
+        "ء ي ي",
+        "ه ا ء",
+        "ي و م"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.5854,
+      "label_hint": "land_water_sky/weather_climate / land / country / migration",
+      "member_count": 3,
+      "roots": [
+        "ب ل د",
+        "خ ل ق",
+        "ش ء م",
+        "ص ب ر",
+        "ع ي ن",
+        "ق ح م",
+        "ك ف ر",
+        "ه ل ك",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.5838,
+      "label_hint": "production / sealing / creation / closure",
+      "member_count": 3,
+      "roots": [
+        "ء ص د",
+        "ج ع ل",
+        "خ ل ق",
+        "ص ب ر",
+        "ص ح ب",
+        "ط ع م",
+        "ه ل ك",
+        "و ص د"
+      ]
+    }
+  ]
+}

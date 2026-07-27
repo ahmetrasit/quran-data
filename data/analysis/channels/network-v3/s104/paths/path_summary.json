@@ -1,0 +1,840 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 104,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 135,
+    "path_graph_edges": 1638,
+    "raw_path_states": 87881,
+    "unique_path_states": 35166,
+    "deduped_paths": 2940
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8318,
+      "label_hint": "wealth / alliance / kinship_society/social_relations / inheritance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8225,
+      "label_hint": "inheritance / duration / season / climate",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن و ر",
+        "و ق د"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8212,
+      "label_hint": "sealing / aggregation / collection / closure",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح ط م",
+        "خ ل د",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "و ص د",
+        "و ق د",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8208,
+      "label_hint": "inspection / administration / alliance / accountability",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "م د د",
+        "م و ل",
+        "ن ب ذ"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8166,
+      "label_hint": "push / thrust / inheritance / duration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ك ل ل",
+        "ل م ز",
+        "م د د",
+        "ه م ز",
+        "و ق د"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8139,
+      "label_hint": "wealth / inheritance / comparison / lineage",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ء ل ه",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.813,
+      "label_hint": "pilgrimage / craft_material_built/architecture_construction / inheritance / comparison",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "ن و ر",
+        "و ق د"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8127,
+      "label_hint": "knowledge / wealth / cognition_perception/knowledge_learning / alliance",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "م د د",
+        "م و ل",
+        "ن ب ذ"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8121,
+      "label_hint": "sealing / inheritance / closure / conflict",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ح س ب",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "ن ب ذ",
+        "ن و ر",
+        "و ص د"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8086,
+      "label_hint": "palm / prominence / fatigue / height",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن و ر",
+        "ه م ز"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8057,
+      "label_hint": "wealth / alliance / kinship_society/social_relations / politics",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن ب ذ",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8029,
+      "label_hint": "knowledge / wealth / abandonment / alliance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "د ر ي",
+        "ط ل ع",
+        "ع د د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن ب ذ"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8002,
+      "label_hint": "prominence / fatigue / slander / height",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع م د",
+        "ك ل ل",
+        "ل م ز",
+        "م د د",
+        "ن و ر",
+        "ه م ز"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.7995,
+      "label_hint": "appetite / comparison / consumption / feud",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن و ر",
+        "و ق د"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7995,
+      "label_hint": "wealth / palm / abundance / materialism",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ء ل ه",
+        "ج م ع",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "م د د",
+        "م و ل",
+        "ن ب ذ",
+        "ه م ز"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.7979,
+      "label_hint": "wealth / alliance / inheritance / knowledge",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن ب ذ"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7976,
+      "label_hint": "wealth / alliance / politics / comparison",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7976,
+      "label_hint": "time_measure_quantity/quantity_number / heat / count / mathematics",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ع د د",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "ن و ر",
+        "و ق د",
+        "و ي ل"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7973,
+      "label_hint": "wealth / craft_material_built/architecture_construction / materialism / adoration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ء ل ه",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "و ق د"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7973,
+      "label_hint": "abandonment / inheritance / comparison / lineage",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ح س ب",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "ن ب ذ",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7971,
+      "label_hint": "blindness / body_health_life/disease_injury / inheritance / comparison",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7964,
+      "label_hint": "prominence / height / strength / wealth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن ب ذ",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7957,
+      "label_hint": "time_measure_quantity/quantity_number / count / mathematics / prominence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن و ر",
+        "ه م ز"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7955,
+      "label_hint": "sealing / prominence / aggregation / closure",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع م د",
+        "م د د",
+        "ن و ر",
+        "ه م ز",
+        "و ص د"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.795,
+      "label_hint": "palm / prominence / height / provision",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر",
+        "ه م ز"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7947,
+      "label_hint": "kinship_society/household_community / crowd / group / security",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ء ل ه",
+        "ج م ع",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ك ل ل",
+        "م د د",
+        "م و ل",
+        "ن ب ذ"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7945,
+      "label_hint": "drink / prominence / height / strength",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "خ ل د",
+        "ط ل ع",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن ب ذ",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7941,
+      "label_hint": "land_water_sky/fire_heat / pilgrimage / craft_material_built/architecture_construction / cooking",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع م د",
+        "ف ء د",
+        "ك ل ل",
+        "م د د",
+        "و ق د"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.794,
+      "label_hint": "wealth / alliance / inheritance / knowledge",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "roots": [
+        "ء ل ه",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "م و ل"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7937,
+      "label_hint": "inheritance / comparison / kinship_society/household_community / mixture",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "roots": [
+        "ء ص د",
+        "ج م ع",
+        "ح س ب",
+        "ح ط م",
+        "ط ل ع",
+        "ع د د",
+        "ع م د",
+        "ك ل ل",
+        "م د د",
+        "ن و ر"
+      ]
+    }
+  ]
+}

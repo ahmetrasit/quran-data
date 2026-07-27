@@ -1,0 +1,468 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 3704,
+    "similarity_edges": 21857,
+    "path_families": 116
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6685,
+      "label_hint": "generosity / virtue / bounty / abundance",
+      "member_count": 2,
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "ف ج ر",
+        "ق د ر",
+        "ل ي ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6294,
+      "label_hint": "captivity / leave / prisoner / license",
+      "member_count": 2,
+      "roots": [
+        "ء ذ ن",
+        "س ل م",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6256,
+      "label_hint": "strength / build / stoutness / spaciousness",
+      "member_count": 2,
+      "roots": [
+        "ر و ح",
+        "ق د ر",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.622,
+      "label_hint": "captivity / captain / pilot / sailor",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "س ل م",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6166,
+      "label_hint": "captivity / espousal / prisoner / arrest",
+      "member_count": 2,
+      "roots": [
+        "س ل م",
+        "ل ي ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6156,
+      "label_hint": "bounty / generosity / kinship_society/hospitality_welfare / abundance",
+      "member_count": 4,
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "ش ه ر",
+        "ف ج ر",
+        "ق د ر",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6129,
+      "label_hint": "credit / prepayment / loan / transaction",
+      "member_count": 2,
+      "roots": [
+        "س ل م",
+        "ق د ر",
+        "ل ي ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.6099,
+      "label_hint": "captivity / prisoner / arrest / guide",
+      "member_count": 2,
+      "roots": [
+        "س ل م",
+        "ل ي ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.6025,
+      "label_hint": "captivity / obedience / prisoner / arrest",
+      "member_count": 2,
+      "roots": [
+        "ء ذ ن",
+        "س ل م",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.5937,
+      "label_hint": "container / blowing / pail / gust",
+      "member_count": 2,
+      "roots": [
+        "ر و ح",
+        "س ل م",
+        "ق د ر",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.5923,
+      "label_hint": "cycle / darkness / dawn / night",
+      "member_count": 4,
+      "roots": [
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ف ج ر",
+        "ق د ر",
+        "ك ل ل",
+        "ل ي ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.5889,
+      "label_hint": "captivity / captain / pilot / sailor",
+      "member_count": 3,
+      "roots": [
+        "ء م ر",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ق د ر",
+        "ل ي ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.5874,
+      "label_hint": "power / cohesion / reinforcement / mastery",
+      "member_count": 2,
+      "roots": [
+        "د ر ي",
+        "ق د ر",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.5839,
+      "label_hint": "circumstance / language_communication/writing_text / grapheme / alif",
+      "member_count": 2,
+      "roots": [
+        "ء ل ف",
+        "ء م ر",
+        "ق د ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.5818,
+      "label_hint": "calculation / planning / arrangement / nurture",
+      "member_count": 2,
+      "roots": [
+        "ء ل ف",
+        "ر ب ب",
+        "ق د ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.5794,
+      "label_hint": "calculation / planning / leave / knowledge",
+      "member_count": 6,
+      "roots": [
+        "ء ذ ن",
+        "ء م ر",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ق د ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.5784,
+      "label_hint": "patrol / unsheathing / reconnaissance / scout",
+      "member_count": 2,
+      "roots": [
+        "ش ه ر",
+        "ط ل ع",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.5695,
+      "label_hint": "cycle / darkness / night / dawn",
+      "member_count": 4,
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.538,
+      "label_hint": "thousand / time_measure_quantity/quantity_number / proportion / hundred",
+      "member_count": 7,
+      "roots": [
+        "ء ل ف",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ف ج ر",
+        "ق د ر",
+        "ك ل ل",
+        "ل ي ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.5369,
+      "label_hint": "fluid / tonight / evening / emission",
+      "member_count": 12,
+      "roots": [
+        "ء ذ ن",
+        "ء م ر",
+        "ر ب ب",
+        "ر و ح",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.5343,
+      "label_hint": "fatigue / bluntness / weariness / dullness",
+      "member_count": 4,
+      "roots": [
+        "خ ي ر",
+        "س ل م",
+        "ش ه ر",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.5321,
+      "label_hint": "thousand / time_measure_quantity/quantity_number / knowledge / notification",
+      "member_count": 8,
+      "roots": [
+        "ء ذ ن",
+        "ء ل ف",
+        "ء م ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ق د ر",
+        "ك ل ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.5315,
+      "label_hint": "thousand / multitude / time_measure_quantity/quantity_number / kinship_society/household_community",
+      "member_count": 17,
+      "roots": [
+        "ء ذ ن",
+        "ء ل ف",
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ق د ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5256,
+      "label_hint": "point / arming / spearhead / sharpening",
+      "member_count": 11,
+      "roots": [
+        "ء ل ف",
+        "ء م ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ق د ر",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.5256,
+      "label_hint": "grammar / language_communication/writing_text / tonight / grapheme",
+      "member_count": 9,
+      "roots": [
+        "ء ل ف",
+        "خ ي ر",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.5189,
+      "label_hint": "sending / bestowal / dispatch / revelation",
+      "member_count": 3,
+      "roots": [
+        "ء ل ف",
+        "س ل م",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.5154,
+      "label_hint": "raid / habituation / mainstay / calculation",
+      "member_count": 75,
+      "roots": [
+        "ء ذ ن",
+        "ء ل ف",
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ق د ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5114,
+      "label_hint": "syrup / paste / condiment / planning",
+      "member_count": 6,
+      "roots": [
+        "ء م ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ق د ر",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.5107,
+      "label_hint": "virtue / welfare / nonviolence / duel",
+      "member_count": 6,
+      "roots": [
+        "ء ذ ن",
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ف ج ر",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.5028,
+      "label_hint": "thousand / time_measure_quantity/quantity_number / hundred / total",
+      "member_count": 6,
+      "roots": [
+        "ء ل ف",
+        "ء م ر",
+        "ر ب ب",
+        "ر و ح",
+        "ط ل ع",
+        "ق د ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك"
+      ]
+    }
+  ]
+}

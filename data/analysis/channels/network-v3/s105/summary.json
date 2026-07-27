@@ -1,0 +1,338 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 105,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s105",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s105",
+    "catalog_branch_count": 133,
+    "eligible_branch_count": 133,
+    "affinity_shape": [
+      133,
+      133
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04527535,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 861,
+    "raw_candidates": 121,
+    "deduped_candidates": 43
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.875,
+      "label_hint": "herd / desert / ewe / breeding",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 8,
+      "branch_count": 13,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8485,
+      "label_hint": "reflection / discernment / protection / deliberation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 8,
+      "branch_count": 16,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8247,
+      "label_hint": "herd / group / obedience / ownership",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8236,
+      "label_hint": "dream / gambling / shortness / sleep",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 14,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8213,
+      "label_hint": "reflection / discernment / gambling / opinion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8204,
+      "label_hint": "protection / economy / deliberation / welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8198,
+      "label_hint": "herd / adulthood / companionship / ownership",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.8182,
+      "label_hint": "water / abundance / generosity / zoology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 13,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.818,
+      "label_hint": "water / herd / adulthood / desert",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 7,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.8167,
+      "label_hint": "dream / compatibility / reflection / association",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.8158,
+      "label_hint": "association / companionship / adulthood / compatibility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.8107,
+      "label_hint": "association / compatibility / question / deliberation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.8106,
+      "label_hint": "gambling / construction / harvest / hardness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.8046,
+      "label_hint": "herd / group / encounter / visibility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.8038,
+      "label_hint": "breath / herd / group / gambling",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.8022,
+      "label_hint": "water / abundance / burial / leather",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.8012,
+      "label_hint": "generosity / reflection / syntax / economy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7979,
+      "label_hint": "discernment / perception / opinion / firmness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7935,
+      "label_hint": "friction / question / ignition / breeding",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7926,
+      "label_hint": "display / protection / revelation / companionship",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 27
+    }
+  ]
+}

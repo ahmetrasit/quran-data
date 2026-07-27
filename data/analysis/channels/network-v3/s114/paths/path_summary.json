@@ -1,0 +1,711 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 114,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 97,
+    "path_graph_edges": 1172,
+    "raw_path_states": 66242,
+    "unique_path_states": 30471,
+    "deduped_paths": 2808
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8468,
+      "label_hint": "loquacity / verbosity / personality / badness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "خ ن س",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8429,
+      "label_hint": "concealment / cognition_perception/perception / perception / detection",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.834,
+      "label_hint": "society / thousand / mankind / jinn",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "ر ب ب"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8201,
+      "label_hint": "body_health_life/reproduction_birth / shelter / reproduction / nurse",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ع و ذ",
+        "ق و ل",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8183,
+      "label_hint": "demography / multitude / kinship_society/household_community / harm",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "ر ب ب",
+        "ش ر ر"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8171,
+      "label_hint": "water / resource / loquacity / egress",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ق و ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8158,
+      "label_hint": "meaning / perception / evidence / concealment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8146,
+      "label_hint": "survival / concealment / property / cognition_perception/perception",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8134,
+      "label_hint": "concealment / loquacity / verbosity / personality",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ش ر ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8125,
+      "label_hint": "orientation / nurse / stepchild / childcare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "ر ب ب"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8123,
+      "label_hint": "meaning / evidence / psychology / monologue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8103,
+      "label_hint": "meaning / evidence / mankind / shredding",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.81,
+      "label_hint": "meaning / perception / evidence / survival",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8075,
+      "label_hint": "origin / body_health_life/reproduction_birth / shelter / orientation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8066,
+      "label_hint": "evil / withdrawal / water / resource",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8039,
+      "label_hint": "self / body_health_life/reproduction_birth / shelter / reproduction",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ع و ذ",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8021,
+      "label_hint": "development / youth / property / cognition_perception/perception",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8002,
+      "label_hint": "meaning / perception / evidence / concealment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7999,
+      "label_hint": "demography / multitude / origin / kinship_society/household_community",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7962,
+      "label_hint": "property / cognition_perception/perception / prince / perception",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7951,
+      "label_hint": "self / chest / morality / horse",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7941,
+      "label_hint": "meaning / perception / evidence / concealment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7937,
+      "label_hint": "shelter / refuge / origin / name",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ل ه",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7937,
+      "label_hint": "care / attention / concealment / cognition_perception/perception",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.793,
+      "label_hint": "youth / origin / shelter / articulator",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7927,
+      "label_hint": "meaning / perception / evidence / psychology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7922,
+      "label_hint": "concealment / cognition_perception/perception / prince / perception",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7915,
+      "label_hint": "shelter / refuge / origin / resource",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7905,
+      "label_hint": "origin / articulator / infinitive / derivation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7898,
+      "label_hint": "authority / control / concealment / property",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ن ن",
+        "خ ن س",
+        "ر ب ب",
+        "ش ر ر",
+        "ص د ر",
+        "ع و ذ",
+        "ق و ل",
+        "م ل ك",
+        "و س و س"
+      ]
+    }
+  ]
+}

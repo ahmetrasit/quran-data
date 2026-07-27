@@ -1,0 +1,915 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 87,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 367,
+    "path_graph_edges": 4489,
+    "raw_path_states": 250288,
+    "unique_path_states": 99903,
+    "deduped_paths": 9415
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.7797,
+      "label_hint": "sign / landmark / blessing / remnant",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ء ث ر",
+        "ب ق ي",
+        "ج ه ر",
+        "خ ر ج",
+        "ر ب ب",
+        "س و ي",
+        "ص ح ف",
+        "ع ل م",
+        "ن و ر",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.7788,
+      "label_hint": "community / kinship_society/household_community / blossom / society",
+      "ayahs": [
+        1,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ب ر ه م",
+        "ج ع ل",
+        "ج ن ب",
+        "ج ه ر",
+        "ح و ي",
+        "ح ي ي",
+        "ر ب ب",
+        "ص ح ف",
+        "ق ر ء",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.7782,
+      "label_hint": "priority / beginning / otherness / time_measure_quantity/sequence_cycle",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "roots": [
+        "ء ث ر",
+        "ء خ ر",
+        "ء و ل",
+        "خ ر ج",
+        "ر ب ب",
+        "س و ي",
+        "ع ل و",
+        "ق ر ء",
+        "م و ت",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.7776,
+      "label_hint": "second / sequence / priority / sport",
+      "ayahs": [
+        1,
+        3,
+        4,
+        6,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "roots": [
+        "ء ث ر",
+        "ء خ ر",
+        "ء و ل",
+        "خ ر ج",
+        "ص ل و",
+        "ص ل ي",
+        "ع ل و",
+        "ق ر ء",
+        "م و ت",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.777,
+      "label_hint": "competition / victory / contest / conflict_security/conflict",
+      "ayahs": [
+        1,
+        2,
+        5,
+        7,
+        11,
+        12,
+        14,
+        15,
+        16
+      ],
+      "roots": [
+        "ء ث ر",
+        "ج ع ل",
+        "خ ل ق",
+        "ز ك و",
+        "س م و",
+        "س و ي",
+        "ش ق و",
+        "ش ق ي",
+        "ش ي ء",
+        "ك ب ر"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.7768,
+      "label_hint": "appearance / birth / reproduction / spine",
+      "ayahs": [
+        2,
+        4,
+        6,
+        7,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ح ي ي",
+        "خ ر ج",
+        "خ ل ق",
+        "د ن و",
+        "ش ي ء",
+        "ص ح ف",
+        "ص ل و",
+        "ص ل ي",
+        "ف ل ح",
+        "ق ر ء"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.7721,
+      "label_hint": "circumstance / manner / condition / blessing",
+      "ayahs": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ء و ل",
+        "ب ل ل",
+        "ج ه ر",
+        "ر ب ب",
+        "س و ي",
+        "ص ح ف",
+        "ق ر ء",
+        "م و ت",
+        "ه ا ء",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.7712,
+      "label_hint": "appearance / sexuality / estrus / reproduction",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح ي ي",
+        "خ ر ج",
+        "خ ل ق",
+        "د ن و",
+        "س م و",
+        "ش ي ء",
+        "ص ح ف",
+        "ق ر ء",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.7701,
+      "label_hint": "kinship_society/household_community / blossom / collection / assembly",
+      "ayahs": [
+        1,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ب ر ه م",
+        "ج ن ب",
+        "ج ه ر",
+        "ح و ي",
+        "ح ي ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ص ح ف",
+        "ق ر ء",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.77,
+      "label_hint": "time_measure_quantity/measurement / size / priority / beginning",
+      "ayahs": [
+        1,
+        3,
+        4,
+        6,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "خ ر ج",
+        "د ن و",
+        "ر ب ب",
+        "ع ل و",
+        "ق ر ء",
+        "ك ب ر",
+        "م و ت",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.7698,
+      "label_hint": "otherness / language / articulation / priority",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9,
+        10,
+        15,
+        16,
+        17,
+        18
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "ب ل ل",
+        "ج ه ر",
+        "خ ر ج",
+        "ذ ك ر",
+        "ذ و و",
+        "س و ي",
+        "ع ل و",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.7692,
+      "label_hint": "reputation / honor / praise / refuge",
+      "ayahs": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18
+      ],
+      "roots": [
+        "ء و ل",
+        "ب ل ل",
+        "ج ع ل",
+        "ج ن ب",
+        "خ ي ر",
+        "ذ ك ر",
+        "س م و",
+        "ع ل م",
+        "ع ل و",
+        "ك ب ر"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.768,
+      "label_hint": "competition / condition_force_change/capacity_ability / compatibility / propriety",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        11,
+        14,
+        15,
+        16
+      ],
+      "roots": [
+        "ء ث ر",
+        "ج ع ل",
+        "خ ل ق",
+        "ز ك و",
+        "س م و",
+        "س و ي",
+        "ش ق و",
+        "ش ق ي",
+        "ه د ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.768,
+      "label_hint": "community / society / kinship_society/household_community / people",
+      "ayahs": [
+        1,
+        5,
+        6,
+        7,
+        12,
+        13,
+        15,
+        16
+      ],
+      "roots": [
+        "ج ه ر",
+        "ح و ي",
+        "ح ي ي",
+        "ر ب ب",
+        "ق ر ء",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7675,
+      "label_hint": "blessing / remnant / residue / disease",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "roots": [
+        "ء ث ر",
+        "ب ق ي",
+        "ب ل ل",
+        "ج ه ر",
+        "خ ر ج",
+        "ر ب ب",
+        "س و ي",
+        "ص ح ف",
+        "ق ر ء",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.7674,
+      "label_hint": "condition_force_change/capacity_ability / compatibility / propriety / appearance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        11,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ج ع ل",
+        "ج ن ب",
+        "ح ي ي",
+        "خ ل ق",
+        "ر ب ب",
+        "ز ك و",
+        "ش ي ء",
+        "ص ح ف",
+        "ق د ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7663,
+      "label_hint": "curdling / weather / material / queasiness",
+      "ayahs": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18
+      ],
+      "roots": [
+        "ء و ل",
+        "ب ل ل",
+        "ج ن ب",
+        "خ ش ي",
+        "خ ف ي",
+        "ر ب ب",
+        "غ ث و",
+        "م و ت",
+        "ه د ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.766,
+      "label_hint": "knowledge / cognition_perception/knowledge_learning / compatibility / propriety",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        10,
+        14,
+        15,
+        16,
+        17
+      ],
+      "roots": [
+        "ء ث ر",
+        "ج ع ل",
+        "خ ر ج",
+        "خ ش ي",
+        "خ ف ي",
+        "خ ل ق",
+        "خ ي ر",
+        "ر ب ب",
+        "ز ك و",
+        "ع ل م"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.766,
+      "label_hint": "otherness / priority / beginning / womb",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "ح و ي",
+        "ح ي ي",
+        "خ ر ج",
+        "ر ب ب",
+        "س و ي",
+        "ع ل و",
+        "ق ر ء",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7654,
+      "label_hint": "condition_force_change/capacity_ability / compatibility / propriety / fitness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        14,
+        15,
+        16,
+        19
+      ],
+      "roots": [
+        "ء ث ر",
+        "ء ل ه",
+        "ب ر ه م",
+        "ج ع ل",
+        "خ ل ق",
+        "ر ب ب",
+        "ز ك و",
+        "س و ي",
+        "ق د ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7651,
+      "label_hint": "appearance / face / form / morphology",
+      "ayahs": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ج ن ب",
+        "ح ي ي",
+        "خ ر ج",
+        "خ ل ق",
+        "د ن و",
+        "ش ي ء",
+        "ص ح ف",
+        "ق ر ء",
+        "ك ب ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7648,
+      "label_hint": "priority / beginning / anatomy / reproduction",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        13,
+        15,
+        16,
+        18
+      ],
+      "roots": [
+        "ء ث ر",
+        "ء و ل",
+        "ح و ي",
+        "ح ي ي",
+        "خ ر ج",
+        "ر ب ب",
+        "ع ل و",
+        "ق ر ء",
+        "م و ت",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7646,
+      "label_hint": "priority / beginning / length / reproduction",
+      "ayahs": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ء ث ر",
+        "ء و ل",
+        "ج ه ر",
+        "خ ر ج",
+        "ر ب ب",
+        "ص ح ف",
+        "ع ل و",
+        "ق ر ء",
+        "م و ت",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7636,
+      "label_hint": "condition_force_change/capacity_ability / mastery / power / appearance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ء ث ر",
+        "ء ل ه",
+        "ج ع ل",
+        "ح ي ي",
+        "خ ل ق",
+        "ر ب ب",
+        "ص ح ف",
+        "ف ل ح",
+        "ق د ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7633,
+      "label_hint": "appearance / face / form / anatomy",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        13,
+        14,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ح ي ي",
+        "خ ر ج",
+        "خ ل ق",
+        "ش ي ء",
+        "ص ح ف",
+        "ع ل و",
+        "ف ل ح",
+        "ق ر ء",
+        "م و ت",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7627,
+      "label_hint": "priority / beginning / otherness / fissure",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "roots": [
+        "ء ث ر",
+        "ء خ ر",
+        "ء و ل",
+        "ح و ي",
+        "خ ر ج",
+        "ر ب ب",
+        "س و ي",
+        "ع ل م",
+        "ف ل ح",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7623,
+      "label_hint": "household / lactation / increase / herd",
+      "ayahs": [
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        18
+      ],
+      "roots": [
+        "ء ث ر",
+        "ء ل ه",
+        "ء و ل",
+        "ب ل ل",
+        "ج ن ب",
+        "ذ ك ر",
+        "ر ب ب",
+        "ز ك و",
+        "ق ر ء",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7619,
+      "label_hint": "appearance / form / face / morphology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ج ن ب",
+        "ح ي ي",
+        "خ ر ج",
+        "خ ل ق",
+        "ر ب ب",
+        "ش ي ء",
+        "ص ح ف",
+        "ف ل ح",
+        "ق د ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7615,
+      "label_hint": "kinship_society/household_community / society / record / humility",
+      "ayahs": [
+        1,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "roots": [
+        "ج ن ب",
+        "ج ه ر",
+        "ح و ي",
+        "ح ي ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ص ح ف",
+        "ق ر ء",
+        "م و ت",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7614,
+      "label_hint": "otherness / staff / time_measure_quantity/measurement / size",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        9,
+        12,
+        16,
+        17,
+        18
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "خ ر ج",
+        "د ن و",
+        "س و ي",
+        "ع ل و",
+        "ك ب ر",
+        "ن س ي",
+        "ن ف ع",
+        "ه د ي"
+      ]
+    }
+  ]
+}

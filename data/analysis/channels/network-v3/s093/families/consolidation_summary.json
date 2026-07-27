@@ -1,0 +1,150 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s093",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s093/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 100,
+    "similarity_edges": 301,
+    "families": 12,
+    "family_size_buckets": {
+      "medium_5_14": 8,
+      "small_2_4": 1,
+      "singleton": 1,
+      "large_15_plus": 2
+    },
+    "structural_type_counts": {
+      "distributed": 12
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.6511,
+      "label_hint": "darkness / night / daylight / time_measure_quantity/sequence_cycle",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 55
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.6134,
+      "label_hint": "service / sway / household / gait",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 18,
+      "branch_count": 38
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.5887,
+      "label_hint": "kinship_society/hospitality_welfare / welfare / blessing / bounty",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 47
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.5861,
+      "label_hint": "satisfaction / approval / love / victory",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 10,
+      "root_count": 22,
+      "branch_count": 56
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.5765,
+      "label_hint": "marriage / husband / woman / beauty",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 17,
+      "branch_count": 47
+    },
+    {
+      "family_id": "F006",
+      "family_score": 0.5649,
+      "label_hint": "gambling / tool / kinship_society/hospitality_welfare / goal",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 20,
+      "branch_count": 45
+    },
+    {
+      "family_id": "F007",
+      "family_score": 0.537,
+      "label_hint": "creation / priority / revelation / existence",
+      "member_count": 14,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 23,
+      "branch_count": 84
+    },
+    {
+      "family_id": "F008",
+      "family_score": 0.5354,
+      "label_hint": "priority / creation / welfare / grammar",
+      "member_count": 1,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 10,
+      "branch_count": 14
+    },
+    {
+      "family_id": "F009",
+      "family_score": 0.5222,
+      "label_hint": "curdling / burial / cooking / transformation",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 56
+    },
+    {
+      "family_id": "F010",
+      "family_score": 0.5046,
+      "label_hint": "cattle / bird / refuge / love",
+      "member_count": 10,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 22,
+      "branch_count": 70
+    },
+    {
+      "family_id": "F011",
+      "family_score": 0.4929,
+      "label_hint": "service / household / care / stewardship",
+      "member_count": 16,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 24,
+      "branch_count": 88
+    },
+    {
+      "family_id": "F012",
+      "family_score": 0.4918,
+      "label_hint": "kinship_society/hospitality_welfare / gift / giving / request",
+      "member_count": 18,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 24,
+      "branch_count": 95
+    }
+  ]
+}

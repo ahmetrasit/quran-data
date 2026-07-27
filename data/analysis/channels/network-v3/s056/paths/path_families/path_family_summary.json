@@ -1,0 +1,503 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 14338,
+    "similarity_edges": 53890,
+    "path_families": 1389
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.7132,
+      "label_hint": "peace / submission / humility / diplomacy",
+      "member_count": 2,
+      "roots": [
+        "ء ك ل",
+        "ء و ل",
+        "ب ي ن",
+        "ر ب ب",
+        "س م م",
+        "غ ي ر",
+        "ق س م",
+        "ق ط ع",
+        "ك و ن",
+        "م و ت",
+        "ن و ر",
+        "و ض ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.7026,
+      "label_hint": "herb / furniture / agriculture_food/plant_vegetation / plant",
+      "member_count": 2,
+      "roots": [
+        "ت ر ب",
+        "ر ب ب",
+        "ر و ح",
+        "س ر ر",
+        "س ك ب",
+        "ش ج ر",
+        "ش ك ر",
+        "ف ر ش",
+        "ن ج م",
+        "ن ض د",
+        "و ض ن",
+        "و ك ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6815,
+      "label_hint": "livestock / hyena / predation / cattle",
+      "member_count": 2,
+      "roots": [
+        "ء ك ل",
+        "ء و ل",
+        "ج ب ل",
+        "ح ط م",
+        "ح م م",
+        "ر ف ع",
+        "س م ع",
+        "ع ل م",
+        "ف ر ش",
+        "ق ر ء",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.6783,
+      "label_hint": "commoner / kinship_society/household_community / confidant / intimate",
+      "member_count": 2,
+      "roots": [
+        "ء ج ج",
+        "ب ط ن",
+        "ج ن ن",
+        "س ر ر",
+        "ع ظ م",
+        "ن ض د"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6748,
+      "label_hint": "cognition_perception/perception / vision / sight / severance",
+      "member_count": 2,
+      "roots": [
+        "ب ص ر",
+        "ب ي ن",
+        "ر ء ي",
+        "س د ر",
+        "ع ي ن",
+        "ق ط ع",
+        "م س س",
+        "ن ظ ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6712,
+      "label_hint": "darkness / nearness / arrival / imminence",
+      "member_count": 2,
+      "roots": [
+        "ج ن ن",
+        "ح ر م",
+        "ح م م",
+        "ظ ل ل",
+        "ق ر ء",
+        "ق ر ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6707,
+      "label_hint": "judgment / prevention / cognition_perception/reasoning_decision / opinion",
+      "member_count": 2,
+      "roots": [
+        "ء ل ي",
+        "ب ص ر",
+        "ج ب ل",
+        "ج ح م",
+        "ر ء ي",
+        "ل ي س",
+        "م ن ع",
+        "م ن ي",
+        "ن ظ ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.6684,
+      "label_hint": "water / waterskin / container / vessel",
+      "member_count": 2,
+      "roots": [
+        "ب ك ر",
+        "ح و ر",
+        "ش ر ب",
+        "ق ر ب",
+        "ق ل ل",
+        "ق و ل",
+        "م ز ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.6672,
+      "label_hint": "death / heat / stillness / rest",
+      "member_count": 2,
+      "roots": [
+        "ب ر د",
+        "ح م م",
+        "ر و ح",
+        "ص ر ر",
+        "ق س م",
+        "م و ت",
+        "ن ز ل",
+        "و ق ع",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.6648,
+      "label_hint": "pot / cooking / blame / accountability",
+      "member_count": 2,
+      "roots": [
+        "ء ث م",
+        "ث ل ث",
+        "ج ز ي",
+        "ج ع ل",
+        "ح ن ث",
+        "د ي ن",
+        "ق د ر",
+        "ل ح م",
+        "م و ت"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.6637,
+      "label_hint": "death / gossip / rumor / reputation",
+      "member_count": 2,
+      "roots": [
+        "ح د ث",
+        "ر و ح",
+        "ف ك ه",
+        "ق و ل",
+        "م و ت",
+        "و ق ع",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.6635,
+      "label_hint": "sound / audition / listening / cognition_perception/knowledge_learning",
+      "member_count": 2,
+      "roots": [
+        "ء ل ي",
+        "ر ب ب",
+        "ر ج ع",
+        "س م ع",
+        "ش ي ء",
+        "ع ل م",
+        "ل غ و"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.6631,
+      "label_hint": "source / coating / spring / fragrance",
+      "member_count": 2,
+      "roots": [
+        "ء ك ل",
+        "ج ب ل",
+        "ج ن ن",
+        "خ ل ق",
+        "ش ج ر",
+        "ش م ل",
+        "ع ي ن",
+        "م و ه",
+        "ن ج م"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.6621,
+      "label_hint": "kinship_society/social_relations / peace / companionship / emotion_ethics/trust_loyalty",
+      "member_count": 2,
+      "roots": [
+        "ب ي ن",
+        "ذ و و",
+        "ص ح ب",
+        "ص د ق",
+        "ق س م",
+        "ق ط ع",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.6616,
+      "label_hint": "bird / palm / animal_life/wildlife / ostrich",
+      "member_count": 2,
+      "roots": [
+        "ب ل ل",
+        "ج ع ل",
+        "ج م ع",
+        "ح م م",
+        "س ك ب",
+        "ش ي ء",
+        "ع ر ب",
+        "ع ل م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.6615,
+      "label_hint": "purity / sword / ritual / scabbard",
+      "member_count": 2,
+      "roots": [
+        "ء و ل",
+        "ث ل ث",
+        "ح د ث",
+        "ر ء ي",
+        "ر ج ع",
+        "ش م ل",
+        "ط ه ر",
+        "ق ر ء",
+        "ق ر ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.6604,
+      "label_hint": "reputation / honor / renown / fame",
+      "member_count": 2,
+      "roots": [
+        "ء ك ل",
+        "ب ل ل",
+        "خ ي ر",
+        "ذ ك ر",
+        "ر ء ي",
+        "ر ز ق",
+        "س م ع",
+        "ك ر م",
+        "ل ح م"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.6604,
+      "label_hint": "price / valuation / camel / property",
+      "member_count": 2,
+      "roots": [
+        "ب ك ر",
+        "ح ق ق",
+        "ر ج ع",
+        "ش م ل",
+        "ض ل ل",
+        "ق ر ب",
+        "ق و ي",
+        "م ل ء",
+        "م ن ع",
+        "ن ش ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.6601,
+      "label_hint": "survival / kinship_society/social_relations / condition_force_change/stability_endurance / heifer",
+      "member_count": 2,
+      "roots": [
+        "ب ك ر",
+        "خ ل د",
+        "ذ و و",
+        "ص ح ب",
+        "ص د ق",
+        "ق و ل",
+        "م ن ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.6577,
+      "label_hint": "honor / sanctity / payment / covenant",
+      "member_count": 2,
+      "roots": [
+        "ج ز ي",
+        "ج ع ل",
+        "ح ر م",
+        "ح ق ق",
+        "ص ح ب",
+        "ع ظ م",
+        "ع م ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.6558,
+      "label_hint": "economy_property/finance_debt / livestock / property / debt",
+      "member_count": 2,
+      "roots": [
+        "ء ك ل",
+        "ج ز ي",
+        "ح م م",
+        "د ه ن",
+        "د ي ن",
+        "ع ي ن",
+        "غ ر م",
+        "ف ر ش",
+        "ق ر ء",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.6544,
+      "label_hint": "existence / creation / event / origination",
+      "member_count": 2,
+      "roots": [
+        "ء ب و",
+        "ح د ث",
+        "خ ل ق",
+        "ر ب ب",
+        "ك و ن",
+        "ن ش ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.6543,
+      "label_hint": "investigation / neck / activation / rousing",
+      "member_count": 2,
+      "roots": [
+        "ب ث ث",
+        "ب ع ث",
+        "خ ض د",
+        "ش ر ب",
+        "ش م ل",
+        "ك ر م",
+        "و ق ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.6542,
+      "label_hint": "priority / time_measure_quantity/sequence_cycle / precedence / language_communication/communication",
+      "member_count": 2,
+      "roots": [
+        "ء و ل",
+        "ب ل غ",
+        "ح د ث",
+        "ر ف ع",
+        "س ب ق",
+        "س م ع",
+        "ق ب ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.6538,
+      "label_hint": "herb / ecology / flora / vegetation",
+      "member_count": 2,
+      "roots": [
+        "ت ر ب",
+        "ح ر ث",
+        "ر ب ب",
+        "ر ف ع",
+        "ز ر ع",
+        "س ك ب",
+        "ش ر ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.6537,
+      "label_hint": "production / creation / making / ontology",
+      "member_count": 2,
+      "roots": [
+        "ج ع ل",
+        "خ ل ق",
+        "ش ي ء",
+        "ق س م",
+        "م و ه",
+        "ن ش ء",
+        "و ر ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.6526,
+      "label_hint": "fire / ignition / energy / craft_material_built/craft",
+      "member_count": 2,
+      "roots": [
+        "ء ج ج",
+        "ء ك ل",
+        "ب ر د",
+        "ج ح م",
+        "ح ر ث",
+        "ذ ك ر",
+        "س ر ر",
+        "ص ل ي",
+        "و ر ي",
+        "و ق ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.6524,
+      "label_hint": "color / crop / harvest / grain",
+      "member_count": 2,
+      "roots": [
+        "ح ل ق",
+        "ح م م",
+        "ر ف ع",
+        "ز ر ع",
+        "ش ر ب",
+        "ص ح ب",
+        "ل ح م"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.6522,
+      "label_hint": "delight / joy / pleasure / nonviolence",
+      "member_count": 2,
+      "roots": [
+        "س ر ر",
+        "س ل م",
+        "س م و",
+        "ش ي ء",
+        "م ن ي",
+        "ن ز ل",
+        "و ق ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.6518,
+      "label_hint": "cloud / container / canopy / shade",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "س ل م",
+        "س م و",
+        "ش ي ء",
+        "ظ ل ل",
+        "م ز ن",
+        "ن ز ف",
+        "ن ش ء",
+        "و ض ن"
+      ]
+    }
+  ]
+}

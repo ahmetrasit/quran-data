@@ -1,0 +1,834 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 94,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 161,
+    "path_graph_edges": 1963,
+    "raw_path_states": 108159,
+    "unique_path_states": 40722,
+    "deduped_paths": 3868
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8234,
+      "label_hint": "security / cognition_perception/memory_attention / custody / location",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ق ض",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8228,
+      "label_hint": "gambling / sacrifice / meat / buttock",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ع س ر",
+        "ن ص ب",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8215,
+      "label_hint": "travel / journey / movement_travel/travel / asylum",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "م ع ع",
+        "ن ص ب",
+        "و ز ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8215,
+      "label_hint": "travel / journey / motion / movement_travel/motion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "ن ص ب",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8209,
+      "label_hint": "elevation / craft_material_built/architecture_construction / omen / misfortune",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "م ع ع",
+        "ن ص ب",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8199,
+      "label_hint": "custody / debt / location / presence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8194,
+      "label_hint": "labor / cognition_perception/memory_attention / body_health_life/reproduction_birth / delivery",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8184,
+      "label_hint": "camel / motion / transport / speed",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "ن ق ض",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8181,
+      "label_hint": "travel / journey / speed / omen",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "م ع ع",
+        "ن ص ب",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8181,
+      "label_hint": "travel / journey / omen / movement_travel/travel",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ف ع",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8177,
+      "label_hint": "travel / journey / security / cognition_perception/knowledge_learning",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8166,
+      "label_hint": "travel / journey / omen / movement_travel/travel",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "م ع ع",
+        "ن ص ب",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8158,
+      "label_hint": "grammar / inflection / case / language",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ص د ر",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8156,
+      "label_hint": "information / discovery / repetition / motivation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "و ز ر",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8138,
+      "label_hint": "grammar / inflection / conformity / case",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8135,
+      "label_hint": "labor / body_health_life/reproduction_birth / recitation / learning",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ق ض",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8111,
+      "label_hint": "conformity / spaciousness / motion / visibility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ق ض",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8109,
+      "label_hint": "sound / information / discovery / war",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ز ر"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8106,
+      "label_hint": "security / custody / location / presence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ق ض",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8105,
+      "label_hint": "honor / hierarchy / reputation / conformity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ص ب",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8103,
+      "label_hint": "laterality / left / movement_travel/orientation_direction / pledge",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ر ب ب",
+        "ر ف ع",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.8096,
+      "label_hint": "custody / location / presence / seizure",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ب ب",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "و ز ر",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8092,
+      "label_hint": "travel / journey / sound / herd",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ف ع",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ز ر",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8089,
+      "label_hint": "conformity / visibility / attention / basis",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر غ ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ص ب",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8079,
+      "label_hint": "travel / journey / cognition_perception/memory_attention / security",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.8074,
+      "label_hint": "gambling / meat / sound / lot",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ع س ر",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ز ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8073,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / delivery / birth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8069,
+      "label_hint": "labor / body_health_life/reproduction_birth / delivery / birth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ء ل ي",
+        "ذ ك ر",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8064,
+      "label_hint": "travel / journey / motion / speed",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ذ ك ر",
+        "ر غ ب",
+        "ر ف ع",
+        "ع س ر",
+        "ف ر غ",
+        "م ع ع",
+        "ن ص ب",
+        "ن ق ض",
+        "و ض ع",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8055,
+      "label_hint": "gambling / sacrifice / lot / game",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ف ع",
+        "ش ر ح",
+        "ص د ر",
+        "ظ ه ر",
+        "ع س ر",
+        "ن ص ب",
+        "ن ق ض",
+        "و ز ر",
+        "ي س ر"
+      ]
+    }
+  ]
+}

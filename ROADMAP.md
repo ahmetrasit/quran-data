@@ -1,34 +1,36 @@
 # Production roadmap
 
-Status: 2026-07-21
+Status: 2026-07-27
+
+For the complete cross-repository audit and verification record, read
+[`STATUS.md`](STATUS.md). `RELEASE.json` remains the authority for what is
+available now.
 
 This is the direction for future `quran-data` releases. `RELEASE.json` remains
 the authority for what is available now.
 
-## Immediate decision
+## Latest checkpoint
 
-Yes: complete V11 for all 114 surahs before publishing a corpus-complete
-surah-image-chain or surah-commentary dataset.
+On 2026-07-27, the first post-`2026.07.21` canonical imports were staged in `quran-data` with local provenance files:
 
-Current V11 source coverage is 29 surahs: S1 and S87-S114. The remaining bulk
-run is S2-S86, or 85 surahs. For long surahs, completion includes pericope runs
-and a reviewed cross-pericope integration; the existence of a run directory is
-not sufficient.
+- Turkish dictionary entries: 1,679 JSON files under `data/dictionary/tr/`;
+- Turkish translation glosses: 1,572 reviewed JSON files under `data/translation/glosses/locales/tr/`;
+- Turkish V12 ayah activation/publication support: 114 surahs plus full-context packets/control directories and 6 focus runs under `data/analysis/ayah-activation/v12-tr/`;
+- network v3 generated channel outputs: 111 eligible surahs plus 110 review files and pericopes under `data/analysis/channels/network-v3/`;
+- inter-ayah focus review TSVs: 5,604 of 6,236 focus outputs under `data/analysis/inter-ayah/`.
 
-Do not wait for those 85 runs to test the design. Freeze and validate the chain
-and inter-surah contracts on the existing 29-surah set first. This prevents a
-schema or retrieval mistake from being repeated across the corpus.
+These staged imports are not yet a formal release. The next release work is validation, explicit exception ledgers, `RELEASE.json`, coverage/provenance manifests, checksums, and a release tag. Network v3 remains generated candidate data until blind review and adjudication close. Inter-ayah focus reviews remain partial until the 632 missing TSVs are produced and `focus_29_55_cutoff_100.tsv` is rerun.
 
-V12 is different: standard/plus-minus-2 source runs exist for all 114 surahs,
-while the eleven-ayah/plus-minus-5 treatment currently exists for S1-S21. If
-the final policy requires both treatments for every surah, S22-S114 (93 surahs)
-still need that second run. Decide this after the pilot: either require dual-run
-adjudication corpus-wide, or use the plus/minus-5 treatment on demand for
-retrieved/high-value cases and report its coverage explicitly. In either case,
-the main remaining V12 task is canonical cross-run extraction, grading,
-reconciliation, and publication-role assignment. The current
-`_status/v12_cross_run` work is a calibration fixture, not yet a corpus-wide
-accepted activation dataset.
+V11 remains the intended high-recall source for accepted, occurrence-anchored
+surah image chains. The last documented coverage is 29 surahs: S1 and
+S87-S114. No later corpus-close record was found during the July 24 audit, so
+S2-S86 remains pending until the source repo records otherwise. For long
+surahs, completion still requires pericope runs and reviewed cross-pericope
+integration; a run directory alone is not completion.
+
+Do not wait for full V11 breadth to test consumer contracts. Freeze and validate
+the chain, relation, commentary, and app-export contracts on a small reviewed
+vertical slice before repeating them corpus-wide.
 
 ## Source roles
 
@@ -45,22 +47,24 @@ accepted activation dataset.
 
 ## Required work order
 
-### 1. Freeze lexical identity
+### 1. Enforce frozen lexical identity
 
-This is the first blocker.
+The canonical selection is now explicit, but every future import must enforce
+it.
 
-1. Select one canonical Furūq/V4 branch database and record its SHA-256,
-   filtering rules, root count, branch count, and accepted/contaminated policy.
-2. Make `root_id` and `branch_id` stable against that snapshot.
+1. Record the exact release snapshot, source commit, SHA-256, filtering rules,
+   root count, branch count, and accepted/contaminated policy.
+2. Treat `root_id` and `branch_id` as meaningful only with that snapshot.
 3. Build an explicit crosswalk for any already-produced artifact that used an
    older snapshot; rebuild when a safe one-to-one crosswalk is impossible.
-4. Rebuild or synchronize Dictionary packets, V12 inputs, QNet, and Quran-SLM
-   indexes against the frozen snapshot before publication.
+4. Verify or synchronize Dictionary packets, V12 publications, QNet, and
+   Quran-SLM indexes against the frozen snapshot before promotion.
 
-This is not theoretical drift: the latent-activation documentation records an
-older 18,781-clean-card input with SHA-256
+This is not theoretical drift. `latent_activation` still contains an older
+18,781-clean-card resource with SHA-256
 `318d7128daa25e15dc753ea7cb035ed5b145989c22a8d555a7f6986443d4c0af`,
-while Dictionary records an 18,785-clean-card input with SHA-256
+while Dictionary and the rebuilt Quran-SLM catalogs use the current
+18,785-clean-card input with SHA-256
 `1099db0d56515d2eb3e8d72f104f2e338c2c9a8c1fa6abbb046406d3b327e722`.
 Never join them by branch ID without snapshot verification.
 
@@ -70,11 +74,7 @@ Dictionary V2 already has the right architecture: one validated master entry
 per root and deterministic consumer projections. Complete it rather than
 designing another entry format.
 
-The current checkpoint is 140 Turkish entries, all drafts, and no English
-entries. Treat these as workflow/migration material until reviewed. For the
-first Quran release, complete every QAC-attested root envelope. Full entries for
-Furūq-only roots are optional later coverage; those branches can still serve as
-verified neighbor evidence and semantic mediators.
+The current checkpoint is 1,679 Turkish dictionary entry JSON files staged in `data/dictionary/tr/` and 1,572 reviewed Turkish gloss result JSON files staged in `data/translation/glosses/locales/tr/`. The gloss layout is locale-compatible for future languages. There are 107 staged Turkish entry envelopes without a copied Turkish gloss result; record those exceptions before release formalization. No English entry or gloss payload has been staged. Full entries for Furuq-only roots remain optional later coverage; those branches can still serve as verified neighbor evidence and semantic mediators.
 
 An entry is promotable only when:
 
@@ -96,13 +96,14 @@ The three projections remain:
 - `scholar_view`: full sources, neighbors, branches, occurrences, morphology,
   and attachments.
 
-### 3. Freeze analysis contracts and run a pilot
+### 3. Freeze the remaining analysis contracts
+
+The V12 cross-run publication contract is frozen and complete across all 114 surahs. Its publication support artifacts are staged under `data/analysis/ayah-activation/v12-tr/`; the remaining gate is release validation and metadata formalization.
 
 Before bulk V11 completion, use S1 plus a representative selection from
-S87-S114 to freeze:
+S87-S114 to freeze the contracts that remain open:
 
 - the accepted V11 image-chain contract;
-- the V12 cross-run activation contract;
 - the accepted inter-surah relation contract; and
 - ayah- and surah-commentary contracts with evidence references.
 
@@ -124,12 +125,10 @@ anchors. Preserve rejected and merely mechanical candidates upstream.
 - Use pericopes for dense/long surahs and produce final cross-pericope
   integration.
 - Normalize all V11 schema generations into one chain schema.
-- Complete V12 cross-run adjudication for every intended ayah. If full
-  corpus-wide adjudication is too expensive, retrieve from the raw runs and
-  adjudicate the top candidates on demand, while recording coverage honestly.
-- If dual-run V12 coverage is selected, generate the plus/minus-5 treatment for
-  S22-S114 before closing that coverage ledger.
-- Validate all occurrence, branch, root, ayah, and source joins.
+- Validate the staged V12 occurrence, branch, root, ayah, source, and snapshot joins.
+- Add release coverage, provenance manifests, and checksums for staged imports chosen for the next release.
+- Complete blind first-pass network v3 review for the 18 remaining eligible
+  surahs, then freeze an adjudication contract before promoting any channels.
 
 ### 5. Build accepted inter-surah relations
 
@@ -182,10 +181,12 @@ Paths are provisional until each schema is frozen.
 
 | Dataset | Proposed location | Minimum promotion condition |
 |---|---|---|
-| Root encyclopedia master and projections | `data/lexicon/root-encyclopedia/` | Complete reviewed coverage, deterministic export, frozen branch snapshot |
-| Ayah activation ledger | `data/analysis/ayah-activation/` | Accepted cross-run claims, branch evidence, roles, and explicit coverage |
+| Root encyclopedia entries | `data/dictionary/<locale>/` | Complete reviewed Quranic root-envelope coverage, deterministic export, frozen branch snapshot |
+| Translation glosses | `data/translation/glosses/locales/<locale>/` | Reviewed locale gloss results with explicit entry coverage and exceptions |
+| Ayah activation ledger | `data/analysis/ayah-activation/` | Staged V12 support exists; formal release requires schema, join validation, manifests, checksums |
 | Surah image chains | `data/analysis/surah-image-chains/` | Accepted normalized chains for all 114 surahs with occurrence anchors |
 | Inter-surah relations | `data/relations/inter-surah/` | Reviewed relation ledger with reconstructable evidence and snapshot IDs |
+| Inter-ayah focus reviews | `data/analysis/inter-ayah/` | Complete 6,236 TSV outputs, schema-clean rows, and explicit evaluation-vs-truth boundary |
 | Ayah commentary | `data/commentary/ayah/` | Final prose plus references to accepted evidence |
 | Surah commentary | `data/commentary/surah/` | Final V3 synthesis for all 114 surahs plus evidence references |
 | Network snapshot registry | `manifests/network-snapshots.json` | Model, catalog, source hashes, filtering, dimensions, and build provenance |
@@ -231,10 +232,9 @@ not production evidence.
 The next full commentary release is ready when:
 
 - one canonical lexical snapshot and all required crosswalks are frozen;
-- Dictionary V2 has reviewed target-language coverage and deterministic
-  projections;
+- Dictionary V2 has reviewed target-language entry and gloss coverage, explicit exceptions, and deterministic projections;
 - V11 has accepted, occurrence-anchored chain coverage for all 114 surahs;
-- V12 has an explicit accepted-activation coverage ledger;
+- the staged V12 coverage ledger is release-validated;
 - inter-surah relations pass review and target-side contextual verification;
 - non-root relation channels have either been implemented or declared outside
   the release scope;

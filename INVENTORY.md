@@ -1,0 +1,48 @@
+# Quran Data Inventory
+
+Snapshot date: 2026-07-27
+
+This document maps the major datasets currently present in this repository. `RELEASE.json` and `manifests/` remain authoritative for the formal `2026.07.21` release. Items marked staged were copied into the repository after that release and still need release metadata, checksums, and any documented exception ledgers before a formal release tag.
+
+## Release Payload: 2026.07.21
+
+| Path | What exists | Status | Notes |
+| --- | --- | --- | --- |
+| `data/text/` | Quran text tables | Released | Formal release payload. |
+| `data/morphology/` | QAC morphology database and indexes | Released | Formal release payload. |
+| `data/lexicon/` | V4, positive handles, Furuq lexical data | Released | Formal release payload. |
+| `data/bridges/` | QAC-to-V4 bridge | Released | Formal release payload. |
+| `data/grammar/attachments/` | Reviewed attachment enrichment `final_v3` | Released | Formal release payload. |
+| `data/grammar/contextual/` | Reviewed contextual profiles `final_v3` | Released | Formal release payload. |
+| `data/analysis/word-analysis/` | Production word analysis for all 6,236 ayahs | Released | Formal release payload. |
+| `schemas/` | Public schema notes for released data | Released support | Schema docs, not a data payload. |
+| `manifests/` | Release coverage and provenance manifests | Released metadata | Does not yet include July 27 staged imports. |
+| `RELEASE.json` | Release manifest for `2026.07.21` | Released metadata | Does not yet include July 27 staged imports. |
+| `CHECKSUMS.sha256` | Release checksums | Released metadata | Needs regeneration before promoting staged imports. |
+
+## Staged Imports: 2026-07-27
+
+| Path | What exists | Source | Coverage | Caveats |
+| --- | --- | --- | --- | --- |
+| `data/dictionary/tr/` | Turkish dictionary entry JSON files and `SOURCE.md` | `../dictionary`, commit `0e4109772b12fd227f99edd5fa41ef4758002227` | 1,679 entry files | Staged, not in `RELEASE.json`; release metadata/checksums pending. |
+| `data/translation/glosses/locales/tr/` | Turkish translation gloss JSON files, provenance, and coverage ledger | `../dictionary/v2/gloss_generation/results/tr/`, commit `0e4109772b12fd227f99edd5fa41ef4758002227` | 1,572 reviewed gloss files | 107 Turkish dictionary entry envelopes have no copied gloss result; see `COVERAGE.md`. |
+| `data/analysis/ayah-activation/v12-tr/` | V12 Turkish publication support by surah, branch inventories, full-context control/readings, and selected focus runs | `../latent_activation`, commit `f47613506937b980f2708aed73eca9ef776deb65` | 114 surahs; 114 `full_context_packet.json`; 114 `full_context_control/` dirs with 178 files; 6 focus dirs | `s103/focus_103_1/pilot_invalid_prompt_leak/` intentionally excluded. Staged release metadata/checksums pending. |
+| `data/analysis/channels/network-v3/` | Network v3 generated channel outputs, path families, review files, and pericopes | `../latent_activation`, commit `f47613506937b980f2708aed73eca9ef776deb65` | 111 eligible generated-output surahs; 110 `review/reader_a_pilot.md` files; 1 pericope JSONL | Generated channel data remains candidate/evaluation material until blind review and adjudication close. The 20 path-family JSONL files that exceeded GitHub blob limits are stored as `.jsonl.gz`; all repository files are now below 100 MB. |
+| `data/analysis/inter-ayah/` | Focus-ayah 100-card TSV review outputs, provenance, and coverage ledger | `../quran-slm/inter-ayah/outputs/`, commit `9d865a4bba8d74eb7be7694d0559e0ff075946bf` | 5,604 of 6,236 focus TSV outputs copied | 632 focus outputs missing; `focus_29_55_cutoff_100.tsv:101` has a known malformed row and should be rerun upstream. Review records are not promoted semantic truth. |
+
+## Provenance Files
+
+| Path | Purpose |
+| --- | --- |
+| `data/dictionary/tr/SOURCE.md` | Turkish dictionary entry copy source, commit, count, and verification. |
+| `data/translation/glosses/README.md` | Locale-compatible gloss layout. |
+| `data/translation/glosses/locales/tr/SOURCE.md` | Turkish gloss copy source, commit, count, status, and verification. |
+| `data/translation/glosses/locales/tr/COVERAGE.md` | Turkish gloss coverage exceptions. |
+| `data/analysis/ayah-activation/v12-tr/SOURCE.md` | V12 Turkish activation/publication/support provenance and copied path counts. |
+| `data/analysis/channels/network-v3/SOURCE.md` | Network v3 generated output, review, and pericope provenance. |
+| `data/analysis/inter-ayah/SOURCE.md` | Inter-ayah focus TSV copy provenance and status. |
+| `data/analysis/inter-ayah/COVERAGE.md` | Missing inter-ayah focus outputs and known malformed TSV row. |
+
+## Release Boundary
+
+The staged imports are present in Git history but are not yet a formal quran-data release. Before promoting them, update `RELEASE.json`, `manifests/coverage.json`, `manifests/provenance.json`, and `CHECKSUMS.sha256`, and keep the compressed `.jsonl.gz` replacements for the network-v3 files that would otherwise exceed GitHub's normal 100 MB blob limit.

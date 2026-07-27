@@ -1,0 +1,58 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s106",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s106/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 18,
+    "similarity_edges": 49,
+    "families": 3,
+    "family_size_buckets": {
+      "small_2_4": 1,
+      "medium_5_14": 2
+    },
+    "structural_type_counts": {
+      "distributed": 3
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.7347,
+      "label_hint": "grammar / alphabet / deixis / language_communication/writing_text",
+      "member_count": 2,
+      "structural_type": "distributed",
+      "ayah_count": 4,
+      "root_count": 9,
+      "branch_count": 20
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.5971,
+      "label_hint": "famine / winter / precipitation / summer",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 4,
+      "root_count": 12,
+      "branch_count": 50
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.5059,
+      "label_hint": "food / condition_force_change/capacity_ability / hunger / submission",
+      "member_count": 11,
+      "structural_type": "distributed",
+      "ayah_count": 4,
+      "root_count": 13,
+      "branch_count": 74
+    }
+  ]
+}

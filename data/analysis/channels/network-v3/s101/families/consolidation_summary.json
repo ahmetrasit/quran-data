@@ -1,0 +1,98 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s101",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s101/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 78,
+    "similarity_edges": 234,
+    "families": 7,
+    "family_size_buckets": {
+      "medium_5_14": 5,
+      "large_15_plus": 2
+    },
+    "structural_type_counts": {
+      "distributed": 7
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.647,
+      "label_hint": "duration / event / time_measure_quantity/time / existence",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 10,
+      "root_count": 16,
+      "branch_count": 44
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.5781,
+      "label_hint": "approval / satisfaction / agreement / reconciliation",
+      "member_count": 10,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 60
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.5595,
+      "label_hint": "thinness / excavation / orientation / muscle",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 10,
+      "root_count": 17,
+      "branch_count": 52
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.5027,
+      "label_hint": "existence / origin / tradition / submission",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 20,
+      "branch_count": 63
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.4971,
+      "label_hint": "weight / relief / heaviness / quantity",
+      "member_count": 19,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 94
+    },
+    {
+      "family_id": "F006",
+      "family_score": 0.4851,
+      "label_hint": "softness / locomotion / distribution / boot",
+      "member_count": 16,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 89
+    },
+    {
+      "family_id": "F007",
+      "family_score": 0.483,
+      "label_hint": "origin / tradition / parent / mother",
+      "member_count": 13,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 20,
+      "branch_count": 74
+    }
+  ]
+}

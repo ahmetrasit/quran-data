@@ -1,0 +1,854 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 101,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 155,
+    "path_graph_edges": 1900,
+    "raw_path_states": 104921,
+    "unique_path_states": 45871,
+    "deduped_paths": 4415
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8135,
+      "label_hint": "instinct / ontology / creation / blow",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "roots": [
+        "ء م م",
+        "ء ن س",
+        "ج ب ل",
+        "د ر ي",
+        "ع ه ن",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ه و ي",
+        "و ز ن"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8088,
+      "label_hint": "camel / pasture / procession / livestock",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        11
+      ],
+      "roots": [
+        "ح م ي",
+        "خ ف ف",
+        "ف ر ش",
+        "ق ر ع",
+        "ن ف ش",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.7934,
+      "label_hint": "instinct / ontology / creation / temperament",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ء ن س",
+        "ج ب ل",
+        "ح م ي",
+        "ع ه ن",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر",
+        "و ز ن"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.7931,
+      "label_hint": "sustenance / leader / resource / status",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ح م ي",
+        "خ ف ف",
+        "د ر ي",
+        "ع ه ن",
+        "ع ي ش",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.7919,
+      "label_hint": "stewardship / prevention / blow / care",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ن س",
+        "ج ب ل",
+        "ح م ي",
+        "د ر ي",
+        "ع ه ن",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ه و ي",
+        "و ز ن"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.7915,
+      "label_hint": "blow / knock / favorite / speech",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ن س",
+        "ح م ي",
+        "خ ف ف",
+        "د ر ي",
+        "ع ه ن",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر",
+        "ه و ي"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.7905,
+      "label_hint": "duration / time_measure_quantity/time / night / pasture",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ج ب ل",
+        "ح م ي",
+        "ف ر ش",
+        "ق ر ع",
+        "ن ف ش",
+        "ن و ر",
+        "ه و ي",
+        "و ز ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.7885,
+      "label_hint": "event / quantity / existence / balance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ث ق ل",
+        "ج ب ل",
+        "خ ف ف",
+        "ر ض و",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر",
+        "ه و ي",
+        "و ز ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.788,
+      "label_hint": "communication / blow / disclosure / concealment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "roots": [
+        "ء ن س",
+        "ب ث ث",
+        "ج ب ل",
+        "د ر ي",
+        "ع ه ن",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ه و ي"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.785,
+      "label_hint": "leader / sustenance / value / authority",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ث ق ل",
+        "ج ب ل",
+        "خ ف ف",
+        "د ر ي",
+        "ع ه ن",
+        "ع ي ش",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.7842,
+      "label_hint": "sustenance / comparison / resource / status",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ج ب ل",
+        "د ر ي",
+        "ع ه ن",
+        "ع ي ش",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر",
+        "و ز ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.7839,
+      "label_hint": "reconciliation / agreement / conflict / comparison",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ج ب ل",
+        "د ر ي",
+        "ر ض و",
+        "ر ض ي",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر",
+        "ه و ي",
+        "و ز ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.7836,
+      "label_hint": "instinct / ontology / creation / conflict_security/conflict",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "roots": [
+        "ء م م",
+        "ء ن س",
+        "ب ث ث",
+        "ج ب ل",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ه و ي",
+        "و ز ن"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.7828,
+      "label_hint": "land_water_sky/fire_heat / emptiness / calendar / palm",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ج ب ل",
+        "ح م ي",
+        "د ر ي",
+        "ع ه ن",
+        "ق ر ع",
+        "ن و ر",
+        "ه و ي",
+        "و ز ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7828,
+      "label_hint": "architecture / minaret / predecessor / beacon",
+      "ayahs": [
+        1,
+        2,
+        3,
+        9,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ق ر ع",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.7824,
+      "label_hint": "submission / blow / woman / gender",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "roots": [
+        "ء م م",
+        "ء ن س",
+        "ث ق ل",
+        "خ ف ف",
+        "د ر ي",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ه و ي",
+        "و ز ن"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7822,
+      "label_hint": "quantity / scale / time_measure_quantity/measurement / balance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ث ق ل",
+        "ج ب ل",
+        "خ ف ف",
+        "د ر ي",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر",
+        "و ز ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.782,
+      "label_hint": "disclosure / concealment / favorite / stud",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ن س",
+        "ب ث ث",
+        "ج ب ل",
+        "ح م ي",
+        "خ ف ف",
+        "د ر ي",
+        "ف ر ش",
+        "ق ر ع",
+        "ن و ر",
+        "ه و ي"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7812,
+      "label_hint": "stewardship / leader / care / governance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ث ق ل",
+        "ح م ي",
+        "خ ف ف",
+        "د ر ي",
+        "ع ه ن",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر",
+        "و ز ن"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7807,
+      "label_hint": "quantity / land_water_sky/fire_heat / balance / emptiness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ث ق ل",
+        "ج ب ل",
+        "ح م ي",
+        "خ ف ف",
+        "د ر ي",
+        "ق ر ع",
+        "ن و ر",
+        "ه و ي",
+        "و ز ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7805,
+      "label_hint": "sustenance / leader / softness / resource",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ء ن س",
+        "ح م ي",
+        "خ ف ف",
+        "د ر ي",
+        "ع ه ن",
+        "ع ي ش",
+        "ف ر ش",
+        "ق ر ع",
+        "ن ف ش"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7803,
+      "label_hint": "mud / blossom / flower / flora",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ج ب ل",
+        "ح م ي",
+        "د ر ي",
+        "ع ه ن",
+        "ف ر ش",
+        "ق ر ع",
+        "ن و ر",
+        "ه و ي",
+        "و ز ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7798,
+      "label_hint": "instinct / ontology / creation / intensity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "ء ن س",
+        "ج ب ل",
+        "ح م ي",
+        "د ر ي",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ه و ي",
+        "و ز ن"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7794,
+      "label_hint": "mountain / anthroponym / intensity / emptiness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ج ب ل",
+        "ح م ي",
+        "د ر ي",
+        "ر ض و",
+        "ر ض ي",
+        "ع ه ن",
+        "ق ر ع",
+        "ه و ي",
+        "و ز ن",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7793,
+      "label_hint": "sustenance / leader / resource / status",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء م م",
+        "خ ف ف",
+        "د ر ي",
+        "ع ه ن",
+        "ع ي ش",
+        "ف ر ش",
+        "ق ر ع",
+        "ك و ن",
+        "ن و ر",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.779,
+      "label_hint": "approval / emotion / disclosure / judgment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء ن س",
+        "ب ث ث",
+        "ح م ي",
+        "خ ف ف",
+        "ر ض و",
+        "ع ه ن",
+        "ف ر ش",
+        "ق ر ع",
+        "ن و ر",
+        "ه و ي"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7789,
+      "label_hint": "epistemology / relief / prevention / communication",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ن س",
+        "ث ق ل",
+        "ج ب ل",
+        "ح م ي",
+        "خ ف ف",
+        "د ر ي",
+        "ع ه ن",
+        "ف ر ش",
+        "ق ر ع",
+        "ه و ي"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7788,
+      "label_hint": "excavation / hardness / lining / durability",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        11
+      ],
+      "roots": [
+        "ج ب ل",
+        "ح م ي",
+        "ق ر ع"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7783,
+      "label_hint": "communication / favorite / speech / stalking",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ن س",
+        "ث ق ل",
+        "ج ب ل",
+        "ح م ي",
+        "خ ف ف",
+        "د ر ي",
+        "ع ه ن",
+        "ف ر ش",
+        "ق ر ع",
+        "ه و ي"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7779,
+      "label_hint": "overcoming / conflict_security/conflict / power / victory",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء م ه",
+        "ء ن س",
+        "ج ب ل",
+        "ح م ي",
+        "خ ف ف",
+        "ر ض و",
+        "ر ض ي",
+        "ف ر ش",
+        "ق ر ع",
+        "ه و ي"
+      ]
+    }
+  ]
+}

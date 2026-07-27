@@ -1,0 +1,921 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 86,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 316,
+    "path_graph_edges": 3870,
+    "raw_path_states": 219940,
+    "unique_path_states": 90883,
+    "deduped_paths": 9208
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.7985,
+      "label_hint": "passage / geology / terrain / sand",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        12,
+        13,
+        14,
+        17
+      ],
+      "roots": [
+        "ب ي ن",
+        "ث ق ب",
+        "خ ل ق",
+        "س ر ر",
+        "ص د ع",
+        "ط ر ق",
+        "ف ص ل",
+        "ق و ي",
+        "ك ف ر",
+        "ه ز ل"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.7979,
+      "label_hint": "sky / water / orientation / agriculture",
+      "ayahs": [
+        1,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ب ي ن",
+        "خ ر ج",
+        "ر ج ع",
+        "س م و",
+        "ك ف ر",
+        "ك ل ل",
+        "ن ص ر",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.7922,
+      "label_hint": "conversion / line / effort / condition_force_change/capacity_ability",
+      "ayahs": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "roots": [
+        "خ ل ق",
+        "د ر ي",
+        "ر ج ع",
+        "س ر ر",
+        "ص د ع",
+        "ص ل ب",
+        "ق و ل",
+        "ك ف ر",
+        "ك ي د",
+        "ن ص ر"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.791,
+      "label_hint": "soul / death / visitation / self",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        10,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "خ ر ج",
+        "د ف ق",
+        "ط ر ق",
+        "ق و ل",
+        "ك ف ر",
+        "ك ي د",
+        "ن ص ر",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.7906,
+      "label_hint": "firestick / friction / cosmology / star",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ث ق ب",
+        "ر ج ع",
+        "س ر ر",
+        "س م و",
+        "ك ل ل",
+        "ك ي د",
+        "ن ج م",
+        "ن ص ر"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.7901,
+      "label_hint": "exit / penetration / law_governance/authority_governance / departure",
+      "ayahs": [
+        3,
+        4,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        17
+      ],
+      "roots": [
+        "ث ق ب",
+        "ح ف ظ",
+        "خ ر ج",
+        "ذ و و",
+        "س ر ر",
+        "ف ص ل",
+        "ق و ل",
+        "ك ف ر",
+        "ك ل ل",
+        "ه ز ل"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.7864,
+      "label_hint": "virtue / line / road / path",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17
+      ],
+      "roots": [
+        "ب ي ن",
+        "خ ل ق",
+        "ر ج ع",
+        "س ر ر",
+        "ص د ع",
+        "ط ر ق",
+        "ق و ي",
+        "ك ف ر",
+        "ن ج م",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.7863,
+      "label_hint": "virtue / conversion / line / road",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17
+      ],
+      "roots": [
+        "خ ل ق",
+        "ر ج ع",
+        "ر و د",
+        "س ر ر",
+        "ص د ع",
+        "ص ل ب",
+        "ط ر ق",
+        "ن ج م",
+        "ن ص ر",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.7861,
+      "label_hint": "sky / rain / orientation / land_water_sky/weather_climate",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ب ي ن",
+        "خ ر ج",
+        "ر ج ع",
+        "س م و",
+        "ك ل ل",
+        "ن ج م",
+        "ن ص ر"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.7847,
+      "label_hint": "passage / conversion / line / route",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        17
+      ],
+      "roots": [
+        "ث ق ب",
+        "خ ل ق",
+        "ر ج ع",
+        "س ر ر",
+        "ص د ع",
+        "ص ل ب",
+        "ط ر ق",
+        "ف ص ل",
+        "ك ف ر",
+        "ن ص ر"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.7844,
+      "label_hint": "sky / rain / water / calendar",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ر ج ع",
+        "س ر ر",
+        "س م و",
+        "ك ف ر",
+        "ك ل ل",
+        "ن ج م",
+        "ن ص ر",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.7843,
+      "label_hint": "road / path / orientation / geography",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ب ي ن",
+        "ث ق ب",
+        "ح ف ظ",
+        "ر ج ع",
+        "س م و",
+        "ص د ع",
+        "ط ر ق",
+        "ن ص ر"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.7843,
+      "label_hint": "symmetry / breath / form / morality",
+      "ayahs": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "roots": [
+        "ء ر ض",
+        "خ ر ج",
+        "خ ل ق",
+        "ر ج ع",
+        "ط ر ق",
+        "ق و ل",
+        "ك ف ر",
+        "ك ي د",
+        "م ه ل",
+        "ن ص ر"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.7842,
+      "label_hint": "breadth / remoteness / time_measure_quantity/measurement / distance",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        14,
+        17
+      ],
+      "roots": [
+        "ب ي ن",
+        "ذ و و",
+        "س م و",
+        "ط ر ق",
+        "ق و ي",
+        "ك ف ر",
+        "م و ه",
+        "ن ظ ر",
+        "ن ف س",
+        "ه ز ل"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7841,
+      "label_hint": "passage / poverty / land_water_sky/water_hydrology / hydrology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        12,
+        14,
+        17
+      ],
+      "roots": [
+        "ب ي ن",
+        "ث ق ب",
+        "خ ل ق",
+        "ص د ع",
+        "ط ر ق",
+        "ق و ي",
+        "ك ف ر",
+        "م و ه",
+        "ن ف س",
+        "ه ز ل"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.7835,
+      "label_hint": "soul / death / breath / welfare",
+      "ayahs": [
+        4,
+        5,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "roots": [
+        "ء ن س",
+        "د ف ق",
+        "ذ و و",
+        "س ر ر",
+        "ق و ل",
+        "ك ف ر",
+        "ك ل ل",
+        "ك ي د",
+        "ن ف س",
+        "ه ز ل"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7829,
+      "label_hint": "welfare / comfort / pasture / kinship_society/hierarchy_status",
+      "ayahs": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        17
+      ],
+      "roots": [
+        "ء ن س",
+        "خ ر ج",
+        "ذ و و",
+        "ر ج ع",
+        "ر و د",
+        "س ر ر",
+        "ق و ل",
+        "ك ف ر",
+        "ك ل ل",
+        "ه ز ل"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.781,
+      "label_hint": "virtue / route / road / path",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        12,
+        14,
+        17
+      ],
+      "roots": [
+        "ب ي ن",
+        "ث ق ب",
+        "خ ل ق",
+        "ر و د",
+        "ص د ع",
+        "ط ر ق",
+        "ق و ي",
+        "ك ف ر",
+        "ن ف س",
+        "ه ز ل"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7808,
+      "label_hint": "symmetry / stallion / form / posture",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        17
+      ],
+      "roots": [
+        "خ ر ج",
+        "خ ل ق",
+        "ر ج ع",
+        "س م و",
+        "ط ر ق",
+        "ف ص ل",
+        "ك ل ل",
+        "م ه ل",
+        "ن ج م",
+        "ن ص ر"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7807,
+      "label_hint": "road / path / terrain / sand",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9,
+        10,
+        12,
+        13,
+        17
+      ],
+      "roots": [
+        "ء ر ض",
+        "ب ي ن",
+        "ح ف ظ",
+        "س ر ر",
+        "ص د ع",
+        "ط ر ق",
+        "ف ص ل",
+        "ق و ي",
+        "ك ف ر",
+        "ن ج م"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.78,
+      "label_hint": "answer / affirmation / language / logic",
+      "ayahs": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        17
+      ],
+      "roots": [
+        "ب ل و",
+        "ب ل ي",
+        "خ ل ق",
+        "ذ و و",
+        "ر ج ع",
+        "ر و د",
+        "ق و ل",
+        "ك ف ر",
+        "ك ل ل",
+        "ه ز ل"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7793,
+      "label_hint": "stallion / body_health_life/reproduction_birth / kinship_society/hierarchy_status / abnormality",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        17
+      ],
+      "roots": [
+        "خ ر ج",
+        "خ ل ق",
+        "ذ و و",
+        "ر ج ع",
+        "س م و",
+        "ط ر ق",
+        "ق و ل",
+        "ك ف ر",
+        "ك ل ل",
+        "ه ز ل"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7785,
+      "label_hint": "orientation / friction / cosmology / star",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        9,
+        11,
+        12,
+        15,
+        16,
+        17
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ب ي ن",
+        "ث ق ب",
+        "س م و",
+        "ك ف ر",
+        "ك ل ل",
+        "ك ي د",
+        "ن ج م",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.778,
+      "label_hint": "road / path / orientation / sand",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        11,
+        12,
+        13
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ن س",
+        "ب ي ن",
+        "ح ف ظ",
+        "س ر ر",
+        "س م و",
+        "ص د ع",
+        "ط ر ق",
+        "ف ص ل",
+        "ن ج م"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7777,
+      "label_hint": "road / path / conversion / wall",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        17
+      ],
+      "roots": [
+        "ح ف ظ",
+        "ر ج ع",
+        "س ر ر",
+        "ص د ع",
+        "ص ل ب",
+        "ط ر ق",
+        "ف ص ل",
+        "ك ف ر",
+        "ن ج م",
+        "ن ص ر"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7776,
+      "label_hint": "planning / calculation / discussion / breast",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16
+      ],
+      "roots": [
+        "ت ر ب",
+        "خ ل ق",
+        "س م و",
+        "ق د ر",
+        "ق و ل",
+        "ق و ي",
+        "ك ل ل",
+        "ك ي د",
+        "ن ج م",
+        "ن ظ ر"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7769,
+      "label_hint": "strength / condition_force_change/capacity_ability / capacity / aptitude",
+      "ayahs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        15,
+        16
+      ],
+      "roots": [
+        "ء ر ض",
+        "ح ف ظ",
+        "خ ل ق",
+        "ص د ع",
+        "ص ل ب",
+        "ق د ر",
+        "ق و ل",
+        "ق و ي",
+        "ك ل ل",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7765,
+      "label_hint": "stallion / form / body_health_life/reproduction_birth / abnormality",
+      "ayahs": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "roots": [
+        "خ ر ج",
+        "خ ل ق",
+        "ر ج ع",
+        "س م و",
+        "ط ر ق"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7763,
+      "label_hint": "soul / death / crown / breath",
+      "ayahs": [
+        1,
+        4,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "roots": [
+        "ء ر ض",
+        "د ف ق",
+        "ر ج ع",
+        "س م و",
+        "ق و ل",
+        "ك ف ر",
+        "ك ل ل",
+        "ك ي د",
+        "ن ص ر",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7758,
+      "label_hint": "sky / water / rain / land_water_sky/weather_climate",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "roots": [
+        "ء ر ض",
+        "خ ر ج",
+        "خ ل ق",
+        "ر ج ع",
+        "س م و",
+        "ط ر ق",
+        "ك ل ل",
+        "م و ه",
+        "ن ج م",
+        "ن ص ر"
+      ]
+    }
+  ]
+}

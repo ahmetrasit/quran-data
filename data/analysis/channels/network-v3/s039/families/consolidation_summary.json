@@ -1,0 +1,330 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s039",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s039/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 1214,
+    "similarity_edges": 3607,
+    "families": 161,
+    "family_size_buckets": {
+      "medium_5_14": 111,
+      "small_2_4": 36,
+      "large_15_plus": 9,
+      "singleton": 5
+    },
+    "structural_type_counts": {
+      "distributed": 161
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.6934,
+      "label_hint": "road / path / route / navigation",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 66,
+      "root_count": 33,
+      "branch_count": 39
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.6815,
+      "label_hint": "cloud / sky / land_water_sky/weather_climate / rain",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 65,
+      "root_count": 40,
+      "branch_count": 47
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.6673,
+      "label_hint": "affirmation / condemnation / evaluation / answer",
+      "member_count": 2,
+      "structural_type": "distributed",
+      "ayah_count": 33,
+      "root_count": 13,
+      "branch_count": 19
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.659,
+      "label_hint": "sufficiency / adequacy / provision / liability",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 66,
+      "root_count": 35,
+      "branch_count": 43
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.6571,
+      "label_hint": "hair / grooming / fuzz / texture",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 57,
+      "root_count": 34,
+      "branch_count": 41
+    },
+    {
+      "family_id": "F006",
+      "family_score": 0.652,
+      "label_hint": "marriage / household / spouse / family",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 57,
+      "root_count": 36,
+      "branch_count": 41
+    },
+    {
+      "family_id": "F007",
+      "family_score": 0.6507,
+      "label_hint": "land_water_sky/water_hydrology / stream / hydrology / water",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 51,
+      "root_count": 28,
+      "branch_count": 34
+    },
+    {
+      "family_id": "F008",
+      "family_score": 0.6465,
+      "label_hint": "wage / provision / livelihood / economy_property/provision_resource",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 44,
+      "root_count": 19,
+      "branch_count": 27
+    },
+    {
+      "family_id": "F009",
+      "family_score": 0.6465,
+      "label_hint": "revelation / ritual_belief/belief_revelation / message / prophecy",
+      "member_count": 2,
+      "structural_type": "distributed",
+      "ayah_count": 21,
+      "root_count": 12,
+      "branch_count": 16
+    },
+    {
+      "family_id": "F010",
+      "family_score": 0.6437,
+      "label_hint": "alarm / fear / conflict_security/protection_security / warning",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 53,
+      "root_count": 34,
+      "branch_count": 44
+    },
+    {
+      "family_id": "F011",
+      "family_score": 0.6437,
+      "label_hint": "reputation / honor / praise / virtue",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 63,
+      "root_count": 36,
+      "branch_count": 39
+    },
+    {
+      "family_id": "F012",
+      "family_score": 0.643,
+      "label_hint": "sword / handle / scabbard / tool",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 53,
+      "root_count": 27,
+      "branch_count": 33
+    },
+    {
+      "family_id": "F013",
+      "family_score": 0.6428,
+      "label_hint": "body_health_life/disease_injury / body_health_life/health_medicine / wound / relapse",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 38,
+      "root_count": 22,
+      "branch_count": 26
+    },
+    {
+      "family_id": "F014",
+      "family_score": 0.6425,
+      "label_hint": "spirit / madness / derangement / insanity",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 48,
+      "root_count": 20,
+      "branch_count": 24
+    },
+    {
+      "family_id": "F015",
+      "family_score": 0.6405,
+      "label_hint": "shadow / shade / redress / time",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 45,
+      "root_count": 20,
+      "branch_count": 32
+    },
+    {
+      "family_id": "F016",
+      "family_score": 0.64,
+      "label_hint": "perfume / fragrance / craft_material_built/ornament_beauty / cognition_perception/perception",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 56,
+      "root_count": 24,
+      "branch_count": 30
+    },
+    {
+      "family_id": "F017",
+      "family_score": 0.6384,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / offspring / kinship",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 44,
+      "root_count": 33,
+      "branch_count": 39
+    },
+    {
+      "family_id": "F018",
+      "family_score": 0.6332,
+      "label_hint": "purity / essence / quality / refinement",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 41,
+      "root_count": 37,
+      "branch_count": 51
+    },
+    {
+      "family_id": "F019",
+      "family_score": 0.6313,
+      "label_hint": "deviation / religion / authority / misguidance",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 56,
+      "root_count": 22,
+      "branch_count": 28
+    },
+    {
+      "family_id": "F020",
+      "family_score": 0.6311,
+      "label_hint": "disclosure / visibility / exposure / appearance",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 53,
+      "root_count": 19,
+      "branch_count": 25
+    },
+    {
+      "family_id": "F021",
+      "family_score": 0.6289,
+      "label_hint": "sign / landmark / semiotics / mark",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 66,
+      "root_count": 52,
+      "branch_count": 60
+    },
+    {
+      "family_id": "F022",
+      "family_score": 0.6241,
+      "label_hint": "mountain / refuge / conflict_security/protection_security / asylum",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 36,
+      "root_count": 21,
+      "branch_count": 23
+    },
+    {
+      "family_id": "F023",
+      "family_score": 0.6238,
+      "label_hint": "judgment / weakness / cognition_perception/reasoning_decision / credulity",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 49,
+      "root_count": 23,
+      "branch_count": 27
+    },
+    {
+      "family_id": "F024",
+      "family_score": 0.621,
+      "label_hint": "direction / intention / aim / target",
+      "member_count": 6,
+      "structural_type": "distributed",
+      "ayah_count": 67,
+      "root_count": 34,
+      "branch_count": 40
+    },
+    {
+      "family_id": "F025",
+      "family_score": 0.6197,
+      "label_hint": "life / soul / cognition_perception/cognition / psychology",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 60,
+      "root_count": 31,
+      "branch_count": 42
+    },
+    {
+      "family_id": "F026",
+      "family_score": 0.6192,
+      "label_hint": "well / infrastructure / land_water_sky/water_hydrology / water",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 40,
+      "root_count": 19,
+      "branch_count": 22
+    },
+    {
+      "family_id": "F027",
+      "family_score": 0.6189,
+      "label_hint": "prevention / restraint / reform / denial",
+      "member_count": 6,
+      "structural_type": "distributed",
+      "ayah_count": 58,
+      "root_count": 35,
+      "branch_count": 44
+    },
+    {
+      "family_id": "F028",
+      "family_score": 0.6187,
+      "label_hint": "vision / eye / perception / sight",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 55,
+      "root_count": 42,
+      "branch_count": 52
+    },
+    {
+      "family_id": "F029",
+      "family_score": 0.6182,
+      "label_hint": "grammar / preposition / question / alphabet",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 52,
+      "root_count": 23,
+      "branch_count": 27
+    },
+    {
+      "family_id": "F030",
+      "family_score": 0.6173,
+      "label_hint": "lie / falsehood / attribution / imposture",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 68,
+      "root_count": 40,
+      "branch_count": 52
+    }
+  ]
+}

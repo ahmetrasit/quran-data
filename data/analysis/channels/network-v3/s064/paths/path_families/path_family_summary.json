@@ -1,0 +1,470 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 29046,
+    "similarity_edges": 118046,
+    "path_families": 2931
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.7045,
+      "label_hint": "shrub / ritual_belief/religion_worship / herb / pasture",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ح ل م",
+        "ر ب ب",
+        "س ب ح",
+        "ش ك ر",
+        "ع ز ز",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6984,
+      "label_hint": "scarcity / ritual_belief/religion_worship / wood / quantity",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ج م ع",
+        "س ب ح",
+        "ص ف ح",
+        "ط و ع",
+        "ق ب ل",
+        "ق د ر",
+        "ق و ل",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6955,
+      "label_hint": "pursuit / sequence / disbelief / heresy",
+      "member_count": 2,
+      "roots": [
+        "د خ ل",
+        "س ر ر",
+        "س م و",
+        "ع د و",
+        "ك ف ر",
+        "ن ف ق",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.695,
+      "label_hint": "goal / ritual_belief/religion_worship / benefit / limit",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ح س ن",
+        "ح م د",
+        "س ب ح",
+        "ط و ع",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6923,
+      "label_hint": "oath / swearing / pledge / commitment",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ء ي ي",
+        "ب ل ي",
+        "ص ف ح",
+        "ع د و",
+        "ع ز ز"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6905,
+      "label_hint": "calm / safety / trust / caul",
+      "member_count": 2,
+      "roots": [
+        "ء ل ي",
+        "ء م ن",
+        "ب ء س",
+        "ر س ل",
+        "س م و",
+        "غ ي ب",
+        "و ب ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6897,
+      "label_hint": "calculation / planning / relief / oath",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء ي ي",
+        "ب ل ي",
+        "خ ل ق",
+        "ط و ع",
+        "ق د ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.6897,
+      "label_hint": "hyena / fatness / wolf / beast",
+      "member_count": 2,
+      "roots": [
+        "ح ق ق",
+        "ح ل م",
+        "ر س ل",
+        "س م ع",
+        "ش ك ر",
+        "ع ل م",
+        "ق ل ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.6803,
+      "label_hint": "fasting / calamity / angle / commissure",
+      "member_count": 2,
+      "roots": [
+        "ء ب د",
+        "ء ل ه",
+        "ء ي ي",
+        "ب ل غ",
+        "س م و",
+        "ص و ر",
+        "ف ل ح"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.6798,
+      "label_hint": "stealth / sapling / botany / palm",
+      "member_count": 2,
+      "roots": [
+        "ج م ع",
+        "ج ن ن",
+        "س ر ر",
+        "ش ي ء",
+        "ص و ر",
+        "ك ف ر",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.6797,
+      "label_hint": "runoff / cohesion / flood / land_water_sky/water_hydrology",
+      "member_count": 2,
+      "roots": [
+        "ء ت ي",
+        "ش ح ح",
+        "ع ز ز",
+        "ع ن د",
+        "م ل ك",
+        "ن ب ء",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.6785,
+      "label_hint": "fatigue / bluntness / keeper / mounting",
+      "member_count": 2,
+      "roots": [
+        "ر س ل",
+        "ز ع م",
+        "س م و",
+        "ق ب ل",
+        "ك ل ل",
+        "و ب ل",
+        "و ك ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.6773,
+      "label_hint": "name / hydrology / water / onomastics",
+      "member_count": 2,
+      "roots": [
+        "ح س ن",
+        "ح ل م",
+        "ذ و ق",
+        "ر ب ب",
+        "ع ذ ب",
+        "ع ل م",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.6739,
+      "label_hint": "condition_force_change/capacity_ability / aptitude / worthiness / vocation",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ء م ر",
+        "ء م ن",
+        "ح ق ق",
+        "خ ل ق",
+        "ص د ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.6727,
+      "label_hint": "pronoun / vermin / syntax / blindness",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ء ل ه",
+        "ء ل ي",
+        "ء ي ي",
+        "خ ل د",
+        "ذ و و",
+        "ق ر ض"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.6715,
+      "label_hint": "alliance / fluid / agreement / cooperation",
+      "member_count": 2,
+      "roots": [
+        "ء ت ي",
+        "ج م ع",
+        "ط و ع",
+        "ك ف ر",
+        "ك ل ل",
+        "ن ز ل",
+        "و ك ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.6698,
+      "label_hint": "pursuit / mobility / sequence / vision",
+      "member_count": 2,
+      "roots": [
+        "س م ع",
+        "س م و",
+        "ش ي ء",
+        "ع د و",
+        "ع ز ز",
+        "ع م ل",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.6689,
+      "label_hint": "drinking / camel / watering / husbandry",
+      "member_count": 2,
+      "roots": [
+        "ح ق ق",
+        "د خ ل",
+        "ر س ل",
+        "ش ك ر",
+        "ع م ل",
+        "ق ب ل",
+        "ك ذ ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.6662,
+      "label_hint": "thorax / bone / duration / chest",
+      "member_count": 2,
+      "roots": [
+        "ء ب د",
+        "ء ل ه",
+        "ج ن ن",
+        "ص د ر",
+        "ع ظ م",
+        "ك ل ل",
+        "ي و م"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.6627,
+      "label_hint": "support / glorification / exoneration / transcendence",
+      "member_count": 2,
+      "roots": [
+        "ح ذ ر",
+        "س ب ح",
+        "ع ز ز",
+        "ك ف ر",
+        "ن ف س",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.661,
+      "label_hint": "pursuit / sequence / concealment / protection",
+      "member_count": 2,
+      "roots": [
+        "ج ن ن",
+        "س م و",
+        "ع د و",
+        "غ ف ر",
+        "ك ف ر",
+        "و ق ي",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.6589,
+      "label_hint": "selection / kinship_society/social_relations / possessor / holder",
+      "member_count": 2,
+      "roots": [
+        "خ ي ر",
+        "ذ و و",
+        "ص ح ب",
+        "ص ل ح",
+        "ص و ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.6555,
+      "label_hint": "leprosy / disavowal / repudiation / weakness",
+      "member_count": 2,
+      "roots": [
+        "ء ل ي",
+        "د خ ل",
+        "س ب ح",
+        "س و ء",
+        "ض ع ف",
+        "غ ب ن",
+        "ك ف ر",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.6502,
+      "label_hint": "production / neologism / product / derivative",
+      "member_count": 2,
+      "roots": [
+        "خ ل ق",
+        "خ ي ر",
+        "ر ب ب",
+        "ص ل ح",
+        "ع م ل",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.6495,
+      "label_hint": "submission / humility / wood / bat",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ع ظ م",
+        "ق و ل",
+        "ك ف ر",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.6477,
+      "label_hint": "livelihood / wage / leader / leadership",
+      "member_count": 2,
+      "roots": [
+        "ء ج ر",
+        "ع د و",
+        "ع م ل",
+        "م ل ك",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.6466,
+      "label_hint": "offspring / youth / daughter / mankind",
+      "member_count": 2,
+      "roots": [
+        "ء م ر",
+        "ب ش ر",
+        "ر ح م",
+        "ع ذ ب",
+        "ع ف و",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.6463,
+      "label_hint": "trial / ordeal / virtue / examination",
+      "member_count": 2,
+      "roots": [
+        "ب ل ي",
+        "خ ي ر",
+        "ع ذ ب",
+        "ف ت ن",
+        "ق ر ض"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.6451,
+      "label_hint": "benefit / adoration / redress / ritual_belief/religion_worship",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "ص ف ح",
+        "ع د و",
+        "ك ف ر",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.6446,
+      "label_hint": "belief / obedience / uncertainty / alignment",
+      "member_count": 5,
+      "roots": [
+        "ء ت ي",
+        "ء ل ي",
+        "ء م ر",
+        "ء م ن",
+        "ء ي ي",
+        "ح ق ق",
+        "ح ك م",
+        "س م و",
+        "ش ح ح",
+        "ش ي ء",
+        "ص د ر",
+        "ص ف ح",
+        "ط و ع",
+        "ع د و",
+        "ع ذ ب",
+        "غ ي ب",
+        "ك ذ ب",
+        "ك ف ر"
+      ]
+    }
+  ]
+}

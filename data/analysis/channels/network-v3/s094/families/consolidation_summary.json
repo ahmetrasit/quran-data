@@ -1,0 +1,99 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s094",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s094/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 66,
+    "similarity_edges": 188,
+    "families": 7,
+    "family_size_buckets": {
+      "small_2_4": 2,
+      "medium_5_14": 4,
+      "large_15_plus": 1
+    },
+    "structural_type_counts": {
+      "distributed": 7
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.687,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / delivery / birth",
+      "member_count": 2,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 11,
+      "branch_count": 21
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.6254,
+      "label_hint": "gift / appetite / spaciousness / kinship_society/hospitality_welfare",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 14,
+      "branch_count": 43
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.6079,
+      "label_hint": "honor / information / discovery / capacity",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 12,
+      "branch_count": 31
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.5909,
+      "label_hint": "location / grammar / omen / misfortune",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 15,
+      "branch_count": 45
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.538,
+      "label_hint": "elevation / grammar / visibility / cognition_perception/knowledge_learning",
+      "member_count": 10,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 16,
+      "branch_count": 72
+    },
+    {
+      "family_id": "F006",
+      "family_score": 0.5145,
+      "label_hint": "laterality / movement_travel/orientation_direction / left / relief",
+      "member_count": 14,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 16,
+      "branch_count": 75
+    },
+    {
+      "family_id": "F007",
+      "family_score": 0.4714,
+      "label_hint": "travel / transport / camel / journey",
+      "member_count": 27,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 16,
+      "branch_count": 123
+    }
+  ]
+}

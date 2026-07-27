@@ -1,0 +1,117 @@
+# Turkish Gloss Coverage
+
+Generated: 2026-07-27 15:09:00 EDT
+
+Dictionary entry envelopes in `data/dictionary/tr/`: 1,679.
+Turkish gloss result envelopes in this folder: 1,572.
+Entry envelopes without copied Turkish gloss result: 107.
+
+## Missing Turkish Gloss Result Envelopes
+
+- `root_000405`
+- `root_000574`
+- `root_000618`
+- `root_000633`
+- `root_000671`
+- `root_000719`
+- `root_000778`
+- `root_000822`
+- `root_000839`
+- `root_000889`
+- `root_000956`
+- `root_000966`
+- `root_000967`
+- `root_000984`
+- `root_000988`
+- `root_001005`
+- `root_001042`
+- `root_001046`
+- `root_001089`
+- `root_001167`
+- `root_001240`
+- `root_001244`
+- `root_001248`
+- `root_001260`
+- `root_001272`
+- `root_001286`
+- `root_001288`
+- `root_001290`
+- `root_001291`
+- `root_001301`
+- `root_001304`
+- `root_001307`
+- `root_001314`
+- `root_001332`
+- `root_001362`
+- `root_001369`
+- `root_001415`
+- `root_001421`
+- `root_001466`
+- `root_001476`
+- `root_001488`
+- `root_001521`
+- `root_001528`
+- `root_001529`
+- `root_001533`
+- `root_001539`
+- `root_001540`
+- `root_001542`
+- `root_001545`
+- `root_001547`
+- `root_001548`
+- `root_001550`
+- `root_001551`
+- `root_001552`
+- `root_001553`
+- `root_001558`
+- `root_001564`
+- `root_001567`
+- `root_001569`
+- `root_001575`
+- `root_001576`
+- `root_001577`
+- `root_001580`
+- `root_001589`
+- `root_001590`
+- `root_001591`
+- `root_001593`
+- `root_001595`
+- `root_001596`
+- `root_001599`
+- `root_001602`
+- `root_001603`
+- `root_001605`
+- `root_001607`
+- `root_001609`
+- `root_001612`
+- `root_001615`
+- `root_001619`
+- `root_001622`
+- `root_001624`
+- `root_001627`
+- `root_001632`
+- `root_001648`
+- `root_001656`
+- `root_001657`
+- `root_001666`
+- `root_001668`
+- `root_001669`
+- `root_001670`
+- `root_001671`
+- `root_001673`
+- `root_001675`
+- `root_001676`
+- `root_001677`
+- `root_001678`
+- `root_001679`
+- `root_001683`
+- `root_001684`
+- `root_001686`
+- `root_001687`
+- `root_001689`
+- `root_001690`
+- `root_001692`
+- `root_001694`
+- `root_001695`
+- `root_001698`
+- `root_001699`

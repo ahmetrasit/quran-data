@@ -1,0 +1,470 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 88,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s088",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s088",
+    "catalog_branch_count": 488,
+    "eligible_branch_count": 488,
+    "affinity_shape": [
+      488,
+      488
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04133387,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 3026,
+    "raw_candidates": 365,
+    "deduped_candidates": 291
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8323,
+      "label_hint": "birth / body_health_life/reproduction_birth / pregnancy / reproduction",
+      "ayahs": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        10,
+        13,
+        14,
+        24
+      ],
+      "root_count": 9,
+      "branch_count": 9,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.7871,
+      "label_hint": "travel / gait / journey / speed",
+      "ayahs": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        13,
+        14,
+        18,
+        19,
+        25
+      ],
+      "root_count": 9,
+      "branch_count": 11,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.7844,
+      "label_hint": "birth / body_health_life/reproduction_birth / pregnancy / reproduction",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        10,
+        13,
+        14,
+        23,
+        24
+      ],
+      "root_count": 9,
+      "branch_count": 10,
+      "edge_count": 11
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.7737,
+      "label_hint": "tree / growth / crop / irrigation",
+      "ayahs": [
+        1,
+        4,
+        5,
+        6,
+        10,
+        12,
+        13,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        25
+      ],
+      "root_count": 11,
+      "branch_count": 14,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.7731,
+      "label_hint": "flesh / muscle / body_health_life/anatomy / body_health_life/reproduction_birth",
+      "ayahs": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25
+      ],
+      "root_count": 10,
+      "branch_count": 11,
+      "edge_count": 11
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.7689,
+      "label_hint": "victory / competition / overcoming / conflict_security/conflict",
+      "ayahs": [
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        23,
+        24
+      ],
+      "root_count": 11,
+      "branch_count": 11,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.7608,
+      "label_hint": "music / singing / song / melody",
+      "ayahs": [
+        3,
+        7,
+        11,
+        12,
+        17,
+        18,
+        19,
+        20,
+        23,
+        25,
+        26
+      ],
+      "root_count": 9,
+      "branch_count": 13,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.7606,
+      "label_hint": "victory / competition / overcoming / conflict_security/conflict",
+      "ayahs": [
+        6,
+        9,
+        10,
+        11,
+        14,
+        20,
+        23,
+        24
+      ],
+      "root_count": 10,
+      "branch_count": 11,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7598,
+      "label_hint": "cushion / pillow / pad / flesh",
+      "ayahs": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        10,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        23,
+        25,
+        26
+      ],
+      "root_count": 11,
+      "branch_count": 11,
+      "edge_count": 10
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7551,
+      "label_hint": "reputation / honor / travel / praise",
+      "ayahs": [
+        2,
+        3,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        18,
+        19,
+        21,
+        24,
+        26
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7546,
+      "label_hint": "music / singing / sound / song",
+      "ayahs": [
+        3,
+        7,
+        11,
+        13,
+        18,
+        19,
+        23,
+        26
+      ],
+      "root_count": 7,
+      "branch_count": 14,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7534,
+      "label_hint": "honor / hierarchy / nobility / reputation",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        10,
+        12,
+        13,
+        14,
+        18,
+        19,
+        21,
+        24,
+        25
+      ],
+      "root_count": 13,
+      "branch_count": 15,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7522,
+      "label_hint": "honor / nobility / reputation / rank",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        12,
+        13,
+        17,
+        18,
+        19,
+        21,
+        24,
+        26
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 29
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7512,
+      "label_hint": "elevation / height / sky / ground",
+      "ayahs": [
+        2,
+        3,
+        8,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        22,
+        24
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7508,
+      "label_hint": "honor / reputation / nobility / praise",
+      "ayahs": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        18,
+        21,
+        24,
+        26
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7506,
+      "label_hint": "space / height / sky / elevation",
+      "ayahs": [
+        2,
+        5,
+        8,
+        10,
+        12,
+        13,
+        14,
+        17,
+        18,
+        20,
+        23,
+        24
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7494,
+      "label_hint": "birth / reproduction / copulation / union",
+      "ayahs": [
+        1,
+        2,
+        4,
+        8,
+        10,
+        13,
+        14,
+        17,
+        18,
+        24
+      ],
+      "root_count": 9,
+      "branch_count": 10,
+      "edge_count": 11
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7491,
+      "label_hint": "honor / humility / reputation / hierarchy",
+      "ayahs": [
+        2,
+        6,
+        8,
+        10,
+        11,
+        13,
+        14,
+        18,
+        19,
+        21,
+        23,
+        24,
+        26
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7479,
+      "label_hint": "weather / height / sky / rain",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        10,
+        12,
+        13,
+        18,
+        20,
+        23,
+        24
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7474,
+      "label_hint": "honor / elevation / reputation / rank",
+      "ayahs": [
+        3,
+        10,
+        13,
+        14,
+        18,
+        19,
+        20,
+        21,
+        24
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 38
+    }
+  ]
+}

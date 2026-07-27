@@ -1,0 +1,882 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 93,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 162,
+    "path_graph_edges": 2034,
+    "raw_path_states": 113263,
+    "unique_path_states": 48556,
+    "deduped_paths": 4862
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8175,
+      "label_hint": "household / daylight / dependent / service",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "ض ح و",
+        "ع ط و",
+        "ع ي ل",
+        "ل ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8152,
+      "label_hint": "daylight / interval / repair / reputation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "ض ح و",
+        "ض ل ل",
+        "ع ي ل",
+        "ل ي ل",
+        "ن ه ر",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8136,
+      "label_hint": "cattle / livestock / darkness / repair",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ض ح و",
+        "ض ل ل",
+        "ع ي ل",
+        "ل ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8113,
+      "label_hint": "kinship_society/hospitality_welfare / gift / welfare / charity",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ح د ث",
+        "خ ي ر",
+        "ر ب ب",
+        "س ج و",
+        "ع ط و",
+        "ع ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8105,
+      "label_hint": "abundance / priority / revelation / burial",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "س ج و",
+        "ض ل ل",
+        "ق ه ر",
+        "ن ه ر",
+        "ه د ي",
+        "و ج د",
+        "و د ع"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8097,
+      "label_hint": "welfare / need / circumstance / goal",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "س ء ل",
+        "س ج و",
+        "ع ي ل",
+        "غ ن ي",
+        "ن ع م",
+        "ن ه ر",
+        "و ج د"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.809,
+      "label_hint": "stealth / priority / beginning / deprivation",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "س ج و",
+        "ع ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8076,
+      "label_hint": "victory / power / dominance / conflict_security/conflict",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "roots": [
+        "ر ض و",
+        "ر ض ي",
+        "س ج و",
+        "ع ط و",
+        "ق ه ر",
+        "ن ه ر",
+        "و ج د",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8073,
+      "label_hint": "victory / power / dominance / conflict_security/conflict",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ر ض و",
+        "ر ض ي",
+        "س ج و",
+        "ع ط و",
+        "ق ه ر",
+        "ن ه ر",
+        "و ج د",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8053,
+      "label_hint": "cattle / emotion_ethics/emotion / stewardship / repair",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ء و ي",
+        "ر ب ب",
+        "ض ل ل",
+        "ع ي ل",
+        "ن ع م",
+        "ه د ي",
+        "و ج د",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8036,
+      "label_hint": "daylight / emotion_ethics/emotion / stewardship / interval",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ء و ي",
+        "ر ب ب",
+        "ض ح و",
+        "ل ي ل",
+        "ن ه ر",
+        "ه د ي",
+        "و ج د",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8028,
+      "label_hint": "gift / kinship_society/hospitality_welfare / stealth / giving",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ح د ث",
+        "خ ي ر",
+        "ر ب ب",
+        "س ج و",
+        "ع ط و",
+        "غ ن ي",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "و ج د"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8022,
+      "label_hint": "marriage / woman / name / gender",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ض و",
+        "ر ض ي",
+        "ع ي ل",
+        "غ ن ي",
+        "ق ه ر",
+        "ل ي ل",
+        "ن ه ر",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.802,
+      "label_hint": "victory / dominance / conflict_security/conflict / competition",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ر ض و",
+        "ر ض ي",
+        "س ج و",
+        "ض ل ل",
+        "ع ط و",
+        "ع ي ل",
+        "ن ع م",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8015,
+      "label_hint": "priority / revelation / burial / beginning",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "س ج و",
+        "ض ل ل",
+        "ه د ي",
+        "و ج د",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8008,
+      "label_hint": "service / visibility / repair / care",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "ض ح و",
+        "ع ط و",
+        "ع ي ل",
+        "ل ي ل",
+        "ن ه ر",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8006,
+      "label_hint": "kinship_society/hospitality_welfare / gift / stealth / giving",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "خ ي ر",
+        "ر ب ب",
+        "س ج و",
+        "ع ط و",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7996,
+      "label_hint": "victory / stewardship / dominance / conflict_security/conflict",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ء و ي",
+        "ر ب ب",
+        "ر ض و",
+        "ر ض ي",
+        "س ج و",
+        "ع ط و",
+        "و ج د",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7988,
+      "label_hint": "welfare / gift / kinship_society/hospitality_welfare / wealth",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "خ ي ر",
+        "ر ب ب",
+        "س ج و",
+        "ع ط و",
+        "ع ي ل",
+        "غ ن ي",
+        "ن ع م",
+        "ن ه ر",
+        "و ج د"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7981,
+      "label_hint": "kinship_society/hospitality_welfare / goal / priority / revelation",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "س ء ل",
+        "س ج و",
+        "ن ع م",
+        "ه د ي",
+        "و ج د",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7979,
+      "label_hint": "welfare / reversal / stealth / blessing",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "خ ي ر",
+        "ر ب ب",
+        "س ج و",
+        "ع ي ل",
+        "غ ن ي",
+        "ق ه ر",
+        "ن ع م",
+        "ن ه ر",
+        "و ج د"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7974,
+      "label_hint": "welfare / kinship_society/hospitality_welfare / return / reversal",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ء و ي",
+        "ح د ث",
+        "خ ي ر",
+        "ر ب ب",
+        "س ج و",
+        "ع ي ل",
+        "ق ه ر",
+        "ن ع م",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7973,
+      "label_hint": "stealth / stewardship / repair / care",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ء و ي",
+        "ر ب ب",
+        "س ج و",
+        "ض ل ل",
+        "ع ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7971,
+      "label_hint": "stealth / isolation / priority / revelation",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "س ج و",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "و ج د",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.797,
+      "label_hint": "cattle / return / reversal / livestock",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ء و ي",
+        "خ ي ر",
+        "ر ب ب",
+        "ض ل ل",
+        "ع ي ل",
+        "ق ل ي",
+        "ق ه ر",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7969,
+      "label_hint": "abundance / goal / container / burial",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ر ض و",
+        "س ء ل",
+        "س ج و",
+        "ض ل ل",
+        "ق ه ر",
+        "ن ه ر",
+        "و ج د",
+        "و د ع"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7968,
+      "label_hint": "marriage / woman / gender / sky",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ر ض و",
+        "ر ض ي",
+        "غ ن ي",
+        "ل ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7964,
+      "label_hint": "darkness / daylight / calm / dignity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "س ج و",
+        "ض ح و",
+        "ل ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7963,
+      "label_hint": "gambling / priority / revelation / time_measure_quantity/sequence_cycle",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "س ج و",
+        "ض ح و",
+        "ض ل ل",
+        "ن ه ر",
+        "ه د ي",
+        "و ج د",
+        "و د ع"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7963,
+      "label_hint": "gift / kinship_society/hospitality_welfare / reversal / giving",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "خ ي ر",
+        "ر ب ب",
+        "س ج و",
+        "ع ط و",
+        "غ ن ي",
+        "ق ه ر",
+        "ن ع م",
+        "و ج د"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 12587,
+    "similarity_edges": 51490,
+    "path_families": 1086
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6789,
+      "label_hint": "ferocity / shortness / strength / description",
+      "member_count": 2,
+      "roots": [
+        "ء م م",
+        "ح ب ب",
+        "ذ ك ر",
+        "ع ب س",
+        "ع ن ب",
+        "غ ل ب",
+        "ق ب ر",
+        "ك ر م",
+        "ك ل ل",
+        "ن ش ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6684,
+      "label_hint": "duration / time_measure_quantity/time / death / period",
+      "member_count": 2,
+      "roots": [
+        "ء م م",
+        "غ ب ر",
+        "ق ض ي",
+        "م و ت",
+        "ن ش ر",
+        "ي و م"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6656,
+      "label_hint": "transparency / woman / gender / imperforation",
+      "member_count": 2,
+      "roots": [
+        "ء م م",
+        "ء م ه",
+        "خ ل ق",
+        "ر ف ع",
+        "م ر ء",
+        "م و ه",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.662,
+      "label_hint": "brain / wound / medicine / gash",
+      "member_count": 2,
+      "roots": [
+        "ء م م",
+        "ء م ه",
+        "ص د ي",
+        "ط ع م",
+        "م ر ء",
+        "ن ط ف"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6617,
+      "label_hint": "combat / reputation / violence / fighting",
+      "member_count": 2,
+      "roots": [
+        "ب ر ر",
+        "ذ ك ر",
+        "ص د ي",
+        "ط ع م",
+        "ف ك ه",
+        "ق ت ل",
+        "ق ض ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6602,
+      "label_hint": "urine / vision / organ / pupil",
+      "member_count": 2,
+      "roots": [
+        "ء ب و",
+        "ء ن س",
+        "س ب ل",
+        "ش ء ن",
+        "ع ب س",
+        "ن ش ر",
+        "ن ظ ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6572,
+      "label_hint": "worthiness / condition_force_change/capacity_ability / aptitude / intention",
+      "member_count": 2,
+      "roots": [
+        "ء ب ب",
+        "ء ر ض",
+        "ء م م",
+        "خ ل ق",
+        "س ع ي",
+        "م ر ء",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.6539,
+      "label_hint": "prosperity / growth / increase / fertility",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ء م ر",
+        "ذ ك ر",
+        "ز ك و",
+        "ص د ي",
+        "م و ه",
+        "ن ب ت"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.6517,
+      "label_hint": "tooth / pupil / body_health_life/anatomy / organ",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "ح ب ب",
+        "ح د ق",
+        "ش ء ن",
+        "ض ح ك",
+        "ف ر ر",
+        "ن ظ ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.6503,
+      "label_hint": "hospitality / generosity / fatigue / weapon",
+      "member_count": 2,
+      "roots": [
+        "ذ ك ر",
+        "ر ه ق",
+        "ق ض ب",
+        "ق ض ي",
+        "ك ر م",
+        "ك ل ل",
+        "ن ش ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.6502,
+      "label_hint": "land / tracklessness / predecessor / unknown",
+      "member_count": 2,
+      "roots": [
+        "ء م ر",
+        "ء م م",
+        "ب ش ر",
+        "ع م ي",
+        "م ت ع",
+        "م ر ء",
+        "م و ت"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.6481,
+      "label_hint": "gender / steppe / imperforation / transparency",
+      "member_count": 2,
+      "roots": [
+        "ب ر ر",
+        "خ ل ق",
+        "ر ف ع",
+        "ف ر ر",
+        "ق ب ر",
+        "ك ف ر",
+        "م و ه"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.639,
+      "label_hint": "climate / heat / steppe / glare",
+      "member_count": 2,
+      "roots": [
+        "ب ر ر",
+        "ع م ي",
+        "ف ر ر",
+        "ق ب ر",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.6294,
+      "label_hint": "body_health_life/disease_injury / wound / pus / medicine",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ج ي ء",
+        "ح ب ب",
+        "ق ت ر",
+        "ن ط ف"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.6287,
+      "label_hint": "combat / hospitality / growth / violence",
+      "member_count": 2,
+      "roots": [
+        "ب ن ي",
+        "ص د ي",
+        "ط ع م",
+        "ق ت ل",
+        "م ر ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.6279,
+      "label_hint": "order / continuity / virtue / generation",
+      "member_count": 2,
+      "roots": [
+        "ب ن ي",
+        "خ ل ق",
+        "ط ع م",
+        "م ر ء",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.624,
+      "label_hint": "intention / peer / counterpart / destination",
+      "member_count": 2,
+      "roots": [
+        "ء ب ب",
+        "ء م م",
+        "س ع ي",
+        "ش ي ء",
+        "ق ت ل",
+        "ن ظ ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.6219,
+      "label_hint": "gift / kinship_society/hospitality_welfare / bounty / blessing",
+      "member_count": 2,
+      "roots": [
+        "س ع ي",
+        "ط ع م",
+        "ق ت ل",
+        "ق ض ب",
+        "ق ض ي",
+        "ك ر م",
+        "ن ع م",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.6215,
+      "label_hint": "form / prosperity / affluence / physiognomy",
+      "member_count": 2,
+      "roots": [
+        "ء م م",
+        "ب ن ي",
+        "خ ل ق",
+        "غ ن ي",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.6207,
+      "label_hint": "economy_property/commerce_exchange / payment / resale / barter",
+      "member_count": 2,
+      "roots": [
+        "ب ر ر",
+        "ف ج ر",
+        "ك ف ر",
+        "ن ط ف",
+        "و ل ي",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.6202,
+      "label_hint": "prosperity / increase / growth / blessing",
+      "member_count": 2,
+      "roots": [
+        "ء م ر",
+        "ح ب ب",
+        "ز ك و",
+        "م و ت",
+        "م و ه",
+        "ن ب ت"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.6199,
+      "label_hint": "compatibility / association / preoccupation / distraction",
+      "member_count": 2,
+      "roots": [
+        "ء م م",
+        "ش ي ء",
+        "ص ح ب",
+        "ل ه و",
+        "ل ه ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.6176,
+      "label_hint": "cereal / kernel / grain / agriculture_food/harvest_cultivation",
+      "member_count": 2,
+      "roots": [
+        "ب ر ر",
+        "ح ب ب",
+        "ش ي ء",
+        "ن ب ت",
+        "ن خ ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.6164,
+      "label_hint": "agriculture_food/plant_vegetation / growth / calyx / schism",
+      "member_count": 2,
+      "roots": [
+        "ش ق ق",
+        "ص ب ب",
+        "ض ح ك",
+        "ف ج ر",
+        "ك ف ر",
+        "ن ط ف",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.6161,
+      "label_hint": "euphemism / phallus / imperfection / genital",
+      "member_count": 2,
+      "roots": [
+        "ء م م",
+        "ء م ه",
+        "ب ر ر",
+        "ذ ك ر",
+        "ق ض ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.6151,
+      "label_hint": "worthiness / climate / heat / eligibility",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ج ي ء",
+        "خ ل ق",
+        "ع م ي",
+        "ف ر ر",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.6145,
+      "label_hint": "decay / comfort / breadth / abundance",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ب ش ر",
+        "خ ل ق",
+        "ص ح ف",
+        "م و ت",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.6128,
+      "label_hint": "humility / submission / gesture / conviction",
+      "member_count": 2,
+      "roots": [
+        "ش ي ء",
+        "ع ب س",
+        "ق ت ل",
+        "ك ف ر",
+        "م و ت",
+        "و ج ه"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.6123,
+      "label_hint": "deception / responsibility / obscuration / disavowal",
+      "member_count": 2,
+      "roots": [
+        "ب ر ر",
+        "س ع ي",
+        "ع م ي",
+        "ف ر ر",
+        "ك ف ر",
+        "م و ه"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.612,
+      "label_hint": "proportion / fit / equipment / quantity",
+      "member_count": 4,
+      "roots": [
+        "ء ر ض",
+        "ء م م",
+        "ح ب ب",
+        "ق ت ر",
+        "ق د ر",
+        "ن ع م",
+        "و ل ي",
+        "ي د ي",
+        "ي س ر"
+      ]
+    }
+  ]
+}

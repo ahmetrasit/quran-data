@@ -1,0 +1,490 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 57368,
+    "similarity_edges": 221709,
+    "path_families": 6248
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.7021,
+      "label_hint": "composure / space_form_boundary/place_location / residence / emotion_ethics/ethics_morality",
+      "member_count": 2,
+      "roots": [
+        "ث و ي",
+        "ر ب ب",
+        "ر ب ع",
+        "ر س ل",
+        "ظ ن ن",
+        "ق و م",
+        "ك و ن",
+        "ن ز ل",
+        "ه و ن",
+        "و ق ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6865,
+      "label_hint": "proximity / edge / side / bank",
+      "member_count": 4,
+      "roots": [
+        "ء ن س",
+        "ج ن ب",
+        "د ن و",
+        "ش ر ك",
+        "ش ف ي",
+        "ش ق ق",
+        "ض ر ر",
+        "ع د و",
+        "ع ر ض",
+        "ع ل م",
+        "ف و ق",
+        "ق ل ب",
+        "ق و ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6849,
+      "label_hint": "rhetoric / language / expression / thought",
+      "member_count": 2,
+      "roots": [
+        "ب ي ن",
+        "ص ب ر",
+        "ع ر ب",
+        "ع ر ض",
+        "ق و ل",
+        "ن ط ق",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.6821,
+      "label_hint": "fatigue / tongue / language / clarity",
+      "member_count": 2,
+      "roots": [
+        "ء م ر",
+        "ش ه د",
+        "ع ب د",
+        "ف ص ل",
+        "ق و ل",
+        "ق و م",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.681,
+      "label_hint": "inhabitant / absence / landscape / wilderness",
+      "member_count": 2,
+      "roots": [
+        "ب ص ر",
+        "ب ي ن",
+        "د ع و",
+        "س م ع",
+        "ع ر ب",
+        "ع م ي",
+        "م و ت"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6787,
+      "label_hint": "priority / time_measure_quantity/sequence_cycle / precedence / commerce",
+      "member_count": 2,
+      "roots": [
+        "ء و ل",
+        "ب ع د",
+        "ج ن ن",
+        "خ ل ف",
+        "ع م ل",
+        "ق ب ل",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6732,
+      "label_hint": "language / ambiguity / circumstance / tongue",
+      "member_count": 2,
+      "roots": [
+        "ء م ر",
+        "ح ي ص",
+        "د ع و",
+        "ذ ك ر",
+        "ش ه د",
+        "ص ب ر",
+        "ع م ي",
+        "ف ص ل",
+        "ق و ل",
+        "م س س"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.6719,
+      "label_hint": "herd / banner / semiotics / sign",
+      "member_count": 2,
+      "roots": [
+        "ء م ر",
+        "ث و ي",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "ع ل م",
+        "و ق ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.6712,
+      "label_hint": "haste / urgency / lie / gloss",
+      "member_count": 2,
+      "roots": [
+        "ء ي ي",
+        "ب ط ل",
+        "ع ب د",
+        "ق و ل",
+        "ل ق ي",
+        "ن ج و",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.6707,
+      "label_hint": "humility / submission / deviation / truth",
+      "member_count": 2,
+      "roots": [
+        "ح ي ص",
+        "ع د و",
+        "ع ن د",
+        "ك و ن",
+        "ل ح د",
+        "ل غ و",
+        "م و ت"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.6702,
+      "label_hint": "redress / destination / justice / return",
+      "member_count": 2,
+      "roots": [
+        "ر ج ع",
+        "ظ ل م",
+        "ع د و",
+        "ع و د",
+        "ق ل ب",
+        "ن ص ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.6696,
+      "label_hint": "destination / recycling / homecoming / demolition",
+      "member_count": 2,
+      "roots": [
+        "د ع و",
+        "ر ج ع",
+        "ر د د",
+        "ع ر ب",
+        "ع و د",
+        "ق ل ب",
+        "ن ج و"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.6695,
+      "label_hint": "sin / accountability / chastisement / atonement",
+      "member_count": 2,
+      "roots": [
+        "ء خ ذ",
+        "ع ذ ب",
+        "ع ق ب",
+        "غ ف ر",
+        "ك ف ر",
+        "ك ف ي",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.6686,
+      "label_hint": "composure / dignity / emotion_ethics/ethics_morality / peace",
+      "member_count": 2,
+      "roots": [
+        "ء و ل",
+        "ح ف ظ",
+        "ح ي ي",
+        "ر س ل",
+        "س ل م",
+        "س و ء",
+        "ك و ن",
+        "ه و ن",
+        "و ق ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.6684,
+      "label_hint": "enmity / hostility / haste / enemy",
+      "member_count": 2,
+      "roots": [
+        "ب ع د",
+        "ح ق ق",
+        "ش د د",
+        "ش م س",
+        "ظ ن ن",
+        "ع ب د",
+        "ع د و",
+        "ل ق ي",
+        "ن ج و",
+        "و ح ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.6681,
+      "label_hint": "otherness / difference / proximity / thought",
+      "member_count": 2,
+      "roots": [
+        "ب ع د",
+        "س و ي",
+        "ص ب ر",
+        "ع ر ض",
+        "غ ي ر",
+        "ق و ل",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.6658,
+      "label_hint": "kinship_society/kinship / tribe / demography / onomastics",
+      "member_count": 2,
+      "roots": [
+        "ج ن ن",
+        "ح س ن",
+        "ص ب ر",
+        "ص ل ح",
+        "غ ف ر",
+        "ن ه ر",
+        "و ز ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.6641,
+      "label_hint": "gap / anatomy / melting / tallow",
+      "member_count": 2,
+      "roots": [
+        "ء ل ي",
+        "ج ن ب",
+        "ح م م",
+        "ر ب ب",
+        "ش ق ق",
+        "ض ر ر",
+        "ع ت ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.664,
+      "label_hint": "semiotics / sign / landmark / banner",
+      "member_count": 2,
+      "roots": [
+        "ء م ر",
+        "ث و ي",
+        "ر ء ي",
+        "ع ل م",
+        "ع م ل",
+        "ق و م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.6632,
+      "label_hint": "intoxication / hydrology / drink / abundance",
+      "member_count": 2,
+      "roots": [
+        "ج ن ب",
+        "ر ب ب",
+        "ر و ح",
+        "ع ر ب",
+        "ع ل م",
+        "ق ب ل",
+        "ق ي ض"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.6631,
+      "label_hint": "language / tongue / clarity / composure",
+      "member_count": 2,
+      "roots": [
+        "ح ف ظ",
+        "ذ ك ر",
+        "ش ه د",
+        "ف ص ل",
+        "ق و ل",
+        "ه و ن",
+        "و ق ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.6624,
+      "label_hint": "darkness / torrent / flood / vastness",
+      "member_count": 2,
+      "roots": [
+        "ج ن ن",
+        "ح م ل",
+        "د ف ع",
+        "ع ز ز",
+        "ك ف ر",
+        "ل ي ل",
+        "و ق ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.6597,
+      "label_hint": "sight / cognition_perception/perception / inhabitant / absence",
+      "member_count": 2,
+      "roots": [
+        "ب ص ر",
+        "د ع و",
+        "ر ء ي",
+        "س م ع",
+        "ع ر ب",
+        "ع م ي",
+        "ق م ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.6592,
+      "label_hint": "foreignness / tribe / ethnicity / language",
+      "member_count": 2,
+      "roots": [
+        "ء م م",
+        "ح ي ي",
+        "ر ب ب",
+        "ع ج م",
+        "ع ر ب",
+        "ق ب ل",
+        "ل ك ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.6585,
+      "label_hint": "enmity / hostility / face / appearance",
+      "member_count": 3,
+      "roots": [
+        "ء م ر",
+        "ب ع د",
+        "ح ج ب",
+        "ح ي ي",
+        "ذ ك ر",
+        "ش م س",
+        "ش ي ء",
+        "ظ ن ن",
+        "ع د و",
+        "ف ص ل",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.6577,
+      "label_hint": "family / interpretation / cousin / walker",
+      "member_count": 2,
+      "roots": [
+        "ء و ل",
+        "د ع و",
+        "ر ب و",
+        "ع م ل",
+        "ع م ي",
+        "ق و ل",
+        "ك م م"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.6571,
+      "label_hint": "composure / dignity / emotion_ethics/ethics_morality / gentleness",
+      "member_count": 2,
+      "roots": [
+        "ء ن ث",
+        "ح ف ظ",
+        "ذ ك ر",
+        "ر س ل",
+        "ه و ن",
+        "و ض ع",
+        "و ق ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.6565,
+      "label_hint": "restitution / compensation / fatigue / wound",
+      "member_count": 2,
+      "roots": [
+        "ج ن ن",
+        "ذ ك ر",
+        "غ ي ر",
+        "ك ف ر",
+        "ك ل ل",
+        "ك ل م",
+        "ن ذ ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.6562,
+      "label_hint": "death / compensation / absence / demise",
+      "member_count": 2,
+      "roots": [
+        "ب ط ل",
+        "ح م م",
+        "خ ل و",
+        "ر ب ب",
+        "ر و ح",
+        "ض ل ل",
+        "ق ض ي",
+        "ق و م",
+        "ك و ن",
+        "م و ت"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.6556,
+      "label_hint": "temperament / skittishness / horse / behavior",
+      "member_count": 2,
+      "roots": [
+        "د ن و",
+        "ر و ح",
+        "ش م س",
+        "ش ي ء",
+        "ص ب ح",
+        "ع ر ب",
+        "ن و ر"
+      ]
+    }
+  ]
+}

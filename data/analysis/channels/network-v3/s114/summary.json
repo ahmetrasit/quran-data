@@ -1,0 +1,221 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 114,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s114",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s114",
+    "catalog_branch_count": 97,
+    "eligible_branch_count": 97,
+    "affinity_shape": [
+      97,
+      97
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04837309,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 602,
+    "raw_candidates": 93,
+    "deduped_candidates": 12
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8444,
+      "label_hint": "cognition_perception/cognition / psychology / rumor / thought",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8378,
+      "label_hint": "self / rumor / property / thought",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8356,
+      "label_hint": "rumor / demography / self / people",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8337,
+      "label_hint": "theology / dominion / ritual_belief/religion_worship / religion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "root_count": 7,
+      "branch_count": 14,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8285,
+      "label_hint": "authority / law_governance/authority_governance / survival / dominion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8192,
+      "label_hint": "harm / rumor / demography / reptile",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_count": 7,
+      "branch_count": 15,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.819,
+      "label_hint": "chest / sternum / law_governance/authority_governance / bone",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.8013,
+      "label_hint": "development / youth / body_health_life/reproduction_birth / beginning",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7381,
+      "label_hint": "plant / ecology / reptile / gathering",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "root_count": 6,
+      "branch_count": 14,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7282,
+      "label_hint": "plant / gambling / reptile / herb",
+      "ayahs": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "root_count": 6,
+      "branch_count": 15,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7128,
+      "label_hint": "care / attachment / authority / gambling",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "root_count": 7,
+      "branch_count": 17,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7126,
+      "label_hint": "development / reptile / youth / care",
+      "ayahs": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "root_count": 6,
+      "branch_count": 14,
+      "edge_count": 14
+    }
+  ]
+}

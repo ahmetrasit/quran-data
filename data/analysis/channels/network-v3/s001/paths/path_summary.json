@@ -1,0 +1,793 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 1,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 144,
+    "path_graph_edges": 1817,
+    "raw_path_states": 91468,
+    "unique_path_states": 38443,
+    "deduped_paths": 2972
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8376,
+      "label_hint": "family / strength / vitality / honor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8372,
+      "label_hint": "strength / vitality / welfare / firmness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8279,
+      "label_hint": "strength / vitality / bird / honor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع ل م",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8266,
+      "label_hint": "marriage / kinship_society/hospitality_welfare / benefaction / favor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8263,
+      "label_hint": "strength / kinship_society/hospitality_welfare / cohesion / benefaction",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8242,
+      "label_hint": "ritual_belief/religion_worship / religion / submission / devotion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ء ل ه",
+        "ح م د",
+        "د ي ن",
+        "ر ب ب",
+        "ر ح م",
+        "ض ل ل",
+        "ع ب د",
+        "ع ل م",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8198,
+      "label_hint": "leader / vitality / welfare / leadership",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8194,
+      "label_hint": "vitality / body_health_life/reproduction_birth / disease / honor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8192,
+      "label_hint": "kinship_society/hospitality_welfare / benefaction / favor / welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "ق و م",
+        "م ل ك",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8186,
+      "label_hint": "kinship_society/hospitality_welfare / benefaction / vitality / favor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8179,
+      "label_hint": "leader / comfort / fatigue / leadership",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "ر ب ب",
+        "ر ح م",
+        "ض ل ل",
+        "ع ب د",
+        "غ ض ب",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8178,
+      "label_hint": "bird / honor / strength / posture",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ض ل ل",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8167,
+      "label_hint": "family / marriage / vitality / honor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8166,
+      "label_hint": "leader / welfare / leadership / blessing",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8156,
+      "label_hint": "family / honor / marriage / strength",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8137,
+      "label_hint": "marriage / biology / bird / honor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ض ل ل",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8123,
+      "label_hint": "ritual_belief/religion_worship / religion / submission / devotion",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ء ل ه",
+        "د ي ن",
+        "ر ب ب",
+        "ص ر ط",
+        "ض ل ل",
+        "ع ب د",
+        "ع ل م",
+        "ق و م",
+        "م ل ك",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8123,
+      "label_hint": "welfare / firmness / blessing / kinship_society/hospitality_welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع ل م",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8117,
+      "label_hint": "kinship_society/hospitality_welfare / benefaction / favor / welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8115,
+      "label_hint": "blessing / gratitude / cohesion / material",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "ر ب ب",
+        "ر ح م",
+        "ض ل ل",
+        "ع ب د",
+        "ع ل م",
+        "غ ض ب",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8101,
+      "label_hint": "care / emotion_ethics/ethics_morality / reciprocity / duration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "د ي ن",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "غ ي ر",
+        "ق و م",
+        "ن ع م",
+        "ه د ي",
+        "ي و م"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.81,
+      "label_hint": "marriage / ownership / bird / honor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع ل م",
+        "غ ض ب",
+        "غ ي ر",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8099,
+      "label_hint": "leader / leadership / bird / honor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع ل م",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8094,
+      "label_hint": "family / marriage / contract / honor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "د ي ن",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8087,
+      "label_hint": "blessing / gratitude / welfare / firmness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع ل م",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.8083,
+      "label_hint": "conflict_security/conflict / opposition / competition / resistance",
+      "ayahs": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ح م د",
+        "س م و",
+        "ع و ن",
+        "غ ض ب",
+        "ق و م"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8076,
+      "label_hint": "herd / leader / leadership / mobility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "س م و",
+        "ع ب د",
+        "ع و ن",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8073,
+      "label_hint": "honor / family / vision / marriage",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ل م",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8072,
+      "label_hint": "leader / vitality / leadership / visibility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "س م و",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "ق و م",
+        "م ل ك",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8071,
+      "label_hint": "strength / vitality / firmness / honor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح م",
+        "ع ب د",
+        "ع و ن",
+        "غ ض ب",
+        "غ ي ر",
+        "ق و م",
+        "م ل ك",
+        "ن ع م",
+        "ه د ي"
+      ]
+    }
+  ]
+}

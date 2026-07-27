@@ -1,0 +1,416 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 100,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s100",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s100",
+    "catalog_branch_count": 173,
+    "eligible_branch_count": 173,
+    "affinity_shape": [
+      173,
+      173
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04457064,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 1089,
+    "raw_candidates": 158,
+    "deduped_candidates": 114
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.826,
+      "label_hint": "water / surface / quenching / land_water_sky/water_hydrology",
+      "ayahs": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 14,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8152,
+      "label_hint": "knowledge / cognition_perception/knowledge_learning / attack / aggression",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8093,
+      "label_hint": "water / surface / abundance / drink",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8049,
+      "label_hint": "knowledge / cognition_perception/knowledge_learning / awareness / report",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 29
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8048,
+      "label_hint": "knowledge / cattle / cognition_perception/knowledge_learning / report",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8044,
+      "label_hint": "ecology / plant / agriculture / storage",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "root_count": 8,
+      "branch_count": 13,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8034,
+      "label_hint": "fire / spark / light / energy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        10,
+        11
+      ],
+      "root_count": 7,
+      "branch_count": 14,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.8023,
+      "label_hint": "soil / awareness / cognition_perception/knowledge_learning / epistemology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8015,
+      "label_hint": "side / front / honor / hierarchy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 12,
+      "branch_count": 16,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7991,
+      "label_hint": "grammar / language_communication/grammar_expression / exception / syntax",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 11,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7984,
+      "label_hint": "water / surface / ecology / soil",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 15,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7937,
+      "label_hint": "surface / aggregation / result / language_communication/grammar_expression",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 14,
+      "edge_count": 16
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7935,
+      "label_hint": "aggregation / capacity / division / solid",
+      "ayahs": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7934,
+      "label_hint": "knowledge / cognition_perception/knowledge_learning / burial / concealment",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7905,
+      "label_hint": "fire / storage / container / solid",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7903,
+      "label_hint": "storage / vessel / container / solid",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7878,
+      "label_hint": "knowledge / cognition_perception/knowledge_learning / report / epistemology",
+      "ayahs": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7876,
+      "label_hint": "soil / mobility / anatomy / texture",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 12,
+      "branch_count": 14,
+      "edge_count": 14
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7875,
+      "label_hint": "result / exception / cattle / syntax",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7872,
+      "label_hint": "surface / welfare / desire / hydrology",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 33
+    }
+  ]
+}

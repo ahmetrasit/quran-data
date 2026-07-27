@@ -1,0 +1,415 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 63,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s063",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s063",
+    "catalog_branch_count": 666,
+    "eligible_branch_count": 666,
+    "affinity_shape": [
+      666,
+      666
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04090865,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 4237,
+    "raw_candidates": 521,
+    "deduped_candidates": 439
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8564,
+      "label_hint": "land_water_sky/water_hydrology / path / pool / hydrology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 14,
+      "branch_count": 17,
+      "edge_count": 43
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8472,
+      "label_hint": "path / route / road / access",
+      "ayahs": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 10,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8446,
+      "label_hint": "land_water_sky/water_hydrology / pool / water / hydrology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 14,
+      "branch_count": 16,
+      "edge_count": 42
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8433,
+      "label_hint": "concealment / screen / veil / covering",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 13,
+      "edge_count": 16
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8405,
+      "label_hint": "handle / sword / tool / artifact",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "root_count": 12,
+      "branch_count": 12,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8392,
+      "label_hint": "rain / fertility / flood / downpour",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        10
+      ],
+      "root_count": 12,
+      "branch_count": 12,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8358,
+      "label_hint": "invocation / unity / ritual_belief/prayer_supplication / theology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 12,
+      "edge_count": 13
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.8348,
+      "label_hint": "concealment / screen / veil / protection",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "root_count": 11,
+      "branch_count": 15,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8325,
+      "label_hint": "plant / growth / agriculture / fertility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 14,
+      "branch_count": 14,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.8303,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / birth / pregnancy",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 39
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.8244,
+      "label_hint": "rain / sky / fertility / downpour",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        10
+      ],
+      "root_count": 13,
+      "branch_count": 13,
+      "edge_count": 29
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.824,
+      "label_hint": "eye / vision / mirror / reflection",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 11,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.8232,
+      "label_hint": "astronomy / land_water_sky/sky_astronomy / calendar / mansion",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "root_count": 11,
+      "branch_count": 11,
+      "edge_count": 11
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.8226,
+      "label_hint": "group / society / multitude / assembly",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 12,
+      "branch_count": 15,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.8225,
+      "label_hint": "land_water_sky/water_hydrology / rain / water / pool",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 16,
+      "branch_count": 17,
+      "edge_count": 43
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.8218,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / birth / mother",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 14,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.8211,
+      "label_hint": "pleasure / gift / generosity / mouth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 16,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.8204,
+      "label_hint": "sky / rain / water / downpour",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 16,
+      "branch_count": 17,
+      "edge_count": 37
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.8193,
+      "label_hint": "health / madness / ailment / recovery",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 13,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.8182,
+      "label_hint": "society / multitude / assembly / crowd",
+      "ayahs": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 11,
+      "edge_count": 21
+    }
+  ]
+}

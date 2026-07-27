@@ -1,0 +1,290 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 106,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s106",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s106",
+    "catalog_branch_count": 108,
+    "eligible_branch_count": 108,
+    "affinity_shape": [
+      108,
+      108
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04756043,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 675,
+    "raw_candidates": 76,
+    "deduped_candidates": 18
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.882,
+      "label_hint": "famine / summer / year / drought",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 7,
+      "branch_count": 15,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8813,
+      "label_hint": "grammar / alphabet / deixis / lodging",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 7,
+      "branch_count": 14,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8434,
+      "label_hint": "hunger / hierarchy / famine / taking",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8367,
+      "label_hint": "residence / famine / year / migration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8357,
+      "label_hint": "displacement / submission / condition_force_change/capacity_ability / residence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8347,
+      "label_hint": "aggregation / thousand / time_measure_quantity/quantity_number / space_form_boundary/form_structure",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 7,
+      "branch_count": 14,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.829,
+      "label_hint": "grammar / alphabet / deixis / language_communication/writing_text",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 7,
+      "branch_count": 16,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.8248,
+      "label_hint": "food / provision / kinship_society/hospitality_welfare / submission",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 7,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8215,
+      "label_hint": "nutrition / storage / container / gambling",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.8067,
+      "label_hint": "taking / food / condition_force_change/capacity_ability / acquisition",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.8063,
+      "label_hint": "transport / condition_force_change/capacity_ability / camel / displacement",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 7,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.8061,
+      "label_hint": "rain / seasonality / space_form_boundary/form_structure / gambling",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.8037,
+      "label_hint": "lodging / dwelling / rain / fertility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7959,
+      "label_hint": "response / predator / water / hunting",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 10,
+      "branch_count": 15,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7951,
+      "label_hint": "residence / displacement / submission / discipline",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7944,
+      "label_hint": "fear / condition_force_change/capacity_ability / domination / mount",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 9,
+      "branch_count": 16,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7923,
+      "label_hint": "food / integration / provision / deixis",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7838,
+      "label_hint": "gambling / transport / riding / aggregation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 7,
+      "branch_count": 17,
+      "edge_count": 19
+    }
+  ]
+}

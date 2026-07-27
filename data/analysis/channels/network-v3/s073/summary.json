@@ -1,0 +1,461 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 73,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s073",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s073",
+    "catalog_branch_count": 728,
+    "eligible_branch_count": 728,
+    "affinity_shape": [
+      728,
+      728
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.0404097,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 4563,
+    "raw_candidates": 568,
+    "deduped_candidates": 485
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8358,
+      "label_hint": "land_water_sky/water_hydrology / irrigation / hydrology / abundance",
+      "ayahs": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16,
+        19,
+        20
+      ],
+      "root_count": 14,
+      "branch_count": 14,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8347,
+      "label_hint": "tool / wood / support / artifact",
+      "ayahs": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        15,
+        19,
+        20
+      ],
+      "root_count": 10,
+      "branch_count": 10,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8234,
+      "label_hint": "disease / body_health_life/disease_injury / pain / pathology",
+      "ayahs": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        15,
+        16,
+        19,
+        20
+      ],
+      "root_count": 9,
+      "branch_count": 9,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8125,
+      "label_hint": "sky / deluge / rain / weather",
+      "ayahs": [
+        6,
+        8,
+        9,
+        10,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "root_count": 13,
+      "branch_count": 14,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8086,
+      "label_hint": "body_health_life/reproduction_birth / womb / birth / reproduction",
+      "ayahs": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        13,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "root_count": 14,
+      "branch_count": 17,
+      "edge_count": 44
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.7972,
+      "label_hint": "disease / eye / vision / body_health_life/disease_injury",
+      "ayahs": [
+        2,
+        5,
+        6,
+        9,
+        11,
+        12,
+        14,
+        16,
+        19,
+        20
+      ],
+      "root_count": 10,
+      "branch_count": 12,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.797,
+      "label_hint": "land_water_sky/water_hydrology / irrigation / hydrology / channel",
+      "ayahs": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        16,
+        17,
+        19,
+        20
+      ],
+      "root_count": 11,
+      "branch_count": 14,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.7907,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / womb / biology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        11,
+        13,
+        15,
+        17,
+        20
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 41
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7827,
+      "label_hint": "sky / land_water_sky/weather_climate / cloud / weather",
+      "ayahs": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        13,
+        14,
+        17,
+        18,
+        19,
+        20
+      ],
+      "root_count": 13,
+      "branch_count": 13,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7782,
+      "label_hint": "land_water_sky/water_hydrology / irrigation / vermin / pest",
+      "ayahs": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        16,
+        17,
+        19,
+        20
+      ],
+      "root_count": 14,
+      "branch_count": 15,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.778,
+      "label_hint": "mating / estrus / sexuality / reproduction",
+      "ayahs": [
+        4,
+        7,
+        8,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "root_count": 12,
+      "branch_count": 13,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7778,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / birth / womb",
+      "ayahs": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        20
+      ],
+      "root_count": 15,
+      "branch_count": 17,
+      "edge_count": 44
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7777,
+      "label_hint": "body_health_life/reproduction_birth / womb / birth / reproduction",
+      "ayahs": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        13,
+        15,
+        17,
+        19,
+        20
+      ],
+      "root_count": 11,
+      "branch_count": 14,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.775,
+      "label_hint": "severity / suffering / ordeal / harm",
+      "ayahs": [
+        1,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "root_count": 16,
+      "branch_count": 17,
+      "edge_count": 29
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7742,
+      "label_hint": "body_health_life/reproduction_birth / reproduction / womb / biology",
+      "ayahs": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        13,
+        15,
+        17,
+        19,
+        20
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 45
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7742,
+      "label_hint": "mating / sexuality / estrus / reproduction",
+      "ayahs": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        16,
+        17,
+        18,
+        20
+      ],
+      "root_count": 13,
+      "branch_count": 15,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7741,
+      "label_hint": "wealth / multitude / herd / livestock",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        19,
+        20
+      ],
+      "root_count": 12,
+      "branch_count": 15,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7739,
+      "label_hint": "welfare / emotion_ethics/ethics_morality / blessing / kinship_society/hospitality_welfare",
+      "ayahs": [
+        4,
+        6,
+        8,
+        9,
+        11,
+        13,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "root_count": 11,
+      "branch_count": 13,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7738,
+      "label_hint": "tree / agriculture_food/plant_vegetation / growth / fruit",
+      "ayahs": [
+        6,
+        8,
+        9,
+        10,
+        13,
+        15,
+        17,
+        18,
+        19,
+        20
+      ],
+      "root_count": 14,
+      "branch_count": 15,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7724,
+      "label_hint": "agriculture_food/cooking_drink / land_water_sky/water_hydrology / beverage / drink",
+      "ayahs": [
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        13,
+        16,
+        19,
+        20
+      ],
+      "root_count": 14,
+      "branch_count": 17,
+      "edge_count": 38
+    }
+  ]
+}

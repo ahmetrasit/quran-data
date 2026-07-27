@@ -1,0 +1,462 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 6729,
+    "similarity_edges": 32452,
+    "path_families": 395
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6857,
+      "label_hint": "hostility / antagonism / kinship_society/social_relations / conflict",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ت ل و",
+        "ذ ن ب",
+        "س ق ي",
+        "ش م س",
+        "ع ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6741,
+      "label_hint": "abundance / loquacity / untruth / verbosity",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ف ج ر",
+        "ف ل ح",
+        "ق م ر",
+        "ق و ل",
+        "ك ذ ب",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6731,
+      "label_hint": "compensation / consumption / intercourse / subtraction",
+      "member_count": 2,
+      "roots": [
+        "خ و ف",
+        "ر س ل",
+        "ع ق ب",
+        "ع ق ر",
+        "غ ش و",
+        "غ ش ي",
+        "ف ل ح",
+        "ل ه م",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.6714,
+      "label_hint": "worship / sequence / religion / ritual_belief/religion_worship",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ت ل و",
+        "ر ب ب",
+        "ر س ل",
+        "ط غ و",
+        "ط غ ي",
+        "ع ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6666,
+      "label_hint": "sound / music / performance / voice",
+      "member_count": 2,
+      "roots": [
+        "ت ل و",
+        "ر س ل",
+        "ط غ و",
+        "ط غ ي",
+        "ع ق ر",
+        "غ ش و",
+        "غ ش ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6625,
+      "label_hint": "surge / torrent / overflow / flood",
+      "member_count": 2,
+      "roots": [
+        "س ق ي",
+        "س و ي",
+        "ط غ و",
+        "ط غ ي",
+        "ع ق ر",
+        "ق م ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6582,
+      "label_hint": "difficulty / hardship / suffering / injury",
+      "member_count": 2,
+      "roots": [
+        "ذ ن ب",
+        "ر س ل",
+        "ش ق و",
+        "ش ق ي",
+        "ع ق ب",
+        "ع ق ر",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.6552,
+      "label_hint": "rear / cognition_perception/knowledge_learning / sage / heel",
+      "member_count": 2,
+      "roots": [
+        "ب ن ي",
+        "ذ ن ب",
+        "ر ب ب",
+        "س و ي",
+        "ع ق ب",
+        "ع ق ر",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.6493,
+      "label_hint": "stealth / destruction / judgment / authority",
+      "member_count": 2,
+      "roots": [
+        "ت ل و",
+        "د م د م",
+        "س و ي",
+        "ق و ل",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.6431,
+      "label_hint": "sound / music / voice / attendance",
+      "member_count": 2,
+      "roots": [
+        "ت ل و",
+        "ر س ل",
+        "ط ح و",
+        "ع ق ر",
+        "غ ش و",
+        "غ ش ي",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.6429,
+      "label_hint": "river / stream / channel / land_water_sky/water_hydrology",
+      "member_count": 2,
+      "roots": [
+        "ذ ن ب",
+        "ز ك و",
+        "س ق ي",
+        "ك ذ ب",
+        "ن ه ر",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.641,
+      "label_hint": "hostility / piety / antagonism / conflict",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "خ و ف",
+        "ز ك و",
+        "س ق ي",
+        "ش م س",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.6333,
+      "label_hint": "abundance / launch / liberation / emission",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث",
+        "ر س ل",
+        "ط ح و",
+        "ف ج ر",
+        "ف ل ح",
+        "ل ه م"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.6319,
+      "label_hint": "stealth / destruction / snatch / jostling",
+      "member_count": 2,
+      "roots": [
+        "د م د م",
+        "س م و",
+        "ط ح و",
+        "ط غ و",
+        "ق و ل",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.6303,
+      "label_hint": "courtship / gift / affliction / suitor",
+      "member_count": 2,
+      "roots": [
+        "ج ل و",
+        "ر س ل",
+        "غ ش و",
+        "غ ش ي",
+        "ل ه م",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.6265,
+      "label_hint": "stealth / destruction / rear / snatch",
+      "member_count": 2,
+      "roots": [
+        "ت ل و",
+        "د م د م",
+        "س و ي",
+        "ع ق ب",
+        "ع ق ر",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.6244,
+      "label_hint": "spoilage / date / hamstring / wither",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث",
+        "ذ ن ب",
+        "س و ي",
+        "ع ق ب",
+        "ع ق ر",
+        "ق م ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.62,
+      "label_hint": "tension / soul / deceit / impulse",
+      "member_count": 2,
+      "roots": [
+        "ب ن ي",
+        "ر س ل",
+        "س و ي",
+        "ك ذ ب",
+        "ن ف س",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.6106,
+      "label_hint": "daylight / sound / music / interval",
+      "member_count": 3,
+      "roots": [
+        "ت ل و",
+        "ج ل و",
+        "ر س ل",
+        "س و ي",
+        "ض ح و",
+        "ط ح و",
+        "ع ق ر",
+        "ف ج ر",
+        "ق م ر",
+        "ل ي ل",
+        "ن ف س",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.6085,
+      "label_hint": "development / sonship / nurture / child",
+      "member_count": 2,
+      "roots": [
+        "ب ن ي",
+        "ت ل و",
+        "ج ل و",
+        "ر ب ب",
+        "س و ي",
+        "ع ق ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.607,
+      "label_hint": "kinship_society/social_relations / hostility / approach / antagonism",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "س ق ي",
+        "ش م س",
+        "غ ش و",
+        "غ ش ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.6058,
+      "label_hint": "piety / purity / terrorization / wholesomeness",
+      "member_count": 2,
+      "roots": [
+        "خ و ف",
+        "ز ك و",
+        "غ ش و",
+        "غ ش ي",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.5959,
+      "label_hint": "difficulty / willingness / toil / opening",
+      "member_count": 3,
+      "roots": [
+        "ر س ل",
+        "ش ق و",
+        "ش ق ي",
+        "ف ل ح",
+        "ك ذ ب",
+        "ن ف س",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5938,
+      "label_hint": "reputation / praise / orality / rumor",
+      "member_count": 4,
+      "roots": [
+        "ب ع ث",
+        "ج ل و",
+        "ر س ل",
+        "س م و",
+        "ط غ و",
+        "ط غ ي",
+        "ع ق ر",
+        "ف ج ر",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.5907,
+      "label_hint": "ounce / fairness / unit / nomadism",
+      "member_count": 10,
+      "roots": [
+        "ء ر ض",
+        "ب ن ي",
+        "ت ل و",
+        "ج ل و",
+        "ذ ن ب",
+        "ر ب ب",
+        "ر س ل",
+        "س و ي",
+        "ط ح و",
+        "ع ق ب",
+        "ع ق ر",
+        "ف ل ح",
+        "ك ذ ب",
+        "ل ه م",
+        "ن ف س",
+        "ن ه ر",
+        "ن و ق",
+        "و ق ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.5878,
+      "label_hint": "soul / body_health_life/mortality_death / death / deceit",
+      "member_count": 3,
+      "roots": [
+        "ب ن ي",
+        "ر س ل",
+        "ط ح و",
+        "غ ش و",
+        "غ ش ي",
+        "ك ذ ب",
+        "ل ه م",
+        "ل ي ل",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.5877,
+      "label_hint": "livestock / distance / nomadism / departure",
+      "member_count": 3,
+      "roots": [
+        "ب ع ث",
+        "ب ن ي",
+        "ر س ل",
+        "ط ح و",
+        "ف ج ر",
+        "ك ذ ب",
+        "ن و ق"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5866,
+      "label_hint": "testimony / relapse / reversal / fabrication",
+      "member_count": 2,
+      "roots": [
+        "ع ق ب",
+        "ق و ل",
+        "ك ذ ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.5858,
+      "label_hint": "temperament / restiveness / skittishness / fright",
+      "member_count": 2,
+      "roots": [
+        "ت ل و",
+        "ش م س",
+        "ع ق ب",
+        "ع ق ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.5795,
+      "label_hint": "sending / assignment / mission / envoy",
+      "member_count": 2,
+      "roots": [
+        "ب ع ث",
+        "ر س ل",
+        "س و ي",
+        "ق و ل"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 102,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 86,
+    "path_graph_edges": 1040,
+    "raw_path_states": 61177,
+    "unique_path_states": 28988,
+    "deduped_paths": 2652
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8221,
+      "label_hint": "banner / heraldry / flag / symbol",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8168,
+      "label_hint": "uvula / land_water_sky/water_hydrology / source / aggregation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8151,
+      "label_hint": "belief / knowledge / judgment / cognition",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م",
+        "ع ي ن",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8135,
+      "label_hint": "land_water_sky/water_hydrology / source / aggregation / collection",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ج ح م",
+        "ز و ر",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.809,
+      "label_hint": "belief / knowledge / judgment / conviction",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "roots": [
+        "ر ء ي",
+        "ع ل م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8086,
+      "label_hint": "uvula / land_water_sky/water_hydrology / source / body_health_life/anatomy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8072,
+      "label_hint": "belief / knowledge / death / wealth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8062,
+      "label_hint": "uvula / goal / belief / body_health_life/anatomy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8061,
+      "label_hint": "land_water_sky/water_hydrology / question / source / aggregation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8047,
+      "label_hint": "question / burial / comfort / attention",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8022,
+      "label_hint": "pleasure / amusement / entertainment / land_water_sky/water_hydrology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8022,
+      "label_hint": "pleasure / bird / amusement / entertainment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8021,
+      "label_hint": "land_water_sky/water_hydrology / source / abandonment / encounter",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.7994,
+      "label_hint": "anger / belief / abandonment / expression",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7982,
+      "label_hint": "question / attention / inquiry / abandonment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.7981,
+      "label_hint": "banner / heraldry / flag / symbol",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ء ي",
+        "ع ل م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7974,
+      "label_hint": "goal / belief / aggregation / collection",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7974,
+      "label_hint": "animal_life/wildlife / bird / ornithology / species",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "roots": [
+        "ع ل م",
+        "ق ب ر",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7956,
+      "label_hint": "land_water_sky/water_hydrology / source / abandonment / wealth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7955,
+      "label_hint": "uvula / land_water_sky/water_hydrology / source / aggregation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7954,
+      "label_hint": "question / death / inquiry / burial",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7939,
+      "label_hint": "uvula / land_water_sky/water_hydrology / goal / spirit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7938,
+      "label_hint": "question / inquiry / attention / knowledge",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7934,
+      "label_hint": "bird / land_water_sky/water_hydrology / goal / spirit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7933,
+      "label_hint": "question / attention / land_water_sky/water_hydrology / source",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7933,
+      "label_hint": "belief / abandonment / knowledge / death",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7921,
+      "label_hint": "goal / belief / excess / need",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ي ق ن"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7906,
+      "label_hint": "banner / depression / shape / hollow",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ق ب ر",
+        "ك ث ر",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7902,
+      "label_hint": "uvula / land_water_sky/water_hydrology / question / source",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7897,
+      "label_hint": "banner / abandonment / eye / beauty",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "roots": [
+        "ج ح م",
+        "ر ء ي",
+        "ز و ر",
+        "س ء ل",
+        "ع ل م",
+        "ع ي ن",
+        "ك ث ر",
+        "ل ه و",
+        "ل ه ي",
+        "ن ع م"
+      ]
+    }
+  ]
+}

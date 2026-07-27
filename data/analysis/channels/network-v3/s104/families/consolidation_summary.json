@@ -1,0 +1,107 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s104",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s104/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 68,
+    "similarity_edges": 219,
+    "families": 8,
+    "family_size_buckets": {
+      "medium_5_14": 8
+    },
+    "structural_type_counts": {
+      "distributed": 8
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.63,
+      "label_hint": "mortality / fatigue / extension / prominence",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 18,
+      "branch_count": 61
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.5659,
+      "label_hint": "courtyard / pen / access / containment",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 19,
+      "branch_count": 61
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.5453,
+      "label_hint": "push / force / thrust / slander",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 21,
+      "branch_count": 58
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.5452,
+      "label_hint": "time_measure_quantity/quantity_number / entirety / totality / aggregation",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 18,
+      "branch_count": 54
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.5259,
+      "label_hint": "wealth / inheritance / lineage / dweller",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 21,
+      "branch_count": 61
+    },
+    {
+      "family_id": "F006",
+      "family_score": 0.5182,
+      "label_hint": "administration / accountability / knowledge / alliance",
+      "member_count": 11,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 20,
+      "branch_count": 69
+    },
+    {
+      "family_id": "F007",
+      "family_score": 0.5175,
+      "label_hint": "land_water_sky/water_hydrology / calendar / obligation / hydrology",
+      "member_count": 6,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 17,
+      "branch_count": 56
+    },
+    {
+      "family_id": "F008",
+      "family_score": 0.5144,
+      "label_hint": "land_water_sky/fire_heat / heat / flame / combustion",
+      "member_count": 12,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 19,
+      "branch_count": 78
+    }
+  ]
+}

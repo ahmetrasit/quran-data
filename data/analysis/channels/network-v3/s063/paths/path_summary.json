@@ -1,0 +1,897 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 63,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 666,
+    "path_graph_edges": 8185,
+    "raw_path_states": 463948,
+    "unique_path_states": 202352,
+    "deduped_paths": 21279
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8481,
+      "label_hint": "unity / absoluteness / oneness / monotheism",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ر ب ب"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.845,
+      "label_hint": "growth / plant / agriculture / abundance",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ر ض",
+        "ج ن ن",
+        "خ ب ر",
+        "ر ب ب",
+        "س و ي",
+        "ص ي ح",
+        "ع د و",
+        "ف ض ض",
+        "ك ف ر",
+        "ل و ي"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.845,
+      "label_hint": "darkness / unity / benefit / vastness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ج ل",
+        "ء ح د",
+        "ء ل ه",
+        "ء ل ي",
+        "ء ن ي",
+        "ج ن ن",
+        "ر ب ب",
+        "س ن د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8411,
+      "label_hint": "knowledge / report / epistemology / cognition_perception/knowledge_learning",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ح س ب",
+        "خ ب ر",
+        "خ ر ج",
+        "ر ء ي",
+        "س م ع",
+        "س و ء",
+        "ش ه د",
+        "ع ل م",
+        "ف ق ه",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.839,
+      "label_hint": "law_governance/authority_governance / administration / governance / accountability",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ح س ب",
+        "خ ز ن",
+        "خ س ر",
+        "ر ء ي",
+        "ص د ق",
+        "ع م ل",
+        "ق ل ب",
+        "ق و م",
+        "م و ت",
+        "ن ف ق"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8381,
+      "label_hint": "darkness / unity / benefit / vastness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ء ل ي",
+        "ء ن ي",
+        "ج ن ن",
+        "ر ب ب",
+        "ط ب ع",
+        "ك ب ر",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8364,
+      "label_hint": "sin / sound / music / call",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ء خ ذ",
+        "ر ج ع",
+        "ر س ل",
+        "س م ع",
+        "ص ل ح",
+        "ص ي ح",
+        "ع م ل",
+        "غ ف ر",
+        "ك ب ر",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8363,
+      "label_hint": "fatigue / definition / existence / fabrication",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ط ب ع",
+        "ف ع ل",
+        "ق و ل",
+        "ق و م",
+        "ك ب ر",
+        "ك ل ل",
+        "ك و ن",
+        "ل و ي",
+        "ن ف س",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8352,
+      "label_hint": "darkness / unity / daylight / shadow",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ء ل ي",
+        "ء ن ي",
+        "ج ن ن",
+        "ر ب ب",
+        "ق و م",
+        "ك ب ر",
+        "ك ف ر",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8352,
+      "label_hint": "heart / governance / administration / accountability",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ج ن ن",
+        "ح س ب",
+        "خ ز ن",
+        "خ س ر",
+        "ر ء ي",
+        "ف ق ه",
+        "ق ل ب",
+        "ق و م",
+        "م و ت",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8345,
+      "label_hint": "stick / leg / fatigue / defect",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "خ ش ب",
+        "ذ ك ر",
+        "ر ج ع",
+        "ط ب ع",
+        "ع م ل",
+        "ق و ل",
+        "ق و م",
+        "ك ب ر",
+        "ك ل ل",
+        "ل و ي"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8325,
+      "label_hint": "handle / tool / artifact / grip",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء خ ذ",
+        "خ ش ب",
+        "ذ ك ر",
+        "ر ء س",
+        "ط ب ع",
+        "ع م ل",
+        "ق ر ب",
+        "ق و ل",
+        "ق و م",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8324,
+      "label_hint": "darkness / unity / theology / benefit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ج ل",
+        "ء ح د",
+        "ء ل ه",
+        "ء ل ي",
+        "ء ن ي",
+        "ج ن ن",
+        "ط ب ع",
+        "ق و ل",
+        "ك ب ر",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.832,
+      "label_hint": "benefit / darkness / unity / livelihood",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ء ل ي",
+        "ء ن ي",
+        "ج ن ن",
+        "ر ب ب",
+        "ر ز ق",
+        "ع م ل",
+        "ف ع ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.831,
+      "label_hint": "pledge / oath / invocation / obligation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ء ل ي",
+        "ء م ن",
+        "ح س ب",
+        "ر ب ب",
+        "ر ز ق",
+        "ق ب ل",
+        "ك و ن",
+        "ي م ن"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8299,
+      "label_hint": "body_health_life/reproduction_birth / pregnancy / birth / reproduction",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ج ن ن",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ج ع",
+        "ر س ل",
+        "س م و",
+        "ع ل و",
+        "ق ر ب",
+        "ن ف س",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8297,
+      "label_hint": "humility / submission / domination / status",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "خ ز ن",
+        "ذ ل ل",
+        "ر س ل",
+        "ع ز ز",
+        "ع ل و",
+        "ك ب ر",
+        "ك ف ر",
+        "ك و ن",
+        "م و ت",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8294,
+      "label_hint": "plant / agriculture / daylight / growth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ج ن ن",
+        "خ ب ر",
+        "ذ ل ل",
+        "ر ب ب",
+        "ر س ل",
+        "ص ي ح",
+        "ع د و",
+        "ق و م",
+        "ك ب ر",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8287,
+      "label_hint": "confirmation / stick / covenant / leg",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ج ل",
+        "ء م ن",
+        "خ ش ب",
+        "ذ ل ل",
+        "ر ج ع",
+        "ص د ق",
+        "ط ب ع",
+        "ع م ل",
+        "ق و ل",
+        "ق و م"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8278,
+      "label_hint": "fertility / pregnancy / body_health_life/reproduction_birth / fruit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "خ ر ج",
+        "ر ء ي",
+        "ر ج ع",
+        "ر س ل",
+        "س م و",
+        "ع م ل",
+        "ف س ق",
+        "ف ع ل",
+        "ق ل ب"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8271,
+      "label_hint": "darkness / unity / eternity / benefit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ء ل ي",
+        "ء ن ي",
+        "ج ن ن",
+        "ر ب ب",
+        "س ن د",
+        "ق ت ل",
+        "ك ف ر",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.8271,
+      "label_hint": "body_health_life/reproduction_birth / birth / pregnancy / reproduction",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ج ن ن",
+        "ر ء ي",
+        "ر ج ع",
+        "ر س ل",
+        "ش ه د",
+        "ع ل و",
+        "ق ر ب",
+        "ك ذ ب",
+        "ن ف س",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8263,
+      "label_hint": "presentation / heart / governance / administration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ت ي",
+        "ج ن ن",
+        "ج ي ء",
+        "ح س ب",
+        "خ ز ن",
+        "ذ ك ر",
+        "ر ء ي",
+        "ق ل ب",
+        "ق و م",
+        "م و ت"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8262,
+      "label_hint": "soundness / stick / leg / fatigue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "خ ش ب",
+        "ر ب ب",
+        "ص د ق",
+        "ص ل ح",
+        "ط ب ع",
+        "ع م ل",
+        "ق و ل",
+        "ق و م",
+        "ك ل ل",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8257,
+      "label_hint": "darkness / daylight / shadow / expansion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ج ل",
+        "ء ل ه",
+        "ء ل ي",
+        "ء ن ي",
+        "ج ن ن",
+        "ق و ل",
+        "ق و م",
+        "ك ب ر",
+        "ك ف ر",
+        "ن ف س"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.8253,
+      "label_hint": "knowledge / epistemology / sound / cognition_perception/knowledge_learning",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ح س ب",
+        "خ ب ر",
+        "ر ء ي",
+        "ر ج ع",
+        "س م ع",
+        "س و ء",
+        "ص ي ح",
+        "ع ل م",
+        "ف ق ه",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8252,
+      "label_hint": "fatigue / existence / fabrication / event",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ج ل",
+        "س ن د",
+        "ط ب ع",
+        "ف ع ل",
+        "ق و ل",
+        "ق و م",
+        "ك ل ل",
+        "ك و ن",
+        "ل و ي",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8249,
+      "label_hint": "surety / guarantee / accusation / liability",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ل ه",
+        "ح س ب",
+        "ر ب ب",
+        "ر ز ق",
+        "ع م ل",
+        "ف ع ل",
+        "ق ب ل",
+        "ك ذ ب",
+        "ك ف ر",
+        "ك و ن"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8248,
+      "label_hint": "fabrication / falsehood / fatigue / emotion_ethics/deception_corruption",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "roots": [
+        "ص د ق",
+        "ط ب ع",
+        "ف ع ل",
+        "ق و م",
+        "ك ذ ب",
+        "ك ل ل",
+        "ك و ن",
+        "ل ك ن",
+        "ل و ي",
+        "و ل د"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8238,
+      "label_hint": "knowledge / epistemology / cognition_perception/knowledge_learning / condemnation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ج ل",
+        "ء م ن",
+        "ح س ب",
+        "خ ب ر",
+        "ر ء ي",
+        "س و ء",
+        "ص د ق",
+        "ع ل م",
+        "ف ق ه",
+        "ق و ل"
+      ]
+    }
+  ]
+}

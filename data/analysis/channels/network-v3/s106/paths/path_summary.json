@@ -1,0 +1,679 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 106,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 108,
+    "path_graph_edges": 1317,
+    "raw_path_states": 61295,
+    "unique_path_states": 25454,
+    "deduped_paths": 1934
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8237,
+      "label_hint": "displacement / subtraction / habituation / diminution",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8165,
+      "label_hint": "space_form_boundary/form_structure / gambling / composition / joining",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "خ و ف",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8129,
+      "label_hint": "space_form_boundary/form_structure / gambling / joining / aggregation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "خ و ف",
+        "ر ب ب",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8093,
+      "label_hint": "residence / night / warfare / settlement",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ب ي ت",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.806,
+      "label_hint": "space_form_boundary/form_structure / gambling / famine / joining",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ج و ع",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8045,
+      "label_hint": "acquisition / livelihood / provision / support",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ر ب ب",
+        "ر ح ل",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8038,
+      "label_hint": "night / seasonality / space_form_boundary/form_structure / gambling",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8023,
+      "label_hint": "grammar / question / substitution / syntax",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8021,
+      "label_hint": "residence / displacement / migration / night",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.7989,
+      "label_hint": "fracture / terrain / veneration / conviction",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء م ن",
+        "ش ت و",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.797,
+      "label_hint": "terrain / captain / pilot / sponger",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ر ب ب",
+        "ش ت و",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.7969,
+      "label_hint": "thousand / question / substitution / syntax",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "ذ و و",
+        "ر ب ب",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.7964,
+      "label_hint": "residence / question / substitution / generation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.7957,
+      "label_hint": "deixis / rain / precipitation / condition_force_change/capacity_ability",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ج و ع",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7927,
+      "label_hint": "response / inquiry / fracture / travel",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء م ن",
+        "ب ي ت",
+        "ذ و و",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.791,
+      "label_hint": "residence / taking / acquisition / displacement",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7898,
+      "label_hint": "response / acquisition / livelihood / residence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء م ن",
+        "ب ي ت",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7888,
+      "label_hint": "rain / space_form_boundary/form_structure / composition / precipitation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7874,
+      "label_hint": "domination / acquisition / livelihood / residence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء م ن",
+        "ب ي ت",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7868,
+      "label_hint": "residence / generation / displacement / migration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7865,
+      "label_hint": "deixis / condition_force_change/capacity_ability / metaphor / survival",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ب ي ت",
+        "ج و ع",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7864,
+      "label_hint": "space_form_boundary/form_structure / joining / aggregation / residence",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7861,
+      "label_hint": "night / seasonality / question / substitution",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ب ي ت",
+        "ج و ع",
+        "ذ و و",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7856,
+      "label_hint": "grammar / space_form_boundary/form_structure / joining / aggregation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "ذ و و",
+        "ر ب ب",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7854,
+      "label_hint": "tribe / thousand / question / substitution",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7846,
+      "label_hint": "rain / precipitation / metaphor / fertility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ج و ع",
+        "ر ب ب",
+        "ش ت و",
+        "ص ي ف",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7838,
+      "label_hint": "question / substitution / syntax / inquiry",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ب ي ت",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7831,
+      "label_hint": "season / space_form_boundary/form_structure / gambling / year",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ج و ع",
+        "خ و ف",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7829,
+      "label_hint": "residence / displacement / fracture / migration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7828,
+      "label_hint": "residence / displacement / condition_force_change/capacity_ability / migration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د"
+      ]
+    }
+  ]
+}

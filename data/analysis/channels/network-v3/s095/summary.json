@@ -1,0 +1,371 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 95,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s095",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s095",
+    "catalog_branch_count": 169,
+    "eligible_branch_count": 169,
+    "affinity_shape": [
+      169,
+      169
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04407585,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 1083,
+    "raw_candidates": 153,
+    "deduped_candidates": 103
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8295,
+      "label_hint": "language_communication/grammar_expression / substitution / negation / syntax",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 15,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.82,
+      "label_hint": "space_form_boundary/place_location / place / settlement / city",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "root_count": 10,
+      "branch_count": 14,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8174,
+      "label_hint": "leg / orientation / anatomy / limb",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 12,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8131,
+      "label_hint": "religion / judgment / justice / virtue",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 39
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8105,
+      "label_hint": "leg / stance / orientation / settlement",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 13,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8085,
+      "label_hint": "religion / evenness / production / solidity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8061,
+      "label_hint": "space_form_boundary/place_location / place / settlement / governance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "root_count": 9,
+      "branch_count": 14,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.7969,
+      "label_hint": "substitution / reform / deixis / negation",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7962,
+      "label_hint": "religion / justice / virtue / judgment",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 34
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7922,
+      "label_hint": "livelihood / virtue / governance / space_form_boundary/place_location",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7896,
+      "label_hint": "space_form_boundary/place_location / residence / place / settlement",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 14,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7879,
+      "label_hint": "economy_property/commerce_exchange / city / conflict_security/conflict / contest",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 12,
+      "branch_count": 14,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7833,
+      "label_hint": "leg / eye / space_form_boundary/place_location / compatibility",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7816,
+      "label_hint": "religion / solidity / virtue / governance",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7801,
+      "label_hint": "substitution / language_communication/grammar_expression / syntax / negation",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.78,
+      "label_hint": "exclusion / language_communication/grammar_expression / negation / proximity",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7774,
+      "label_hint": "virtue / evenness / place / reason",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 14,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7773,
+      "label_hint": "kinship_society/social_relations / virtue / religion / kinship_society/hierarchy_status",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 14,
+      "branch_count": 16,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7768,
+      "label_hint": "judgment / support / pillar / city",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7768,
+      "label_hint": "religion / justice / delegation / reform",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 24
+    }
+  ]
+}

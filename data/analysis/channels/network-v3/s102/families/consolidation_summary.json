@@ -1,0 +1,47 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s102",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s102/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 15,
+    "similarity_edges": 46,
+    "families": 2,
+    "family_size_buckets": {
+      "medium_5_14": 2
+    },
+    "structural_type_counts": {
+      "distributed": 2
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.6224,
+      "label_hint": "perception / honor / encounter / envy",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 12,
+      "branch_count": 42
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.5449,
+      "label_hint": "pleasure / belief / knowledge / animal_life/wildlife",
+      "member_count": 10,
+      "structural_type": "distributed",
+      "ayah_count": 8,
+      "root_count": 12,
+      "branch_count": 59
+    }
+  ]
+}

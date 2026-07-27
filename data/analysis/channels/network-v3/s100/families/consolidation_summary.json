@@ -1,0 +1,149 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s100",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s100/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 114,
+    "similarity_edges": 333,
+    "families": 12,
+    "family_size_buckets": {
+      "medium_5_14": 9,
+      "small_2_4": 2,
+      "large_15_plus": 1
+    },
+    "structural_type_counts": {
+      "distributed": 12
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.6231,
+      "label_hint": "water / surface / hydrology / land_water_sky/water_hydrology",
+      "member_count": 10,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 24,
+      "branch_count": 73
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.582,
+      "label_hint": "blood / knowledge / result / cognition_perception/knowledge_learning",
+      "member_count": 2,
+      "structural_type": "distributed",
+      "ayah_count": 9,
+      "root_count": 13,
+      "branch_count": 22
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.5736,
+      "label_hint": "fire / spark / light / energy",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 10,
+      "root_count": 18,
+      "branch_count": 49
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.5546,
+      "label_hint": "storage / residue / solid / agriculture",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 48
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.5521,
+      "label_hint": "knowledge / epistemology / cognition_perception/knowledge_learning / report",
+      "member_count": 13,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 24,
+      "branch_count": 76
+    },
+    {
+      "family_id": "F006",
+      "family_score": 0.5492,
+      "label_hint": "gathering / aggregation / community / kinship_society/household_community",
+      "member_count": 11,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 23,
+      "branch_count": 64
+    },
+    {
+      "family_id": "F007",
+      "family_score": 0.5482,
+      "label_hint": "running / aggression / locomotion / warfare",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 10,
+      "root_count": 21,
+      "branch_count": 59
+    },
+    {
+      "family_id": "F008",
+      "family_score": 0.5375,
+      "label_hint": "fire / container / storage / vessel",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 10,
+      "root_count": 17,
+      "branch_count": 42
+    },
+    {
+      "family_id": "F009",
+      "family_score": 0.5245,
+      "label_hint": "plant / storage / solid / ecology",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 18,
+      "branch_count": 60
+    },
+    {
+      "family_id": "F010",
+      "family_score": 0.5156,
+      "label_hint": "selection / balance / welfare / excellence",
+      "member_count": 10,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 24,
+      "branch_count": 76
+    },
+    {
+      "family_id": "F011",
+      "family_score": 0.5023,
+      "label_hint": "alliance / inquiry / complicity / exception",
+      "member_count": 11,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 71
+    },
+    {
+      "family_id": "F012",
+      "family_score": 0.4863,
+      "label_hint": "aggregation / top / solid / storage",
+      "member_count": 26,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 24,
+      "branch_count": 116
+    }
+  ]
+}

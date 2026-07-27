@@ -1,0 +1,464 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 65,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s065",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s065",
+    "catalog_branch_count": 794,
+    "eligible_branch_count": 794,
+    "affinity_shape": [
+      794,
+      794
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.03984057,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 4966,
+    "raw_candidates": 592,
+    "deduped_candidates": 510
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8909,
+      "label_hint": "plant / growth / agriculture / ecology",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 11,
+      "branch_count": 12,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8777,
+      "label_hint": "growth / agriculture_food/plant_vegetation / sapling / palm",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 13,
+      "branch_count": 14,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.874,
+      "label_hint": "path / route / road / thoroughfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "root_count": 9,
+      "branch_count": 9,
+      "edge_count": 11
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.871,
+      "label_hint": "agriculture_food/plant_vegetation / sapling / palm / growth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 11,
+      "branch_count": 12,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8673,
+      "label_hint": "hydrology / reservoir / storage / land_water_sky/water_hydrology",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 14,
+      "branch_count": 15,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8645,
+      "label_hint": "animal_life/wildlife / lamb / ostrich / wildlife",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 8,
+      "branch_count": 9,
+      "edge_count": 8
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8601,
+      "label_hint": "agriculture_food/plant_vegetation / palm / sapling / growth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 10,
+      "branch_count": 13,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.8598,
+      "label_hint": "reputation / zoology / honor / pass",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 10,
+      "branch_count": 12,
+      "edge_count": 14
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8573,
+      "label_hint": "agriculture_food/plant_vegetation / palm / tree / sapling",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 13,
+      "branch_count": 15,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.8562,
+      "label_hint": "sky / astronomy / land_water_sky/weather_climate / visibility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 14,
+      "branch_count": 16,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.855,
+      "label_hint": "herd / sequence / succession / continuity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "root_count": 12,
+      "branch_count": 13,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.8548,
+      "label_hint": "path / road / route / thoroughfare",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "root_count": 10,
+      "branch_count": 10,
+      "edge_count": 13
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.8529,
+      "label_hint": "reputation / zoology / lamb / ostrich",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 9,
+      "branch_count": 11,
+      "edge_count": 11
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.8493,
+      "label_hint": "household / family / dependent / herd",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 14,
+      "branch_count": 15,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.8473,
+      "label_hint": "reservoir / storage / hydrology / land_water_sky/water_hydrology",
+      "ayahs": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "root_count": 13,
+      "branch_count": 13,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.8422,
+      "label_hint": "point / edge / sharpness / blade",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 9,
+      "branch_count": 11,
+      "edge_count": 17
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.8377,
+      "label_hint": "day / duration / calendar / interval",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 11,
+      "branch_count": 15,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.8342,
+      "label_hint": "household / family / residence / dependent",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.8315,
+      "label_hint": "residence / space_form_boundary/place_location / habitation / station",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 14,
+      "branch_count": 17,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.8309,
+      "label_hint": "day / omen / misfortune / zenith",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "root_count": 10,
+      "branch_count": 14,
+      "edge_count": 21
+    }
+  ]
+}

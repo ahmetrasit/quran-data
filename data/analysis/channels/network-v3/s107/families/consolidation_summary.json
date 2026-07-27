@@ -1,0 +1,48 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s107",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s107/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 21,
+    "similarity_edges": 64,
+    "families": 2,
+    "family_size_buckets": {
+      "medium_5_14": 1,
+      "large_15_plus": 1
+    },
+    "structural_type_counts": {
+      "distributed": 2
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.615,
+      "label_hint": "residence / worship / space_form_boundary/place_location / city",
+      "member_count": 6,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 14,
+      "branch_count": 48
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.5103,
+      "label_hint": "question / attention / judgment / blessing",
+      "member_count": 15,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 14,
+      "branch_count": 81
+    }
+  ]
+}

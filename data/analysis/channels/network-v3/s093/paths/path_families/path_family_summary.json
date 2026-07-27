@@ -1,0 +1,473 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 4862,
+    "similarity_edges": 25166,
+    "path_families": 203
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.7006,
+      "label_hint": "covenant / daylight / diplomacy / refugee",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ض ح و",
+        "ل ي ل",
+        "ن ه ر",
+        "ه د ي",
+        "و د ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6554,
+      "label_hint": "revelation / temperament / dullard / torpor",
+      "member_count": 2,
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "ه د ي",
+        "و ج د",
+        "و د ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6511,
+      "label_hint": "stealth / sequence / tonight / snatch",
+      "member_count": 2,
+      "roots": [
+        "ح د ث",
+        "ر ب ب",
+        "س ج و",
+        "ض ح و",
+        "ل ي ل",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.6481,
+      "label_hint": "onomastics / approval / name / pleasure",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ر ض و",
+        "ر ض ي",
+        "ع ي ل",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6418,
+      "label_hint": "reputation / anecdote / intent / negligence",
+      "member_count": 2,
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "س ج و",
+        "ع ط و",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6408,
+      "label_hint": "flexibility / peace / comfort / softness",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ع ط و",
+        "ن ع م",
+        "ه د ي",
+        "و د ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6147,
+      "label_hint": "container / abundance / contact / storage",
+      "member_count": 4,
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "س ج و",
+        "ع ط و",
+        "ق ه ر",
+        "ن ه ر",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.6018,
+      "label_hint": "giving / gift / repository / empathy",
+      "member_count": 4,
+      "roots": [
+        "ء و ي",
+        "ح د ث",
+        "خ ي ر",
+        "ر ب ب",
+        "س ء ل",
+        "ع ط و",
+        "ن ع م",
+        "ه د ي",
+        "و ج د",
+        "و د ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.5926,
+      "label_hint": "household / dependent / darkness / family",
+      "member_count": 3,
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ض ح و",
+        "ع ي ل",
+        "ل ي ل",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.586,
+      "label_hint": "farewell / luring / greeting / parting",
+      "member_count": 2,
+      "roots": [
+        "خ ي ر",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.585,
+      "label_hint": "victory / contact / cuisine / frying",
+      "member_count": 3,
+      "roots": [
+        "ح د ث",
+        "س ج و",
+        "ع ط و",
+        "ق ل ي",
+        "ق ه ر",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.5843,
+      "label_hint": "memory / recall / polarity / commendation",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ض ل ل",
+        "ق ل ي",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.5842,
+      "label_hint": "property / stray / owner / estate",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "س ج و",
+        "ض ل ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.5799,
+      "label_hint": "lift / pedestrian / travel / agility",
+      "member_count": 2,
+      "roots": [
+        "ق ل ي",
+        "ن ع م",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.5746,
+      "label_hint": "bird / desert / taxonomy / carnivore",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ع ي ل",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.5739,
+      "label_hint": "hydrology / abundance / darkness / current",
+      "member_count": 3,
+      "roots": [
+        "ر ب ب",
+        "ض ح و",
+        "ق ه ر",
+        "ل ي ل",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.5725,
+      "label_hint": "goal / need / grinder / pestle",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "س ء ل",
+        "ق ه ر",
+        "و ج د"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.5705,
+      "label_hint": "goal / need / desideratum / aspiration",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "س ء ل",
+        "ل ي ل",
+        "و ج د"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.569,
+      "label_hint": "bird / metonymy / appellation / ostrich",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ل ي ل",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.5576,
+      "label_hint": "emotion_ethics/emotion / desire / welfare / sorrow",
+      "member_count": 3,
+      "roots": [
+        "ء و ي",
+        "ر ب ب",
+        "س ج و",
+        "ع ي ل",
+        "ق ل ي",
+        "ن ع م",
+        "و ج د"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.5513,
+      "label_hint": "woman / name / metonymy / appellation",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "ر ض ي",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.5487,
+      "label_hint": "household / service / labor / intent",
+      "member_count": 26,
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "ء و ي",
+        "ح د ث",
+        "ر ب ب",
+        "س ج و",
+        "ض ح و",
+        "ع ط و",
+        "ع ي ل",
+        "غ ن ي",
+        "ق ل ي",
+        "ق ه ر",
+        "ل ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "و ج د",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.5449,
+      "label_hint": "dialogue / overcast / mutuality / consultation",
+      "member_count": 4,
+      "roots": [
+        "ء و ل",
+        "ر ب ب",
+        "ر ض و",
+        "ر ض ي",
+        "س ء ل",
+        "ض ح و",
+        "ع ط و",
+        "ن ع م",
+        "ن ه ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5449,
+      "label_hint": "care / nurture / dialogue / estate",
+      "member_count": 2,
+      "roots": [
+        "ر ب ب",
+        "س ء ل",
+        "س ج و"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.5286,
+      "label_hint": "dialogue / mutuality / consultation / question",
+      "member_count": 3,
+      "roots": [
+        "ر ض و",
+        "س ء ل",
+        "س ج و",
+        "ض ل ل",
+        "ع ط و",
+        "و د ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.5263,
+      "label_hint": "sky / woman / mass / land_water_sky/weather_climate",
+      "member_count": 27,
+      "roots": [
+        "ء خ ر",
+        "ء و ل",
+        "خ ي ر",
+        "ر ب ب",
+        "ر ض و",
+        "ر ض ي",
+        "س ج و",
+        "ض ح و",
+        "ض ل ل",
+        "ع ي ل",
+        "غ ن ي",
+        "ق ه ر",
+        "ل ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "و ج د",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.5212,
+      "label_hint": "gift / giving / transfer / frying",
+      "member_count": 23,
+      "roots": [
+        "ء و ل",
+        "ء و ي",
+        "ح د ث",
+        "خ ي ر",
+        "ر ب ب",
+        "س ج و",
+        "ض ح و",
+        "ع ط و",
+        "ع ي ل",
+        "غ ن ي",
+        "ق ل ي",
+        "ق ه ر",
+        "ل ي ل",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "و ج د",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5198,
+      "label_hint": "ethics / misguidance / sky / ostrich",
+      "member_count": 8,
+      "roots": [
+        "ء و ل",
+        "خ ي ر",
+        "ر ب ب",
+        "ض ح و",
+        "ض ل ل",
+        "ع ط و",
+        "ع ي ل",
+        "ق ل ي",
+        "ق ه ر",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "و ج د",
+        "و د ع",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.5118,
+      "label_hint": "dialogue / kinship_society/hospitality_welfare / charity / reciprocity",
+      "member_count": 8,
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "خ ي ر",
+        "ر ب ب",
+        "ر ض و",
+        "س ء ل",
+        "س ج و",
+        "ع ط و",
+        "ع ي ل",
+        "ق ه ر",
+        "ن ع م",
+        "ن ه ر",
+        "ه د ي",
+        "ي ت م"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.5089,
+      "label_hint": "peace / diplomacy / curdling / chemistry",
+      "member_count": 7,
+      "roots": [
+        "ء و ل",
+        "ح د ث",
+        "ر ب ب",
+        "ق ل ي",
+        "ق ه ر",
+        "ه د ي",
+        "و ج د",
+        "و د ع"
+      ]
+    }
+  ]
+}

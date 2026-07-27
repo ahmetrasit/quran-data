@@ -1,0 +1,403 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 101,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s101",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s101",
+    "catalog_branch_count": 155,
+    "eligible_branch_count": 155,
+    "affinity_shape": [
+      155,
+      155
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04650284,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 993,
+    "raw_candidates": 134,
+    "deduped_candidates": 78
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8394,
+      "label_hint": "event / origin / family / parent",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8203,
+      "label_hint": "event / society / existence / demography",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 29
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8129,
+      "label_hint": "approval / satisfaction / love / law_governance/obligation_contract",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9,
+        11
+      ],
+      "root_count": 7,
+      "branch_count": 16,
+      "edge_count": 29
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.7917,
+      "label_hint": "duration / event / time_measure_quantity/time / time",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.7913,
+      "label_hint": "approval / satisfaction / love / law_governance/obligation_contract",
+      "ayahs": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "root_count": 7,
+      "branch_count": 15,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.786,
+      "label_hint": "softness / locomotion / flutter / wool",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.7849,
+      "label_hint": "balance / weight / mountain / value",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 9,
+      "branch_count": 16,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.7846,
+      "label_hint": "locomotion / existence / sustenance / emotion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 16,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.7845,
+      "label_hint": "rank / value / overcoming / power",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7819,
+      "label_hint": "duration / event / time_measure_quantity/time / origin",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7732,
+      "label_hint": "weight / heaviness / impairment / relief",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "root_count": 9,
+      "branch_count": 14,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7728,
+      "label_hint": "approval / existence / tradition / grace",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7703,
+      "label_hint": "locomotion / ground / muscle / flutter",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        11
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7689,
+      "label_hint": "tradition / origin / intention / mountain",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7671,
+      "label_hint": "event / sustenance / existence / proportion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7661,
+      "label_hint": "camel / pasture / land_water_sky/fire_heat / livestock",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        11
+      ],
+      "root_count": 8,
+      "branch_count": 12,
+      "edge_count": 16
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.766,
+      "label_hint": "event / value / existence / time_measure_quantity/time",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 16
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7627,
+      "label_hint": "wound / locomotion / flutter / fracture",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7612,
+      "label_hint": "weight / event / balance / rank",
+      "ayahs": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7603,
+      "label_hint": "approval / satisfaction / agreement / law_governance/obligation_contract",
+      "ayahs": [
+        3,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "root_count": 9,
+      "branch_count": 16,
+      "edge_count": 27
+    }
+  ]
+}

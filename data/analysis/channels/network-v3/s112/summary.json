@@ -1,0 +1,94 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 112,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s112",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s112",
+    "catalog_branch_count": 48,
+    "eligible_branch_count": 48,
+    "affinity_shape": [
+      48,
+      48
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.05500458,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 302,
+    "raw_candidates": 39,
+    "deduped_candidates": 4
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8693,
+      "label_hint": "unity / rumor / theology / counterpart",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 7,
+      "branch_count": 17,
+      "edge_count": 36
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8401,
+      "label_hint": "definition / language_communication/language_speech / existence / meaning",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 5,
+      "branch_count": 16,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8175,
+      "label_hint": "position / existence / meaning / responsibility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 5,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8009,
+      "label_hint": "definition / unity / existence / meaning",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root_count": 5,
+      "branch_count": 17,
+      "edge_count": 28
+    }
+  ]
+}

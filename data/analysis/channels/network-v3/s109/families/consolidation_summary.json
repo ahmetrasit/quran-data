@@ -1,0 +1,37 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s109",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s109/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 1,
+    "similarity_edges": 0,
+    "families": 1,
+    "family_size_buckets": {
+      "singleton": 1
+    },
+    "structural_type_counts": {
+      "distributed": 1
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.5753,
+      "label_hint": "submission / authority / obedience / hierarchy",
+      "member_count": 1,
+      "structural_type": "distributed",
+      "ayah_count": 6,
+      "root_count": 4,
+      "branch_count": 17
+    }
+  ]
+}

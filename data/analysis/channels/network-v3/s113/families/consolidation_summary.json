@@ -1,0 +1,37 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s113",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s113/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 15,
+    "similarity_edges": 40,
+    "families": 1,
+    "family_size_buckets": {
+      "large_15_plus": 1
+    },
+    "structural_type_counts": {
+      "distributed": 1
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.5566,
+      "label_hint": "knot / creation / wealth / pledge",
+      "member_count": 15,
+      "structural_type": "distributed",
+      "ayah_count": 5,
+      "root_count": 11,
+      "branch_count": 92
+    }
+  ]
+}

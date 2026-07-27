@@ -1,0 +1,521 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 63803,
+    "similarity_edges": 234423,
+    "path_families": 7295
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.7407,
+      "label_hint": "ritual_belief/religion_worship / worship / submission / devotion",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "د ي ن",
+        "ر ك ع",
+        "س ب ب",
+        "ص ح ب",
+        "ص ل و",
+        "ع ب د",
+        "ق ط ع",
+        "ن ب و",
+        "ن س ك",
+        "ه ج ر",
+        "و ث ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.7144,
+      "label_hint": "ritual_belief/religion_worship / devotion / worship / submission",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "د ن و",
+        "د و ن",
+        "ر ك ع",
+        "ع ب د",
+        "ق ر ب",
+        "ك و ن",
+        "م و ت",
+        "ن س ك",
+        "و ث ن",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.7116,
+      "label_hint": "vision / eye / sight / cognition_perception/perception",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "ب ص ر",
+        "ج ن ن",
+        "ر ء ي",
+        "س ب ل",
+        "ع ش ر",
+        "ع ظ م",
+        "ع م ي",
+        "غ ف ر",
+        "ق و م",
+        "ك ب ر",
+        "ن ظ ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.7087,
+      "label_hint": "life / drying / cooking / flesh",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "ب د ن",
+        "ب ش ر",
+        "ج ع ل",
+        "ج ل د",
+        "ج ن ن",
+        "ح ي ي",
+        "ر و ح",
+        "ش ر ر",
+        "ص ف ف",
+        "ق د ر",
+        "ل ح م"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6982,
+      "label_hint": "hardness / ritual_belief/religion_worship / worship / stone",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ب ص ر",
+        "ج د ل",
+        "ج ل د",
+        "ج ه د",
+        "س ب ب",
+        "س ل م",
+        "ع ب د",
+        "و ث ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.6969,
+      "label_hint": "side / orientation / flank / expanse",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "ب ط ن",
+        "ج ن ب",
+        "خ ب ت",
+        "س و ي",
+        "ص د د",
+        "ط م ء ن",
+        "ط م ن",
+        "ع ت ق",
+        "ع ط ف",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.6955,
+      "label_hint": "companionship / cohabitation / marriage / entirety",
+      "member_count": 2,
+      "roots": [
+        "ء ل ي",
+        "ء ي ي",
+        "ب ش ر",
+        "ج م ع",
+        "ذ و و",
+        "ش ر ك",
+        "ص ه ر",
+        "ع ش ر",
+        "ك ل ل",
+        "ل ب س",
+        "ل ي س"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.694,
+      "label_hint": "welfare / dominion / provision / economy_property/provision_resource",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ج ر ي",
+        "ر ب ب",
+        "ر ز ق",
+        "ع ر ش",
+        "ع م ر",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.6937,
+      "label_hint": "bestowal / grant / ritual_belief/religion_worship / benefit",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء ل ي",
+        "د ف ع",
+        "ع ب د",
+        "ن ي ل",
+        "و ث ن",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.6914,
+      "label_hint": "ritual_belief/religion_worship / worship / devotion / religion",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ب ع د",
+        "د ي ن",
+        "س ح ق",
+        "ع ب د",
+        "ق ض ي",
+        "ن س ك",
+        "ه ل ك",
+        "و ث ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.6885,
+      "label_hint": "container / jar / water / vessel",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ج ب ي",
+        "ح ب ب",
+        "خ ر ج",
+        "ع ر ف",
+        "ق ر ب",
+        "ق ر ي",
+        "ق م ر",
+        "ق ن ع",
+        "ك ر م",
+        "ن ك ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.6881,
+      "label_hint": "nutrition / panting / health / hunger",
+      "member_count": 2,
+      "roots": [
+        "ب ح ر",
+        "ب د ن",
+        "ب ط ن",
+        "ج ب ل",
+        "خ و ي",
+        "ر ب و",
+        "ع ق ل",
+        "ق ط ع",
+        "م س ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.6841,
+      "label_hint": "command / exhortation / lie / attribution",
+      "member_count": 2,
+      "roots": [
+        "ء ك ل",
+        "ء ي ي",
+        "ت ل و",
+        "د و ن",
+        "ر ب ب",
+        "ع ل و",
+        "ع ن د",
+        "ق و ل",
+        "ك ذ ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.6813,
+      "label_hint": "pouring / water / craft_material_built/storage_vessels / waterskin",
+      "member_count": 2,
+      "roots": [
+        "ء ر ض",
+        "ص ب ب",
+        "ع ر ف",
+        "ق ر ب",
+        "ق ر ر",
+        "ق م ر",
+        "ق م ع",
+        "م د د",
+        "م و ه"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.6812,
+      "label_hint": "craft_material_built/ornament_beauty / necklace / ornament / leader",
+      "member_count": 2,
+      "roots": [
+        "ء خ ر",
+        "ت ب ع",
+        "ش م س",
+        "ع ص م",
+        "ق د م",
+        "ق ص ر",
+        "ك ر م",
+        "م ل ك",
+        "ه د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.6808,
+      "label_hint": "punishment / chastisement / sin / torment",
+      "member_count": 2,
+      "roots": [
+        "ء خ ذ",
+        "ء ل م",
+        "ح ر ج",
+        "ر س ل",
+        "ع ذ ب",
+        "ع ف و",
+        "ع ق ب",
+        "ف ت ن",
+        "ك ب ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.6807,
+      "label_hint": "safety / health / conflict_security/protection_security / reconciliation",
+      "member_count": 2,
+      "roots": [
+        "د ف ع",
+        "ر د د",
+        "س ل م",
+        "ص ل ح",
+        "ع ف و",
+        "ه و د",
+        "و ج ب"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.6807,
+      "label_hint": "selection / ritual_belief/prayer_supplication / prayer / invocation",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء م ن",
+        "ج ب ي",
+        "ح ي ي",
+        "خ ي ر",
+        "ص ف و",
+        "ع م ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.6781,
+      "label_hint": "expanse / distance / remoteness / desert",
+      "member_count": 2,
+      "roots": [
+        "ب ي ن",
+        "ج د ل",
+        "ج ه د",
+        "س ب ب",
+        "ش ق ق",
+        "ع م ق",
+        "م ل و",
+        "م ل ي",
+        "ه ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.677,
+      "label_hint": "sea / hydrology / relief / ease",
+      "member_count": 2,
+      "roots": [
+        "ب ح ر",
+        "ر ب ب",
+        "س ن و",
+        "ع ذ ب",
+        "ع ل م",
+        "ن ز ع",
+        "ن ه ر",
+        "ن و ر",
+        "ي س ر"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.677,
+      "label_hint": "oath / exception / commitment / release",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء ي ي",
+        "ث ن ي",
+        "ح ل ل",
+        "ر ب ب",
+        "ع ت ق",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.6762,
+      "label_hint": "gleam / manifestation / emergence / appearance",
+      "member_count": 2,
+      "roots": [
+        "ح ب ب",
+        "ص ب ء",
+        "ظ ل م",
+        "ك ل ل",
+        "ل ء ل ء",
+        "ن ب ء",
+        "ن ج م"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.6754,
+      "label_hint": "submission / ritual_belief/religion_worship / devotion / obedience",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ت ل و",
+        "د ي ن",
+        "ذ و ق",
+        "س ل م",
+        "ع ب د",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.6747,
+      "label_hint": "fruit / body_health_life/reproduction_birth / tree / sap",
+      "member_count": 2,
+      "roots": [
+        "ج م ع",
+        "ح م ل",
+        "ر ء ي",
+        "ص ب ب",
+        "ص ب ر",
+        "ص و ب",
+        "ط ه ر",
+        "ظ ن ن",
+        "م ر د",
+        "م و ت",
+        "و ض ع"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.6743,
+      "label_hint": "mankind / human / anthropology / solitude",
+      "member_count": 2,
+      "roots": [
+        "ء ن س",
+        "ب ش ر",
+        "ب ي ن",
+        "ج ن ن",
+        "ف ص ل",
+        "ق ط ع",
+        "و ح د"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.6741,
+      "label_hint": "equipment / litter / support / spear",
+      "member_count": 2,
+      "roots": [
+        "ح ل ل",
+        "ع ل ق",
+        "ع ل و",
+        "ع م ل",
+        "ق ر ر",
+        "ق و م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.6733,
+      "label_hint": "ritual_belief/religion_worship / worship / fatigue / adoration",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ب ل غ",
+        "ع ب د",
+        "ع ز ز",
+        "ق و م",
+        "ك ل ل",
+        "و ث ن"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.673,
+      "label_hint": "fatigue / transport / immobility / breeding",
+      "member_count": 2,
+      "roots": [
+        "ج ن ب",
+        "ح ب ب",
+        "د ف ع",
+        "ع ب د",
+        "ع ل ق",
+        "ق ر ب",
+        "ق ط ع",
+        "ق و م",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.672,
+      "label_hint": "worship / prayer / invocation / invitation",
+      "member_count": 2,
+      "roots": [
+        "ء ل ه",
+        "ء م ن",
+        "ح ي ي",
+        "ص ب ء",
+        "ص ل و",
+        "ع م ر",
+        "ه و د"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.6719,
+      "label_hint": "exclusion / grammar / language_communication/grammar_expression / preposition",
+      "member_count": 2,
+      "roots": [
+        "د و ن",
+        "ر ب ب",
+        "س و ي",
+        "ع ل و",
+        "ع ن د",
+        "غ ي ر",
+        "ل ي س"
+      ]
+    }
+  ]
+}

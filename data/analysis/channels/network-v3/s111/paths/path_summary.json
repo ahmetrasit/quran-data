@@ -1,0 +1,741 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 111,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 106,
+    "path_graph_edges": 1303,
+    "raw_path_states": 64230,
+    "unique_path_states": 26417,
+    "deduped_paths": 1988
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8312,
+      "label_hint": "hair / beauty / abundance / pledge",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8294,
+      "label_hint": "hair / craft_material_built/ornament_beauty / beauty / abundance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8287,
+      "label_hint": "pledge / benefit / submission / transfer",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8284,
+      "label_hint": "kinship_society/hospitality_welfare / benefit / transfer / gift",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.826,
+      "label_hint": "beauty / craft_material_built/ornament_beauty / hair / kinship_society/hospitality_welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8259,
+      "label_hint": "craft_material_built/ornament_beauty / kinship_society/hospitality_welfare / benefit / adornment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8218,
+      "label_hint": "endurance / kinship_society/hospitality_welfare / benefit / travel",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8217,
+      "label_hint": "benefit / conflict / transfer / finance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8216,
+      "label_hint": "kinship_society/hospitality_welfare / benefit / transfer / gift",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.821,
+      "label_hint": "hair / craft_material_built/ornament_beauty / beauty / abundance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8189,
+      "label_hint": "kinship_society/hospitality_welfare / benefit / transfer / gift",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح م ل",
+        "ذ و و",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8182,
+      "label_hint": "land_water_sky/fire_heat / fuel / kindling / benefit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8182,
+      "label_hint": "pledge / benefit / submission / transfer",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8181,
+      "label_hint": "hair / beauty / benefit / craft_material_built/ornament_beauty",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8166,
+      "label_hint": "prey / writing / language_communication/writing_text / hospitality",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8153,
+      "label_hint": "kinship_society/hospitality_welfare / benefit / transfer / gift",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح م ل",
+        "ذ و و",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8139,
+      "label_hint": "benefit / hair / craft_material_built/ornament_beauty / beauty",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8135,
+      "label_hint": "ownership / deixis / rotation / benefit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ت ب ب",
+        "ح ب ل",
+        "ح م ل",
+        "ذ و و",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8115,
+      "label_hint": "kinship_society/hospitality_welfare / benefit / transfer / gift",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8112,
+      "label_hint": "land_water_sky/fire_heat / fuel / kindling / kinship_society/hospitality_welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ص ل ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8109,
+      "label_hint": "benefit / alliance / transfer / wealth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح م ل",
+        "ص ل ي",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.8103,
+      "label_hint": "conflict / hospitality / proximity / society",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ل ه ب",
+        "م ر ء",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8103,
+      "label_hint": "land_water_sky/fire_heat / ownership / deixis / fuel",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ذ و و",
+        "ص ل ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8103,
+      "label_hint": "hair / craft_material_built/ornament_beauty / beauty / utility",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8087,
+      "label_hint": "land_water_sky/fire_heat / fuel / kindling / kinship_society/hospitality_welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.8085,
+      "label_hint": "endurance / payment / travel / night",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "م ر ء",
+        "م س د",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.808,
+      "label_hint": "benefit / transfer / speed / livestock",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب و",
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ص ل ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م و ل"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8075,
+      "label_hint": "craft_material_built/ornament_beauty / kinship_society/hospitality_welfare / rotation / benefit",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ت ب ب",
+        "ح ب ل",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ن و ر",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8073,
+      "label_hint": "hair / craft_material_built/ornament_beauty / beauty / kinship_society/hospitality_welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "ذ و و",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "م و ل",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8072,
+      "label_hint": "hair / beauty / utility / pledge",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ت ب ب",
+        "ح ب ل",
+        "ح ط ب",
+        "ح م ل",
+        "غ ن ي",
+        "ك س ب",
+        "ل ه ب",
+        "م ر ء",
+        "م س د",
+        "ي د ي"
+      ]
+    }
+  ]
+}

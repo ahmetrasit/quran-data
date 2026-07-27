@@ -1,0 +1,541 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 1934,
+    "similarity_edges": 11072,
+    "path_families": 71
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6359,
+      "label_hint": "burden / breakdown / denunciation / interruption",
+      "member_count": 4,
+      "roots": [
+        "ء م ن",
+        "ب ي ت",
+        "خ و ف",
+        "ر ح ل",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6297,
+      "label_hint": "condition_force_change/capacity_ability / sponger / freeloader / interloper",
+      "member_count": 3,
+      "roots": [
+        "ب ي ت",
+        "ر ب ب",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6139,
+      "label_hint": "predator / hunting / shark / raptor",
+      "member_count": 6,
+      "roots": [
+        "ء م ن",
+        "ج و ع",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.6123,
+      "label_hint": "family / acquisition / livelihood / nurse",
+      "member_count": 4,
+      "roots": [
+        "ب ي ت",
+        "ج و ع",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.6024,
+      "label_hint": "veneration / income / fracture / revenue",
+      "member_count": 5,
+      "roots": [
+        "ء م ن",
+        "ر ب ب",
+        "ر ح ل",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.5932,
+      "label_hint": "habituation / familiarity / rivalry / companionship",
+      "member_count": 2,
+      "roots": [
+        "ء ل ف",
+        "خ و ف",
+        "ر ح ل",
+        "ع ب د"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.5835,
+      "label_hint": "response / predator / ritual / amen",
+      "member_count": 4,
+      "roots": [
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.5781,
+      "label_hint": "predator / material / syrup / cooling",
+      "member_count": 7,
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.5757,
+      "label_hint": "thousand / time_measure_quantity/quantity_number / terrorization / hundred",
+      "member_count": 5,
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.5689,
+      "label_hint": "acquisition / condition_force_change/capacity_ability / procurement / preparation",
+      "member_count": 3,
+      "roots": [
+        "ر ب ب",
+        "ر ح ل",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.565,
+      "label_hint": "deixis / fracture / emotion_ethics/honor_shame / attention",
+      "member_count": 15,
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.5632,
+      "label_hint": "predator / rain / overcast / shark",
+      "member_count": 3,
+      "roots": [
+        "ء ل ف",
+        "ر ب ب",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.5628,
+      "label_hint": "thousand / time_measure_quantity/quantity_number / hundred / total",
+      "member_count": 5,
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ر ب ب",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.5537,
+      "label_hint": "family / nurse / stepchild / childcare",
+      "member_count": 3,
+      "roots": [
+        "ب ي ت",
+        "ج و ع",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.5512,
+      "label_hint": "predator / famine / season / shark",
+      "member_count": 7,
+      "roots": [
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.5506,
+      "label_hint": "coercion / acquisition / support / violence",
+      "member_count": 5,
+      "roots": [
+        "ب ي ت",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.5498,
+      "label_hint": "famine / year / gambling / storage",
+      "member_count": 6,
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.5484,
+      "label_hint": "family / famine / nurse / stepchild",
+      "member_count": 8,
+      "roots": [
+        "ء ل ف",
+        "ب ي ت",
+        "ج و ع",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.5481,
+      "label_hint": "hunting / terrain / sponger / freeloader",
+      "member_count": 5,
+      "roots": [
+        "ج و ع",
+        "خ و ف",
+        "ر ب ب",
+        "ش ت و",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.5449,
+      "label_hint": "famine / condition_force_change/capacity_ability / year / stoutness",
+      "member_count": 5,
+      "roots": [
+        "ء ل ف",
+        "ج و ع",
+        "ر ب ب",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.5399,
+      "label_hint": "precipitation / rain / sponger / freeloader",
+      "member_count": 7,
+      "roots": [
+        "ء م ن",
+        "ب ي ت",
+        "ر ب ب",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.5372,
+      "label_hint": "fracture / greenery / flavor / fertility",
+      "member_count": 16,
+      "roots": [
+        "ء م ن",
+        "ج و ع",
+        "خ و ف",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.5365,
+      "label_hint": "family / community / treaty / chattel",
+      "member_count": 10,
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "خ و ف",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.5316,
+      "label_hint": "acquisition / livelihood / season / income",
+      "member_count": 11,
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.5306,
+      "label_hint": "family / lineage / baggage / home",
+      "member_count": 5,
+      "roots": [
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0026",
+      "family_score": 0.5297,
+      "label_hint": "acquisition / livelihood / income / revenue",
+      "member_count": 23,
+      "roots": [
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "خ و ف",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0027",
+      "family_score": 0.5271,
+      "label_hint": "response / inquiry / amen / ritual_belief/prayer_supplication",
+      "member_count": 9,
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "خ و ف",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0028",
+      "family_score": 0.5265,
+      "label_hint": "metaphor / condition_force_change/capacity_ability / deixis / attention",
+      "member_count": 57,
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "خ و ف",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    },
+    {
+      "path_family_id": "PF0029",
+      "family_score": 0.5255,
+      "label_hint": "acquisition / household / marriage / wedding",
+      "member_count": 3,
+      "roots": [
+        "ب ي ت",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ق ر ش"
+      ]
+    },
+    {
+      "path_family_id": "PF0030",
+      "family_score": 0.523,
+      "label_hint": "preparation / household / family / saddling",
+      "member_count": 19,
+      "roots": [
+        "ء ل ف",
+        "ء م ن",
+        "ب ي ت",
+        "ج و ع",
+        "خ و ف",
+        "ذ و و",
+        "ر ب ب",
+        "ر ح ل",
+        "ش ت و",
+        "ص ي ف",
+        "ط ع م",
+        "ع ب د",
+        "ق ر ش",
+        "ه ا ء"
+      ]
+    }
+  ]
+}

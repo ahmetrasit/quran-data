@@ -1,0 +1,706 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 97,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 129,
+    "path_graph_edges": 1626,
+    "raw_path_states": 85027,
+    "unique_path_states": 36857,
+    "deduped_paths": 3704
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8599,
+      "label_hint": "deliberation / planning / calculation / knowledge",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "ط ل ع",
+        "ق د ر"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8593,
+      "label_hint": "proportion / measure / phalanx / toe",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر و ح",
+        "س ل م",
+        "ق د ر"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8537,
+      "label_hint": "handle / container / labor / auricle",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ذ ن",
+        "ر و ح",
+        "س ل م",
+        "ق د ر",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8484,
+      "label_hint": "circumstance / welfare / ascent / fatigue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8418,
+      "label_hint": "circumstance / life / welfare / fatigue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8415,
+      "label_hint": "abundance / handle / bounty / prosperity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ذ ن",
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ف ج ر",
+        "ق د ر",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8407,
+      "label_hint": "point / welfare / fatigue / virtue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ف ج ر",
+        "ك ل ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8403,
+      "label_hint": "circumstance / arrangement / welfare / virtue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ل ف",
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8383,
+      "label_hint": "abundance / intoxication / bounty / drink",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر ب ب",
+        "ر و ح",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8366,
+      "label_hint": "proportion / strength / measure / build",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roots": [
+        "ر و ح",
+        "ق د ر",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8361,
+      "label_hint": "arrangement / deliberation / planning / calculation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ل ف",
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ق د ر",
+        "ك ل ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8359,
+      "label_hint": "arrangement / scarcity / ordering / narrowing",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ل ف",
+        "ر و ح",
+        "س ل م",
+        "ق د ر",
+        "ك ل ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8358,
+      "label_hint": "cycle / dawn / darkness / night",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "roots": [
+        "ط ل ع",
+        "ف ج ر",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8356,
+      "label_hint": "circumstance / arrangement / completion / hunting",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ل ف",
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ك ل ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8355,
+      "label_hint": "circumstance / selection / life / ascent",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8348,
+      "label_hint": "point / welfare / fatigue / darkness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "ش ه ر",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8337,
+      "label_hint": "calendar / knowledge / notification / proportion",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ذ ن",
+        "ء م ر",
+        "د ر ي",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ق د ر",
+        "ك ل ل",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8336,
+      "label_hint": "point / recovery / welfare / fatigue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر و ح",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8336,
+      "label_hint": "knowledge / calendar / notification / evening",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ذ ن",
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "ش ه ر",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8332,
+      "label_hint": "circumstance / recovery / welfare / fatigue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8331,
+      "label_hint": "circumstance / welfare / virtue / morality",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ل ف",
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر ب ب",
+        "س ل م",
+        "ش ه ر",
+        "ف ج ر",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.833,
+      "label_hint": "power / welfare / circumstance / fatigue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ف ج ر",
+        "ق د ر",
+        "ك ل ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8328,
+      "label_hint": "circumstance / welfare / fatigue / virtue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8322,
+      "label_hint": "point / captivity / welfare / fatigue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "د ر ي",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8314,
+      "label_hint": "circumstance / gambling / welfare / arrow",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.831,
+      "label_hint": "arrangement / deliberation / planning / calculation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ذ ن",
+        "ء ل ف",
+        "ء م ر",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ق د ر",
+        "ك ل ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8305,
+      "label_hint": "welfare / circumstance / life / virtue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر ب ب",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "م ل ك"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8299,
+      "label_hint": "calendar / evening / welfare / fatigue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "س ل م",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل",
+        "ن ز ل"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8298,
+      "label_hint": "cycle / point / dawn / fatigue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء م ر",
+        "د ر ي",
+        "ر ب ب",
+        "ر و ح",
+        "ش ه ر",
+        "ط ل ع",
+        "ف ج ر",
+        "ك ل ل",
+        "ل ي ل"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8296,
+      "label_hint": "generosity / wealth / abundance / handle",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ذ ن",
+        "ء م ر",
+        "خ ي ر",
+        "ر و ح",
+        "س ل م",
+        "ط ل ع",
+        "ف ج ر",
+        "ق د ر",
+        "م ل ك",
+        "ن ز ل"
+      ]
+    }
+  ]
+}

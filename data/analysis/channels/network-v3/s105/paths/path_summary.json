@@ -1,0 +1,728 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 105,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 133,
+    "path_graph_edges": 1657,
+    "raw_path_states": 83508,
+    "unique_path_states": 33586,
+    "deduped_paths": 2774
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8511,
+      "label_hint": "obedience / burden / property / contrivance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر م ي",
+        "ص ح ب",
+        "ض ل ل",
+        "ط ي ر",
+        "ف ع ل",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8478,
+      "label_hint": "obedience / burden / property / tractability",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "س ج ل",
+        "ص ح ب",
+        "ض ل ل",
+        "ط ي ر"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.846,
+      "label_hint": "adulthood / courtship / law / burden",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "س ج ل",
+        "ص ح ب",
+        "ض ل ل",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8446,
+      "label_hint": "compatibility / association / production / display",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "س ج ل",
+        "ص ح ب",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8427,
+      "label_hint": "construction / hardness / labor / petrification",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ج ع ل",
+        "ح ج ر",
+        "ر س ل",
+        "ف ع ل",
+        "ف ي ل"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8426,
+      "label_hint": "obedience / burden / tractability / emesis",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ب ب",
+        "س ج ل",
+        "ص ح ب",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8386,
+      "label_hint": "herd / labor / economy_property/provision_resource / livelihood",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر س ل",
+        "ض ل ل",
+        "ع ص ف",
+        "ف ع ل",
+        "ف ي ل"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.8384,
+      "label_hint": "adulthood / burden / family / nurse",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "س ج ل",
+        "ص ح ب",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.8383,
+      "label_hint": "discernment / syntax / opinion / location",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "س ج ل",
+        "ف ع ل",
+        "ف ي ل"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.8379,
+      "label_hint": "dream / labor / economy / welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ك ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "س ج ل",
+        "ع ص ف",
+        "ف ع ل",
+        "ف ي ل"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.8312,
+      "label_hint": "accompaniment / compatibility / association / performance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ك ل",
+        "ج ع ل",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "س ج ل",
+        "ص ح ب",
+        "ع ص ف",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.8312,
+      "label_hint": "breath / welfare / kinship_society/hospitality_welfare / generosity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "س ج ل",
+        "ع ص ف",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.8309,
+      "label_hint": "syntax / deliberation / opinion / location",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر س ل",
+        "ف ع ل",
+        "ف ي ل",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.8306,
+      "label_hint": "friction / gambling / ignition / delay",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ج ع ل",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "س ج ل",
+        "ط ي ر",
+        "ع ص ف",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.8293,
+      "label_hint": "ownership / construction / harvest / hardness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر س ل",
+        "ض ل ل",
+        "ع ص ف",
+        "ف ع ل",
+        "ف ي ل"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.8279,
+      "label_hint": "leather / abundance / contrivance / material",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ك ل",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "س ج ل",
+        "ص ح ب",
+        "ض ل ل",
+        "ط ي ر",
+        "ف ع ل",
+        "ف ي ل"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.8277,
+      "label_hint": "obedience / economy_property/provision_resource / livelihood / burden",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر م ي",
+        "س ج ل",
+        "ص ح ب",
+        "ض ل ل",
+        "ط ي ر",
+        "ع ص ف"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.8269,
+      "label_hint": "adulthood / courtship / burden / family",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "ص ح ب",
+        "ض ل ل",
+        "ط ي ر",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.8266,
+      "label_hint": "welfare / kinship_society/hospitality_welfare / care / generosity",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "س ج ل",
+        "ض ل ل",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.8266,
+      "label_hint": "compatibility / association / display / revelation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "ص ح ب",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.8265,
+      "label_hint": "friction / gambling / ignition / arrow",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ج ع ل",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "ط ي ر",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.8264,
+      "label_hint": "herd / breeding / livestock / female",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر س ل",
+        "ض ل ل"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.8263,
+      "label_hint": "adulthood / deliberation / opinion / burden",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "س ج ل",
+        "ص ح ب",
+        "ف ي ل",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.8263,
+      "label_hint": "obedience / burden / force / property",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "س ج ل",
+        "ص ح ب",
+        "ع ص ف",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.8261,
+      "label_hint": "deliberation / opinion / obedience / discipline",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "ص ح ب",
+        "ض ل ل",
+        "ط ي ر",
+        "ف ي ل"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.826,
+      "label_hint": "deliberation / opinion / harvest / burden",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "س ج ل",
+        "ع ص ف",
+        "ف ي ل"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.8257,
+      "label_hint": "deliberation / opinion / error / burden",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "ض ل ل",
+        "ف ي ل",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.8249,
+      "label_hint": "property / obedience / burden / tractability",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر م ي",
+        "ص ح ب",
+        "ض ل ل",
+        "ط ي ر",
+        "ع ص ف",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.8248,
+      "label_hint": "breath / obedience / burden / tractability",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ح ج ر",
+        "ر ء ي",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "س ج ل",
+        "ص ح ب",
+        "ع ص ف",
+        "ك ي د"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.8248,
+      "label_hint": "labor / obedience / economy_property/provision_resource / livelihood",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ء ب ل",
+        "ء ك ل",
+        "ج ع ل",
+        "ح ج ر",
+        "ر ب ب",
+        "ر س ل",
+        "ر م ي",
+        "ص ح ب",
+        "ع ص ف",
+        "ف ع ل"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s001",
+  "output_dir": "/Volumes/OZTURK/_projects/latent_activation/network/v3/experiments/corpus_neo_adaptive/s001/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 70,
+    "similarity_edges": 227,
+    "families": 5,
+    "family_size_buckets": {
+      "medium_5_14": 4,
+      "large_15_plus": 1
+    },
+    "structural_type_counts": {
+      "distributed": 5
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.5857,
+      "label_hint": "residence / gambling / stay / inflammation",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 17,
+      "branch_count": 55
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.5176,
+      "label_hint": "hierarchy / governance / ritual_belief/religion_worship / authority",
+      "member_count": 14,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 18,
+      "branch_count": 80
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.4883,
+      "label_hint": "residence / comfort / stay / settlement",
+      "member_count": 14,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 17,
+      "branch_count": 86
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.4802,
+      "label_hint": "comfort / blessing / kinship_society/hospitality_welfare / welfare",
+      "member_count": 14,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 18,
+      "branch_count": 83
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.4684,
+      "label_hint": "honor / herd / cattle / protectiveness",
+      "member_count": 21,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 18,
+      "branch_count": 105
+    }
+  ]
+}

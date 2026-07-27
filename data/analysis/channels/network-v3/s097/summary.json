@@ -1,0 +1,338 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 97,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s097",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s097",
+    "catalog_branch_count": 129,
+    "eligible_branch_count": 129,
+    "affinity_shape": [
+      129,
+      129
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04587547,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 852,
+    "raw_candidates": 112,
+    "deduped_candidates": 40
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8571,
+      "label_hint": "deliberation / planning / circumstance / property",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 41
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8456,
+      "label_hint": "power / hierarchy / authority / abundance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8411,
+      "label_hint": "power / abundance / welfare / virtue",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.839,
+      "label_hint": "cycle / calendar / night / circumstance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 8,
+      "branch_count": 13,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8363,
+      "label_hint": "power / ownership / hierarchy / property",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8327,
+      "label_hint": "power / authority / dominion / circumstance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 36
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8324,
+      "label_hint": "welfare / cycle / calendar / night",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 8,
+      "branch_count": 15,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.829,
+      "label_hint": "deliberation / planning / virtue / circumstance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8255,
+      "label_hint": "growth / plant / ecology / leaf",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.823,
+      "label_hint": "deliberation / planning / authority / circumstance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.8196,
+      "label_hint": "cycle / calendar / night / evening",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 24
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.8195,
+      "label_hint": "arrangement / deliberation / planning / obedience",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.8184,
+      "label_hint": "growth / plant / gambling / leaf",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 16,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.8161,
+      "label_hint": "deliberation / planning / welfare / circumstance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.8077,
+      "label_hint": "arrangement / deliberation / planning / calculation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.8069,
+      "label_hint": "deliberation / planning / virtue / circumstance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.8069,
+      "label_hint": "growth / calendar / evening / handle",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 10,
+      "branch_count": 16,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.8066,
+      "label_hint": "control / circumstance / captivity / travel",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.8031,
+      "label_hint": "power / dominion / property / authority",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.8014,
+      "label_hint": "knowledge / cognition_perception/knowledge_learning / notification / calculation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 30
+    }
+  ]
+}

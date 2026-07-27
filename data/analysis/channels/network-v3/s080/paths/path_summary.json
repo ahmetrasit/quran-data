@@ -1,0 +1,908 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 80,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 5,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 600,
+    "path_graph_edges": 7335,
+    "raw_path_states": 377766,
+    "unique_path_states": 146727,
+    "deduped_paths": 12587
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.7589,
+      "label_hint": "intention / blessing / honor / desire",
+      "ayahs": [
+        3,
+        8,
+        12,
+        13,
+        16,
+        18,
+        22,
+        27,
+        31,
+        32,
+        35,
+        37
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء ب و",
+        "ء م م",
+        "ح ب ب",
+        "د ر ي",
+        "س ع ي",
+        "ش ء ن",
+        "ش ي ء",
+        "ك ر م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.7571,
+      "label_hint": "intention / walking / aim / destination",
+      "ayahs": [
+        8,
+        12,
+        15,
+        17,
+        18,
+        20,
+        22,
+        24,
+        31,
+        32,
+        35,
+        37,
+        38,
+        42
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء م م",
+        "س ب ل",
+        "س ع ي",
+        "س ف ر",
+        "ش ء ن",
+        "ش ي ء",
+        "ط ع م",
+        "ك ف ر",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.7537,
+      "label_hint": "hunting / tension / thickness / strength",
+      "ayahs": [
+        3,
+        23,
+        24,
+        27,
+        28,
+        30,
+        34,
+        36,
+        37,
+        41
+      ],
+      "roots": [
+        "ء م ر",
+        "ب ن ي",
+        "ح ب ب",
+        "د ر ي",
+        "ط ع م",
+        "ع ن ب",
+        "غ ل ب",
+        "ف ر ر",
+        "ق ت ر",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.7493,
+      "label_hint": "intention / desire / walking / formula",
+      "ayahs": [
+        8,
+        12,
+        13,
+        16,
+        18,
+        22,
+        24,
+        27,
+        31,
+        32,
+        35,
+        37
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء ب و",
+        "ء م م",
+        "ح ب ب",
+        "س ع ي",
+        "ش ء ن",
+        "ش ي ء",
+        "ط ع م",
+        "ك ر م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.7491,
+      "label_hint": "honor / hierarchy / reputation / dignity",
+      "ayahs": [
+        1,
+        4,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        23,
+        34,
+        38,
+        40,
+        42
+      ],
+      "roots": [
+        "ء م ر",
+        "ذ ك ر",
+        "ر ف ع",
+        "س ع ي",
+        "ف ج ر",
+        "ف ر ر",
+        "ك ر م",
+        "و ج ه",
+        "و ل ي",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.7455,
+      "label_hint": "walking / destination / screen / pilgrimage",
+      "ayahs": [
+        8,
+        12,
+        15,
+        17,
+        18,
+        20,
+        22,
+        24,
+        32,
+        35,
+        36,
+        38,
+        39,
+        42
+      ],
+      "roots": [
+        "ء م م",
+        "ب ش ر",
+        "س ب ل",
+        "س ع ي",
+        "س ف ر",
+        "ش ي ء",
+        "ص ح ب",
+        "ط ع م",
+        "ك ف ر",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.7452,
+      "label_hint": "worthiness / knowledge / condition_force_change/capacity_ability / aptitude",
+      "ayahs": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        11,
+        12,
+        17,
+        18,
+        19,
+        22,
+        24,
+        26,
+        33,
+        37
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ل ي",
+        "ج ي ء",
+        "خ ش ي",
+        "خ ل ق",
+        "ذ ك ر",
+        "ش ي ء",
+        "ق ت ل",
+        "ك ل ل",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.7446,
+      "label_hint": "honor / hierarchy / reputation / dignity",
+      "ayahs": [
+        2,
+        4,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        29,
+        34,
+        38,
+        40,
+        42
+      ],
+      "roots": [
+        "ء خ و",
+        "ذ ك ر",
+        "ر ف ع",
+        "ع م ي",
+        "ف ج ر",
+        "ف ر ر",
+        "ك ر م",
+        "ن خ ل",
+        "و ج ه",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.7446,
+      "label_hint": "decay / fullness / fissure / pouring",
+      "ayahs": [
+        1,
+        19,
+        23,
+        25,
+        26,
+        27,
+        34,
+        39,
+        42
+      ],
+      "roots": [
+        "ح ب ب",
+        "ش ق ق",
+        "ص ب ب",
+        "ض ح ك",
+        "ف ج ر",
+        "ف ر ر",
+        "ق ض ي",
+        "م و ه",
+        "ن ط ف",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.7443,
+      "label_hint": "planning / calculation / blessing / preparation",
+      "ayahs": [
+        2,
+        13,
+        16,
+        18,
+        19,
+        24,
+        27,
+        31,
+        32,
+        35
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء ب و",
+        "ء م م",
+        "ح ب ب",
+        "خ ل ق",
+        "ع م ي",
+        "ق د ر",
+        "ك ر م",
+        "ن ظ ر",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.7439,
+      "label_hint": "growth / prosperity / appearance / fertility",
+      "ayahs": [
+        3,
+        7,
+        13,
+        16,
+        23,
+        24,
+        26,
+        27,
+        34,
+        37,
+        38,
+        39,
+        40
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء م ر",
+        "ب ش ر",
+        "ز ك و",
+        "ص ح ف",
+        "ك ر م",
+        "م ر ء",
+        "ن ب ت",
+        "ن ظ ر",
+        "و ج ه"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.7415,
+      "label_hint": "calculation / planning / blessing / honor",
+      "ayahs": [
+        2,
+        8,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        24,
+        27,
+        32
+      ],
+      "roots": [
+        "ء ن س",
+        "ح ب ب",
+        "خ ل ق",
+        "ر ف ع",
+        "س ع ي",
+        "ع م ي",
+        "ق د ر",
+        "ك ر م",
+        "ن ظ ر",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.7401,
+      "label_hint": "thickness / traveler / strength / lamb",
+      "ayahs": [
+        15,
+        20,
+        23,
+        27,
+        28,
+        30,
+        34,
+        36,
+        37,
+        38,
+        41
+      ],
+      "roots": [
+        "ء م ر",
+        "ب ن ي",
+        "ح ب ب",
+        "س ب ل",
+        "س ف ر",
+        "ع ن ب",
+        "غ ل ب",
+        "ف ر ر",
+        "ق ت ر",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.74,
+      "label_hint": "intention / purpose / aim / decision",
+      "ayahs": [
+        2,
+        3,
+        8,
+        12,
+        18,
+        22,
+        29,
+        31,
+        32,
+        34,
+        35,
+        37
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء خ و",
+        "ء م م",
+        "د ر ي",
+        "س ع ي",
+        "ش ء ن",
+        "ش ي ء",
+        "ع م ي",
+        "ن خ ل",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7394,
+      "label_hint": "compulsion / coercion / pressure / obligation",
+      "ayahs": [
+        2,
+        8,
+        12,
+        17,
+        18,
+        22,
+        33,
+        42
+      ],
+      "roots": [
+        "ج ي ء",
+        "ش ي ء",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.739,
+      "label_hint": "intention / shelter / walking / destination",
+      "ayahs": [
+        8,
+        12,
+        17,
+        18,
+        20,
+        22,
+        24,
+        31,
+        32,
+        35,
+        36,
+        37,
+        42
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء م م",
+        "ب ن ي",
+        "س ب ل",
+        "س ع ي",
+        "ش ي ء",
+        "ط ع م",
+        "ك ف ر",
+        "ك ل ل",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7383,
+      "label_hint": "distance / traveler / migration / journey",
+      "ayahs": [
+        15,
+        20,
+        26,
+        36,
+        38,
+        41
+      ],
+      "roots": [
+        "ب ن ي",
+        "س ب ل",
+        "س ف ر",
+        "ش ق ق",
+        "ق ت ر"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7372,
+      "label_hint": "intention / desire / commendation / approval",
+      "ayahs": [
+        3,
+        12,
+        13,
+        16,
+        18,
+        22,
+        27,
+        31,
+        32,
+        35,
+        37
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء ب و",
+        "ء م م",
+        "ح ب ب",
+        "د ر ي",
+        "ش ء ن",
+        "ش ي ء",
+        "ك ر م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7362,
+      "label_hint": "rivalry / overcoming / victory / contest",
+      "ayahs": [
+        2,
+        8,
+        13,
+        16,
+        33
+      ],
+      "roots": [
+        "ج ي ء",
+        "س ع ي",
+        "ك ر م"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.7359,
+      "label_hint": "knowledge / worthiness / condition_force_change/capacity_ability / aptitude",
+      "ayahs": [
+        1,
+        3,
+        6,
+        9,
+        17,
+        18,
+        19,
+        24,
+        26,
+        30,
+        37
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء ل ي",
+        "ح د ق",
+        "خ ش ي",
+        "خ ل ق",
+        "د ر ي",
+        "ص د ي",
+        "ق ت ل",
+        "ك ل ل",
+        "و ل ي"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7358,
+      "label_hint": "prosperity / fertility / dawn / growth",
+      "ayahs": [
+        3,
+        7,
+        13,
+        15,
+        16,
+        23,
+        26,
+        27,
+        38,
+        39,
+        40,
+        42
+      ],
+      "roots": [
+        "ء ر ض",
+        "ء م ر",
+        "ب ش ر",
+        "ز ك و",
+        "س ف ر",
+        "ص ح ف",
+        "ف ج ر",
+        "ك ر م",
+        "ن ب ت",
+        "و ج ه"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7355,
+      "label_hint": "screen / cover / shelter / walking",
+      "ayahs": [
+        8,
+        12,
+        15,
+        17,
+        18,
+        20,
+        22,
+        24,
+        32,
+        36,
+        37,
+        38,
+        39,
+        42
+      ],
+      "roots": [
+        "ب ش ر",
+        "ب ن ي",
+        "س ب ل",
+        "س ع ي",
+        "س ف ر",
+        "ش ي ء",
+        "ط ع م",
+        "ك ف ر",
+        "ك ل ل",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7353,
+      "label_hint": "hierarchy / leadership / reputation / honor",
+      "ayahs": [
+        1,
+        2,
+        4,
+        8,
+        11,
+        12,
+        14,
+        15,
+        23,
+        29,
+        34,
+        38,
+        40
+      ],
+      "roots": [
+        "ء م ر",
+        "ذ ك ر",
+        "ر ف ع",
+        "س ع ي",
+        "ع م ي",
+        "ف ر ر",
+        "ن خ ل",
+        "و ج ه",
+        "و ل ي",
+        "ي د ي"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7352,
+      "label_hint": "noise / sound / mankind / group",
+      "ayahs": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        16,
+        17,
+        24,
+        25,
+        28,
+        35,
+        37,
+        39
+      ],
+      "roots": [
+        "ء م م",
+        "ء ن س",
+        "ب ر ر",
+        "ب ش ر",
+        "ذ ك ر",
+        "ص ب ب",
+        "ص د ي",
+        "غ ن ي",
+        "ق ض ب",
+        "ك ل ل"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7352,
+      "label_hint": "intention / travel / walking / aim",
+      "ayahs": [
+        3,
+        8,
+        12,
+        18,
+        20,
+        22,
+        24,
+        31,
+        32,
+        35,
+        37
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء م م",
+        "د ر ي",
+        "س ب ل",
+        "س ع ي",
+        "ش ء ن",
+        "ش ي ء",
+        "ط ع م",
+        "ن ع م"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7351,
+      "label_hint": "virtue / form / character / nature",
+      "ayahs": [
+        18,
+        19,
+        34,
+        35,
+        36,
+        37
+      ],
+      "roots": [
+        "ء م م",
+        "ب ن ي",
+        "خ ل ق",
+        "م ر ء"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7337,
+      "label_hint": "language_communication/rhetoric_discourse / transgression / emotion_ethics/honor_shame / corruption",
+      "ayahs": [
+        9,
+        16,
+        17,
+        18,
+        19,
+        28,
+        31,
+        34,
+        41,
+        42
+      ],
+      "roots": [
+        "ب ر ر",
+        "خ ش ي",
+        "خ ل ق",
+        "ر ه ق",
+        "ف ج ر",
+        "ف ر ر",
+        "ف ك ه",
+        "ق ض ب",
+        "ك ف ر",
+        "ن ط ف"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7337,
+      "label_hint": "intention / destination / route / direction",
+      "ayahs": [
+        3,
+        8,
+        12,
+        18,
+        20,
+        22,
+        31,
+        32,
+        35,
+        37,
+        38,
+        39,
+        40
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء م م",
+        "د ر ي",
+        "س ب ل",
+        "س ع ي",
+        "ش ء ن",
+        "ش ي ء",
+        "ض ح ك",
+        "ن ع م",
+        "و ج ه"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7329,
+      "label_hint": "enjoyment / dawn / pleasure / time_measure_quantity/time",
+      "ayahs": [
+        2,
+        10,
+        15,
+        24,
+        32,
+        34,
+        38,
+        40,
+        41,
+        42
+      ],
+      "roots": [
+        "ر ه ق",
+        "س ف ر",
+        "ع م ي",
+        "ف ج ر",
+        "ف ر ر",
+        "ل ه و",
+        "ل ه ي",
+        "م ت ع",
+        "ن ظ ر",
+        "و ج ه"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7328,
+      "label_hint": "intention / commendation / approval / formula",
+      "ayahs": [
+        8,
+        12,
+        13,
+        16,
+        18,
+        20,
+        22,
+        27,
+        31,
+        32,
+        35,
+        41
+      ],
+      "roots": [
+        "ء ب ب",
+        "ء ب و",
+        "ء م م",
+        "ح ب ب",
+        "ر ه ق",
+        "س ع ي",
+        "ش ي ء",
+        "ك ر م",
+        "ن ع م",
+        "ي س ر"
+      ]
+    }
+  ]
+}

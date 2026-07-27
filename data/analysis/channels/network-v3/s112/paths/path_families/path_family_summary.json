@@ -1,0 +1,374 @@
+{
+  "version": "v3_sparse_semantic_path_consolidation_v0",
+  "parameters": {
+    "mutual_k": 10,
+    "min_similarity": 0.16,
+    "containment_threshold": 0.65,
+    "label_rounds": 40
+  },
+  "counts": {
+    "paths": 824,
+    "similarity_edges": 4308,
+    "path_families": 25
+  },
+  "top_families": [
+    {
+      "path_family_id": "PF0001",
+      "family_score": 0.6883,
+      "label_hint": "density / negation / exhaustiveness / universality",
+      "member_count": 2,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0002",
+      "family_score": 0.6782,
+      "label_hint": "rumor / existence / event / neologism",
+      "member_count": 2,
+      "roots": [
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0003",
+      "family_score": 0.6004,
+      "label_hint": "individuality / separation / patron / condition_force_change/support_dependence",
+      "member_count": 3,
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0004",
+      "family_score": 0.5555,
+      "label_hint": "rumor / unity / responsibility / agemate",
+      "member_count": 11,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0005",
+      "family_score": 0.5494,
+      "label_hint": "negation / appropriation / panel / responsibility",
+      "member_count": 11,
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0006",
+      "family_score": 0.5409,
+      "label_hint": "existence / event / bargaining / supervision",
+      "member_count": 4,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0007",
+      "family_score": 0.5388,
+      "label_hint": "meaning / evidence / individuality / neologism",
+      "member_count": 12,
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0008",
+      "family_score": 0.5361,
+      "label_hint": "meaning / evidence / existence / event",
+      "member_count": 10,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0009",
+      "family_score": 0.5275,
+      "label_hint": "condition / misfortune / adversity / solicitude",
+      "member_count": 7,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0010",
+      "family_score": 0.524,
+      "label_hint": "supervision / first / oversight / annexation",
+      "member_count": 7,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0011",
+      "family_score": 0.5151,
+      "label_hint": "negation / survival / exhaustiveness / universality",
+      "member_count": 7,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0012",
+      "family_score": 0.5128,
+      "label_hint": "density / neologism / product / derivative",
+      "member_count": 17,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0013",
+      "family_score": 0.5097,
+      "label_hint": "density / space_form_boundary/place_location / unity / agemate",
+      "member_count": 32,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0014",
+      "family_score": 0.5094,
+      "label_hint": "body_health_life/reproduction_birth / first / annexation / ordinal",
+      "member_count": 13,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0015",
+      "family_score": 0.5054,
+      "label_hint": "counterpart / agemate / coeval / contemporary",
+      "member_count": 31,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0016",
+      "family_score": 0.493,
+      "label_hint": "pronunciation / neologism / product / derivative",
+      "member_count": 38,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0017",
+      "family_score": 0.4786,
+      "label_hint": "individuality / separation / solitude / patron",
+      "member_count": 21,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0018",
+      "family_score": 0.4763,
+      "label_hint": "daughter / descendant / son / unity",
+      "member_count": 190,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0019",
+      "family_score": 0.4722,
+      "label_hint": "unity / newborn / adoration / theology",
+      "member_count": 192,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0020",
+      "family_score": 0.4706,
+      "label_hint": "unity / agemate / coeval / contemporary",
+      "member_count": 54,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0021",
+      "family_score": 0.4687,
+      "label_hint": "individuality / separation / school / patron",
+      "member_count": 1,
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0022",
+      "family_score": 0.4654,
+      "label_hint": "uhud / medina / assault / beating",
+      "member_count": 4,
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0023",
+      "family_score": 0.4634,
+      "label_hint": "progenitor / parent / father / individuality",
+      "member_count": 141,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0024",
+      "family_score": 0.4603,
+      "label_hint": "body_health_life/reproduction_birth / maternity / childbirth / parturition",
+      "member_count": 9,
+      "roots": [
+        "ء ح د",
+        "ص م د",
+        "ق و ل",
+        "ك ف ء",
+        "ك و ن",
+        "و ل د"
+      ]
+    },
+    {
+      "path_family_id": "PF0025",
+      "family_score": 0.4452,
+      "label_hint": "individuality / separation / body_health_life/reproduction_birth / maternity",
+      "member_count": 5,
+      "roots": [
+        "ء ح د",
+        "ء ل ه",
+        "ص م د",
+        "و ل د"
+      ]
+    }
+  ]
+}

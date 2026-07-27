@@ -1,0 +1,563 @@
+{
+  "version": "v3_sparse_semantic_path_assembly_v0",
+  "surah": 109,
+  "generation_policy": "label-free branch paths; Qnet facets attached after assembly",
+  "parameters": {
+    "ayah_from": null,
+    "ayah_to": null,
+    "top_k": 20,
+    "max_partner_rank": 80,
+    "min_affinity": 0.0,
+    "min_roots": 3,
+    "max_roots": 10,
+    "min_ayahs": 4,
+    "beam_width": 96,
+    "extension_width": 16,
+    "path_limit": 0
+  },
+  "counts": {
+    "eligible_branches": 49,
+    "path_graph_edges": 568,
+    "raw_path_states": 9049,
+    "unique_path_states": 3948,
+    "deduped_paths": 1866
+  },
+  "top_paths": [
+    {
+      "path_id": "P0001",
+      "path_score": 0.8641,
+      "label_hint": "attribution / law / delegation / swiftness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0002",
+      "path_score": 0.8406,
+      "label_hint": "rumor / settlement / divergence / village",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0003",
+      "path_score": 0.8369,
+      "label_hint": "submission / ritual_belief/religion_worship / devotion / obedience",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0004",
+      "path_score": 0.8336,
+      "label_hint": "ownership / kinship_society/hierarchy_status / hierarchy / prince",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0005",
+      "path_score": 0.8073,
+      "label_hint": "morality / breakdown / appropriation / disobedience",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0006",
+      "path_score": 0.8017,
+      "label_hint": "judgment / perfume / authority / camphor",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0007",
+      "path_score": 0.8015,
+      "label_hint": "submission / religion / devotion / obedience",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0008",
+      "path_score": 0.801,
+      "label_hint": "perfume / bat / camphor / club",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0009",
+      "path_score": 0.7977,
+      "label_hint": "ingratitude / divergence / gratitude / thought",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0010",
+      "path_score": 0.7972,
+      "label_hint": "rumor / ingratitude / divergence / gratitude",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0011",
+      "path_score": 0.7946,
+      "label_hint": "submission / city / obedience / bargaining",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0012",
+      "path_score": 0.7924,
+      "label_hint": "judgment / coercion / authority / breakdown",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0013",
+      "path_score": 0.7905,
+      "label_hint": "covering / concealment / stoutness / routine",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0014",
+      "path_score": 0.7842,
+      "label_hint": "authority / coronation / diadem / veneration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0015",
+      "path_score": 0.7815,
+      "label_hint": "paving / smoothing / enslavement / taming",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0016",
+      "path_score": 0.7726,
+      "label_hint": "atonement / expiation / remission / swiftness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0017",
+      "path_score": 0.7595,
+      "label_hint": "religion / disbelief / heresy / creed",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0018",
+      "path_score": 0.7594,
+      "label_hint": "loquacity / verbosity / personality / stoutness",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0019",
+      "path_score": 0.7588,
+      "label_hint": "perfume / articulator / camphor / paradise",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0020",
+      "path_score": 0.757,
+      "label_hint": "judgment / authority / regret / zeal",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل"
+      ]
+    },
+    {
+      "path_id": "P0021",
+      "path_score": 0.7568,
+      "label_hint": "definition / disavowal / repudiation / philosophy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0022",
+      "path_score": 0.7498,
+      "label_hint": "attribution / lending / enslavement / borrowing",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0023",
+      "path_score": 0.7491,
+      "label_hint": "authority / vastness / veneration / engulfment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0024",
+      "path_score": 0.7484,
+      "label_hint": "ownership / hierarchy / disbelief / heresy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0025",
+      "path_score": 0.7449,
+      "label_hint": "articulator / disavowal / repudiation / renunciation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0026",
+      "path_score": 0.7426,
+      "label_hint": "rumor / calyx / divergence / circulation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0027",
+      "path_score": 0.7392,
+      "label_hint": "authority / coronation / diadem / veneration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0028",
+      "path_score": 0.7381,
+      "label_hint": "bat / club / farmer / cosmetic",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roots": [
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0029",
+      "path_score": 0.7381,
+      "label_hint": "religion / authority / disbelief / heresy",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ك ف ر"
+      ]
+    },
+    {
+      "path_id": "P0030",
+      "path_score": 0.7376,
+      "label_hint": "judgment / covering / concealment / authority",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roots": [
+        "د ي ن",
+        "ع ب د",
+        "ق و ل",
+        "ك ف ر"
+      ]
+    }
+  ]
+}

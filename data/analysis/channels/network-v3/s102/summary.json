@@ -1,0 +1,300 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 102,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s102",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s102",
+    "catalog_branch_count": 86,
+    "eligible_branch_count": 86,
+    "affinity_shape": [
+      86,
+      86
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.05049051,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 544,
+    "raw_candidates": 84,
+    "deduped_candidates": 15
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8657,
+      "label_hint": "knowledge / banner / goal / reflection",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 37
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8521,
+      "label_hint": "need / time_measure_quantity/quantity_number / wealth / goal",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 7,
+      "branch_count": 13,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8509,
+      "label_hint": "pleasure / amusement / preoccupation / entertainment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 15,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8503,
+      "label_hint": "pleasure / mouth / amusement / uvula",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8476,
+      "label_hint": "animal_life/wildlife / bird / banner / goal",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 16,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8327,
+      "label_hint": "animal_life/wildlife / bird / dream / banner",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8294,
+      "label_hint": "aggregation / collection / agriculture_food/plant_vegetation / time_measure_quantity/quantity_number",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 8,
+      "branch_count": 13,
+      "edge_count": 12
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.8238,
+      "label_hint": "beauty / honor / perception / eye",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 7,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8198,
+      "label_hint": "pleasure / amusement / knowledge / preoccupation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.8105,
+      "label_hint": "envy / land_water_sky/water_hydrology / source / sight",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.7992,
+      "label_hint": "encounter / perception / eye / vision",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 6,
+      "branch_count": 17,
+      "edge_count": 29
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7918,
+      "label_hint": "death / preoccupation / distraction / wealth",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "root_count": 8,
+      "branch_count": 15,
+      "edge_count": 13
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7876,
+      "label_hint": "beauty / encounter / honor / knowledge",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 5,
+      "branch_count": 17,
+      "edge_count": 37
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7874,
+      "label_hint": "perception / knowledge / pleasure / encounter",
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7452,
+      "label_hint": "question / encounter / perception / honor",
+      "ayahs": [
+        1,
+        2,
+        6,
+        7,
+        8
+      ],
+      "root_count": 6,
+      "branch_count": 17,
+      "edge_count": 32
+    }
+  ]
+}

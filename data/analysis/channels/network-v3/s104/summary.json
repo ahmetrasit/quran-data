@@ -1,0 +1,393 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 104,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/surah_networks_global_ensemble/s104",
+    "surah_resource_dir": "/Volumes/OZTURK/_projects/quran-slm/artifacts/corpus_network/surah_resources/s104",
+    "catalog_branch_count": 135,
+    "eligible_branch_count": 135,
+    "affinity_shape": [
+      135,
+      135
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.04661133,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=4 ayahs"
+  },
+  "counts": {
+    "graph_edges": 840,
+    "raw_candidates": 127,
+    "deduped_candidates": 68
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8462,
+      "label_hint": "land_water_sky/fire_heat / heat / combustion / architecture",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 10,
+      "branch_count": 15,
+      "edge_count": 25
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8453,
+      "label_hint": "access / pen / courtyard / containment",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 11,
+      "branch_count": 15,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8313,
+      "label_hint": "land_water_sky/fire_heat / heat / combustion / flame",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8131,
+      "label_hint": "space_form_boundary/place_location / attachment / pillow / pen",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "root_count": 10,
+      "branch_count": 15,
+      "edge_count": 15
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8111,
+      "label_hint": "attachment / sealing / administration / adherence",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 13,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8104,
+      "label_hint": "land_water_sky/fire_heat / heat / combustion / radiance",
+      "ayahs": [
+        1,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 36
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8096,
+      "label_hint": "appearance / kinship_society/household_community / administration / alliance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.807,
+      "label_hint": "land_water_sky/fire_heat / radiance / flame / fire",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 28
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8012,
+      "label_hint": "architecture / shelter / pen / mortality",
+      "ayahs": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.7995,
+      "label_hint": "administration / land_water_sky/fire_heat / connection / accountability",
+      "ayahs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.798,
+      "label_hint": "land_water_sky/fire_heat / heat / combustion / radiance",
+      "ayahs": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 33
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.7974,
+      "label_hint": "land_water_sky/water_hydrology / hydrology / pilgrimage / aggregation",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 11,
+      "branch_count": 17,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.7973,
+      "label_hint": "time_measure_quantity/quantity_number / cognition_perception/knowledge_learning / knowledge / count",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        9
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.7942,
+      "label_hint": "knowledge / count / inspection / mathematics",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.7892,
+      "label_hint": "time_measure_quantity/quantity_number / kinship_society/household_community / entirety / totality",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.7881,
+      "label_hint": "land_water_sky/fire_heat / combustion / flame / kinship_society/household_community",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "root_count": 11,
+      "branch_count": 16,
+      "edge_count": 14
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.7872,
+      "label_hint": "attachment / knowledge / inspection / administration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.7857,
+      "label_hint": "wealth / inheritance / slander / time_measure_quantity/quantity_number",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "root_count": 12,
+      "branch_count": 16,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.7855,
+      "label_hint": "growth / containment / access / palm",
+      "ayahs": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.7854,
+      "label_hint": "time_measure_quantity/quantity_number / knowledge / count / mathematics",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "root_count": 12,
+      "branch_count": 17,
+      "edge_count": 18
+    }
+  ]
+}
