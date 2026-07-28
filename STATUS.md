@@ -55,7 +55,7 @@ paths.
 | --- | --- | --- |
 | `quran-data` release `2026.07.21` | READY, local release | Current payload is complete and checksum-valid |
 | `word_analysis` word outputs | READY | 6,236 of 6,236 outputs validate against their bundles |
-| `latent_activation` V12 Turkish publication | COPIED to quran-data | 114 surahs plus full-context packets/control directories and 6 focus runs staged under `data/analysis/ayah-activation/v12-tr/` with source provenance |
+| `latent_activation` V12 Turkish publication | COPIED to quran-data | Regular V12 support staged under `data/analysis/ayah-activation/v12-tr/`; plus/minus-5 reader walks staged under `data/analysis/ayah-activation/v12-tr-11ayah/`; final cross-run findings staged under `data/analysis/ayah-activation/v12-cross-run/tr/` with source provenance |
 | `quran-slm` engine and local networks | READY as infrastructure | Tested candidate-retrieval substrate, not accepted interpretation truth |
 | `quran-slm` inter-ayah focus reviews | PARTIAL copied | 5,604 of 6,236 focus TSV review outputs staged under `data/analysis/inter-ayah/`; 632 missing and one known malformed row |
 | `dictionary` Turkish entries and glosses | COPIED to quran-data | 1,679 Turkish entry JSON files and 1,572 reviewed Turkish gloss JSON files staged with source provenance |
@@ -88,6 +88,8 @@ Staged but not yet reflected in `RELEASE.json`, manifests, checksums, and a rele
 - Turkish dictionary entries, 1,679 JSON files under `data/dictionary/tr/`;
 - Turkish translation glosses, 1,572 reviewed JSON files under `data/translation/glosses/locales/tr/`;
 - V12 ayah activation/publication support, 114 surahs plus full-context packets/control directories and 6 focus runs under `data/analysis/ayah-activation/v12-tr/`;
+- V12 plus/minus-5 reader walks, 114 surahs under `data/analysis/ayah-activation/v12-tr-11ayah/`;
+- V12 cross-run publication findings, 114 Turkish per-surah JSON files under `data/analysis/ayah-activation/v12-cross-run/tr/`;
 - network v3 generated candidate outputs, 111 eligible surahs plus 110 review files and pericopes under `data/analysis/channels/network-v3/`;
 - inter-ayah focus review outputs, 5,604 TSVs under `data/analysis/inter-ayah/` with 632 missing outputs documented.
 
@@ -141,7 +143,7 @@ V12 Turkish publication is complete:
 - all findings use an allowed grade and contain at least one anchor;
 - source status declares the deterministic contract production-ready.
 
-The corpus-wide V12 extraction, grading, reconciliation, and publication lane is complete upstream. On 2026-07-27 the V12 publication support artifacts were copied into `quran-data/data/analysis/ayah-activation/v12-tr/` from source commit `f47613506937b980f2708aed73eca9ef776deb65`. The remaining V12 work is release formalization: freeze the public schema, validate joins, add release manifests/checksums, and tag the next release.
+The corpus-wide V12 extraction, grading, reconciliation, and publication lane is complete upstream. On 2026-07-27 the regular V12 publication support artifacts were copied into `quran-data/data/analysis/ayah-activation/v12-tr/`; the plus/minus-5 reader-walk family was copied into `quran-data/data/analysis/ayah-activation/v12-tr-11ayah/`; and the compact final Turkish cross-run publication findings were copied into `quran-data/data/analysis/ayah-activation/v12-cross-run/tr/`, all from source commit `f47613506937b980f2708aed73eca9ef776deb65`. The remaining V12 work is release formalization: freeze the public schema, validate joins, add release manifests/checksums, and tag the next release.
 
 Network v3 generation is also complete:
 

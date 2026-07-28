@@ -29,6 +29,8 @@ Copied on 2026-07-27, with per-folder provenance, but not yet folded into a new
 - Turkish dictionary entries: `data/dictionary/tr/`, 1,679 entry JSON files
 - Turkish translation glosses: `data/translation/glosses/locales/tr/`, 1,572 reviewed gloss JSON files
 - Turkish V12 ayah activation/publication support: `data/analysis/ayah-activation/v12-tr/`, 114 surahs plus full-context packets/control directories and 6 focus runs
+- Turkish V12 plus/minus-5 reader walks: `data/analysis/ayah-activation/v12-tr-11ayah/`, 114 surahs with reader walks and frozen run metadata
+- Turkish V12 cross-run publication findings: `data/analysis/ayah-activation/v12-cross-run/tr/`, 114 final per-surah publication JSON files
 - Network v3 generated channel outputs and reviews: `data/analysis/channels/network-v3/`, 111 eligible generated-output surahs, 110 review files, and pericopes; still candidate data pending blind review/adjudication
 - Inter-ayah focus review TSVs: `data/analysis/inter-ayah/`, 5,604 of 6,236 focus outputs staged; 632 missing and `focus_29_55_cutoff_100.tsv` needs rerun
 
