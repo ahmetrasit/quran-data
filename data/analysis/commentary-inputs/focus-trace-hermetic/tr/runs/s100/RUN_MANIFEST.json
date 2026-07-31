@@ -1,0 +1,168 @@
+{
+  "workflow": "Hermetic Focus Trace",
+  "surah": 100,
+  "status": "existing_reader_outputs_validated_v3_new_schema_v4_ready",
+  "agent_execution": {
+    "enabled": true,
+    "reason": "reader_hft_a S100 v3 outputs generated; compact JSON applied; v4 schema ready for new comparison outputs"
+  },
+  "model_profile": {
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "max"
+  },
+  "prompt": {
+    "path": "focus_trace/prompts/focus_trace_hermetic.md",
+    "bytes": 7967,
+    "sha256": "7b72d6e2ebb6f14d1e683ec278c473d83a430516b9f0e09a9eaf6be6d2db6920"
+  },
+  "schema": {
+    "path": "focus_trace/schemas/focus-trace-response.schema.json",
+    "bytes": 4078,
+    "sha256": "06e2e1c8185be4fd4944ec43428a33a40898704c52fd77589b7bb702a6844b04"
+  },
+  "packet_protocol": "focus-trace-hermetic-packet-v2",
+  "response_protocol": "focus-trace-hermetic-response-v4",
+  "root_map": {
+    "path": "../quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+    "sha256": "415d0f14f3f1d6b49fd2fd574d24495090ece1af3f01210998b0bc1eb7b11296",
+    "policy": "include every mapped Furuq root_id for each QAC root; citations must pair mapped_root_id with branch_id"
+  },
+  "comparison_baseline": {
+    "path": "focus_trace/runs/s100/READER_M_BASELINE.md",
+    "primary_source": "../quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_m_ayah_walk.md"
+  },
+  "reader_id": "reader_hft_a",
+  "packets": [
+    {
+      "focus_ref": "100:1",
+      "packet_path": "focus_trace/runs/s100/packets/100_1.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_1.focus_trace.json",
+      "bytes": 113200,
+      "sha256": "40046c1a5073ad3775443965d5177a584bb65b95414cdb3f812da43f0c05b452",
+      "estimated_input_tokens": 31311,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:2",
+      "packet_path": "focus_trace/runs/s100/packets/100_2.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_2.focus_trace.json",
+      "bytes": 97787,
+      "sha256": "2fe5f1f3df9af969c0e50f65d2b36b8b5344a3a64bacbcbea67aba37c6871ac7",
+      "estimated_input_tokens": 27458,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:3",
+      "packet_path": "focus_trace/runs/s100/packets/100_3.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_3.focus_trace.json",
+      "bytes": 95870,
+      "sha256": "c77521c5fe9d0d00d3c0e062eef764374db89e43d0ad366f4e0cbf655db93d21",
+      "estimated_input_tokens": 26978,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:4",
+      "packet_path": "focus_trace/runs/s100/packets/100_4.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_4.focus_trace.json",
+      "bytes": 108644,
+      "sha256": "3f546fd30b98a60c091f90ea3aac19d73da8277bfd65745197d70280f7507995",
+      "estimated_input_tokens": 30172,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:5",
+      "packet_path": "focus_trace/runs/s100/packets/100_5.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_5.focus_trace.json",
+      "bytes": 101685,
+      "sha256": "f7a0834f802f883c5b0fdfc7cb3f3ae1054804041cdb3b1633e914b6067f56de",
+      "estimated_input_tokens": 28432,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:6",
+      "packet_path": "focus_trace/runs/s100/packets/100_6.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_6.focus_trace.json",
+      "bytes": 120465,
+      "sha256": "05195beadbbcc6df49628be51afdbc26334c8cd37d7a88cc7917271039b4a231",
+      "estimated_input_tokens": 33127,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:7",
+      "packet_path": "focus_trace/runs/s100/packets/100_7.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_7.focus_trace.json",
+      "bytes": 89063,
+      "sha256": "29164a2f1142aeda8253c2d8c8da42f615c8eedb813cfcc5dc3a3119b4ee0bf1",
+      "estimated_input_tokens": 25277,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:8",
+      "packet_path": "focus_trace/runs/s100/packets/100_8.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_8.focus_trace.json",
+      "bytes": 102243,
+      "sha256": "56507e006d41bf2140b78f8684a6f9823ed7ea10608d730292bc7383625a951f",
+      "estimated_input_tokens": 28572,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:9",
+      "packet_path": "focus_trace/runs/s100/packets/100_9.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_9.focus_trace.json",
+      "bytes": 95529,
+      "sha256": "c4ab183bad80e7f48f7ab26a90d2c104d22e0fcfa0d5e36d7c2a1572316ed3a0",
+      "estimated_input_tokens": 26893,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:10",
+      "packet_path": "focus_trace/runs/s100/packets/100_10.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_10.focus_trace.json",
+      "bytes": 94378,
+      "sha256": "7db7046bb0d9295ab84057f449b598a6fc258557849fb74e8a012eaeebd1383d",
+      "estimated_input_tokens": 26605,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    },
+    {
+      "focus_ref": "100:11",
+      "packet_path": "focus_trace/runs/s100/packets/100_11.packet.json",
+      "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_11.focus_trace.json",
+      "bytes": 115701,
+      "sha256": "1c1bacce1f09619d844f79d0c954f9ece985cb41b47108cfe1ebd6db0570dd4c",
+      "estimated_input_tokens": 31936,
+      "root_mappings": 23,
+      "split_root_mappings": 3
+    }
+  ],
+  "totals": {
+    "packet_bytes": 1134565,
+    "estimated_input_tokens_one_reader": 316761
+  },
+  "validation": {
+    "packet_validator": "focus_trace/scripts/validate_focus_trace.py",
+    "all_packets_validated": true,
+    "response_validation_required_before_bundle_consumption": true,
+    "all_reader_outputs_validated": true
+  },
+  "optimization": {
+    "json_format": "compact",
+    "applied_to": [
+      "focus_trace/schemas/focus-trace-response.schema.json",
+      "focus_trace/runs/s100/packets/*.packet.json",
+      "focus_trace/runs/s100/readers/reader_hft_a/*.focus_trace.json"
+    ],
+    "response_protocol_v4": "compact source-word-indexed ID trace citations for new outputs; validator remains backward-compatible with v3 existing outputs"
+  },
+  "existing_reader_output_protocol": "focus-trace-hermetic-response-v3",
+  "new_response_protocol": "focus-trace-hermetic-response-v4"
+}
