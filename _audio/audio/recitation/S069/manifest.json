@@ -1,0 +1,1224 @@
+{
+  "source": "data/text/quran-uthmani.tsv",
+  "sources": [
+    "data/text/quran-uthmani.tsv"
+  ],
+  "sourceKind": "recitation",
+  "surahId": "S069",
+  "collection": "recitation",
+  "cleanMarkdown": "S069.md",
+  "chunksJsonl": "chunks.jsonl",
+  "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+  "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "voice": {
+    "languageCode": "tr-TR",
+    "modelName": "gemini-3.1-flash-tts-preview",
+    "name": "Rasalgethi"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": 0,
+    "speakingRate": 1
+  },
+  "chunkCount": 52,
+  "arabicTextSource": "data/text/quran-uthmani.tsv",
+  "titleHandling": "Each section is exactly one ayah_reference paragraph: sectionTitle uses the digit form '<name> <number>' (or '<name> besmele' for the ayah-0 basmalah row); ttsText speaks the surah name and spelled-out ordinal ayet label followed by the canonical Arabic text. No commentary prose.",
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "title": "Hâkka 1",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-001.wav",
+      "mp3": "sections/mp3/sec-001.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-001-p-001",
+          "text": "ٱلْحَآقَّةُ",
+          "ttsText": "Hâkka birinci ayet. ٱلْحَآقَّةُ",
+          "request": "requests/sec-001-p-001.json",
+          "response": "responses/sec-001-p-001.json",
+          "wav": "originals/wav/sec-001-p-001.wav",
+          "mp3": "originals/mp3/sec-001-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 2,
+      "title": "Hâkka 2",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-002.wav",
+      "mp3": "sections/mp3/sec-002.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-002-p-001",
+          "text": "مَا ٱلْحَآقَّةُ",
+          "ttsText": "Hâkka ikinci ayet. مَا ٱلْحَآقَّةُ",
+          "request": "requests/sec-002-p-001.json",
+          "response": "responses/sec-002-p-001.json",
+          "wav": "originals/wav/sec-002-p-001.wav",
+          "mp3": "originals/mp3/sec-002-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 3,
+      "title": "Hâkka 3",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-003.wav",
+      "mp3": "sections/mp3/sec-003.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-003-p-001",
+          "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ",
+          "ttsText": "Hâkka üçüncü ayet. وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ",
+          "request": "requests/sec-003-p-001.json",
+          "response": "responses/sec-003-p-001.json",
+          "wav": "originals/wav/sec-003-p-001.wav",
+          "mp3": "originals/mp3/sec-003-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "title": "Hâkka 4",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-004.wav",
+      "mp3": "sections/mp3/sec-004.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-004-p-001",
+          "text": "كَذَّبَتْ ثَمُودُ وَعَادٌۢ بِٱلْقَارِعَةِ",
+          "ttsText": "Hâkka dördüncü ayet. كَذَّبَتْ ثَمُودُ وَعَادٌۢ بِٱلْقَارِعَةِ",
+          "request": "requests/sec-004-p-001.json",
+          "response": "responses/sec-004-p-001.json",
+          "wav": "originals/wav/sec-004-p-001.wav",
+          "mp3": "originals/mp3/sec-004-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "title": "Hâkka 5",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-005.wav",
+      "mp3": "sections/mp3/sec-005.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-005-p-001",
+          "text": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ",
+          "ttsText": "Hâkka beşinci ayet. فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ",
+          "request": "requests/sec-005-p-001.json",
+          "response": "responses/sec-005-p-001.json",
+          "wav": "originals/wav/sec-005-p-001.wav",
+          "mp3": "originals/mp3/sec-005-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "title": "Hâkka 6",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-006.wav",
+      "mp3": "sections/mp3/sec-006.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-006-p-001",
+          "text": "وَأَمَّا عَادٌۭ فَأُهْلِكُوا۟ بِرِيحٍۢ صَرْصَرٍ عَاتِيَةٍۢ",
+          "ttsText": "Hâkka altıncı ayet. وَأَمَّا عَادٌۭ فَأُهْلِكُوا۟ بِرِيحٍۢ صَرْصَرٍ عَاتِيَةٍۢ",
+          "request": "requests/sec-006-p-001.json",
+          "response": "responses/sec-006-p-001.json",
+          "wav": "originals/wav/sec-006-p-001.wav",
+          "mp3": "originals/mp3/sec-006-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 7,
+      "title": "Hâkka 7",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-007.wav",
+      "mp3": "sections/mp3/sec-007.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-007-p-001",
+          "text": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍۢ وَثَمَٰنِيَةَ أَيَّامٍ حُسُومًۭا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍۢ",
+          "ttsText": "Hâkka yedinci ayet. سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍۢ وَثَمَٰنِيَةَ أَيَّامٍ حُسُومًۭا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍۢ",
+          "request": "requests/sec-007-p-001.json",
+          "response": "responses/sec-007-p-001.json",
+          "wav": "originals/wav/sec-007-p-001.wav",
+          "mp3": "originals/mp3/sec-007-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 8,
+      "title": "Hâkka 8",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-008.wav",
+      "mp3": "sections/mp3/sec-008.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-008-p-001",
+          "text": "فَهَلْ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٍۢ",
+          "ttsText": "Hâkka sekizinci ayet. فَهَلْ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٍۢ",
+          "request": "requests/sec-008-p-001.json",
+          "response": "responses/sec-008-p-001.json",
+          "wav": "originals/wav/sec-008-p-001.wav",
+          "mp3": "originals/mp3/sec-008-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 9,
+      "title": "Hâkka 9",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-009.wav",
+      "mp3": "sections/mp3/sec-009.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-009-p-001",
+          "text": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَٰتُ بِٱلْخَاطِئَةِ",
+          "ttsText": "Hâkka dokuzuncu ayet. وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَٰتُ بِٱلْخَاطِئَةِ",
+          "request": "requests/sec-009-p-001.json",
+          "response": "responses/sec-009-p-001.json",
+          "wav": "originals/wav/sec-009-p-001.wav",
+          "mp3": "originals/mp3/sec-009-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 10,
+      "title": "Hâkka 10",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-010.wav",
+      "mp3": "sections/mp3/sec-010.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-010-p-001",
+          "text": "فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةًۭ رَّابِيَةً",
+          "ttsText": "Hâkka onuncu ayet. فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةًۭ رَّابِيَةً",
+          "request": "requests/sec-010-p-001.json",
+          "response": "responses/sec-010-p-001.json",
+          "wav": "originals/wav/sec-010-p-001.wav",
+          "mp3": "originals/mp3/sec-010-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 11,
+      "title": "Hâkka 11",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-011.wav",
+      "mp3": "sections/mp3/sec-011.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-011-p-001",
+          "text": "إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَٰكُمْ فِى ٱلْجَارِيَةِ",
+          "ttsText": "Hâkka on birinci ayet. إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَٰكُمْ فِى ٱلْجَارِيَةِ",
+          "request": "requests/sec-011-p-001.json",
+          "response": "responses/sec-011-p-001.json",
+          "wav": "originals/wav/sec-011-p-001.wav",
+          "mp3": "originals/mp3/sec-011-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 12,
+      "title": "Hâkka 12",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-012.wav",
+      "mp3": "sections/mp3/sec-012.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-012-p-001",
+          "text": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةًۭ وَتَعِيَهَآ أُذُنٌۭ وَٰعِيَةٌۭ",
+          "ttsText": "Hâkka on ikinci ayet. لِنَجْعَلَهَا لَكُمْ تَذْكِرَةًۭ وَتَعِيَهَآ أُذُنٌۭ وَٰعِيَةٌۭ",
+          "request": "requests/sec-012-p-001.json",
+          "response": "responses/sec-012-p-001.json",
+          "wav": "originals/wav/sec-012-p-001.wav",
+          "mp3": "originals/mp3/sec-012-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 13,
+      "title": "Hâkka 13",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-013.wav",
+      "mp3": "sections/mp3/sec-013.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-013-p-001",
+          "text": "فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌۭ وَٰحِدَةٌۭ",
+          "ttsText": "Hâkka on üçüncü ayet. فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌۭ وَٰحِدَةٌۭ",
+          "request": "requests/sec-013-p-001.json",
+          "response": "responses/sec-013-p-001.json",
+          "wav": "originals/wav/sec-013-p-001.wav",
+          "mp3": "originals/mp3/sec-013-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 14,
+      "title": "Hâkka 14",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-014.wav",
+      "mp3": "sections/mp3/sec-014.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-014-p-001",
+          "text": "وَحُمِلَتِ ٱلْأَرْضُ وَٱلْجِبَالُ فَدُكَّتَا دَكَّةًۭ وَٰحِدَةًۭ",
+          "ttsText": "Hâkka on dördüncü ayet. وَحُمِلَتِ ٱلْأَرْضُ وَٱلْجِبَالُ فَدُكَّتَا دَكَّةًۭ وَٰحِدَةًۭ",
+          "request": "requests/sec-014-p-001.json",
+          "response": "responses/sec-014-p-001.json",
+          "wav": "originals/wav/sec-014-p-001.wav",
+          "mp3": "originals/mp3/sec-014-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 15,
+      "title": "Hâkka 15",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-015.wav",
+      "mp3": "sections/mp3/sec-015.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-015-p-001",
+          "text": "فَيَوْمَئِذٍۢ وَقَعَتِ ٱلْوَاقِعَةُ",
+          "ttsText": "Hâkka on beşinci ayet. فَيَوْمَئِذٍۢ وَقَعَتِ ٱلْوَاقِعَةُ",
+          "request": "requests/sec-015-p-001.json",
+          "response": "responses/sec-015-p-001.json",
+          "wav": "originals/wav/sec-015-p-001.wav",
+          "mp3": "originals/mp3/sec-015-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 16,
+      "title": "Hâkka 16",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-016.wav",
+      "mp3": "sections/mp3/sec-016.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-016-p-001",
+          "text": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍۢ وَاهِيَةٌۭ",
+          "ttsText": "Hâkka on altıncı ayet. وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍۢ وَاهِيَةٌۭ",
+          "request": "requests/sec-016-p-001.json",
+          "response": "responses/sec-016-p-001.json",
+          "wav": "originals/wav/sec-016-p-001.wav",
+          "mp3": "originals/mp3/sec-016-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 17,
+      "title": "Hâkka 17",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-017.wav",
+      "mp3": "sections/mp3/sec-017.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-017-p-001",
+          "text": "وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍۢ ثَمَٰنِيَةٌۭ",
+          "ttsText": "Hâkka on yedinci ayet. وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍۢ ثَمَٰنِيَةٌۭ",
+          "request": "requests/sec-017-p-001.json",
+          "response": "responses/sec-017-p-001.json",
+          "wav": "originals/wav/sec-017-p-001.wav",
+          "mp3": "originals/mp3/sec-017-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 18,
+      "title": "Hâkka 18",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-018.wav",
+      "mp3": "sections/mp3/sec-018.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-018-p-001",
+          "text": "يَوْمَئِذٍۢ تُعْرَضُونَ لَا تَخْفَىٰ مِنكُمْ خَافِيَةٌۭ",
+          "ttsText": "Hâkka on sekizinci ayet. يَوْمَئِذٍۢ تُعْرَضُونَ لَا تَخْفَىٰ مِنكُمْ خَافِيَةٌۭ",
+          "request": "requests/sec-018-p-001.json",
+          "response": "responses/sec-018-p-001.json",
+          "wav": "originals/wav/sec-018-p-001.wav",
+          "mp3": "originals/mp3/sec-018-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 19,
+      "title": "Hâkka 19",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-019.wav",
+      "mp3": "sections/mp3/sec-019.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-019-p-001",
+          "text": "فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ فَيَقُولُ هَآؤُمُ ٱقْرَءُوا۟ كِتَٰبِيَهْ",
+          "ttsText": "Hâkka on dokuzuncu ayet. فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ فَيَقُولُ هَآؤُمُ ٱقْرَءُوا۟ كِتَٰبِيَهْ",
+          "request": "requests/sec-019-p-001.json",
+          "response": "responses/sec-019-p-001.json",
+          "wav": "originals/wav/sec-019-p-001.wav",
+          "mp3": "originals/mp3/sec-019-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 20,
+      "title": "Hâkka 20",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-020.wav",
+      "mp3": "sections/mp3/sec-020.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-020-p-001",
+          "text": "إِنِّى ظَنَنتُ أَنِّى مُلَٰقٍ حِسَابِيَهْ",
+          "ttsText": "Hâkka yirminci ayet. إِنِّى ظَنَنتُ أَنِّى مُلَٰقٍ حِسَابِيَهْ",
+          "request": "requests/sec-020-p-001.json",
+          "response": "responses/sec-020-p-001.json",
+          "wav": "originals/wav/sec-020-p-001.wav",
+          "mp3": "originals/mp3/sec-020-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 21,
+      "title": "Hâkka 21",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-021.wav",
+      "mp3": "sections/mp3/sec-021.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-021-p-001",
+          "text": "فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
+          "ttsText": "Hâkka yirmi birinci ayet. فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
+          "request": "requests/sec-021-p-001.json",
+          "response": "responses/sec-021-p-001.json",
+          "wav": "originals/wav/sec-021-p-001.wav",
+          "mp3": "originals/mp3/sec-021-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 22,
+      "title": "Hâkka 22",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-022.wav",
+      "mp3": "sections/mp3/sec-022.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-022-p-001",
+          "text": "فِى جَنَّةٍ عَالِيَةٍۢ",
+          "ttsText": "Hâkka yirmi ikinci ayet. فِى جَنَّةٍ عَالِيَةٍۢ",
+          "request": "requests/sec-022-p-001.json",
+          "response": "responses/sec-022-p-001.json",
+          "wav": "originals/wav/sec-022-p-001.wav",
+          "mp3": "originals/mp3/sec-022-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 23,
+      "title": "Hâkka 23",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-023.wav",
+      "mp3": "sections/mp3/sec-023.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-023-p-001",
+          "text": "قُطُوفُهَا دَانِيَةٌۭ",
+          "ttsText": "Hâkka yirmi üçüncü ayet. قُطُوفُهَا دَانِيَةٌۭ",
+          "request": "requests/sec-023-p-001.json",
+          "response": "responses/sec-023-p-001.json",
+          "wav": "originals/wav/sec-023-p-001.wav",
+          "mp3": "originals/mp3/sec-023-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 24,
+      "title": "Hâkka 24",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-024.wav",
+      "mp3": "sections/mp3/sec-024.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-024-p-001",
+          "text": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ ٱلْخَالِيَةِ",
+          "ttsText": "Hâkka yirmi dördüncü ayet. كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ ٱلْخَالِيَةِ",
+          "request": "requests/sec-024-p-001.json",
+          "response": "responses/sec-024-p-001.json",
+          "wav": "originals/wav/sec-024-p-001.wav",
+          "mp3": "originals/mp3/sec-024-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 25,
+      "title": "Hâkka 25",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-025.wav",
+      "mp3": "sections/mp3/sec-025.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-025-p-001",
+          "text": "وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَٰلَيْتَنِى لَمْ أُوتَ كِتَٰبِيَهْ",
+          "ttsText": "Hâkka yirmi beşinci ayet. وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَٰلَيْتَنِى لَمْ أُوتَ كِتَٰبِيَهْ",
+          "request": "requests/sec-025-p-001.json",
+          "response": "responses/sec-025-p-001.json",
+          "wav": "originals/wav/sec-025-p-001.wav",
+          "mp3": "originals/mp3/sec-025-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 26,
+      "title": "Hâkka 26",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-026.wav",
+      "mp3": "sections/mp3/sec-026.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-026-p-001",
+          "text": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
+          "ttsText": "Hâkka yirmi altıncı ayet. وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
+          "request": "requests/sec-026-p-001.json",
+          "response": "responses/sec-026-p-001.json",
+          "wav": "originals/wav/sec-026-p-001.wav",
+          "mp3": "originals/mp3/sec-026-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 27,
+      "title": "Hâkka 27",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-027.wav",
+      "mp3": "sections/mp3/sec-027.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-027-p-001",
+          "text": "يَٰلَيْتَهَا كَانَتِ ٱلْقَاضِيَةَ",
+          "ttsText": "Hâkka yirmi yedinci ayet. يَٰلَيْتَهَا كَانَتِ ٱلْقَاضِيَةَ",
+          "request": "requests/sec-027-p-001.json",
+          "response": "responses/sec-027-p-001.json",
+          "wav": "originals/wav/sec-027-p-001.wav",
+          "mp3": "originals/mp3/sec-027-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 28,
+      "title": "Hâkka 28",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-028.wav",
+      "mp3": "sections/mp3/sec-028.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-028-p-001",
+          "text": "مَآ أَغْنَىٰ عَنِّى مَالِيَهْ ۜ",
+          "ttsText": "Hâkka yirmi sekizinci ayet. مَآ أَغْنَىٰ عَنِّى مَالِيَهْ ۜ",
+          "request": "requests/sec-028-p-001.json",
+          "response": "responses/sec-028-p-001.json",
+          "wav": "originals/wav/sec-028-p-001.wav",
+          "mp3": "originals/mp3/sec-028-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 29,
+      "title": "Hâkka 29",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-029.wav",
+      "mp3": "sections/mp3/sec-029.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-029-p-001",
+          "text": "هَلَكَ عَنِّى سُلْطَٰنِيَهْ",
+          "ttsText": "Hâkka yirmi dokuzuncu ayet. هَلَكَ عَنِّى سُلْطَٰنِيَهْ",
+          "request": "requests/sec-029-p-001.json",
+          "response": "responses/sec-029-p-001.json",
+          "wav": "originals/wav/sec-029-p-001.wav",
+          "mp3": "originals/mp3/sec-029-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 30,
+      "title": "Hâkka 30",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-030.wav",
+      "mp3": "sections/mp3/sec-030.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-030-p-001",
+          "text": "خُذُوهُ فَغُلُّوهُ",
+          "ttsText": "Hâkka otuzuncu ayet. خُذُوهُ فَغُلُّوهُ",
+          "request": "requests/sec-030-p-001.json",
+          "response": "responses/sec-030-p-001.json",
+          "wav": "originals/wav/sec-030-p-001.wav",
+          "mp3": "originals/mp3/sec-030-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 31,
+      "title": "Hâkka 31",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-031.wav",
+      "mp3": "sections/mp3/sec-031.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-031-p-001",
+          "text": "ثُمَّ ٱلْجَحِيمَ صَلُّوهُ",
+          "ttsText": "Hâkka otuz birinci ayet. ثُمَّ ٱلْجَحِيمَ صَلُّوهُ",
+          "request": "requests/sec-031-p-001.json",
+          "response": "responses/sec-031-p-001.json",
+          "wav": "originals/wav/sec-031-p-001.wav",
+          "mp3": "originals/mp3/sec-031-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 32,
+      "title": "Hâkka 32",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-032.wav",
+      "mp3": "sections/mp3/sec-032.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-032-p-001",
+          "text": "ثُمَّ فِى سِلْسِلَةٍۢ ذَرْعُهَا سَبْعُونَ ذِرَاعًۭا فَٱسْلُكُوهُ",
+          "ttsText": "Hâkka otuz ikinci ayet. ثُمَّ فِى سِلْسِلَةٍۢ ذَرْعُهَا سَبْعُونَ ذِرَاعًۭا فَٱسْلُكُوهُ",
+          "request": "requests/sec-032-p-001.json",
+          "response": "responses/sec-032-p-001.json",
+          "wav": "originals/wav/sec-032-p-001.wav",
+          "mp3": "originals/mp3/sec-032-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 33,
+      "title": "Hâkka 33",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-033.wav",
+      "mp3": "sections/mp3/sec-033.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-033-p-001",
+          "text": "إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ",
+          "ttsText": "Hâkka otuz üçüncü ayet. إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ",
+          "request": "requests/sec-033-p-001.json",
+          "response": "responses/sec-033-p-001.json",
+          "wav": "originals/wav/sec-033-p-001.wav",
+          "mp3": "originals/mp3/sec-033-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 34,
+      "title": "Hâkka 34",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-034.wav",
+      "mp3": "sections/mp3/sec-034.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-034-p-001",
+          "text": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+          "ttsText": "Hâkka otuz dördüncü ayet. وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+          "request": "requests/sec-034-p-001.json",
+          "response": "responses/sec-034-p-001.json",
+          "wav": "originals/wav/sec-034-p-001.wav",
+          "mp3": "originals/mp3/sec-034-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 35,
+      "title": "Hâkka 35",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-035.wav",
+      "mp3": "sections/mp3/sec-035.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-035-p-001",
+          "text": "فَلَيْسَ لَهُ ٱلْيَوْمَ هَٰهُنَا حَمِيمٌۭ",
+          "ttsText": "Hâkka otuz beşinci ayet. فَلَيْسَ لَهُ ٱلْيَوْمَ هَٰهُنَا حَمِيمٌۭ",
+          "request": "requests/sec-035-p-001.json",
+          "response": "responses/sec-035-p-001.json",
+          "wav": "originals/wav/sec-035-p-001.wav",
+          "mp3": "originals/mp3/sec-035-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 36,
+      "title": "Hâkka 36",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-036.wav",
+      "mp3": "sections/mp3/sec-036.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-036-p-001",
+          "text": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍۢ",
+          "ttsText": "Hâkka otuz altıncı ayet. وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍۢ",
+          "request": "requests/sec-036-p-001.json",
+          "response": "responses/sec-036-p-001.json",
+          "wav": "originals/wav/sec-036-p-001.wav",
+          "mp3": "originals/mp3/sec-036-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 37,
+      "title": "Hâkka 37",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-037.wav",
+      "mp3": "sections/mp3/sec-037.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-037-p-001",
+          "text": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَٰطِـُٔونَ",
+          "ttsText": "Hâkka otuz yedinci ayet. لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَٰطِـُٔونَ",
+          "request": "requests/sec-037-p-001.json",
+          "response": "responses/sec-037-p-001.json",
+          "wav": "originals/wav/sec-037-p-001.wav",
+          "mp3": "originals/mp3/sec-037-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 38,
+      "title": "Hâkka 38",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-038.wav",
+      "mp3": "sections/mp3/sec-038.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-038-p-001",
+          "text": "فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ",
+          "ttsText": "Hâkka otuz sekizinci ayet. فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ",
+          "request": "requests/sec-038-p-001.json",
+          "response": "responses/sec-038-p-001.json",
+          "wav": "originals/wav/sec-038-p-001.wav",
+          "mp3": "originals/mp3/sec-038-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 39,
+      "title": "Hâkka 39",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-039.wav",
+      "mp3": "sections/mp3/sec-039.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-039-p-001",
+          "text": "وَمَا لَا تُبْصِرُونَ",
+          "ttsText": "Hâkka otuz dokuzuncu ayet. وَمَا لَا تُبْصِرُونَ",
+          "request": "requests/sec-039-p-001.json",
+          "response": "responses/sec-039-p-001.json",
+          "wav": "originals/wav/sec-039-p-001.wav",
+          "mp3": "originals/mp3/sec-039-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 40,
+      "title": "Hâkka 40",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-040.wav",
+      "mp3": "sections/mp3/sec-040.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-040-p-001",
+          "text": "إِنَّهُۥ لَقَوْلُ رَسُولٍۢ كَرِيمٍۢ",
+          "ttsText": "Hâkka kırkıncı ayet. إِنَّهُۥ لَقَوْلُ رَسُولٍۢ كَرِيمٍۢ",
+          "request": "requests/sec-040-p-001.json",
+          "response": "responses/sec-040-p-001.json",
+          "wav": "originals/wav/sec-040-p-001.wav",
+          "mp3": "originals/mp3/sec-040-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 41,
+      "title": "Hâkka 41",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-041.wav",
+      "mp3": "sections/mp3/sec-041.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-041-p-001",
+          "text": "وَمَا هُوَ بِقَوْلِ شَاعِرٍۢ ۚ قَلِيلًۭا مَّا تُؤْمِنُونَ",
+          "ttsText": "Hâkka kırk birinci ayet. وَمَا هُوَ بِقَوْلِ شَاعِرٍۢ ۚ قَلِيلًۭا مَّا تُؤْمِنُونَ",
+          "request": "requests/sec-041-p-001.json",
+          "response": "responses/sec-041-p-001.json",
+          "wav": "originals/wav/sec-041-p-001.wav",
+          "mp3": "originals/mp3/sec-041-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 42,
+      "title": "Hâkka 42",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-042.wav",
+      "mp3": "sections/mp3/sec-042.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-042-p-001",
+          "text": "وَلَا بِقَوْلِ كَاهِنٍۢ ۚ قَلِيلًۭا مَّا تَذَكَّرُونَ",
+          "ttsText": "Hâkka kırk ikinci ayet. وَلَا بِقَوْلِ كَاهِنٍۢ ۚ قَلِيلًۭا مَّا تَذَكَّرُونَ",
+          "request": "requests/sec-042-p-001.json",
+          "response": "responses/sec-042-p-001.json",
+          "wav": "originals/wav/sec-042-p-001.wav",
+          "mp3": "originals/mp3/sec-042-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 43,
+      "title": "Hâkka 43",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-043.wav",
+      "mp3": "sections/mp3/sec-043.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-043-p-001",
+          "text": "تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ",
+          "ttsText": "Hâkka kırk üçüncü ayet. تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ",
+          "request": "requests/sec-043-p-001.json",
+          "response": "responses/sec-043-p-001.json",
+          "wav": "originals/wav/sec-043-p-001.wav",
+          "mp3": "originals/mp3/sec-043-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 44,
+      "title": "Hâkka 44",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-044.wav",
+      "mp3": "sections/mp3/sec-044.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-044-p-001",
+          "text": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ",
+          "ttsText": "Hâkka kırk dördüncü ayet. وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ",
+          "request": "requests/sec-044-p-001.json",
+          "response": "responses/sec-044-p-001.json",
+          "wav": "originals/wav/sec-044-p-001.wav",
+          "mp3": "originals/mp3/sec-044-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 45,
+      "title": "Hâkka 45",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-045.wav",
+      "mp3": "sections/mp3/sec-045.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-045-p-001",
+          "text": "لَأَخَذْنَا مِنْهُ بِٱلْيَمِينِ",
+          "ttsText": "Hâkka kırk beşinci ayet. لَأَخَذْنَا مِنْهُ بِٱلْيَمِينِ",
+          "request": "requests/sec-045-p-001.json",
+          "response": "responses/sec-045-p-001.json",
+          "wav": "originals/wav/sec-045-p-001.wav",
+          "mp3": "originals/mp3/sec-045-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 46,
+      "title": "Hâkka 46",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-046.wav",
+      "mp3": "sections/mp3/sec-046.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-046-p-001",
+          "text": "ثُمَّ لَقَطَعْنَا مِنْهُ ٱلْوَتِينَ",
+          "ttsText": "Hâkka kırk altıncı ayet. ثُمَّ لَقَطَعْنَا مِنْهُ ٱلْوَتِينَ",
+          "request": "requests/sec-046-p-001.json",
+          "response": "responses/sec-046-p-001.json",
+          "wav": "originals/wav/sec-046-p-001.wav",
+          "mp3": "originals/mp3/sec-046-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 47,
+      "title": "Hâkka 47",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-047.wav",
+      "mp3": "sections/mp3/sec-047.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-047-p-001",
+          "text": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَٰجِزِينَ",
+          "ttsText": "Hâkka kırk yedinci ayet. فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَٰجِزِينَ",
+          "request": "requests/sec-047-p-001.json",
+          "response": "responses/sec-047-p-001.json",
+          "wav": "originals/wav/sec-047-p-001.wav",
+          "mp3": "originals/mp3/sec-047-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 48,
+      "title": "Hâkka 48",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-048.wav",
+      "mp3": "sections/mp3/sec-048.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-048-p-001",
+          "text": "وَإِنَّهُۥ لَتَذْكِرَةٌۭ لِّلْمُتَّقِينَ",
+          "ttsText": "Hâkka kırk sekizinci ayet. وَإِنَّهُۥ لَتَذْكِرَةٌۭ لِّلْمُتَّقِينَ",
+          "request": "requests/sec-048-p-001.json",
+          "response": "responses/sec-048-p-001.json",
+          "wav": "originals/wav/sec-048-p-001.wav",
+          "mp3": "originals/mp3/sec-048-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 49,
+      "title": "Hâkka 49",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-049.wav",
+      "mp3": "sections/mp3/sec-049.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-049-p-001",
+          "text": "وَإِنَّا لَنَعْلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
+          "ttsText": "Hâkka kırk dokuzuncu ayet. وَإِنَّا لَنَعْلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
+          "request": "requests/sec-049-p-001.json",
+          "response": "responses/sec-049-p-001.json",
+          "wav": "originals/wav/sec-049-p-001.wav",
+          "mp3": "originals/mp3/sec-049-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 50,
+      "title": "Hâkka 50",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-050.wav",
+      "mp3": "sections/mp3/sec-050.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-050-p-001",
+          "text": "وَإِنَّهُۥ لَحَسْرَةٌ عَلَى ٱلْكَٰفِرِينَ",
+          "ttsText": "Hâkka ellinci ayet. وَإِنَّهُۥ لَحَسْرَةٌ عَلَى ٱلْكَٰفِرِينَ",
+          "request": "requests/sec-050-p-001.json",
+          "response": "responses/sec-050-p-001.json",
+          "wav": "originals/wav/sec-050-p-001.wav",
+          "mp3": "originals/mp3/sec-050-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 51,
+      "title": "Hâkka 51",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-051.wav",
+      "mp3": "sections/mp3/sec-051.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-051-p-001",
+          "text": "وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ",
+          "ttsText": "Hâkka elli birinci ayet. وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ",
+          "request": "requests/sec-051-p-001.json",
+          "response": "responses/sec-051-p-001.json",
+          "wav": "originals/wav/sec-051-p-001.wav",
+          "mp3": "originals/mp3/sec-051-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 52,
+      "title": "Hâkka 52",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-052.wav",
+      "mp3": "sections/mp3/sec-052.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-052-p-001",
+          "text": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+          "ttsText": "Hâkka elli ikinci ayet. فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+          "request": "requests/sec-052-p-001.json",
+          "response": "responses/sec-052-p-001.json",
+          "wav": "originals/wav/sec-052-p-001.wav",
+          "mp3": "originals/mp3/sec-052-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    }
+  ]
+}

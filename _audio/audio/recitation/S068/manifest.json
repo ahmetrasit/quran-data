@@ -1,0 +1,1224 @@
+{
+  "source": "data/text/quran-uthmani.tsv",
+  "sources": [
+    "data/text/quran-uthmani.tsv"
+  ],
+  "sourceKind": "recitation",
+  "surahId": "S068",
+  "collection": "recitation",
+  "cleanMarkdown": "S068.md",
+  "chunksJsonl": "chunks.jsonl",
+  "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+  "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "voice": {
+    "languageCode": "tr-TR",
+    "modelName": "gemini-3.1-flash-tts-preview",
+    "name": "Rasalgethi"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": 0,
+    "speakingRate": 1
+  },
+  "chunkCount": 52,
+  "arabicTextSource": "data/text/quran-uthmani.tsv",
+  "titleHandling": "Each section is exactly one ayah_reference paragraph: sectionTitle uses the digit form '<name> <number>' (or '<name> besmele' for the ayah-0 basmalah row); ttsText speaks the surah name and spelled-out ordinal ayet label followed by the canonical Arabic text. No commentary prose.",
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "title": "Kalem 1",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-001.wav",
+      "mp3": "sections/mp3/sec-001.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-001-p-001",
+          "text": "نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ",
+          "ttsText": "Kalem birinci ayet. نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ",
+          "request": "requests/sec-001-p-001.json",
+          "response": "responses/sec-001-p-001.json",
+          "wav": "originals/wav/sec-001-p-001.wav",
+          "mp3": "originals/mp3/sec-001-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 2,
+      "title": "Kalem 2",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-002.wav",
+      "mp3": "sections/mp3/sec-002.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-002-p-001",
+          "text": "مَآ أَنتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍۢ",
+          "ttsText": "Kalem ikinci ayet. مَآ أَنتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍۢ",
+          "request": "requests/sec-002-p-001.json",
+          "response": "responses/sec-002-p-001.json",
+          "wav": "originals/wav/sec-002-p-001.wav",
+          "mp3": "originals/mp3/sec-002-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 3,
+      "title": "Kalem 3",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-003.wav",
+      "mp3": "sections/mp3/sec-003.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-003-p-001",
+          "text": "وَإِنَّ لَكَ لَأَجْرًا غَيْرَ مَمْنُونٍۢ",
+          "ttsText": "Kalem üçüncü ayet. وَإِنَّ لَكَ لَأَجْرًا غَيْرَ مَمْنُونٍۢ",
+          "request": "requests/sec-003-p-001.json",
+          "response": "responses/sec-003-p-001.json",
+          "wav": "originals/wav/sec-003-p-001.wav",
+          "mp3": "originals/mp3/sec-003-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "title": "Kalem 4",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-004.wav",
+      "mp3": "sections/mp3/sec-004.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-004-p-001",
+          "text": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍۢ",
+          "ttsText": "Kalem dördüncü ayet. وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍۢ",
+          "request": "requests/sec-004-p-001.json",
+          "response": "responses/sec-004-p-001.json",
+          "wav": "originals/wav/sec-004-p-001.wav",
+          "mp3": "originals/mp3/sec-004-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "title": "Kalem 5",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-005.wav",
+      "mp3": "sections/mp3/sec-005.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-005-p-001",
+          "text": "فَسَتُبْصِرُ وَيُبْصِرُونَ",
+          "ttsText": "Kalem beşinci ayet. فَسَتُبْصِرُ وَيُبْصِرُونَ",
+          "request": "requests/sec-005-p-001.json",
+          "response": "responses/sec-005-p-001.json",
+          "wav": "originals/wav/sec-005-p-001.wav",
+          "mp3": "originals/mp3/sec-005-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "title": "Kalem 6",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-006.wav",
+      "mp3": "sections/mp3/sec-006.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-006-p-001",
+          "text": "بِأَييِّكُمُ ٱلْمَفْتُونُ",
+          "ttsText": "Kalem altıncı ayet. بِأَييِّكُمُ ٱلْمَفْتُونُ",
+          "request": "requests/sec-006-p-001.json",
+          "response": "responses/sec-006-p-001.json",
+          "wav": "originals/wav/sec-006-p-001.wav",
+          "mp3": "originals/mp3/sec-006-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 7,
+      "title": "Kalem 7",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-007.wav",
+      "mp3": "sections/mp3/sec-007.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-007-p-001",
+          "text": "إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+          "ttsText": "Kalem yedinci ayet. إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+          "request": "requests/sec-007-p-001.json",
+          "response": "responses/sec-007-p-001.json",
+          "wav": "originals/wav/sec-007-p-001.wav",
+          "mp3": "originals/mp3/sec-007-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 8,
+      "title": "Kalem 8",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-008.wav",
+      "mp3": "sections/mp3/sec-008.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-008-p-001",
+          "text": "فَلَا تُطِعِ ٱلْمُكَذِّبِينَ",
+          "ttsText": "Kalem sekizinci ayet. فَلَا تُطِعِ ٱلْمُكَذِّبِينَ",
+          "request": "requests/sec-008-p-001.json",
+          "response": "responses/sec-008-p-001.json",
+          "wav": "originals/wav/sec-008-p-001.wav",
+          "mp3": "originals/mp3/sec-008-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 9,
+      "title": "Kalem 9",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-009.wav",
+      "mp3": "sections/mp3/sec-009.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-009-p-001",
+          "text": "وَدُّوا۟ لَوْ تُدْهِنُ فَيُدْهِنُونَ",
+          "ttsText": "Kalem dokuzuncu ayet. وَدُّوا۟ لَوْ تُدْهِنُ فَيُدْهِنُونَ",
+          "request": "requests/sec-009-p-001.json",
+          "response": "responses/sec-009-p-001.json",
+          "wav": "originals/wav/sec-009-p-001.wav",
+          "mp3": "originals/mp3/sec-009-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 10,
+      "title": "Kalem 10",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-010.wav",
+      "mp3": "sections/mp3/sec-010.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-010-p-001",
+          "text": "وَلَا تُطِعْ كُلَّ حَلَّافٍۢ مَّهِينٍ",
+          "ttsText": "Kalem onuncu ayet. وَلَا تُطِعْ كُلَّ حَلَّافٍۢ مَّهِينٍ",
+          "request": "requests/sec-010-p-001.json",
+          "response": "responses/sec-010-p-001.json",
+          "wav": "originals/wav/sec-010-p-001.wav",
+          "mp3": "originals/mp3/sec-010-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 11,
+      "title": "Kalem 11",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-011.wav",
+      "mp3": "sections/mp3/sec-011.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-011-p-001",
+          "text": "هَمَّازٍۢ مَّشَّآءٍۭ بِنَمِيمٍۢ",
+          "ttsText": "Kalem on birinci ayet. هَمَّازٍۢ مَّشَّآءٍۭ بِنَمِيمٍۢ",
+          "request": "requests/sec-011-p-001.json",
+          "response": "responses/sec-011-p-001.json",
+          "wav": "originals/wav/sec-011-p-001.wav",
+          "mp3": "originals/mp3/sec-011-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 12,
+      "title": "Kalem 12",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-012.wav",
+      "mp3": "sections/mp3/sec-012.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-012-p-001",
+          "text": "مَّنَّاعٍۢ لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ",
+          "ttsText": "Kalem on ikinci ayet. مَّنَّاعٍۢ لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ",
+          "request": "requests/sec-012-p-001.json",
+          "response": "responses/sec-012-p-001.json",
+          "wav": "originals/wav/sec-012-p-001.wav",
+          "mp3": "originals/mp3/sec-012-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 13,
+      "title": "Kalem 13",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-013.wav",
+      "mp3": "sections/mp3/sec-013.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-013-p-001",
+          "text": "عُتُلٍّۭ بَعْدَ ذَٰلِكَ زَنِيمٍ",
+          "ttsText": "Kalem on üçüncü ayet. عُتُلٍّۭ بَعْدَ ذَٰلِكَ زَنِيمٍ",
+          "request": "requests/sec-013-p-001.json",
+          "response": "responses/sec-013-p-001.json",
+          "wav": "originals/wav/sec-013-p-001.wav",
+          "mp3": "originals/mp3/sec-013-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 14,
+      "title": "Kalem 14",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-014.wav",
+      "mp3": "sections/mp3/sec-014.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-014-p-001",
+          "text": "أَن كَانَ ذَا مَالٍۢ وَبَنِينَ",
+          "ttsText": "Kalem on dördüncü ayet. أَن كَانَ ذَا مَالٍۢ وَبَنِينَ",
+          "request": "requests/sec-014-p-001.json",
+          "response": "responses/sec-014-p-001.json",
+          "wav": "originals/wav/sec-014-p-001.wav",
+          "mp3": "originals/mp3/sec-014-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 15,
+      "title": "Kalem 15",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-015.wav",
+      "mp3": "sections/mp3/sec-015.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-015-p-001",
+          "text": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+          "ttsText": "Kalem on beşinci ayet. إِذَا تُتْلَىٰ عَلَيْهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+          "request": "requests/sec-015-p-001.json",
+          "response": "responses/sec-015-p-001.json",
+          "wav": "originals/wav/sec-015-p-001.wav",
+          "mp3": "originals/mp3/sec-015-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 16,
+      "title": "Kalem 16",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-016.wav",
+      "mp3": "sections/mp3/sec-016.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-016-p-001",
+          "text": "سَنَسِمُهُۥ عَلَى ٱلْخُرْطُومِ",
+          "ttsText": "Kalem on altıncı ayet. سَنَسِمُهُۥ عَلَى ٱلْخُرْطُومِ",
+          "request": "requests/sec-016-p-001.json",
+          "response": "responses/sec-016-p-001.json",
+          "wav": "originals/wav/sec-016-p-001.wav",
+          "mp3": "originals/mp3/sec-016-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 17,
+      "title": "Kalem 17",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-017.wav",
+      "mp3": "sections/mp3/sec-017.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-017-p-001",
+          "text": "إِنَّا بَلَوْنَٰهُمْ كَمَا بَلَوْنَآ أَصْحَٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ لَيَصْرِمُنَّهَا مُصْبِحِينَ",
+          "ttsText": "Kalem on yedinci ayet. إِنَّا بَلَوْنَٰهُمْ كَمَا بَلَوْنَآ أَصْحَٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ لَيَصْرِمُنَّهَا مُصْبِحِينَ",
+          "request": "requests/sec-017-p-001.json",
+          "response": "responses/sec-017-p-001.json",
+          "wav": "originals/wav/sec-017-p-001.wav",
+          "mp3": "originals/mp3/sec-017-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 18,
+      "title": "Kalem 18",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-018.wav",
+      "mp3": "sections/mp3/sec-018.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-018-p-001",
+          "text": "وَلَا يَسْتَثْنُونَ",
+          "ttsText": "Kalem on sekizinci ayet. وَلَا يَسْتَثْنُونَ",
+          "request": "requests/sec-018-p-001.json",
+          "response": "responses/sec-018-p-001.json",
+          "wav": "originals/wav/sec-018-p-001.wav",
+          "mp3": "originals/mp3/sec-018-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 19,
+      "title": "Kalem 19",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-019.wav",
+      "mp3": "sections/mp3/sec-019.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-019-p-001",
+          "text": "فَطَافَ عَلَيْهَا طَآئِفٌۭ مِّن رَّبِّكَ وَهُمْ نَآئِمُونَ",
+          "ttsText": "Kalem on dokuzuncu ayet. فَطَافَ عَلَيْهَا طَآئِفٌۭ مِّن رَّبِّكَ وَهُمْ نَآئِمُونَ",
+          "request": "requests/sec-019-p-001.json",
+          "response": "responses/sec-019-p-001.json",
+          "wav": "originals/wav/sec-019-p-001.wav",
+          "mp3": "originals/mp3/sec-019-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 20,
+      "title": "Kalem 20",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-020.wav",
+      "mp3": "sections/mp3/sec-020.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-020-p-001",
+          "text": "فَأَصْبَحَتْ كَٱلصَّرِيمِ",
+          "ttsText": "Kalem yirminci ayet. فَأَصْبَحَتْ كَٱلصَّرِيمِ",
+          "request": "requests/sec-020-p-001.json",
+          "response": "responses/sec-020-p-001.json",
+          "wav": "originals/wav/sec-020-p-001.wav",
+          "mp3": "originals/mp3/sec-020-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 21,
+      "title": "Kalem 21",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-021.wav",
+      "mp3": "sections/mp3/sec-021.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-021-p-001",
+          "text": "فَتَنَادَوْا۟ مُصْبِحِينَ",
+          "ttsText": "Kalem yirmi birinci ayet. فَتَنَادَوْا۟ مُصْبِحِينَ",
+          "request": "requests/sec-021-p-001.json",
+          "response": "responses/sec-021-p-001.json",
+          "wav": "originals/wav/sec-021-p-001.wav",
+          "mp3": "originals/mp3/sec-021-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 22,
+      "title": "Kalem 22",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-022.wav",
+      "mp3": "sections/mp3/sec-022.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-022-p-001",
+          "text": "أَنِ ٱغْدُوا۟ عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ صَٰرِمِينَ",
+          "ttsText": "Kalem yirmi ikinci ayet. أَنِ ٱغْدُوا۟ عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ صَٰرِمِينَ",
+          "request": "requests/sec-022-p-001.json",
+          "response": "responses/sec-022-p-001.json",
+          "wav": "originals/wav/sec-022-p-001.wav",
+          "mp3": "originals/mp3/sec-022-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 23,
+      "title": "Kalem 23",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-023.wav",
+      "mp3": "sections/mp3/sec-023.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-023-p-001",
+          "text": "فَٱنطَلَقُوا۟ وَهُمْ يَتَخَٰفَتُونَ",
+          "ttsText": "Kalem yirmi üçüncü ayet. فَٱنطَلَقُوا۟ وَهُمْ يَتَخَٰفَتُونَ",
+          "request": "requests/sec-023-p-001.json",
+          "response": "responses/sec-023-p-001.json",
+          "wav": "originals/wav/sec-023-p-001.wav",
+          "mp3": "originals/mp3/sec-023-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 24,
+      "title": "Kalem 24",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-024.wav",
+      "mp3": "sections/mp3/sec-024.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-024-p-001",
+          "text": "أَن لَّا يَدْخُلَنَّهَا ٱلْيَوْمَ عَلَيْكُم مِّسْكِينٌۭ",
+          "ttsText": "Kalem yirmi dördüncü ayet. أَن لَّا يَدْخُلَنَّهَا ٱلْيَوْمَ عَلَيْكُم مِّسْكِينٌۭ",
+          "request": "requests/sec-024-p-001.json",
+          "response": "responses/sec-024-p-001.json",
+          "wav": "originals/wav/sec-024-p-001.wav",
+          "mp3": "originals/mp3/sec-024-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 25,
+      "title": "Kalem 25",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-025.wav",
+      "mp3": "sections/mp3/sec-025.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-025-p-001",
+          "text": "وَغَدَوْا۟ عَلَىٰ حَرْدٍۢ قَٰدِرِينَ",
+          "ttsText": "Kalem yirmi beşinci ayet. وَغَدَوْا۟ عَلَىٰ حَرْدٍۢ قَٰدِرِينَ",
+          "request": "requests/sec-025-p-001.json",
+          "response": "responses/sec-025-p-001.json",
+          "wav": "originals/wav/sec-025-p-001.wav",
+          "mp3": "originals/mp3/sec-025-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 26,
+      "title": "Kalem 26",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-026.wav",
+      "mp3": "sections/mp3/sec-026.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-026-p-001",
+          "text": "فَلَمَّا رَأَوْهَا قَالُوٓا۟ إِنَّا لَضَآلُّونَ",
+          "ttsText": "Kalem yirmi altıncı ayet. فَلَمَّا رَأَوْهَا قَالُوٓا۟ إِنَّا لَضَآلُّونَ",
+          "request": "requests/sec-026-p-001.json",
+          "response": "responses/sec-026-p-001.json",
+          "wav": "originals/wav/sec-026-p-001.wav",
+          "mp3": "originals/mp3/sec-026-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 27,
+      "title": "Kalem 27",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-027.wav",
+      "mp3": "sections/mp3/sec-027.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-027-p-001",
+          "text": "بَلْ نَحْنُ مَحْرُومُونَ",
+          "ttsText": "Kalem yirmi yedinci ayet. بَلْ نَحْنُ مَحْرُومُونَ",
+          "request": "requests/sec-027-p-001.json",
+          "response": "responses/sec-027-p-001.json",
+          "wav": "originals/wav/sec-027-p-001.wav",
+          "mp3": "originals/mp3/sec-027-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 28,
+      "title": "Kalem 28",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-028.wav",
+      "mp3": "sections/mp3/sec-028.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-028-p-001",
+          "text": "قَالَ أَوْسَطُهُمْ أَلَمْ أَقُل لَّكُمْ لَوْلَا تُسَبِّحُونَ",
+          "ttsText": "Kalem yirmi sekizinci ayet. قَالَ أَوْسَطُهُمْ أَلَمْ أَقُل لَّكُمْ لَوْلَا تُسَبِّحُونَ",
+          "request": "requests/sec-028-p-001.json",
+          "response": "responses/sec-028-p-001.json",
+          "wav": "originals/wav/sec-028-p-001.wav",
+          "mp3": "originals/mp3/sec-028-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 29,
+      "title": "Kalem 29",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-029.wav",
+      "mp3": "sections/mp3/sec-029.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-029-p-001",
+          "text": "قَالُوا۟ سُبْحَٰنَ رَبِّنَآ إِنَّا كُنَّا ظَٰلِمِينَ",
+          "ttsText": "Kalem yirmi dokuzuncu ayet. قَالُوا۟ سُبْحَٰنَ رَبِّنَآ إِنَّا كُنَّا ظَٰلِمِينَ",
+          "request": "requests/sec-029-p-001.json",
+          "response": "responses/sec-029-p-001.json",
+          "wav": "originals/wav/sec-029-p-001.wav",
+          "mp3": "originals/mp3/sec-029-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 30,
+      "title": "Kalem 30",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-030.wav",
+      "mp3": "sections/mp3/sec-030.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-030-p-001",
+          "text": "فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَلَٰوَمُونَ",
+          "ttsText": "Kalem otuzuncu ayet. فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَلَٰوَمُونَ",
+          "request": "requests/sec-030-p-001.json",
+          "response": "responses/sec-030-p-001.json",
+          "wav": "originals/wav/sec-030-p-001.wav",
+          "mp3": "originals/mp3/sec-030-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 31,
+      "title": "Kalem 31",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-031.wav",
+      "mp3": "sections/mp3/sec-031.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-031-p-001",
+          "text": "قَالُوا۟ يَٰوَيْلَنَآ إِنَّا كُنَّا طَٰغِينَ",
+          "ttsText": "Kalem otuz birinci ayet. قَالُوا۟ يَٰوَيْلَنَآ إِنَّا كُنَّا طَٰغِينَ",
+          "request": "requests/sec-031-p-001.json",
+          "response": "responses/sec-031-p-001.json",
+          "wav": "originals/wav/sec-031-p-001.wav",
+          "mp3": "originals/mp3/sec-031-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 32,
+      "title": "Kalem 32",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-032.wav",
+      "mp3": "sections/mp3/sec-032.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-032-p-001",
+          "text": "عَسَىٰ رَبُّنَآ أَن يُبْدِلَنَا خَيْرًۭا مِّنْهَآ إِنَّآ إِلَىٰ رَبِّنَا رَٰغِبُونَ",
+          "ttsText": "Kalem otuz ikinci ayet. عَسَىٰ رَبُّنَآ أَن يُبْدِلَنَا خَيْرًۭا مِّنْهَآ إِنَّآ إِلَىٰ رَبِّنَا رَٰغِبُونَ",
+          "request": "requests/sec-032-p-001.json",
+          "response": "responses/sec-032-p-001.json",
+          "wav": "originals/wav/sec-032-p-001.wav",
+          "mp3": "originals/mp3/sec-032-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 33,
+      "title": "Kalem 33",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-033.wav",
+      "mp3": "sections/mp3/sec-033.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-033-p-001",
+          "text": "كَذَٰلِكَ ٱلْعَذَابُ ۖ وَلَعَذَابُ ٱلْءَاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+          "ttsText": "Kalem otuz üçüncü ayet. كَذَٰلِكَ ٱلْعَذَابُ ۖ وَلَعَذَابُ ٱلْءَاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+          "request": "requests/sec-033-p-001.json",
+          "response": "responses/sec-033-p-001.json",
+          "wav": "originals/wav/sec-033-p-001.wav",
+          "mp3": "originals/mp3/sec-033-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 34,
+      "title": "Kalem 34",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-034.wav",
+      "mp3": "sections/mp3/sec-034.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-034-p-001",
+          "text": "إِنَّ لِلْمُتَّقِينَ عِندَ رَبِّهِمْ جَنَّٰتِ ٱلنَّعِيمِ",
+          "ttsText": "Kalem otuz dördüncü ayet. إِنَّ لِلْمُتَّقِينَ عِندَ رَبِّهِمْ جَنَّٰتِ ٱلنَّعِيمِ",
+          "request": "requests/sec-034-p-001.json",
+          "response": "responses/sec-034-p-001.json",
+          "wav": "originals/wav/sec-034-p-001.wav",
+          "mp3": "originals/mp3/sec-034-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 35,
+      "title": "Kalem 35",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-035.wav",
+      "mp3": "sections/mp3/sec-035.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-035-p-001",
+          "text": "أَفَنَجْعَلُ ٱلْمُسْلِمِينَ كَٱلْمُجْرِمِينَ",
+          "ttsText": "Kalem otuz beşinci ayet. أَفَنَجْعَلُ ٱلْمُسْلِمِينَ كَٱلْمُجْرِمِينَ",
+          "request": "requests/sec-035-p-001.json",
+          "response": "responses/sec-035-p-001.json",
+          "wav": "originals/wav/sec-035-p-001.wav",
+          "mp3": "originals/mp3/sec-035-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 36,
+      "title": "Kalem 36",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-036.wav",
+      "mp3": "sections/mp3/sec-036.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-036-p-001",
+          "text": "مَا لَكُمْ كَيْفَ تَحْكُمُونَ",
+          "ttsText": "Kalem otuz altıncı ayet. مَا لَكُمْ كَيْفَ تَحْكُمُونَ",
+          "request": "requests/sec-036-p-001.json",
+          "response": "responses/sec-036-p-001.json",
+          "wav": "originals/wav/sec-036-p-001.wav",
+          "mp3": "originals/mp3/sec-036-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 37,
+      "title": "Kalem 37",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-037.wav",
+      "mp3": "sections/mp3/sec-037.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-037-p-001",
+          "text": "أَمْ لَكُمْ كِتَٰبٌۭ فِيهِ تَدْرُسُونَ",
+          "ttsText": "Kalem otuz yedinci ayet. أَمْ لَكُمْ كِتَٰبٌۭ فِيهِ تَدْرُسُونَ",
+          "request": "requests/sec-037-p-001.json",
+          "response": "responses/sec-037-p-001.json",
+          "wav": "originals/wav/sec-037-p-001.wav",
+          "mp3": "originals/mp3/sec-037-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 38,
+      "title": "Kalem 38",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-038.wav",
+      "mp3": "sections/mp3/sec-038.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-038-p-001",
+          "text": "إِنَّ لَكُمْ فِيهِ لَمَا تَخَيَّرُونَ",
+          "ttsText": "Kalem otuz sekizinci ayet. إِنَّ لَكُمْ فِيهِ لَمَا تَخَيَّرُونَ",
+          "request": "requests/sec-038-p-001.json",
+          "response": "responses/sec-038-p-001.json",
+          "wav": "originals/wav/sec-038-p-001.wav",
+          "mp3": "originals/mp3/sec-038-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 39,
+      "title": "Kalem 39",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-039.wav",
+      "mp3": "sections/mp3/sec-039.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-039-p-001",
+          "text": "أَمْ لَكُمْ أَيْمَٰنٌ عَلَيْنَا بَٰلِغَةٌ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۙ إِنَّ لَكُمْ لَمَا تَحْكُمُونَ",
+          "ttsText": "Kalem otuz dokuzuncu ayet. أَمْ لَكُمْ أَيْمَٰنٌ عَلَيْنَا بَٰلِغَةٌ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۙ إِنَّ لَكُمْ لَمَا تَحْكُمُونَ",
+          "request": "requests/sec-039-p-001.json",
+          "response": "responses/sec-039-p-001.json",
+          "wav": "originals/wav/sec-039-p-001.wav",
+          "mp3": "originals/mp3/sec-039-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 40,
+      "title": "Kalem 40",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-040.wav",
+      "mp3": "sections/mp3/sec-040.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-040-p-001",
+          "text": "سَلْهُمْ أَيُّهُم بِذَٰلِكَ زَعِيمٌ",
+          "ttsText": "Kalem kırkıncı ayet. سَلْهُمْ أَيُّهُم بِذَٰلِكَ زَعِيمٌ",
+          "request": "requests/sec-040-p-001.json",
+          "response": "responses/sec-040-p-001.json",
+          "wav": "originals/wav/sec-040-p-001.wav",
+          "mp3": "originals/mp3/sec-040-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 41,
+      "title": "Kalem 41",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-041.wav",
+      "mp3": "sections/mp3/sec-041.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-041-p-001",
+          "text": "أَمْ لَهُمْ شُرَكَآءُ فَلْيَأْتُوا۟ بِشُرَكَآئِهِمْ إِن كَانُوا۟ صَٰدِقِينَ",
+          "ttsText": "Kalem kırk birinci ayet. أَمْ لَهُمْ شُرَكَآءُ فَلْيَأْتُوا۟ بِشُرَكَآئِهِمْ إِن كَانُوا۟ صَٰدِقِينَ",
+          "request": "requests/sec-041-p-001.json",
+          "response": "responses/sec-041-p-001.json",
+          "wav": "originals/wav/sec-041-p-001.wav",
+          "mp3": "originals/mp3/sec-041-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 42,
+      "title": "Kalem 42",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-042.wav",
+      "mp3": "sections/mp3/sec-042.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-042-p-001",
+          "text": "يَوْمَ يُكْشَفُ عَن سَاقٍۢ وَيُدْعَوْنَ إِلَى ٱلسُّجُودِ فَلَا يَسْتَطِيعُونَ",
+          "ttsText": "Kalem kırk ikinci ayet. يَوْمَ يُكْشَفُ عَن سَاقٍۢ وَيُدْعَوْنَ إِلَى ٱلسُّجُودِ فَلَا يَسْتَطِيعُونَ",
+          "request": "requests/sec-042-p-001.json",
+          "response": "responses/sec-042-p-001.json",
+          "wav": "originals/wav/sec-042-p-001.wav",
+          "mp3": "originals/mp3/sec-042-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 43,
+      "title": "Kalem 43",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-043.wav",
+      "mp3": "sections/mp3/sec-043.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-043-p-001",
+          "text": "خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌۭ ۖ وَقَدْ كَانُوا۟ يُدْعَوْنَ إِلَى ٱلسُّجُودِ وَهُمْ سَٰلِمُونَ",
+          "ttsText": "Kalem kırk üçüncü ayet. خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌۭ ۖ وَقَدْ كَانُوا۟ يُدْعَوْنَ إِلَى ٱلسُّجُودِ وَهُمْ سَٰلِمُونَ",
+          "request": "requests/sec-043-p-001.json",
+          "response": "responses/sec-043-p-001.json",
+          "wav": "originals/wav/sec-043-p-001.wav",
+          "mp3": "originals/mp3/sec-043-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 44,
+      "title": "Kalem 44",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-044.wav",
+      "mp3": "sections/mp3/sec-044.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-044-p-001",
+          "text": "فَذَرْنِى وَمَن يُكَذِّبُ بِهَٰذَا ٱلْحَدِيثِ ۖ سَنَسْتَدْرِجُهُم مِّنْ حَيْثُ لَا يَعْلَمُونَ",
+          "ttsText": "Kalem kırk dördüncü ayet. فَذَرْنِى وَمَن يُكَذِّبُ بِهَٰذَا ٱلْحَدِيثِ ۖ سَنَسْتَدْرِجُهُم مِّنْ حَيْثُ لَا يَعْلَمُونَ",
+          "request": "requests/sec-044-p-001.json",
+          "response": "responses/sec-044-p-001.json",
+          "wav": "originals/wav/sec-044-p-001.wav",
+          "mp3": "originals/mp3/sec-044-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 45,
+      "title": "Kalem 45",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-045.wav",
+      "mp3": "sections/mp3/sec-045.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-045-p-001",
+          "text": "وَأُمْلِى لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
+          "ttsText": "Kalem kırk beşinci ayet. وَأُمْلِى لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
+          "request": "requests/sec-045-p-001.json",
+          "response": "responses/sec-045-p-001.json",
+          "wav": "originals/wav/sec-045-p-001.wav",
+          "mp3": "originals/mp3/sec-045-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 46,
+      "title": "Kalem 46",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-046.wav",
+      "mp3": "sections/mp3/sec-046.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-046-p-001",
+          "text": "أَمْ تَسْـَٔلُهُمْ أَجْرًۭا فَهُم مِّن مَّغْرَمٍۢ مُّثْقَلُونَ",
+          "ttsText": "Kalem kırk altıncı ayet. أَمْ تَسْـَٔلُهُمْ أَجْرًۭا فَهُم مِّن مَّغْرَمٍۢ مُّثْقَلُونَ",
+          "request": "requests/sec-046-p-001.json",
+          "response": "responses/sec-046-p-001.json",
+          "wav": "originals/wav/sec-046-p-001.wav",
+          "mp3": "originals/mp3/sec-046-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 47,
+      "title": "Kalem 47",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-047.wav",
+      "mp3": "sections/mp3/sec-047.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-047-p-001",
+          "text": "أَمْ عِندَهُمُ ٱلْغَيْبُ فَهُمْ يَكْتُبُونَ",
+          "ttsText": "Kalem kırk yedinci ayet. أَمْ عِندَهُمُ ٱلْغَيْبُ فَهُمْ يَكْتُبُونَ",
+          "request": "requests/sec-047-p-001.json",
+          "response": "responses/sec-047-p-001.json",
+          "wav": "originals/wav/sec-047-p-001.wav",
+          "mp3": "originals/mp3/sec-047-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 48,
+      "title": "Kalem 48",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-048.wav",
+      "mp3": "sections/mp3/sec-048.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-048-p-001",
+          "text": "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ ٱلْحُوتِ إِذْ نَادَىٰ وَهُوَ مَكْظُومٌۭ",
+          "ttsText": "Kalem kırk sekizinci ayet. فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ ٱلْحُوتِ إِذْ نَادَىٰ وَهُوَ مَكْظُومٌۭ",
+          "request": "requests/sec-048-p-001.json",
+          "response": "responses/sec-048-p-001.json",
+          "wav": "originals/wav/sec-048-p-001.wav",
+          "mp3": "originals/mp3/sec-048-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 49,
+      "title": "Kalem 49",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-049.wav",
+      "mp3": "sections/mp3/sec-049.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-049-p-001",
+          "text": "لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌۭ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ مَذْمُومٌۭ",
+          "ttsText": "Kalem kırk dokuzuncu ayet. لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌۭ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ مَذْمُومٌۭ",
+          "request": "requests/sec-049-p-001.json",
+          "response": "responses/sec-049-p-001.json",
+          "wav": "originals/wav/sec-049-p-001.wav",
+          "mp3": "originals/mp3/sec-049-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 50,
+      "title": "Kalem 50",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-050.wav",
+      "mp3": "sections/mp3/sec-050.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-050-p-001",
+          "text": "فَٱجْتَبَٰهُ رَبُّهُۥ فَجَعَلَهُۥ مِنَ ٱلصَّٰلِحِينَ",
+          "ttsText": "Kalem ellinci ayet. فَٱجْتَبَٰهُ رَبُّهُۥ فَجَعَلَهُۥ مِنَ ٱلصَّٰلِحِينَ",
+          "request": "requests/sec-050-p-001.json",
+          "response": "responses/sec-050-p-001.json",
+          "wav": "originals/wav/sec-050-p-001.wav",
+          "mp3": "originals/mp3/sec-050-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 51,
+      "title": "Kalem 51",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-051.wav",
+      "mp3": "sections/mp3/sec-051.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-051-p-001",
+          "text": "وَإِن يَكَادُ ٱلَّذِينَ كَفَرُوا۟ لَيُزْلِقُونَكَ بِأَبْصَٰرِهِمْ لَمَّا سَمِعُوا۟ ٱلذِّكْرَ وَيَقُولُونَ إِنَّهُۥ لَمَجْنُونٌۭ",
+          "ttsText": "Kalem elli birinci ayet. وَإِن يَكَادُ ٱلَّذِينَ كَفَرُوا۟ لَيُزْلِقُونَكَ بِأَبْصَٰرِهِمْ لَمَّا سَمِعُوا۟ ٱلذِّكْرَ وَيَقُولُونَ إِنَّهُۥ لَمَجْنُونٌۭ",
+          "request": "requests/sec-051-p-001.json",
+          "response": "responses/sec-051-p-001.json",
+          "wav": "originals/wav/sec-051-p-001.wav",
+          "mp3": "originals/mp3/sec-051-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 52,
+      "title": "Kalem 52",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-052.wav",
+      "mp3": "sections/mp3/sec-052.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-052-p-001",
+          "text": "وَمَا هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ",
+          "ttsText": "Kalem elli ikinci ayet. وَمَا هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ",
+          "request": "requests/sec-052-p-001.json",
+          "response": "responses/sec-052-p-001.json",
+          "wav": "originals/wav/sec-052-p-001.wav",
+          "mp3": "originals/mp3/sec-052-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "source": "data/text/quran-uthmani.tsv",
+  "sources": [
+    "data/text/quran-uthmani.tsv"
+  ],
+  "sourceKind": "recitation",
+  "surahId": "S001",
+  "collection": "recitation",
+  "cleanMarkdown": "S001.md",
+  "chunksJsonl": "chunks.jsonl",
+  "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+  "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "voice": {
+    "languageCode": "tr-TR",
+    "modelName": "gemini-3.1-flash-tts-preview",
+    "name": "Rasalgethi"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": 0,
+    "speakingRate": 1
+  },
+  "chunkCount": 7,
+  "arabicTextSource": "data/text/quran-uthmani.tsv",
+  "titleHandling": "Each section is exactly one ayah_reference paragraph: sectionTitle uses the digit form '<name> <number>' (or '<name> besmele' for the ayah-0 basmalah row); ttsText speaks the surah name and spelled-out ordinal ayet label followed by the canonical Arabic text. No commentary prose.",
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "title": "Fâtiha 1",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-001.wav",
+      "mp3": "sections/mp3/sec-001.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-001-p-001",
+          "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "ttsText": "Fâtiha birinci ayet. بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "request": "requests/sec-001-p-001.json",
+          "response": "responses/sec-001-p-001.json",
+          "wav": "originals/wav/sec-001-p-001.wav",
+          "mp3": "originals/mp3/sec-001-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 2,
+      "title": "Fâtiha 2",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-002.wav",
+      "mp3": "sections/mp3/sec-002.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-002-p-001",
+          "text": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+          "ttsText": "Fâtiha ikinci ayet. ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+          "request": "requests/sec-002-p-001.json",
+          "response": "responses/sec-002-p-001.json",
+          "wav": "originals/wav/sec-002-p-001.wav",
+          "mp3": "originals/mp3/sec-002-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 3,
+      "title": "Fâtiha 3",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-003.wav",
+      "mp3": "sections/mp3/sec-003.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-003-p-001",
+          "text": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "ttsText": "Fâtiha üçüncü ayet. ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "request": "requests/sec-003-p-001.json",
+          "response": "responses/sec-003-p-001.json",
+          "wav": "originals/wav/sec-003-p-001.wav",
+          "mp3": "originals/mp3/sec-003-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "title": "Fâtiha 4",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-004.wav",
+      "mp3": "sections/mp3/sec-004.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-004-p-001",
+          "text": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+          "ttsText": "Fâtiha dördüncü ayet. مَٰلِكِ يَوْمِ ٱلدِّينِ",
+          "request": "requests/sec-004-p-001.json",
+          "response": "responses/sec-004-p-001.json",
+          "wav": "originals/wav/sec-004-p-001.wav",
+          "mp3": "originals/mp3/sec-004-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "title": "Fâtiha 5",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-005.wav",
+      "mp3": "sections/mp3/sec-005.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-005-p-001",
+          "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "ttsText": "Fâtiha beşinci ayet. إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "request": "requests/sec-005-p-001.json",
+          "response": "responses/sec-005-p-001.json",
+          "wav": "originals/wav/sec-005-p-001.wav",
+          "mp3": "originals/mp3/sec-005-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "title": "Fâtiha 6",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-006.wav",
+      "mp3": "sections/mp3/sec-006.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-006-p-001",
+          "text": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "ttsText": "Fâtiha altıncı ayet. ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "request": "requests/sec-006-p-001.json",
+          "response": "responses/sec-006-p-001.json",
+          "wav": "originals/wav/sec-006-p-001.wav",
+          "mp3": "originals/mp3/sec-006-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 7,
+      "title": "Fâtiha 7",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-007.wav",
+      "mp3": "sections/mp3/sec-007.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-007-p-001",
+          "text": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+          "ttsText": "Fâtiha yedinci ayet. صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+          "request": "requests/sec-007-p-001.json",
+          "response": "responses/sec-007-p-001.json",
+          "wav": "originals/wav/sec-007-p-001.wav",
+          "mp3": "originals/mp3/sec-007-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    }
+  ]
+}

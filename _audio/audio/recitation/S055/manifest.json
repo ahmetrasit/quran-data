@@ -1,0 +1,1822 @@
+{
+  "source": "data/text/quran-uthmani.tsv",
+  "sources": [
+    "data/text/quran-uthmani.tsv"
+  ],
+  "sourceKind": "recitation",
+  "surahId": "S055",
+  "collection": "recitation",
+  "cleanMarkdown": "S055.md",
+  "chunksJsonl": "chunks.jsonl",
+  "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+  "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "voice": {
+    "languageCode": "tr-TR",
+    "modelName": "gemini-3.1-flash-tts-preview",
+    "name": "Rasalgethi"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": 0,
+    "speakingRate": 1
+  },
+  "chunkCount": 78,
+  "arabicTextSource": "data/text/quran-uthmani.tsv",
+  "titleHandling": "Each section is exactly one ayah_reference paragraph: sectionTitle uses the digit form '<name> <number>' (or '<name> besmele' for the ayah-0 basmalah row); ttsText speaks the surah name and spelled-out ordinal ayet label followed by the canonical Arabic text. No commentary prose.",
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "title": "Rahmân 1",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-001.wav",
+      "mp3": "sections/mp3/sec-001.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-001-p-001",
+          "text": "ٱلرَّحْمَٰنُ",
+          "ttsText": "Rahmân birinci ayet. ٱلرَّحْمَٰنُ",
+          "request": "requests/sec-001-p-001.json",
+          "response": "responses/sec-001-p-001.json",
+          "wav": "originals/wav/sec-001-p-001.wav",
+          "mp3": "originals/mp3/sec-001-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 2,
+      "title": "Rahmân 2",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-002.wav",
+      "mp3": "sections/mp3/sec-002.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-002-p-001",
+          "text": "عَلَّمَ ٱلْقُرْءَانَ",
+          "ttsText": "Rahmân ikinci ayet. عَلَّمَ ٱلْقُرْءَانَ",
+          "request": "requests/sec-002-p-001.json",
+          "response": "responses/sec-002-p-001.json",
+          "wav": "originals/wav/sec-002-p-001.wav",
+          "mp3": "originals/mp3/sec-002-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 3,
+      "title": "Rahmân 3",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-003.wav",
+      "mp3": "sections/mp3/sec-003.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-003-p-001",
+          "text": "خَلَقَ ٱلْإِنسَٰنَ",
+          "ttsText": "Rahmân üçüncü ayet. خَلَقَ ٱلْإِنسَٰنَ",
+          "request": "requests/sec-003-p-001.json",
+          "response": "responses/sec-003-p-001.json",
+          "wav": "originals/wav/sec-003-p-001.wav",
+          "mp3": "originals/mp3/sec-003-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "title": "Rahmân 4",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-004.wav",
+      "mp3": "sections/mp3/sec-004.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-004-p-001",
+          "text": "عَلَّمَهُ ٱلْبَيَانَ",
+          "ttsText": "Rahmân dördüncü ayet. عَلَّمَهُ ٱلْبَيَانَ",
+          "request": "requests/sec-004-p-001.json",
+          "response": "responses/sec-004-p-001.json",
+          "wav": "originals/wav/sec-004-p-001.wav",
+          "mp3": "originals/mp3/sec-004-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "title": "Rahmân 5",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-005.wav",
+      "mp3": "sections/mp3/sec-005.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-005-p-001",
+          "text": "ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍۢ",
+          "ttsText": "Rahmân beşinci ayet. ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍۢ",
+          "request": "requests/sec-005-p-001.json",
+          "response": "responses/sec-005-p-001.json",
+          "wav": "originals/wav/sec-005-p-001.wav",
+          "mp3": "originals/mp3/sec-005-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "title": "Rahmân 6",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-006.wav",
+      "mp3": "sections/mp3/sec-006.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-006-p-001",
+          "text": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ",
+          "ttsText": "Rahmân altıncı ayet. وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ",
+          "request": "requests/sec-006-p-001.json",
+          "response": "responses/sec-006-p-001.json",
+          "wav": "originals/wav/sec-006-p-001.wav",
+          "mp3": "originals/mp3/sec-006-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 7,
+      "title": "Rahmân 7",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-007.wav",
+      "mp3": "sections/mp3/sec-007.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-007-p-001",
+          "text": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ",
+          "ttsText": "Rahmân yedinci ayet. وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ",
+          "request": "requests/sec-007-p-001.json",
+          "response": "responses/sec-007-p-001.json",
+          "wav": "originals/wav/sec-007-p-001.wav",
+          "mp3": "originals/mp3/sec-007-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 8,
+      "title": "Rahmân 8",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-008.wav",
+      "mp3": "sections/mp3/sec-008.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-008-p-001",
+          "text": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
+          "ttsText": "Rahmân sekizinci ayet. أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
+          "request": "requests/sec-008-p-001.json",
+          "response": "responses/sec-008-p-001.json",
+          "wav": "originals/wav/sec-008-p-001.wav",
+          "mp3": "originals/mp3/sec-008-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 9,
+      "title": "Rahmân 9",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-009.wav",
+      "mp3": "sections/mp3/sec-009.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-009-p-001",
+          "text": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
+          "ttsText": "Rahmân dokuzuncu ayet. وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
+          "request": "requests/sec-009-p-001.json",
+          "response": "responses/sec-009-p-001.json",
+          "wav": "originals/wav/sec-009-p-001.wav",
+          "mp3": "originals/mp3/sec-009-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 10,
+      "title": "Rahmân 10",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-010.wav",
+      "mp3": "sections/mp3/sec-010.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-010-p-001",
+          "text": "وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+          "ttsText": "Rahmân onuncu ayet. وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+          "request": "requests/sec-010-p-001.json",
+          "response": "responses/sec-010-p-001.json",
+          "wav": "originals/wav/sec-010-p-001.wav",
+          "mp3": "originals/mp3/sec-010-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 11,
+      "title": "Rahmân 11",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-011.wav",
+      "mp3": "sections/mp3/sec-011.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-011-p-001",
+          "text": "فِيهَا فَٰكِهَةٌۭ وَٱلنَّخْلُ ذَاتُ ٱلْأَكْمَامِ",
+          "ttsText": "Rahmân on birinci ayet. فِيهَا فَٰكِهَةٌۭ وَٱلنَّخْلُ ذَاتُ ٱلْأَكْمَامِ",
+          "request": "requests/sec-011-p-001.json",
+          "response": "responses/sec-011-p-001.json",
+          "wav": "originals/wav/sec-011-p-001.wav",
+          "mp3": "originals/mp3/sec-011-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 12,
+      "title": "Rahmân 12",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-012.wav",
+      "mp3": "sections/mp3/sec-012.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-012-p-001",
+          "text": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
+          "ttsText": "Rahmân on ikinci ayet. وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
+          "request": "requests/sec-012-p-001.json",
+          "response": "responses/sec-012-p-001.json",
+          "wav": "originals/wav/sec-012-p-001.wav",
+          "mp3": "originals/mp3/sec-012-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 13,
+      "title": "Rahmân 13",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-013.wav",
+      "mp3": "sections/mp3/sec-013.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-013-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân on üçüncü ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-013-p-001.json",
+          "response": "responses/sec-013-p-001.json",
+          "wav": "originals/wav/sec-013-p-001.wav",
+          "mp3": "originals/mp3/sec-013-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 14,
+      "title": "Rahmân 14",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-014.wav",
+      "mp3": "sections/mp3/sec-014.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-014-p-001",
+          "text": "خَلَقَ ٱلْإِنسَٰنَ مِن صَلْصَٰلٍۢ كَٱلْفَخَّارِ",
+          "ttsText": "Rahmân on dördüncü ayet. خَلَقَ ٱلْإِنسَٰنَ مِن صَلْصَٰلٍۢ كَٱلْفَخَّارِ",
+          "request": "requests/sec-014-p-001.json",
+          "response": "responses/sec-014-p-001.json",
+          "wav": "originals/wav/sec-014-p-001.wav",
+          "mp3": "originals/mp3/sec-014-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 15,
+      "title": "Rahmân 15",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-015.wav",
+      "mp3": "sections/mp3/sec-015.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-015-p-001",
+          "text": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍۢ مِّن نَّارٍۢ",
+          "ttsText": "Rahmân on beşinci ayet. وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍۢ مِّن نَّارٍۢ",
+          "request": "requests/sec-015-p-001.json",
+          "response": "responses/sec-015-p-001.json",
+          "wav": "originals/wav/sec-015-p-001.wav",
+          "mp3": "originals/mp3/sec-015-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 16,
+      "title": "Rahmân 16",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-016.wav",
+      "mp3": "sections/mp3/sec-016.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-016-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân on altıncı ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-016-p-001.json",
+          "response": "responses/sec-016-p-001.json",
+          "wav": "originals/wav/sec-016-p-001.wav",
+          "mp3": "originals/mp3/sec-016-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 17,
+      "title": "Rahmân 17",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-017.wav",
+      "mp3": "sections/mp3/sec-017.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-017-p-001",
+          "text": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ",
+          "ttsText": "Rahmân on yedinci ayet. رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ",
+          "request": "requests/sec-017-p-001.json",
+          "response": "responses/sec-017-p-001.json",
+          "wav": "originals/wav/sec-017-p-001.wav",
+          "mp3": "originals/mp3/sec-017-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 18,
+      "title": "Rahmân 18",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-018.wav",
+      "mp3": "sections/mp3/sec-018.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-018-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân on sekizinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-018-p-001.json",
+          "response": "responses/sec-018-p-001.json",
+          "wav": "originals/wav/sec-018-p-001.wav",
+          "mp3": "originals/mp3/sec-018-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 19,
+      "title": "Rahmân 19",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-019.wav",
+      "mp3": "sections/mp3/sec-019.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-019-p-001",
+          "text": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
+          "ttsText": "Rahmân on dokuzuncu ayet. مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
+          "request": "requests/sec-019-p-001.json",
+          "response": "responses/sec-019-p-001.json",
+          "wav": "originals/wav/sec-019-p-001.wav",
+          "mp3": "originals/mp3/sec-019-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 20,
+      "title": "Rahmân 20",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-020.wav",
+      "mp3": "sections/mp3/sec-020.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-020-p-001",
+          "text": "بَيْنَهُمَا بَرْزَخٌۭ لَّا يَبْغِيَانِ",
+          "ttsText": "Rahmân yirminci ayet. بَيْنَهُمَا بَرْزَخٌۭ لَّا يَبْغِيَانِ",
+          "request": "requests/sec-020-p-001.json",
+          "response": "responses/sec-020-p-001.json",
+          "wav": "originals/wav/sec-020-p-001.wav",
+          "mp3": "originals/mp3/sec-020-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 21,
+      "title": "Rahmân 21",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-021.wav",
+      "mp3": "sections/mp3/sec-021.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-021-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân yirmi birinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-021-p-001.json",
+          "response": "responses/sec-021-p-001.json",
+          "wav": "originals/wav/sec-021-p-001.wav",
+          "mp3": "originals/mp3/sec-021-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 22,
+      "title": "Rahmân 22",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-022.wav",
+      "mp3": "sections/mp3/sec-022.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-022-p-001",
+          "text": "يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ",
+          "ttsText": "Rahmân yirmi ikinci ayet. يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ",
+          "request": "requests/sec-022-p-001.json",
+          "response": "responses/sec-022-p-001.json",
+          "wav": "originals/wav/sec-022-p-001.wav",
+          "mp3": "originals/mp3/sec-022-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 23,
+      "title": "Rahmân 23",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-023.wav",
+      "mp3": "sections/mp3/sec-023.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-023-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân yirmi üçüncü ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-023-p-001.json",
+          "response": "responses/sec-023-p-001.json",
+          "wav": "originals/wav/sec-023-p-001.wav",
+          "mp3": "originals/mp3/sec-023-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 24,
+      "title": "Rahmân 24",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-024.wav",
+      "mp3": "sections/mp3/sec-024.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-024-p-001",
+          "text": "وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَٰمِ",
+          "ttsText": "Rahmân yirmi dördüncü ayet. وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَٰمِ",
+          "request": "requests/sec-024-p-001.json",
+          "response": "responses/sec-024-p-001.json",
+          "wav": "originals/wav/sec-024-p-001.wav",
+          "mp3": "originals/mp3/sec-024-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 25,
+      "title": "Rahmân 25",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-025.wav",
+      "mp3": "sections/mp3/sec-025.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-025-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân yirmi beşinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-025-p-001.json",
+          "response": "responses/sec-025-p-001.json",
+          "wav": "originals/wav/sec-025-p-001.wav",
+          "mp3": "originals/mp3/sec-025-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 26,
+      "title": "Rahmân 26",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-026.wav",
+      "mp3": "sections/mp3/sec-026.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-026-p-001",
+          "text": "كُلُّ مَنْ عَلَيْهَا فَانٍۢ",
+          "ttsText": "Rahmân yirmi altıncı ayet. كُلُّ مَنْ عَلَيْهَا فَانٍۢ",
+          "request": "requests/sec-026-p-001.json",
+          "response": "responses/sec-026-p-001.json",
+          "wav": "originals/wav/sec-026-p-001.wav",
+          "mp3": "originals/mp3/sec-026-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 27,
+      "title": "Rahmân 27",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-027.wav",
+      "mp3": "sections/mp3/sec-027.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-027-p-001",
+          "text": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+          "ttsText": "Rahmân yirmi yedinci ayet. وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+          "request": "requests/sec-027-p-001.json",
+          "response": "responses/sec-027-p-001.json",
+          "wav": "originals/wav/sec-027-p-001.wav",
+          "mp3": "originals/mp3/sec-027-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 28,
+      "title": "Rahmân 28",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-028.wav",
+      "mp3": "sections/mp3/sec-028.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-028-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân yirmi sekizinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-028-p-001.json",
+          "response": "responses/sec-028-p-001.json",
+          "wav": "originals/wav/sec-028-p-001.wav",
+          "mp3": "originals/mp3/sec-028-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 29,
+      "title": "Rahmân 29",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-029.wav",
+      "mp3": "sections/mp3/sec-029.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-029-p-001",
+          "text": "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍۢ",
+          "ttsText": "Rahmân yirmi dokuzuncu ayet. يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍۢ",
+          "request": "requests/sec-029-p-001.json",
+          "response": "responses/sec-029-p-001.json",
+          "wav": "originals/wav/sec-029-p-001.wav",
+          "mp3": "originals/mp3/sec-029-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 30,
+      "title": "Rahmân 30",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-030.wav",
+      "mp3": "sections/mp3/sec-030.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-030-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân otuzuncu ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-030-p-001.json",
+          "response": "responses/sec-030-p-001.json",
+          "wav": "originals/wav/sec-030-p-001.wav",
+          "mp3": "originals/mp3/sec-030-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 31,
+      "title": "Rahmân 31",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-031.wav",
+      "mp3": "sections/mp3/sec-031.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-031-p-001",
+          "text": "سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ",
+          "ttsText": "Rahmân otuz birinci ayet. سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ",
+          "request": "requests/sec-031-p-001.json",
+          "response": "responses/sec-031-p-001.json",
+          "wav": "originals/wav/sec-031-p-001.wav",
+          "mp3": "originals/mp3/sec-031-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 32,
+      "title": "Rahmân 32",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-032.wav",
+      "mp3": "sections/mp3/sec-032.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-032-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân otuz ikinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-032-p-001.json",
+          "response": "responses/sec-032-p-001.json",
+          "wav": "originals/wav/sec-032-p-001.wav",
+          "mp3": "originals/mp3/sec-032-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 33,
+      "title": "Rahmân 33",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-033.wav",
+      "mp3": "sections/mp3/sec-033.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-033-p-001",
+          "text": "يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍۢ",
+          "ttsText": "Rahmân otuz üçüncü ayet. يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍۢ",
+          "request": "requests/sec-033-p-001.json",
+          "response": "responses/sec-033-p-001.json",
+          "wav": "originals/wav/sec-033-p-001.wav",
+          "mp3": "originals/mp3/sec-033-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 34,
+      "title": "Rahmân 34",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-034.wav",
+      "mp3": "sections/mp3/sec-034.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-034-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân otuz dördüncü ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-034-p-001.json",
+          "response": "responses/sec-034-p-001.json",
+          "wav": "originals/wav/sec-034-p-001.wav",
+          "mp3": "originals/mp3/sec-034-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 35,
+      "title": "Rahmân 35",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-035.wav",
+      "mp3": "sections/mp3/sec-035.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-035-p-001",
+          "text": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌۭ مِّن نَّارٍۢ وَنُحَاسٌۭ فَلَا تَنتَصِرَانِ",
+          "ttsText": "Rahmân otuz beşinci ayet. يُرْسَلُ عَلَيْكُمَا شُوَاظٌۭ مِّن نَّارٍۢ وَنُحَاسٌۭ فَلَا تَنتَصِرَانِ",
+          "request": "requests/sec-035-p-001.json",
+          "response": "responses/sec-035-p-001.json",
+          "wav": "originals/wav/sec-035-p-001.wav",
+          "mp3": "originals/mp3/sec-035-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 36,
+      "title": "Rahmân 36",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-036.wav",
+      "mp3": "sections/mp3/sec-036.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-036-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân otuz altıncı ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-036-p-001.json",
+          "response": "responses/sec-036-p-001.json",
+          "wav": "originals/wav/sec-036-p-001.wav",
+          "mp3": "originals/mp3/sec-036-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 37,
+      "title": "Rahmân 37",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-037.wav",
+      "mp3": "sections/mp3/sec-037.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-037-p-001",
+          "text": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةًۭ كَٱلدِّهَانِ",
+          "ttsText": "Rahmân otuz yedinci ayet. فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةًۭ كَٱلدِّهَانِ",
+          "request": "requests/sec-037-p-001.json",
+          "response": "responses/sec-037-p-001.json",
+          "wav": "originals/wav/sec-037-p-001.wav",
+          "mp3": "originals/mp3/sec-037-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 38,
+      "title": "Rahmân 38",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-038.wav",
+      "mp3": "sections/mp3/sec-038.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-038-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân otuz sekizinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-038-p-001.json",
+          "response": "responses/sec-038-p-001.json",
+          "wav": "originals/wav/sec-038-p-001.wav",
+          "mp3": "originals/mp3/sec-038-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 39,
+      "title": "Rahmân 39",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-039.wav",
+      "mp3": "sections/mp3/sec-039.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-039-p-001",
+          "text": "فَيَوْمَئِذٍۢ لَّا يُسْـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٌۭ وَلَا جَآنٌّۭ",
+          "ttsText": "Rahmân otuz dokuzuncu ayet. فَيَوْمَئِذٍۢ لَّا يُسْـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٌۭ وَلَا جَآنٌّۭ",
+          "request": "requests/sec-039-p-001.json",
+          "response": "responses/sec-039-p-001.json",
+          "wav": "originals/wav/sec-039-p-001.wav",
+          "mp3": "originals/mp3/sec-039-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 40,
+      "title": "Rahmân 40",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-040.wav",
+      "mp3": "sections/mp3/sec-040.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-040-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân kırkıncı ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-040-p-001.json",
+          "response": "responses/sec-040-p-001.json",
+          "wav": "originals/wav/sec-040-p-001.wav",
+          "mp3": "originals/mp3/sec-040-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 41,
+      "title": "Rahmân 41",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-041.wav",
+      "mp3": "sections/mp3/sec-041.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-041-p-001",
+          "text": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+          "ttsText": "Rahmân kırk birinci ayet. يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+          "request": "requests/sec-041-p-001.json",
+          "response": "responses/sec-041-p-001.json",
+          "wav": "originals/wav/sec-041-p-001.wav",
+          "mp3": "originals/mp3/sec-041-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 42,
+      "title": "Rahmân 42",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-042.wav",
+      "mp3": "sections/mp3/sec-042.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-042-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân kırk ikinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-042-p-001.json",
+          "response": "responses/sec-042-p-001.json",
+          "wav": "originals/wav/sec-042-p-001.wav",
+          "mp3": "originals/mp3/sec-042-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 43,
+      "title": "Rahmân 43",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-043.wav",
+      "mp3": "sections/mp3/sec-043.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-043-p-001",
+          "text": "هَٰذِهِۦ جَهَنَّمُ ٱلَّتِى يُكَذِّبُ بِهَا ٱلْمُجْرِمُونَ",
+          "ttsText": "Rahmân kırk üçüncü ayet. هَٰذِهِۦ جَهَنَّمُ ٱلَّتِى يُكَذِّبُ بِهَا ٱلْمُجْرِمُونَ",
+          "request": "requests/sec-043-p-001.json",
+          "response": "responses/sec-043-p-001.json",
+          "wav": "originals/wav/sec-043-p-001.wav",
+          "mp3": "originals/mp3/sec-043-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 44,
+      "title": "Rahmân 44",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-044.wav",
+      "mp3": "sections/mp3/sec-044.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-044-p-001",
+          "text": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ ءَانٍۢ",
+          "ttsText": "Rahmân kırk dördüncü ayet. يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ ءَانٍۢ",
+          "request": "requests/sec-044-p-001.json",
+          "response": "responses/sec-044-p-001.json",
+          "wav": "originals/wav/sec-044-p-001.wav",
+          "mp3": "originals/mp3/sec-044-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 45,
+      "title": "Rahmân 45",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-045.wav",
+      "mp3": "sections/mp3/sec-045.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-045-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân kırk beşinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-045-p-001.json",
+          "response": "responses/sec-045-p-001.json",
+          "wav": "originals/wav/sec-045-p-001.wav",
+          "mp3": "originals/mp3/sec-045-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 46,
+      "title": "Rahmân 46",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-046.wav",
+      "mp3": "sections/mp3/sec-046.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-046-p-001",
+          "text": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
+          "ttsText": "Rahmân kırk altıncı ayet. وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
+          "request": "requests/sec-046-p-001.json",
+          "response": "responses/sec-046-p-001.json",
+          "wav": "originals/wav/sec-046-p-001.wav",
+          "mp3": "originals/mp3/sec-046-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 47,
+      "title": "Rahmân 47",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-047.wav",
+      "mp3": "sections/mp3/sec-047.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-047-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân kırk yedinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-047-p-001.json",
+          "response": "responses/sec-047-p-001.json",
+          "wav": "originals/wav/sec-047-p-001.wav",
+          "mp3": "originals/mp3/sec-047-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 48,
+      "title": "Rahmân 48",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-048.wav",
+      "mp3": "sections/mp3/sec-048.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-048-p-001",
+          "text": "ذَوَاتَآ أَفْنَانٍۢ",
+          "ttsText": "Rahmân kırk sekizinci ayet. ذَوَاتَآ أَفْنَانٍۢ",
+          "request": "requests/sec-048-p-001.json",
+          "response": "responses/sec-048-p-001.json",
+          "wav": "originals/wav/sec-048-p-001.wav",
+          "mp3": "originals/mp3/sec-048-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 49,
+      "title": "Rahmân 49",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-049.wav",
+      "mp3": "sections/mp3/sec-049.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-049-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân kırk dokuzuncu ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-049-p-001.json",
+          "response": "responses/sec-049-p-001.json",
+          "wav": "originals/wav/sec-049-p-001.wav",
+          "mp3": "originals/mp3/sec-049-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 50,
+      "title": "Rahmân 50",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-050.wav",
+      "mp3": "sections/mp3/sec-050.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-050-p-001",
+          "text": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
+          "ttsText": "Rahmân ellinci ayet. فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
+          "request": "requests/sec-050-p-001.json",
+          "response": "responses/sec-050-p-001.json",
+          "wav": "originals/wav/sec-050-p-001.wav",
+          "mp3": "originals/mp3/sec-050-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 51,
+      "title": "Rahmân 51",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-051.wav",
+      "mp3": "sections/mp3/sec-051.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-051-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân elli birinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-051-p-001.json",
+          "response": "responses/sec-051-p-001.json",
+          "wav": "originals/wav/sec-051-p-001.wav",
+          "mp3": "originals/mp3/sec-051-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 52,
+      "title": "Rahmân 52",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-052.wav",
+      "mp3": "sections/mp3/sec-052.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-052-p-001",
+          "text": "فِيهِمَا مِن كُلِّ فَٰكِهَةٍۢ زَوْجَانِ",
+          "ttsText": "Rahmân elli ikinci ayet. فِيهِمَا مِن كُلِّ فَٰكِهَةٍۢ زَوْجَانِ",
+          "request": "requests/sec-052-p-001.json",
+          "response": "responses/sec-052-p-001.json",
+          "wav": "originals/wav/sec-052-p-001.wav",
+          "mp3": "originals/mp3/sec-052-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 53,
+      "title": "Rahmân 53",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-053.wav",
+      "mp3": "sections/mp3/sec-053.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-053-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân elli üçüncü ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-053-p-001.json",
+          "response": "responses/sec-053-p-001.json",
+          "wav": "originals/wav/sec-053-p-001.wav",
+          "mp3": "originals/mp3/sec-053-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 54,
+      "title": "Rahmân 54",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-054.wav",
+      "mp3": "sections/mp3/sec-054.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-054-p-001",
+          "text": "مُتَّكِـِٔينَ عَلَىٰ فُرُشٍۭ بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍۢ ۚ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍۢ",
+          "ttsText": "Rahmân elli dördüncü ayet. مُتَّكِـِٔينَ عَلَىٰ فُرُشٍۭ بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍۢ ۚ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍۢ",
+          "request": "requests/sec-054-p-001.json",
+          "response": "responses/sec-054-p-001.json",
+          "wav": "originals/wav/sec-054-p-001.wav",
+          "mp3": "originals/mp3/sec-054-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 55,
+      "title": "Rahmân 55",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-055.wav",
+      "mp3": "sections/mp3/sec-055.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-055-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân elli beşinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-055-p-001.json",
+          "response": "responses/sec-055-p-001.json",
+          "wav": "originals/wav/sec-055-p-001.wav",
+          "mp3": "originals/mp3/sec-055-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 56,
+      "title": "Rahmân 56",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-056.wav",
+      "mp3": "sections/mp3/sec-056.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-056-p-001",
+          "text": "فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌۭ قَبْلَهُمْ وَلَا جَآنٌّۭ",
+          "ttsText": "Rahmân elli altıncı ayet. فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌۭ قَبْلَهُمْ وَلَا جَآنٌّۭ",
+          "request": "requests/sec-056-p-001.json",
+          "response": "responses/sec-056-p-001.json",
+          "wav": "originals/wav/sec-056-p-001.wav",
+          "mp3": "originals/mp3/sec-056-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 57,
+      "title": "Rahmân 57",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-057.wav",
+      "mp3": "sections/mp3/sec-057.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-057-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân elli yedinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-057-p-001.json",
+          "response": "responses/sec-057-p-001.json",
+          "wav": "originals/wav/sec-057-p-001.wav",
+          "mp3": "originals/mp3/sec-057-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 58,
+      "title": "Rahmân 58",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-058.wav",
+      "mp3": "sections/mp3/sec-058.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-058-p-001",
+          "text": "كَأَنَّهُنَّ ٱلْيَاقُوتُ وَٱلْمَرْجَانُ",
+          "ttsText": "Rahmân elli sekizinci ayet. كَأَنَّهُنَّ ٱلْيَاقُوتُ وَٱلْمَرْجَانُ",
+          "request": "requests/sec-058-p-001.json",
+          "response": "responses/sec-058-p-001.json",
+          "wav": "originals/wav/sec-058-p-001.wav",
+          "mp3": "originals/mp3/sec-058-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 59,
+      "title": "Rahmân 59",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-059.wav",
+      "mp3": "sections/mp3/sec-059.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-059-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân elli dokuzuncu ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-059-p-001.json",
+          "response": "responses/sec-059-p-001.json",
+          "wav": "originals/wav/sec-059-p-001.wav",
+          "mp3": "originals/mp3/sec-059-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 60,
+      "title": "Rahmân 60",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-060.wav",
+      "mp3": "sections/mp3/sec-060.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-060-p-001",
+          "text": "هَلْ جَزَآءُ ٱلْإِحْسَٰنِ إِلَّا ٱلْإِحْسَٰنُ",
+          "ttsText": "Rahmân altmışıncı ayet. هَلْ جَزَآءُ ٱلْإِحْسَٰنِ إِلَّا ٱلْإِحْسَٰنُ",
+          "request": "requests/sec-060-p-001.json",
+          "response": "responses/sec-060-p-001.json",
+          "wav": "originals/wav/sec-060-p-001.wav",
+          "mp3": "originals/mp3/sec-060-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 61,
+      "title": "Rahmân 61",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-061.wav",
+      "mp3": "sections/mp3/sec-061.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-061-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân altmış birinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-061-p-001.json",
+          "response": "responses/sec-061-p-001.json",
+          "wav": "originals/wav/sec-061-p-001.wav",
+          "mp3": "originals/mp3/sec-061-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 62,
+      "title": "Rahmân 62",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-062.wav",
+      "mp3": "sections/mp3/sec-062.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-062-p-001",
+          "text": "وَمِن دُونِهِمَا جَنَّتَانِ",
+          "ttsText": "Rahmân altmış ikinci ayet. وَمِن دُونِهِمَا جَنَّتَانِ",
+          "request": "requests/sec-062-p-001.json",
+          "response": "responses/sec-062-p-001.json",
+          "wav": "originals/wav/sec-062-p-001.wav",
+          "mp3": "originals/mp3/sec-062-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 63,
+      "title": "Rahmân 63",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-063.wav",
+      "mp3": "sections/mp3/sec-063.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-063-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân altmış üçüncü ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-063-p-001.json",
+          "response": "responses/sec-063-p-001.json",
+          "wav": "originals/wav/sec-063-p-001.wav",
+          "mp3": "originals/mp3/sec-063-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 64,
+      "title": "Rahmân 64",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-064.wav",
+      "mp3": "sections/mp3/sec-064.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-064-p-001",
+          "text": "مُدْهَآمَّتَانِ",
+          "ttsText": "Rahmân altmış dördüncü ayet. مُدْهَآمَّتَانِ",
+          "request": "requests/sec-064-p-001.json",
+          "response": "responses/sec-064-p-001.json",
+          "wav": "originals/wav/sec-064-p-001.wav",
+          "mp3": "originals/mp3/sec-064-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 65,
+      "title": "Rahmân 65",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-065.wav",
+      "mp3": "sections/mp3/sec-065.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-065-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân altmış beşinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-065-p-001.json",
+          "response": "responses/sec-065-p-001.json",
+          "wav": "originals/wav/sec-065-p-001.wav",
+          "mp3": "originals/mp3/sec-065-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 66,
+      "title": "Rahmân 66",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-066.wav",
+      "mp3": "sections/mp3/sec-066.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-066-p-001",
+          "text": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
+          "ttsText": "Rahmân altmış altıncı ayet. فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
+          "request": "requests/sec-066-p-001.json",
+          "response": "responses/sec-066-p-001.json",
+          "wav": "originals/wav/sec-066-p-001.wav",
+          "mp3": "originals/mp3/sec-066-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 67,
+      "title": "Rahmân 67",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-067.wav",
+      "mp3": "sections/mp3/sec-067.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-067-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân altmış yedinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-067-p-001.json",
+          "response": "responses/sec-067-p-001.json",
+          "wav": "originals/wav/sec-067-p-001.wav",
+          "mp3": "originals/mp3/sec-067-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 68,
+      "title": "Rahmân 68",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-068.wav",
+      "mp3": "sections/mp3/sec-068.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-068-p-001",
+          "text": "فِيهِمَا فَٰكِهَةٌۭ وَنَخْلٌۭ وَرُمَّانٌۭ",
+          "ttsText": "Rahmân altmış sekizinci ayet. فِيهِمَا فَٰكِهَةٌۭ وَنَخْلٌۭ وَرُمَّانٌۭ",
+          "request": "requests/sec-068-p-001.json",
+          "response": "responses/sec-068-p-001.json",
+          "wav": "originals/wav/sec-068-p-001.wav",
+          "mp3": "originals/mp3/sec-068-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 69,
+      "title": "Rahmân 69",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-069.wav",
+      "mp3": "sections/mp3/sec-069.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-069-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân altmış dokuzuncu ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-069-p-001.json",
+          "response": "responses/sec-069-p-001.json",
+          "wav": "originals/wav/sec-069-p-001.wav",
+          "mp3": "originals/mp3/sec-069-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 70,
+      "title": "Rahmân 70",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-070.wav",
+      "mp3": "sections/mp3/sec-070.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-070-p-001",
+          "text": "فِيهِنَّ خَيْرَٰتٌ حِسَانٌۭ",
+          "ttsText": "Rahmân yetmişinci ayet. فِيهِنَّ خَيْرَٰتٌ حِسَانٌۭ",
+          "request": "requests/sec-070-p-001.json",
+          "response": "responses/sec-070-p-001.json",
+          "wav": "originals/wav/sec-070-p-001.wav",
+          "mp3": "originals/mp3/sec-070-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 71,
+      "title": "Rahmân 71",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-071.wav",
+      "mp3": "sections/mp3/sec-071.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-071-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân yetmiş birinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-071-p-001.json",
+          "response": "responses/sec-071-p-001.json",
+          "wav": "originals/wav/sec-071-p-001.wav",
+          "mp3": "originals/mp3/sec-071-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 72,
+      "title": "Rahmân 72",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-072.wav",
+      "mp3": "sections/mp3/sec-072.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-072-p-001",
+          "text": "حُورٌۭ مَّقْصُورَٰتٌۭ فِى ٱلْخِيَامِ",
+          "ttsText": "Rahmân yetmiş ikinci ayet. حُورٌۭ مَّقْصُورَٰتٌۭ فِى ٱلْخِيَامِ",
+          "request": "requests/sec-072-p-001.json",
+          "response": "responses/sec-072-p-001.json",
+          "wav": "originals/wav/sec-072-p-001.wav",
+          "mp3": "originals/mp3/sec-072-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 73,
+      "title": "Rahmân 73",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-073.wav",
+      "mp3": "sections/mp3/sec-073.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-073-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân yetmiş üçüncü ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-073-p-001.json",
+          "response": "responses/sec-073-p-001.json",
+          "wav": "originals/wav/sec-073-p-001.wav",
+          "mp3": "originals/mp3/sec-073-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 74,
+      "title": "Rahmân 74",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-074.wav",
+      "mp3": "sections/mp3/sec-074.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-074-p-001",
+          "text": "لَمْ يَطْمِثْهُنَّ إِنسٌۭ قَبْلَهُمْ وَلَا جَآنٌّۭ",
+          "ttsText": "Rahmân yetmiş dördüncü ayet. لَمْ يَطْمِثْهُنَّ إِنسٌۭ قَبْلَهُمْ وَلَا جَآنٌّۭ",
+          "request": "requests/sec-074-p-001.json",
+          "response": "responses/sec-074-p-001.json",
+          "wav": "originals/wav/sec-074-p-001.wav",
+          "mp3": "originals/mp3/sec-074-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 75,
+      "title": "Rahmân 75",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-075.wav",
+      "mp3": "sections/mp3/sec-075.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-075-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân yetmiş beşinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-075-p-001.json",
+          "response": "responses/sec-075-p-001.json",
+          "wav": "originals/wav/sec-075-p-001.wav",
+          "mp3": "originals/mp3/sec-075-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 76,
+      "title": "Rahmân 76",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-076.wav",
+      "mp3": "sections/mp3/sec-076.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-076-p-001",
+          "text": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍۢ وَعَبْقَرِىٍّ حِسَانٍۢ",
+          "ttsText": "Rahmân yetmiş altıncı ayet. مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍۢ وَعَبْقَرِىٍّ حِسَانٍۢ",
+          "request": "requests/sec-076-p-001.json",
+          "response": "responses/sec-076-p-001.json",
+          "wav": "originals/wav/sec-076-p-001.wav",
+          "mp3": "originals/mp3/sec-076-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 77,
+      "title": "Rahmân 77",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-077.wav",
+      "mp3": "sections/mp3/sec-077.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-077-p-001",
+          "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "ttsText": "Rahmân yetmiş yedinci ayet. فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "request": "requests/sec-077-p-001.json",
+          "response": "responses/sec-077-p-001.json",
+          "wav": "originals/wav/sec-077-p-001.wav",
+          "mp3": "originals/mp3/sec-077-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 78,
+      "title": "Rahmân 78",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-078.wav",
+      "mp3": "sections/mp3/sec-078.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-078-p-001",
+          "text": "تَبَٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+          "ttsText": "Rahmân yetmiş sekizinci ayet. تَبَٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+          "request": "requests/sec-078-p-001.json",
+          "response": "responses/sec-078-p-001.json",
+          "wav": "originals/wav/sec-078-p-001.wav",
+          "mp3": "originals/mp3/sec-078-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    }
+  ]
+}

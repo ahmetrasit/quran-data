@@ -1,0 +1,4214 @@
+{
+  "source": "data/text/quran-uthmani.tsv",
+  "sources": [
+    "data/text/quran-uthmani.tsv"
+  ],
+  "sourceKind": "recitation",
+  "surahId": "S037",
+  "collection": "recitation",
+  "cleanMarkdown": "S037.md",
+  "chunksJsonl": "chunks.jsonl",
+  "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+  "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "voice": {
+    "languageCode": "tr-TR",
+    "modelName": "gemini-3.1-flash-tts-preview",
+    "name": "Rasalgethi"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": 0,
+    "speakingRate": 1
+  },
+  "chunkCount": 182,
+  "arabicTextSource": "data/text/quran-uthmani.tsv",
+  "titleHandling": "Each section is exactly one ayah_reference paragraph: sectionTitle uses the digit form '<name> <number>' (or '<name> besmele' for the ayah-0 basmalah row); ttsText speaks the surah name and spelled-out ordinal ayet label followed by the canonical Arabic text. No commentary prose.",
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "title": "Sâffât 1",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-001.wav",
+      "mp3": "sections/mp3/sec-001.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-001-p-001",
+          "text": "وَٱلصَّٰٓفَّٰتِ صَفًّۭا",
+          "ttsText": "Sâffât birinci ayet. وَٱلصَّٰٓفَّٰتِ صَفًّۭا",
+          "request": "requests/sec-001-p-001.json",
+          "response": "responses/sec-001-p-001.json",
+          "wav": "originals/wav/sec-001-p-001.wav",
+          "mp3": "originals/mp3/sec-001-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 2,
+      "title": "Sâffât 2",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-002.wav",
+      "mp3": "sections/mp3/sec-002.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-002-p-001",
+          "text": "فَٱلزَّٰجِرَٰتِ زَجْرًۭا",
+          "ttsText": "Sâffât ikinci ayet. فَٱلزَّٰجِرَٰتِ زَجْرًۭا",
+          "request": "requests/sec-002-p-001.json",
+          "response": "responses/sec-002-p-001.json",
+          "wav": "originals/wav/sec-002-p-001.wav",
+          "mp3": "originals/mp3/sec-002-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 3,
+      "title": "Sâffât 3",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-003.wav",
+      "mp3": "sections/mp3/sec-003.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-003-p-001",
+          "text": "فَٱلتَّٰلِيَٰتِ ذِكْرًا",
+          "ttsText": "Sâffât üçüncü ayet. فَٱلتَّٰلِيَٰتِ ذِكْرًا",
+          "request": "requests/sec-003-p-001.json",
+          "response": "responses/sec-003-p-001.json",
+          "wav": "originals/wav/sec-003-p-001.wav",
+          "mp3": "originals/mp3/sec-003-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "title": "Sâffât 4",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-004.wav",
+      "mp3": "sections/mp3/sec-004.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-004-p-001",
+          "text": "إِنَّ إِلَٰهَكُمْ لَوَٰحِدٌۭ",
+          "ttsText": "Sâffât dördüncü ayet. إِنَّ إِلَٰهَكُمْ لَوَٰحِدٌۭ",
+          "request": "requests/sec-004-p-001.json",
+          "response": "responses/sec-004-p-001.json",
+          "wav": "originals/wav/sec-004-p-001.wav",
+          "mp3": "originals/mp3/sec-004-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "title": "Sâffât 5",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-005.wav",
+      "mp3": "sections/mp3/sec-005.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-005-p-001",
+          "text": "رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ ٱلْمَشَٰرِقِ",
+          "ttsText": "Sâffât beşinci ayet. رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ ٱلْمَشَٰرِقِ",
+          "request": "requests/sec-005-p-001.json",
+          "response": "responses/sec-005-p-001.json",
+          "wav": "originals/wav/sec-005-p-001.wav",
+          "mp3": "originals/mp3/sec-005-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "title": "Sâffât 6",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-006.wav",
+      "mp3": "sections/mp3/sec-006.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-006-p-001",
+          "text": "إِنَّا زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِزِينَةٍ ٱلْكَوَاكِبِ",
+          "ttsText": "Sâffât altıncı ayet. إِنَّا زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِزِينَةٍ ٱلْكَوَاكِبِ",
+          "request": "requests/sec-006-p-001.json",
+          "response": "responses/sec-006-p-001.json",
+          "wav": "originals/wav/sec-006-p-001.wav",
+          "mp3": "originals/mp3/sec-006-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 7,
+      "title": "Sâffât 7",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-007.wav",
+      "mp3": "sections/mp3/sec-007.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-007-p-001",
+          "text": "وَحِفْظًۭا مِّن كُلِّ شَيْطَٰنٍۢ مَّارِدٍۢ",
+          "ttsText": "Sâffât yedinci ayet. وَحِفْظًۭا مِّن كُلِّ شَيْطَٰنٍۢ مَّارِدٍۢ",
+          "request": "requests/sec-007-p-001.json",
+          "response": "responses/sec-007-p-001.json",
+          "wav": "originals/wav/sec-007-p-001.wav",
+          "mp3": "originals/mp3/sec-007-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 8,
+      "title": "Sâffât 8",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-008.wav",
+      "mp3": "sections/mp3/sec-008.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-008-p-001",
+          "text": "لَّا يَسَّمَّعُونَ إِلَى ٱلْمَلَإِ ٱلْأَعْلَىٰ وَيُقْذَفُونَ مِن كُلِّ جَانِبٍۢ",
+          "ttsText": "Sâffât sekizinci ayet. لَّا يَسَّمَّعُونَ إِلَى ٱلْمَلَإِ ٱلْأَعْلَىٰ وَيُقْذَفُونَ مِن كُلِّ جَانِبٍۢ",
+          "request": "requests/sec-008-p-001.json",
+          "response": "responses/sec-008-p-001.json",
+          "wav": "originals/wav/sec-008-p-001.wav",
+          "mp3": "originals/mp3/sec-008-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 9,
+      "title": "Sâffât 9",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-009.wav",
+      "mp3": "sections/mp3/sec-009.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-009-p-001",
+          "text": "دُحُورًۭا ۖ وَلَهُمْ عَذَابٌۭ وَاصِبٌ",
+          "ttsText": "Sâffât dokuzuncu ayet. دُحُورًۭا ۖ وَلَهُمْ عَذَابٌۭ وَاصِبٌ",
+          "request": "requests/sec-009-p-001.json",
+          "response": "responses/sec-009-p-001.json",
+          "wav": "originals/wav/sec-009-p-001.wav",
+          "mp3": "originals/mp3/sec-009-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 10,
+      "title": "Sâffât 10",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-010.wav",
+      "mp3": "sections/mp3/sec-010.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-010-p-001",
+          "text": "إِلَّا مَنْ خَطِفَ ٱلْخَطْفَةَ فَأَتْبَعَهُۥ شِهَابٌۭ ثَاقِبٌۭ",
+          "ttsText": "Sâffât onuncu ayet. إِلَّا مَنْ خَطِفَ ٱلْخَطْفَةَ فَأَتْبَعَهُۥ شِهَابٌۭ ثَاقِبٌۭ",
+          "request": "requests/sec-010-p-001.json",
+          "response": "responses/sec-010-p-001.json",
+          "wav": "originals/wav/sec-010-p-001.wav",
+          "mp3": "originals/mp3/sec-010-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 11,
+      "title": "Sâffât 11",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-011.wav",
+      "mp3": "sections/mp3/sec-011.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-011-p-001",
+          "text": "فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقًا أَم مَّنْ خَلَقْنَآ ۚ إِنَّا خَلَقْنَٰهُم مِّن طِينٍۢ لَّازِبٍۭ",
+          "ttsText": "Sâffât on birinci ayet. فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقًا أَم مَّنْ خَلَقْنَآ ۚ إِنَّا خَلَقْنَٰهُم مِّن طِينٍۢ لَّازِبٍۭ",
+          "request": "requests/sec-011-p-001.json",
+          "response": "responses/sec-011-p-001.json",
+          "wav": "originals/wav/sec-011-p-001.wav",
+          "mp3": "originals/mp3/sec-011-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 12,
+      "title": "Sâffât 12",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-012.wav",
+      "mp3": "sections/mp3/sec-012.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-012-p-001",
+          "text": "بَلْ عَجِبْتَ وَيَسْخَرُونَ",
+          "ttsText": "Sâffât on ikinci ayet. بَلْ عَجِبْتَ وَيَسْخَرُونَ",
+          "request": "requests/sec-012-p-001.json",
+          "response": "responses/sec-012-p-001.json",
+          "wav": "originals/wav/sec-012-p-001.wav",
+          "mp3": "originals/mp3/sec-012-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 13,
+      "title": "Sâffât 13",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-013.wav",
+      "mp3": "sections/mp3/sec-013.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-013-p-001",
+          "text": "وَإِذَا ذُكِّرُوا۟ لَا يَذْكُرُونَ",
+          "ttsText": "Sâffât on üçüncü ayet. وَإِذَا ذُكِّرُوا۟ لَا يَذْكُرُونَ",
+          "request": "requests/sec-013-p-001.json",
+          "response": "responses/sec-013-p-001.json",
+          "wav": "originals/wav/sec-013-p-001.wav",
+          "mp3": "originals/mp3/sec-013-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 14,
+      "title": "Sâffât 14",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-014.wav",
+      "mp3": "sections/mp3/sec-014.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-014-p-001",
+          "text": "وَإِذَا رَأَوْا۟ ءَايَةًۭ يَسْتَسْخِرُونَ",
+          "ttsText": "Sâffât on dördüncü ayet. وَإِذَا رَأَوْا۟ ءَايَةًۭ يَسْتَسْخِرُونَ",
+          "request": "requests/sec-014-p-001.json",
+          "response": "responses/sec-014-p-001.json",
+          "wav": "originals/wav/sec-014-p-001.wav",
+          "mp3": "originals/mp3/sec-014-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 15,
+      "title": "Sâffât 15",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-015.wav",
+      "mp3": "sections/mp3/sec-015.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-015-p-001",
+          "text": "وَقَالُوٓا۟ إِنْ هَٰذَآ إِلَّا سِحْرٌۭ مُّبِينٌ",
+          "ttsText": "Sâffât on beşinci ayet. وَقَالُوٓا۟ إِنْ هَٰذَآ إِلَّا سِحْرٌۭ مُّبِينٌ",
+          "request": "requests/sec-015-p-001.json",
+          "response": "responses/sec-015-p-001.json",
+          "wav": "originals/wav/sec-015-p-001.wav",
+          "mp3": "originals/mp3/sec-015-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 16,
+      "title": "Sâffât 16",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-016.wav",
+      "mp3": "sections/mp3/sec-016.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-016-p-001",
+          "text": "أَءِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+          "ttsText": "Sâffât on altıncı ayet. أَءِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+          "request": "requests/sec-016-p-001.json",
+          "response": "responses/sec-016-p-001.json",
+          "wav": "originals/wav/sec-016-p-001.wav",
+          "mp3": "originals/mp3/sec-016-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 17,
+      "title": "Sâffât 17",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-017.wav",
+      "mp3": "sections/mp3/sec-017.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-017-p-001",
+          "text": "أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
+          "ttsText": "Sâffât on yedinci ayet. أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
+          "request": "requests/sec-017-p-001.json",
+          "response": "responses/sec-017-p-001.json",
+          "wav": "originals/wav/sec-017-p-001.wav",
+          "mp3": "originals/mp3/sec-017-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 18,
+      "title": "Sâffât 18",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-018.wav",
+      "mp3": "sections/mp3/sec-018.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-018-p-001",
+          "text": "قُلْ نَعَمْ وَأَنتُمْ دَٰخِرُونَ",
+          "ttsText": "Sâffât on sekizinci ayet. قُلْ نَعَمْ وَأَنتُمْ دَٰخِرُونَ",
+          "request": "requests/sec-018-p-001.json",
+          "response": "responses/sec-018-p-001.json",
+          "wav": "originals/wav/sec-018-p-001.wav",
+          "mp3": "originals/mp3/sec-018-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 19,
+      "title": "Sâffât 19",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-019.wav",
+      "mp3": "sections/mp3/sec-019.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-019-p-001",
+          "text": "فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ فَإِذَا هُمْ يَنظُرُونَ",
+          "ttsText": "Sâffât on dokuzuncu ayet. فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ فَإِذَا هُمْ يَنظُرُونَ",
+          "request": "requests/sec-019-p-001.json",
+          "response": "responses/sec-019-p-001.json",
+          "wav": "originals/wav/sec-019-p-001.wav",
+          "mp3": "originals/mp3/sec-019-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 20,
+      "title": "Sâffât 20",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-020.wav",
+      "mp3": "sections/mp3/sec-020.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-020-p-001",
+          "text": "وَقَالُوا۟ يَٰوَيْلَنَا هَٰذَا يَوْمُ ٱلدِّينِ",
+          "ttsText": "Sâffât yirminci ayet. وَقَالُوا۟ يَٰوَيْلَنَا هَٰذَا يَوْمُ ٱلدِّينِ",
+          "request": "requests/sec-020-p-001.json",
+          "response": "responses/sec-020-p-001.json",
+          "wav": "originals/wav/sec-020-p-001.wav",
+          "mp3": "originals/mp3/sec-020-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 21,
+      "title": "Sâffât 21",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-021.wav",
+      "mp3": "sections/mp3/sec-021.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-021-p-001",
+          "text": "هَٰذَا يَوْمُ ٱلْفَصْلِ ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+          "ttsText": "Sâffât yirmi birinci ayet. هَٰذَا يَوْمُ ٱلْفَصْلِ ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+          "request": "requests/sec-021-p-001.json",
+          "response": "responses/sec-021-p-001.json",
+          "wav": "originals/wav/sec-021-p-001.wav",
+          "mp3": "originals/mp3/sec-021-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 22,
+      "title": "Sâffât 22",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-022.wav",
+      "mp3": "sections/mp3/sec-022.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-022-p-001",
+          "text": "۞ ٱحْشُرُوا۟ ٱلَّذِينَ ظَلَمُوا۟ وَأَزْوَٰجَهُمْ وَمَا كَانُوا۟ يَعْبُدُونَ",
+          "ttsText": "Sâffât yirmi ikinci ayet. ۞ ٱحْشُرُوا۟ ٱلَّذِينَ ظَلَمُوا۟ وَأَزْوَٰجَهُمْ وَمَا كَانُوا۟ يَعْبُدُونَ",
+          "request": "requests/sec-022-p-001.json",
+          "response": "responses/sec-022-p-001.json",
+          "wav": "originals/wav/sec-022-p-001.wav",
+          "mp3": "originals/mp3/sec-022-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 23,
+      "title": "Sâffât 23",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-023.wav",
+      "mp3": "sections/mp3/sec-023.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-023-p-001",
+          "text": "مِن دُونِ ٱللَّهِ فَٱهْدُوهُمْ إِلَىٰ صِرَٰطِ ٱلْجَحِيمِ",
+          "ttsText": "Sâffât yirmi üçüncü ayet. مِن دُونِ ٱللَّهِ فَٱهْدُوهُمْ إِلَىٰ صِرَٰطِ ٱلْجَحِيمِ",
+          "request": "requests/sec-023-p-001.json",
+          "response": "responses/sec-023-p-001.json",
+          "wav": "originals/wav/sec-023-p-001.wav",
+          "mp3": "originals/mp3/sec-023-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 24,
+      "title": "Sâffât 24",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-024.wav",
+      "mp3": "sections/mp3/sec-024.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-024-p-001",
+          "text": "وَقِفُوهُمْ ۖ إِنَّهُم مَّسْـُٔولُونَ",
+          "ttsText": "Sâffât yirmi dördüncü ayet. وَقِفُوهُمْ ۖ إِنَّهُم مَّسْـُٔولُونَ",
+          "request": "requests/sec-024-p-001.json",
+          "response": "responses/sec-024-p-001.json",
+          "wav": "originals/wav/sec-024-p-001.wav",
+          "mp3": "originals/mp3/sec-024-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 25,
+      "title": "Sâffât 25",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-025.wav",
+      "mp3": "sections/mp3/sec-025.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-025-p-001",
+          "text": "مَا لَكُمْ لَا تَنَاصَرُونَ",
+          "ttsText": "Sâffât yirmi beşinci ayet. مَا لَكُمْ لَا تَنَاصَرُونَ",
+          "request": "requests/sec-025-p-001.json",
+          "response": "responses/sec-025-p-001.json",
+          "wav": "originals/wav/sec-025-p-001.wav",
+          "mp3": "originals/mp3/sec-025-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 26,
+      "title": "Sâffât 26",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-026.wav",
+      "mp3": "sections/mp3/sec-026.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-026-p-001",
+          "text": "بَلْ هُمُ ٱلْيَوْمَ مُسْتَسْلِمُونَ",
+          "ttsText": "Sâffât yirmi altıncı ayet. بَلْ هُمُ ٱلْيَوْمَ مُسْتَسْلِمُونَ",
+          "request": "requests/sec-026-p-001.json",
+          "response": "responses/sec-026-p-001.json",
+          "wav": "originals/wav/sec-026-p-001.wav",
+          "mp3": "originals/mp3/sec-026-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 27,
+      "title": "Sâffât 27",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-027.wav",
+      "mp3": "sections/mp3/sec-027.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-027-p-001",
+          "text": "وَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ",
+          "ttsText": "Sâffât yirmi yedinci ayet. وَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ",
+          "request": "requests/sec-027-p-001.json",
+          "response": "responses/sec-027-p-001.json",
+          "wav": "originals/wav/sec-027-p-001.wav",
+          "mp3": "originals/mp3/sec-027-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 28,
+      "title": "Sâffât 28",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-028.wav",
+      "mp3": "sections/mp3/sec-028.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-028-p-001",
+          "text": "قَالُوٓا۟ إِنَّكُمْ كُنتُمْ تَأْتُونَنَا عَنِ ٱلْيَمِينِ",
+          "ttsText": "Sâffât yirmi sekizinci ayet. قَالُوٓا۟ إِنَّكُمْ كُنتُمْ تَأْتُونَنَا عَنِ ٱلْيَمِينِ",
+          "request": "requests/sec-028-p-001.json",
+          "response": "responses/sec-028-p-001.json",
+          "wav": "originals/wav/sec-028-p-001.wav",
+          "mp3": "originals/mp3/sec-028-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 29,
+      "title": "Sâffât 29",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-029.wav",
+      "mp3": "sections/mp3/sec-029.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-029-p-001",
+          "text": "قَالُوا۟ بَل لَّمْ تَكُونُوا۟ مُؤْمِنِينَ",
+          "ttsText": "Sâffât yirmi dokuzuncu ayet. قَالُوا۟ بَل لَّمْ تَكُونُوا۟ مُؤْمِنِينَ",
+          "request": "requests/sec-029-p-001.json",
+          "response": "responses/sec-029-p-001.json",
+          "wav": "originals/wav/sec-029-p-001.wav",
+          "mp3": "originals/mp3/sec-029-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 30,
+      "title": "Sâffât 30",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-030.wav",
+      "mp3": "sections/mp3/sec-030.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-030-p-001",
+          "text": "وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًۭا طَٰغِينَ",
+          "ttsText": "Sâffât otuzuncu ayet. وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًۭا طَٰغِينَ",
+          "request": "requests/sec-030-p-001.json",
+          "response": "responses/sec-030-p-001.json",
+          "wav": "originals/wav/sec-030-p-001.wav",
+          "mp3": "originals/mp3/sec-030-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 31,
+      "title": "Sâffât 31",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-031.wav",
+      "mp3": "sections/mp3/sec-031.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-031-p-001",
+          "text": "فَحَقَّ عَلَيْنَا قَوْلُ رَبِّنَآ ۖ إِنَّا لَذَآئِقُونَ",
+          "ttsText": "Sâffât otuz birinci ayet. فَحَقَّ عَلَيْنَا قَوْلُ رَبِّنَآ ۖ إِنَّا لَذَآئِقُونَ",
+          "request": "requests/sec-031-p-001.json",
+          "response": "responses/sec-031-p-001.json",
+          "wav": "originals/wav/sec-031-p-001.wav",
+          "mp3": "originals/mp3/sec-031-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 32,
+      "title": "Sâffât 32",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-032.wav",
+      "mp3": "sections/mp3/sec-032.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-032-p-001",
+          "text": "فَأَغْوَيْنَٰكُمْ إِنَّا كُنَّا غَٰوِينَ",
+          "ttsText": "Sâffât otuz ikinci ayet. فَأَغْوَيْنَٰكُمْ إِنَّا كُنَّا غَٰوِينَ",
+          "request": "requests/sec-032-p-001.json",
+          "response": "responses/sec-032-p-001.json",
+          "wav": "originals/wav/sec-032-p-001.wav",
+          "mp3": "originals/mp3/sec-032-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 33,
+      "title": "Sâffât 33",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-033.wav",
+      "mp3": "sections/mp3/sec-033.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-033-p-001",
+          "text": "فَإِنَّهُمْ يَوْمَئِذٍۢ فِى ٱلْعَذَابِ مُشْتَرِكُونَ",
+          "ttsText": "Sâffât otuz üçüncü ayet. فَإِنَّهُمْ يَوْمَئِذٍۢ فِى ٱلْعَذَابِ مُشْتَرِكُونَ",
+          "request": "requests/sec-033-p-001.json",
+          "response": "responses/sec-033-p-001.json",
+          "wav": "originals/wav/sec-033-p-001.wav",
+          "mp3": "originals/mp3/sec-033-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 34,
+      "title": "Sâffât 34",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-034.wav",
+      "mp3": "sections/mp3/sec-034.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-034-p-001",
+          "text": "إِنَّا كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+          "ttsText": "Sâffât otuz dördüncü ayet. إِنَّا كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+          "request": "requests/sec-034-p-001.json",
+          "response": "responses/sec-034-p-001.json",
+          "wav": "originals/wav/sec-034-p-001.wav",
+          "mp3": "originals/mp3/sec-034-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 35,
+      "title": "Sâffât 35",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-035.wav",
+      "mp3": "sections/mp3/sec-035.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-035-p-001",
+          "text": "إِنَّهُمْ كَانُوٓا۟ إِذَا قِيلَ لَهُمْ لَآ إِلَٰهَ إِلَّا ٱللَّهُ يَسْتَكْبِرُونَ",
+          "ttsText": "Sâffât otuz beşinci ayet. إِنَّهُمْ كَانُوٓا۟ إِذَا قِيلَ لَهُمْ لَآ إِلَٰهَ إِلَّا ٱللَّهُ يَسْتَكْبِرُونَ",
+          "request": "requests/sec-035-p-001.json",
+          "response": "responses/sec-035-p-001.json",
+          "wav": "originals/wav/sec-035-p-001.wav",
+          "mp3": "originals/mp3/sec-035-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 36,
+      "title": "Sâffât 36",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-036.wav",
+      "mp3": "sections/mp3/sec-036.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-036-p-001",
+          "text": "وَيَقُولُونَ أَئِنَّا لَتَارِكُوٓا۟ ءَالِهَتِنَا لِشَاعِرٍۢ مَّجْنُونٍۭ",
+          "ttsText": "Sâffât otuz altıncı ayet. وَيَقُولُونَ أَئِنَّا لَتَارِكُوٓا۟ ءَالِهَتِنَا لِشَاعِرٍۢ مَّجْنُونٍۭ",
+          "request": "requests/sec-036-p-001.json",
+          "response": "responses/sec-036-p-001.json",
+          "wav": "originals/wav/sec-036-p-001.wav",
+          "mp3": "originals/mp3/sec-036-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 37,
+      "title": "Sâffât 37",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-037.wav",
+      "mp3": "sections/mp3/sec-037.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-037-p-001",
+          "text": "بَلْ جَآءَ بِٱلْحَقِّ وَصَدَّقَ ٱلْمُرْسَلِينَ",
+          "ttsText": "Sâffât otuz yedinci ayet. بَلْ جَآءَ بِٱلْحَقِّ وَصَدَّقَ ٱلْمُرْسَلِينَ",
+          "request": "requests/sec-037-p-001.json",
+          "response": "responses/sec-037-p-001.json",
+          "wav": "originals/wav/sec-037-p-001.wav",
+          "mp3": "originals/mp3/sec-037-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 38,
+      "title": "Sâffât 38",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-038.wav",
+      "mp3": "sections/mp3/sec-038.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-038-p-001",
+          "text": "إِنَّكُمْ لَذَآئِقُوا۟ ٱلْعَذَابِ ٱلْأَلِيمِ",
+          "ttsText": "Sâffât otuz sekizinci ayet. إِنَّكُمْ لَذَآئِقُوا۟ ٱلْعَذَابِ ٱلْأَلِيمِ",
+          "request": "requests/sec-038-p-001.json",
+          "response": "responses/sec-038-p-001.json",
+          "wav": "originals/wav/sec-038-p-001.wav",
+          "mp3": "originals/mp3/sec-038-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 39,
+      "title": "Sâffât 39",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-039.wav",
+      "mp3": "sections/mp3/sec-039.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-039-p-001",
+          "text": "وَمَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
+          "ttsText": "Sâffât otuz dokuzuncu ayet. وَمَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
+          "request": "requests/sec-039-p-001.json",
+          "response": "responses/sec-039-p-001.json",
+          "wav": "originals/wav/sec-039-p-001.wav",
+          "mp3": "originals/mp3/sec-039-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 40,
+      "title": "Sâffât 40",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-040.wav",
+      "mp3": "sections/mp3/sec-040.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-040-p-001",
+          "text": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "ttsText": "Sâffât kırkıncı ayet. إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "request": "requests/sec-040-p-001.json",
+          "response": "responses/sec-040-p-001.json",
+          "wav": "originals/wav/sec-040-p-001.wav",
+          "mp3": "originals/mp3/sec-040-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 41,
+      "title": "Sâffât 41",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-041.wav",
+      "mp3": "sections/mp3/sec-041.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-041-p-001",
+          "text": "أُو۟لَٰٓئِكَ لَهُمْ رِزْقٌۭ مَّعْلُومٌۭ",
+          "ttsText": "Sâffât kırk birinci ayet. أُو۟لَٰٓئِكَ لَهُمْ رِزْقٌۭ مَّعْلُومٌۭ",
+          "request": "requests/sec-041-p-001.json",
+          "response": "responses/sec-041-p-001.json",
+          "wav": "originals/wav/sec-041-p-001.wav",
+          "mp3": "originals/mp3/sec-041-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 42,
+      "title": "Sâffât 42",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-042.wav",
+      "mp3": "sections/mp3/sec-042.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-042-p-001",
+          "text": "فَوَٰكِهُ ۖ وَهُم مُّكْرَمُونَ",
+          "ttsText": "Sâffât kırk ikinci ayet. فَوَٰكِهُ ۖ وَهُم مُّكْرَمُونَ",
+          "request": "requests/sec-042-p-001.json",
+          "response": "responses/sec-042-p-001.json",
+          "wav": "originals/wav/sec-042-p-001.wav",
+          "mp3": "originals/mp3/sec-042-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 43,
+      "title": "Sâffât 43",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-043.wav",
+      "mp3": "sections/mp3/sec-043.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-043-p-001",
+          "text": "فِى جَنَّٰتِ ٱلنَّعِيمِ",
+          "ttsText": "Sâffât kırk üçüncü ayet. فِى جَنَّٰتِ ٱلنَّعِيمِ",
+          "request": "requests/sec-043-p-001.json",
+          "response": "responses/sec-043-p-001.json",
+          "wav": "originals/wav/sec-043-p-001.wav",
+          "mp3": "originals/mp3/sec-043-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 44,
+      "title": "Sâffât 44",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-044.wav",
+      "mp3": "sections/mp3/sec-044.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-044-p-001",
+          "text": "عَلَىٰ سُرُرٍۢ مُّتَقَٰبِلِينَ",
+          "ttsText": "Sâffât kırk dördüncü ayet. عَلَىٰ سُرُرٍۢ مُّتَقَٰبِلِينَ",
+          "request": "requests/sec-044-p-001.json",
+          "response": "responses/sec-044-p-001.json",
+          "wav": "originals/wav/sec-044-p-001.wav",
+          "mp3": "originals/mp3/sec-044-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 45,
+      "title": "Sâffât 45",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-045.wav",
+      "mp3": "sections/mp3/sec-045.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-045-p-001",
+          "text": "يُطَافُ عَلَيْهِم بِكَأْسٍۢ مِّن مَّعِينٍۭ",
+          "ttsText": "Sâffât kırk beşinci ayet. يُطَافُ عَلَيْهِم بِكَأْسٍۢ مِّن مَّعِينٍۭ",
+          "request": "requests/sec-045-p-001.json",
+          "response": "responses/sec-045-p-001.json",
+          "wav": "originals/wav/sec-045-p-001.wav",
+          "mp3": "originals/mp3/sec-045-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 46,
+      "title": "Sâffât 46",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-046.wav",
+      "mp3": "sections/mp3/sec-046.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-046-p-001",
+          "text": "بَيْضَآءَ لَذَّةٍۢ لِّلشَّٰرِبِينَ",
+          "ttsText": "Sâffât kırk altıncı ayet. بَيْضَآءَ لَذَّةٍۢ لِّلشَّٰرِبِينَ",
+          "request": "requests/sec-046-p-001.json",
+          "response": "responses/sec-046-p-001.json",
+          "wav": "originals/wav/sec-046-p-001.wav",
+          "mp3": "originals/mp3/sec-046-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 47,
+      "title": "Sâffât 47",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-047.wav",
+      "mp3": "sections/mp3/sec-047.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-047-p-001",
+          "text": "لَا فِيهَا غَوْلٌۭ وَلَا هُمْ عَنْهَا يُنزَفُونَ",
+          "ttsText": "Sâffât kırk yedinci ayet. لَا فِيهَا غَوْلٌۭ وَلَا هُمْ عَنْهَا يُنزَفُونَ",
+          "request": "requests/sec-047-p-001.json",
+          "response": "responses/sec-047-p-001.json",
+          "wav": "originals/wav/sec-047-p-001.wav",
+          "mp3": "originals/mp3/sec-047-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 48,
+      "title": "Sâffât 48",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-048.wav",
+      "mp3": "sections/mp3/sec-048.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-048-p-001",
+          "text": "وَعِندَهُمْ قَٰصِرَٰتُ ٱلطَّرْفِ عِينٌۭ",
+          "ttsText": "Sâffât kırk sekizinci ayet. وَعِندَهُمْ قَٰصِرَٰتُ ٱلطَّرْفِ عِينٌۭ",
+          "request": "requests/sec-048-p-001.json",
+          "response": "responses/sec-048-p-001.json",
+          "wav": "originals/wav/sec-048-p-001.wav",
+          "mp3": "originals/mp3/sec-048-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 49,
+      "title": "Sâffât 49",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-049.wav",
+      "mp3": "sections/mp3/sec-049.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-049-p-001",
+          "text": "كَأَنَّهُنَّ بَيْضٌۭ مَّكْنُونٌۭ",
+          "ttsText": "Sâffât kırk dokuzuncu ayet. كَأَنَّهُنَّ بَيْضٌۭ مَّكْنُونٌۭ",
+          "request": "requests/sec-049-p-001.json",
+          "response": "responses/sec-049-p-001.json",
+          "wav": "originals/wav/sec-049-p-001.wav",
+          "mp3": "originals/mp3/sec-049-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 50,
+      "title": "Sâffât 50",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-050.wav",
+      "mp3": "sections/mp3/sec-050.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-050-p-001",
+          "text": "فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ",
+          "ttsText": "Sâffât ellinci ayet. فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ",
+          "request": "requests/sec-050-p-001.json",
+          "response": "responses/sec-050-p-001.json",
+          "wav": "originals/wav/sec-050-p-001.wav",
+          "mp3": "originals/mp3/sec-050-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 51,
+      "title": "Sâffât 51",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-051.wav",
+      "mp3": "sections/mp3/sec-051.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-051-p-001",
+          "text": "قَالَ قَآئِلٌۭ مِّنْهُمْ إِنِّى كَانَ لِى قَرِينٌۭ",
+          "ttsText": "Sâffât elli birinci ayet. قَالَ قَآئِلٌۭ مِّنْهُمْ إِنِّى كَانَ لِى قَرِينٌۭ",
+          "request": "requests/sec-051-p-001.json",
+          "response": "responses/sec-051-p-001.json",
+          "wav": "originals/wav/sec-051-p-001.wav",
+          "mp3": "originals/mp3/sec-051-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 52,
+      "title": "Sâffât 52",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-052.wav",
+      "mp3": "sections/mp3/sec-052.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-052-p-001",
+          "text": "يَقُولُ أَءِنَّكَ لَمِنَ ٱلْمُصَدِّقِينَ",
+          "ttsText": "Sâffât elli ikinci ayet. يَقُولُ أَءِنَّكَ لَمِنَ ٱلْمُصَدِّقِينَ",
+          "request": "requests/sec-052-p-001.json",
+          "response": "responses/sec-052-p-001.json",
+          "wav": "originals/wav/sec-052-p-001.wav",
+          "mp3": "originals/mp3/sec-052-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 53,
+      "title": "Sâffât 53",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-053.wav",
+      "mp3": "sections/mp3/sec-053.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-053-p-001",
+          "text": "أَءِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَدِينُونَ",
+          "ttsText": "Sâffât elli üçüncü ayet. أَءِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَدِينُونَ",
+          "request": "requests/sec-053-p-001.json",
+          "response": "responses/sec-053-p-001.json",
+          "wav": "originals/wav/sec-053-p-001.wav",
+          "mp3": "originals/mp3/sec-053-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 54,
+      "title": "Sâffât 54",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-054.wav",
+      "mp3": "sections/mp3/sec-054.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-054-p-001",
+          "text": "قَالَ هَلْ أَنتُم مُّطَّلِعُونَ",
+          "ttsText": "Sâffât elli dördüncü ayet. قَالَ هَلْ أَنتُم مُّطَّلِعُونَ",
+          "request": "requests/sec-054-p-001.json",
+          "response": "responses/sec-054-p-001.json",
+          "wav": "originals/wav/sec-054-p-001.wav",
+          "mp3": "originals/mp3/sec-054-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 55,
+      "title": "Sâffât 55",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-055.wav",
+      "mp3": "sections/mp3/sec-055.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-055-p-001",
+          "text": "فَٱطَّلَعَ فَرَءَاهُ فِى سَوَآءِ ٱلْجَحِيمِ",
+          "ttsText": "Sâffât elli beşinci ayet. فَٱطَّلَعَ فَرَءَاهُ فِى سَوَآءِ ٱلْجَحِيمِ",
+          "request": "requests/sec-055-p-001.json",
+          "response": "responses/sec-055-p-001.json",
+          "wav": "originals/wav/sec-055-p-001.wav",
+          "mp3": "originals/mp3/sec-055-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 56,
+      "title": "Sâffât 56",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-056.wav",
+      "mp3": "sections/mp3/sec-056.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-056-p-001",
+          "text": "قَالَ تَٱللَّهِ إِن كِدتَّ لَتُرْدِينِ",
+          "ttsText": "Sâffât elli altıncı ayet. قَالَ تَٱللَّهِ إِن كِدتَّ لَتُرْدِينِ",
+          "request": "requests/sec-056-p-001.json",
+          "response": "responses/sec-056-p-001.json",
+          "wav": "originals/wav/sec-056-p-001.wav",
+          "mp3": "originals/mp3/sec-056-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 57,
+      "title": "Sâffât 57",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-057.wav",
+      "mp3": "sections/mp3/sec-057.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-057-p-001",
+          "text": "وَلَوْلَا نِعْمَةُ رَبِّى لَكُنتُ مِنَ ٱلْمُحْضَرِينَ",
+          "ttsText": "Sâffât elli yedinci ayet. وَلَوْلَا نِعْمَةُ رَبِّى لَكُنتُ مِنَ ٱلْمُحْضَرِينَ",
+          "request": "requests/sec-057-p-001.json",
+          "response": "responses/sec-057-p-001.json",
+          "wav": "originals/wav/sec-057-p-001.wav",
+          "mp3": "originals/mp3/sec-057-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 58,
+      "title": "Sâffât 58",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-058.wav",
+      "mp3": "sections/mp3/sec-058.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-058-p-001",
+          "text": "أَفَمَا نَحْنُ بِمَيِّتِينَ",
+          "ttsText": "Sâffât elli sekizinci ayet. أَفَمَا نَحْنُ بِمَيِّتِينَ",
+          "request": "requests/sec-058-p-001.json",
+          "response": "responses/sec-058-p-001.json",
+          "wav": "originals/wav/sec-058-p-001.wav",
+          "mp3": "originals/mp3/sec-058-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 59,
+      "title": "Sâffât 59",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-059.wav",
+      "mp3": "sections/mp3/sec-059.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-059-p-001",
+          "text": "إِلَّا مَوْتَتَنَا ٱلْأُولَىٰ وَمَا نَحْنُ بِمُعَذَّبِينَ",
+          "ttsText": "Sâffât elli dokuzuncu ayet. إِلَّا مَوْتَتَنَا ٱلْأُولَىٰ وَمَا نَحْنُ بِمُعَذَّبِينَ",
+          "request": "requests/sec-059-p-001.json",
+          "response": "responses/sec-059-p-001.json",
+          "wav": "originals/wav/sec-059-p-001.wav",
+          "mp3": "originals/mp3/sec-059-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 60,
+      "title": "Sâffât 60",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-060.wav",
+      "mp3": "sections/mp3/sec-060.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-060-p-001",
+          "text": "إِنَّ هَٰذَا لَهُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+          "ttsText": "Sâffât altmışıncı ayet. إِنَّ هَٰذَا لَهُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+          "request": "requests/sec-060-p-001.json",
+          "response": "responses/sec-060-p-001.json",
+          "wav": "originals/wav/sec-060-p-001.wav",
+          "mp3": "originals/mp3/sec-060-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 61,
+      "title": "Sâffât 61",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-061.wav",
+      "mp3": "sections/mp3/sec-061.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-061-p-001",
+          "text": "لِمِثْلِ هَٰذَا فَلْيَعْمَلِ ٱلْعَٰمِلُونَ",
+          "ttsText": "Sâffât altmış birinci ayet. لِمِثْلِ هَٰذَا فَلْيَعْمَلِ ٱلْعَٰمِلُونَ",
+          "request": "requests/sec-061-p-001.json",
+          "response": "responses/sec-061-p-001.json",
+          "wav": "originals/wav/sec-061-p-001.wav",
+          "mp3": "originals/mp3/sec-061-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 62,
+      "title": "Sâffât 62",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-062.wav",
+      "mp3": "sections/mp3/sec-062.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-062-p-001",
+          "text": "أَذَٰلِكَ خَيْرٌۭ نُّزُلًا أَمْ شَجَرَةُ ٱلزَّقُّومِ",
+          "ttsText": "Sâffât altmış ikinci ayet. أَذَٰلِكَ خَيْرٌۭ نُّزُلًا أَمْ شَجَرَةُ ٱلزَّقُّومِ",
+          "request": "requests/sec-062-p-001.json",
+          "response": "responses/sec-062-p-001.json",
+          "wav": "originals/wav/sec-062-p-001.wav",
+          "mp3": "originals/mp3/sec-062-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 63,
+      "title": "Sâffât 63",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-063.wav",
+      "mp3": "sections/mp3/sec-063.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-063-p-001",
+          "text": "إِنَّا جَعَلْنَٰهَا فِتْنَةًۭ لِّلظَّٰلِمِينَ",
+          "ttsText": "Sâffât altmış üçüncü ayet. إِنَّا جَعَلْنَٰهَا فِتْنَةًۭ لِّلظَّٰلِمِينَ",
+          "request": "requests/sec-063-p-001.json",
+          "response": "responses/sec-063-p-001.json",
+          "wav": "originals/wav/sec-063-p-001.wav",
+          "mp3": "originals/mp3/sec-063-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 64,
+      "title": "Sâffât 64",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-064.wav",
+      "mp3": "sections/mp3/sec-064.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-064-p-001",
+          "text": "إِنَّهَا شَجَرَةٌۭ تَخْرُجُ فِىٓ أَصْلِ ٱلْجَحِيمِ",
+          "ttsText": "Sâffât altmış dördüncü ayet. إِنَّهَا شَجَرَةٌۭ تَخْرُجُ فِىٓ أَصْلِ ٱلْجَحِيمِ",
+          "request": "requests/sec-064-p-001.json",
+          "response": "responses/sec-064-p-001.json",
+          "wav": "originals/wav/sec-064-p-001.wav",
+          "mp3": "originals/mp3/sec-064-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 65,
+      "title": "Sâffât 65",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-065.wav",
+      "mp3": "sections/mp3/sec-065.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-065-p-001",
+          "text": "طَلْعُهَا كَأَنَّهُۥ رُءُوسُ ٱلشَّيَٰطِينِ",
+          "ttsText": "Sâffât altmış beşinci ayet. طَلْعُهَا كَأَنَّهُۥ رُءُوسُ ٱلشَّيَٰطِينِ",
+          "request": "requests/sec-065-p-001.json",
+          "response": "responses/sec-065-p-001.json",
+          "wav": "originals/wav/sec-065-p-001.wav",
+          "mp3": "originals/mp3/sec-065-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 66,
+      "title": "Sâffât 66",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-066.wav",
+      "mp3": "sections/mp3/sec-066.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-066-p-001",
+          "text": "فَإِنَّهُمْ لَءَاكِلُونَ مِنْهَا فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
+          "ttsText": "Sâffât altmış altıncı ayet. فَإِنَّهُمْ لَءَاكِلُونَ مِنْهَا فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
+          "request": "requests/sec-066-p-001.json",
+          "response": "responses/sec-066-p-001.json",
+          "wav": "originals/wav/sec-066-p-001.wav",
+          "mp3": "originals/mp3/sec-066-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 67,
+      "title": "Sâffât 67",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-067.wav",
+      "mp3": "sections/mp3/sec-067.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-067-p-001",
+          "text": "ثُمَّ إِنَّ لَهُمْ عَلَيْهَا لَشَوْبًۭا مِّنْ حَمِيمٍۢ",
+          "ttsText": "Sâffât altmış yedinci ayet. ثُمَّ إِنَّ لَهُمْ عَلَيْهَا لَشَوْبًۭا مِّنْ حَمِيمٍۢ",
+          "request": "requests/sec-067-p-001.json",
+          "response": "responses/sec-067-p-001.json",
+          "wav": "originals/wav/sec-067-p-001.wav",
+          "mp3": "originals/mp3/sec-067-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 68,
+      "title": "Sâffât 68",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-068.wav",
+      "mp3": "sections/mp3/sec-068.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-068-p-001",
+          "text": "ثُمَّ إِنَّ مَرْجِعَهُمْ لَإِلَى ٱلْجَحِيمِ",
+          "ttsText": "Sâffât altmış sekizinci ayet. ثُمَّ إِنَّ مَرْجِعَهُمْ لَإِلَى ٱلْجَحِيمِ",
+          "request": "requests/sec-068-p-001.json",
+          "response": "responses/sec-068-p-001.json",
+          "wav": "originals/wav/sec-068-p-001.wav",
+          "mp3": "originals/mp3/sec-068-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 69,
+      "title": "Sâffât 69",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-069.wav",
+      "mp3": "sections/mp3/sec-069.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-069-p-001",
+          "text": "إِنَّهُمْ أَلْفَوْا۟ ءَابَآءَهُمْ ضَآلِّينَ",
+          "ttsText": "Sâffât altmış dokuzuncu ayet. إِنَّهُمْ أَلْفَوْا۟ ءَابَآءَهُمْ ضَآلِّينَ",
+          "request": "requests/sec-069-p-001.json",
+          "response": "responses/sec-069-p-001.json",
+          "wav": "originals/wav/sec-069-p-001.wav",
+          "mp3": "originals/mp3/sec-069-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 70,
+      "title": "Sâffât 70",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-070.wav",
+      "mp3": "sections/mp3/sec-070.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-070-p-001",
+          "text": "فَهُمْ عَلَىٰٓ ءَاثَٰرِهِمْ يُهْرَعُونَ",
+          "ttsText": "Sâffât yetmişinci ayet. فَهُمْ عَلَىٰٓ ءَاثَٰرِهِمْ يُهْرَعُونَ",
+          "request": "requests/sec-070-p-001.json",
+          "response": "responses/sec-070-p-001.json",
+          "wav": "originals/wav/sec-070-p-001.wav",
+          "mp3": "originals/mp3/sec-070-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 71,
+      "title": "Sâffât 71",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-071.wav",
+      "mp3": "sections/mp3/sec-071.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-071-p-001",
+          "text": "وَلَقَدْ ضَلَّ قَبْلَهُمْ أَكْثَرُ ٱلْأَوَّلِينَ",
+          "ttsText": "Sâffât yetmiş birinci ayet. وَلَقَدْ ضَلَّ قَبْلَهُمْ أَكْثَرُ ٱلْأَوَّلِينَ",
+          "request": "requests/sec-071-p-001.json",
+          "response": "responses/sec-071-p-001.json",
+          "wav": "originals/wav/sec-071-p-001.wav",
+          "mp3": "originals/mp3/sec-071-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 72,
+      "title": "Sâffât 72",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-072.wav",
+      "mp3": "sections/mp3/sec-072.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-072-p-001",
+          "text": "وَلَقَدْ أَرْسَلْنَا فِيهِم مُّنذِرِينَ",
+          "ttsText": "Sâffât yetmiş ikinci ayet. وَلَقَدْ أَرْسَلْنَا فِيهِم مُّنذِرِينَ",
+          "request": "requests/sec-072-p-001.json",
+          "response": "responses/sec-072-p-001.json",
+          "wav": "originals/wav/sec-072-p-001.wav",
+          "mp3": "originals/mp3/sec-072-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 73,
+      "title": "Sâffât 73",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-073.wav",
+      "mp3": "sections/mp3/sec-073.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-073-p-001",
+          "text": "فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُنذَرِينَ",
+          "ttsText": "Sâffât yetmiş üçüncü ayet. فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُنذَرِينَ",
+          "request": "requests/sec-073-p-001.json",
+          "response": "responses/sec-073-p-001.json",
+          "wav": "originals/wav/sec-073-p-001.wav",
+          "mp3": "originals/mp3/sec-073-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 74,
+      "title": "Sâffât 74",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-074.wav",
+      "mp3": "sections/mp3/sec-074.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-074-p-001",
+          "text": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "ttsText": "Sâffât yetmiş dördüncü ayet. إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "request": "requests/sec-074-p-001.json",
+          "response": "responses/sec-074-p-001.json",
+          "wav": "originals/wav/sec-074-p-001.wav",
+          "mp3": "originals/mp3/sec-074-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 75,
+      "title": "Sâffât 75",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-075.wav",
+      "mp3": "sections/mp3/sec-075.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-075-p-001",
+          "text": "وَلَقَدْ نَادَىٰنَا نُوحٌۭ فَلَنِعْمَ ٱلْمُجِيبُونَ",
+          "ttsText": "Sâffât yetmiş beşinci ayet. وَلَقَدْ نَادَىٰنَا نُوحٌۭ فَلَنِعْمَ ٱلْمُجِيبُونَ",
+          "request": "requests/sec-075-p-001.json",
+          "response": "responses/sec-075-p-001.json",
+          "wav": "originals/wav/sec-075-p-001.wav",
+          "mp3": "originals/mp3/sec-075-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 76,
+      "title": "Sâffât 76",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-076.wav",
+      "mp3": "sections/mp3/sec-076.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-076-p-001",
+          "text": "وَنَجَّيْنَٰهُ وَأَهْلَهُۥ مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
+          "ttsText": "Sâffât yetmiş altıncı ayet. وَنَجَّيْنَٰهُ وَأَهْلَهُۥ مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
+          "request": "requests/sec-076-p-001.json",
+          "response": "responses/sec-076-p-001.json",
+          "wav": "originals/wav/sec-076-p-001.wav",
+          "mp3": "originals/mp3/sec-076-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 77,
+      "title": "Sâffât 77",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-077.wav",
+      "mp3": "sections/mp3/sec-077.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-077-p-001",
+          "text": "وَجَعَلْنَا ذُرِّيَّتَهُۥ هُمُ ٱلْبَاقِينَ",
+          "ttsText": "Sâffât yetmiş yedinci ayet. وَجَعَلْنَا ذُرِّيَّتَهُۥ هُمُ ٱلْبَاقِينَ",
+          "request": "requests/sec-077-p-001.json",
+          "response": "responses/sec-077-p-001.json",
+          "wav": "originals/wav/sec-077-p-001.wav",
+          "mp3": "originals/mp3/sec-077-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 78,
+      "title": "Sâffât 78",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-078.wav",
+      "mp3": "sections/mp3/sec-078.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-078-p-001",
+          "text": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْءَاخِرِينَ",
+          "ttsText": "Sâffât yetmiş sekizinci ayet. وَتَرَكْنَا عَلَيْهِ فِى ٱلْءَاخِرِينَ",
+          "request": "requests/sec-078-p-001.json",
+          "response": "responses/sec-078-p-001.json",
+          "wav": "originals/wav/sec-078-p-001.wav",
+          "mp3": "originals/mp3/sec-078-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 79,
+      "title": "Sâffât 79",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-079.wav",
+      "mp3": "sections/mp3/sec-079.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-079-p-001",
+          "text": "سَلَٰمٌ عَلَىٰ نُوحٍۢ فِى ٱلْعَٰلَمِينَ",
+          "ttsText": "Sâffât yetmiş dokuzuncu ayet. سَلَٰمٌ عَلَىٰ نُوحٍۢ فِى ٱلْعَٰلَمِينَ",
+          "request": "requests/sec-079-p-001.json",
+          "response": "responses/sec-079-p-001.json",
+          "wav": "originals/wav/sec-079-p-001.wav",
+          "mp3": "originals/mp3/sec-079-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 80,
+      "title": "Sâffât 80",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-080.wav",
+      "mp3": "sections/mp3/sec-080.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-080-p-001",
+          "text": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "ttsText": "Sâffât sekseninci ayet. إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "request": "requests/sec-080-p-001.json",
+          "response": "responses/sec-080-p-001.json",
+          "wav": "originals/wav/sec-080-p-001.wav",
+          "mp3": "originals/mp3/sec-080-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 81,
+      "title": "Sâffât 81",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-081.wav",
+      "mp3": "sections/mp3/sec-081.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-081-p-001",
+          "text": "إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+          "ttsText": "Sâffât seksen birinci ayet. إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+          "request": "requests/sec-081-p-001.json",
+          "response": "responses/sec-081-p-001.json",
+          "wav": "originals/wav/sec-081-p-001.wav",
+          "mp3": "originals/mp3/sec-081-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 82,
+      "title": "Sâffât 82",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-082.wav",
+      "mp3": "sections/mp3/sec-082.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-082-p-001",
+          "text": "ثُمَّ أَغْرَقْنَا ٱلْءَاخَرِينَ",
+          "ttsText": "Sâffât seksen ikinci ayet. ثُمَّ أَغْرَقْنَا ٱلْءَاخَرِينَ",
+          "request": "requests/sec-082-p-001.json",
+          "response": "responses/sec-082-p-001.json",
+          "wav": "originals/wav/sec-082-p-001.wav",
+          "mp3": "originals/mp3/sec-082-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 83,
+      "title": "Sâffât 83",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-083.wav",
+      "mp3": "sections/mp3/sec-083.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-083-p-001",
+          "text": "۞ وَإِنَّ مِن شِيعَتِهِۦ لَإِبْرَٰهِيمَ",
+          "ttsText": "Sâffât seksen üçüncü ayet. ۞ وَإِنَّ مِن شِيعَتِهِۦ لَإِبْرَٰهِيمَ",
+          "request": "requests/sec-083-p-001.json",
+          "response": "responses/sec-083-p-001.json",
+          "wav": "originals/wav/sec-083-p-001.wav",
+          "mp3": "originals/mp3/sec-083-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 84,
+      "title": "Sâffât 84",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-084.wav",
+      "mp3": "sections/mp3/sec-084.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-084-p-001",
+          "text": "إِذْ جَآءَ رَبَّهُۥ بِقَلْبٍۢ سَلِيمٍ",
+          "ttsText": "Sâffât seksen dördüncü ayet. إِذْ جَآءَ رَبَّهُۥ بِقَلْبٍۢ سَلِيمٍ",
+          "request": "requests/sec-084-p-001.json",
+          "response": "responses/sec-084-p-001.json",
+          "wav": "originals/wav/sec-084-p-001.wav",
+          "mp3": "originals/mp3/sec-084-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 85,
+      "title": "Sâffât 85",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-085.wav",
+      "mp3": "sections/mp3/sec-085.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-085-p-001",
+          "text": "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَاذَا تَعْبُدُونَ",
+          "ttsText": "Sâffât seksen beşinci ayet. إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَاذَا تَعْبُدُونَ",
+          "request": "requests/sec-085-p-001.json",
+          "response": "responses/sec-085-p-001.json",
+          "wav": "originals/wav/sec-085-p-001.wav",
+          "mp3": "originals/mp3/sec-085-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 86,
+      "title": "Sâffât 86",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-086.wav",
+      "mp3": "sections/mp3/sec-086.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-086-p-001",
+          "text": "أَئِفْكًا ءَالِهَةًۭ دُونَ ٱللَّهِ تُرِيدُونَ",
+          "ttsText": "Sâffât seksen altıncı ayet. أَئِفْكًا ءَالِهَةًۭ دُونَ ٱللَّهِ تُرِيدُونَ",
+          "request": "requests/sec-086-p-001.json",
+          "response": "responses/sec-086-p-001.json",
+          "wav": "originals/wav/sec-086-p-001.wav",
+          "mp3": "originals/mp3/sec-086-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 87,
+      "title": "Sâffât 87",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-087.wav",
+      "mp3": "sections/mp3/sec-087.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-087-p-001",
+          "text": "فَمَا ظَنُّكُم بِرَبِّ ٱلْعَٰلَمِينَ",
+          "ttsText": "Sâffât seksen yedinci ayet. فَمَا ظَنُّكُم بِرَبِّ ٱلْعَٰلَمِينَ",
+          "request": "requests/sec-087-p-001.json",
+          "response": "responses/sec-087-p-001.json",
+          "wav": "originals/wav/sec-087-p-001.wav",
+          "mp3": "originals/mp3/sec-087-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 88,
+      "title": "Sâffât 88",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-088.wav",
+      "mp3": "sections/mp3/sec-088.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-088-p-001",
+          "text": "فَنَظَرَ نَظْرَةًۭ فِى ٱلنُّجُومِ",
+          "ttsText": "Sâffât seksen sekizinci ayet. فَنَظَرَ نَظْرَةًۭ فِى ٱلنُّجُومِ",
+          "request": "requests/sec-088-p-001.json",
+          "response": "responses/sec-088-p-001.json",
+          "wav": "originals/wav/sec-088-p-001.wav",
+          "mp3": "originals/mp3/sec-088-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 89,
+      "title": "Sâffât 89",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-089.wav",
+      "mp3": "sections/mp3/sec-089.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-089-p-001",
+          "text": "فَقَالَ إِنِّى سَقِيمٌۭ",
+          "ttsText": "Sâffât seksen dokuzuncu ayet. فَقَالَ إِنِّى سَقِيمٌۭ",
+          "request": "requests/sec-089-p-001.json",
+          "response": "responses/sec-089-p-001.json",
+          "wav": "originals/wav/sec-089-p-001.wav",
+          "mp3": "originals/mp3/sec-089-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 90,
+      "title": "Sâffât 90",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-090.wav",
+      "mp3": "sections/mp3/sec-090.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-090-p-001",
+          "text": "فَتَوَلَّوْا۟ عَنْهُ مُدْبِرِينَ",
+          "ttsText": "Sâffât doksanıncı ayet. فَتَوَلَّوْا۟ عَنْهُ مُدْبِرِينَ",
+          "request": "requests/sec-090-p-001.json",
+          "response": "responses/sec-090-p-001.json",
+          "wav": "originals/wav/sec-090-p-001.wav",
+          "mp3": "originals/mp3/sec-090-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 91,
+      "title": "Sâffât 91",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-091.wav",
+      "mp3": "sections/mp3/sec-091.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-091-p-001",
+          "text": "فَرَاغَ إِلَىٰٓ ءَالِهَتِهِمْ فَقَالَ أَلَا تَأْكُلُونَ",
+          "ttsText": "Sâffât doksan birinci ayet. فَرَاغَ إِلَىٰٓ ءَالِهَتِهِمْ فَقَالَ أَلَا تَأْكُلُونَ",
+          "request": "requests/sec-091-p-001.json",
+          "response": "responses/sec-091-p-001.json",
+          "wav": "originals/wav/sec-091-p-001.wav",
+          "mp3": "originals/mp3/sec-091-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 92,
+      "title": "Sâffât 92",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-092.wav",
+      "mp3": "sections/mp3/sec-092.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-092-p-001",
+          "text": "مَا لَكُمْ لَا تَنطِقُونَ",
+          "ttsText": "Sâffât doksan ikinci ayet. مَا لَكُمْ لَا تَنطِقُونَ",
+          "request": "requests/sec-092-p-001.json",
+          "response": "responses/sec-092-p-001.json",
+          "wav": "originals/wav/sec-092-p-001.wav",
+          "mp3": "originals/mp3/sec-092-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 93,
+      "title": "Sâffât 93",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-093.wav",
+      "mp3": "sections/mp3/sec-093.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-093-p-001",
+          "text": "فَرَاغَ عَلَيْهِمْ ضَرْبًۢا بِٱلْيَمِينِ",
+          "ttsText": "Sâffât doksan üçüncü ayet. فَرَاغَ عَلَيْهِمْ ضَرْبًۢا بِٱلْيَمِينِ",
+          "request": "requests/sec-093-p-001.json",
+          "response": "responses/sec-093-p-001.json",
+          "wav": "originals/wav/sec-093-p-001.wav",
+          "mp3": "originals/mp3/sec-093-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 94,
+      "title": "Sâffât 94",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-094.wav",
+      "mp3": "sections/mp3/sec-094.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-094-p-001",
+          "text": "فَأَقْبَلُوٓا۟ إِلَيْهِ يَزِفُّونَ",
+          "ttsText": "Sâffât doksan dördüncü ayet. فَأَقْبَلُوٓا۟ إِلَيْهِ يَزِفُّونَ",
+          "request": "requests/sec-094-p-001.json",
+          "response": "responses/sec-094-p-001.json",
+          "wav": "originals/wav/sec-094-p-001.wav",
+          "mp3": "originals/mp3/sec-094-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 95,
+      "title": "Sâffât 95",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-095.wav",
+      "mp3": "sections/mp3/sec-095.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-095-p-001",
+          "text": "قَالَ أَتَعْبُدُونَ مَا تَنْحِتُونَ",
+          "ttsText": "Sâffât doksan beşinci ayet. قَالَ أَتَعْبُدُونَ مَا تَنْحِتُونَ",
+          "request": "requests/sec-095-p-001.json",
+          "response": "responses/sec-095-p-001.json",
+          "wav": "originals/wav/sec-095-p-001.wav",
+          "mp3": "originals/mp3/sec-095-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 96,
+      "title": "Sâffât 96",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-096.wav",
+      "mp3": "sections/mp3/sec-096.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-096-p-001",
+          "text": "وَٱللَّهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ",
+          "ttsText": "Sâffât doksan altıncı ayet. وَٱللَّهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ",
+          "request": "requests/sec-096-p-001.json",
+          "response": "responses/sec-096-p-001.json",
+          "wav": "originals/wav/sec-096-p-001.wav",
+          "mp3": "originals/mp3/sec-096-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 97,
+      "title": "Sâffât 97",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-097.wav",
+      "mp3": "sections/mp3/sec-097.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-097-p-001",
+          "text": "قَالُوا۟ ٱبْنُوا۟ لَهُۥ بُنْيَٰنًۭا فَأَلْقُوهُ فِى ٱلْجَحِيمِ",
+          "ttsText": "Sâffât doksan yedinci ayet. قَالُوا۟ ٱبْنُوا۟ لَهُۥ بُنْيَٰنًۭا فَأَلْقُوهُ فِى ٱلْجَحِيمِ",
+          "request": "requests/sec-097-p-001.json",
+          "response": "responses/sec-097-p-001.json",
+          "wav": "originals/wav/sec-097-p-001.wav",
+          "mp3": "originals/mp3/sec-097-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 98,
+      "title": "Sâffât 98",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-098.wav",
+      "mp3": "sections/mp3/sec-098.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-098-p-001",
+          "text": "فَأَرَادُوا۟ بِهِۦ كَيْدًۭا فَجَعَلْنَٰهُمُ ٱلْأَسْفَلِينَ",
+          "ttsText": "Sâffât doksan sekizinci ayet. فَأَرَادُوا۟ بِهِۦ كَيْدًۭا فَجَعَلْنَٰهُمُ ٱلْأَسْفَلِينَ",
+          "request": "requests/sec-098-p-001.json",
+          "response": "responses/sec-098-p-001.json",
+          "wav": "originals/wav/sec-098-p-001.wav",
+          "mp3": "originals/mp3/sec-098-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 99,
+      "title": "Sâffât 99",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-099.wav",
+      "mp3": "sections/mp3/sec-099.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-099-p-001",
+          "text": "وَقَالَ إِنِّى ذَاهِبٌ إِلَىٰ رَبِّى سَيَهْدِينِ",
+          "ttsText": "Sâffât doksan dokuzuncu ayet. وَقَالَ إِنِّى ذَاهِبٌ إِلَىٰ رَبِّى سَيَهْدِينِ",
+          "request": "requests/sec-099-p-001.json",
+          "response": "responses/sec-099-p-001.json",
+          "wav": "originals/wav/sec-099-p-001.wav",
+          "mp3": "originals/mp3/sec-099-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 100,
+      "title": "Sâffât 100",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-100.wav",
+      "mp3": "sections/mp3/sec-100.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-100-p-001",
+          "text": "رَبِّ هَبْ لِى مِنَ ٱلصَّٰلِحِينَ",
+          "ttsText": "Sâffât yüzüncü ayet. رَبِّ هَبْ لِى مِنَ ٱلصَّٰلِحِينَ",
+          "request": "requests/sec-100-p-001.json",
+          "response": "responses/sec-100-p-001.json",
+          "wav": "originals/wav/sec-100-p-001.wav",
+          "mp3": "originals/mp3/sec-100-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 101,
+      "title": "Sâffât 101",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-101.wav",
+      "mp3": "sections/mp3/sec-101.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-101-p-001",
+          "text": "فَبَشَّرْنَٰهُ بِغُلَٰمٍ حَلِيمٍۢ",
+          "ttsText": "Sâffât yüz birinci ayet. فَبَشَّرْنَٰهُ بِغُلَٰمٍ حَلِيمٍۢ",
+          "request": "requests/sec-101-p-001.json",
+          "response": "responses/sec-101-p-001.json",
+          "wav": "originals/wav/sec-101-p-001.wav",
+          "mp3": "originals/mp3/sec-101-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 102,
+      "title": "Sâffât 102",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-102.wav",
+      "mp3": "sections/mp3/sec-102.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-102-p-001",
+          "text": "فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ",
+          "ttsText": "Sâffât yüz ikinci ayet. فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ",
+          "request": "requests/sec-102-p-001.json",
+          "response": "responses/sec-102-p-001.json",
+          "wav": "originals/wav/sec-102-p-001.wav",
+          "mp3": "originals/mp3/sec-102-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 103,
+      "title": "Sâffât 103",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-103.wav",
+      "mp3": "sections/mp3/sec-103.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-103-p-001",
+          "text": "فَلَمَّآ أَسْلَمَا وَتَلَّهُۥ لِلْجَبِينِ",
+          "ttsText": "Sâffât yüz üçüncü ayet. فَلَمَّآ أَسْلَمَا وَتَلَّهُۥ لِلْجَبِينِ",
+          "request": "requests/sec-103-p-001.json",
+          "response": "responses/sec-103-p-001.json",
+          "wav": "originals/wav/sec-103-p-001.wav",
+          "mp3": "originals/mp3/sec-103-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 104,
+      "title": "Sâffât 104",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-104.wav",
+      "mp3": "sections/mp3/sec-104.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-104-p-001",
+          "text": "وَنَٰدَيْنَٰهُ أَن يَٰٓإِبْرَٰهِيمُ",
+          "ttsText": "Sâffât yüz dördüncü ayet. وَنَٰدَيْنَٰهُ أَن يَٰٓإِبْرَٰهِيمُ",
+          "request": "requests/sec-104-p-001.json",
+          "response": "responses/sec-104-p-001.json",
+          "wav": "originals/wav/sec-104-p-001.wav",
+          "mp3": "originals/mp3/sec-104-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 105,
+      "title": "Sâffât 105",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-105.wav",
+      "mp3": "sections/mp3/sec-105.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-105-p-001",
+          "text": "قَدْ صَدَّقْتَ ٱلرُّءْيَآ ۚ إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "ttsText": "Sâffât yüz beşinci ayet. قَدْ صَدَّقْتَ ٱلرُّءْيَآ ۚ إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "request": "requests/sec-105-p-001.json",
+          "response": "responses/sec-105-p-001.json",
+          "wav": "originals/wav/sec-105-p-001.wav",
+          "mp3": "originals/mp3/sec-105-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 106,
+      "title": "Sâffât 106",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-106.wav",
+      "mp3": "sections/mp3/sec-106.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-106-p-001",
+          "text": "إِنَّ هَٰذَا لَهُوَ ٱلْبَلَٰٓؤُا۟ ٱلْمُبِينُ",
+          "ttsText": "Sâffât yüz altıncı ayet. إِنَّ هَٰذَا لَهُوَ ٱلْبَلَٰٓؤُا۟ ٱلْمُبِينُ",
+          "request": "requests/sec-106-p-001.json",
+          "response": "responses/sec-106-p-001.json",
+          "wav": "originals/wav/sec-106-p-001.wav",
+          "mp3": "originals/mp3/sec-106-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 107,
+      "title": "Sâffât 107",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-107.wav",
+      "mp3": "sections/mp3/sec-107.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-107-p-001",
+          "text": "وَفَدَيْنَٰهُ بِذِبْحٍ عَظِيمٍۢ",
+          "ttsText": "Sâffât yüz yedinci ayet. وَفَدَيْنَٰهُ بِذِبْحٍ عَظِيمٍۢ",
+          "request": "requests/sec-107-p-001.json",
+          "response": "responses/sec-107-p-001.json",
+          "wav": "originals/wav/sec-107-p-001.wav",
+          "mp3": "originals/mp3/sec-107-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 108,
+      "title": "Sâffât 108",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-108.wav",
+      "mp3": "sections/mp3/sec-108.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-108-p-001",
+          "text": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْءَاخِرِينَ",
+          "ttsText": "Sâffât yüz sekizinci ayet. وَتَرَكْنَا عَلَيْهِ فِى ٱلْءَاخِرِينَ",
+          "request": "requests/sec-108-p-001.json",
+          "response": "responses/sec-108-p-001.json",
+          "wav": "originals/wav/sec-108-p-001.wav",
+          "mp3": "originals/mp3/sec-108-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 109,
+      "title": "Sâffât 109",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-109.wav",
+      "mp3": "sections/mp3/sec-109.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-109-p-001",
+          "text": "سَلَٰمٌ عَلَىٰٓ إِبْرَٰهِيمَ",
+          "ttsText": "Sâffât yüz dokuzuncu ayet. سَلَٰمٌ عَلَىٰٓ إِبْرَٰهِيمَ",
+          "request": "requests/sec-109-p-001.json",
+          "response": "responses/sec-109-p-001.json",
+          "wav": "originals/wav/sec-109-p-001.wav",
+          "mp3": "originals/mp3/sec-109-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 110,
+      "title": "Sâffât 110",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-110.wav",
+      "mp3": "sections/mp3/sec-110.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-110-p-001",
+          "text": "كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "ttsText": "Sâffât yüz onuncu ayet. كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "request": "requests/sec-110-p-001.json",
+          "response": "responses/sec-110-p-001.json",
+          "wav": "originals/wav/sec-110-p-001.wav",
+          "mp3": "originals/mp3/sec-110-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 111,
+      "title": "Sâffât 111",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-111.wav",
+      "mp3": "sections/mp3/sec-111.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-111-p-001",
+          "text": "إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+          "ttsText": "Sâffât yüz on birinci ayet. إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+          "request": "requests/sec-111-p-001.json",
+          "response": "responses/sec-111-p-001.json",
+          "wav": "originals/wav/sec-111-p-001.wav",
+          "mp3": "originals/mp3/sec-111-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 112,
+      "title": "Sâffât 112",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-112.wav",
+      "mp3": "sections/mp3/sec-112.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-112-p-001",
+          "text": "وَبَشَّرْنَٰهُ بِإِسْحَٰقَ نَبِيًّۭا مِّنَ ٱلصَّٰلِحِينَ",
+          "ttsText": "Sâffât yüz on ikinci ayet. وَبَشَّرْنَٰهُ بِإِسْحَٰقَ نَبِيًّۭا مِّنَ ٱلصَّٰلِحِينَ",
+          "request": "requests/sec-112-p-001.json",
+          "response": "responses/sec-112-p-001.json",
+          "wav": "originals/wav/sec-112-p-001.wav",
+          "mp3": "originals/mp3/sec-112-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 113,
+      "title": "Sâffât 113",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-113.wav",
+      "mp3": "sections/mp3/sec-113.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-113-p-001",
+          "text": "وَبَٰرَكْنَا عَلَيْهِ وَعَلَىٰٓ إِسْحَٰقَ ۚ وَمِن ذُرِّيَّتِهِمَا مُحْسِنٌۭ وَظَالِمٌۭ لِّنَفْسِهِۦ مُبِينٌۭ",
+          "ttsText": "Sâffât yüz on üçüncü ayet. وَبَٰرَكْنَا عَلَيْهِ وَعَلَىٰٓ إِسْحَٰقَ ۚ وَمِن ذُرِّيَّتِهِمَا مُحْسِنٌۭ وَظَالِمٌۭ لِّنَفْسِهِۦ مُبِينٌۭ",
+          "request": "requests/sec-113-p-001.json",
+          "response": "responses/sec-113-p-001.json",
+          "wav": "originals/wav/sec-113-p-001.wav",
+          "mp3": "originals/mp3/sec-113-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 114,
+      "title": "Sâffât 114",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-114.wav",
+      "mp3": "sections/mp3/sec-114.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-114-p-001",
+          "text": "وَلَقَدْ مَنَنَّا عَلَىٰ مُوسَىٰ وَهَٰرُونَ",
+          "ttsText": "Sâffât yüz on dördüncü ayet. وَلَقَدْ مَنَنَّا عَلَىٰ مُوسَىٰ وَهَٰرُونَ",
+          "request": "requests/sec-114-p-001.json",
+          "response": "responses/sec-114-p-001.json",
+          "wav": "originals/wav/sec-114-p-001.wav",
+          "mp3": "originals/mp3/sec-114-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 115,
+      "title": "Sâffât 115",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-115.wav",
+      "mp3": "sections/mp3/sec-115.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-115-p-001",
+          "text": "وَنَجَّيْنَٰهُمَا وَقَوْمَهُمَا مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
+          "ttsText": "Sâffât yüz on beşinci ayet. وَنَجَّيْنَٰهُمَا وَقَوْمَهُمَا مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
+          "request": "requests/sec-115-p-001.json",
+          "response": "responses/sec-115-p-001.json",
+          "wav": "originals/wav/sec-115-p-001.wav",
+          "mp3": "originals/mp3/sec-115-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 116,
+      "title": "Sâffât 116",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-116.wav",
+      "mp3": "sections/mp3/sec-116.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-116-p-001",
+          "text": "وَنَصَرْنَٰهُمْ فَكَانُوا۟ هُمُ ٱلْغَٰلِبِينَ",
+          "ttsText": "Sâffât yüz on altıncı ayet. وَنَصَرْنَٰهُمْ فَكَانُوا۟ هُمُ ٱلْغَٰلِبِينَ",
+          "request": "requests/sec-116-p-001.json",
+          "response": "responses/sec-116-p-001.json",
+          "wav": "originals/wav/sec-116-p-001.wav",
+          "mp3": "originals/mp3/sec-116-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 117,
+      "title": "Sâffât 117",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-117.wav",
+      "mp3": "sections/mp3/sec-117.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-117-p-001",
+          "text": "وَءَاتَيْنَٰهُمَا ٱلْكِتَٰبَ ٱلْمُسْتَبِينَ",
+          "ttsText": "Sâffât yüz on yedinci ayet. وَءَاتَيْنَٰهُمَا ٱلْكِتَٰبَ ٱلْمُسْتَبِينَ",
+          "request": "requests/sec-117-p-001.json",
+          "response": "responses/sec-117-p-001.json",
+          "wav": "originals/wav/sec-117-p-001.wav",
+          "mp3": "originals/mp3/sec-117-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 118,
+      "title": "Sâffât 118",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-118.wav",
+      "mp3": "sections/mp3/sec-118.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-118-p-001",
+          "text": "وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "ttsText": "Sâffât yüz on sekizinci ayet. وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "request": "requests/sec-118-p-001.json",
+          "response": "responses/sec-118-p-001.json",
+          "wav": "originals/wav/sec-118-p-001.wav",
+          "mp3": "originals/mp3/sec-118-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 119,
+      "title": "Sâffât 119",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-119.wav",
+      "mp3": "sections/mp3/sec-119.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-119-p-001",
+          "text": "وَتَرَكْنَا عَلَيْهِمَا فِى ٱلْءَاخِرِينَ",
+          "ttsText": "Sâffât yüz on dokuzuncu ayet. وَتَرَكْنَا عَلَيْهِمَا فِى ٱلْءَاخِرِينَ",
+          "request": "requests/sec-119-p-001.json",
+          "response": "responses/sec-119-p-001.json",
+          "wav": "originals/wav/sec-119-p-001.wav",
+          "mp3": "originals/mp3/sec-119-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 120,
+      "title": "Sâffât 120",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-120.wav",
+      "mp3": "sections/mp3/sec-120.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-120-p-001",
+          "text": "سَلَٰمٌ عَلَىٰ مُوسَىٰ وَهَٰرُونَ",
+          "ttsText": "Sâffât yüz yirminci ayet. سَلَٰمٌ عَلَىٰ مُوسَىٰ وَهَٰرُونَ",
+          "request": "requests/sec-120-p-001.json",
+          "response": "responses/sec-120-p-001.json",
+          "wav": "originals/wav/sec-120-p-001.wav",
+          "mp3": "originals/mp3/sec-120-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 121,
+      "title": "Sâffât 121",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-121.wav",
+      "mp3": "sections/mp3/sec-121.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-121-p-001",
+          "text": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "ttsText": "Sâffât yüz yirmi birinci ayet. إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "request": "requests/sec-121-p-001.json",
+          "response": "responses/sec-121-p-001.json",
+          "wav": "originals/wav/sec-121-p-001.wav",
+          "mp3": "originals/mp3/sec-121-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 122,
+      "title": "Sâffât 122",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-122.wav",
+      "mp3": "sections/mp3/sec-122.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-122-p-001",
+          "text": "إِنَّهُمَا مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+          "ttsText": "Sâffât yüz yirmi ikinci ayet. إِنَّهُمَا مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+          "request": "requests/sec-122-p-001.json",
+          "response": "responses/sec-122-p-001.json",
+          "wav": "originals/wav/sec-122-p-001.wav",
+          "mp3": "originals/mp3/sec-122-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 123,
+      "title": "Sâffât 123",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-123.wav",
+      "mp3": "sections/mp3/sec-123.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-123-p-001",
+          "text": "وَإِنَّ إِلْيَاسَ لَمِنَ ٱلْمُرْسَلِينَ",
+          "ttsText": "Sâffât yüz yirmi üçüncü ayet. وَإِنَّ إِلْيَاسَ لَمِنَ ٱلْمُرْسَلِينَ",
+          "request": "requests/sec-123-p-001.json",
+          "response": "responses/sec-123-p-001.json",
+          "wav": "originals/wav/sec-123-p-001.wav",
+          "mp3": "originals/mp3/sec-123-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 124,
+      "title": "Sâffât 124",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-124.wav",
+      "mp3": "sections/mp3/sec-124.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-124-p-001",
+          "text": "إِذْ قَالَ لِقَوْمِهِۦٓ أَلَا تَتَّقُونَ",
+          "ttsText": "Sâffât yüz yirmi dördüncü ayet. إِذْ قَالَ لِقَوْمِهِۦٓ أَلَا تَتَّقُونَ",
+          "request": "requests/sec-124-p-001.json",
+          "response": "responses/sec-124-p-001.json",
+          "wav": "originals/wav/sec-124-p-001.wav",
+          "mp3": "originals/mp3/sec-124-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 125,
+      "title": "Sâffât 125",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-125.wav",
+      "mp3": "sections/mp3/sec-125.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-125-p-001",
+          "text": "أَتَدْعُونَ بَعْلًۭا وَتَذَرُونَ أَحْسَنَ ٱلْخَٰلِقِينَ",
+          "ttsText": "Sâffât yüz yirmi beşinci ayet. أَتَدْعُونَ بَعْلًۭا وَتَذَرُونَ أَحْسَنَ ٱلْخَٰلِقِينَ",
+          "request": "requests/sec-125-p-001.json",
+          "response": "responses/sec-125-p-001.json",
+          "wav": "originals/wav/sec-125-p-001.wav",
+          "mp3": "originals/mp3/sec-125-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 126,
+      "title": "Sâffât 126",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-126.wav",
+      "mp3": "sections/mp3/sec-126.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-126-p-001",
+          "text": "ٱللَّهَ رَبَّكُمْ وَرَبَّ ءَابَآئِكُمُ ٱلْأَوَّلِينَ",
+          "ttsText": "Sâffât yüz yirmi altıncı ayet. ٱللَّهَ رَبَّكُمْ وَرَبَّ ءَابَآئِكُمُ ٱلْأَوَّلِينَ",
+          "request": "requests/sec-126-p-001.json",
+          "response": "responses/sec-126-p-001.json",
+          "wav": "originals/wav/sec-126-p-001.wav",
+          "mp3": "originals/mp3/sec-126-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 127,
+      "title": "Sâffât 127",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-127.wav",
+      "mp3": "sections/mp3/sec-127.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-127-p-001",
+          "text": "فَكَذَّبُوهُ فَإِنَّهُمْ لَمُحْضَرُونَ",
+          "ttsText": "Sâffât yüz yirmi yedinci ayet. فَكَذَّبُوهُ فَإِنَّهُمْ لَمُحْضَرُونَ",
+          "request": "requests/sec-127-p-001.json",
+          "response": "responses/sec-127-p-001.json",
+          "wav": "originals/wav/sec-127-p-001.wav",
+          "mp3": "originals/mp3/sec-127-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 128,
+      "title": "Sâffât 128",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-128.wav",
+      "mp3": "sections/mp3/sec-128.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-128-p-001",
+          "text": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "ttsText": "Sâffât yüz yirmi sekizinci ayet. إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "request": "requests/sec-128-p-001.json",
+          "response": "responses/sec-128-p-001.json",
+          "wav": "originals/wav/sec-128-p-001.wav",
+          "mp3": "originals/mp3/sec-128-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 129,
+      "title": "Sâffât 129",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-129.wav",
+      "mp3": "sections/mp3/sec-129.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-129-p-001",
+          "text": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْءَاخِرِينَ",
+          "ttsText": "Sâffât yüz yirmi dokuzuncu ayet. وَتَرَكْنَا عَلَيْهِ فِى ٱلْءَاخِرِينَ",
+          "request": "requests/sec-129-p-001.json",
+          "response": "responses/sec-129-p-001.json",
+          "wav": "originals/wav/sec-129-p-001.wav",
+          "mp3": "originals/mp3/sec-129-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 130,
+      "title": "Sâffât 130",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-130.wav",
+      "mp3": "sections/mp3/sec-130.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-130-p-001",
+          "text": "سَلَٰمٌ عَلَىٰٓ إِلْ يَاسِينَ",
+          "ttsText": "Sâffât yüz otuzuncu ayet. سَلَٰمٌ عَلَىٰٓ إِلْ يَاسِينَ",
+          "request": "requests/sec-130-p-001.json",
+          "response": "responses/sec-130-p-001.json",
+          "wav": "originals/wav/sec-130-p-001.wav",
+          "mp3": "originals/mp3/sec-130-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 131,
+      "title": "Sâffât 131",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-131.wav",
+      "mp3": "sections/mp3/sec-131.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-131-p-001",
+          "text": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "ttsText": "Sâffât yüz otuz birinci ayet. إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "request": "requests/sec-131-p-001.json",
+          "response": "responses/sec-131-p-001.json",
+          "wav": "originals/wav/sec-131-p-001.wav",
+          "mp3": "originals/mp3/sec-131-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 132,
+      "title": "Sâffât 132",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-132.wav",
+      "mp3": "sections/mp3/sec-132.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-132-p-001",
+          "text": "إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+          "ttsText": "Sâffât yüz otuz ikinci ayet. إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+          "request": "requests/sec-132-p-001.json",
+          "response": "responses/sec-132-p-001.json",
+          "wav": "originals/wav/sec-132-p-001.wav",
+          "mp3": "originals/mp3/sec-132-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 133,
+      "title": "Sâffât 133",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-133.wav",
+      "mp3": "sections/mp3/sec-133.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-133-p-001",
+          "text": "وَإِنَّ لُوطًۭا لَّمِنَ ٱلْمُرْسَلِينَ",
+          "ttsText": "Sâffât yüz otuz üçüncü ayet. وَإِنَّ لُوطًۭا لَّمِنَ ٱلْمُرْسَلِينَ",
+          "request": "requests/sec-133-p-001.json",
+          "response": "responses/sec-133-p-001.json",
+          "wav": "originals/wav/sec-133-p-001.wav",
+          "mp3": "originals/mp3/sec-133-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 134,
+      "title": "Sâffât 134",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-134.wav",
+      "mp3": "sections/mp3/sec-134.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-134-p-001",
+          "text": "إِذْ نَجَّيْنَٰهُ وَأَهْلَهُۥٓ أَجْمَعِينَ",
+          "ttsText": "Sâffât yüz otuz dördüncü ayet. إِذْ نَجَّيْنَٰهُ وَأَهْلَهُۥٓ أَجْمَعِينَ",
+          "request": "requests/sec-134-p-001.json",
+          "response": "responses/sec-134-p-001.json",
+          "wav": "originals/wav/sec-134-p-001.wav",
+          "mp3": "originals/mp3/sec-134-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 135,
+      "title": "Sâffât 135",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-135.wav",
+      "mp3": "sections/mp3/sec-135.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-135-p-001",
+          "text": "إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ",
+          "ttsText": "Sâffât yüz otuz beşinci ayet. إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ",
+          "request": "requests/sec-135-p-001.json",
+          "response": "responses/sec-135-p-001.json",
+          "wav": "originals/wav/sec-135-p-001.wav",
+          "mp3": "originals/mp3/sec-135-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 136,
+      "title": "Sâffât 136",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-136.wav",
+      "mp3": "sections/mp3/sec-136.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-136-p-001",
+          "text": "ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ",
+          "ttsText": "Sâffât yüz otuz altıncı ayet. ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ",
+          "request": "requests/sec-136-p-001.json",
+          "response": "responses/sec-136-p-001.json",
+          "wav": "originals/wav/sec-136-p-001.wav",
+          "mp3": "originals/mp3/sec-136-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 137,
+      "title": "Sâffât 137",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-137.wav",
+      "mp3": "sections/mp3/sec-137.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-137-p-001",
+          "text": "وَإِنَّكُمْ لَتَمُرُّونَ عَلَيْهِم مُّصْبِحِينَ",
+          "ttsText": "Sâffât yüz otuz yedinci ayet. وَإِنَّكُمْ لَتَمُرُّونَ عَلَيْهِم مُّصْبِحِينَ",
+          "request": "requests/sec-137-p-001.json",
+          "response": "responses/sec-137-p-001.json",
+          "wav": "originals/wav/sec-137-p-001.wav",
+          "mp3": "originals/mp3/sec-137-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 138,
+      "title": "Sâffât 138",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-138.wav",
+      "mp3": "sections/mp3/sec-138.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-138-p-001",
+          "text": "وَبِٱلَّيْلِ ۗ أَفَلَا تَعْقِلُونَ",
+          "ttsText": "Sâffât yüz otuz sekizinci ayet. وَبِٱلَّيْلِ ۗ أَفَلَا تَعْقِلُونَ",
+          "request": "requests/sec-138-p-001.json",
+          "response": "responses/sec-138-p-001.json",
+          "wav": "originals/wav/sec-138-p-001.wav",
+          "mp3": "originals/mp3/sec-138-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 139,
+      "title": "Sâffât 139",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-139.wav",
+      "mp3": "sections/mp3/sec-139.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-139-p-001",
+          "text": "وَإِنَّ يُونُسَ لَمِنَ ٱلْمُرْسَلِينَ",
+          "ttsText": "Sâffât yüz otuz dokuzuncu ayet. وَإِنَّ يُونُسَ لَمِنَ ٱلْمُرْسَلِينَ",
+          "request": "requests/sec-139-p-001.json",
+          "response": "responses/sec-139-p-001.json",
+          "wav": "originals/wav/sec-139-p-001.wav",
+          "mp3": "originals/mp3/sec-139-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 140,
+      "title": "Sâffât 140",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-140.wav",
+      "mp3": "sections/mp3/sec-140.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-140-p-001",
+          "text": "إِذْ أَبَقَ إِلَى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+          "ttsText": "Sâffât yüz kırkıncı ayet. إِذْ أَبَقَ إِلَى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+          "request": "requests/sec-140-p-001.json",
+          "response": "responses/sec-140-p-001.json",
+          "wav": "originals/wav/sec-140-p-001.wav",
+          "mp3": "originals/mp3/sec-140-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 141,
+      "title": "Sâffât 141",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-141.wav",
+      "mp3": "sections/mp3/sec-141.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-141-p-001",
+          "text": "فَسَاهَمَ فَكَانَ مِنَ ٱلْمُدْحَضِينَ",
+          "ttsText": "Sâffât yüz kırk birinci ayet. فَسَاهَمَ فَكَانَ مِنَ ٱلْمُدْحَضِينَ",
+          "request": "requests/sec-141-p-001.json",
+          "response": "responses/sec-141-p-001.json",
+          "wav": "originals/wav/sec-141-p-001.wav",
+          "mp3": "originals/mp3/sec-141-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 142,
+      "title": "Sâffât 142",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-142.wav",
+      "mp3": "sections/mp3/sec-142.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-142-p-001",
+          "text": "فَٱلْتَقَمَهُ ٱلْحُوتُ وَهُوَ مُلِيمٌۭ",
+          "ttsText": "Sâffât yüz kırk ikinci ayet. فَٱلْتَقَمَهُ ٱلْحُوتُ وَهُوَ مُلِيمٌۭ",
+          "request": "requests/sec-142-p-001.json",
+          "response": "responses/sec-142-p-001.json",
+          "wav": "originals/wav/sec-142-p-001.wav",
+          "mp3": "originals/mp3/sec-142-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 143,
+      "title": "Sâffât 143",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-143.wav",
+      "mp3": "sections/mp3/sec-143.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-143-p-001",
+          "text": "فَلَوْلَآ أَنَّهُۥ كَانَ مِنَ ٱلْمُسَبِّحِينَ",
+          "ttsText": "Sâffât yüz kırk üçüncü ayet. فَلَوْلَآ أَنَّهُۥ كَانَ مِنَ ٱلْمُسَبِّحِينَ",
+          "request": "requests/sec-143-p-001.json",
+          "response": "responses/sec-143-p-001.json",
+          "wav": "originals/wav/sec-143-p-001.wav",
+          "mp3": "originals/mp3/sec-143-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 144,
+      "title": "Sâffât 144",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-144.wav",
+      "mp3": "sections/mp3/sec-144.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-144-p-001",
+          "text": "لَلَبِثَ فِى بَطْنِهِۦٓ إِلَىٰ يَوْمِ يُبْعَثُونَ",
+          "ttsText": "Sâffât yüz kırk dördüncü ayet. لَلَبِثَ فِى بَطْنِهِۦٓ إِلَىٰ يَوْمِ يُبْعَثُونَ",
+          "request": "requests/sec-144-p-001.json",
+          "response": "responses/sec-144-p-001.json",
+          "wav": "originals/wav/sec-144-p-001.wav",
+          "mp3": "originals/mp3/sec-144-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 145,
+      "title": "Sâffât 145",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-145.wav",
+      "mp3": "sections/mp3/sec-145.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-145-p-001",
+          "text": "۞ فَنَبَذْنَٰهُ بِٱلْعَرَآءِ وَهُوَ سَقِيمٌۭ",
+          "ttsText": "Sâffât yüz kırk beşinci ayet. ۞ فَنَبَذْنَٰهُ بِٱلْعَرَآءِ وَهُوَ سَقِيمٌۭ",
+          "request": "requests/sec-145-p-001.json",
+          "response": "responses/sec-145-p-001.json",
+          "wav": "originals/wav/sec-145-p-001.wav",
+          "mp3": "originals/mp3/sec-145-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 146,
+      "title": "Sâffât 146",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-146.wav",
+      "mp3": "sections/mp3/sec-146.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-146-p-001",
+          "text": "وَأَنۢبَتْنَا عَلَيْهِ شَجَرَةًۭ مِّن يَقْطِينٍۢ",
+          "ttsText": "Sâffât yüz kırk altıncı ayet. وَأَنۢبَتْنَا عَلَيْهِ شَجَرَةًۭ مِّن يَقْطِينٍۢ",
+          "request": "requests/sec-146-p-001.json",
+          "response": "responses/sec-146-p-001.json",
+          "wav": "originals/wav/sec-146-p-001.wav",
+          "mp3": "originals/mp3/sec-146-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 147,
+      "title": "Sâffât 147",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-147.wav",
+      "mp3": "sections/mp3/sec-147.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-147-p-001",
+          "text": "وَأَرْسَلْنَٰهُ إِلَىٰ مِا۟ئَةِ أَلْفٍ أَوْ يَزِيدُونَ",
+          "ttsText": "Sâffât yüz kırk yedinci ayet. وَأَرْسَلْنَٰهُ إِلَىٰ مِا۟ئَةِ أَلْفٍ أَوْ يَزِيدُونَ",
+          "request": "requests/sec-147-p-001.json",
+          "response": "responses/sec-147-p-001.json",
+          "wav": "originals/wav/sec-147-p-001.wav",
+          "mp3": "originals/mp3/sec-147-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 148,
+      "title": "Sâffât 148",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-148.wav",
+      "mp3": "sections/mp3/sec-148.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-148-p-001",
+          "text": "فَـَٔامَنُوا۟ فَمَتَّعْنَٰهُمْ إِلَىٰ حِينٍۢ",
+          "ttsText": "Sâffât yüz kırk sekizinci ayet. فَـَٔامَنُوا۟ فَمَتَّعْنَٰهُمْ إِلَىٰ حِينٍۢ",
+          "request": "requests/sec-148-p-001.json",
+          "response": "responses/sec-148-p-001.json",
+          "wav": "originals/wav/sec-148-p-001.wav",
+          "mp3": "originals/mp3/sec-148-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 149,
+      "title": "Sâffât 149",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-149.wav",
+      "mp3": "sections/mp3/sec-149.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-149-p-001",
+          "text": "فَٱسْتَفْتِهِمْ أَلِرَبِّكَ ٱلْبَنَاتُ وَلَهُمُ ٱلْبَنُونَ",
+          "ttsText": "Sâffât yüz kırk dokuzuncu ayet. فَٱسْتَفْتِهِمْ أَلِرَبِّكَ ٱلْبَنَاتُ وَلَهُمُ ٱلْبَنُونَ",
+          "request": "requests/sec-149-p-001.json",
+          "response": "responses/sec-149-p-001.json",
+          "wav": "originals/wav/sec-149-p-001.wav",
+          "mp3": "originals/mp3/sec-149-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 150,
+      "title": "Sâffât 150",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-150.wav",
+      "mp3": "sections/mp3/sec-150.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-150-p-001",
+          "text": "أَمْ خَلَقْنَا ٱلْمَلَٰٓئِكَةَ إِنَٰثًۭا وَهُمْ شَٰهِدُونَ",
+          "ttsText": "Sâffât yüz ellinci ayet. أَمْ خَلَقْنَا ٱلْمَلَٰٓئِكَةَ إِنَٰثًۭا وَهُمْ شَٰهِدُونَ",
+          "request": "requests/sec-150-p-001.json",
+          "response": "responses/sec-150-p-001.json",
+          "wav": "originals/wav/sec-150-p-001.wav",
+          "mp3": "originals/mp3/sec-150-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 151,
+      "title": "Sâffât 151",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-151.wav",
+      "mp3": "sections/mp3/sec-151.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-151-p-001",
+          "text": "أَلَآ إِنَّهُم مِّنْ إِفْكِهِمْ لَيَقُولُونَ",
+          "ttsText": "Sâffât yüz elli birinci ayet. أَلَآ إِنَّهُم مِّنْ إِفْكِهِمْ لَيَقُولُونَ",
+          "request": "requests/sec-151-p-001.json",
+          "response": "responses/sec-151-p-001.json",
+          "wav": "originals/wav/sec-151-p-001.wav",
+          "mp3": "originals/mp3/sec-151-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 152,
+      "title": "Sâffât 152",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-152.wav",
+      "mp3": "sections/mp3/sec-152.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-152-p-001",
+          "text": "وَلَدَ ٱللَّهُ وَإِنَّهُمْ لَكَٰذِبُونَ",
+          "ttsText": "Sâffât yüz elli ikinci ayet. وَلَدَ ٱللَّهُ وَإِنَّهُمْ لَكَٰذِبُونَ",
+          "request": "requests/sec-152-p-001.json",
+          "response": "responses/sec-152-p-001.json",
+          "wav": "originals/wav/sec-152-p-001.wav",
+          "mp3": "originals/mp3/sec-152-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 153,
+      "title": "Sâffât 153",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-153.wav",
+      "mp3": "sections/mp3/sec-153.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-153-p-001",
+          "text": "أَصْطَفَى ٱلْبَنَاتِ عَلَى ٱلْبَنِينَ",
+          "ttsText": "Sâffât yüz elli üçüncü ayet. أَصْطَفَى ٱلْبَنَاتِ عَلَى ٱلْبَنِينَ",
+          "request": "requests/sec-153-p-001.json",
+          "response": "responses/sec-153-p-001.json",
+          "wav": "originals/wav/sec-153-p-001.wav",
+          "mp3": "originals/mp3/sec-153-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 154,
+      "title": "Sâffât 154",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-154.wav",
+      "mp3": "sections/mp3/sec-154.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-154-p-001",
+          "text": "مَا لَكُمْ كَيْفَ تَحْكُمُونَ",
+          "ttsText": "Sâffât yüz elli dördüncü ayet. مَا لَكُمْ كَيْفَ تَحْكُمُونَ",
+          "request": "requests/sec-154-p-001.json",
+          "response": "responses/sec-154-p-001.json",
+          "wav": "originals/wav/sec-154-p-001.wav",
+          "mp3": "originals/mp3/sec-154-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 155,
+      "title": "Sâffât 155",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-155.wav",
+      "mp3": "sections/mp3/sec-155.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-155-p-001",
+          "text": "أَفَلَا تَذَكَّرُونَ",
+          "ttsText": "Sâffât yüz elli beşinci ayet. أَفَلَا تَذَكَّرُونَ",
+          "request": "requests/sec-155-p-001.json",
+          "response": "responses/sec-155-p-001.json",
+          "wav": "originals/wav/sec-155-p-001.wav",
+          "mp3": "originals/mp3/sec-155-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 156,
+      "title": "Sâffât 156",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-156.wav",
+      "mp3": "sections/mp3/sec-156.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-156-p-001",
+          "text": "أَمْ لَكُمْ سُلْطَٰنٌۭ مُّبِينٌۭ",
+          "ttsText": "Sâffât yüz elli altıncı ayet. أَمْ لَكُمْ سُلْطَٰنٌۭ مُّبِينٌۭ",
+          "request": "requests/sec-156-p-001.json",
+          "response": "responses/sec-156-p-001.json",
+          "wav": "originals/wav/sec-156-p-001.wav",
+          "mp3": "originals/mp3/sec-156-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 157,
+      "title": "Sâffât 157",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-157.wav",
+      "mp3": "sections/mp3/sec-157.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-157-p-001",
+          "text": "فَأْتُوا۟ بِكِتَٰبِكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+          "ttsText": "Sâffât yüz elli yedinci ayet. فَأْتُوا۟ بِكِتَٰبِكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+          "request": "requests/sec-157-p-001.json",
+          "response": "responses/sec-157-p-001.json",
+          "wav": "originals/wav/sec-157-p-001.wav",
+          "mp3": "originals/mp3/sec-157-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 158,
+      "title": "Sâffât 158",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-158.wav",
+      "mp3": "sections/mp3/sec-158.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-158-p-001",
+          "text": "وَجَعَلُوا۟ بَيْنَهُۥ وَبَيْنَ ٱلْجِنَّةِ نَسَبًۭا ۚ وَلَقَدْ عَلِمَتِ ٱلْجِنَّةُ إِنَّهُمْ لَمُحْضَرُونَ",
+          "ttsText": "Sâffât yüz elli sekizinci ayet. وَجَعَلُوا۟ بَيْنَهُۥ وَبَيْنَ ٱلْجِنَّةِ نَسَبًۭا ۚ وَلَقَدْ عَلِمَتِ ٱلْجِنَّةُ إِنَّهُمْ لَمُحْضَرُونَ",
+          "request": "requests/sec-158-p-001.json",
+          "response": "responses/sec-158-p-001.json",
+          "wav": "originals/wav/sec-158-p-001.wav",
+          "mp3": "originals/mp3/sec-158-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 159,
+      "title": "Sâffât 159",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-159.wav",
+      "mp3": "sections/mp3/sec-159.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-159-p-001",
+          "text": "سُبْحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+          "ttsText": "Sâffât yüz elli dokuzuncu ayet. سُبْحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+          "request": "requests/sec-159-p-001.json",
+          "response": "responses/sec-159-p-001.json",
+          "wav": "originals/wav/sec-159-p-001.wav",
+          "mp3": "originals/mp3/sec-159-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 160,
+      "title": "Sâffât 160",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-160.wav",
+      "mp3": "sections/mp3/sec-160.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-160-p-001",
+          "text": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "ttsText": "Sâffât yüz altmışıncı ayet. إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "request": "requests/sec-160-p-001.json",
+          "response": "responses/sec-160-p-001.json",
+          "wav": "originals/wav/sec-160-p-001.wav",
+          "mp3": "originals/mp3/sec-160-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 161,
+      "title": "Sâffât 161",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-161.wav",
+      "mp3": "sections/mp3/sec-161.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-161-p-001",
+          "text": "فَإِنَّكُمْ وَمَا تَعْبُدُونَ",
+          "ttsText": "Sâffât yüz altmış birinci ayet. فَإِنَّكُمْ وَمَا تَعْبُدُونَ",
+          "request": "requests/sec-161-p-001.json",
+          "response": "responses/sec-161-p-001.json",
+          "wav": "originals/wav/sec-161-p-001.wav",
+          "mp3": "originals/mp3/sec-161-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 162,
+      "title": "Sâffât 162",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-162.wav",
+      "mp3": "sections/mp3/sec-162.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-162-p-001",
+          "text": "مَآ أَنتُمْ عَلَيْهِ بِفَٰتِنِينَ",
+          "ttsText": "Sâffât yüz altmış ikinci ayet. مَآ أَنتُمْ عَلَيْهِ بِفَٰتِنِينَ",
+          "request": "requests/sec-162-p-001.json",
+          "response": "responses/sec-162-p-001.json",
+          "wav": "originals/wav/sec-162-p-001.wav",
+          "mp3": "originals/mp3/sec-162-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 163,
+      "title": "Sâffât 163",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-163.wav",
+      "mp3": "sections/mp3/sec-163.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-163-p-001",
+          "text": "إِلَّا مَنْ هُوَ صَالِ ٱلْجَحِيمِ",
+          "ttsText": "Sâffât yüz altmış üçüncü ayet. إِلَّا مَنْ هُوَ صَالِ ٱلْجَحِيمِ",
+          "request": "requests/sec-163-p-001.json",
+          "response": "responses/sec-163-p-001.json",
+          "wav": "originals/wav/sec-163-p-001.wav",
+          "mp3": "originals/mp3/sec-163-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 164,
+      "title": "Sâffât 164",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-164.wav",
+      "mp3": "sections/mp3/sec-164.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-164-p-001",
+          "text": "وَمَا مِنَّآ إِلَّا لَهُۥ مَقَامٌۭ مَّعْلُومٌۭ",
+          "ttsText": "Sâffât yüz altmış dördüncü ayet. وَمَا مِنَّآ إِلَّا لَهُۥ مَقَامٌۭ مَّعْلُومٌۭ",
+          "request": "requests/sec-164-p-001.json",
+          "response": "responses/sec-164-p-001.json",
+          "wav": "originals/wav/sec-164-p-001.wav",
+          "mp3": "originals/mp3/sec-164-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 165,
+      "title": "Sâffât 165",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-165.wav",
+      "mp3": "sections/mp3/sec-165.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-165-p-001",
+          "text": "وَإِنَّا لَنَحْنُ ٱلصَّآفُّونَ",
+          "ttsText": "Sâffât yüz altmış beşinci ayet. وَإِنَّا لَنَحْنُ ٱلصَّآفُّونَ",
+          "request": "requests/sec-165-p-001.json",
+          "response": "responses/sec-165-p-001.json",
+          "wav": "originals/wav/sec-165-p-001.wav",
+          "mp3": "originals/mp3/sec-165-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 166,
+      "title": "Sâffât 166",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-166.wav",
+      "mp3": "sections/mp3/sec-166.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-166-p-001",
+          "text": "وَإِنَّا لَنَحْنُ ٱلْمُسَبِّحُونَ",
+          "ttsText": "Sâffât yüz altmış altıncı ayet. وَإِنَّا لَنَحْنُ ٱلْمُسَبِّحُونَ",
+          "request": "requests/sec-166-p-001.json",
+          "response": "responses/sec-166-p-001.json",
+          "wav": "originals/wav/sec-166-p-001.wav",
+          "mp3": "originals/mp3/sec-166-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 167,
+      "title": "Sâffât 167",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-167.wav",
+      "mp3": "sections/mp3/sec-167.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-167-p-001",
+          "text": "وَإِن كَانُوا۟ لَيَقُولُونَ",
+          "ttsText": "Sâffât yüz altmış yedinci ayet. وَإِن كَانُوا۟ لَيَقُولُونَ",
+          "request": "requests/sec-167-p-001.json",
+          "response": "responses/sec-167-p-001.json",
+          "wav": "originals/wav/sec-167-p-001.wav",
+          "mp3": "originals/mp3/sec-167-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 168,
+      "title": "Sâffât 168",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-168.wav",
+      "mp3": "sections/mp3/sec-168.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-168-p-001",
+          "text": "لَوْ أَنَّ عِندَنَا ذِكْرًۭا مِّنَ ٱلْأَوَّلِينَ",
+          "ttsText": "Sâffât yüz altmış sekizinci ayet. لَوْ أَنَّ عِندَنَا ذِكْرًۭا مِّنَ ٱلْأَوَّلِينَ",
+          "request": "requests/sec-168-p-001.json",
+          "response": "responses/sec-168-p-001.json",
+          "wav": "originals/wav/sec-168-p-001.wav",
+          "mp3": "originals/mp3/sec-168-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 169,
+      "title": "Sâffât 169",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-169.wav",
+      "mp3": "sections/mp3/sec-169.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-169-p-001",
+          "text": "لَكُنَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "ttsText": "Sâffât yüz altmış dokuzuncu ayet. لَكُنَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "request": "requests/sec-169-p-001.json",
+          "response": "responses/sec-169-p-001.json",
+          "wav": "originals/wav/sec-169-p-001.wav",
+          "mp3": "originals/mp3/sec-169-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 170,
+      "title": "Sâffât 170",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-170.wav",
+      "mp3": "sections/mp3/sec-170.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-170-p-001",
+          "text": "فَكَفَرُوا۟ بِهِۦ ۖ فَسَوْفَ يَعْلَمُونَ",
+          "ttsText": "Sâffât yüz yetmişinci ayet. فَكَفَرُوا۟ بِهِۦ ۖ فَسَوْفَ يَعْلَمُونَ",
+          "request": "requests/sec-170-p-001.json",
+          "response": "responses/sec-170-p-001.json",
+          "wav": "originals/wav/sec-170-p-001.wav",
+          "mp3": "originals/mp3/sec-170-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 171,
+      "title": "Sâffât 171",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-171.wav",
+      "mp3": "sections/mp3/sec-171.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-171-p-001",
+          "text": "وَلَقَدْ سَبَقَتْ كَلِمَتُنَا لِعِبَادِنَا ٱلْمُرْسَلِينَ",
+          "ttsText": "Sâffât yüz yetmiş birinci ayet. وَلَقَدْ سَبَقَتْ كَلِمَتُنَا لِعِبَادِنَا ٱلْمُرْسَلِينَ",
+          "request": "requests/sec-171-p-001.json",
+          "response": "responses/sec-171-p-001.json",
+          "wav": "originals/wav/sec-171-p-001.wav",
+          "mp3": "originals/mp3/sec-171-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 172,
+      "title": "Sâffât 172",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-172.wav",
+      "mp3": "sections/mp3/sec-172.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-172-p-001",
+          "text": "إِنَّهُمْ لَهُمُ ٱلْمَنصُورُونَ",
+          "ttsText": "Sâffât yüz yetmiş ikinci ayet. إِنَّهُمْ لَهُمُ ٱلْمَنصُورُونَ",
+          "request": "requests/sec-172-p-001.json",
+          "response": "responses/sec-172-p-001.json",
+          "wav": "originals/wav/sec-172-p-001.wav",
+          "mp3": "originals/mp3/sec-172-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 173,
+      "title": "Sâffât 173",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-173.wav",
+      "mp3": "sections/mp3/sec-173.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-173-p-001",
+          "text": "وَإِنَّ جُندَنَا لَهُمُ ٱلْغَٰلِبُونَ",
+          "ttsText": "Sâffât yüz yetmiş üçüncü ayet. وَإِنَّ جُندَنَا لَهُمُ ٱلْغَٰلِبُونَ",
+          "request": "requests/sec-173-p-001.json",
+          "response": "responses/sec-173-p-001.json",
+          "wav": "originals/wav/sec-173-p-001.wav",
+          "mp3": "originals/mp3/sec-173-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 174,
+      "title": "Sâffât 174",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-174.wav",
+      "mp3": "sections/mp3/sec-174.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-174-p-001",
+          "text": "فَتَوَلَّ عَنْهُمْ حَتَّىٰ حِينٍۢ",
+          "ttsText": "Sâffât yüz yetmiş dördüncü ayet. فَتَوَلَّ عَنْهُمْ حَتَّىٰ حِينٍۢ",
+          "request": "requests/sec-174-p-001.json",
+          "response": "responses/sec-174-p-001.json",
+          "wav": "originals/wav/sec-174-p-001.wav",
+          "mp3": "originals/mp3/sec-174-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 175,
+      "title": "Sâffât 175",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-175.wav",
+      "mp3": "sections/mp3/sec-175.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-175-p-001",
+          "text": "وَأَبْصِرْهُمْ فَسَوْفَ يُبْصِرُونَ",
+          "ttsText": "Sâffât yüz yetmiş beşinci ayet. وَأَبْصِرْهُمْ فَسَوْفَ يُبْصِرُونَ",
+          "request": "requests/sec-175-p-001.json",
+          "response": "responses/sec-175-p-001.json",
+          "wav": "originals/wav/sec-175-p-001.wav",
+          "mp3": "originals/mp3/sec-175-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 176,
+      "title": "Sâffât 176",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-176.wav",
+      "mp3": "sections/mp3/sec-176.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-176-p-001",
+          "text": "أَفَبِعَذَابِنَا يَسْتَعْجِلُونَ",
+          "ttsText": "Sâffât yüz yetmiş altıncı ayet. أَفَبِعَذَابِنَا يَسْتَعْجِلُونَ",
+          "request": "requests/sec-176-p-001.json",
+          "response": "responses/sec-176-p-001.json",
+          "wav": "originals/wav/sec-176-p-001.wav",
+          "mp3": "originals/mp3/sec-176-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 177,
+      "title": "Sâffât 177",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-177.wav",
+      "mp3": "sections/mp3/sec-177.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-177-p-001",
+          "text": "فَإِذَا نَزَلَ بِسَاحَتِهِمْ فَسَآءَ صَبَاحُ ٱلْمُنذَرِينَ",
+          "ttsText": "Sâffât yüz yetmiş yedinci ayet. فَإِذَا نَزَلَ بِسَاحَتِهِمْ فَسَآءَ صَبَاحُ ٱلْمُنذَرِينَ",
+          "request": "requests/sec-177-p-001.json",
+          "response": "responses/sec-177-p-001.json",
+          "wav": "originals/wav/sec-177-p-001.wav",
+          "mp3": "originals/mp3/sec-177-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 178,
+      "title": "Sâffât 178",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-178.wav",
+      "mp3": "sections/mp3/sec-178.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-178-p-001",
+          "text": "وَتَوَلَّ عَنْهُمْ حَتَّىٰ حِينٍۢ",
+          "ttsText": "Sâffât yüz yetmiş sekizinci ayet. وَتَوَلَّ عَنْهُمْ حَتَّىٰ حِينٍۢ",
+          "request": "requests/sec-178-p-001.json",
+          "response": "responses/sec-178-p-001.json",
+          "wav": "originals/wav/sec-178-p-001.wav",
+          "mp3": "originals/mp3/sec-178-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 179,
+      "title": "Sâffât 179",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-179.wav",
+      "mp3": "sections/mp3/sec-179.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-179-p-001",
+          "text": "وَأَبْصِرْ فَسَوْفَ يُبْصِرُونَ",
+          "ttsText": "Sâffât yüz yetmiş dokuzuncu ayet. وَأَبْصِرْ فَسَوْفَ يُبْصِرُونَ",
+          "request": "requests/sec-179-p-001.json",
+          "response": "responses/sec-179-p-001.json",
+          "wav": "originals/wav/sec-179-p-001.wav",
+          "mp3": "originals/mp3/sec-179-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 180,
+      "title": "Sâffât 180",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-180.wav",
+      "mp3": "sections/mp3/sec-180.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-180-p-001",
+          "text": "سُبْحَٰنَ رَبِّكَ رَبِّ ٱلْعِزَّةِ عَمَّا يَصِفُونَ",
+          "ttsText": "Sâffât yüz sekseninci ayet. سُبْحَٰنَ رَبِّكَ رَبِّ ٱلْعِزَّةِ عَمَّا يَصِفُونَ",
+          "request": "requests/sec-180-p-001.json",
+          "response": "responses/sec-180-p-001.json",
+          "wav": "originals/wav/sec-180-p-001.wav",
+          "mp3": "originals/mp3/sec-180-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 181,
+      "title": "Sâffât 181",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-181.wav",
+      "mp3": "sections/mp3/sec-181.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-181-p-001",
+          "text": "وَسَلَٰمٌ عَلَى ٱلْمُرْسَلِينَ",
+          "ttsText": "Sâffât yüz seksen birinci ayet. وَسَلَٰمٌ عَلَى ٱلْمُرْسَلِينَ",
+          "request": "requests/sec-181-p-001.json",
+          "response": "responses/sec-181-p-001.json",
+          "wav": "originals/wav/sec-181-p-001.wav",
+          "mp3": "originals/mp3/sec-181-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 182,
+      "title": "Sâffât 182",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-182.wav",
+      "mp3": "sections/mp3/sec-182.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-182-p-001",
+          "text": "وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+          "ttsText": "Sâffât yüz seksen ikinci ayet. وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+          "request": "requests/sec-182-p-001.json",
+          "response": "responses/sec-182-p-001.json",
+          "wav": "originals/wav/sec-182-p-001.wav",
+          "mp3": "originals/mp3/sec-182-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    }
+  ]
+}

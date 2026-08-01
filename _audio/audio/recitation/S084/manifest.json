@@ -1,0 +1,603 @@
+{
+  "source": "data/text/quran-uthmani.tsv",
+  "sources": [
+    "data/text/quran-uthmani.tsv"
+  ],
+  "sourceKind": "recitation",
+  "surahId": "S084",
+  "collection": "recitation",
+  "cleanMarkdown": "S084.md",
+  "chunksJsonl": "chunks.jsonl",
+  "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+  "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "voice": {
+    "languageCode": "tr-TR",
+    "modelName": "gemini-3.1-flash-tts-preview",
+    "name": "Rasalgethi"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": 0,
+    "speakingRate": 1
+  },
+  "chunkCount": 25,
+  "arabicTextSource": "data/text/quran-uthmani.tsv",
+  "titleHandling": "Each section is exactly one ayah_reference paragraph: sectionTitle uses the digit form '<name> <number>' (or '<name> besmele' for the ayah-0 basmalah row); ttsText speaks the surah name and spelled-out ordinal ayet label followed by the canonical Arabic text. No commentary prose.",
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "title": "İnşikâk 1",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-001.wav",
+      "mp3": "sections/mp3/sec-001.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-001-p-001",
+          "text": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
+          "ttsText": "İnşikâk birinci ayet. إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
+          "request": "requests/sec-001-p-001.json",
+          "response": "responses/sec-001-p-001.json",
+          "wav": "originals/wav/sec-001-p-001.wav",
+          "mp3": "originals/mp3/sec-001-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 2,
+      "title": "İnşikâk 2",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-002.wav",
+      "mp3": "sections/mp3/sec-002.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-002-p-001",
+          "text": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+          "ttsText": "İnşikâk ikinci ayet. وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+          "request": "requests/sec-002-p-001.json",
+          "response": "responses/sec-002-p-001.json",
+          "wav": "originals/wav/sec-002-p-001.wav",
+          "mp3": "originals/mp3/sec-002-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 3,
+      "title": "İnşikâk 3",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-003.wav",
+      "mp3": "sections/mp3/sec-003.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-003-p-001",
+          "text": "وَإِذَا ٱلْأَرْضُ مُدَّتْ",
+          "ttsText": "İnşikâk üçüncü ayet. وَإِذَا ٱلْأَرْضُ مُدَّتْ",
+          "request": "requests/sec-003-p-001.json",
+          "response": "responses/sec-003-p-001.json",
+          "wav": "originals/wav/sec-003-p-001.wav",
+          "mp3": "originals/mp3/sec-003-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "title": "İnşikâk 4",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-004.wav",
+      "mp3": "sections/mp3/sec-004.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-004-p-001",
+          "text": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+          "ttsText": "İnşikâk dördüncü ayet. وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+          "request": "requests/sec-004-p-001.json",
+          "response": "responses/sec-004-p-001.json",
+          "wav": "originals/wav/sec-004-p-001.wav",
+          "mp3": "originals/mp3/sec-004-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "title": "İnşikâk 5",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-005.wav",
+      "mp3": "sections/mp3/sec-005.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-005-p-001",
+          "text": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+          "ttsText": "İnşikâk beşinci ayet. وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+          "request": "requests/sec-005-p-001.json",
+          "response": "responses/sec-005-p-001.json",
+          "wav": "originals/wav/sec-005-p-001.wav",
+          "mp3": "originals/mp3/sec-005-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "title": "İnşikâk 6",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-006.wav",
+      "mp3": "sections/mp3/sec-006.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-006-p-001",
+          "text": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًۭا فَمُلَٰقِيهِ",
+          "ttsText": "İnşikâk altıncı ayet. يَٰٓأَيُّهَا ٱلْإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًۭا فَمُلَٰقِيهِ",
+          "request": "requests/sec-006-p-001.json",
+          "response": "responses/sec-006-p-001.json",
+          "wav": "originals/wav/sec-006-p-001.wav",
+          "mp3": "originals/mp3/sec-006-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 7,
+      "title": "İnşikâk 7",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-007.wav",
+      "mp3": "sections/mp3/sec-007.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-007-p-001",
+          "text": "فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ",
+          "ttsText": "İnşikâk yedinci ayet. فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ",
+          "request": "requests/sec-007-p-001.json",
+          "response": "responses/sec-007-p-001.json",
+          "wav": "originals/wav/sec-007-p-001.wav",
+          "mp3": "originals/mp3/sec-007-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 8,
+      "title": "İnşikâk 8",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-008.wav",
+      "mp3": "sections/mp3/sec-008.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-008-p-001",
+          "text": "فَسَوْفَ يُحَاسَبُ حِسَابًۭا يَسِيرًۭا",
+          "ttsText": "İnşikâk sekizinci ayet. فَسَوْفَ يُحَاسَبُ حِسَابًۭا يَسِيرًۭا",
+          "request": "requests/sec-008-p-001.json",
+          "response": "responses/sec-008-p-001.json",
+          "wav": "originals/wav/sec-008-p-001.wav",
+          "mp3": "originals/mp3/sec-008-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 9,
+      "title": "İnşikâk 9",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-009.wav",
+      "mp3": "sections/mp3/sec-009.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-009-p-001",
+          "text": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًۭا",
+          "ttsText": "İnşikâk dokuzuncu ayet. وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًۭا",
+          "request": "requests/sec-009-p-001.json",
+          "response": "responses/sec-009-p-001.json",
+          "wav": "originals/wav/sec-009-p-001.wav",
+          "mp3": "originals/mp3/sec-009-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 10,
+      "title": "İnşikâk 10",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-010.wav",
+      "mp3": "sections/mp3/sec-010.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-010-p-001",
+          "text": "وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ وَرَآءَ ظَهْرِهِۦ",
+          "ttsText": "İnşikâk onuncu ayet. وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ وَرَآءَ ظَهْرِهِۦ",
+          "request": "requests/sec-010-p-001.json",
+          "response": "responses/sec-010-p-001.json",
+          "wav": "originals/wav/sec-010-p-001.wav",
+          "mp3": "originals/mp3/sec-010-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 11,
+      "title": "İnşikâk 11",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-011.wav",
+      "mp3": "sections/mp3/sec-011.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-011-p-001",
+          "text": "فَسَوْفَ يَدْعُوا۟ ثُبُورًۭا",
+          "ttsText": "İnşikâk on birinci ayet. فَسَوْفَ يَدْعُوا۟ ثُبُورًۭا",
+          "request": "requests/sec-011-p-001.json",
+          "response": "responses/sec-011-p-001.json",
+          "wav": "originals/wav/sec-011-p-001.wav",
+          "mp3": "originals/mp3/sec-011-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 12,
+      "title": "İnşikâk 12",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-012.wav",
+      "mp3": "sections/mp3/sec-012.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-012-p-001",
+          "text": "وَيَصْلَىٰ سَعِيرًا",
+          "ttsText": "İnşikâk on ikinci ayet. وَيَصْلَىٰ سَعِيرًا",
+          "request": "requests/sec-012-p-001.json",
+          "response": "responses/sec-012-p-001.json",
+          "wav": "originals/wav/sec-012-p-001.wav",
+          "mp3": "originals/mp3/sec-012-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 13,
+      "title": "İnşikâk 13",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-013.wav",
+      "mp3": "sections/mp3/sec-013.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-013-p-001",
+          "text": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
+          "ttsText": "İnşikâk on üçüncü ayet. إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
+          "request": "requests/sec-013-p-001.json",
+          "response": "responses/sec-013-p-001.json",
+          "wav": "originals/wav/sec-013-p-001.wav",
+          "mp3": "originals/mp3/sec-013-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 14,
+      "title": "İnşikâk 14",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-014.wav",
+      "mp3": "sections/mp3/sec-014.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-014-p-001",
+          "text": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+          "ttsText": "İnşikâk on dördüncü ayet. إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+          "request": "requests/sec-014-p-001.json",
+          "response": "responses/sec-014-p-001.json",
+          "wav": "originals/wav/sec-014-p-001.wav",
+          "mp3": "originals/mp3/sec-014-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 15,
+      "title": "İnşikâk 15",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-015.wav",
+      "mp3": "sections/mp3/sec-015.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-015-p-001",
+          "text": "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًۭا",
+          "ttsText": "İnşikâk on beşinci ayet. بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًۭا",
+          "request": "requests/sec-015-p-001.json",
+          "response": "responses/sec-015-p-001.json",
+          "wav": "originals/wav/sec-015-p-001.wav",
+          "mp3": "originals/mp3/sec-015-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 16,
+      "title": "İnşikâk 16",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-016.wav",
+      "mp3": "sections/mp3/sec-016.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-016-p-001",
+          "text": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
+          "ttsText": "İnşikâk on altıncı ayet. فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
+          "request": "requests/sec-016-p-001.json",
+          "response": "responses/sec-016-p-001.json",
+          "wav": "originals/wav/sec-016-p-001.wav",
+          "mp3": "originals/mp3/sec-016-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 17,
+      "title": "İnşikâk 17",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-017.wav",
+      "mp3": "sections/mp3/sec-017.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-017-p-001",
+          "text": "وَٱلَّيْلِ وَمَا وَسَقَ",
+          "ttsText": "İnşikâk on yedinci ayet. وَٱلَّيْلِ وَمَا وَسَقَ",
+          "request": "requests/sec-017-p-001.json",
+          "response": "responses/sec-017-p-001.json",
+          "wav": "originals/wav/sec-017-p-001.wav",
+          "mp3": "originals/mp3/sec-017-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 18,
+      "title": "İnşikâk 18",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-018.wav",
+      "mp3": "sections/mp3/sec-018.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-018-p-001",
+          "text": "وَٱلْقَمَرِ إِذَا ٱتَّسَقَ",
+          "ttsText": "İnşikâk on sekizinci ayet. وَٱلْقَمَرِ إِذَا ٱتَّسَقَ",
+          "request": "requests/sec-018-p-001.json",
+          "response": "responses/sec-018-p-001.json",
+          "wav": "originals/wav/sec-018-p-001.wav",
+          "mp3": "originals/mp3/sec-018-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 19,
+      "title": "İnşikâk 19",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-019.wav",
+      "mp3": "sections/mp3/sec-019.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-019-p-001",
+          "text": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍۢ",
+          "ttsText": "İnşikâk on dokuzuncu ayet. لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍۢ",
+          "request": "requests/sec-019-p-001.json",
+          "response": "responses/sec-019-p-001.json",
+          "wav": "originals/wav/sec-019-p-001.wav",
+          "mp3": "originals/mp3/sec-019-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 20,
+      "title": "İnşikâk 20",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-020.wav",
+      "mp3": "sections/mp3/sec-020.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-020-p-001",
+          "text": "فَمَا لَهُمْ لَا يُؤْمِنُونَ",
+          "ttsText": "İnşikâk yirminci ayet. فَمَا لَهُمْ لَا يُؤْمِنُونَ",
+          "request": "requests/sec-020-p-001.json",
+          "response": "responses/sec-020-p-001.json",
+          "wav": "originals/wav/sec-020-p-001.wav",
+          "mp3": "originals/mp3/sec-020-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 21,
+      "title": "İnşikâk 21",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-021.wav",
+      "mp3": "sections/mp3/sec-021.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-021-p-001",
+          "text": "وَإِذَا قُرِئَ عَلَيْهِمُ ٱلْقُرْءَانُ لَا يَسْجُدُونَ ۩",
+          "ttsText": "İnşikâk yirmi birinci ayet. وَإِذَا قُرِئَ عَلَيْهِمُ ٱلْقُرْءَانُ لَا يَسْجُدُونَ ۩",
+          "request": "requests/sec-021-p-001.json",
+          "response": "responses/sec-021-p-001.json",
+          "wav": "originals/wav/sec-021-p-001.wav",
+          "mp3": "originals/mp3/sec-021-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 22,
+      "title": "İnşikâk 22",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-022.wav",
+      "mp3": "sections/mp3/sec-022.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-022-p-001",
+          "text": "بَلِ ٱلَّذِينَ كَفَرُوا۟ يُكَذِّبُونَ",
+          "ttsText": "İnşikâk yirmi ikinci ayet. بَلِ ٱلَّذِينَ كَفَرُوا۟ يُكَذِّبُونَ",
+          "request": "requests/sec-022-p-001.json",
+          "response": "responses/sec-022-p-001.json",
+          "wav": "originals/wav/sec-022-p-001.wav",
+          "mp3": "originals/mp3/sec-022-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 23,
+      "title": "İnşikâk 23",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-023.wav",
+      "mp3": "sections/mp3/sec-023.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-023-p-001",
+          "text": "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+          "ttsText": "İnşikâk yirmi üçüncü ayet. وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+          "request": "requests/sec-023-p-001.json",
+          "response": "responses/sec-023-p-001.json",
+          "wav": "originals/wav/sec-023-p-001.wav",
+          "mp3": "originals/mp3/sec-023-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 24,
+      "title": "İnşikâk 24",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-024.wav",
+      "mp3": "sections/mp3/sec-024.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-024-p-001",
+          "text": "فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+          "ttsText": "İnşikâk yirmi dördüncü ayet. فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+          "request": "requests/sec-024-p-001.json",
+          "response": "responses/sec-024-p-001.json",
+          "wav": "originals/wav/sec-024-p-001.wav",
+          "mp3": "originals/mp3/sec-024-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 25,
+      "title": "İnşikâk 25",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-025.wav",
+      "mp3": "sections/mp3/sec-025.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-025-p-001",
+          "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
+          "ttsText": "İnşikâk yirmi beşinci ayet. إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
+          "request": "requests/sec-025-p-001.json",
+          "response": "responses/sec-025-p-001.json",
+          "wav": "originals/wav/sec-025-p-001.wav",
+          "mp3": "originals/mp3/sec-025-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    }
+  ]
+}

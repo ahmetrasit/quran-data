@@ -1,0 +1,2236 @@
+{
+  "source": "data/text/quran-uthmani.tsv",
+  "sources": [
+    "data/text/quran-uthmani.tsv"
+  ],
+  "sourceKind": "recitation",
+  "surahId": "S056",
+  "collection": "recitation",
+  "cleanMarkdown": "S056.md",
+  "chunksJsonl": "chunks.jsonl",
+  "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+  "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "voice": {
+    "languageCode": "tr-TR",
+    "modelName": "gemini-3.1-flash-tts-preview",
+    "name": "Rasalgethi"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": 0,
+    "speakingRate": 1
+  },
+  "chunkCount": 96,
+  "arabicTextSource": "data/text/quran-uthmani.tsv",
+  "titleHandling": "Each section is exactly one ayah_reference paragraph: sectionTitle uses the digit form '<name> <number>' (or '<name> besmele' for the ayah-0 basmalah row); ttsText speaks the surah name and spelled-out ordinal ayet label followed by the canonical Arabic text. No commentary prose.",
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "title": "Vâkıa 1",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-001.wav",
+      "mp3": "sections/mp3/sec-001.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-001-p-001",
+          "text": "إِذَا وَقَعَتِ ٱلْوَاقِعَةُ",
+          "ttsText": "Vâkıa birinci ayet. إِذَا وَقَعَتِ ٱلْوَاقِعَةُ",
+          "request": "requests/sec-001-p-001.json",
+          "response": "responses/sec-001-p-001.json",
+          "wav": "originals/wav/sec-001-p-001.wav",
+          "mp3": "originals/mp3/sec-001-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 2,
+      "title": "Vâkıa 2",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-002.wav",
+      "mp3": "sections/mp3/sec-002.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-002-p-001",
+          "text": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+          "ttsText": "Vâkıa ikinci ayet. لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+          "request": "requests/sec-002-p-001.json",
+          "response": "responses/sec-002-p-001.json",
+          "wav": "originals/wav/sec-002-p-001.wav",
+          "mp3": "originals/mp3/sec-002-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 3,
+      "title": "Vâkıa 3",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-003.wav",
+      "mp3": "sections/mp3/sec-003.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-003-p-001",
+          "text": "خَافِضَةٌۭ رَّافِعَةٌ",
+          "ttsText": "Vâkıa üçüncü ayet. خَافِضَةٌۭ رَّافِعَةٌ",
+          "request": "requests/sec-003-p-001.json",
+          "response": "responses/sec-003-p-001.json",
+          "wav": "originals/wav/sec-003-p-001.wav",
+          "mp3": "originals/mp3/sec-003-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "title": "Vâkıa 4",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-004.wav",
+      "mp3": "sections/mp3/sec-004.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-004-p-001",
+          "text": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّۭا",
+          "ttsText": "Vâkıa dördüncü ayet. إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّۭا",
+          "request": "requests/sec-004-p-001.json",
+          "response": "responses/sec-004-p-001.json",
+          "wav": "originals/wav/sec-004-p-001.wav",
+          "mp3": "originals/mp3/sec-004-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "title": "Vâkıa 5",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-005.wav",
+      "mp3": "sections/mp3/sec-005.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-005-p-001",
+          "text": "وَبُسَّتِ ٱلْجِبَالُ بَسًّۭا",
+          "ttsText": "Vâkıa beşinci ayet. وَبُسَّتِ ٱلْجِبَالُ بَسًّۭا",
+          "request": "requests/sec-005-p-001.json",
+          "response": "responses/sec-005-p-001.json",
+          "wav": "originals/wav/sec-005-p-001.wav",
+          "mp3": "originals/mp3/sec-005-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "title": "Vâkıa 6",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-006.wav",
+      "mp3": "sections/mp3/sec-006.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-006-p-001",
+          "text": "فَكَانَتْ هَبَآءًۭ مُّنۢبَثًّۭا",
+          "ttsText": "Vâkıa altıncı ayet. فَكَانَتْ هَبَآءًۭ مُّنۢبَثًّۭا",
+          "request": "requests/sec-006-p-001.json",
+          "response": "responses/sec-006-p-001.json",
+          "wav": "originals/wav/sec-006-p-001.wav",
+          "mp3": "originals/mp3/sec-006-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 7,
+      "title": "Vâkıa 7",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-007.wav",
+      "mp3": "sections/mp3/sec-007.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-007-p-001",
+          "text": "وَكُنتُمْ أَزْوَٰجًۭا ثَلَٰثَةًۭ",
+          "ttsText": "Vâkıa yedinci ayet. وَكُنتُمْ أَزْوَٰجًۭا ثَلَٰثَةًۭ",
+          "request": "requests/sec-007-p-001.json",
+          "response": "responses/sec-007-p-001.json",
+          "wav": "originals/wav/sec-007-p-001.wav",
+          "mp3": "originals/mp3/sec-007-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 8,
+      "title": "Vâkıa 8",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-008.wav",
+      "mp3": "sections/mp3/sec-008.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-008-p-001",
+          "text": "فَأَصْحَٰبُ ٱلْمَيْمَنَةِ مَآ أَصْحَٰبُ ٱلْمَيْمَنَةِ",
+          "ttsText": "Vâkıa sekizinci ayet. فَأَصْحَٰبُ ٱلْمَيْمَنَةِ مَآ أَصْحَٰبُ ٱلْمَيْمَنَةِ",
+          "request": "requests/sec-008-p-001.json",
+          "response": "responses/sec-008-p-001.json",
+          "wav": "originals/wav/sec-008-p-001.wav",
+          "mp3": "originals/mp3/sec-008-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 9,
+      "title": "Vâkıa 9",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-009.wav",
+      "mp3": "sections/mp3/sec-009.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-009-p-001",
+          "text": "وَأَصْحَٰبُ ٱلْمَشْـَٔمَةِ مَآ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ",
+          "ttsText": "Vâkıa dokuzuncu ayet. وَأَصْحَٰبُ ٱلْمَشْـَٔمَةِ مَآ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ",
+          "request": "requests/sec-009-p-001.json",
+          "response": "responses/sec-009-p-001.json",
+          "wav": "originals/wav/sec-009-p-001.wav",
+          "mp3": "originals/mp3/sec-009-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 10,
+      "title": "Vâkıa 10",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-010.wav",
+      "mp3": "sections/mp3/sec-010.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-010-p-001",
+          "text": "وَٱلسَّٰبِقُونَ ٱلسَّٰبِقُونَ",
+          "ttsText": "Vâkıa onuncu ayet. وَٱلسَّٰبِقُونَ ٱلسَّٰبِقُونَ",
+          "request": "requests/sec-010-p-001.json",
+          "response": "responses/sec-010-p-001.json",
+          "wav": "originals/wav/sec-010-p-001.wav",
+          "mp3": "originals/mp3/sec-010-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 11,
+      "title": "Vâkıa 11",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-011.wav",
+      "mp3": "sections/mp3/sec-011.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-011-p-001",
+          "text": "أُو۟لَٰٓئِكَ ٱلْمُقَرَّبُونَ",
+          "ttsText": "Vâkıa on birinci ayet. أُو۟لَٰٓئِكَ ٱلْمُقَرَّبُونَ",
+          "request": "requests/sec-011-p-001.json",
+          "response": "responses/sec-011-p-001.json",
+          "wav": "originals/wav/sec-011-p-001.wav",
+          "mp3": "originals/mp3/sec-011-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 12,
+      "title": "Vâkıa 12",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-012.wav",
+      "mp3": "sections/mp3/sec-012.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-012-p-001",
+          "text": "فِى جَنَّٰتِ ٱلنَّعِيمِ",
+          "ttsText": "Vâkıa on ikinci ayet. فِى جَنَّٰتِ ٱلنَّعِيمِ",
+          "request": "requests/sec-012-p-001.json",
+          "response": "responses/sec-012-p-001.json",
+          "wav": "originals/wav/sec-012-p-001.wav",
+          "mp3": "originals/mp3/sec-012-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 13,
+      "title": "Vâkıa 13",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-013.wav",
+      "mp3": "sections/mp3/sec-013.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-013-p-001",
+          "text": "ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
+          "ttsText": "Vâkıa on üçüncü ayet. ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
+          "request": "requests/sec-013-p-001.json",
+          "response": "responses/sec-013-p-001.json",
+          "wav": "originals/wav/sec-013-p-001.wav",
+          "mp3": "originals/mp3/sec-013-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 14,
+      "title": "Vâkıa 14",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-014.wav",
+      "mp3": "sections/mp3/sec-014.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-014-p-001",
+          "text": "وَقَلِيلٌۭ مِّنَ ٱلْءَاخِرِينَ",
+          "ttsText": "Vâkıa on dördüncü ayet. وَقَلِيلٌۭ مِّنَ ٱلْءَاخِرِينَ",
+          "request": "requests/sec-014-p-001.json",
+          "response": "responses/sec-014-p-001.json",
+          "wav": "originals/wav/sec-014-p-001.wav",
+          "mp3": "originals/mp3/sec-014-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 15,
+      "title": "Vâkıa 15",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-015.wav",
+      "mp3": "sections/mp3/sec-015.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-015-p-001",
+          "text": "عَلَىٰ سُرُرٍۢ مَّوْضُونَةٍۢ",
+          "ttsText": "Vâkıa on beşinci ayet. عَلَىٰ سُرُرٍۢ مَّوْضُونَةٍۢ",
+          "request": "requests/sec-015-p-001.json",
+          "response": "responses/sec-015-p-001.json",
+          "wav": "originals/wav/sec-015-p-001.wav",
+          "mp3": "originals/mp3/sec-015-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 16,
+      "title": "Vâkıa 16",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-016.wav",
+      "mp3": "sections/mp3/sec-016.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-016-p-001",
+          "text": "مُّتَّكِـِٔينَ عَلَيْهَا مُتَقَٰبِلِينَ",
+          "ttsText": "Vâkıa on altıncı ayet. مُّتَّكِـِٔينَ عَلَيْهَا مُتَقَٰبِلِينَ",
+          "request": "requests/sec-016-p-001.json",
+          "response": "responses/sec-016-p-001.json",
+          "wav": "originals/wav/sec-016-p-001.wav",
+          "mp3": "originals/mp3/sec-016-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 17,
+      "title": "Vâkıa 17",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-017.wav",
+      "mp3": "sections/mp3/sec-017.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-017-p-001",
+          "text": "يَطُوفُ عَلَيْهِمْ وِلْدَٰنٌۭ مُّخَلَّدُونَ",
+          "ttsText": "Vâkıa on yedinci ayet. يَطُوفُ عَلَيْهِمْ وِلْدَٰنٌۭ مُّخَلَّدُونَ",
+          "request": "requests/sec-017-p-001.json",
+          "response": "responses/sec-017-p-001.json",
+          "wav": "originals/wav/sec-017-p-001.wav",
+          "mp3": "originals/mp3/sec-017-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 18,
+      "title": "Vâkıa 18",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-018.wav",
+      "mp3": "sections/mp3/sec-018.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-018-p-001",
+          "text": "بِأَكْوَابٍۢ وَأَبَارِيقَ وَكَأْسٍۢ مِّن مَّعِينٍۢ",
+          "ttsText": "Vâkıa on sekizinci ayet. بِأَكْوَابٍۢ وَأَبَارِيقَ وَكَأْسٍۢ مِّن مَّعِينٍۢ",
+          "request": "requests/sec-018-p-001.json",
+          "response": "responses/sec-018-p-001.json",
+          "wav": "originals/wav/sec-018-p-001.wav",
+          "mp3": "originals/mp3/sec-018-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 19,
+      "title": "Vâkıa 19",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-019.wav",
+      "mp3": "sections/mp3/sec-019.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-019-p-001",
+          "text": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+          "ttsText": "Vâkıa on dokuzuncu ayet. لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+          "request": "requests/sec-019-p-001.json",
+          "response": "responses/sec-019-p-001.json",
+          "wav": "originals/wav/sec-019-p-001.wav",
+          "mp3": "originals/mp3/sec-019-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 20,
+      "title": "Vâkıa 20",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-020.wav",
+      "mp3": "sections/mp3/sec-020.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-020-p-001",
+          "text": "وَفَٰكِهَةٍۢ مِّمَّا يَتَخَيَّرُونَ",
+          "ttsText": "Vâkıa yirminci ayet. وَفَٰكِهَةٍۢ مِّمَّا يَتَخَيَّرُونَ",
+          "request": "requests/sec-020-p-001.json",
+          "response": "responses/sec-020-p-001.json",
+          "wav": "originals/wav/sec-020-p-001.wav",
+          "mp3": "originals/mp3/sec-020-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 21,
+      "title": "Vâkıa 21",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-021.wav",
+      "mp3": "sections/mp3/sec-021.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-021-p-001",
+          "text": "وَلَحْمِ طَيْرٍۢ مِّمَّا يَشْتَهُونَ",
+          "ttsText": "Vâkıa yirmi birinci ayet. وَلَحْمِ طَيْرٍۢ مِّمَّا يَشْتَهُونَ",
+          "request": "requests/sec-021-p-001.json",
+          "response": "responses/sec-021-p-001.json",
+          "wav": "originals/wav/sec-021-p-001.wav",
+          "mp3": "originals/mp3/sec-021-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 22,
+      "title": "Vâkıa 22",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-022.wav",
+      "mp3": "sections/mp3/sec-022.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-022-p-001",
+          "text": "وَحُورٌ عِينٌۭ",
+          "ttsText": "Vâkıa yirmi ikinci ayet. وَحُورٌ عِينٌۭ",
+          "request": "requests/sec-022-p-001.json",
+          "response": "responses/sec-022-p-001.json",
+          "wav": "originals/wav/sec-022-p-001.wav",
+          "mp3": "originals/mp3/sec-022-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 23,
+      "title": "Vâkıa 23",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-023.wav",
+      "mp3": "sections/mp3/sec-023.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-023-p-001",
+          "text": "كَأَمْثَٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ",
+          "ttsText": "Vâkıa yirmi üçüncü ayet. كَأَمْثَٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ",
+          "request": "requests/sec-023-p-001.json",
+          "response": "responses/sec-023-p-001.json",
+          "wav": "originals/wav/sec-023-p-001.wav",
+          "mp3": "originals/mp3/sec-023-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 24,
+      "title": "Vâkıa 24",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-024.wav",
+      "mp3": "sections/mp3/sec-024.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-024-p-001",
+          "text": "جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ",
+          "ttsText": "Vâkıa yirmi dördüncü ayet. جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ",
+          "request": "requests/sec-024-p-001.json",
+          "response": "responses/sec-024-p-001.json",
+          "wav": "originals/wav/sec-024-p-001.wav",
+          "mp3": "originals/mp3/sec-024-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 25,
+      "title": "Vâkıa 25",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-025.wav",
+      "mp3": "sections/mp3/sec-025.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-025-p-001",
+          "text": "لَا يَسْمَعُونَ فِيهَا لَغْوًۭا وَلَا تَأْثِيمًا",
+          "ttsText": "Vâkıa yirmi beşinci ayet. لَا يَسْمَعُونَ فِيهَا لَغْوًۭا وَلَا تَأْثِيمًا",
+          "request": "requests/sec-025-p-001.json",
+          "response": "responses/sec-025-p-001.json",
+          "wav": "originals/wav/sec-025-p-001.wav",
+          "mp3": "originals/mp3/sec-025-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 26,
+      "title": "Vâkıa 26",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-026.wav",
+      "mp3": "sections/mp3/sec-026.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-026-p-001",
+          "text": "إِلَّا قِيلًۭا سَلَٰمًۭا سَلَٰمًۭا",
+          "ttsText": "Vâkıa yirmi altıncı ayet. إِلَّا قِيلًۭا سَلَٰمًۭا سَلَٰمًۭا",
+          "request": "requests/sec-026-p-001.json",
+          "response": "responses/sec-026-p-001.json",
+          "wav": "originals/wav/sec-026-p-001.wav",
+          "mp3": "originals/mp3/sec-026-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 27,
+      "title": "Vâkıa 27",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-027.wav",
+      "mp3": "sections/mp3/sec-027.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-027-p-001",
+          "text": "وَأَصْحَٰبُ ٱلْيَمِينِ مَآ أَصْحَٰبُ ٱلْيَمِينِ",
+          "ttsText": "Vâkıa yirmi yedinci ayet. وَأَصْحَٰبُ ٱلْيَمِينِ مَآ أَصْحَٰبُ ٱلْيَمِينِ",
+          "request": "requests/sec-027-p-001.json",
+          "response": "responses/sec-027-p-001.json",
+          "wav": "originals/wav/sec-027-p-001.wav",
+          "mp3": "originals/mp3/sec-027-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 28,
+      "title": "Vâkıa 28",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-028.wav",
+      "mp3": "sections/mp3/sec-028.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-028-p-001",
+          "text": "فِى سِدْرٍۢ مَّخْضُودٍۢ",
+          "ttsText": "Vâkıa yirmi sekizinci ayet. فِى سِدْرٍۢ مَّخْضُودٍۢ",
+          "request": "requests/sec-028-p-001.json",
+          "response": "responses/sec-028-p-001.json",
+          "wav": "originals/wav/sec-028-p-001.wav",
+          "mp3": "originals/mp3/sec-028-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 29,
+      "title": "Vâkıa 29",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-029.wav",
+      "mp3": "sections/mp3/sec-029.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-029-p-001",
+          "text": "وَطَلْحٍۢ مَّنضُودٍۢ",
+          "ttsText": "Vâkıa yirmi dokuzuncu ayet. وَطَلْحٍۢ مَّنضُودٍۢ",
+          "request": "requests/sec-029-p-001.json",
+          "response": "responses/sec-029-p-001.json",
+          "wav": "originals/wav/sec-029-p-001.wav",
+          "mp3": "originals/mp3/sec-029-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 30,
+      "title": "Vâkıa 30",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-030.wav",
+      "mp3": "sections/mp3/sec-030.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-030-p-001",
+          "text": "وَظِلٍّۢ مَّمْدُودٍۢ",
+          "ttsText": "Vâkıa otuzuncu ayet. وَظِلٍّۢ مَّمْدُودٍۢ",
+          "request": "requests/sec-030-p-001.json",
+          "response": "responses/sec-030-p-001.json",
+          "wav": "originals/wav/sec-030-p-001.wav",
+          "mp3": "originals/mp3/sec-030-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 31,
+      "title": "Vâkıa 31",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-031.wav",
+      "mp3": "sections/mp3/sec-031.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-031-p-001",
+          "text": "وَمَآءٍۢ مَّسْكُوبٍۢ",
+          "ttsText": "Vâkıa otuz birinci ayet. وَمَآءٍۢ مَّسْكُوبٍۢ",
+          "request": "requests/sec-031-p-001.json",
+          "response": "responses/sec-031-p-001.json",
+          "wav": "originals/wav/sec-031-p-001.wav",
+          "mp3": "originals/mp3/sec-031-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 32,
+      "title": "Vâkıa 32",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-032.wav",
+      "mp3": "sections/mp3/sec-032.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-032-p-001",
+          "text": "وَفَٰكِهَةٍۢ كَثِيرَةٍۢ",
+          "ttsText": "Vâkıa otuz ikinci ayet. وَفَٰكِهَةٍۢ كَثِيرَةٍۢ",
+          "request": "requests/sec-032-p-001.json",
+          "response": "responses/sec-032-p-001.json",
+          "wav": "originals/wav/sec-032-p-001.wav",
+          "mp3": "originals/mp3/sec-032-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 33,
+      "title": "Vâkıa 33",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-033.wav",
+      "mp3": "sections/mp3/sec-033.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-033-p-001",
+          "text": "لَّا مَقْطُوعَةٍۢ وَلَا مَمْنُوعَةٍۢ",
+          "ttsText": "Vâkıa otuz üçüncü ayet. لَّا مَقْطُوعَةٍۢ وَلَا مَمْنُوعَةٍۢ",
+          "request": "requests/sec-033-p-001.json",
+          "response": "responses/sec-033-p-001.json",
+          "wav": "originals/wav/sec-033-p-001.wav",
+          "mp3": "originals/mp3/sec-033-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 34,
+      "title": "Vâkıa 34",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-034.wav",
+      "mp3": "sections/mp3/sec-034.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-034-p-001",
+          "text": "وَفُرُشٍۢ مَّرْفُوعَةٍ",
+          "ttsText": "Vâkıa otuz dördüncü ayet. وَفُرُشٍۢ مَّرْفُوعَةٍ",
+          "request": "requests/sec-034-p-001.json",
+          "response": "responses/sec-034-p-001.json",
+          "wav": "originals/wav/sec-034-p-001.wav",
+          "mp3": "originals/mp3/sec-034-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 35,
+      "title": "Vâkıa 35",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-035.wav",
+      "mp3": "sections/mp3/sec-035.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-035-p-001",
+          "text": "إِنَّآ أَنشَأْنَٰهُنَّ إِنشَآءًۭ",
+          "ttsText": "Vâkıa otuz beşinci ayet. إِنَّآ أَنشَأْنَٰهُنَّ إِنشَآءًۭ",
+          "request": "requests/sec-035-p-001.json",
+          "response": "responses/sec-035-p-001.json",
+          "wav": "originals/wav/sec-035-p-001.wav",
+          "mp3": "originals/mp3/sec-035-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 36,
+      "title": "Vâkıa 36",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-036.wav",
+      "mp3": "sections/mp3/sec-036.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-036-p-001",
+          "text": "فَجَعَلْنَٰهُنَّ أَبْكَارًا",
+          "ttsText": "Vâkıa otuz altıncı ayet. فَجَعَلْنَٰهُنَّ أَبْكَارًا",
+          "request": "requests/sec-036-p-001.json",
+          "response": "responses/sec-036-p-001.json",
+          "wav": "originals/wav/sec-036-p-001.wav",
+          "mp3": "originals/mp3/sec-036-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 37,
+      "title": "Vâkıa 37",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-037.wav",
+      "mp3": "sections/mp3/sec-037.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-037-p-001",
+          "text": "عُرُبًا أَتْرَابًۭا",
+          "ttsText": "Vâkıa otuz yedinci ayet. عُرُبًا أَتْرَابًۭا",
+          "request": "requests/sec-037-p-001.json",
+          "response": "responses/sec-037-p-001.json",
+          "wav": "originals/wav/sec-037-p-001.wav",
+          "mp3": "originals/mp3/sec-037-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 38,
+      "title": "Vâkıa 38",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-038.wav",
+      "mp3": "sections/mp3/sec-038.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-038-p-001",
+          "text": "لِّأَصْحَٰبِ ٱلْيَمِينِ",
+          "ttsText": "Vâkıa otuz sekizinci ayet. لِّأَصْحَٰبِ ٱلْيَمِينِ",
+          "request": "requests/sec-038-p-001.json",
+          "response": "responses/sec-038-p-001.json",
+          "wav": "originals/wav/sec-038-p-001.wav",
+          "mp3": "originals/mp3/sec-038-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 39,
+      "title": "Vâkıa 39",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-039.wav",
+      "mp3": "sections/mp3/sec-039.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-039-p-001",
+          "text": "ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
+          "ttsText": "Vâkıa otuz dokuzuncu ayet. ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
+          "request": "requests/sec-039-p-001.json",
+          "response": "responses/sec-039-p-001.json",
+          "wav": "originals/wav/sec-039-p-001.wav",
+          "mp3": "originals/mp3/sec-039-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 40,
+      "title": "Vâkıa 40",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-040.wav",
+      "mp3": "sections/mp3/sec-040.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-040-p-001",
+          "text": "وَثُلَّةٌۭ مِّنَ ٱلْءَاخِرِينَ",
+          "ttsText": "Vâkıa kırkıncı ayet. وَثُلَّةٌۭ مِّنَ ٱلْءَاخِرِينَ",
+          "request": "requests/sec-040-p-001.json",
+          "response": "responses/sec-040-p-001.json",
+          "wav": "originals/wav/sec-040-p-001.wav",
+          "mp3": "originals/mp3/sec-040-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 41,
+      "title": "Vâkıa 41",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-041.wav",
+      "mp3": "sections/mp3/sec-041.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-041-p-001",
+          "text": "وَأَصْحَٰبُ ٱلشِّمَالِ مَآ أَصْحَٰبُ ٱلشِّمَالِ",
+          "ttsText": "Vâkıa kırk birinci ayet. وَأَصْحَٰبُ ٱلشِّمَالِ مَآ أَصْحَٰبُ ٱلشِّمَالِ",
+          "request": "requests/sec-041-p-001.json",
+          "response": "responses/sec-041-p-001.json",
+          "wav": "originals/wav/sec-041-p-001.wav",
+          "mp3": "originals/mp3/sec-041-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 42,
+      "title": "Vâkıa 42",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-042.wav",
+      "mp3": "sections/mp3/sec-042.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-042-p-001",
+          "text": "فِى سَمُومٍۢ وَحَمِيمٍۢ",
+          "ttsText": "Vâkıa kırk ikinci ayet. فِى سَمُومٍۢ وَحَمِيمٍۢ",
+          "request": "requests/sec-042-p-001.json",
+          "response": "responses/sec-042-p-001.json",
+          "wav": "originals/wav/sec-042-p-001.wav",
+          "mp3": "originals/mp3/sec-042-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 43,
+      "title": "Vâkıa 43",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-043.wav",
+      "mp3": "sections/mp3/sec-043.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-043-p-001",
+          "text": "وَظِلٍّۢ مِّن يَحْمُومٍۢ",
+          "ttsText": "Vâkıa kırk üçüncü ayet. وَظِلٍّۢ مِّن يَحْمُومٍۢ",
+          "request": "requests/sec-043-p-001.json",
+          "response": "responses/sec-043-p-001.json",
+          "wav": "originals/wav/sec-043-p-001.wav",
+          "mp3": "originals/mp3/sec-043-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 44,
+      "title": "Vâkıa 44",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-044.wav",
+      "mp3": "sections/mp3/sec-044.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-044-p-001",
+          "text": "لَّا بَارِدٍۢ وَلَا كَرِيمٍ",
+          "ttsText": "Vâkıa kırk dördüncü ayet. لَّا بَارِدٍۢ وَلَا كَرِيمٍ",
+          "request": "requests/sec-044-p-001.json",
+          "response": "responses/sec-044-p-001.json",
+          "wav": "originals/wav/sec-044-p-001.wav",
+          "mp3": "originals/mp3/sec-044-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 45,
+      "title": "Vâkıa 45",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-045.wav",
+      "mp3": "sections/mp3/sec-045.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-045-p-001",
+          "text": "إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
+          "ttsText": "Vâkıa kırk beşinci ayet. إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
+          "request": "requests/sec-045-p-001.json",
+          "response": "responses/sec-045-p-001.json",
+          "wav": "originals/wav/sec-045-p-001.wav",
+          "mp3": "originals/mp3/sec-045-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 46,
+      "title": "Vâkıa 46",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-046.wav",
+      "mp3": "sections/mp3/sec-046.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-046-p-001",
+          "text": "وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
+          "ttsText": "Vâkıa kırk altıncı ayet. وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
+          "request": "requests/sec-046-p-001.json",
+          "response": "responses/sec-046-p-001.json",
+          "wav": "originals/wav/sec-046-p-001.wav",
+          "mp3": "originals/mp3/sec-046-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 47,
+      "title": "Vâkıa 47",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-047.wav",
+      "mp3": "sections/mp3/sec-047.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-047-p-001",
+          "text": "وَكَانُوا۟ يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+          "ttsText": "Vâkıa kırk yedinci ayet. وَكَانُوا۟ يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+          "request": "requests/sec-047-p-001.json",
+          "response": "responses/sec-047-p-001.json",
+          "wav": "originals/wav/sec-047-p-001.wav",
+          "mp3": "originals/mp3/sec-047-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 48,
+      "title": "Vâkıa 48",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-048.wav",
+      "mp3": "sections/mp3/sec-048.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-048-p-001",
+          "text": "أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
+          "ttsText": "Vâkıa kırk sekizinci ayet. أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
+          "request": "requests/sec-048-p-001.json",
+          "response": "responses/sec-048-p-001.json",
+          "wav": "originals/wav/sec-048-p-001.wav",
+          "mp3": "originals/mp3/sec-048-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 49,
+      "title": "Vâkıa 49",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-049.wav",
+      "mp3": "sections/mp3/sec-049.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-049-p-001",
+          "text": "قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْءَاخِرِينَ",
+          "ttsText": "Vâkıa kırk dokuzuncu ayet. قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْءَاخِرِينَ",
+          "request": "requests/sec-049-p-001.json",
+          "response": "responses/sec-049-p-001.json",
+          "wav": "originals/wav/sec-049-p-001.wav",
+          "mp3": "originals/mp3/sec-049-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 50,
+      "title": "Vâkıa 50",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-050.wav",
+      "mp3": "sections/mp3/sec-050.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-050-p-001",
+          "text": "لَمَجْمُوعُونَ إِلَىٰ مِيقَٰتِ يَوْمٍۢ مَّعْلُومٍۢ",
+          "ttsText": "Vâkıa ellinci ayet. لَمَجْمُوعُونَ إِلَىٰ مِيقَٰتِ يَوْمٍۢ مَّعْلُومٍۢ",
+          "request": "requests/sec-050-p-001.json",
+          "response": "responses/sec-050-p-001.json",
+          "wav": "originals/wav/sec-050-p-001.wav",
+          "mp3": "originals/mp3/sec-050-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 51,
+      "title": "Vâkıa 51",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-051.wav",
+      "mp3": "sections/mp3/sec-051.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-051-p-001",
+          "text": "ثُمَّ إِنَّكُمْ أَيُّهَا ٱلضَّآلُّونَ ٱلْمُكَذِّبُونَ",
+          "ttsText": "Vâkıa elli birinci ayet. ثُمَّ إِنَّكُمْ أَيُّهَا ٱلضَّآلُّونَ ٱلْمُكَذِّبُونَ",
+          "request": "requests/sec-051-p-001.json",
+          "response": "responses/sec-051-p-001.json",
+          "wav": "originals/wav/sec-051-p-001.wav",
+          "mp3": "originals/mp3/sec-051-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 52,
+      "title": "Vâkıa 52",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-052.wav",
+      "mp3": "sections/mp3/sec-052.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-052-p-001",
+          "text": "لَءَاكِلُونَ مِن شَجَرٍۢ مِّن زَقُّومٍۢ",
+          "ttsText": "Vâkıa elli ikinci ayet. لَءَاكِلُونَ مِن شَجَرٍۢ مِّن زَقُّومٍۢ",
+          "request": "requests/sec-052-p-001.json",
+          "response": "responses/sec-052-p-001.json",
+          "wav": "originals/wav/sec-052-p-001.wav",
+          "mp3": "originals/mp3/sec-052-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 53,
+      "title": "Vâkıa 53",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-053.wav",
+      "mp3": "sections/mp3/sec-053.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-053-p-001",
+          "text": "فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
+          "ttsText": "Vâkıa elli üçüncü ayet. فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
+          "request": "requests/sec-053-p-001.json",
+          "response": "responses/sec-053-p-001.json",
+          "wav": "originals/wav/sec-053-p-001.wav",
+          "mp3": "originals/mp3/sec-053-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 54,
+      "title": "Vâkıa 54",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-054.wav",
+      "mp3": "sections/mp3/sec-054.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-054-p-001",
+          "text": "فَشَٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
+          "ttsText": "Vâkıa elli dördüncü ayet. فَشَٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
+          "request": "requests/sec-054-p-001.json",
+          "response": "responses/sec-054-p-001.json",
+          "wav": "originals/wav/sec-054-p-001.wav",
+          "mp3": "originals/mp3/sec-054-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 55,
+      "title": "Vâkıa 55",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-055.wav",
+      "mp3": "sections/mp3/sec-055.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-055-p-001",
+          "text": "فَشَٰرِبُونَ شُرْبَ ٱلْهِيمِ",
+          "ttsText": "Vâkıa elli beşinci ayet. فَشَٰرِبُونَ شُرْبَ ٱلْهِيمِ",
+          "request": "requests/sec-055-p-001.json",
+          "response": "responses/sec-055-p-001.json",
+          "wav": "originals/wav/sec-055-p-001.wav",
+          "mp3": "originals/mp3/sec-055-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 56,
+      "title": "Vâkıa 56",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-056.wav",
+      "mp3": "sections/mp3/sec-056.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-056-p-001",
+          "text": "هَٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ",
+          "ttsText": "Vâkıa elli altıncı ayet. هَٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ",
+          "request": "requests/sec-056-p-001.json",
+          "response": "responses/sec-056-p-001.json",
+          "wav": "originals/wav/sec-056-p-001.wav",
+          "mp3": "originals/mp3/sec-056-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 57,
+      "title": "Vâkıa 57",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-057.wav",
+      "mp3": "sections/mp3/sec-057.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-057-p-001",
+          "text": "نَحْنُ خَلَقْنَٰكُمْ فَلَوْلَا تُصَدِّقُونَ",
+          "ttsText": "Vâkıa elli yedinci ayet. نَحْنُ خَلَقْنَٰكُمْ فَلَوْلَا تُصَدِّقُونَ",
+          "request": "requests/sec-057-p-001.json",
+          "response": "responses/sec-057-p-001.json",
+          "wav": "originals/wav/sec-057-p-001.wav",
+          "mp3": "originals/mp3/sec-057-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 58,
+      "title": "Vâkıa 58",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-058.wav",
+      "mp3": "sections/mp3/sec-058.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-058-p-001",
+          "text": "أَفَرَءَيْتُم مَّا تُمْنُونَ",
+          "ttsText": "Vâkıa elli sekizinci ayet. أَفَرَءَيْتُم مَّا تُمْنُونَ",
+          "request": "requests/sec-058-p-001.json",
+          "response": "responses/sec-058-p-001.json",
+          "wav": "originals/wav/sec-058-p-001.wav",
+          "mp3": "originals/mp3/sec-058-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 59,
+      "title": "Vâkıa 59",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-059.wav",
+      "mp3": "sections/mp3/sec-059.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-059-p-001",
+          "text": "ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَٰلِقُونَ",
+          "ttsText": "Vâkıa elli dokuzuncu ayet. ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَٰلِقُونَ",
+          "request": "requests/sec-059-p-001.json",
+          "response": "responses/sec-059-p-001.json",
+          "wav": "originals/wav/sec-059-p-001.wav",
+          "mp3": "originals/mp3/sec-059-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 60,
+      "title": "Vâkıa 60",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-060.wav",
+      "mp3": "sections/mp3/sec-060.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-060-p-001",
+          "text": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ ٱلْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+          "ttsText": "Vâkıa altmışıncı ayet. نَحْنُ قَدَّرْنَا بَيْنَكُمُ ٱلْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+          "request": "requests/sec-060-p-001.json",
+          "response": "responses/sec-060-p-001.json",
+          "wav": "originals/wav/sec-060-p-001.wav",
+          "mp3": "originals/mp3/sec-060-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 61,
+      "title": "Vâkıa 61",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-061.wav",
+      "mp3": "sections/mp3/sec-061.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-061-p-001",
+          "text": "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ",
+          "ttsText": "Vâkıa altmış birinci ayet. عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ",
+          "request": "requests/sec-061-p-001.json",
+          "response": "responses/sec-061-p-001.json",
+          "wav": "originals/wav/sec-061-p-001.wav",
+          "mp3": "originals/mp3/sec-061-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 62,
+      "title": "Vâkıa 62",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-062.wav",
+      "mp3": "sections/mp3/sec-062.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-062-p-001",
+          "text": "وَلَقَدْ عَلِمْتُمُ ٱلنَّشْأَةَ ٱلْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+          "ttsText": "Vâkıa altmış ikinci ayet. وَلَقَدْ عَلِمْتُمُ ٱلنَّشْأَةَ ٱلْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+          "request": "requests/sec-062-p-001.json",
+          "response": "responses/sec-062-p-001.json",
+          "wav": "originals/wav/sec-062-p-001.wav",
+          "mp3": "originals/mp3/sec-062-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 63,
+      "title": "Vâkıa 63",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-063.wav",
+      "mp3": "sections/mp3/sec-063.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-063-p-001",
+          "text": "أَفَرَءَيْتُم مَّا تَحْرُثُونَ",
+          "ttsText": "Vâkıa altmış üçüncü ayet. أَفَرَءَيْتُم مَّا تَحْرُثُونَ",
+          "request": "requests/sec-063-p-001.json",
+          "response": "responses/sec-063-p-001.json",
+          "wav": "originals/wav/sec-063-p-001.wav",
+          "mp3": "originals/mp3/sec-063-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 64,
+      "title": "Vâkıa 64",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-064.wav",
+      "mp3": "sections/mp3/sec-064.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-064-p-001",
+          "text": "ءَأَنتُمْ تَزْرَعُونَهُۥٓ أَمْ نَحْنُ ٱلزَّٰرِعُونَ",
+          "ttsText": "Vâkıa altmış dördüncü ayet. ءَأَنتُمْ تَزْرَعُونَهُۥٓ أَمْ نَحْنُ ٱلزَّٰرِعُونَ",
+          "request": "requests/sec-064-p-001.json",
+          "response": "responses/sec-064-p-001.json",
+          "wav": "originals/wav/sec-064-p-001.wav",
+          "mp3": "originals/mp3/sec-064-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 65,
+      "title": "Vâkıa 65",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-065.wav",
+      "mp3": "sections/mp3/sec-065.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-065-p-001",
+          "text": "لَوْ نَشَآءُ لَجَعَلْنَٰهُ حُطَٰمًۭا فَظَلْتُمْ تَفَكَّهُونَ",
+          "ttsText": "Vâkıa altmış beşinci ayet. لَوْ نَشَآءُ لَجَعَلْنَٰهُ حُطَٰمًۭا فَظَلْتُمْ تَفَكَّهُونَ",
+          "request": "requests/sec-065-p-001.json",
+          "response": "responses/sec-065-p-001.json",
+          "wav": "originals/wav/sec-065-p-001.wav",
+          "mp3": "originals/mp3/sec-065-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 66,
+      "title": "Vâkıa 66",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-066.wav",
+      "mp3": "sections/mp3/sec-066.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-066-p-001",
+          "text": "إِنَّا لَمُغْرَمُونَ",
+          "ttsText": "Vâkıa altmış altıncı ayet. إِنَّا لَمُغْرَمُونَ",
+          "request": "requests/sec-066-p-001.json",
+          "response": "responses/sec-066-p-001.json",
+          "wav": "originals/wav/sec-066-p-001.wav",
+          "mp3": "originals/mp3/sec-066-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 67,
+      "title": "Vâkıa 67",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-067.wav",
+      "mp3": "sections/mp3/sec-067.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-067-p-001",
+          "text": "بَلْ نَحْنُ مَحْرُومُونَ",
+          "ttsText": "Vâkıa altmış yedinci ayet. بَلْ نَحْنُ مَحْرُومُونَ",
+          "request": "requests/sec-067-p-001.json",
+          "response": "responses/sec-067-p-001.json",
+          "wav": "originals/wav/sec-067-p-001.wav",
+          "mp3": "originals/mp3/sec-067-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 68,
+      "title": "Vâkıa 68",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-068.wav",
+      "mp3": "sections/mp3/sec-068.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-068-p-001",
+          "text": "أَفَرَءَيْتُمُ ٱلْمَآءَ ٱلَّذِى تَشْرَبُونَ",
+          "ttsText": "Vâkıa altmış sekizinci ayet. أَفَرَءَيْتُمُ ٱلْمَآءَ ٱلَّذِى تَشْرَبُونَ",
+          "request": "requests/sec-068-p-001.json",
+          "response": "responses/sec-068-p-001.json",
+          "wav": "originals/wav/sec-068-p-001.wav",
+          "mp3": "originals/mp3/sec-068-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 69,
+      "title": "Vâkıa 69",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-069.wav",
+      "mp3": "sections/mp3/sec-069.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-069-p-001",
+          "text": "ءَأَنتُمْ أَنزَلْتُمُوهُ مِنَ ٱلْمُزْنِ أَمْ نَحْنُ ٱلْمُنزِلُونَ",
+          "ttsText": "Vâkıa altmış dokuzuncu ayet. ءَأَنتُمْ أَنزَلْتُمُوهُ مِنَ ٱلْمُزْنِ أَمْ نَحْنُ ٱلْمُنزِلُونَ",
+          "request": "requests/sec-069-p-001.json",
+          "response": "responses/sec-069-p-001.json",
+          "wav": "originals/wav/sec-069-p-001.wav",
+          "mp3": "originals/mp3/sec-069-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 70,
+      "title": "Vâkıa 70",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-070.wav",
+      "mp3": "sections/mp3/sec-070.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-070-p-001",
+          "text": "لَوْ نَشَآءُ جَعَلْنَٰهُ أُجَاجًۭا فَلَوْلَا تَشْكُرُونَ",
+          "ttsText": "Vâkıa yetmişinci ayet. لَوْ نَشَآءُ جَعَلْنَٰهُ أُجَاجًۭا فَلَوْلَا تَشْكُرُونَ",
+          "request": "requests/sec-070-p-001.json",
+          "response": "responses/sec-070-p-001.json",
+          "wav": "originals/wav/sec-070-p-001.wav",
+          "mp3": "originals/mp3/sec-070-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 71,
+      "title": "Vâkıa 71",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-071.wav",
+      "mp3": "sections/mp3/sec-071.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-071-p-001",
+          "text": "أَفَرَءَيْتُمُ ٱلنَّارَ ٱلَّتِى تُورُونَ",
+          "ttsText": "Vâkıa yetmiş birinci ayet. أَفَرَءَيْتُمُ ٱلنَّارَ ٱلَّتِى تُورُونَ",
+          "request": "requests/sec-071-p-001.json",
+          "response": "responses/sec-071-p-001.json",
+          "wav": "originals/wav/sec-071-p-001.wav",
+          "mp3": "originals/mp3/sec-071-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 72,
+      "title": "Vâkıa 72",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-072.wav",
+      "mp3": "sections/mp3/sec-072.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-072-p-001",
+          "text": "ءَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَآ أَمْ نَحْنُ ٱلْمُنشِـُٔونَ",
+          "ttsText": "Vâkıa yetmiş ikinci ayet. ءَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَآ أَمْ نَحْنُ ٱلْمُنشِـُٔونَ",
+          "request": "requests/sec-072-p-001.json",
+          "response": "responses/sec-072-p-001.json",
+          "wav": "originals/wav/sec-072-p-001.wav",
+          "mp3": "originals/mp3/sec-072-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 73,
+      "title": "Vâkıa 73",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-073.wav",
+      "mp3": "sections/mp3/sec-073.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-073-p-001",
+          "text": "نَحْنُ جَعَلْنَٰهَا تَذْكِرَةًۭ وَمَتَٰعًۭا لِّلْمُقْوِينَ",
+          "ttsText": "Vâkıa yetmiş üçüncü ayet. نَحْنُ جَعَلْنَٰهَا تَذْكِرَةًۭ وَمَتَٰعًۭا لِّلْمُقْوِينَ",
+          "request": "requests/sec-073-p-001.json",
+          "response": "responses/sec-073-p-001.json",
+          "wav": "originals/wav/sec-073-p-001.wav",
+          "mp3": "originals/mp3/sec-073-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 74,
+      "title": "Vâkıa 74",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-074.wav",
+      "mp3": "sections/mp3/sec-074.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-074-p-001",
+          "text": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+          "ttsText": "Vâkıa yetmiş dördüncü ayet. فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+          "request": "requests/sec-074-p-001.json",
+          "response": "responses/sec-074-p-001.json",
+          "wav": "originals/wav/sec-074-p-001.wav",
+          "mp3": "originals/mp3/sec-074-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 75,
+      "title": "Vâkıa 75",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-075.wav",
+      "mp3": "sections/mp3/sec-075.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-075-p-001",
+          "text": "۞ فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
+          "ttsText": "Vâkıa yetmiş beşinci ayet. ۞ فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
+          "request": "requests/sec-075-p-001.json",
+          "response": "responses/sec-075-p-001.json",
+          "wav": "originals/wav/sec-075-p-001.wav",
+          "mp3": "originals/mp3/sec-075-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 76,
+      "title": "Vâkıa 76",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-076.wav",
+      "mp3": "sections/mp3/sec-076.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-076-p-001",
+          "text": "وَإِنَّهُۥ لَقَسَمٌۭ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+          "ttsText": "Vâkıa yetmiş altıncı ayet. وَإِنَّهُۥ لَقَسَمٌۭ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+          "request": "requests/sec-076-p-001.json",
+          "response": "responses/sec-076-p-001.json",
+          "wav": "originals/wav/sec-076-p-001.wav",
+          "mp3": "originals/mp3/sec-076-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 77,
+      "title": "Vâkıa 77",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-077.wav",
+      "mp3": "sections/mp3/sec-077.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-077-p-001",
+          "text": "إِنَّهُۥ لَقُرْءَانٌۭ كَرِيمٌۭ",
+          "ttsText": "Vâkıa yetmiş yedinci ayet. إِنَّهُۥ لَقُرْءَانٌۭ كَرِيمٌۭ",
+          "request": "requests/sec-077-p-001.json",
+          "response": "responses/sec-077-p-001.json",
+          "wav": "originals/wav/sec-077-p-001.wav",
+          "mp3": "originals/mp3/sec-077-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 78,
+      "title": "Vâkıa 78",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-078.wav",
+      "mp3": "sections/mp3/sec-078.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-078-p-001",
+          "text": "فِى كِتَٰبٍۢ مَّكْنُونٍۢ",
+          "ttsText": "Vâkıa yetmiş sekizinci ayet. فِى كِتَٰبٍۢ مَّكْنُونٍۢ",
+          "request": "requests/sec-078-p-001.json",
+          "response": "responses/sec-078-p-001.json",
+          "wav": "originals/wav/sec-078-p-001.wav",
+          "mp3": "originals/mp3/sec-078-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 79,
+      "title": "Vâkıa 79",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-079.wav",
+      "mp3": "sections/mp3/sec-079.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-079-p-001",
+          "text": "لَّا يَمَسُّهُۥٓ إِلَّا ٱلْمُطَهَّرُونَ",
+          "ttsText": "Vâkıa yetmiş dokuzuncu ayet. لَّا يَمَسُّهُۥٓ إِلَّا ٱلْمُطَهَّرُونَ",
+          "request": "requests/sec-079-p-001.json",
+          "response": "responses/sec-079-p-001.json",
+          "wav": "originals/wav/sec-079-p-001.wav",
+          "mp3": "originals/mp3/sec-079-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 80,
+      "title": "Vâkıa 80",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-080.wav",
+      "mp3": "sections/mp3/sec-080.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-080-p-001",
+          "text": "تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ",
+          "ttsText": "Vâkıa sekseninci ayet. تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ",
+          "request": "requests/sec-080-p-001.json",
+          "response": "responses/sec-080-p-001.json",
+          "wav": "originals/wav/sec-080-p-001.wav",
+          "mp3": "originals/mp3/sec-080-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 81,
+      "title": "Vâkıa 81",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-081.wav",
+      "mp3": "sections/mp3/sec-081.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-081-p-001",
+          "text": "أَفَبِهَٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+          "ttsText": "Vâkıa seksen birinci ayet. أَفَبِهَٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+          "request": "requests/sec-081-p-001.json",
+          "response": "responses/sec-081-p-001.json",
+          "wav": "originals/wav/sec-081-p-001.wav",
+          "mp3": "originals/mp3/sec-081-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 82,
+      "title": "Vâkıa 82",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-082.wav",
+      "mp3": "sections/mp3/sec-082.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-082-p-001",
+          "text": "وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
+          "ttsText": "Vâkıa seksen ikinci ayet. وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
+          "request": "requests/sec-082-p-001.json",
+          "response": "responses/sec-082-p-001.json",
+          "wav": "originals/wav/sec-082-p-001.wav",
+          "mp3": "originals/mp3/sec-082-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 83,
+      "title": "Vâkıa 83",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-083.wav",
+      "mp3": "sections/mp3/sec-083.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-083-p-001",
+          "text": "فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ",
+          "ttsText": "Vâkıa seksen üçüncü ayet. فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ",
+          "request": "requests/sec-083-p-001.json",
+          "response": "responses/sec-083-p-001.json",
+          "wav": "originals/wav/sec-083-p-001.wav",
+          "mp3": "originals/mp3/sec-083-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 84,
+      "title": "Vâkıa 84",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-084.wav",
+      "mp3": "sections/mp3/sec-084.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-084-p-001",
+          "text": "وَأَنتُمْ حِينَئِذٍۢ تَنظُرُونَ",
+          "ttsText": "Vâkıa seksen dördüncü ayet. وَأَنتُمْ حِينَئِذٍۢ تَنظُرُونَ",
+          "request": "requests/sec-084-p-001.json",
+          "response": "responses/sec-084-p-001.json",
+          "wav": "originals/wav/sec-084-p-001.wav",
+          "mp3": "originals/mp3/sec-084-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 85,
+      "title": "Vâkıa 85",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-085.wav",
+      "mp3": "sections/mp3/sec-085.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-085-p-001",
+          "text": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَٰكِن لَّا تُبْصِرُونَ",
+          "ttsText": "Vâkıa seksen beşinci ayet. وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَٰكِن لَّا تُبْصِرُونَ",
+          "request": "requests/sec-085-p-001.json",
+          "response": "responses/sec-085-p-001.json",
+          "wav": "originals/wav/sec-085-p-001.wav",
+          "mp3": "originals/mp3/sec-085-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 86,
+      "title": "Vâkıa 86",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-086.wav",
+      "mp3": "sections/mp3/sec-086.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-086-p-001",
+          "text": "فَلَوْلَآ إِن كُنتُمْ غَيْرَ مَدِينِينَ",
+          "ttsText": "Vâkıa seksen altıncı ayet. فَلَوْلَآ إِن كُنتُمْ غَيْرَ مَدِينِينَ",
+          "request": "requests/sec-086-p-001.json",
+          "response": "responses/sec-086-p-001.json",
+          "wav": "originals/wav/sec-086-p-001.wav",
+          "mp3": "originals/mp3/sec-086-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 87,
+      "title": "Vâkıa 87",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-087.wav",
+      "mp3": "sections/mp3/sec-087.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-087-p-001",
+          "text": "تَرْجِعُونَهَآ إِن كُنتُمْ صَٰدِقِينَ",
+          "ttsText": "Vâkıa seksen yedinci ayet. تَرْجِعُونَهَآ إِن كُنتُمْ صَٰدِقِينَ",
+          "request": "requests/sec-087-p-001.json",
+          "response": "responses/sec-087-p-001.json",
+          "wav": "originals/wav/sec-087-p-001.wav",
+          "mp3": "originals/mp3/sec-087-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 88,
+      "title": "Vâkıa 88",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-088.wav",
+      "mp3": "sections/mp3/sec-088.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-088-p-001",
+          "text": "فَأَمَّآ إِن كَانَ مِنَ ٱلْمُقَرَّبِينَ",
+          "ttsText": "Vâkıa seksen sekizinci ayet. فَأَمَّآ إِن كَانَ مِنَ ٱلْمُقَرَّبِينَ",
+          "request": "requests/sec-088-p-001.json",
+          "response": "responses/sec-088-p-001.json",
+          "wav": "originals/wav/sec-088-p-001.wav",
+          "mp3": "originals/mp3/sec-088-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 89,
+      "title": "Vâkıa 89",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-089.wav",
+      "mp3": "sections/mp3/sec-089.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-089-p-001",
+          "text": "فَرَوْحٌۭ وَرَيْحَانٌۭ وَجَنَّتُ نَعِيمٍۢ",
+          "ttsText": "Vâkıa seksen dokuzuncu ayet. فَرَوْحٌۭ وَرَيْحَانٌۭ وَجَنَّتُ نَعِيمٍۢ",
+          "request": "requests/sec-089-p-001.json",
+          "response": "responses/sec-089-p-001.json",
+          "wav": "originals/wav/sec-089-p-001.wav",
+          "mp3": "originals/mp3/sec-089-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 90,
+      "title": "Vâkıa 90",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-090.wav",
+      "mp3": "sections/mp3/sec-090.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-090-p-001",
+          "text": "وَأَمَّآ إِن كَانَ مِنْ أَصْحَٰبِ ٱلْيَمِينِ",
+          "ttsText": "Vâkıa doksanıncı ayet. وَأَمَّآ إِن كَانَ مِنْ أَصْحَٰبِ ٱلْيَمِينِ",
+          "request": "requests/sec-090-p-001.json",
+          "response": "responses/sec-090-p-001.json",
+          "wav": "originals/wav/sec-090-p-001.wav",
+          "mp3": "originals/mp3/sec-090-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 91,
+      "title": "Vâkıa 91",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-091.wav",
+      "mp3": "sections/mp3/sec-091.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-091-p-001",
+          "text": "فَسَلَٰمٌۭ لَّكَ مِنْ أَصْحَٰبِ ٱلْيَمِينِ",
+          "ttsText": "Vâkıa doksan birinci ayet. فَسَلَٰمٌۭ لَّكَ مِنْ أَصْحَٰبِ ٱلْيَمِينِ",
+          "request": "requests/sec-091-p-001.json",
+          "response": "responses/sec-091-p-001.json",
+          "wav": "originals/wav/sec-091-p-001.wav",
+          "mp3": "originals/mp3/sec-091-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 92,
+      "title": "Vâkıa 92",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-092.wav",
+      "mp3": "sections/mp3/sec-092.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-092-p-001",
+          "text": "وَأَمَّآ إِن كَانَ مِنَ ٱلْمُكَذِّبِينَ ٱلضَّآلِّينَ",
+          "ttsText": "Vâkıa doksan ikinci ayet. وَأَمَّآ إِن كَانَ مِنَ ٱلْمُكَذِّبِينَ ٱلضَّآلِّينَ",
+          "request": "requests/sec-092-p-001.json",
+          "response": "responses/sec-092-p-001.json",
+          "wav": "originals/wav/sec-092-p-001.wav",
+          "mp3": "originals/mp3/sec-092-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 93,
+      "title": "Vâkıa 93",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-093.wav",
+      "mp3": "sections/mp3/sec-093.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-093-p-001",
+          "text": "فَنُزُلٌۭ مِّنْ حَمِيمٍۢ",
+          "ttsText": "Vâkıa doksan üçüncü ayet. فَنُزُلٌۭ مِّنْ حَمِيمٍۢ",
+          "request": "requests/sec-093-p-001.json",
+          "response": "responses/sec-093-p-001.json",
+          "wav": "originals/wav/sec-093-p-001.wav",
+          "mp3": "originals/mp3/sec-093-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 94,
+      "title": "Vâkıa 94",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-094.wav",
+      "mp3": "sections/mp3/sec-094.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-094-p-001",
+          "text": "وَتَصْلِيَةُ جَحِيمٍ",
+          "ttsText": "Vâkıa doksan dördüncü ayet. وَتَصْلِيَةُ جَحِيمٍ",
+          "request": "requests/sec-094-p-001.json",
+          "response": "responses/sec-094-p-001.json",
+          "wav": "originals/wav/sec-094-p-001.wav",
+          "mp3": "originals/mp3/sec-094-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 95,
+      "title": "Vâkıa 95",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-095.wav",
+      "mp3": "sections/mp3/sec-095.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-095-p-001",
+          "text": "إِنَّ هَٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
+          "ttsText": "Vâkıa doksan beşinci ayet. إِنَّ هَٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
+          "request": "requests/sec-095-p-001.json",
+          "response": "responses/sec-095-p-001.json",
+          "wav": "originals/wav/sec-095-p-001.wav",
+          "mp3": "originals/mp3/sec-095-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 96,
+      "title": "Vâkıa 96",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-096.wav",
+      "mp3": "sections/mp3/sec-096.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "ayah_reference",
+          "chunkId": "sec-096-p-001",
+          "text": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+          "ttsText": "Vâkıa doksan altıncı ayet. فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+          "request": "requests/sec-096-p-001.json",
+          "response": "responses/sec-096-p-001.json",
+          "wav": "originals/wav/sec-096-p-001.wav",
+          "mp3": "originals/mp3/sec-096-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "error": {
+    "code": 403,
+    "message": "Caller does not have required permission to use project quran-roots. Grant the caller the roles/serviceusage.serviceUsageConsumer role, or a custom role with the serviceusage.services.use permission, by visiting https://console.developers.google.com/iam-admin/iam?project=quran-roots and then retry. Propagation of the new permission may take a few minutes.",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "USER_PROJECT_DENIED",
+        "domain": "googleapis.com",
+        "metadata": {
+          "consumer": "projects/quran-roots",
+          "consoleUrl": "https://console.developers.google.com/iam-admin/iam?project=quran-roots",
+          "containerInfo": "quran-roots",
+          "service": "texttospeech.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "Caller does not have required permission to use project quran-roots. Grant the caller the roles/serviceusage.serviceUsageConsumer role, or a custom role with the serviceusage.services.use permission, by visiting https://console.developers.google.com/iam-admin/iam?project=quran-roots and then retry. Propagation of the new permission may take a few minutes."
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Google developer console IAM admin",
+            "url": "https://console.developers.google.com/iam-admin/iam?project=quran-roots"
+          }
+        ]
+      }
+    ]
+  },
+  "_generatedAt": "2026-08-01T04:44:35Z",
+  "_requestMetadata": {
+    "requestSha256": "f6bd3cd36d312edc7b5261e296e03cbc512759a34cbb0d4a1171d6050474dd4e",
+    "textSha256": "6f15e33d5ae0a18f475d9133ca1b95472e6b4474dcf8a2aaa15f0f8a5c25d9be",
+    "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+    "voiceSha256": "b24fed2d32ff77cd38ea17e2a44021564b7d1303e9e01f710427b4922419dc93",
+    "audioConfigSha256": "2e0e5e23173ea1c5f77b479debd1ad124547289f8d5cbadeedbd69fa262e1a48"
+  }
+}

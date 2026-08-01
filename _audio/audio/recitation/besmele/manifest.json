@@ -1,0 +1,52 @@
+{
+  "source": "data/text/quran-uthmani.tsv",
+  "sources": [
+    "data/text/quran-uthmani.tsv"
+  ],
+  "sourceKind": "recitation",
+  "surahId": "besmele",
+  "collection": "recitation",
+  "cleanMarkdown": "besmele.md",
+  "chunksJsonl": "chunks.jsonl",
+  "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+  "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "voice": {
+    "languageCode": "tr-TR",
+    "modelName": "gemini-3.1-flash-tts-preview",
+    "name": "Rasalgethi"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": 0,
+    "speakingRate": 1
+  },
+  "chunkCount": 1,
+  "arabicTextSource": "data/text/quran-uthmani.tsv",
+  "titleHandling": "Single shared, surah-agnostic basmalah clip -- not tied to any one surah name. All 112 ':0' rows in quran-uthmani.tsv share one identical Arabic string, so this one recitation covers every placement.",
+  "reuseNote": "Playback/app assembly should prepend this clip before every surah's own recitation except S001 (al-Fatiha, whose own ayah 1 IS the basmalah) and S009 (at-Tawbah, which has no basmalah at all). This script does not concatenate it into each surah's own folder -- per-surah recitation sections (build_recitation_sections) skip ':0' rows entirely.",
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "title": "Besmele",
+      "kind": "recitation",
+      "grades": [],
+      "wav": "sections/wav/sec-001.wav",
+      "mp3": "sections/mp3/sec-001.mp3",
+      "durationSeconds": null,
+      "paragraphs": [
+        {
+          "paragraphIndex": 1,
+          "kind": "besmele_reference",
+          "chunkId": "sec-001-p-001",
+          "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+          "ttsText": "Besmele. بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+          "request": "requests/sec-001-p-001.json",
+          "response": "responses/sec-001-p-001.json",
+          "wav": "originals/wav/sec-001-p-001.wav",
+          "mp3": "originals/mp3/sec-001-p-001.mp3",
+          "durationSeconds": null
+        }
+      ]
+    }
+  ]
+}
