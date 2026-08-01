@@ -602,8 +602,15 @@ def build_ledger_entry(
     actually charged against this entry's inputCostUsd/outputCostUsd/
     totalCostUsd (False forces them to 0.0, even though inputTokensEst/
     audioTokens are still recorded for reference)."""
+    # Use ttsText, not charCount/text -- ttsText is what build_request()
+    # actually sends to the API (for ayah_reference/besmele_reference/
+    # section_title kinds it's longer than the display `text`, prefixed
+    # with the spoken surah/ordinal label). charCount/text is display-only
+    # and undercounts real input length for ~37% of chunks in the real
+    # corpus -- verified by code review; see git history.
+    tts_text = chunk.get("ttsText") or chunk.get("text", "")
     costs = compute_costs(
-        text_char_count=chunk.get("charCount", len(chunk.get("text", ""))),
+        text_char_count=len(tts_text),
         prompt_char_count=len(PROMPT),
         duration_seconds=duration_seconds,
     )
@@ -617,7 +624,7 @@ def build_ledger_entry(
         "chunkId": chunk.get("chunkId"),
         "kind": chunk.get("kind"),
         "requestSha256": chunk.get("requestSha256"),
-        "textCharCount": chunk.get("charCount"),
+        "textCharCount": len(tts_text),
         "promptCharCount": len(PROMPT),
         "durationSeconds": duration_seconds,
         "audioTokens": costs["audioTokens"],
