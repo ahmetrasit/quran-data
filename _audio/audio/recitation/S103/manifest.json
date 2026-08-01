@@ -10,6 +10,14 @@
   "chunksJsonl": "chunks.jsonl",
   "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
   "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "prompts": {
+    "commentary": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+    "recitation": "Read only the exact text in the text field. The text field is the complete script. Do not repeat, add, explain, translate, paraphrase, or continue it. Stop immediately after the final Arabic word. Say the Turkish label once, then recite the Arabic Quran text once, with a short natural pause after the label."
+  },
+  "promptSha256ByKind": {
+    "commentary": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+    "recitation": "40a864d33dc583911bb0e4b862c6556701fbc49239ce890601a8aae93b235a85"
+  },
   "voice": {
     "languageCode": "tr-TR",
     "modelName": "gemini-3.1-flash-tts-preview",
@@ -39,6 +47,9 @@
           "chunkId": "sec-001-p-001",
           "text": "وَٱلْعَصْرِ",
           "ttsText": "Asr birinci ayet. وَٱلْعَصْرِ",
+          "ttsCharCount": 29,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-001-p-001.json",
           "response": "responses/sec-001-p-001.json",
           "wav": "originals/wav/sec-001-p-001.wav",
@@ -62,6 +73,9 @@
           "chunkId": "sec-002-p-001",
           "text": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
           "ttsText": "Asr ikinci ayet. إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+          "ttsCharCount": 47,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-002-p-001.json",
           "response": "responses/sec-002-p-001.json",
           "wav": "originals/wav/sec-002-p-001.wav",
@@ -85,6 +99,9 @@
           "chunkId": "sec-003-p-001",
           "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
           "ttsText": "Asr üçüncü ayet. إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+          "ttsCharCount": 121,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-003-p-001.json",
           "response": "responses/sec-003-p-001.json",
           "wav": "originals/wav/sec-003-p-001.wav",

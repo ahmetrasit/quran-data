@@ -10,6 +10,14 @@
   "chunksJsonl": "chunks.jsonl",
   "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
   "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "prompts": {
+    "commentary": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+    "recitation": "Read only the exact text in the text field. The text field is the complete script. Do not repeat, add, explain, translate, paraphrase, or continue it. Stop immediately after the final Arabic word. Say the Turkish label once, then recite the Arabic Quran text once, with a short natural pause after the label."
+  },
+  "promptSha256ByKind": {
+    "commentary": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+    "recitation": "40a864d33dc583911bb0e4b862c6556701fbc49239ce890601a8aae93b235a85"
+  },
   "voice": {
     "languageCode": "tr-TR",
     "modelName": "gemini-3.1-flash-tts-preview",
@@ -31,7 +39,7 @@
       "grades": [],
       "wav": "sections/wav/sec-001.wav",
       "mp3": "sections/mp3/sec-001.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 7.92,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -39,13 +47,21 @@
           "chunkId": "sec-001-p-001",
           "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "ttsText": "Fâtiha birinci ayet. بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "ttsCharCount": 59,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-001-p-001.json",
           "response": "responses/sec-001-p-001.json",
           "wav": "originals/wav/sec-001-p-001.wav",
           "mp3": "originals/mp3/sec-001-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 7.92,
+          "generatedAt": "2026-08-01T15:54:51Z",
+          "audioSha256": "67b0909a5b7cb60d2a521f305d9637f464379e33f10cbc7c846b9cca388af0ac",
+          "mp3Sha256": "2c99fee0f564179408eb41f423ae72b67dfeba91883ffc2d670c2a74a85d24e7"
         }
-      ]
+      ],
+      "wavSha256": "67b0909a5b7cb60d2a521f305d9637f464379e33f10cbc7c846b9cca388af0ac",
+      "mp3Sha256": "2c99fee0f564179408eb41f423ae72b67dfeba91883ffc2d670c2a74a85d24e7"
     },
     {
       "sectionIndex": 2,
@@ -62,11 +78,17 @@
           "chunkId": "sec-002-p-001",
           "text": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
           "ttsText": "Fâtiha ikinci ayet. ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+          "ttsCharCount": 57,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-002-p-001.json",
           "response": "responses/sec-002-p-001.json",
           "wav": "originals/wav/sec-002-p-001.wav",
           "mp3": "originals/mp3/sec-002-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": null,
+          "generatedAt": null,
+          "audioSha256": null,
+          "mp3Sha256": null
         }
       ]
     },
@@ -85,11 +107,17 @@
           "chunkId": "sec-003-p-001",
           "text": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "ttsText": "Fâtiha üçüncü ayet. ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "ttsCharCount": 43,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-003-p-001.json",
           "response": "responses/sec-003-p-001.json",
           "wav": "originals/wav/sec-003-p-001.wav",
           "mp3": "originals/mp3/sec-003-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": null,
+          "generatedAt": null,
+          "audioSha256": null,
+          "mp3Sha256": null
         }
       ]
     },
@@ -108,11 +136,17 @@
           "chunkId": "sec-004-p-001",
           "text": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
           "ttsText": "Fâtiha dördüncü ayet. مَٰلِكِ يَوْمِ ٱلدِّينِ",
+          "ttsCharCount": 45,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-004-p-001.json",
           "response": "responses/sec-004-p-001.json",
           "wav": "originals/wav/sec-004-p-001.wav",
           "mp3": "originals/mp3/sec-004-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": null,
+          "generatedAt": null,
+          "audioSha256": null,
+          "mp3Sha256": null
         }
       ]
     },
@@ -131,11 +165,17 @@
           "chunkId": "sec-005-p-001",
           "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
           "ttsText": "Fâtiha beşinci ayet. إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "ttsCharCount": 61,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-005-p-001.json",
           "response": "responses/sec-005-p-001.json",
           "wav": "originals/wav/sec-005-p-001.wav",
           "mp3": "originals/mp3/sec-005-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": null,
+          "generatedAt": null,
+          "audioSha256": null,
+          "mp3Sha256": null
         }
       ]
     },
@@ -154,11 +194,17 @@
           "chunkId": "sec-006-p-001",
           "text": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
           "ttsText": "Fâtiha altıncı ayet. ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "ttsCharCount": 55,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-006-p-001.json",
           "response": "responses/sec-006-p-001.json",
           "wav": "originals/wav/sec-006-p-001.wav",
           "mp3": "originals/mp3/sec-006-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": null,
+          "generatedAt": null,
+          "audioSha256": null,
+          "mp3Sha256": null
         }
       ]
     },
@@ -177,13 +223,21 @@
           "chunkId": "sec-007-p-001",
           "text": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
           "ttsText": "Fâtiha yedinci ayet. صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+          "ttsCharCount": 111,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-007-p-001.json",
           "response": "responses/sec-007-p-001.json",
           "wav": "originals/wav/sec-007-p-001.wav",
           "mp3": "originals/mp3/sec-007-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": null,
+          "generatedAt": null,
+          "audioSha256": null,
+          "mp3Sha256": null
         }
       ]
     }
-  ]
+  ],
+  "generationStatus": "partial",
+  "generationRequestSetSha256": "5a5688c2343796df9616f68efbe519b50ecb788253e95d60092714b478d69e92"
 }

@@ -152,25 +152,25 @@ def process_one(
         return {"outDir": None, "chunkCount": len(sections), "sectionCount": len(sections)}
 
     out_dir = out_root / surah_id
-    common.check_generation_lock(out_dir)
-    result = common.write_collection(
-        out_dir=out_dir,
-        surah_id=surah_id,
-        collection="recitation",
-        source=quran_text_relpath,
-        sources=[quran_text_relpath],
-        sections=sections,
-        extra_manifest_fields={
-            "arabicTextSource": quran_text_relpath,
-            "titleHandling": (
-                "Each section is exactly one ayah_reference paragraph: "
-                "sectionTitle uses the digit form '<name> <number>' (or "
-                "'<name> besmele' for the ayah-0 basmalah row); ttsText "
-                "speaks the surah name and spelled-out ordinal ayet label "
-                "followed by the canonical Arabic text. No commentary prose."
-            ),
-        },
-    )
+    with common.CollectionLock(out_dir):
+        result = common.write_collection(
+            out_dir=out_dir,
+            surah_id=surah_id,
+            collection="recitation",
+            source=quran_text_relpath,
+            sources=[quran_text_relpath],
+            sections=sections,
+            extra_manifest_fields={
+                "arabicTextSource": quran_text_relpath,
+                "titleHandling": (
+                    "Each section is exactly one ayah_reference paragraph: "
+                    "sectionTitle uses the digit form '<name> <number>' (or "
+                    "'<name> besmele' for the ayah-0 basmalah row); ttsText "
+                    "speaks the surah name and spelled-out ordinal ayet label "
+                    "followed by the canonical Arabic text. No commentary prose."
+                ),
+            },
+        )
     print(json.dumps(result, ensure_ascii=False))
     return result
 
@@ -191,32 +191,32 @@ def process_besmele(
         return {"outDir": None, "chunkCount": 1, "sectionCount": 1}
 
     out_dir = out_root / surah_id
-    common.check_generation_lock(out_dir)
-    result = common.write_collection(
-        out_dir=out_dir,
-        surah_id=surah_id,
-        collection="recitation",
-        source=quran_text_relpath,
-        sources=[quran_text_relpath],
-        sections=sections,
-        extra_manifest_fields={
-            "arabicTextSource": quran_text_relpath,
-            "titleHandling": (
-                "Single shared, surah-agnostic basmalah clip -- not tied to "
-                "any one surah name. All 112 ':0' rows in quran-uthmani.tsv "
-                "share one identical Arabic string, so this one recitation "
-                "covers every placement."
-            ),
-            "reuseNote": (
-                "Playback/app assembly should prepend this clip before every "
-                "surah's own recitation except S001 (al-Fatiha, whose own "
-                "ayah 1 IS the basmalah) and S009 (at-Tawbah, which has no "
-                "basmalah at all). This script does not concatenate it into "
-                "each surah's own folder -- per-surah recitation sections "
-                "(build_recitation_sections) skip ':0' rows entirely."
-            ),
-        },
-    )
+    with common.CollectionLock(out_dir):
+        result = common.write_collection(
+            out_dir=out_dir,
+            surah_id=surah_id,
+            collection="recitation",
+            source=quran_text_relpath,
+            sources=[quran_text_relpath],
+            sections=sections,
+            extra_manifest_fields={
+                "arabicTextSource": quran_text_relpath,
+                "titleHandling": (
+                    "Single shared, surah-agnostic basmalah clip -- not tied to "
+                    "any one surah name. All 112 ':0' rows in quran-uthmani.tsv "
+                    "share one identical Arabic string, so this one recitation "
+                    "covers every placement."
+                ),
+                "reuseNote": (
+                    "Playback/app assembly should prepend this clip before every "
+                    "surah's own recitation except S001 (al-Fatiha, whose own "
+                    "ayah 1 IS the basmalah) and S009 (at-Tawbah, which has no "
+                    "basmalah at all). This script does not concatenate it into "
+                    "each surah's own folder -- per-surah recitation sections "
+                    "(build_recitation_sections) skip ':0' rows entirely."
+                ),
+            },
+        )
     print(json.dumps(result, ensure_ascii=False))
     return result
 

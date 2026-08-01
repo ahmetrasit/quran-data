@@ -12,6 +12,8 @@ _audio/
     prepare_commentary_chunks.py      Group 2 prepare (ayah / summary / surah)
     reuse_recitation_references.py    seeds ayah/summary reference audio from recitation
     synthesize_tts_chunks.py          shared send/receive (both groups)
+    run_tts_batch.py                  bounded parallel planner/runner
+  tests/test_audio_pipeline.py        offline workflow tests
   audio/
     recitation/
       surah-names.tr.tsv           Turkish surah-name lookup, hand-authored
@@ -64,7 +66,8 @@ they are the actual spec.
 
 Every `ayah_reference` chunk in the `ayah`/`summary` collections is
 byte-for-byte identical to its counterpart in `recitation` -- same
-`ttsText`, same voice/prompt/config, hence the same `requestSha256` (both
+`ttsText`, same strict recitation prompt/voice/config, hence the same
+`requestSha256` (both
 are built from the same `ayah_spoken_label()` + Arabic text). Verified
 against the full real corpus: 1,393/1,393 `ayah` reference chunks and
 979/979 `summary` reference chunks match recitation's exactly. Left alone,
@@ -88,20 +91,18 @@ it" below for the full recommended order.
 ## The shared step: `synthesize_tts_chunks.py`
 
 Collection-agnostic. Reads `<surah_dir>/chunks.jsonl` + `manifest.json`,
-sends each unsent `requests/*.json` to Google TTS, writes
+validates the complete collection and exact request bytes offline, sends each
+confirmed unsent `requests/*.json` to Google TTS, writes
 `responses/*.json`, decodes WAV into `originals/wav/`, converts to MP3 in
 `originals/mp3/` (`ffmpeg` or macOS `afconvert` required), and joins each
-section's paragraph WAVs into `sections/wav/` + `sections/mp3/`. Idempotent:
-re-running skips any chunk whose response hash still matches its request.
-
-Ported unmodified from
-`latent_activation/_audio/scripts/synthesize_tts_chunks.py` (that copy is
-the original for `latent_activation`'s own, unrelated network-v3 discovery
-pipeline -- the two `_audio/` trees are intentionally decoupled; see the
-"why not reuse `prepare_tts_chunks.py`" note below).
+section's paragraph WAVs into `sections/wav/` + `sections/mp3/`. It
+automatically appends attempt and terminal events to
+`_audio/ledger/YYYY-MM-DD.jsonl`. Re-running skips chunks whose response still
+matches the prepared request.
 
 Requires `gcloud auth login` against a project with Text-to-Speech API
-access (`PROJECT_ID = "quran-roots"` in the script).
+access. The default billing/quota project is `quran-roots`; override it with
+`--project-id` or `GOOGLE_CLOUD_PROJECT`.
 
 ## Running it
 
@@ -116,75 +117,83 @@ python3 prepare_commentary_chunks.py summary --all
 python3 prepare_commentary_chunks.py surah --all
 python3 prepare_recitation_chunks.py 1 --dry-run          # inspect without writing
 
-# 2. Synthesize recitation FIRST -- ayah/summary reuse its reference audio (step 3)
-touch ../audio/recitation/S001/.tts-generation.lock       # advisory, see below
-python3 synthesize_tts_chunks.py ../audio/recitation/S001 --limit 3   # smoke-test first
-python3 synthesize_tts_chunks.py ../audio/recitation/S001
-rm ../audio/recitation/S001/.tts-generation.lock
+# 2. Preflight recitation FIRST. This is offline and prints exact confirmations.
+python3 synthesize_tts_chunks.py ../audio/recitation/S001 --limit 1 --dry-run
 
-# 3. Seed ayah/summary reference chunks from the recitation audio just generated
+# 3. Run that canary only after reviewing preflight output.
+python3 synthesize_tts_chunks.py ../audio/recitation/S001 --limit 1 \
+  --confirm-remote <requestSetSha256> \
+  --confirm-cost-usd <maximumCostUsd> \
+  --max-cost-usd <approved-ceiling>
+
+# 4. Seed ayah/summary reference chunks from completed recitation audio.
 python3 reuse_recitation_references.py ayah S001
 python3 reuse_recitation_references.py summary S001
 
-# 4. Synthesize ayah/summary -- only pays for what step 3 couldn't seed
-touch ../audio/ayah/S001/.tts-generation.lock
-python3 synthesize_tts_chunks.py ../audio/ayah/S001 --limit 3
-python3 synthesize_tts_chunks.py ../audio/ayah/S001
-rm ../audio/ayah/S001/.tts-generation.lock
+# 5. Preflight commentary. Reused references are excluded from remote calls.
+python3 synthesize_tts_chunks.py ../audio/ayah/S001 --dry-run
 ```
+
+The batch runner executes distinct folders in parallel with a bounded worker
+count. First create and review an offline plan, then use the exact plan hash
+and aggregate maximum cost it prints:
+
+```bash
+python3 run_tts_batch.py recitation --dry-run --workers 4 \
+  --write-plan /tmp/recitation-plan.json
+
+python3 run_tts_batch.py --plan /tmp/recitation-plan.json --workers 4 \
+  --confirm-plan <planSha256> \
+  --confirm-cost-usd <maximumCostUsd> \
+  --max-cost-usd <approved-ceiling>
+```
+
+Use `--surah-id S001` while planning to select specific folders, or `--limit
+1` for a one-chunk-per-folder canary. If a request or cached response changes,
+execution refuses the reviewed plan and requires a fresh preflight.
 
 `--all` mode in the prepare scripts never aborts the whole run on one bad
 surah: it logs the failure to stderr, keeps going, and the process exits
 non-zero only if at least one surah failed. Check stderr for a
 `processed=.. skipped=.. failed=..` summary line.
 
-## `.tts-generation.lock`
+## Collection locks
 
-Advisory only -- `synthesize_tts_chunks.py` does not create, check, or
-remove it. `prepare_commentary_chunks.py` / `prepare_recitation_chunks.py`
-*do* refuse to run if they find one (`check_generation_lock()` in
-`tts_common.py`), to stop a prepare re-run from regenerating requests (and
-invalidating in-flight response hashes) while a synthesis run against that
-same folder is in progress. The convention: touch the lock file yourself
-before starting a synthesis run you're actively driving, remove it when
-done.
+Preparation, response reuse, and synthesis automatically take an OS lock on
+`<collection>/.tts-generation.lock`. Only the same folder is excluded, so
+different surahs and collections can run in parallel. Lock files are
+persistent and gitignored; do not create or remove them manually.
 
 ## Cost notes
 
 Gemini 3.1 Flash TTS Preview is token-based: $1.00 / 1M input text tokens,
 $20.00 / 1M output audio tokens (~25 tokens/sec of audio). Output cost
-dominates -- always `--limit` a smoke test before running a full surah,
-especially `ayah`/`summary` collections whose prose can run long. Full
-pricing/format notes: `latent_activation/_audio/tts-generation-spec.md`.
+dominates. Preflight's `maximumCostUsd` uses the provider's maximum input and
+output tokens for every pending request; this conservative value is the
+required confirmation and ceiling basis. The ledger estimates input tokens
+from characters and derives output tokens from measured WAV duration.
 
 ## Verifying a prepare script after editing it
 
-There is no pytest suite for these scripts (they live in `quran-data`, a
-data/generation repo, not a code repo with a test runner). Before trusting a
-change:
+Before trusting a change:
 
-1. `python3 tts_common.py` -- eyeballs the Turkish ordinal table.
-2. `python3 prepare_commentary_chunks.py ayah 1 --dry-run` and diff its
+1. Run `python3 -m unittest discover -s ../tests -v` from `_audio/scripts`.
+2. Run `python3 tts_common.py` to inspect the Turkish ordinal table.
+3. Run `python3 prepare_commentary_chunks.py ayah 1 --dry-run` and diff its
    `text`/`ttsText` fields against the real, already-shipped
    `audio/ayah/S001/chunks.jsonl` (git history: commit `c9a4fe5d`) -- every
    paragraph body should match exactly; only the surah-name spelling should
    differ (see git blame / conversation history for why "Fatiha" became
    "Fâtiha").
-3. Run every prepare script with `--all --dry-run` and confirm
+4. Run every prepare script with `--all --dry-run` and confirm
    `failed=0` across the whole real corpus.
-4. Offline-validate a real prepared folder against synth's own hash check,
-   without hitting the network or spending money:
+5. Offline-validate a real prepared folder with sender preflight:
 
-   ```python
-   import sys; sys.path.insert(0, "scripts")
-   from synthesize_tts_chunks import validate_request_file, load_jsonl
-   from pathlib import Path
-   surah_dir = Path("audio/ayah/S001")
-   for chunk in load_jsonl(surah_dir / "chunks.jsonl"):
-       validate_request_file(surah_dir / chunk["request"], chunk)  # raises on mismatch
+   ```bash
+   python3 synthesize_tts_chunks.py ../audio/ayah/S001 --dry-run
    ```
 
-5. To check `reuse_recitation_references.py` without spending money: fabricate
+6. To check `reuse_recitation_references.py` without spending money: fabricate
    a valid response (a tiny silent LINEAR16/24kHz/mono WAV, base64-encoded,
    with `_requestMetadata` copied from a real chunk's five hash fields) under
    a copied `recitation/<surahId>/responses/`, run the reuse script with

@@ -27,12 +27,11 @@ pilot -- see `_audio/README.md` for the full provenance story):
       originals/{wav,mp3}/     filled in later, by synthesize_tts_chunks.py
       sections/{wav,mp3}/      filled in later, by synthesize_tts_chunks.py
 
-Voice, prompt, and audio config are intentionally identical across every
-collection (recitation and all three commentary tiers). The S001 pilot
-already proved this narrator prompt reads a bare "<name> <ordinal> ayet.
-<arabic>" reference line naturally, so there is no reason to fork the voice
-per collection -- a listener switching between collections should hear the
-same narrator throughout.
+Voice and audio config are identical across every collection. Commentary
+uses the conversational narrator prompt; canonical Quran reference chunks
+use a strict prompt that forbids additions, repetition, translation, and
+continuation. Recitation and commentary-reference requests still match each
+other exactly, so synthesized reference audio remains reusable.
 """
 from __future__ import annotations
 
@@ -40,16 +39,16 @@ import hashlib
 import json
 import os
 import re
-import time
+import fcntl
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
-# Voice / prompt / audio config -- identical across every collection.
+# Voice, prompts, and audio config.
 # Copied verbatim from latent_activation/_audio/tts-generation-spec.md and
 # from the fields already recorded in the shipped S001 pilot manifest.
 # ---------------------------------------------------------------------------
 
-PROMPT = (
+COMMENTARY_PROMPT = (
     "Speak as a warm, conversational Turkish narrator addressing one curious "
     "listener. Sound like a thoughtful person sharing a discovery as it becomes "
     "clear, with natural human cadence, varied sentence energy, and quiet "
@@ -60,6 +59,18 @@ PROMPT = (
     "the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then "
     "return smoothly to Turkish."
 )
+
+RECITATION_PROMPT = (
+    "Read only the exact text in the text field. The text field is the complete "
+    "script. Do not repeat, add, explain, translate, paraphrase, or continue it. "
+    "Stop immediately after the final Arabic word. Say the Turkish label once, "
+    "then recite the Arabic Quran text once, with a short natural pause after "
+    "the label."
+)
+
+# Backward-compatible name for commentary callers. New request generation
+# chooses a prompt explicitly for every paragraph kind.
+PROMPT = COMMENTARY_PROMPT
 
 AUDIO_CONFIG = {
     "audioEncoding": "LINEAR16",
@@ -323,8 +334,14 @@ def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
-def build_request(text: str) -> dict:
-    return {"audioConfig": AUDIO_CONFIG, "input": {"prompt": PROMPT, "text": text}, "voice": VOICE}
+def prompt_for_kind(kind: str) -> tuple[str, str]:
+    if kind in {"ayah_reference", "besmele_reference"}:
+        return "recitation", RECITATION_PROMPT
+    return "commentary", COMMENTARY_PROMPT
+
+
+def build_request(text: str, *, prompt: str = COMMENTARY_PROMPT) -> dict:
+    return {"audioConfig": AUDIO_CONFIG, "input": {"prompt": prompt, "text": text}, "voice": VOICE}
 
 
 def request_hash(request: dict) -> str:
@@ -402,7 +419,11 @@ def write_collection(
     write_clean_markdown(out_dir / f"{surah_id}.md", sections)
 
     chunks = []
-    prompt_hash = sha256_text(PROMPT)
+    prompts = {
+        "commentary": COMMENTARY_PROMPT,
+        "recitation": RECITATION_PROMPT,
+    }
+    prompt_hashes = {name: sha256_text(prompt) for name, prompt in prompts.items()}
     voice_hash = sha256_text(stable_json(VOICE))
     audio_config_hash = sha256_text(stable_json(AUDIO_CONFIG))
 
@@ -411,7 +432,8 @@ def write_collection(
         for paragraph_index, paragraph in enumerate(section["paragraphs"], start=1):
             chunk_id = f"sec-{section_index:03d}-p-{paragraph_index:03d}"
             tts_text = paragraph.get("ttsText") or paragraph["text"]
-            request = build_request(tts_text)
+            prompt_kind, prompt = prompt_for_kind(paragraph["kind"])
+            request = build_request(tts_text, prompt=prompt)
             request_sha256 = request_hash(request)
             atomic_write_text(
                 requests_dir / f"{chunk_id}.json",
@@ -430,6 +452,9 @@ def write_collection(
                 "sectionTitle": section["title"],
                 "text": paragraph["text"],
                 "ttsText": tts_text,
+                "ttsCharCount": len(tts_text),
+                "promptKind": prompt_kind,
+                "promptCharCount": len(prompt),
                 "request": f"requests/{chunk_id}.json",
                 "response": f"responses/{chunk_id}.json",
                 "wav": f"originals/wav/{chunk_id}.wav",
@@ -438,7 +463,7 @@ def write_collection(
                 "charCount": len(paragraph["text"]),
                 "wordCount": len(paragraph["text"].split()),
                 "textSha256": sha256_text(paragraph["text"]),
-                "promptSha256": prompt_hash,
+                "promptSha256": prompt_hashes[prompt_kind],
                 "voiceSha256": voice_hash,
                 "audioConfigSha256": audio_config_hash,
                 "requestSha256": request_sha256,
@@ -460,8 +485,10 @@ def write_collection(
         "collection": collection,
         "cleanMarkdown": f"{surah_id}.md",
         "chunksJsonl": "chunks.jsonl",
-        "prompt": PROMPT,
-        "promptSha256": prompt_hash,
+        "prompt": COMMENTARY_PROMPT,
+        "promptSha256": prompt_hashes["commentary"],
+        "prompts": prompts,
+        "promptSha256ByKind": prompt_hashes,
         "voice": VOICE,
         "audioConfig": AUDIO_CONFIG,
         "chunkCount": len(chunks),
@@ -480,8 +507,9 @@ def write_collection(
                 {
                     key: chunk[key]
                     for key in ("paragraphIndex", "kind", "chunkId", "text",
-                                "ttsText", "request", "response", "wav", "mp3",
-                                "durationSeconds")
+                                "ttsText", "ttsCharCount", "promptKind",
+                                "promptCharCount", "request", "response", "wav",
+                                "mp3", "durationSeconds")
                 }
                 for chunk in section["chunks"]
             ],
@@ -505,137 +533,33 @@ def write_collection(
     return {"outDir": str(out_dir), "chunkCount": len(chunks), "sectionCount": len(sections)}
 
 
-def check_generation_lock(out_dir: Path) -> None:
-    """Refuse to overwrite requests while a synthesis run may be in flight.
+class CollectionLock:
+    """Exclusive non-blocking lock shared by prepare, reuse, and synthesis."""
 
-    `synthesize_tts_chunks.py` does not manage this lock file itself (see
-    _audio/README.md); it is an operator convention: touch
-    `<out_dir>/.tts-generation.lock` before running the synthesizer against a
-    folder, remove it after. This check only protects the *prepare* step from
-    regenerating requests (and invalidating in-flight response hashes) out
-    from under a synthesis run someone is actively babysitting.
-    """
-    lock_path = out_dir / ".tts-generation.lock"
-    if lock_path.exists():
-        raise RuntimeError(
-            f"{lock_path} exists -- a synthesis run may be in progress. "
-            "Confirm no synthesize_tts_chunks.py process is running against "
-            f"{out_dir}, then remove the lock file and retry."
-        )
+    def __init__(self, out_dir: Path):
+        self.path = out_dir / ".tts-generation.lock"
+        self.handle = None
 
+    def __enter__(self):
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        if self.path.is_symlink():
+            raise ValueError(f"Refusing symlinked collection lock: {self.path}")
+        self.handle = self.path.open("a+", encoding="utf-8")
+        try:
+            fcntl.flock(self.handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError as error:
+            self.handle.close()
+            self.handle = None
+            raise RuntimeError(
+                f"Another TTS process holds the collection lock: {self.path}"
+            ) from error
+        return self
 
-# ---------------------------------------------------------------------------
-# Spending ledger.
-#
-# Only `synthesize_tts_chunks.py` writes to the ledger: it is the one script
-# that actually sends a request and receives data over the network, which is
-# the literal thing being logged. Verified against three independent sources
-# on 2026-07-31 (see conversation / commit history for the search): $1.00 per
-# 1M input text tokens, $20.00 per 1M output audio tokens, 25 audio tokens =
-# 1 second of generated audio. Re-verify before trusting this for a
-# large/expensive run if much time has passed -- preview-model pricing can
-# change.
-#
-# `durationSeconds` is always a MEASURED value (decoded from real audio, by
-# `synthesize_tts_chunks.py`'s own wav_duration_seconds()), never estimated --
-# so `audioTokens` and the resulting output-cost figure are exact, not a
-# guess. `inputTokensEst` is a rough char/4 approximation (clearly named
-# "Est"): the Cloud Text-to-Speech REST response used here does not return
-# token-usage metadata the way a Gemini generateContent call would, and input
-# cost is negligible (well under 2% of total spend) so a rough estimate is
-# adequate.
-# ---------------------------------------------------------------------------
-
-COST_PER_M_INPUT_TOKENS_USD = 1.00
-COST_PER_M_OUTPUT_TOKENS_USD = 20.00
-AUDIO_TOKENS_PER_SECOND = 25
-CHARS_PER_TOKEN_ESTIMATE = 4  # input-token estimate only; see note above
-
-
-def estimate_input_tokens(char_count: int) -> float:
-    return char_count / CHARS_PER_TOKEN_ESTIMATE
-
-
-def compute_costs(
-    *, text_char_count: int, prompt_char_count: int, duration_seconds: float | None,
-) -> dict:
-    """Cost fields for one chunk. Pass duration_seconds=None pre-synthesis."""
-    input_tokens_est = estimate_input_tokens(text_char_count + prompt_char_count)
-    input_cost_usd = input_tokens_est / 1e6 * COST_PER_M_INPUT_TOKENS_USD
-    if duration_seconds is None:
-        audio_tokens = None
-        output_cost_usd = 0.0
-    else:
-        audio_tokens = duration_seconds * AUDIO_TOKENS_PER_SECOND
-        output_cost_usd = audio_tokens / 1e6 * COST_PER_M_OUTPUT_TOKENS_USD
-    return {
-        "inputTokensEst": round(input_tokens_est, 2),
-        "audioTokens": round(audio_tokens, 2) if audio_tokens is not None else None,
-        "inputCostUsd": round(input_cost_usd, 6),
-        "outputCostUsd": round(output_cost_usd, 6),
-    }
-
-
-def ledger_path_for_now(ledger_dir: Path) -> Path:
-    """One file per UTC calendar day -- keeps any single file small and
-    makes 'what did I spend today/on this date' a one-file question."""
-    date_str = time.strftime("%Y-%m-%d", time.gmtime())
-    return ledger_dir / f"{date_str}.jsonl"
-
-
-def append_ledger_entry(ledger_dir: Path, entry: dict) -> None:
-    """Append one JSON line. Never overwrites; safe to call concurrently
-    from a single process (append-only, no read-modify-write)."""
-    path = ledger_path_for_now(ledger_dir)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("a", encoding="utf-8") as handle:
-        handle.write(json.dumps(entry, ensure_ascii=False) + "\n")
-
-
-def build_ledger_entry(
-    *, event: str, collection: str, chunk: dict, duration_seconds: float | None,
-    billed: bool, error: str | None = None,
-) -> dict:
-    """event: 'synthesized' (real paid API call) | 'cached' (response already
-    matched, materialized locally, zero new cost) | 'failed' (API returned an
-    error, zero cost). `billed` controls whether the computed cost is
-    actually charged against this entry's inputCostUsd/outputCostUsd/
-    totalCostUsd (False forces them to 0.0, even though inputTokensEst/
-    audioTokens are still recorded for reference)."""
-    # Use ttsText, not charCount/text -- ttsText is what build_request()
-    # actually sends to the API (for ayah_reference/besmele_reference/
-    # section_title kinds it's longer than the display `text`, prefixed
-    # with the spoken surah/ordinal label). charCount/text is display-only
-    # and undercounts real input length for ~37% of chunks in the real
-    # corpus -- verified by code review; see git history.
-    tts_text = chunk.get("ttsText") or chunk.get("text", "")
-    costs = compute_costs(
-        text_char_count=len(tts_text),
-        prompt_char_count=len(PROMPT),
-        duration_seconds=duration_seconds,
-    )
-    input_cost = costs["inputCostUsd"] if billed else 0.0
-    output_cost = costs["outputCostUsd"] if billed else 0.0
-    entry = {
-        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "event": event,
-        "collection": collection,
-        "surahId": chunk.get("surahId"),
-        "chunkId": chunk.get("chunkId"),
-        "kind": chunk.get("kind"),
-        "requestSha256": chunk.get("requestSha256"),
-        "textCharCount": len(tts_text),
-        "promptCharCount": len(PROMPT),
-        "durationSeconds": duration_seconds,
-        "audioTokens": costs["audioTokens"],
-        "inputTokensEst": costs["inputTokensEst"],
-        "billedInputUsd": round(input_cost, 6),
-        "billedOutputUsd": round(output_cost, 6),
-        "billedTotalUsd": round(input_cost + output_cost, 6),
-    }
-    if error is not None:
-        entry["error"] = error
-    return entry
+    def __exit__(self, exc_type, exc_value, traceback):
+        if self.handle is not None:
+            fcntl.flock(self.handle.fileno(), fcntl.LOCK_UN)
+            self.handle.close()
+            self.handle = None
 
 
 if __name__ == "__main__":

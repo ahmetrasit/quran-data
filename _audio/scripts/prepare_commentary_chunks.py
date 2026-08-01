@@ -31,12 +31,10 @@ Three collections, three different source shapes:
 
   surah    data/commentary/surah/detailed/tr/sNNN/{S}.surah-reading.tr.md
            One audio SECTION for the whole surah (not one per ayah -- this
-           tier is a continuous essay, not ayah-anchored). First paragraph
-           is a spoken "section_title" (the file's `# Heading` if present,
-           else a synthesized "<name> Suresi Okumasi" fallback -- headings
-           are inconsistently present across the corpus, confirmed absent in
-           e.g. s019 and s100). No Arabic/ayah_reference lead here: a
-           surah-reading essay is not anchored to one ayah's Arabic text.
+           tier is a continuous essay, not ayah-anchored). The file's
+           `# Heading` (or a synthesized fallback) is attached to the first
+           prose request instead of sent as a short title-only request. No
+           Arabic/ayah_reference lead is added here.
 
 Usage:
     prepare_commentary_chunks.py ayah 1
@@ -73,6 +71,15 @@ def default_paths(repo_root: Path) -> dict[str, Path]:
 # ---------------------------------------------------------------------------
 
 _AYAH_FILENAME_RE = re.compile(r"^(\d+)_(\d+)\.")
+_PROVIDER_SPLIT_OVERRIDES = {("summary", 12, 90)}
+
+
+def _split_near_midpoint_at_sentence(text: str) -> list[str]:
+    boundaries = [match.end() for match in re.finditer(r"[.!?][”’\"']?\s+", text)]
+    if not boundaries:
+        raise ValueError("Cannot split provider-rejected text at a sentence boundary")
+    split_at = min(boundaries, key=lambda position: abs(position - len(text) / 2))
+    return [text[:split_at].strip(), text[split_at:].strip()]
 
 
 def _find_ayah_files(directory: Path, surah_number: int, suffix: str) -> list[tuple[int, Path]]:
@@ -148,7 +155,13 @@ def _build_ayah_style_sections(
             "text": arabic,
             "ttsText": f"{spoken_label}. {arabic}",
         }]
-        paragraphs += [{"kind": "paragraph", "text": p} for p in body_paragraphs]
+        for paragraph in body_paragraphs:
+            parts = (
+                _split_near_midpoint_at_sentence(paragraph)
+                if (collection, surah_number, ayah_number) in _PROVIDER_SPLIT_OVERRIDES
+                else [paragraph]
+            )
+            paragraphs += [{"kind": "paragraph", "text": part} for part in parts]
         sections.append({
             "title": spoken_label,
             "kind": f"{collection}_detailed" if collection == "ayah" else "ayah_summary",
@@ -168,12 +181,13 @@ def _build_surah_section(
     body_paragraphs = common.split_paragraphs(rest)
     if not body_paragraphs:
         raise ValueError(f"{surah_reading_path} produced zero body paragraphs after cleaning")
-    paragraphs = [{
-        "kind": "section_title",
-        "text": title,
-        "ttsText": common.sentence_punctuate(title),
-    }]
-    paragraphs += [{"kind": "paragraph", "text": p} for p in body_paragraphs]
+    paragraphs = []
+    title_prefix = common.sentence_punctuate(title)
+    for index, paragraph in enumerate(body_paragraphs):
+        record = {"kind": "paragraph", "text": paragraph}
+        if index == 0:
+            record["ttsText"] = f"{title_prefix} {paragraph}"
+        paragraphs.append(record)
     return [{
         "title": title,
         "kind": "surah_reading",
@@ -252,11 +266,10 @@ def process_one(
         extra = {
             "sourceDirectory": str(src_file.parent.relative_to(REPO_ROOT)),
             "titleHandling": (
-                "First chunk of the (single) section is a spoken title: the "
-                "source file's leading '# Heading' when present, else a "
-                "synthesized '<name> Suresi Okumasi' fallback. No per-ayah "
-                "Arabic reference -- this tier is a continuous surah-wide "
-                "essay, not anchored to one ayah."
+                "The source file's leading '# Heading', or a synthesized "
+                "'<name> Suresi Okumasi' fallback, is spoken as a prefix on "
+                "the first prose chunk. No separate short title request and "
+                "no per-ayah Arabic reference are generated."
             ),
         }
     else:
@@ -278,16 +291,16 @@ def process_one(
         return {"outDir": None, "chunkCount": total_paragraphs, "sectionCount": len(sections)}
 
     out_dir = out_root / collection / surah_id
-    common.check_generation_lock(out_dir)
-    result = common.write_collection(
-        out_dir=out_dir,
-        surah_id=surah_id,
-        collection=collection,
-        source=sources[0],
-        sources=sources,
-        sections=sections,
-        extra_manifest_fields=extra,
-    )
+    with common.CollectionLock(out_dir):
+        result = common.write_collection(
+            out_dir=out_dir,
+            surah_id=surah_id,
+            collection=collection,
+            source=sources[0],
+            sources=sources,
+            sections=sections,
+            extra_manifest_fields=extra,
+        )
     print(json.dumps(result, ensure_ascii=False))
     return result
 

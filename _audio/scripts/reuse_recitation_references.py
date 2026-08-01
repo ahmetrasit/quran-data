@@ -57,6 +57,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import tts_common as common  # noqa: E402
 from synthesize_tts_chunks import load_response, response_matches_chunk  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[2]  # .../quran-data
@@ -79,7 +80,9 @@ def atomic_copy(src: Path, dst: Path) -> None:
     os.replace(tmp_path, dst)
 
 
-def reuse_for_surah(*, collection: str, surah_id: str, audio_root: Path, dry_run: bool) -> dict:
+def _reuse_for_surah_unlocked(
+    *, collection: str, surah_id: str, audio_root: Path, dry_run: bool,
+) -> dict:
     target_dir = audio_root / collection / surah_id
     recitation_dir = audio_root / "recitation" / surah_id
     target_chunks = load_jsonl(target_dir / "chunks.jsonl")
@@ -121,6 +124,20 @@ def reuse_for_surah(*, collection: str, surah_id: str, audio_root: Path, dry_run
             atomic_copy(source_response_path, target_response_path)
 
     return {"surahId": surah_id, "status": "ok", **counts}
+
+
+def reuse_for_surah(*, collection: str, surah_id: str, audio_root: Path, dry_run: bool) -> dict:
+    target_dir = audio_root / collection / surah_id
+    if dry_run:
+        return _reuse_for_surah_unlocked(
+            collection=collection, surah_id=surah_id,
+            audio_root=audio_root, dry_run=True,
+        )
+    with common.CollectionLock(target_dir):
+        return _reuse_for_surah_unlocked(
+            collection=collection, surah_id=surah_id,
+            audio_root=audio_root, dry_run=False,
+        )
 
 
 def discover_surah_ids(collection: str, audio_root: Path) -> list[str]:

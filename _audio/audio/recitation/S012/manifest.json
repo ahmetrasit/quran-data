@@ -10,6 +10,14 @@
   "chunksJsonl": "chunks.jsonl",
   "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
   "promptSha256": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+  "prompts": {
+    "commentary": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+    "recitation": "Read only the exact text in the text field. The text field is the complete script. Do not repeat, add, explain, translate, paraphrase, or continue it. Stop immediately after the final Arabic word. Say the Turkish label once, then recite the Arabic Quran text once, with a short natural pause after the label."
+  },
+  "promptSha256ByKind": {
+    "commentary": "23d85c8df2d8a82f174c34e0aed1385e9d35aa76614bb14947b7716b9277f394",
+    "recitation": "40a864d33dc583911bb0e4b862c6556701fbc49239ce890601a8aae93b235a85"
+  },
   "voice": {
     "languageCode": "tr-TR",
     "modelName": "gemini-3.1-flash-tts-preview",
@@ -31,7 +39,7 @@
       "grades": [],
       "wav": "sections/wav/sec-001.wav",
       "mp3": "sections/mp3/sec-001.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 13.52,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -39,13 +47,21 @@
           "chunkId": "sec-001-p-001",
           "text": "الٓر ۚ تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ",
           "ttsText": "Yûsuf birinci ayet. الٓر ۚ تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ",
+          "ttsCharCount": 64,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-001-p-001.json",
           "response": "responses/sec-001-p-001.json",
           "wav": "originals/wav/sec-001-p-001.wav",
           "mp3": "originals/mp3/sec-001-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 13.52,
+          "generatedAt": "2026-08-01T16:04:32Z",
+          "audioSha256": "b2a93e05b58285a3102c0f8c7c78bc19a325a9ec776820dccfec62bd8cac5eaa",
+          "mp3Sha256": "ab99cfa9e12957983ca4041feccbbd5c23915285b312f3679b8ba3d4ffaf329f"
         }
-      ]
+      ],
+      "wavSha256": "b2a93e05b58285a3102c0f8c7c78bc19a325a9ec776820dccfec62bd8cac5eaa",
+      "mp3Sha256": "ab99cfa9e12957983ca4041feccbbd5c23915285b312f3679b8ba3d4ffaf329f"
     },
     {
       "sectionIndex": 2,
@@ -54,7 +70,7 @@
       "grades": [],
       "wav": "sections/wav/sec-002.wav",
       "mp3": "sections/mp3/sec-002.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.4,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -62,13 +78,21 @@
           "chunkId": "sec-002-p-001",
           "text": "إِنَّآ أَنزَلْنَٰهُ قُرْءَٰنًا عَرَبِيًّۭا لَّعَلَّكُمْ تَعْقِلُونَ",
           "ttsText": "Yûsuf ikinci ayet. إِنَّآ أَنزَلْنَٰهُ قُرْءَٰنًا عَرَبِيًّۭا لَّعَلَّكُمْ تَعْقِلُونَ",
+          "ttsCharCount": 87,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-002-p-001.json",
           "response": "responses/sec-002-p-001.json",
           "wav": "originals/wav/sec-002-p-001.wav",
           "mp3": "originals/mp3/sec-002-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.4,
+          "generatedAt": "2026-08-01T16:04:40Z",
+          "audioSha256": "be35c9c574c7b445cfa7e438e60aa5c4ebd476b89e033781a8ad059a4f73d448",
+          "mp3Sha256": "fbddbb24c37d0a71f81aa4a8b6d25766144e31291e977dc509d47df1edd39596"
         }
-      ]
+      ],
+      "wavSha256": "be35c9c574c7b445cfa7e438e60aa5c4ebd476b89e033781a8ad059a4f73d448",
+      "mp3Sha256": "fbddbb24c37d0a71f81aa4a8b6d25766144e31291e977dc509d47df1edd39596"
     },
     {
       "sectionIndex": 3,
@@ -77,7 +101,7 @@
       "grades": [],
       "wav": "sections/wav/sec-003.wav",
       "mp3": "sections/mp3/sec-003.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 19.44,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -85,13 +109,21 @@
           "chunkId": "sec-003-p-001",
           "text": "نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ ٱلْقَصَصِ بِمَآ أَوْحَيْنَآ إِلَيْكَ هَٰذَا ٱلْقُرْءَانَ وَإِن كُنتَ مِن قَبْلِهِۦ لَمِنَ ٱلْغَٰفِلِينَ",
           "ttsText": "Yûsuf üçüncü ayet. نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ ٱلْقَصَصِ بِمَآ أَوْحَيْنَآ إِلَيْكَ هَٰذَا ٱلْقُرْءَانَ وَإِن كُنتَ مِن قَبْلِهِۦ لَمِنَ ٱلْغَٰفِلِينَ",
+          "ttsCharCount": 157,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-003-p-001.json",
           "response": "responses/sec-003-p-001.json",
           "wav": "originals/wav/sec-003-p-001.wav",
           "mp3": "originals/mp3/sec-003-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 19.44,
+          "generatedAt": "2026-08-01T16:05:11Z",
+          "audioSha256": "50dff69e8b05f4306966d4b80d65c3b65510199982a4a7accd9f502574aa8e4b",
+          "mp3Sha256": "98482372a0279a04a1aa7b2a69dc52c89e8dbd5abe79524de362adc7fd33b4ea"
         }
-      ]
+      ],
+      "wavSha256": "50dff69e8b05f4306966d4b80d65c3b65510199982a4a7accd9f502574aa8e4b",
+      "mp3Sha256": "98482372a0279a04a1aa7b2a69dc52c89e8dbd5abe79524de362adc7fd33b4ea"
     },
     {
       "sectionIndex": 4,
@@ -100,7 +132,7 @@
       "grades": [],
       "wav": "sections/wav/sec-004.wav",
       "mp3": "sections/mp3/sec-004.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 14.28,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -108,13 +140,21 @@
           "chunkId": "sec-004-p-001",
           "text": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًۭا وَٱلشَّمْسَ وَٱلْقَمَرَ رَأَيْتُهُمْ لِى سَٰجِدِينَ",
           "ttsText": "Yûsuf dördüncü ayet. إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًۭا وَٱلشَّمْسَ وَٱلْقَمَرَ رَأَيْتُهُمْ لِى سَٰجِدِينَ",
+          "ttsCharCount": 153,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-004-p-001.json",
           "response": "responses/sec-004-p-001.json",
           "wav": "originals/wav/sec-004-p-001.wav",
           "mp3": "originals/mp3/sec-004-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 14.28,
+          "generatedAt": "2026-08-01T16:05:28Z",
+          "audioSha256": "14240bfa3db3653bb7d6b9fe1bdec82669a0da78054e7395f0aea32998aae5dc",
+          "mp3Sha256": "182cad3540cf22b71ab6cc2acb557d00e79923dcdad7acb4bac498a8f0c09dd4"
         }
-      ]
+      ],
+      "wavSha256": "14240bfa3db3653bb7d6b9fe1bdec82669a0da78054e7395f0aea32998aae5dc",
+      "mp3Sha256": "182cad3540cf22b71ab6cc2acb557d00e79923dcdad7acb4bac498a8f0c09dd4"
     },
     {
       "sectionIndex": 5,
@@ -123,7 +163,7 @@
       "grades": [],
       "wav": "sections/wav/sec-005.wav",
       "mp3": "sections/mp3/sec-005.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 23.92,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -131,13 +171,21 @@
           "chunkId": "sec-005-p-001",
           "text": "قَالَ يَٰبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ فَيَكِيدُوا۟ لَكَ كَيْدًا ۖ إِنَّ ٱلشَّيْطَٰنَ لِلْإِنسَٰنِ عَدُوٌّۭ مُّبِينٌۭ",
           "ttsText": "Yûsuf beşinci ayet. قَالَ يَٰبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ فَيَكِيدُوا۟ لَكَ كَيْدًا ۖ إِنَّ ٱلشَّيْطَٰنَ لِلْإِنسَٰنِ عَدُوٌّۭ مُّبِينٌۭ",
+          "ttsCharCount": 157,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-005-p-001.json",
           "response": "responses/sec-005-p-001.json",
           "wav": "originals/wav/sec-005-p-001.wav",
           "mp3": "originals/mp3/sec-005-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 23.92,
+          "generatedAt": "2026-08-01T16:05:48Z",
+          "audioSha256": "d9d2ebe910d943dc9532134729f5348ac16824bbaf9108f7971f45387ee04466",
+          "mp3Sha256": "9ac998c2e4e612cf61cad6767ec070cb3694183a81fae3e23ac17c5ad17613b7"
         }
-      ]
+      ],
+      "wavSha256": "d9d2ebe910d943dc9532134729f5348ac16824bbaf9108f7971f45387ee04466",
+      "mp3Sha256": "9ac998c2e4e612cf61cad6767ec070cb3694183a81fae3e23ac17c5ad17613b7"
     },
     {
       "sectionIndex": 6,
@@ -146,7 +194,7 @@
       "grades": [],
       "wav": "sections/wav/sec-006.wav",
       "mp3": "sections/mp3/sec-006.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 33.72,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -154,13 +202,21 @@
           "chunkId": "sec-006-p-001",
           "text": "وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَٰقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌۭ",
           "ttsText": "Yûsuf altıncı ayet. وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَٰقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌۭ",
+          "ttsCharCount": 256,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-006-p-001.json",
           "response": "responses/sec-006-p-001.json",
           "wav": "originals/wav/sec-006-p-001.wav",
           "mp3": "originals/mp3/sec-006-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 33.72,
+          "generatedAt": "2026-08-01T16:06:00Z",
+          "audioSha256": "bd4b2b55ea6fbb2df0483254a8bd03b57d0f8f375bf71e2ab35117b703b9de4c",
+          "mp3Sha256": "d9348c4ad97bd9c43665a308a02f8bfe3b395ef01a10b8636ad20985f6697ae2"
         }
-      ]
+      ],
+      "wavSha256": "bd4b2b55ea6fbb2df0483254a8bd03b57d0f8f375bf71e2ab35117b703b9de4c",
+      "mp3Sha256": "d9348c4ad97bd9c43665a308a02f8bfe3b395ef01a10b8636ad20985f6697ae2"
     },
     {
       "sectionIndex": 7,
@@ -169,7 +225,7 @@
       "grades": [],
       "wav": "sections/wav/sec-007.wav",
       "mp3": "sections/mp3/sec-007.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 12.92,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -177,13 +233,21 @@
           "chunkId": "sec-007-p-001",
           "text": "۞ لَّقَدْ كَانَ فِى يُوسُفَ وَإِخْوَتِهِۦٓ ءَايَٰتٌۭ لِّلسَّآئِلِينَ",
           "ttsText": "Yûsuf yedinci ayet. ۞ لَّقَدْ كَانَ فِى يُوسُفَ وَإِخْوَتِهِۦٓ ءَايَٰتٌۭ لِّلسَّآئِلِينَ",
+          "ttsCharCount": 89,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-007-p-001.json",
           "response": "responses/sec-007-p-001.json",
           "wav": "originals/wav/sec-007-p-001.wav",
           "mp3": "originals/mp3/sec-007-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 12.92,
+          "generatedAt": "2026-08-01T16:06:15Z",
+          "audioSha256": "833c74d0ebe99a4335f4e91121f64f2282b3222f86a32a792bd2fac4436abd8a",
+          "mp3Sha256": "ceb8ef0d560ff558e820232e49fc0fb4ec1f32a1e43d349c4d466a00a6c26f52"
         }
-      ]
+      ],
+      "wavSha256": "833c74d0ebe99a4335f4e91121f64f2282b3222f86a32a792bd2fac4436abd8a",
+      "mp3Sha256": "ceb8ef0d560ff558e820232e49fc0fb4ec1f32a1e43d349c4d466a00a6c26f52"
     },
     {
       "sectionIndex": 8,
@@ -192,7 +256,7 @@
       "grades": [],
       "wav": "sections/wav/sec-008.wav",
       "mp3": "sections/mp3/sec-008.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 14.28,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -200,13 +264,21 @@
           "chunkId": "sec-008-p-001",
           "text": "إِذْ قَالُوا۟ لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِى ضَلَٰلٍۢ مُّبِينٍ",
           "ttsText": "Yûsuf sekizinci ayet. إِذْ قَالُوا۟ لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِى ضَلَٰلٍۢ مُّبِينٍ",
+          "ttsCharCount": 144,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-008-p-001.json",
           "response": "responses/sec-008-p-001.json",
           "wav": "originals/wav/sec-008-p-001.wav",
           "mp3": "originals/mp3/sec-008-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 14.28,
+          "generatedAt": "2026-08-01T16:06:22Z",
+          "audioSha256": "ebd9a225b94d09ba9a29503fce8c3414d4cbb9bb08e906dc9b5829ab0f735755",
+          "mp3Sha256": "ba3803282a299acc0dec07706fcc1a723c9195dd763982a44d1cb2b9311abdc9"
         }
-      ]
+      ],
+      "wavSha256": "ebd9a225b94d09ba9a29503fce8c3414d4cbb9bb08e906dc9b5829ab0f735755",
+      "mp3Sha256": "ba3803282a299acc0dec07706fcc1a723c9195dd763982a44d1cb2b9311abdc9"
     },
     {
       "sectionIndex": 9,
@@ -215,7 +287,7 @@
       "grades": [],
       "wav": "sections/wav/sec-009.wav",
       "mp3": "sections/mp3/sec-009.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 14.52,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -223,13 +295,21 @@
           "chunkId": "sec-009-p-001",
           "text": "ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًۭا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًۭا صَٰلِحِينَ",
           "ttsText": "Yûsuf dokuzuncu ayet. ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًۭا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًۭا صَٰلِحِينَ",
+          "ttsCharCount": 144,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-009-p-001.json",
           "response": "responses/sec-009-p-001.json",
           "wav": "originals/wav/sec-009-p-001.wav",
           "mp3": "originals/mp3/sec-009-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 14.52,
+          "generatedAt": "2026-08-01T16:06:30Z",
+          "audioSha256": "450e3abccf670b7e387600eac8a0bd8af26465ad32cb9d79b61fff5c0251d585",
+          "mp3Sha256": "1b25f64940747db00bad25283d8d1c53d81e75ba4050bff47ae381f282edff02"
         }
-      ]
+      ],
+      "wavSha256": "450e3abccf670b7e387600eac8a0bd8af26465ad32cb9d79b61fff5c0251d585",
+      "mp3Sha256": "1b25f64940747db00bad25283d8d1c53d81e75ba4050bff47ae381f282edff02"
     },
     {
       "sectionIndex": 10,
@@ -238,7 +318,7 @@
       "grades": [],
       "wav": "sections/wav/sec-010.wav",
       "mp3": "sections/mp3/sec-010.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 16.56,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -246,13 +326,21 @@
           "chunkId": "sec-010-p-001",
           "text": "قَالَ قَآئِلٌۭ مِّنْهُمْ لَا تَقْتُلُوا۟ يُوسُفَ وَأَلْقُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ يَلْتَقِطْهُ بَعْضُ ٱلسَّيَّارَةِ إِن كُنتُمْ فَٰعِلِينَ",
           "ttsText": "Yûsuf onuncu ayet. قَالَ قَآئِلٌۭ مِّنْهُمْ لَا تَقْتُلُوا۟ يُوسُفَ وَأَلْقُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ يَلْتَقِطْهُ بَعْضُ ٱلسَّيَّارَةِ إِن كُنتُمْ فَٰعِلِينَ",
+          "ttsCharCount": 160,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-010-p-001.json",
           "response": "responses/sec-010-p-001.json",
           "wav": "originals/wav/sec-010-p-001.wav",
           "mp3": "originals/mp3/sec-010-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 16.56,
+          "generatedAt": "2026-08-01T16:06:41Z",
+          "audioSha256": "c930d2c85905561ac353fa3f756b740088498f37c1ebb82bc068431e52aa3fb6",
+          "mp3Sha256": "b9d19e9cda3e18295957949ee24b7ee171e828a9d37869b2d8a1e7b10eebeead"
         }
-      ]
+      ],
+      "wavSha256": "c930d2c85905561ac353fa3f756b740088498f37c1ebb82bc068431e52aa3fb6",
+      "mp3Sha256": "b9d19e9cda3e18295957949ee24b7ee171e828a9d37869b2d8a1e7b10eebeead"
     },
     {
       "sectionIndex": 11,
@@ -261,7 +349,7 @@
       "grades": [],
       "wav": "sections/wav/sec-011.wav",
       "mp3": "sections/mp3/sec-011.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 19.88,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -269,13 +357,21 @@
           "chunkId": "sec-011-p-001",
           "text": "قَالُوا۟ يَٰٓأَبَانَا مَا لَكَ لَا تَأْمَ۫نَّا عَلَىٰ يُوسُفَ وَإِنَّا لَهُۥ لَنَٰصِحُونَ",
           "ttsText": "Yûsuf on birinci ayet. قَالُوا۟ يَٰٓأَبَانَا مَا لَكَ لَا تَأْمَ۫نَّا عَلَىٰ يُوسُفَ وَإِنَّا لَهُۥ لَنَٰصِحُونَ",
+          "ttsCharCount": 112,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-011-p-001.json",
           "response": "responses/sec-011-p-001.json",
           "wav": "originals/wav/sec-011-p-001.wav",
           "mp3": "originals/mp3/sec-011-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 19.88,
+          "generatedAt": "2026-08-01T16:06:52Z",
+          "audioSha256": "6e6c41f0c1a676a8328dce15b19d4745c743b4d0e59022aad167374b33a08887",
+          "mp3Sha256": "1122139b187f92e2658647f62f080fecedae14a7d91559712fc4a81815c1be85"
         }
-      ]
+      ],
+      "wavSha256": "6e6c41f0c1a676a8328dce15b19d4745c743b4d0e59022aad167374b33a08887",
+      "mp3Sha256": "1122139b187f92e2658647f62f080fecedae14a7d91559712fc4a81815c1be85"
     },
     {
       "sectionIndex": 12,
@@ -284,7 +380,7 @@
       "grades": [],
       "wav": "sections/wav/sec-012.wav",
       "mp3": "sections/mp3/sec-012.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.4,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -292,13 +388,21 @@
           "chunkId": "sec-012-p-001",
           "text": "أَرْسِلْهُ مَعَنَا غَدًۭا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
           "ttsText": "Yûsuf on ikinci ayet. أَرْسِلْهُ مَعَنَا غَدًۭا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+          "ttsCharCount": 95,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-012-p-001.json",
           "response": "responses/sec-012-p-001.json",
           "wav": "originals/wav/sec-012-p-001.wav",
           "mp3": "originals/mp3/sec-012-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.4,
+          "generatedAt": "2026-08-01T16:07:01Z",
+          "audioSha256": "37be1f603cb634ca0596beb6632b0fd132bbc023cde8208c5fc70b11ba7abe2b",
+          "mp3Sha256": "fc48e40fc1ad9c8bd22e5e35bdb365d05b7778c8e8e366c71136c7540fd90b37"
         }
-      ]
+      ],
+      "wavSha256": "37be1f603cb634ca0596beb6632b0fd132bbc023cde8208c5fc70b11ba7abe2b",
+      "mp3Sha256": "fc48e40fc1ad9c8bd22e5e35bdb365d05b7778c8e8e366c71136c7540fd90b37"
     },
     {
       "sectionIndex": 13,
@@ -307,7 +411,7 @@
       "grades": [],
       "wav": "sections/wav/sec-013.wav",
       "mp3": "sections/mp3/sec-013.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 16.24,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -315,13 +419,21 @@
           "chunkId": "sec-013-p-001",
           "text": "قَالَ إِنِّى لَيَحْزُنُنِىٓ أَن تَذْهَبُوا۟ بِهِۦ وَأَخَافُ أَن يَأْكُلَهُ ٱلذِّئْبُ وَأَنتُمْ عَنْهُ غَٰفِلُونَ",
           "ttsText": "Yûsuf on üçüncü ayet. قَالَ إِنِّى لَيَحْزُنُنِىٓ أَن تَذْهَبُوا۟ بِهِۦ وَأَخَافُ أَن يَأْكُلَهُ ٱلذِّئْبُ وَأَنتُمْ عَنْهُ غَٰفِلُونَ",
+          "ttsCharCount": 134,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-013-p-001.json",
           "response": "responses/sec-013-p-001.json",
           "wav": "originals/wav/sec-013-p-001.wav",
           "mp3": "originals/mp3/sec-013-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 16.24,
+          "generatedAt": "2026-08-01T16:07:15Z",
+          "audioSha256": "4b827ee4718d06fe4aefcba68638cb5e41ebfe397a086c4e7cfab6686a528785",
+          "mp3Sha256": "df7001e40718be889c076ed6a64ae426b20ab8608ffca3c21b8bd28279515ab2"
         }
-      ]
+      ],
+      "wavSha256": "4b827ee4718d06fe4aefcba68638cb5e41ebfe397a086c4e7cfab6686a528785",
+      "mp3Sha256": "df7001e40718be889c076ed6a64ae426b20ab8608ffca3c21b8bd28279515ab2"
     },
     {
       "sectionIndex": 14,
@@ -330,7 +442,7 @@
       "grades": [],
       "wav": "sections/wav/sec-014.wav",
       "mp3": "sections/mp3/sec-014.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 17.16,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -338,13 +450,21 @@
           "chunkId": "sec-014-p-001",
           "text": "قَالُوا۟ لَئِنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّآ إِذًۭا لَّخَٰسِرُونَ",
           "ttsText": "Yûsuf on dördüncü ayet. قَالُوا۟ لَئِنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّآ إِذًۭا لَّخَٰسِرُونَ",
+          "ttsCharCount": 105,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-014-p-001.json",
           "response": "responses/sec-014-p-001.json",
           "wav": "originals/wav/sec-014-p-001.wav",
           "mp3": "originals/mp3/sec-014-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 17.16,
+          "generatedAt": "2026-08-01T16:07:30Z",
+          "audioSha256": "43d9e7196f334c08820315fbfe036b79eeb9d3aae44f1753f85e1fe489750cb1",
+          "mp3Sha256": "543216e60607f2b127a87515e1176e9334b1ecd9b1122f13e9123af935b5f411"
         }
-      ]
+      ],
+      "wavSha256": "43d9e7196f334c08820315fbfe036b79eeb9d3aae44f1753f85e1fe489750cb1",
+      "mp3Sha256": "543216e60607f2b127a87515e1176e9334b1ecd9b1122f13e9123af935b5f411"
     },
     {
       "sectionIndex": 15,
@@ -353,7 +473,7 @@
       "grades": [],
       "wav": "sections/wav/sec-015.wav",
       "mp3": "sections/mp3/sec-015.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 18.24,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -361,13 +481,21 @@
           "chunkId": "sec-015-p-001",
           "text": "فَلَمَّا ذَهَبُوا۟ بِهِۦ وَأَجْمَعُوٓا۟ أَن يَجْعَلُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ ۚ وَأَوْحَيْنَآ إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَٰذَا وَهُمْ لَا يَشْعُرُونَ",
           "ttsText": "Yûsuf on beşinci ayet. فَلَمَّا ذَهَبُوا۟ بِهِۦ وَأَجْمَعُوٓا۟ أَن يَجْعَلُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ ۚ وَأَوْحَيْنَآ إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَٰذَا وَهُمْ لَا يَشْعُرُونَ",
+          "ttsCharCount": 188,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-015-p-001.json",
           "response": "responses/sec-015-p-001.json",
           "wav": "originals/wav/sec-015-p-001.wav",
           "mp3": "originals/mp3/sec-015-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 18.24,
+          "generatedAt": "2026-08-01T16:09:27Z",
+          "audioSha256": "6839efd5e214e96915e7441c5f77dae02cd21a020ca5a2eb88df995d6e4a61ba",
+          "mp3Sha256": "217873cc65902f0c062a060199cbf8e68c816a0a5a6e43463b68935297102945"
         }
-      ]
+      ],
+      "wavSha256": "6839efd5e214e96915e7441c5f77dae02cd21a020ca5a2eb88df995d6e4a61ba",
+      "mp3Sha256": "217873cc65902f0c062a060199cbf8e68c816a0a5a6e43463b68935297102945"
     },
     {
       "sectionIndex": 16,
@@ -376,7 +504,7 @@
       "grades": [],
       "wav": "sections/wav/sec-016.wav",
       "mp3": "sections/mp3/sec-016.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 10.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -384,13 +512,21 @@
           "chunkId": "sec-016-p-001",
           "text": "وَجَآءُوٓ أَبَاهُمْ عِشَآءًۭ يَبْكُونَ",
           "ttsText": "Yûsuf on altıncı ayet. وَجَآءُوٓ أَبَاهُمْ عِشَآءًۭ يَبْكُونَ",
+          "ttsCharCount": 63,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-016-p-001.json",
           "response": "responses/sec-016-p-001.json",
           "wav": "originals/wav/sec-016-p-001.wav",
           "mp3": "originals/mp3/sec-016-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 10.68,
+          "generatedAt": "2026-08-01T16:09:55Z",
+          "audioSha256": "8f0a12f9187db86a04211106912d4586207cf266bc3f4d67543750bef2b9167b",
+          "mp3Sha256": "6519cd0b1ccfe90eefd07f08b5b5a65d36ffe452a6a7903b57a23de2d1f851b2"
         }
-      ]
+      ],
+      "wavSha256": "8f0a12f9187db86a04211106912d4586207cf266bc3f4d67543750bef2b9167b",
+      "mp3Sha256": "6519cd0b1ccfe90eefd07f08b5b5a65d36ffe452a6a7903b57a23de2d1f851b2"
     },
     {
       "sectionIndex": 17,
@@ -399,7 +535,7 @@
       "grades": [],
       "wav": "sections/wav/sec-017.wav",
       "mp3": "sections/mp3/sec-017.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 21.4,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -407,13 +543,21 @@
           "chunkId": "sec-017-p-001",
           "text": "قَالُوا۟ يَٰٓأَبَانَآ إِنَّا ذَهَبْنَا نَسْتَبِقُ وَتَرَكْنَا يُوسُفَ عِندَ مَتَٰعِنَا فَأَكَلَهُ ٱلذِّئْبُ ۖ وَمَآ أَنتَ بِمُؤْمِنٍۢ لَّنَا وَلَوْ كُنَّا صَٰدِقِينَ",
           "ttsText": "Yûsuf on yedinci ayet. قَالُوا۟ يَٰٓأَبَانَآ إِنَّا ذَهَبْنَا نَسْتَبِقُ وَتَرَكْنَا يُوسُفَ عِندَ مَتَٰعِنَا فَأَكَلَهُ ٱلذِّئْبُ ۖ وَمَآ أَنتَ بِمُؤْمِنٍۢ لَّنَا وَلَوْ كُنَّا صَٰدِقِينَ",
+          "ttsCharCount": 190,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-017-p-001.json",
           "response": "responses/sec-017-p-001.json",
           "wav": "originals/wav/sec-017-p-001.wav",
           "mp3": "originals/mp3/sec-017-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 21.4,
+          "generatedAt": "2026-08-01T16:10:06Z",
+          "audioSha256": "07e5edd02837c932cc774dc2c2b50a3bfb9804e8b2b5c4c6f35bb72075fe1e9c",
+          "mp3Sha256": "ec675b0bbdd7f62b52199e724f907d5d5401cb5106f86665ace64fea595f7998"
         }
-      ]
+      ],
+      "wavSha256": "07e5edd02837c932cc774dc2c2b50a3bfb9804e8b2b5c4c6f35bb72075fe1e9c",
+      "mp3Sha256": "ec675b0bbdd7f62b52199e724f907d5d5401cb5106f86665ace64fea595f7998"
     },
     {
       "sectionIndex": 18,
@@ -422,7 +566,7 @@
       "grades": [],
       "wav": "sections/wav/sec-018.wav",
       "mp3": "sections/mp3/sec-018.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 22.08,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -430,13 +574,21 @@
           "chunkId": "sec-018-p-001",
           "text": "وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍۢ كَذِبٍۢ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
           "ttsText": "Yûsuf on sekizinci ayet. وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍۢ كَذِبٍۢ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+          "ttsCharCount": 188,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-018-p-001.json",
           "response": "responses/sec-018-p-001.json",
           "wav": "originals/wav/sec-018-p-001.wav",
           "mp3": "originals/mp3/sec-018-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 22.08,
+          "generatedAt": "2026-08-01T16:10:17Z",
+          "audioSha256": "c553fcf2705e6c910306a3ef106cac71ac5b574268859e921238b64448caed06",
+          "mp3Sha256": "1fbd552754504ff84ae641c5149acaa87e336f9b92be03a9be7ee7c9676a7fc4"
         }
-      ]
+      ],
+      "wavSha256": "c553fcf2705e6c910306a3ef106cac71ac5b574268859e921238b64448caed06",
+      "mp3Sha256": "1fbd552754504ff84ae641c5149acaa87e336f9b92be03a9be7ee7c9676a7fc4"
     },
     {
       "sectionIndex": 19,
@@ -445,7 +597,7 @@
       "grades": [],
       "wav": "sections/wav/sec-019.wav",
       "mp3": "sections/mp3/sec-019.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 20.52,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -453,13 +605,21 @@
           "chunkId": "sec-019-p-001",
           "text": "وَجَآءَتْ سَيَّارَةٌۭ فَأَرْسَلُوا۟ وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُۥ ۖ قَالَ يَٰبُشْرَىٰ هَٰذَا غُلَٰمٌۭ ۚ وَأَسَرُّوهُ بِضَٰعَةًۭ ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ",
           "ttsText": "Yûsuf on dokuzuncu ayet. وَجَآءَتْ سَيَّارَةٌۭ فَأَرْسَلُوا۟ وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُۥ ۖ قَالَ يَٰبُشْرَىٰ هَٰذَا غُلَٰمٌۭ ۚ وَأَسَرُّوهُ بِضَٰعَةًۭ ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ",
+          "ttsCharCount": 195,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-019-p-001.json",
           "response": "responses/sec-019-p-001.json",
           "wav": "originals/wav/sec-019-p-001.wav",
           "mp3": "originals/mp3/sec-019-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 20.52,
+          "generatedAt": "2026-08-01T16:10:27Z",
+          "audioSha256": "3326a51e9496ef6dc74f652c42753ed32f6047cfa27c84f8469e22d85a1ba89f",
+          "mp3Sha256": "5e398ceb26b2bb55f0cd17d6576551b8f2e834eea76fdc1233c4c56cd3331d42"
         }
-      ]
+      ],
+      "wavSha256": "3326a51e9496ef6dc74f652c42753ed32f6047cfa27c84f8469e22d85a1ba89f",
+      "mp3Sha256": "5e398ceb26b2bb55f0cd17d6576551b8f2e834eea76fdc1233c4c56cd3331d42"
     },
     {
       "sectionIndex": 20,
@@ -468,7 +628,7 @@
       "grades": [],
       "wav": "sections/wav/sec-020.wav",
       "mp3": "sections/mp3/sec-020.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 12.56,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -476,13 +636,21 @@
           "chunkId": "sec-020-p-001",
           "text": "وَشَرَوْهُ بِثَمَنٍۭ بَخْسٍۢ دَرَٰهِمَ مَعْدُودَةٍۢ وَكَانُوا۟ فِيهِ مِنَ ٱلزَّٰهِدِينَ",
           "ttsText": "Yûsuf yirminci ayet. وَشَرَوْهُ بِثَمَنٍۭ بَخْسٍۢ دَرَٰهِمَ مَعْدُودَةٍۢ وَكَانُوا۟ فِيهِ مِنَ ٱلزَّٰهِدِينَ",
+          "ttsCharCount": 108,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-020-p-001.json",
           "response": "responses/sec-020-p-001.json",
           "wav": "originals/wav/sec-020-p-001.wav",
           "mp3": "originals/mp3/sec-020-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 12.56,
+          "generatedAt": "2026-08-01T16:10:40Z",
+          "audioSha256": "40afae1ba07fb328c5dca323818a1a50d209ec38ae51825af0c17a0568e4b449",
+          "mp3Sha256": "d115ec1a6d50118510c85fccf03e00020217ac4d97ed8d69dc4d47981a4c0476"
         }
-      ]
+      ],
+      "wavSha256": "40afae1ba07fb328c5dca323818a1a50d209ec38ae51825af0c17a0568e4b449",
+      "mp3Sha256": "d115ec1a6d50118510c85fccf03e00020217ac4d97ed8d69dc4d47981a4c0476"
     },
     {
       "sectionIndex": 21,
@@ -491,7 +659,7 @@
       "grades": [],
       "wav": "sections/wav/sec-021.wav",
       "mp3": "sections/mp3/sec-021.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 27.36,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -499,13 +667,21 @@
           "chunkId": "sec-021-p-001",
           "text": "وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ أَكْرِمِى مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًۭا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
           "ttsText": "Yûsuf yirmi birinci ayet. وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ أَكْرِمِى مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًۭا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+          "ttsCharCount": 329,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-021-p-001.json",
           "response": "responses/sec-021-p-001.json",
           "wav": "originals/wav/sec-021-p-001.wav",
           "mp3": "originals/mp3/sec-021-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 27.36,
+          "generatedAt": "2026-08-01T16:10:47Z",
+          "audioSha256": "fe77358b0822131a58a2ce23fa3c2ae67ddc91fb7322d007b5358e7b37f833a4",
+          "mp3Sha256": "0b8fc4e9e4becf92e2ff24e9422a34d9110d20be2b0abf72a128fa5826e94ef6"
         }
-      ]
+      ],
+      "wavSha256": "fe77358b0822131a58a2ce23fa3c2ae67ddc91fb7322d007b5358e7b37f833a4",
+      "mp3Sha256": "0b8fc4e9e4becf92e2ff24e9422a34d9110d20be2b0abf72a128fa5826e94ef6"
     },
     {
       "sectionIndex": 22,
@@ -514,7 +690,7 @@
       "grades": [],
       "wav": "sections/wav/sec-022.wav",
       "mp3": "sections/mp3/sec-022.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 14.56,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -522,13 +698,21 @@
           "chunkId": "sec-022-p-001",
           "text": "وَلَمَّا بَلَغَ أَشُدَّهُۥٓ ءَاتَيْنَٰهُ حُكْمًۭا وَعِلْمًۭا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
           "ttsText": "Yûsuf yirmi ikinci ayet. وَلَمَّا بَلَغَ أَشُدَّهُۥٓ ءَاتَيْنَٰهُ حُكْمًۭا وَعِلْمًۭا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+          "ttsCharCount": 122,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-022-p-001.json",
           "response": "responses/sec-022-p-001.json",
           "wav": "originals/wav/sec-022-p-001.wav",
           "mp3": "originals/mp3/sec-022-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 14.56,
+          "generatedAt": "2026-08-01T16:11:14Z",
+          "audioSha256": "31c829e342dda74585689fa714972ded3265e2a7fa4621614a2acf90ef8ddc4e",
+          "mp3Sha256": "d60a0743196d8f2e345b4c5e417dfc401b91ba05e55c4b3ea7c6592c26a12487"
         }
-      ]
+      ],
+      "wavSha256": "31c829e342dda74585689fa714972ded3265e2a7fa4621614a2acf90ef8ddc4e",
+      "mp3Sha256": "d60a0743196d8f2e345b4c5e417dfc401b91ba05e55c4b3ea7c6592c26a12487"
     },
     {
       "sectionIndex": 23,
@@ -537,7 +721,7 @@
       "grades": [],
       "wav": "sections/wav/sec-023.wav",
       "mp3": "sections/mp3/sec-023.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 20.36,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -545,13 +729,21 @@
           "chunkId": "sec-023-p-001",
           "text": "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّٰلِمُونَ",
           "ttsText": "Yûsuf yirmi üçüncü ayet. وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّٰلِمُونَ",
+          "ttsCharCount": 227,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-023-p-001.json",
           "response": "responses/sec-023-p-001.json",
           "wav": "originals/wav/sec-023-p-001.wav",
           "mp3": "originals/mp3/sec-023-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 20.36,
+          "generatedAt": "2026-08-01T16:11:23Z",
+          "audioSha256": "17fd0ac5157844935b349f837c0878fa7331238c9e4cf097c9178eb5487add65",
+          "mp3Sha256": "48d894c6dff62bf9e9a3b00ddf0ee766d5e54d63680f7a79bbeb08c9356cc351"
         }
-      ]
+      ],
+      "wavSha256": "17fd0ac5157844935b349f837c0878fa7331238c9e4cf097c9178eb5487add65",
+      "mp3Sha256": "48d894c6dff62bf9e9a3b00ddf0ee766d5e54d63680f7a79bbeb08c9356cc351"
     },
     {
       "sectionIndex": 24,
@@ -560,7 +752,7 @@
       "grades": [],
       "wav": "sections/wav/sec-024.wav",
       "mp3": "sections/mp3/sec-024.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 20.96,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -568,13 +760,21 @@
           "chunkId": "sec-024-p-001",
           "text": "وَلَقَدْ هَمَّتْ بِهِۦ ۖ وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُخْلَصِينَ",
           "ttsText": "Yûsuf yirmi dördüncü ayet. وَلَقَدْ هَمَّتْ بِهِۦ ۖ وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُخْلَصِينَ",
+          "ttsCharCount": 202,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-024-p-001.json",
           "response": "responses/sec-024-p-001.json",
           "wav": "originals/wav/sec-024-p-001.wav",
           "mp3": "originals/mp3/sec-024-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 20.96,
+          "generatedAt": "2026-08-01T16:11:34Z",
+          "audioSha256": "b41b6b5b9fe19833a5385b62bd1d4782526c99bd353493175b21aedf05d693f3",
+          "mp3Sha256": "6b584dbf881074acc3c9c8fb9e073579af943f99ad5f6bb6b03397345e1ad956"
         }
-      ]
+      ],
+      "wavSha256": "b41b6b5b9fe19833a5385b62bd1d4782526c99bd353493175b21aedf05d693f3",
+      "mp3Sha256": "6b584dbf881074acc3c9c8fb9e073579af943f99ad5f6bb6b03397345e1ad956"
     },
     {
       "sectionIndex": 25,
@@ -583,7 +783,7 @@
       "grades": [],
       "wav": "sections/wav/sec-025.wav",
       "mp3": "sections/mp3/sec-025.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 18.16,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -591,13 +791,21 @@
           "chunkId": "sec-025-p-001",
           "text": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍۢ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌۭ",
           "ttsText": "Yûsuf yirmi beşinci ayet. وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍۢ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌۭ",
+          "ttsCharCount": 216,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-025-p-001.json",
           "response": "responses/sec-025-p-001.json",
           "wav": "originals/wav/sec-025-p-001.wav",
           "mp3": "originals/mp3/sec-025-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 18.16,
+          "generatedAt": "2026-08-01T16:12:35Z",
+          "audioSha256": "e7ce7b46d1691fb411ad275132eb3ad6665b919fe7ee2983746123f66e3f8680",
+          "mp3Sha256": "2d7309adfbc51cc3ada95ed06ba004cb539333ba38e91a5663156b012e235fb3"
         }
-      ]
+      ],
+      "wavSha256": "e7ce7b46d1691fb411ad275132eb3ad6665b919fe7ee2983746123f66e3f8680",
+      "mp3Sha256": "2d7309adfbc51cc3ada95ed06ba004cb539333ba38e91a5663156b012e235fb3"
     },
     {
       "sectionIndex": 26,
@@ -606,7 +814,7 @@
       "grades": [],
       "wav": "sections/wav/sec-026.wav",
       "mp3": "sections/mp3/sec-026.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 15.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -614,13 +822,21 @@
           "chunkId": "sec-026-p-001",
           "text": "قَالَ هِىَ رَٰوَدَتْنِى عَن نَّفْسِى ۚ وَشَهِدَ شَاهِدٌۭ مِّنْ أَهْلِهَآ إِن كَانَ قَمِيصُهُۥ قُدَّ مِن قُبُلٍۢ فَصَدَقَتْ وَهُوَ مِنَ ٱلْكَٰذِبِينَ",
           "ttsText": "Yûsuf yirmi altıncı ayet. قَالَ هِىَ رَٰوَدَتْنِى عَن نَّفْسِى ۚ وَشَهِدَ شَاهِدٌۭ مِّنْ أَهْلِهَآ إِن كَانَ قَمِيصُهُۥ قُدَّ مِن قُبُلٍۢ فَصَدَقَتْ وَهُوَ مِنَ ٱلْكَٰذِبِينَ",
+          "ttsCharCount": 175,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-026-p-001.json",
           "response": "responses/sec-026-p-001.json",
           "wav": "originals/wav/sec-026-p-001.wav",
           "mp3": "originals/mp3/sec-026-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 15.68,
+          "generatedAt": "2026-08-01T16:12:45Z",
+          "audioSha256": "e2357d2da8b3477cdcd76214eddaaa000d909ac50108b80bdcd558171536bd93",
+          "mp3Sha256": "2f2327455c849663f72f90788b17ff22dee16ed7569cffefb8602ab0db211f94"
         }
-      ]
+      ],
+      "wavSha256": "e2357d2da8b3477cdcd76214eddaaa000d909ac50108b80bdcd558171536bd93",
+      "mp3Sha256": "2f2327455c849663f72f90788b17ff22dee16ed7569cffefb8602ab0db211f94"
     },
     {
       "sectionIndex": 27,
@@ -629,7 +845,7 @@
       "grades": [],
       "wav": "sections/wav/sec-027.wav",
       "mp3": "sections/mp3/sec-027.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 10.84,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -637,13 +853,21 @@
           "chunkId": "sec-027-p-001",
           "text": "وَإِن كَانَ قَمِيصُهُۥ قُدَّ مِن دُبُرٍۢ فَكَذَبَتْ وَهُوَ مِنَ ٱلصَّٰدِقِينَ",
           "ttsText": "Yûsuf yirmi yedinci ayet. وَإِن كَانَ قَمِيصُهُۥ قُدَّ مِن دُبُرٍۢ فَكَذَبَتْ وَهُوَ مِنَ ٱلصَّٰدِقِينَ",
+          "ttsCharCount": 103,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-027-p-001.json",
           "response": "responses/sec-027-p-001.json",
           "wav": "originals/wav/sec-027-p-001.wav",
           "mp3": "originals/mp3/sec-027-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 10.84,
+          "generatedAt": "2026-08-01T16:12:54Z",
+          "audioSha256": "fed0d5365591eca058899d1a1c229aea6d4d0ad199fe4ab18ca1f8535c8ab470",
+          "mp3Sha256": "fbf6068cf5f3c886573ba19e2f8db1628b4dcb149e4df32589695abaf9f209f5"
         }
-      ]
+      ],
+      "wavSha256": "fed0d5365591eca058899d1a1c229aea6d4d0ad199fe4ab18ca1f8535c8ab470",
+      "mp3Sha256": "fbf6068cf5f3c886573ba19e2f8db1628b4dcb149e4df32589695abaf9f209f5"
     },
     {
       "sectionIndex": 28,
@@ -652,7 +876,7 @@
       "grades": [],
       "wav": "sections/wav/sec-028.wav",
       "mp3": "sections/mp3/sec-028.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 19.08,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -660,13 +884,21 @@
           "chunkId": "sec-028-p-001",
           "text": "فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن دُبُرٍۢ قَالَ إِنَّهُۥ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌۭ",
           "ttsText": "Yûsuf yirmi sekizinci ayet. فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن دُبُرٍۢ قَالَ إِنَّهُۥ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌۭ",
+          "ttsCharCount": 131,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-028-p-001.json",
           "response": "responses/sec-028-p-001.json",
           "wav": "originals/wav/sec-028-p-001.wav",
           "mp3": "originals/mp3/sec-028-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 19.08,
+          "generatedAt": "2026-08-01T16:13:13Z",
+          "audioSha256": "f9f09d033561bf25c895b510eb77e612c8da884ee2f6d3e0830e4f329770e494",
+          "mp3Sha256": "3825f0ffc7d88cb3217665adb08c29831c7aa4df0ed40e56af70ed9abcd2298d"
         }
-      ]
+      ],
+      "wavSha256": "f9f09d033561bf25c895b510eb77e612c8da884ee2f6d3e0830e4f329770e494",
+      "mp3Sha256": "3825f0ffc7d88cb3217665adb08c29831c7aa4df0ed40e56af70ed9abcd2298d"
     },
     {
       "sectionIndex": 29,
@@ -675,7 +907,7 @@
       "grades": [],
       "wav": "sections/wav/sec-029.wav",
       "mp3": "sections/mp3/sec-029.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 13.8,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -683,13 +915,21 @@
           "chunkId": "sec-029-p-001",
           "text": "يُوسُفُ أَعْرِضْ عَنْ هَٰذَا ۚ وَٱسْتَغْفِرِى لِذَنۢبِكِ ۖ إِنَّكِ كُنتِ مِنَ ٱلْخَاطِـِٔينَ",
           "ttsText": "Yûsuf yirmi dokuzuncu ayet. يُوسُفُ أَعْرِضْ عَنْ هَٰذَا ۚ وَٱسْتَغْفِرِى لِذَنۢبِكِ ۖ إِنَّكِ كُنتِ مِنَ ٱلْخَاطِـِٔينَ",
+          "ttsCharCount": 120,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-029-p-001.json",
           "response": "responses/sec-029-p-001.json",
           "wav": "originals/wav/sec-029-p-001.wav",
           "mp3": "originals/mp3/sec-029-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 13.8,
+          "generatedAt": "2026-08-01T16:13:22Z",
+          "audioSha256": "3f743b71117cdcf8e081b680ddfb76de8b6adb50be77cf7bdd3fb0e752e90848",
+          "mp3Sha256": "b1791651aea36058404c315384c899ac040ad184a5dfb1af42e2f4bb79f3ecb6"
         }
-      ]
+      ],
+      "wavSha256": "3f743b71117cdcf8e081b680ddfb76de8b6adb50be77cf7bdd3fb0e752e90848",
+      "mp3Sha256": "b1791651aea36058404c315384c899ac040ad184a5dfb1af42e2f4bb79f3ecb6"
     },
     {
       "sectionIndex": 30,
@@ -698,7 +938,7 @@
       "grades": [],
       "wav": "sections/wav/sec-030.wav",
       "mp3": "sections/mp3/sec-030.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 27.76,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -706,13 +946,21 @@
           "chunkId": "sec-030-p-001",
           "text": "۞ وَقَالَ نِسْوَةٌۭ فِى ٱلْمَدِينَةِ ٱمْرَأَتُ ٱلْعَزِيزِ تُرَٰوِدُ فَتَىٰهَا عَن نَّفْسِهِۦ ۖ قَدْ شَغَفَهَا حُبًّا ۖ إِنَّا لَنَرَىٰهَا فِى ضَلَٰلٍۢ مُّبِينٍۢ",
           "ttsText": "Yûsuf otuzuncu ayet. ۞ وَقَالَ نِسْوَةٌۭ فِى ٱلْمَدِينَةِ ٱمْرَأَتُ ٱلْعَزِيزِ تُرَٰوِدُ فَتَىٰهَا عَن نَّفْسِهِۦ ۖ قَدْ شَغَفَهَا حُبًّا ۖ إِنَّا لَنَرَىٰهَا فِى ضَلَٰلٍۢ مُّبِينٍۢ",
+          "ttsCharCount": 181,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-030-p-001.json",
           "response": "responses/sec-030-p-001.json",
           "wav": "originals/wav/sec-030-p-001.wav",
           "mp3": "originals/mp3/sec-030-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 27.76,
+          "generatedAt": "2026-08-01T16:13:30Z",
+          "audioSha256": "6e8e2845ba213a58563d3c1d0c4efdc6968da84f237703ceb7db0434dd83e4c0",
+          "mp3Sha256": "f84a34b0beeae7755c197f2b07fd60c71fc37891d84e24cf9133b366a15e240e"
         }
-      ]
+      ],
+      "wavSha256": "6e8e2845ba213a58563d3c1d0c4efdc6968da84f237703ceb7db0434dd83e4c0",
+      "mp3Sha256": "f84a34b0beeae7755c197f2b07fd60c71fc37891d84e24cf9133b366a15e240e"
     },
     {
       "sectionIndex": 31,
@@ -721,7 +969,7 @@
       "grades": [],
       "wav": "sections/wav/sec-031.wav",
       "mp3": "sections/mp3/sec-031.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 29.52,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -729,13 +977,21 @@
           "chunkId": "sec-031-p-001",
           "text": "فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَـًۭٔا وَءَاتَتْ كُلَّ وَٰحِدَةٍۢ مِّنْهُنَّ سِكِّينًۭا وَقَالَتِ ٱخْرُجْ عَلَيْهِنَّ ۖ فَلَمَّا رَأَيْنَهُۥٓ أَكْبَرْنَهُۥ وَقَطَّعْنَ أَيْدِيَهُنَّ وَقُلْنَ حَٰشَ لِلَّهِ مَا هَٰذَا بَشَرًا إِنْ هَٰذَآ إِلَّا مَلَكٌۭ كَرِيمٌۭ",
           "ttsText": "Yûsuf otuz birinci ayet. فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَـًۭٔا وَءَاتَتْ كُلَّ وَٰحِدَةٍۢ مِّنْهُنَّ سِكِّينًۭا وَقَالَتِ ٱخْرُجْ عَلَيْهِنَّ ۖ فَلَمَّا رَأَيْنَهُۥٓ أَكْبَرْنَهُۥ وَقَطَّعْنَ أَيْدِيَهُنَّ وَقُلْنَ حَٰشَ لِلَّهِ مَا هَٰذَا بَشَرًا إِنْ هَٰذَآ إِلَّا مَلَكٌۭ كَرِيمٌۭ",
+          "ttsCharCount": 335,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-031-p-001.json",
           "response": "responses/sec-031-p-001.json",
           "wav": "originals/wav/sec-031-p-001.wav",
           "mp3": "originals/mp3/sec-031-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 29.52,
+          "generatedAt": "2026-08-01T16:13:45Z",
+          "audioSha256": "8910da3d27e032342315d1e4af46e4864ef27755a6dd5d175ab97b63d13e10d8",
+          "mp3Sha256": "ce8c14c3f230836d5c66e88e1a1dfae2ec4e4256c4fa4724f6c5a9540ed8b7a1"
         }
-      ]
+      ],
+      "wavSha256": "8910da3d27e032342315d1e4af46e4864ef27755a6dd5d175ab97b63d13e10d8",
+      "mp3Sha256": "ce8c14c3f230836d5c66e88e1a1dfae2ec4e4256c4fa4724f6c5a9540ed8b7a1"
     },
     {
       "sectionIndex": 32,
@@ -744,7 +1000,7 @@
       "grades": [],
       "wav": "sections/wav/sec-032.wav",
       "mp3": "sections/mp3/sec-032.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 28.08,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -752,13 +1008,21 @@
           "chunkId": "sec-032-p-001",
           "text": "قَالَتْ فَذَٰلِكُنَّ ٱلَّذِى لُمْتُنَّنِى فِيهِ ۖ وَلَقَدْ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ فَٱسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُۥ لَيُسْجَنَنَّ وَلَيَكُونًۭا مِّنَ ٱلصَّٰغِرِينَ",
           "ttsText": "Yûsuf otuz ikinci ayet. قَالَتْ فَذَٰلِكُنَّ ٱلَّذِى لُمْتُنَّنِى فِيهِ ۖ وَلَقَدْ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ فَٱسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُۥ لَيُسْجَنَنَّ وَلَيَكُونًۭا مِّنَ ٱلصَّٰغِرِينَ",
+          "ttsCharCount": 213,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-032-p-001.json",
           "response": "responses/sec-032-p-001.json",
           "wav": "originals/wav/sec-032-p-001.wav",
           "mp3": "originals/mp3/sec-032-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 28.08,
+          "generatedAt": "2026-08-01T16:14:00Z",
+          "audioSha256": "d6cb69de2606e188cdd980d5f285a2ce1b765e7d347162c967ff877d5735c512",
+          "mp3Sha256": "2f42f06cc065ed5e072c19b1f2ecfba86682863cc95ddd1514bade595db325b7"
         }
-      ]
+      ],
+      "wavSha256": "d6cb69de2606e188cdd980d5f285a2ce1b765e7d347162c967ff877d5735c512",
+      "mp3Sha256": "2f42f06cc065ed5e072c19b1f2ecfba86682863cc95ddd1514bade595db325b7"
     },
     {
       "sectionIndex": 33,
@@ -767,7 +1031,7 @@
       "grades": [],
       "wav": "sections/wav/sec-033.wav",
       "mp3": "sections/mp3/sec-033.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 18.28,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -775,13 +1039,21 @@
           "chunkId": "sec-033-p-001",
           "text": "قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَٰهِلِينَ",
           "ttsText": "Yûsuf otuz üçüncü ayet. قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَٰهِلِينَ",
+          "ttsCharCount": 177,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-033-p-001.json",
           "response": "responses/sec-033-p-001.json",
           "wav": "originals/wav/sec-033-p-001.wav",
           "mp3": "originals/mp3/sec-033-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 18.28,
+          "generatedAt": "2026-08-01T16:14:17Z",
+          "audioSha256": "644b206f5d0b3a17253d8c49c2d502e5d5e80e3cbc866524586e348d212b4537",
+          "mp3Sha256": "87e15c444a71a449802159a728d979048451b40a7386b3a0e58b24b37a2d2ea3"
         }
-      ]
+      ],
+      "wavSha256": "644b206f5d0b3a17253d8c49c2d502e5d5e80e3cbc866524586e348d212b4537",
+      "mp3Sha256": "87e15c444a71a449802159a728d979048451b40a7386b3a0e58b24b37a2d2ea3"
     },
     {
       "sectionIndex": 34,
@@ -790,7 +1062,7 @@
       "grades": [],
       "wav": "sections/wav/sec-034.wav",
       "mp3": "sections/mp3/sec-034.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 12.2,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -798,13 +1070,21 @@
           "chunkId": "sec-034-p-001",
           "text": "فَٱسْتَجَابَ لَهُۥ رَبُّهُۥ فَصَرَفَ عَنْهُ كَيْدَهُنَّ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
           "ttsText": "Yûsuf otuz dördüncü ayet. فَٱسْتَجَابَ لَهُۥ رَبُّهُۥ فَصَرَفَ عَنْهُ كَيْدَهُنَّ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+          "ttsCharCount": 119,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-034-p-001.json",
           "response": "responses/sec-034-p-001.json",
           "wav": "originals/wav/sec-034-p-001.wav",
           "mp3": "originals/mp3/sec-034-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 12.2,
+          "generatedAt": "2026-08-01T16:14:28Z",
+          "audioSha256": "f09c6fc36893f72dbcbcae0867b37db1f2db7eed0ef5e92d43cfce01d4dca4e2",
+          "mp3Sha256": "731b0164483b1d309e3c6dbd7e050991916927672b68ac971f78b68fd10c73a1"
         }
-      ]
+      ],
+      "wavSha256": "f09c6fc36893f72dbcbcae0867b37db1f2db7eed0ef5e92d43cfce01d4dca4e2",
+      "mp3Sha256": "731b0164483b1d309e3c6dbd7e050991916927672b68ac971f78b68fd10c73a1"
     },
     {
       "sectionIndex": 35,
@@ -813,7 +1093,7 @@
       "grades": [],
       "wav": "sections/wav/sec-035.wav",
       "mp3": "sections/mp3/sec-035.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 13.44,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -821,13 +1101,21 @@
           "chunkId": "sec-035-p-001",
           "text": "ثُمَّ بَدَا لَهُم مِّنۢ بَعْدِ مَا رَأَوُا۟ ٱلْءَايَٰتِ لَيَسْجُنُنَّهُۥ حَتَّىٰ حِينٍۢ",
           "ttsText": "Yûsuf otuz beşinci ayet. ثُمَّ بَدَا لَهُم مِّنۢ بَعْدِ مَا رَأَوُا۟ ٱلْءَايَٰتِ لَيَسْجُنُنَّهُۥ حَتَّىٰ حِينٍۢ",
+          "ttsCharCount": 112,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-035-p-001.json",
           "response": "responses/sec-035-p-001.json",
           "wav": "originals/wav/sec-035-p-001.wav",
           "mp3": "originals/mp3/sec-035-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 13.44,
+          "generatedAt": "2026-08-01T16:14:34Z",
+          "audioSha256": "71780b5fa8cc2c30e79024a09610bd8fed04daefd9c91ec9514c55604027ed56",
+          "mp3Sha256": "a62e7b298ad605a0f7ef8632b0a078488441a0a49a7a70d3a953181c46e26388"
         }
-      ]
+      ],
+      "wavSha256": "71780b5fa8cc2c30e79024a09610bd8fed04daefd9c91ec9514c55604027ed56",
+      "mp3Sha256": "a62e7b298ad605a0f7ef8632b0a078488441a0a49a7a70d3a953181c46e26388"
     },
     {
       "sectionIndex": 36,
@@ -836,7 +1124,7 @@
       "grades": [],
       "wav": "sections/wav/sec-036.wav",
       "mp3": "sections/mp3/sec-036.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 24.36,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -844,13 +1132,21 @@
           "chunkId": "sec-036-p-001",
           "text": "وَدَخَلَ مَعَهُ ٱلسِّجْنَ فَتَيَانِ ۖ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًۭا ۖ وَقَالَ ٱلْءَاخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًۭا تَأْكُلُ ٱلطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِۦٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
           "ttsText": "Yûsuf otuz altıncı ayet. وَدَخَلَ مَعَهُ ٱلسِّجْنَ فَتَيَانِ ۖ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًۭا ۖ وَقَالَ ٱلْءَاخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًۭا تَأْكُلُ ٱلطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِۦٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
+          "ttsCharCount": 284,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-036-p-001.json",
           "response": "responses/sec-036-p-001.json",
           "wav": "originals/wav/sec-036-p-001.wav",
           "mp3": "originals/mp3/sec-036-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 24.36,
+          "generatedAt": "2026-08-01T16:15:03Z",
+          "audioSha256": "a7df895fc5d59167941990ca713c145f17ea90354cdb4f39cca199b36c4cf4ec",
+          "mp3Sha256": "8af4a1bd07401ed26cf1780bd9b6c5db80bdc49b66d92e3c8a73c89bccd0a46b"
         }
-      ]
+      ],
+      "wavSha256": "a7df895fc5d59167941990ca713c145f17ea90354cdb4f39cca199b36c4cf4ec",
+      "mp3Sha256": "8af4a1bd07401ed26cf1780bd9b6c5db80bdc49b66d92e3c8a73c89bccd0a46b"
     },
     {
       "sectionIndex": 37,
@@ -859,7 +1155,7 @@
       "grades": [],
       "wav": "sections/wav/sec-037.wav",
       "mp3": "sections/mp3/sec-037.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 25.48,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -867,13 +1163,21 @@
           "chunkId": "sec-037-p-001",
           "text": "قَالَ لَا يَأْتِيكُمَا طَعَامٌۭ تُرْزَقَانِهِۦٓ إِلَّا نَبَّأْتُكُمَا بِتَأْوِيلِهِۦ قَبْلَ أَن يَأْتِيَكُمَا ۚ ذَٰلِكُمَا مِمَّا عَلَّمَنِى رَبِّىٓ ۚ إِنِّى تَرَكْتُ مِلَّةَ قَوْمٍۢ لَّا يُؤْمِنُونَ بِٱللَّهِ وَهُم بِٱلْءَاخِرَةِ هُمْ كَٰفِرُونَ",
           "ttsText": "Yûsuf otuz yedinci ayet. قَالَ لَا يَأْتِيكُمَا طَعَامٌۭ تُرْزَقَانِهِۦٓ إِلَّا نَبَّأْتُكُمَا بِتَأْوِيلِهِۦ قَبْلَ أَن يَأْتِيَكُمَا ۚ ذَٰلِكُمَا مِمَّا عَلَّمَنِى رَبِّىٓ ۚ إِنِّى تَرَكْتُ مِلَّةَ قَوْمٍۢ لَّا يُؤْمِنُونَ بِٱللَّهِ وَهُم بِٱلْءَاخِرَةِ هُمْ كَٰفِرُونَ",
+          "ttsCharCount": 271,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-037-p-001.json",
           "response": "responses/sec-037-p-001.json",
           "wav": "originals/wav/sec-037-p-001.wav",
           "mp3": "originals/mp3/sec-037-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 25.48,
+          "generatedAt": "2026-08-01T16:15:19Z",
+          "audioSha256": "232f89d7a19b4df5eb2f0f9494905e9b0a45518e36a30e3d090cf3d84239d23c",
+          "mp3Sha256": "d397a76f9f0463107fd872d6460c89389d0012519f06789617370b2a289c166e"
         }
-      ]
+      ],
+      "wavSha256": "232f89d7a19b4df5eb2f0f9494905e9b0a45518e36a30e3d090cf3d84239d23c",
+      "mp3Sha256": "d397a76f9f0463107fd872d6460c89389d0012519f06789617370b2a289c166e"
     },
     {
       "sectionIndex": 38,
@@ -882,7 +1186,7 @@
       "grades": [],
       "wav": "sections/wav/sec-038.wav",
       "mp3": "sections/mp3/sec-038.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 20.2,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -890,13 +1194,21 @@
           "chunkId": "sec-038-p-001",
           "text": "وَٱتَّبَعْتُ مِلَّةَ ءَابَآءِىٓ إِبْرَٰهِيمَ وَإِسْحَٰقَ وَيَعْقُوبَ ۚ مَا كَانَ لَنَآ أَن نُّشْرِكَ بِٱللَّهِ مِن شَىْءٍۢ ۚ ذَٰلِكَ مِن فَضْلِ ٱللَّهِ عَلَيْنَا وَعَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ",
           "ttsText": "Yûsuf otuz sekizinci ayet. وَٱتَّبَعْتُ مِلَّةَ ءَابَآءِىٓ إِبْرَٰهِيمَ وَإِسْحَٰقَ وَيَعْقُوبَ ۚ مَا كَانَ لَنَآ أَن نُّشْرِكَ بِٱللَّهِ مِن شَىْءٍۢ ۚ ذَٰلِكَ مِن فَضْلِ ٱللَّهِ عَلَيْنَا وَعَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ",
+          "ttsCharCount": 252,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-038-p-001.json",
           "response": "responses/sec-038-p-001.json",
           "wav": "originals/wav/sec-038-p-001.wav",
           "mp3": "originals/mp3/sec-038-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 20.2,
+          "generatedAt": "2026-08-01T16:15:36Z",
+          "audioSha256": "54ae86b519e8039e0dffc497891f2b1f39cbc8d915bc9e03935ae6dd18fede9a",
+          "mp3Sha256": "97ff2c967e7bae254d80325945c8ab00a93c350865b6d60a9248ef88a87df6e2"
         }
-      ]
+      ],
+      "wavSha256": "54ae86b519e8039e0dffc497891f2b1f39cbc8d915bc9e03935ae6dd18fede9a",
+      "mp3Sha256": "97ff2c967e7bae254d80325945c8ab00a93c350865b6d60a9248ef88a87df6e2"
     },
     {
       "sectionIndex": 39,
@@ -905,7 +1217,7 @@
       "grades": [],
       "wav": "sections/wav/sec-039.wav",
       "mp3": "sections/mp3/sec-039.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 12.32,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -913,13 +1225,21 @@
           "chunkId": "sec-039-p-001",
           "text": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ ءَأَرْبَابٌۭ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
           "ttsText": "Yûsuf otuz dokuzuncu ayet. يَٰصَىٰحِبَىِ ٱلسِّجْنِ ءَأَرْبَابٌۭ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
+          "ttsCharCount": 122,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-039-p-001.json",
           "response": "responses/sec-039-p-001.json",
           "wav": "originals/wav/sec-039-p-001.wav",
           "mp3": "originals/mp3/sec-039-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 12.32,
+          "generatedAt": "2026-08-01T16:15:47Z",
+          "audioSha256": "5da56e86f1b3dcfea6ca8be515782d7e68869196374bbc2e6d4be14238149d2d",
+          "mp3Sha256": "5505d75d5a59add5f441ac0569abcac7e93320f7922c7aed7004b5c46cdd744d"
         }
-      ]
+      ],
+      "wavSha256": "5da56e86f1b3dcfea6ca8be515782d7e68869196374bbc2e6d4be14238149d2d",
+      "mp3Sha256": "5505d75d5a59add5f441ac0569abcac7e93320f7922c7aed7004b5c46cdd744d"
     },
     {
       "sectionIndex": 40,
@@ -928,7 +1248,7 @@
       "grades": [],
       "wav": "sections/wav/sec-040.wav",
       "mp3": "sections/mp3/sec-040.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 40.52,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -936,13 +1256,21 @@
           "chunkId": "sec-040-p-001",
           "text": "مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءًۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۚ أَمَرَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
           "ttsText": "Yûsuf kırkıncı ayet. مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءًۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۚ أَمَرَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+          "ttsCharCount": 305,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-040-p-001.json",
           "response": "responses/sec-040-p-001.json",
           "wav": "originals/wav/sec-040-p-001.wav",
           "mp3": "originals/mp3/sec-040-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 40.52,
+          "generatedAt": "2026-08-01T16:15:53Z",
+          "audioSha256": "f4f894082525469d7ce7638c201ea86ac053918d2f86f647feec2178935d73c1",
+          "mp3Sha256": "53bf6d1d590e90e24cdbda2693be42621b8ac56e90beabdb4f01a7c338f43ea9"
         }
-      ]
+      ],
+      "wavSha256": "f4f894082525469d7ce7638c201ea86ac053918d2f86f647feec2178935d73c1",
+      "mp3Sha256": "53bf6d1d590e90e24cdbda2693be42621b8ac56e90beabdb4f01a7c338f43ea9"
     },
     {
       "sectionIndex": 41,
@@ -951,7 +1279,7 @@
       "grades": [],
       "wav": "sections/wav/sec-041.wav",
       "mp3": "sections/mp3/sec-041.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 20.6,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -959,13 +1287,21 @@
           "chunkId": "sec-041-p-001",
           "text": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًۭا ۖ وَأَمَّا ٱلْءَاخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ",
           "ttsText": "Yûsuf kırk birinci ayet. يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًۭا ۖ وَأَمَّا ٱلْءَاخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ",
+          "ttsCharCount": 214,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-041-p-001.json",
           "response": "responses/sec-041-p-001.json",
           "wav": "originals/wav/sec-041-p-001.wav",
           "mp3": "originals/mp3/sec-041-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 20.6,
+          "generatedAt": "2026-08-01T16:16:11Z",
+          "audioSha256": "9ee2f6801a4974fcfb70f694f6c2cdd890b9bf8448e70b30c51c02f8c1c3c549",
+          "mp3Sha256": "22380990817e52b57749372ffbb3f729eba01ad9727c5245f2044250e7df556a"
         }
-      ]
+      ],
+      "wavSha256": "9ee2f6801a4974fcfb70f694f6c2cdd890b9bf8448e70b30c51c02f8c1c3c549",
+      "mp3Sha256": "22380990817e52b57749372ffbb3f729eba01ad9727c5245f2044250e7df556a"
     },
     {
       "sectionIndex": 42,
@@ -974,7 +1310,7 @@
       "grades": [],
       "wav": "sections/wav/sec-042.wav",
       "mp3": "sections/mp3/sec-042.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 17.92,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -982,13 +1318,21 @@
           "chunkId": "sec-042-p-001",
           "text": "وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍۢ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى ٱلسِّجْنِ بِضْعَ سِنِينَ",
           "ttsText": "Yûsuf kırk ikinci ayet. وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍۢ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى ٱلسِّجْنِ بِضْعَ سِنِينَ",
+          "ttsCharCount": 177,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-042-p-001.json",
           "response": "responses/sec-042-p-001.json",
           "wav": "originals/wav/sec-042-p-001.wav",
           "mp3": "originals/mp3/sec-042-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 17.92,
+          "generatedAt": "2026-08-01T16:16:37Z",
+          "audioSha256": "d09853793daff5429a4ddcb9afe49a56715c72da5161a1dd8fc6cad60e60106f",
+          "mp3Sha256": "985edd9894375dfecbd3b4406f07d031aa19a5bca53876a35c1b7fab8c7a9e52"
         }
-      ]
+      ],
+      "wavSha256": "d09853793daff5429a4ddcb9afe49a56715c72da5161a1dd8fc6cad60e60106f",
+      "mp3Sha256": "985edd9894375dfecbd3b4406f07d031aa19a5bca53876a35c1b7fab8c7a9e52"
     },
     {
       "sectionIndex": 43,
@@ -997,7 +1341,7 @@
       "grades": [],
       "wav": "sections/wav/sec-043.wav",
       "mp3": "sections/mp3/sec-043.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 29.56,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1005,13 +1349,21 @@
           "chunkId": "sec-043-p-001",
           "text": "وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍۢ سِمَانٍۢ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌۭ وَسَبْعَ سُنۢبُلَٰتٍ خُضْرٍۢ وَأُخَرَ يَابِسَٰتٍۢ ۖ يَٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ",
           "ttsText": "Yûsuf kırk üçüncü ayet. وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍۢ سِمَانٍۢ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌۭ وَسَبْعَ سُنۢبُلَٰتٍ خُضْرٍۢ وَأُخَرَ يَابِسَٰتٍۢ ۖ يَٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ",
+          "ttsCharCount": 249,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-043-p-001.json",
           "response": "responses/sec-043-p-001.json",
           "wav": "originals/wav/sec-043-p-001.wav",
           "mp3": "originals/mp3/sec-043-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 29.56,
+          "generatedAt": "2026-08-01T16:16:47Z",
+          "audioSha256": "7dc6583cd940f9658f09dc34f6004457d6b77f9b9e8748be4f4d7948e528eada",
+          "mp3Sha256": "35af43139d9841d6024e158fb9218961bf41968eefc41a6e6e4537da5fccbf56"
         }
-      ]
+      ],
+      "wavSha256": "7dc6583cd940f9658f09dc34f6004457d6b77f9b9e8748be4f4d7948e528eada",
+      "mp3Sha256": "35af43139d9841d6024e158fb9218961bf41968eefc41a6e6e4537da5fccbf56"
     },
     {
       "sectionIndex": 44,
@@ -1020,7 +1372,7 @@
       "grades": [],
       "wav": "sections/wav/sec-044.wav",
       "mp3": "sections/mp3/sec-044.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 15.96,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1028,13 +1380,21 @@
           "chunkId": "sec-044-p-001",
           "text": "قَالُوٓا۟ أَضْغَٰثُ أَحْلَٰمٍۢ ۖ وَمَا نَحْنُ بِتَأْوِيلِ ٱلْأَحْلَٰمِ بِعَٰلِمِينَ",
           "ttsText": "Yûsuf kırk dördüncü ayet. قَالُوٓا۟ أَضْغَٰثُ أَحْلَٰمٍۢ ۖ وَمَا نَحْنُ بِتَأْوِيلِ ٱلْأَحْلَٰمِ بِعَٰلِمِينَ",
+          "ttsCharCount": 109,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-044-p-001.json",
           "response": "responses/sec-044-p-001.json",
           "wav": "originals/wav/sec-044-p-001.wav",
           "mp3": "originals/mp3/sec-044-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 15.96,
+          "generatedAt": "2026-08-01T16:16:59Z",
+          "audioSha256": "99072223d8cdd64c03ef5999c3464923514826e8060099351493a766f003b407",
+          "mp3Sha256": "0002e3b8a88cabc346afea43c48a154d939e9b7345fa7d477499cc78300ec60e"
         }
-      ]
+      ],
+      "wavSha256": "99072223d8cdd64c03ef5999c3464923514826e8060099351493a766f003b407",
+      "mp3Sha256": "0002e3b8a88cabc346afea43c48a154d939e9b7345fa7d477499cc78300ec60e"
     },
     {
       "sectionIndex": 45,
@@ -1043,7 +1403,7 @@
       "grades": [],
       "wav": "sections/wav/sec-045.wav",
       "mp3": "sections/mp3/sec-045.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 14.8,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1051,13 +1411,21 @@
           "chunkId": "sec-045-p-001",
           "text": "وَقَالَ ٱلَّذِى نَجَا مِنْهُمَا وَٱدَّكَرَ بَعْدَ أُمَّةٍ أَنَا۠ أُنَبِّئُكُم بِتَأْوِيلِهِۦ فَأَرْسِلُونِ",
           "ttsText": "Yûsuf kırk beşinci ayet. وَقَالَ ٱلَّذِى نَجَا مِنْهُمَا وَٱدَّكَرَ بَعْدَ أُمَّةٍ أَنَا۠ أُنَبِّئُكُم بِتَأْوِيلِهِۦ فَأَرْسِلُونِ",
+          "ttsCharCount": 131,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-045-p-001.json",
           "response": "responses/sec-045-p-001.json",
           "wav": "originals/wav/sec-045-p-001.wav",
           "mp3": "originals/mp3/sec-045-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 14.8,
+          "generatedAt": "2026-08-01T16:17:07Z",
+          "audioSha256": "78a1e16709c7cd441f55b0119de099bf366d9edc9667dfd4ad8cb0288d4e7e33",
+          "mp3Sha256": "ae37b74d85f7581f69caa28fee39ff3a5bb24aab823ba2d80fb8d32d78802287"
         }
-      ]
+      ],
+      "wavSha256": "78a1e16709c7cd441f55b0119de099bf366d9edc9667dfd4ad8cb0288d4e7e33",
+      "mp3Sha256": "ae37b74d85f7581f69caa28fee39ff3a5bb24aab823ba2d80fb8d32d78802287"
     },
     {
       "sectionIndex": 46,
@@ -1066,7 +1434,7 @@
       "grades": [],
       "wav": "sections/wav/sec-046.wav",
       "mp3": "sections/mp3/sec-046.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 21.56,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1074,13 +1442,21 @@
           "chunkId": "sec-046-p-001",
           "text": "يُوسُفُ أَيُّهَا ٱلصِّدِّيقُ أَفْتِنَا فِى سَبْعِ بَقَرَٰتٍۢ سِمَانٍۢ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌۭ وَسَبْعِ سُنۢبُلَٰتٍ خُضْرٍۢ وَأُخَرَ يَابِسَٰتٍۢ لَّعَلِّىٓ أَرْجِعُ إِلَى ٱلنَّاسِ لَعَلَّهُمْ يَعْلَمُونَ",
           "ttsText": "Yûsuf kırk altıncı ayet. يُوسُفُ أَيُّهَا ٱلصِّدِّيقُ أَفْتِنَا فِى سَبْعِ بَقَرَٰتٍۢ سِمَانٍۢ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌۭ وَسَبْعِ سُنۢبُلَٰتٍ خُضْرٍۢ وَأُخَرَ يَابِسَٰتٍۢ لَّعَلِّىٓ أَرْجِعُ إِلَى ٱلنَّاسِ لَعَلَّهُمْ يَعْلَمُونَ",
+          "ttsCharCount": 233,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-046-p-001.json",
           "response": "responses/sec-046-p-001.json",
           "wav": "originals/wav/sec-046-p-001.wav",
           "mp3": "originals/mp3/sec-046-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 21.56,
+          "generatedAt": "2026-08-01T16:17:14Z",
+          "audioSha256": "a6f787ab6630192335c5442598bfb672289b0fa4300e7ade5e5f5cd9144c610b",
+          "mp3Sha256": "381b69aaefaf0d228dbb62d07f33a236135d5127a04b45554eb7d1553d345b0f"
         }
-      ]
+      ],
+      "wavSha256": "a6f787ab6630192335c5442598bfb672289b0fa4300e7ade5e5f5cd9144c610b",
+      "mp3Sha256": "381b69aaefaf0d228dbb62d07f33a236135d5127a04b45554eb7d1553d345b0f"
     },
     {
       "sectionIndex": 47,
@@ -1089,7 +1465,7 @@
       "grades": [],
       "wav": "sections/wav/sec-047.wav",
       "mp3": "sections/mp3/sec-047.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 16.24,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1097,13 +1473,21 @@
           "chunkId": "sec-047-p-001",
           "text": "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًۭا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًۭا مِّمَّا تَأْكُلُونَ",
           "ttsText": "Yûsuf kırk yedinci ayet. قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًۭا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًۭا مِّمَّا تَأْكُلُونَ",
+          "ttsCharCount": 147,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-047-p-001.json",
           "response": "responses/sec-047-p-001.json",
           "wav": "originals/wav/sec-047-p-001.wav",
           "mp3": "originals/mp3/sec-047-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 16.24,
+          "generatedAt": "2026-08-01T16:17:39Z",
+          "audioSha256": "f959e82f9286745b348113225ad5761f83e52a5388e239d899dd7fe9fe66489d",
+          "mp3Sha256": "aaccabc48c034d4c52b32d67d41c9fe12d90201ab4e8427528bed4b3e0658d7a"
         }
-      ]
+      ],
+      "wavSha256": "f959e82f9286745b348113225ad5761f83e52a5388e239d899dd7fe9fe66489d",
+      "mp3Sha256": "aaccabc48c034d4c52b32d67d41c9fe12d90201ab4e8427528bed4b3e0658d7a"
     },
     {
       "sectionIndex": 48,
@@ -1112,7 +1496,7 @@
       "grades": [],
       "wav": "sections/wav/sec-048.wav",
       "mp3": "sections/mp3/sec-048.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 18.32,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1120,13 +1504,21 @@
           "chunkId": "sec-048-p-001",
           "text": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ سَبْعٌۭ شِدَادٌۭ يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ إِلَّا قَلِيلًۭا مِّمَّا تُحْصِنُونَ",
           "ttsText": "Yûsuf kırk sekizinci ayet. ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ سَبْعٌۭ شِدَادٌۭ يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ إِلَّا قَلِيلًۭا مِّمَّا تُحْصِنُونَ",
+          "ttsCharCount": 149,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-048-p-001.json",
           "response": "responses/sec-048-p-001.json",
           "wav": "originals/wav/sec-048-p-001.wav",
           "mp3": "originals/mp3/sec-048-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 18.32,
+          "generatedAt": "2026-08-01T16:17:49Z",
+          "audioSha256": "736ac43c5b79257f5540dc9c492e076a5741dcf261d9cb816a3de37ffce93f0b",
+          "mp3Sha256": "1ede6a4e05506149bdcbf31abc1fb42f18cc9136693d17e26e2d449f4690e216"
         }
-      ]
+      ],
+      "wavSha256": "736ac43c5b79257f5540dc9c492e076a5741dcf261d9cb816a3de37ffce93f0b",
+      "mp3Sha256": "1ede6a4e05506149bdcbf31abc1fb42f18cc9136693d17e26e2d449f4690e216"
     },
     {
       "sectionIndex": 49,
@@ -1135,7 +1527,7 @@
       "grades": [],
       "wav": "sections/wav/sec-049.wav",
       "mp3": "sections/mp3/sec-049.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.48,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1143,13 +1535,21 @@
           "chunkId": "sec-049-p-001",
           "text": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ عَامٌۭ فِيهِ يُغَاثُ ٱلنَّاسُ وَفِيهِ يَعْصِرُونَ",
           "ttsText": "Yûsuf kırk dokuzuncu ayet. ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ عَامٌۭ فِيهِ يُغَاثُ ٱلنَّاسُ وَفِيهِ يَعْصِرُونَ",
+          "ttsCharCount": 110,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-049-p-001.json",
           "response": "responses/sec-049-p-001.json",
           "wav": "originals/wav/sec-049-p-001.wav",
           "mp3": "originals/mp3/sec-049-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.48,
+          "generatedAt": "2026-08-01T16:17:59Z",
+          "audioSha256": "6cba5eea5ffda3222889e3f9d138f86e2da26d25ea13fb2b24aa5151d245fbd6",
+          "mp3Sha256": "07513aecb7d2b81073a018c5a74014153021cb476dbd68112a805f5e64c77a66"
         }
-      ]
+      ],
+      "wavSha256": "6cba5eea5ffda3222889e3f9d138f86e2da26d25ea13fb2b24aa5151d245fbd6",
+      "mp3Sha256": "07513aecb7d2b81073a018c5a74014153021cb476dbd68112a805f5e64c77a66"
     },
     {
       "sectionIndex": 50,
@@ -1158,7 +1558,7 @@
       "grades": [],
       "wav": "sections/wav/sec-050.wav",
       "mp3": "sections/mp3/sec-050.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 17.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1166,13 +1566,21 @@
           "chunkId": "sec-050-p-001",
           "text": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦ ۖ فَلَمَّا جَآءَهُ ٱلرَّسُولُ قَالَ ٱرْجِعْ إِلَىٰ رَبِّكَ فَسْـَٔلْهُ مَا بَالُ ٱلنِّسْوَةِ ٱلَّٰتِى قَطَّعْنَ أَيْدِيَهُنَّ ۚ إِنَّ رَبِّى بِكَيْدِهِنَّ عَلِيمٌۭ",
           "ttsText": "Yûsuf ellinci ayet. وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦ ۖ فَلَمَّا جَآءَهُ ٱلرَّسُولُ قَالَ ٱرْجِعْ إِلَىٰ رَبِّكَ فَسْـَٔلْهُ مَا بَالُ ٱلنِّسْوَةِ ٱلَّٰتِى قَطَّعْنَ أَيْدِيَهُنَّ ۚ إِنَّ رَبِّى بِكَيْدِهِنَّ عَلِيمٌۭ",
+          "ttsCharCount": 218,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-050-p-001.json",
           "response": "responses/sec-050-p-001.json",
           "wav": "originals/wav/sec-050-p-001.wav",
           "mp3": "originals/mp3/sec-050-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 17.68,
+          "generatedAt": "2026-08-01T16:18:11Z",
+          "audioSha256": "7bfff50bd9da0b4c3f9891f2ec649d8ccc39900081fc500ef163d2abd4c72a05",
+          "mp3Sha256": "e7862f8a793838a1283dbc9182538185698518dc18156367b9f1695ce99b8b16"
         }
-      ]
+      ],
+      "wavSha256": "7bfff50bd9da0b4c3f9891f2ec649d8ccc39900081fc500ef163d2abd4c72a05",
+      "mp3Sha256": "e7862f8a793838a1283dbc9182538185698518dc18156367b9f1695ce99b8b16"
     },
     {
       "sectionIndex": 51,
@@ -1181,7 +1589,7 @@
       "grades": [],
       "wav": "sections/wav/sec-051.wav",
       "mp3": "sections/mp3/sec-051.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 33.16,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1189,13 +1597,21 @@
           "chunkId": "sec-051-p-001",
           "text": "قَالَ مَا خَطْبُكُنَّ إِذْ رَٰوَدتُّنَّ يُوسُفَ عَن نَّفْسِهِۦ ۚ قُلْنَ حَٰشَ لِلَّهِ مَا عَلِمْنَا عَلَيْهِ مِن سُوٓءٍۢ ۚ قَالَتِ ٱمْرَأَتُ ٱلْعَزِيزِ ٱلْـَٰٔنَ حَصْحَصَ ٱلْحَقُّ أَنَا۠ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ وَإِنَّهُۥ لَمِنَ ٱلصَّٰدِقِينَ",
           "ttsText": "Yûsuf elli birinci ayet. قَالَ مَا خَطْبُكُنَّ إِذْ رَٰوَدتُّنَّ يُوسُفَ عَن نَّفْسِهِۦ ۚ قُلْنَ حَٰشَ لِلَّهِ مَا عَلِمْنَا عَلَيْهِ مِن سُوٓءٍۢ ۚ قَالَتِ ٱمْرَأَتُ ٱلْعَزِيزِ ٱلْـَٰٔنَ حَصْحَصَ ٱلْحَقُّ أَنَا۠ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ وَإِنَّهُۥ لَمِنَ ٱلصَّٰدِقِينَ",
+          "ttsCharCount": 271,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-051-p-001.json",
           "response": "responses/sec-051-p-001.json",
           "wav": "originals/wav/sec-051-p-001.wav",
           "mp3": "originals/mp3/sec-051-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 33.16,
+          "generatedAt": "2026-08-01T16:18:19Z",
+          "audioSha256": "8d2573ed92e56fae5b2dfc317824f43880743f63d1c38d210aa7756f6e73c87e",
+          "mp3Sha256": "e86b8956c5f979415e2cc3e35068a8533e4f8e6f8fd6e6763aa9353aab41c191"
         }
-      ]
+      ],
+      "wavSha256": "8d2573ed92e56fae5b2dfc317824f43880743f63d1c38d210aa7756f6e73c87e",
+      "mp3Sha256": "e86b8956c5f979415e2cc3e35068a8533e4f8e6f8fd6e6763aa9353aab41c191"
     },
     {
       "sectionIndex": 52,
@@ -1204,7 +1620,7 @@
       "grades": [],
       "wav": "sections/wav/sec-052.wav",
       "mp3": "sections/mp3/sec-052.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 13.04,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1212,13 +1628,21 @@
           "chunkId": "sec-052-p-001",
           "text": "ذَٰلِكَ لِيَعْلَمَ أَنِّى لَمْ أَخُنْهُ بِٱلْغَيْبِ وَأَنَّ ٱللَّهَ لَا يَهْدِى كَيْدَ ٱلْخَآئِنِينَ",
           "ttsText": "Yûsuf elli ikinci ayet. ذَٰلِكَ لِيَعْلَمَ أَنِّى لَمْ أَخُنْهُ بِٱلْغَيْبِ وَأَنَّ ٱللَّهَ لَا يَهْدِى كَيْدَ ٱلْخَآئِنِينَ",
+          "ttsCharCount": 125,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-052-p-001.json",
           "response": "responses/sec-052-p-001.json",
           "wav": "originals/wav/sec-052-p-001.wav",
           "mp3": "originals/mp3/sec-052-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 13.04,
+          "generatedAt": "2026-08-01T16:18:41Z",
+          "audioSha256": "178a57e2eae85f8b177bfcf0300a60a2868d0b41344cdf300eb9d0331c1d5b4b",
+          "mp3Sha256": "6d4620c95f3cb79a67d76e178655e52b339e7b42859e6ce839f5a8cf4843648f"
         }
-      ]
+      ],
+      "wavSha256": "178a57e2eae85f8b177bfcf0300a60a2868d0b41344cdf300eb9d0331c1d5b4b",
+      "mp3Sha256": "6d4620c95f3cb79a67d76e178655e52b339e7b42859e6ce839f5a8cf4843648f"
     },
     {
       "sectionIndex": 53,
@@ -1227,7 +1651,7 @@
       "grades": [],
       "wav": "sections/wav/sec-053.wav",
       "mp3": "sections/mp3/sec-053.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 19.72,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1235,13 +1659,21 @@
           "chunkId": "sec-053-p-001",
           "text": "۞ وَمَآ أُبَرِّئُ نَفْسِىٓ ۚ إِنَّ ٱلنَّفْسَ لَأَمَّارَةٌۢ بِٱلسُّوٓءِ إِلَّا مَا رَحِمَ رَبِّىٓ ۚ إِنَّ رَبِّى غَفُورٌۭ رَّحِيمٌۭ",
           "ttsText": "Yûsuf elli üçüncü ayet. ۞ وَمَآ أُبَرِّئُ نَفْسِىٓ ۚ إِنَّ ٱلنَّفْسَ لَأَمَّارَةٌۢ بِٱلسُّوٓءِ إِلَّا مَا رَحِمَ رَبِّىٓ ۚ إِنَّ رَبِّى غَفُورٌۭ رَّحِيمٌۭ",
+          "ttsCharCount": 155,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-053-p-001.json",
           "response": "responses/sec-053-p-001.json",
           "wav": "originals/wav/sec-053-p-001.wav",
           "mp3": "originals/mp3/sec-053-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 19.72,
+          "generatedAt": "2026-08-01T16:18:49Z",
+          "audioSha256": "85364c61e82be32357757a578e6d1fd5ffc0357b2830fbcf2d9fb245f0d1b9ef",
+          "mp3Sha256": "1ea0f9b3aa06b085017b5605123905bb8c777e15c49ca95998a36c05d58c5ca8"
         }
-      ]
+      ],
+      "wavSha256": "85364c61e82be32357757a578e6d1fd5ffc0357b2830fbcf2d9fb245f0d1b9ef",
+      "mp3Sha256": "1ea0f9b3aa06b085017b5605123905bb8c777e15c49ca95998a36c05d58c5ca8"
     },
     {
       "sectionIndex": 54,
@@ -1250,7 +1682,7 @@
       "grades": [],
       "wav": "sections/wav/sec-054.wav",
       "mp3": "sections/mp3/sec-054.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 21.64,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1258,13 +1690,21 @@
           "chunkId": "sec-054-p-001",
           "text": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ أَسْتَخْلِصْهُ لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌۭ",
           "ttsText": "Yûsuf elli dördüncü ayet. وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ أَسْتَخْلِصْهُ لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌۭ",
+          "ttsCharCount": 158,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-054-p-001.json",
           "response": "responses/sec-054-p-001.json",
           "wav": "originals/wav/sec-054-p-001.wav",
           "mp3": "originals/mp3/sec-054-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 21.64,
+          "generatedAt": "2026-08-01T16:19:00Z",
+          "audioSha256": "38e2af8ae3d00d7806a5e82fb782bfb7d5e02f0c1a40259e91935b52628c0e91",
+          "mp3Sha256": "2eee8e57297c9a2e07165c3ff232bacd0576e43053a3f12c9dae3e7517454e48"
         }
-      ]
+      ],
+      "wavSha256": "38e2af8ae3d00d7806a5e82fb782bfb7d5e02f0c1a40259e91935b52628c0e91",
+      "mp3Sha256": "2eee8e57297c9a2e07165c3ff232bacd0576e43053a3f12c9dae3e7517454e48"
     },
     {
       "sectionIndex": 55,
@@ -1273,7 +1713,7 @@
       "grades": [],
       "wav": "sections/wav/sec-055.wav",
       "mp3": "sections/mp3/sec-055.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.92,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1281,13 +1721,21 @@
           "chunkId": "sec-055-p-001",
           "text": "قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌۭ",
           "ttsText": "Yûsuf elli beşinci ayet. قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌۭ",
+          "ttsCharCount": 95,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-055-p-001.json",
           "response": "responses/sec-055-p-001.json",
           "wav": "originals/wav/sec-055-p-001.wav",
           "mp3": "originals/mp3/sec-055-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.92,
+          "generatedAt": "2026-08-01T16:19:12Z",
+          "audioSha256": "09dfafe3bc686de764f8c32230cdeb442b718ab21aba52bb76dae27b0430435a",
+          "mp3Sha256": "5ffcd4ca4eb7bb80f2620a497f57865e6b4e09c14ffd0edac1ef6cc16ed4893e"
         }
-      ]
+      ],
+      "wavSha256": "09dfafe3bc686de764f8c32230cdeb442b718ab21aba52bb76dae27b0430435a",
+      "mp3Sha256": "5ffcd4ca4eb7bb80f2620a497f57865e6b4e09c14ffd0edac1ef6cc16ed4893e"
     },
     {
       "sectionIndex": 56,
@@ -1296,7 +1744,7 @@
       "grades": [],
       "wav": "sections/wav/sec-056.wav",
       "mp3": "sections/mp3/sec-056.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 15.52,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1304,13 +1752,21 @@
           "chunkId": "sec-056-p-001",
           "text": "وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
           "ttsText": "Yûsuf elli altıncı ayet. وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+          "ttsCharCount": 182,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-056-p-001.json",
           "response": "responses/sec-056-p-001.json",
           "wav": "originals/wav/sec-056-p-001.wav",
           "mp3": "originals/mp3/sec-056-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 15.52,
+          "generatedAt": "2026-08-01T16:19:18Z",
+          "audioSha256": "8d5aef2940e2179dbde114702d668e72de32ea3b0f1f431f8a568ca9e8fd2a4a",
+          "mp3Sha256": "500ece9dc97a771df922f99021cc307d069f66482ba0d507aef06329fc2a8405"
         }
-      ]
+      ],
+      "wavSha256": "8d5aef2940e2179dbde114702d668e72de32ea3b0f1f431f8a568ca9e8fd2a4a",
+      "mp3Sha256": "500ece9dc97a771df922f99021cc307d069f66482ba0d507aef06329fc2a8405"
     },
     {
       "sectionIndex": 57,
@@ -1319,7 +1775,7 @@
       "grades": [],
       "wav": "sections/wav/sec-057.wav",
       "mp3": "sections/mp3/sec-057.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 16.4,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1327,13 +1783,21 @@
           "chunkId": "sec-057-p-001",
           "text": "وَلَأَجْرُ ٱلْءَاخِرَةِ خَيْرٌۭ لِّلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
           "ttsText": "Yûsuf elli yedinci ayet. وَلَأَجْرُ ٱلْءَاخِرَةِ خَيْرٌۭ لِّلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
+          "ttsCharCount": 101,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-057-p-001.json",
           "response": "responses/sec-057-p-001.json",
           "wav": "originals/wav/sec-057-p-001.wav",
           "mp3": "originals/mp3/sec-057-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 16.4,
+          "generatedAt": "2026-08-01T16:19:51Z",
+          "audioSha256": "b4f9259e44831b08d96406898b6e5777e6dc068f16d1dd6a217efa0f3058b120",
+          "mp3Sha256": "cdfb8f4e02c8043a9833b6d23d5723dfbd8103d9571b86cf4d9eb302a1ca6773"
         }
-      ]
+      ],
+      "wavSha256": "b4f9259e44831b08d96406898b6e5777e6dc068f16d1dd6a217efa0f3058b120",
+      "mp3Sha256": "cdfb8f4e02c8043a9833b6d23d5723dfbd8103d9571b86cf4d9eb302a1ca6773"
     },
     {
       "sectionIndex": 58,
@@ -1342,7 +1806,7 @@
       "grades": [],
       "wav": "sections/wav/sec-058.wav",
       "mp3": "sections/mp3/sec-058.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 13.92,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1350,13 +1814,21 @@
           "chunkId": "sec-058-p-001",
           "text": "وَجَآءَ إِخْوَةُ يُوسُفَ فَدَخَلُوا۟ عَلَيْهِ فَعَرَفَهُمْ وَهُمْ لَهُۥ مُنكِرُونَ",
           "ttsText": "Yûsuf elli sekizinci ayet. وَجَآءَ إِخْوَةُ يُوسُفَ فَدَخَلُوا۟ عَلَيْهِ فَعَرَفَهُمْ وَهُمْ لَهُۥ مُنكِرُونَ",
+          "ttsCharCount": 110,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-058-p-001.json",
           "response": "responses/sec-058-p-001.json",
           "wav": "originals/wav/sec-058-p-001.wav",
           "mp3": "originals/mp3/sec-058-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 13.92,
+          "generatedAt": "2026-08-01T16:20:01Z",
+          "audioSha256": "4ea3c16b00cd75492566155f56b5dd3623690092342b9a2cdf97d19ed541946b",
+          "mp3Sha256": "a4523faf12068fab62de040ebfa6f7171857d690f2d8b51a55c113c6cb623198"
         }
-      ]
+      ],
+      "wavSha256": "4ea3c16b00cd75492566155f56b5dd3623690092342b9a2cdf97d19ed541946b",
+      "mp3Sha256": "a4523faf12068fab62de040ebfa6f7171857d690f2d8b51a55c113c6cb623198"
     },
     {
       "sectionIndex": 59,
@@ -1365,7 +1837,7 @@
       "grades": [],
       "wav": "sections/wav/sec-059.wav",
       "mp3": "sections/mp3/sec-059.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 17.4,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1373,13 +1845,21 @@
           "chunkId": "sec-059-p-001",
           "text": "وَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ قَالَ ٱئْتُونِى بِأَخٍۢ لَّكُم مِّنْ أَبِيكُمْ ۚ أَلَا تَرَوْنَ أَنِّىٓ أُوفِى ٱلْكَيْلَ وَأَنَا۠ خَيْرُ ٱلْمُنزِلِينَ",
           "ttsText": "Yûsuf elli dokuzuncu ayet. وَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ قَالَ ٱئْتُونِى بِأَخٍۢ لَّكُم مِّنْ أَبِيكُمْ ۚ أَلَا تَرَوْنَ أَنِّىٓ أُوفِى ٱلْكَيْلَ وَأَنَا۠ خَيْرُ ٱلْمُنزِلِينَ",
+          "ttsCharCount": 179,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-059-p-001.json",
           "response": "responses/sec-059-p-001.json",
           "wav": "originals/wav/sec-059-p-001.wav",
           "mp3": "originals/mp3/sec-059-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 17.4,
+          "generatedAt": "2026-08-01T16:20:16Z",
+          "audioSha256": "c9a923ed56702a884b59486bd0e3e210c7a000c54419da4b3f6dbfc3c290fc55",
+          "mp3Sha256": "6ac4877f25fdc71b654101c8b2a3b6114f6bb6e55d48a34bb0b220fa98625841"
         }
-      ]
+      ],
+      "wavSha256": "c9a923ed56702a884b59486bd0e3e210c7a000c54419da4b3f6dbfc3c290fc55",
+      "mp3Sha256": "6ac4877f25fdc71b654101c8b2a3b6114f6bb6e55d48a34bb0b220fa98625841"
     },
     {
       "sectionIndex": 60,
@@ -1388,7 +1868,7 @@
       "grades": [],
       "wav": "sections/wav/sec-060.wav",
       "mp3": "sections/mp3/sec-060.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 8.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1396,13 +1876,21 @@
           "chunkId": "sec-060-p-001",
           "text": "فَإِن لَّمْ تَأْتُونِى بِهِۦ فَلَا كَيْلَ لَكُمْ عِندِى وَلَا تَقْرَبُونِ",
           "ttsText": "Yûsuf altmışıncı ayet. فَإِن لَّمْ تَأْتُونِى بِهِۦ فَلَا كَيْلَ لَكُمْ عِندِى وَلَا تَقْرَبُونِ",
+          "ttsCharCount": 96,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-060-p-001.json",
           "response": "responses/sec-060-p-001.json",
           "wav": "originals/wav/sec-060-p-001.wav",
           "mp3": "originals/mp3/sec-060-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 8.68,
+          "generatedAt": "2026-08-01T16:20:27Z",
+          "audioSha256": "b4b0cdc714616f4035cbda2e377985955e4c4ac18c9a9775abbadbafc45d6c2a",
+          "mp3Sha256": "ab0d7e9b8886e8a739b956a73cb349aacc79d1e345b9f9ec6c0758a84f16bb74"
         }
-      ]
+      ],
+      "wavSha256": "b4b0cdc714616f4035cbda2e377985955e4c4ac18c9a9775abbadbafc45d6c2a",
+      "mp3Sha256": "ab0d7e9b8886e8a739b956a73cb349aacc79d1e345b9f9ec6c0758a84f16bb74"
     },
     {
       "sectionIndex": 61,
@@ -1411,7 +1899,7 @@
       "grades": [],
       "wav": "sections/wav/sec-061.wav",
       "mp3": "sections/mp3/sec-061.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 10.32,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1419,13 +1907,21 @@
           "chunkId": "sec-061-p-001",
           "text": "قَالُوا۟ سَنُرَٰوِدُ عَنْهُ أَبَاهُ وَإِنَّا لَفَٰعِلُونَ",
           "ttsText": "Yûsuf altmış birinci ayet. قَالُوا۟ سَنُرَٰوِدُ عَنْهُ أَبَاهُ وَإِنَّا لَفَٰعِلُونَ",
+          "ttsCharCount": 84,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-061-p-001.json",
           "response": "responses/sec-061-p-001.json",
           "wav": "originals/wav/sec-061-p-001.wav",
           "mp3": "originals/mp3/sec-061-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 10.32,
+          "generatedAt": "2026-08-01T16:20:32Z",
+          "audioSha256": "4767065d35b56d11c1d96ca2332dd2456d69c37b5f8a4cc6b26dce707d86696b",
+          "mp3Sha256": "ec7e71800d640209ef890cfee6e71f1af7324c6092749d9a61f316a6ce87302a"
         }
-      ]
+      ],
+      "wavSha256": "4767065d35b56d11c1d96ca2332dd2456d69c37b5f8a4cc6b26dce707d86696b",
+      "mp3Sha256": "ec7e71800d640209ef890cfee6e71f1af7324c6092749d9a61f316a6ce87302a"
     },
     {
       "sectionIndex": 62,
@@ -1434,7 +1930,7 @@
       "grades": [],
       "wav": "sections/wav/sec-062.wav",
       "mp3": "sections/mp3/sec-062.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 17.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1442,13 +1938,21 @@
           "chunkId": "sec-062-p-001",
           "text": "وَقَالَ لِفِتْيَٰنِهِ ٱجْعَلُوا۟ بِضَٰعَتَهُمْ فِى رِحَالِهِمْ لَعَلَّهُمْ يَعْرِفُونَهَآ إِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمْ لَعَلَّهُمْ يَرْجِعُونَ",
           "ttsText": "Yûsuf altmış ikinci ayet. وَقَالَ لِفِتْيَٰنِهِ ٱجْعَلُوا۟ بِضَٰعَتَهُمْ فِى رِحَالِهِمْ لَعَلَّهُمْ يَعْرِفُونَهَآ إِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمْ لَعَلَّهُمْ يَرْجِعُونَ",
+          "ttsCharCount": 178,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-062-p-001.json",
           "response": "responses/sec-062-p-001.json",
           "wav": "originals/wav/sec-062-p-001.wav",
           "mp3": "originals/mp3/sec-062-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 17.68,
+          "generatedAt": "2026-08-01T16:20:40Z",
+          "audioSha256": "7bcf21ff8425c9aab8c4e8df24c2f1b5e7d78236812a5812c7ed8e7428732f21",
+          "mp3Sha256": "2facbaf38a31b32d7f29e53799cf77f0feef7ee0b018ea5f7fc2fb5c27922825"
         }
-      ]
+      ],
+      "wavSha256": "7bcf21ff8425c9aab8c4e8df24c2f1b5e7d78236812a5812c7ed8e7428732f21",
+      "mp3Sha256": "2facbaf38a31b32d7f29e53799cf77f0feef7ee0b018ea5f7fc2fb5c27922825"
     },
     {
       "sectionIndex": 63,
@@ -1457,7 +1961,7 @@
       "grades": [],
       "wav": "sections/wav/sec-063.wav",
       "mp3": "sections/mp3/sec-063.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 18.64,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1465,13 +1969,21 @@
           "chunkId": "sec-063-p-001",
           "text": "فَلَمَّا رَجَعُوٓا۟ إِلَىٰٓ أَبِيهِمْ قَالُوا۟ يَٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
           "ttsText": "Yûsuf altmış üçüncü ayet. فَلَمَّا رَجَعُوٓا۟ إِلَىٰٓ أَبِيهِمْ قَالُوا۟ يَٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+          "ttsCharCount": 175,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-063-p-001.json",
           "response": "responses/sec-063-p-001.json",
           "wav": "originals/wav/sec-063-p-001.wav",
           "mp3": "originals/mp3/sec-063-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 18.64,
+          "generatedAt": "2026-08-01T16:20:50Z",
+          "audioSha256": "a27d2918588fc6f8f8f8357e28dd03faecf58742b19b430b82e3b54ba52a1d27",
+          "mp3Sha256": "2ba0b2f741e7b8d92f640f550c079fc784ae2fe6729afc36a5b2c235a459578a"
         }
-      ]
+      ],
+      "wavSha256": "a27d2918588fc6f8f8f8357e28dd03faecf58742b19b430b82e3b54ba52a1d27",
+      "mp3Sha256": "2ba0b2f741e7b8d92f640f550c079fc784ae2fe6729afc36a5b2c235a459578a"
     },
     {
       "sectionIndex": 64,
@@ -1480,7 +1992,7 @@
       "grades": [],
       "wav": "sections/wav/sec-064.wav",
       "mp3": "sections/mp3/sec-064.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 16.88,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1488,13 +2000,21 @@
           "chunkId": "sec-064-p-001",
           "text": "قَالَ هَلْ ءَامَنُكُمْ عَلَيْهِ إِلَّا كَمَآ أَمِنتُكُمْ عَلَىٰٓ أَخِيهِ مِن قَبْلُ ۖ فَٱللَّهُ خَيْرٌ حَٰفِظًۭا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
           "ttsText": "Yûsuf altmış dördüncü ayet. قَالَ هَلْ ءَامَنُكُمْ عَلَيْهِ إِلَّا كَمَآ أَمِنتُكُمْ عَلَىٰٓ أَخِيهِ مِن قَبْلُ ۖ فَٱللَّهُ خَيْرٌ حَٰفِظًۭا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+          "ttsCharCount": 173,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-064-p-001.json",
           "response": "responses/sec-064-p-001.json",
           "wav": "originals/wav/sec-064-p-001.wav",
           "mp3": "originals/mp3/sec-064-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 16.88,
+          "generatedAt": "2026-08-01T16:20:59Z",
+          "audioSha256": "661dc49dcaa79bfdaca8295e1813cc68c4ab79887edd44d47a13c33a8c89262e",
+          "mp3Sha256": "2f6dbb1249ed3cfe213f2d949c34df2ec838e1c5fc43d2a5409cd0e7cd869067"
         }
-      ]
+      ],
+      "wavSha256": "661dc49dcaa79bfdaca8295e1813cc68c4ab79887edd44d47a13c33a8c89262e",
+      "mp3Sha256": "2f6dbb1249ed3cfe213f2d949c34df2ec838e1c5fc43d2a5409cd0e7cd869067"
     },
     {
       "sectionIndex": 65,
@@ -1503,7 +2023,7 @@
       "grades": [],
       "wav": "sections/wav/sec-065.wav",
       "mp3": "sections/mp3/sec-065.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 30.96,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1511,13 +2031,21 @@
           "chunkId": "sec-065-p-001",
           "text": "وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍۢ ۖ ذَٰلِكَ كَيْلٌۭ يَسِيرٌۭ",
           "ttsText": "Yûsuf altmış beşinci ayet. وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍۢ ۖ ذَٰلِكَ كَيْلٌۭ يَسِيرٌۭ",
+          "ttsCharCount": 275,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-065-p-001.json",
           "response": "responses/sec-065-p-001.json",
           "wav": "originals/wav/sec-065-p-001.wav",
           "mp3": "originals/mp3/sec-065-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 30.96,
+          "generatedAt": "2026-08-01T16:21:07Z",
+          "audioSha256": "f71637eb61c79fd769b0e9cd74a46a83a97f8bf18657d9599702bef01f5e6e66",
+          "mp3Sha256": "8144b64ac0d045eb006c06867cdc733de17701d6721df7a383af60ae437f3e3d"
         }
-      ]
+      ],
+      "wavSha256": "f71637eb61c79fd769b0e9cd74a46a83a97f8bf18657d9599702bef01f5e6e66",
+      "mp3Sha256": "8144b64ac0d045eb006c06867cdc733de17701d6721df7a383af60ae437f3e3d"
     },
     {
       "sectionIndex": 66,
@@ -1526,7 +2054,7 @@
       "grades": [],
       "wav": "sections/wav/sec-066.wav",
       "mp3": "sections/mp3/sec-066.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 19.56,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1534,13 +2062,21 @@
           "chunkId": "sec-066-p-001",
           "text": "قَالَ لَنْ أُرْسِلَهُۥ مَعَكُمْ حَتَّىٰ تُؤْتُونِ مَوْثِقًۭا مِّنَ ٱللَّهِ لَتَأْتُنَّنِى بِهِۦٓ إِلَّآ أَن يُحَاطَ بِكُمْ ۖ فَلَمَّآ ءَاتَوْهُ مَوْثِقَهُمْ قَالَ ٱللَّهُ عَلَىٰ مَا نَقُولُ وَكِيلٌۭ",
           "ttsText": "Yûsuf altmış altıncı ayet. قَالَ لَنْ أُرْسِلَهُۥ مَعَكُمْ حَتَّىٰ تُؤْتُونِ مَوْثِقًۭا مِّنَ ٱللَّهِ لَتَأْتُنَّنِى بِهِۦٓ إِلَّآ أَن يُحَاطَ بِكُمْ ۖ فَلَمَّآ ءَاتَوْهُ مَوْثِقَهُمْ قَالَ ٱللَّهُ عَلَىٰ مَا نَقُولُ وَكِيلٌۭ",
+          "ttsCharCount": 227,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-066-p-001.json",
           "response": "responses/sec-066-p-001.json",
           "wav": "originals/wav/sec-066-p-001.wav",
           "mp3": "originals/mp3/sec-066-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 19.56,
+          "generatedAt": "2026-08-01T16:21:43Z",
+          "audioSha256": "329428ca4cde5aeb3c8e61adf3ad4aa43bb816a95e9cfa5790f2db75574600f2",
+          "mp3Sha256": "402617d2d92122310963af83f1ccb2884ede20ba695d8dae91e284337a842dd6"
         }
-      ]
+      ],
+      "wavSha256": "329428ca4cde5aeb3c8e61adf3ad4aa43bb816a95e9cfa5790f2db75574600f2",
+      "mp3Sha256": "402617d2d92122310963af83f1ccb2884ede20ba695d8dae91e284337a842dd6"
     },
     {
       "sectionIndex": 67,
@@ -1549,7 +2085,7 @@
       "grades": [],
       "wav": "sections/wav/sec-067.wav",
       "mp3": "sections/mp3/sec-067.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 24.16,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1557,13 +2093,21 @@
           "chunkId": "sec-067-p-001",
           "text": "وَقَالَ يَٰبَنِىَّ لَا تَدْخُلُوا۟ مِنۢ بَابٍۢ وَٰحِدٍۢ وَٱدْخُلُوا۟ مِنْ أَبْوَٰبٍۢ مُّتَفَرِّقَةٍۢ ۖ وَمَآ أُغْنِى عَنكُم مِّنَ ٱللَّهِ مِن شَىْءٍ ۖ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَعَلَيْهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ",
           "ttsText": "Yûsuf altmış yedinci ayet. وَقَالَ يَٰبَنِىَّ لَا تَدْخُلُوا۟ مِنۢ بَابٍۢ وَٰحِدٍۢ وَٱدْخُلُوا۟ مِنْ أَبْوَٰبٍۢ مُّتَفَرِّقَةٍۢ ۖ وَمَآ أُغْنِى عَنكُم مِّنَ ٱللَّهِ مِن شَىْءٍ ۖ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَعَلَيْهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ",
+          "ttsCharCount": 278,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-067-p-001.json",
           "response": "responses/sec-067-p-001.json",
           "wav": "originals/wav/sec-067-p-001.wav",
           "mp3": "originals/mp3/sec-067-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 24.16,
+          "generatedAt": "2026-08-01T16:22:41Z",
+          "audioSha256": "e85576a020a67da0b4327017df86e1d834d1a299b44f2a7befbb6abf7ae0f905",
+          "mp3Sha256": "c66bc542126e3f7ee58531571adbf2276ba6108ef2da1160e6fb4ef46dd42cb5"
         }
-      ]
+      ],
+      "wavSha256": "e85576a020a67da0b4327017df86e1d834d1a299b44f2a7befbb6abf7ae0f905",
+      "mp3Sha256": "c66bc542126e3f7ee58531571adbf2276ba6108ef2da1160e6fb4ef46dd42cb5"
     },
     {
       "sectionIndex": 68,
@@ -1572,7 +2116,7 @@
       "grades": [],
       "wav": "sections/wav/sec-068.wav",
       "mp3": "sections/mp3/sec-068.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 24.0,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1580,13 +2124,21 @@
           "chunkId": "sec-068-p-001",
           "text": "وَلَمَّا دَخَلُوا۟ مِنْ حَيْثُ أَمَرَهُمْ أَبُوهُم مَّا كَانَ يُغْنِى عَنْهُم مِّنَ ٱللَّهِ مِن شَىْءٍ إِلَّا حَاجَةًۭ فِى نَفْسِ يَعْقُوبَ قَضَىٰهَا ۚ وَإِنَّهُۥ لَذُو عِلْمٍۢ لِّمَا عَلَّمْنَٰهُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
           "ttsText": "Yûsuf altmış sekizinci ayet. وَلَمَّا دَخَلُوا۟ مِنْ حَيْثُ أَمَرَهُمْ أَبُوهُم مَّا كَانَ يُغْنِى عَنْهُم مِّنَ ٱللَّهِ مِن شَىْءٍ إِلَّا حَاجَةًۭ فِى نَفْسِ يَعْقُوبَ قَضَىٰهَا ۚ وَإِنَّهُۥ لَذُو عِلْمٍۢ لِّمَا عَلَّمْنَٰهُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+          "ttsCharCount": 270,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-068-p-001.json",
           "response": "responses/sec-068-p-001.json",
           "wav": "originals/wav/sec-068-p-001.wav",
           "mp3": "originals/mp3/sec-068-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 24.0,
+          "generatedAt": "2026-08-01T16:23:15Z",
+          "audioSha256": "94232ccc6c2408a5f72992e5328ad2cb14e61f6f8e27301f056c3d3f08ceb778",
+          "mp3Sha256": "ae87e82ec70b71adc50ed85e4b6f943d54d635b45889e0c963fa90855ef090ba"
         }
-      ]
+      ],
+      "wavSha256": "94232ccc6c2408a5f72992e5328ad2cb14e61f6f8e27301f056c3d3f08ceb778",
+      "mp3Sha256": "ae87e82ec70b71adc50ed85e4b6f943d54d635b45889e0c963fa90855ef090ba"
     },
     {
       "sectionIndex": 69,
@@ -1595,7 +2147,7 @@
       "grades": [],
       "wav": "sections/wav/sec-069.wav",
       "mp3": "sections/mp3/sec-069.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 15.44,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1603,13 +2155,21 @@
           "chunkId": "sec-069-p-001",
           "text": "وَلَمَّا دَخَلُوا۟ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيْهِ أَخَاهُ ۖ قَالَ إِنِّىٓ أَنَا۠ أَخُوكَ فَلَا تَبْتَئِسْ بِمَا كَانُوا۟ يَعْمَلُونَ",
           "ttsText": "Yûsuf altmış dokuzuncu ayet. وَلَمَّا دَخَلُوا۟ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيْهِ أَخَاهُ ۖ قَالَ إِنِّىٓ أَنَا۠ أَخُوكَ فَلَا تَبْتَئِسْ بِمَا كَانُوا۟ يَعْمَلُونَ",
+          "ttsCharCount": 163,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-069-p-001.json",
           "response": "responses/sec-069-p-001.json",
           "wav": "originals/wav/sec-069-p-001.wav",
           "mp3": "originals/mp3/sec-069-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 15.44,
+          "generatedAt": "2026-08-01T16:23:37Z",
+          "audioSha256": "e32190490062d4cd4a1bf4cab50426c68e795a9f45527291ddb9d68ecd2800ae",
+          "mp3Sha256": "74dc13279e3e462187d867cb4adf605a7317af96c21de57ec2c4e7e4d5cc430e"
         }
-      ]
+      ],
+      "wavSha256": "e32190490062d4cd4a1bf4cab50426c68e795a9f45527291ddb9d68ecd2800ae",
+      "mp3Sha256": "74dc13279e3e462187d867cb4adf605a7317af96c21de57ec2c4e7e4d5cc430e"
     },
     {
       "sectionIndex": 70,
@@ -1618,7 +2178,7 @@
       "grades": [],
       "wav": "sections/wav/sec-070.wav",
       "mp3": "sections/mp3/sec-070.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 16.16,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1626,13 +2186,21 @@
           "chunkId": "sec-070-p-001",
           "text": "فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَٰرِقُونَ",
           "ttsText": "Yûsuf yetmişinci ayet. فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَٰرِقُونَ",
+          "ttsCharCount": 162,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-070-p-001.json",
           "response": "responses/sec-070-p-001.json",
           "wav": "originals/wav/sec-070-p-001.wav",
           "mp3": "originals/mp3/sec-070-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 16.16,
+          "generatedAt": "2026-08-01T16:23:49Z",
+          "audioSha256": "dbcc3c38f09d8ea2537011e5305e4b509a2e2c5b42fde75d3e1924d04fe5f2e0",
+          "mp3Sha256": "d32a1d03d267e0d2946df61ab425fd20c231382daf9a32e43fecf0baaff41a20"
         }
-      ]
+      ],
+      "wavSha256": "dbcc3c38f09d8ea2537011e5305e4b509a2e2c5b42fde75d3e1924d04fe5f2e0",
+      "mp3Sha256": "d32a1d03d267e0d2946df61ab425fd20c231382daf9a32e43fecf0baaff41a20"
     },
     {
       "sectionIndex": 71,
@@ -1641,7 +2209,7 @@
       "grades": [],
       "wav": "sections/wav/sec-071.wav",
       "mp3": "sections/mp3/sec-071.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 9.72,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1649,13 +2217,21 @@
           "chunkId": "sec-071-p-001",
           "text": "قَالُوا۟ وَأَقْبَلُوا۟ عَلَيْهِم مَّاذَا تَفْقِدُونَ",
           "ttsText": "Yûsuf yetmiş birinci ayet. قَالُوا۟ وَأَقْبَلُوا۟ عَلَيْهِم مَّاذَا تَفْقِدُونَ",
+          "ttsCharCount": 79,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-071-p-001.json",
           "response": "responses/sec-071-p-001.json",
           "wav": "originals/wav/sec-071-p-001.wav",
           "mp3": "originals/mp3/sec-071-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 9.72,
+          "generatedAt": "2026-08-01T16:23:57Z",
+          "audioSha256": "63a4c06b013b5bda17d074b4be114b15f74bf787052d936dc574d8d7457fa651",
+          "mp3Sha256": "7bffa033f2381fc694eb872c9c74191e039dea72d34216ef7547bb43147b6776"
         }
-      ]
+      ],
+      "wavSha256": "63a4c06b013b5bda17d074b4be114b15f74bf787052d936dc574d8d7457fa651",
+      "mp3Sha256": "7bffa033f2381fc694eb872c9c74191e039dea72d34216ef7547bb43147b6776"
     },
     {
       "sectionIndex": 72,
@@ -1664,7 +2240,7 @@
       "grades": [],
       "wav": "sections/wav/sec-072.wav",
       "mp3": "sections/mp3/sec-072.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 14.2,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1672,13 +2248,21 @@
           "chunkId": "sec-072-p-001",
           "text": "قَالُوا۟ نَفْقِدُ صُوَاعَ ٱلْمَلِكِ وَلِمَن جَآءَ بِهِۦ حِمْلُ بَعِيرٍۢ وَأَنَا۠ بِهِۦ زَعِيمٌۭ",
           "ttsText": "Yûsuf yetmiş ikinci ayet. قَالُوا۟ نَفْقِدُ صُوَاعَ ٱلْمَلِكِ وَلِمَن جَآءَ بِهِۦ حِمْلُ بَعِيرٍۢ وَأَنَا۠ بِهِۦ زَعِيمٌۭ",
+          "ttsCharCount": 122,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-072-p-001.json",
           "response": "responses/sec-072-p-001.json",
           "wav": "originals/wav/sec-072-p-001.wav",
           "mp3": "originals/mp3/sec-072-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 14.2,
+          "generatedAt": "2026-08-01T16:24:02Z",
+          "audioSha256": "fb57547c7f68bafe48b6c8fb2d33923e7a17c845cbd81f1ea56f40083605def3",
+          "mp3Sha256": "84adb4c90b0da67912f98acac5f84ae89ffcee33370191f203eccb5c091f2d81"
         }
-      ]
+      ],
+      "wavSha256": "fb57547c7f68bafe48b6c8fb2d33923e7a17c845cbd81f1ea56f40083605def3",
+      "mp3Sha256": "84adb4c90b0da67912f98acac5f84ae89ffcee33370191f203eccb5c091f2d81"
     },
     {
       "sectionIndex": 73,
@@ -1687,7 +2271,7 @@
       "grades": [],
       "wav": "sections/wav/sec-073.wav",
       "mp3": "sections/mp3/sec-073.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 13.12,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1695,13 +2279,21 @@
           "chunkId": "sec-073-p-001",
           "text": "قَالُوا۟ تَٱللَّهِ لَقَدْ عَلِمْتُم مَّا جِئْنَا لِنُفْسِدَ فِى ٱلْأَرْضِ وَمَا كُنَّا سَٰرِقِينَ",
           "ttsText": "Yûsuf yetmiş üçüncü ayet. قَالُوا۟ تَٱللَّهِ لَقَدْ عَلِمْتُم مَّا جِئْنَا لِنُفْسِدَ فِى ٱلْأَرْضِ وَمَا كُنَّا سَٰرِقِينَ",
+          "ttsCharCount": 123,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-073-p-001.json",
           "response": "responses/sec-073-p-001.json",
           "wav": "originals/wav/sec-073-p-001.wav",
           "mp3": "originals/mp3/sec-073-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 13.12,
+          "generatedAt": "2026-08-01T16:24:12Z",
+          "audioSha256": "a1f6dc396c18fc40ace7818df322f54fca8811dcc20fae2baccca6ebf0867916",
+          "mp3Sha256": "9f9fef72cf77bac61c0fd2fbeca456f916e8535d95eaeea655ddb83872eef0ca"
         }
-      ]
+      ],
+      "wavSha256": "a1f6dc396c18fc40ace7818df322f54fca8811dcc20fae2baccca6ebf0867916",
+      "mp3Sha256": "9f9fef72cf77bac61c0fd2fbeca456f916e8535d95eaeea655ddb83872eef0ca"
     },
     {
       "sectionIndex": 74,
@@ -1710,7 +2302,7 @@
       "grades": [],
       "wav": "sections/wav/sec-074.wav",
       "mp3": "sections/mp3/sec-074.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.08,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1718,13 +2310,21 @@
           "chunkId": "sec-074-p-001",
           "text": "قَالُوا۟ فَمَا جَزَٰٓؤُهُۥٓ إِن كُنتُمْ كَٰذِبِينَ",
           "ttsText": "Yûsuf yetmiş dördüncü ayet. قَالُوا۟ فَمَا جَزَٰٓؤُهُۥٓ إِن كُنتُمْ كَٰذِبِينَ",
+          "ttsCharCount": 78,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-074-p-001.json",
           "response": "responses/sec-074-p-001.json",
           "wav": "originals/wav/sec-074-p-001.wav",
           "mp3": "originals/mp3/sec-074-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.08,
+          "generatedAt": "2026-08-01T16:24:22Z",
+          "audioSha256": "20ab718ef9553d7713b9b7d5fe4717299ebd921715589e8de75275835e4224e4",
+          "mp3Sha256": "78eb1f1dc85ec08774f297f05519e9daab3c2ba9a42e5cb9891cd07747aa8818"
         }
-      ]
+      ],
+      "wavSha256": "20ab718ef9553d7713b9b7d5fe4717299ebd921715589e8de75275835e4224e4",
+      "mp3Sha256": "78eb1f1dc85ec08774f297f05519e9daab3c2ba9a42e5cb9891cd07747aa8818"
     },
     {
       "sectionIndex": 75,
@@ -1733,7 +2333,7 @@
       "grades": [],
       "wav": "sections/wav/sec-075.wav",
       "mp3": "sections/mp3/sec-075.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 18.8,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1741,13 +2341,21 @@
           "chunkId": "sec-075-p-001",
           "text": "قَالُوا۟ جَزَٰٓؤُهُۥ مَن وُجِدَ فِى رَحْلِهِۦ فَهُوَ جَزَٰٓؤُهُۥ ۚ كَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ",
           "ttsText": "Yûsuf yetmiş beşinci ayet. قَالُوا۟ جَزَٰٓؤُهُۥ مَن وُجِدَ فِى رَحْلِهِۦ فَهُوَ جَزَٰٓؤُهُۥ ۚ كَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ",
+          "ttsCharCount": 125,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-075-p-001.json",
           "response": "responses/sec-075-p-001.json",
           "wav": "originals/wav/sec-075-p-001.wav",
           "mp3": "originals/mp3/sec-075-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 18.8,
+          "generatedAt": "2026-08-01T16:24:33Z",
+          "audioSha256": "79a3fec0e38b4690c21642b9baf4b4ba33a9c5b08a0ebc5dce787f5f5f10a818",
+          "mp3Sha256": "810e5349b63740159c9c298e2f2e5b9fc805892f8501dab0a0bbe3809e65fe08"
         }
-      ]
+      ],
+      "wavSha256": "79a3fec0e38b4690c21642b9baf4b4ba33a9c5b08a0ebc5dce787f5f5f10a818",
+      "mp3Sha256": "810e5349b63740159c9c298e2f2e5b9fc805892f8501dab0a0bbe3809e65fe08"
     },
     {
       "sectionIndex": 76,
@@ -1756,7 +2364,7 @@
       "grades": [],
       "wav": "sections/wav/sec-076.wav",
       "mp3": "sections/mp3/sec-076.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 24.6,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1764,13 +2372,21 @@
           "chunkId": "sec-076-p-001",
           "text": "فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍۢ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌۭ",
           "ttsText": "Yûsuf yetmiş altıncı ayet. فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍۢ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌۭ",
+          "ttsCharCount": 302,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-076-p-001.json",
           "response": "responses/sec-076-p-001.json",
           "wav": "originals/wav/sec-076-p-001.wav",
           "mp3": "originals/mp3/sec-076-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 24.6,
+          "generatedAt": "2026-08-01T16:24:48Z",
+          "audioSha256": "3ba6c177ad614d9e0dbac9e5ea0c5128f56a309e40f4ed26d5f8c2b025974ca5",
+          "mp3Sha256": "ab84ffc3bae39b995122dc6cd2d817b70dd4226520173cd4b123ee0e3abe0e3f"
         }
-      ]
+      ],
+      "wavSha256": "3ba6c177ad614d9e0dbac9e5ea0c5128f56a309e40f4ed26d5f8c2b025974ca5",
+      "mp3Sha256": "ab84ffc3bae39b995122dc6cd2d817b70dd4226520173cd4b123ee0e3abe0e3f"
     },
     {
       "sectionIndex": 77,
@@ -1779,7 +2395,7 @@
       "grades": [],
       "wav": "sections/wav/sec-077.wav",
       "mp3": "sections/mp3/sec-077.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 29.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1787,13 +2403,21 @@
           "chunkId": "sec-077-p-001",
           "text": "۞ قَالُوٓا۟ إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌۭ لَّهُۥ مِن قَبْلُ ۚ فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّۭ مَّكَانًۭا ۖ وَٱللَّهُ أَعْلَمُ بِمَا تَصِفُونَ",
           "ttsText": "Yûsuf yetmiş yedinci ayet. ۞ قَالُوٓا۟ إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌۭ لَّهُۥ مِن قَبْلُ ۚ فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّۭ مَّكَانًۭا ۖ وَٱللَّهُ أَعْلَمُ بِمَا تَصِفُونَ",
+          "ttsCharCount": 221,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-077-p-001.json",
           "response": "responses/sec-077-p-001.json",
           "wav": "originals/wav/sec-077-p-001.wav",
           "mp3": "originals/mp3/sec-077-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 29.68,
+          "generatedAt": "2026-08-01T16:25:23Z",
+          "audioSha256": "823719b7450a699f892643ecb6deb1ed9d93ef614e07e7b4eb46cf69335355b1",
+          "mp3Sha256": "fe9e110636c010ef929ec7852649d01abfa3b9c347917c1a6c48fbaa277787a3"
         }
-      ]
+      ],
+      "wavSha256": "823719b7450a699f892643ecb6deb1ed9d93ef614e07e7b4eb46cf69335355b1",
+      "mp3Sha256": "fe9e110636c010ef929ec7852649d01abfa3b9c347917c1a6c48fbaa277787a3"
     },
     {
       "sectionIndex": 78,
@@ -1802,7 +2426,7 @@
       "grades": [],
       "wav": "sections/wav/sec-078.wav",
       "mp3": "sections/mp3/sec-078.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 17.24,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1810,13 +2434,21 @@
           "chunkId": "sec-078-p-001",
           "text": "قَالُوا۟ يَٰٓأَيُّهَا ٱلْعَزِيزُ إِنَّ لَهُۥٓ أَبًۭا شَيْخًۭا كَبِيرًۭا فَخُذْ أَحَدَنَا مَكَانَهُۥٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
           "ttsText": "Yûsuf yetmiş sekizinci ayet. قَالُوا۟ يَٰٓأَيُّهَا ٱلْعَزِيزُ إِنَّ لَهُۥٓ أَبًۭا شَيْخًۭا كَبِيرًۭا فَخُذْ أَحَدَنَا مَكَانَهُۥٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
+          "ttsCharCount": 167,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-078-p-001.json",
           "response": "responses/sec-078-p-001.json",
           "wav": "originals/wav/sec-078-p-001.wav",
           "mp3": "originals/mp3/sec-078-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 17.24,
+          "generatedAt": "2026-08-01T16:25:38Z",
+          "audioSha256": "e80004949019f42f728b38487dc2202e4bc8b9bca40a06d4f45fb59061802479",
+          "mp3Sha256": "78745a863788f74b1b766511ffa2b0914e2b1130f240d7e49862c9cea59c23b5"
         }
-      ]
+      ],
+      "wavSha256": "e80004949019f42f728b38487dc2202e4bc8b9bca40a06d4f45fb59061802479",
+      "mp3Sha256": "78745a863788f74b1b766511ffa2b0914e2b1130f240d7e49862c9cea59c23b5"
     },
     {
       "sectionIndex": 79,
@@ -1825,7 +2457,7 @@
       "grades": [],
       "wav": "sections/wav/sec-079.wav",
       "mp3": "sections/mp3/sec-079.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 15.04,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1833,13 +2465,21 @@
           "chunkId": "sec-079-p-001",
           "text": "قَالَ مَعَاذَ ٱللَّهِ أَن نَّأْخُذَ إِلَّا مَن وَجَدْنَا مَتَٰعَنَا عِندَهُۥٓ إِنَّآ إِذًۭا لَّظَٰلِمُونَ",
           "ttsText": "Yûsuf yetmiş dokuzuncu ayet. قَالَ مَعَاذَ ٱللَّهِ أَن نَّأْخُذَ إِلَّا مَن وَجَدْنَا مَتَٰعَنَا عِندَهُۥٓ إِنَّآ إِذًۭا لَّظَٰلِمُونَ",
+          "ttsCharCount": 135,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-079-p-001.json",
           "response": "responses/sec-079-p-001.json",
           "wav": "originals/wav/sec-079-p-001.wav",
           "mp3": "originals/mp3/sec-079-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 15.04,
+          "generatedAt": "2026-08-01T16:25:51Z",
+          "audioSha256": "3ee4191c258c41b16d7d414935fca4ddc997cfb59312e545a4ef2b5839ca43a7",
+          "mp3Sha256": "ade6abfb871d2df4449e3151ca16f1f193625292c98f7bf51a3f3d13e9401cd2"
         }
-      ]
+      ],
+      "wavSha256": "3ee4191c258c41b16d7d414935fca4ddc997cfb59312e545a4ef2b5839ca43a7",
+      "mp3Sha256": "ade6abfb871d2df4449e3151ca16f1f193625292c98f7bf51a3f3d13e9401cd2"
     },
     {
       "sectionIndex": 80,
@@ -1848,7 +2488,7 @@
       "grades": [],
       "wav": "sections/wav/sec-080.wav",
       "mp3": "sections/mp3/sec-080.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 27.32,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1856,13 +2496,21 @@
           "chunkId": "sec-080-p-001",
           "text": "فَلَمَّا ٱسْتَيْـَٔسُوا۟ مِنْهُ خَلَصُوا۟ نَجِيًّۭا ۖ قَالَ كَبِيرُهُمْ أَلَمْ تَعْلَمُوٓا۟ أَنَّ أَبَاكُمْ قَدْ أَخَذَ عَلَيْكُم مَّوْثِقًۭا مِّنَ ٱللَّهِ وَمِن قَبْلُ مَا فَرَّطتُمْ فِى يُوسُفَ ۖ فَلَنْ أَبْرَحَ ٱلْأَرْضَ حَتَّىٰ يَأْذَنَ لِىٓ أَبِىٓ أَوْ يَحْكُمَ ٱللَّهُ لِى ۖ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ",
           "ttsText": "Yûsuf sekseninci ayet. فَلَمَّا ٱسْتَيْـَٔسُوا۟ مِنْهُ خَلَصُوا۟ نَجِيًّۭا ۖ قَالَ كَبِيرُهُمْ أَلَمْ تَعْلَمُوٓا۟ أَنَّ أَبَاكُمْ قَدْ أَخَذَ عَلَيْكُم مَّوْثِقًۭا مِّنَ ٱللَّهِ وَمِن قَبْلُ مَا فَرَّطتُمْ فِى يُوسُفَ ۖ فَلَنْ أَبْرَحَ ٱلْأَرْضَ حَتَّىٰ يَأْذَنَ لِىٓ أَبِىٓ أَوْ يَحْكُمَ ٱللَّهُ لِى ۖ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ",
+          "ttsCharCount": 331,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-080-p-001.json",
           "response": "responses/sec-080-p-001.json",
           "wav": "originals/wav/sec-080-p-001.wav",
           "mp3": "originals/mp3/sec-080-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 27.32,
+          "generatedAt": "2026-08-01T16:25:59Z",
+          "audioSha256": "5b85f674d6d831f09f32a5d9b06d53c806b9644fdd8de133b9d1d11af32570c2",
+          "mp3Sha256": "bebe7e5e96b8427a26d8b5540be28876dfa44626139143bce6af36c0d9c6b14f"
         }
-      ]
+      ],
+      "wavSha256": "5b85f674d6d831f09f32a5d9b06d53c806b9644fdd8de133b9d1d11af32570c2",
+      "mp3Sha256": "bebe7e5e96b8427a26d8b5540be28876dfa44626139143bce6af36c0d9c6b14f"
     },
     {
       "sectionIndex": 81,
@@ -1871,7 +2519,7 @@
       "grades": [],
       "wav": "sections/wav/sec-081.wav",
       "mp3": "sections/mp3/sec-081.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 15.72,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1879,13 +2527,21 @@
           "chunkId": "sec-081-p-001",
           "text": "ٱرْجِعُوٓا۟ إِلَىٰٓ أَبِيكُمْ فَقُولُوا۟ يَٰٓأَبَانَآ إِنَّ ٱبْنَكَ سَرَقَ وَمَا شَهِدْنَآ إِلَّا بِمَا عَلِمْنَا وَمَا كُنَّا لِلْغَيْبِ حَٰفِظِينَ",
           "ttsText": "Yûsuf seksen birinci ayet. ٱرْجِعُوٓا۟ إِلَىٰٓ أَبِيكُمْ فَقُولُوا۟ يَٰٓأَبَانَآ إِنَّ ٱبْنَكَ سَرَقَ وَمَا شَهِدْنَآ إِلَّا بِمَا عَلِمْنَا وَمَا كُنَّا لِلْغَيْبِ حَٰفِظِينَ",
+          "ttsCharCount": 177,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-081-p-001.json",
           "response": "responses/sec-081-p-001.json",
           "wav": "originals/wav/sec-081-p-001.wav",
           "mp3": "originals/mp3/sec-081-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 15.72,
+          "generatedAt": "2026-08-01T16:26:11Z",
+          "audioSha256": "88d1aed0e36fe5ddc6585c62d01083446cd7da325be03db64a5154a50393cb7f",
+          "mp3Sha256": "6c642ff3b8df15935fb2fe450a6a3da5f88a8cc35246a15e33a24b018038aa6d"
         }
-      ]
+      ],
+      "wavSha256": "88d1aed0e36fe5ddc6585c62d01083446cd7da325be03db64a5154a50393cb7f",
+      "mp3Sha256": "6c642ff3b8df15935fb2fe450a6a3da5f88a8cc35246a15e33a24b018038aa6d"
     },
     {
       "sectionIndex": 82,
@@ -1894,7 +2550,7 @@
       "grades": [],
       "wav": "sections/wav/sec-082.wav",
       "mp3": "sections/mp3/sec-082.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 15.56,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1902,13 +2558,21 @@
           "chunkId": "sec-082-p-001",
           "text": "وَسْـَٔلِ ٱلْقَرْيَةَ ٱلَّتِى كُنَّا فِيهَا وَٱلْعِيرَ ٱلَّتِىٓ أَقْبَلْنَا فِيهَا ۖ وَإِنَّا لَصَٰدِقُونَ",
           "ttsText": "Yûsuf seksen ikinci ayet. وَسْـَٔلِ ٱلْقَرْيَةَ ٱلَّتِى كُنَّا فِيهَا وَٱلْعِيرَ ٱلَّتِىٓ أَقْبَلْنَا فِيهَا ۖ وَإِنَّا لَصَٰدِقُونَ",
+          "ttsCharCount": 132,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-082-p-001.json",
           "response": "responses/sec-082-p-001.json",
           "wav": "originals/wav/sec-082-p-001.wav",
           "mp3": "originals/mp3/sec-082-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 15.56,
+          "generatedAt": "2026-08-01T16:26:19Z",
+          "audioSha256": "3b6cdee8d0cacae8f9d4506fb2a7fd85d2a9028be86dac63956f68ae4c50cbb2",
+          "mp3Sha256": "a0914ae29d980d7595a113543448da8213bb63185159f5eaeb8dce9ca4f387b3"
         }
-      ]
+      ],
+      "wavSha256": "3b6cdee8d0cacae8f9d4506fb2a7fd85d2a9028be86dac63956f68ae4c50cbb2",
+      "mp3Sha256": "a0914ae29d980d7595a113543448da8213bb63185159f5eaeb8dce9ca4f387b3"
     },
     {
       "sectionIndex": 83,
@@ -1917,7 +2581,7 @@
       "grades": [],
       "wav": "sections/wav/sec-083.wav",
       "mp3": "sections/mp3/sec-083.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 18.76,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1925,13 +2589,21 @@
           "chunkId": "sec-083-p-001",
           "text": "قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌ ۖ عَسَى ٱللَّهُ أَن يَأْتِيَنِى بِهِمْ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
           "ttsText": "Yûsuf seksen üçüncü ayet. قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌ ۖ عَسَى ٱللَّهُ أَن يَأْتِيَنِى بِهِمْ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+          "ttsCharCount": 180,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-083-p-001.json",
           "response": "responses/sec-083-p-001.json",
           "wav": "originals/wav/sec-083-p-001.wav",
           "mp3": "originals/mp3/sec-083-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 18.76,
+          "generatedAt": "2026-08-01T16:26:28Z",
+          "audioSha256": "91f60a106419739b3d45d6ade3093e465fedbf12f24e6aa1119e77708a05d855",
+          "mp3Sha256": "572b21ebfc14572f1018859b1ef4d29da9e120b202bec2328c4076a6111bd727"
         }
-      ]
+      ],
+      "wavSha256": "91f60a106419739b3d45d6ade3093e465fedbf12f24e6aa1119e77708a05d855",
+      "mp3Sha256": "572b21ebfc14572f1018859b1ef4d29da9e120b202bec2328c4076a6111bd727"
     },
     {
       "sectionIndex": 84,
@@ -1940,7 +2612,7 @@
       "grades": [],
       "wav": "sections/wav/sec-084.wav",
       "mp3": "sections/mp3/sec-084.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 14.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1948,13 +2620,21 @@
           "chunkId": "sec-084-p-001",
           "text": "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌۭ",
           "ttsText": "Yûsuf seksen dördüncü ayet. وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌۭ",
+          "ttsCharCount": 138,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-084-p-001.json",
           "response": "responses/sec-084-p-001.json",
           "wav": "originals/wav/sec-084-p-001.wav",
           "mp3": "originals/mp3/sec-084-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 14.68,
+          "generatedAt": "2026-08-01T16:26:40Z",
+          "audioSha256": "29775279ff239daa1b8af6c07933caa6ed9ae429b29a335c5d750261d03a8c09",
+          "mp3Sha256": "1bdd82acd3d2050e1207e98ef4929d37308e0b58c2acd2effbe510561fa7323b"
         }
-      ]
+      ],
+      "wavSha256": "29775279ff239daa1b8af6c07933caa6ed9ae429b29a335c5d750261d03a8c09",
+      "mp3Sha256": "1bdd82acd3d2050e1207e98ef4929d37308e0b58c2acd2effbe510561fa7323b"
     },
     {
       "sectionIndex": 85,
@@ -1963,7 +2643,7 @@
       "grades": [],
       "wav": "sections/wav/sec-085.wav",
       "mp3": "sections/mp3/sec-085.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.92,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1971,13 +2651,21 @@
           "chunkId": "sec-085-p-001",
           "text": "قَالُوا۟ تَٱللَّهِ تَفْتَؤُا۟ تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ ٱلْهَٰلِكِينَ",
           "ttsText": "Yûsuf seksen beşinci ayet. قَالُوا۟ تَٱللَّهِ تَفْتَؤُا۟ تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ ٱلْهَٰلِكِينَ",
+          "ttsCharCount": 129,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-085-p-001.json",
           "response": "responses/sec-085-p-001.json",
           "wav": "originals/wav/sec-085-p-001.wav",
           "mp3": "originals/mp3/sec-085-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.92,
+          "generatedAt": "2026-08-01T16:26:47Z",
+          "audioSha256": "1420719f573e9732e399bfc019178aa4fe35e6e1f0e6a3fd42f161b76b319f17",
+          "mp3Sha256": "c5d5f26c8be93de0f86c9cf4db4267f16cb2f97a0ca92961f76eab36e693e2f2"
         }
-      ]
+      ],
+      "wavSha256": "1420719f573e9732e399bfc019178aa4fe35e6e1f0e6a3fd42f161b76b319f17",
+      "mp3Sha256": "c5d5f26c8be93de0f86c9cf4db4267f16cb2f97a0ca92961f76eab36e693e2f2"
     },
     {
       "sectionIndex": 86,
@@ -1986,7 +2674,7 @@
       "grades": [],
       "wav": "sections/wav/sec-086.wav",
       "mp3": "sections/mp3/sec-086.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 16.6,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -1994,13 +2682,21 @@
           "chunkId": "sec-086-p-001",
           "text": "قَالَ إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
           "ttsText": "Yûsuf seksen altıncı ayet. قَالَ إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
+          "ttsCharCount": 128,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-086-p-001.json",
           "response": "responses/sec-086-p-001.json",
           "wav": "originals/wav/sec-086-p-001.wav",
           "mp3": "originals/mp3/sec-086-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 16.6,
+          "generatedAt": "2026-08-01T16:26:55Z",
+          "audioSha256": "dd660fc249060c9d9b0efcbe1034df959634c527ed0b3d0f4a8bd1a1cfe840f7",
+          "mp3Sha256": "2e242516c5879b106fe04479b6b4c2ac7af697f702aeb16c32d961cfff11aadb"
         }
-      ]
+      ],
+      "wavSha256": "dd660fc249060c9d9b0efcbe1034df959634c527ed0b3d0f4a8bd1a1cfe840f7",
+      "mp3Sha256": "2e242516c5879b106fe04479b6b4c2ac7af697f702aeb16c32d961cfff11aadb"
     },
     {
       "sectionIndex": 87,
@@ -2009,7 +2705,7 @@
       "grades": [],
       "wav": "sections/wav/sec-087.wav",
       "mp3": "sections/mp3/sec-087.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 19.84,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2017,13 +2713,21 @@
           "chunkId": "sec-087-p-001",
           "text": "يَٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَٰفِرُونَ",
           "ttsText": "Yûsuf seksen yedinci ayet. يَٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَٰفِرُونَ",
+          "ttsCharCount": 204,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-087-p-001.json",
           "response": "responses/sec-087-p-001.json",
           "wav": "originals/wav/sec-087-p-001.wav",
           "mp3": "originals/mp3/sec-087-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 19.84,
+          "generatedAt": "2026-08-01T16:27:06Z",
+          "audioSha256": "41177f1d0ce13113bd15a141d8aa8b33d8ccf2b53394ff762d7b472cb80657e9",
+          "mp3Sha256": "e625122472032cbf69b5c1c46148de0eeb0340d15f531ecf113198ff1f6669f9"
         }
-      ]
+      ],
+      "wavSha256": "41177f1d0ce13113bd15a141d8aa8b33d8ccf2b53394ff762d7b472cb80657e9",
+      "mp3Sha256": "e625122472032cbf69b5c1c46148de0eeb0340d15f531ecf113198ff1f6669f9"
     },
     {
       "sectionIndex": 88,
@@ -2032,7 +2736,7 @@
       "grades": [],
       "wav": "sections/wav/sec-088.wav",
       "mp3": "sections/mp3/sec-088.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 21.12,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2040,13 +2744,21 @@
           "chunkId": "sec-088-p-001",
           "text": "فَلَمَّا دَخَلُوا۟ عَلَيْهِ قَالُوا۟ يَٰٓأَيُّهَا ٱلْعَزِيزُ مَسَّنَا وَأَهْلَنَا ٱلضُّرُّ وَجِئْنَا بِبِضَٰعَةٍۢ مُّزْجَىٰةٍۢ فَأَوْفِ لَنَا ٱلْكَيْلَ وَتَصَدَّقْ عَلَيْنَآ ۖ إِنَّ ٱللَّهَ يَجْزِى ٱلْمُتَصَدِّقِينَ",
           "ttsText": "Yûsuf seksen sekizinci ayet. فَلَمَّا دَخَلُوا۟ عَلَيْهِ قَالُوا۟ يَٰٓأَيُّهَا ٱلْعَزِيزُ مَسَّنَا وَأَهْلَنَا ٱلضُّرُّ وَجِئْنَا بِبِضَٰعَةٍۢ مُّزْجَىٰةٍۢ فَأَوْفِ لَنَا ٱلْكَيْلَ وَتَصَدَّقْ عَلَيْنَآ ۖ إِنَّ ٱللَّهَ يَجْزِى ٱلْمُتَصَدِّقِينَ",
+          "ttsCharCount": 245,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-088-p-001.json",
           "response": "responses/sec-088-p-001.json",
           "wav": "originals/wav/sec-088-p-001.wav",
           "mp3": "originals/mp3/sec-088-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 21.12,
+          "generatedAt": "2026-08-01T16:27:23Z",
+          "audioSha256": "aa366b4341318640ec186e2e548252d6274a9d636a1a1faa5e7664fe0aa5b3d8",
+          "mp3Sha256": "9f7c47cf07d160aee8a1619e6f369c89748b0b59af437471e06a793f8cb0fd77"
         }
-      ]
+      ],
+      "wavSha256": "aa366b4341318640ec186e2e548252d6274a9d636a1a1faa5e7664fe0aa5b3d8",
+      "mp3Sha256": "9f7c47cf07d160aee8a1619e6f369c89748b0b59af437471e06a793f8cb0fd77"
     },
     {
       "sectionIndex": 89,
@@ -2055,7 +2767,7 @@
       "grades": [],
       "wav": "sections/wav/sec-089.wav",
       "mp3": "sections/mp3/sec-089.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 13.2,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2063,13 +2775,21 @@
           "chunkId": "sec-089-p-001",
           "text": "قَالَ هَلْ عَلِمْتُم مَّا فَعَلْتُم بِيُوسُفَ وَأَخِيهِ إِذْ أَنتُمْ جَٰهِلُونَ",
           "ttsText": "Yûsuf seksen dokuzuncu ayet. قَالَ هَلْ عَلِمْتُم مَّا فَعَلْتُم بِيُوسُفَ وَأَخِيهِ إِذْ أَنتُمْ جَٰهِلُونَ",
+          "ttsCharCount": 108,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-089-p-001.json",
           "response": "responses/sec-089-p-001.json",
           "wav": "originals/wav/sec-089-p-001.wav",
           "mp3": "originals/mp3/sec-089-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 13.2,
+          "generatedAt": "2026-08-01T16:27:35Z",
+          "audioSha256": "2942a4eb369e581404a7f27332a864b2444fd4d36e58889ffb7e30b87fc33916",
+          "mp3Sha256": "71851262c2a6795020a64590ab13e6f19492515749607bd4a4cfa895e27cca82"
         }
-      ]
+      ],
+      "wavSha256": "2942a4eb369e581404a7f27332a864b2444fd4d36e58889ffb7e30b87fc33916",
+      "mp3Sha256": "71851262c2a6795020a64590ab13e6f19492515749607bd4a4cfa895e27cca82"
     },
     {
       "sectionIndex": 90,
@@ -2078,7 +2798,7 @@
       "grades": [],
       "wav": "sections/wav/sec-090.wav",
       "mp3": "sections/mp3/sec-090.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 19.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2086,13 +2806,21 @@
           "chunkId": "sec-090-p-001",
           "text": "قَالُوٓا۟ أَءِنَّكَ لَأَنتَ يُوسُفُ ۖ قَالَ أَنَا۠ يُوسُفُ وَهَٰذَآ أَخِى ۖ قَدْ مَنَّ ٱللَّهُ عَلَيْنَآ ۖ إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
           "ttsText": "Yûsuf doksanıncı ayet. قَالُوٓا۟ أَءِنَّكَ لَأَنتَ يُوسُفُ ۖ قَالَ أَنَا۠ يُوسُفُ وَهَٰذَآ أَخِى ۖ قَدْ مَنَّ ٱللَّهُ عَلَيْنَآ ۖ إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+          "ttsCharCount": 213,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-090-p-001.json",
           "response": "responses/sec-090-p-001.json",
           "wav": "originals/wav/sec-090-p-001.wav",
           "mp3": "originals/mp3/sec-090-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 19.68,
+          "generatedAt": "2026-08-01T16:27:44Z",
+          "audioSha256": "27ae0d8fb0c457a7b3a4502e841b65f03993d8e52d93ba89fc73a65a7749e989",
+          "mp3Sha256": "3789cf0fd61631fa9d075e4c7cade01912436556cdb60f7a35168344bfac664d"
         }
-      ]
+      ],
+      "wavSha256": "27ae0d8fb0c457a7b3a4502e841b65f03993d8e52d93ba89fc73a65a7749e989",
+      "mp3Sha256": "3789cf0fd61631fa9d075e4c7cade01912436556cdb60f7a35168344bfac664d"
     },
     {
       "sectionIndex": 91,
@@ -2101,7 +2829,7 @@
       "grades": [],
       "wav": "sections/wav/sec-091.wav",
       "mp3": "sections/mp3/sec-091.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.32,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2109,13 +2837,21 @@
           "chunkId": "sec-091-p-001",
           "text": "قَالُوا۟ تَٱللَّهِ لَقَدْ ءَاثَرَكَ ٱللَّهُ عَلَيْنَا وَإِن كُنَّا لَخَٰطِـِٔينَ",
           "ttsText": "Yûsuf doksan birinci ayet. قَالُوا۟ تَٱللَّهِ لَقَدْ ءَاثَرَكَ ٱللَّهُ عَلَيْنَا وَإِن كُنَّا لَخَٰطِـِٔينَ",
+          "ttsCharCount": 107,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-091-p-001.json",
           "response": "responses/sec-091-p-001.json",
           "wav": "originals/wav/sec-091-p-001.wav",
           "mp3": "originals/mp3/sec-091-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.32,
+          "generatedAt": "2026-08-01T16:27:55Z",
+          "audioSha256": "c9d0d1e06f9e40a832497c2f07abc6e8b1a15c1dafed86d408244e6f4275571f",
+          "mp3Sha256": "5633568af608a7b6d52fc7c2b3f4b6b1913c0f672a28e2d942a6086a7fe4f0cd"
         }
-      ]
+      ],
+      "wavSha256": "c9d0d1e06f9e40a832497c2f07abc6e8b1a15c1dafed86d408244e6f4275571f",
+      "mp3Sha256": "5633568af608a7b6d52fc7c2b3f4b6b1913c0f672a28e2d942a6086a7fe4f0cd"
     },
     {
       "sectionIndex": 92,
@@ -2124,7 +2860,7 @@
       "grades": [],
       "wav": "sections/wav/sec-092.wav",
       "mp3": "sections/mp3/sec-092.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 19.56,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2132,13 +2868,21 @@
           "chunkId": "sec-092-p-001",
           "text": "قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
           "ttsText": "Yûsuf doksan ikinci ayet. قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+          "ttsCharCount": 124,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-092-p-001.json",
           "response": "responses/sec-092-p-001.json",
           "wav": "originals/wav/sec-092-p-001.wav",
           "mp3": "originals/mp3/sec-092-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 19.56,
+          "generatedAt": "2026-08-01T16:28:02Z",
+          "audioSha256": "c57dc61d8cc89d8fa1618dfa93365dd7a94e7b4c8b7758ce2ef0bfdf76d2e26e",
+          "mp3Sha256": "b071d2b637178f569241389d7648814e910ed7ea842ba8d84e433699e11a0c82"
         }
-      ]
+      ],
+      "wavSha256": "c57dc61d8cc89d8fa1618dfa93365dd7a94e7b4c8b7758ce2ef0bfdf76d2e26e",
+      "mp3Sha256": "b071d2b637178f569241389d7648814e910ed7ea842ba8d84e433699e11a0c82"
     },
     {
       "sectionIndex": 93,
@@ -2147,7 +2891,7 @@
       "grades": [],
       "wav": "sections/wav/sec-093.wav",
       "mp3": "sections/mp3/sec-093.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 17.32,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2155,13 +2899,21 @@
           "chunkId": "sec-093-p-001",
           "text": "ٱذْهَبُوا۟ بِقَمِيصِى هَٰذَا فَأَلْقُوهُ عَلَىٰ وَجْهِ أَبِى يَأْتِ بَصِيرًۭا وَأْتُونِى بِأَهْلِكُمْ أَجْمَعِينَ",
           "ttsText": "Yûsuf doksan üçüncü ayet. ٱذْهَبُوا۟ بِقَمِيصِى هَٰذَا فَأَلْقُوهُ عَلَىٰ وَجْهِ أَبِى يَأْتِ بَصِيرًۭا وَأْتُونِى بِأَهْلِكُمْ أَجْمَعِينَ",
+          "ttsCharCount": 139,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-093-p-001.json",
           "response": "responses/sec-093-p-001.json",
           "wav": "originals/wav/sec-093-p-001.wav",
           "mp3": "originals/mp3/sec-093-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 17.32,
+          "generatedAt": "2026-08-01T16:28:14Z",
+          "audioSha256": "bcc20d71840539d908eb22addebc0ad689d7884221769320c68968e16df0aa2b",
+          "mp3Sha256": "6e414941155c81a9fc92366cf0b63697de3c02bd04b770759a64ebcefccb2ab3"
         }
-      ]
+      ],
+      "wavSha256": "bcc20d71840539d908eb22addebc0ad689d7884221769320c68968e16df0aa2b",
+      "mp3Sha256": "6e414941155c81a9fc92366cf0b63697de3c02bd04b770759a64ebcefccb2ab3"
     },
     {
       "sectionIndex": 94,
@@ -2170,7 +2922,7 @@
       "grades": [],
       "wav": "sections/wav/sec-094.wav",
       "mp3": "sections/mp3/sec-094.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 19.44,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2178,13 +2930,21 @@
           "chunkId": "sec-094-p-001",
           "text": "وَلَمَّا فَصَلَتِ ٱلْعِيرُ قَالَ أَبُوهُمْ إِنِّى لَأَجِدُ رِيحَ يُوسُفَ ۖ لَوْلَآ أَن تُفَنِّدُونِ",
           "ttsText": "Yûsuf doksan dördüncü ayet. وَلَمَّا فَصَلَتِ ٱلْعِيرُ قَالَ أَبُوهُمْ إِنِّى لَأَجِدُ رِيحَ يُوسُفَ ۖ لَوْلَآ أَن تُفَنِّدُونِ",
+          "ttsCharCount": 128,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-094-p-001.json",
           "response": "responses/sec-094-p-001.json",
           "wav": "originals/wav/sec-094-p-001.wav",
           "mp3": "originals/mp3/sec-094-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 19.44,
+          "generatedAt": "2026-08-01T16:28:23Z",
+          "audioSha256": "fa547ad00f21610c1fffd480b2a59de8876e712e620bd29f583953b9cad8f8e0",
+          "mp3Sha256": "99c38f9e078610b977d6633526b9395f8462014239c42935622321bbd49c3b06"
         }
-      ]
+      ],
+      "wavSha256": "fa547ad00f21610c1fffd480b2a59de8876e712e620bd29f583953b9cad8f8e0",
+      "mp3Sha256": "99c38f9e078610b977d6633526b9395f8462014239c42935622321bbd49c3b06"
     },
     {
       "sectionIndex": 95,
@@ -2193,7 +2953,7 @@
       "grades": [],
       "wav": "sections/wav/sec-095.wav",
       "mp3": "sections/mp3/sec-095.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.28,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2201,13 +2961,21 @@
           "chunkId": "sec-095-p-001",
           "text": "قَالُوا۟ تَٱللَّهِ إِنَّكَ لَفِى ضَلَٰلِكَ ٱلْقَدِيمِ",
           "ttsText": "Yûsuf doksan beşinci ayet. قَالُوا۟ تَٱللَّهِ إِنَّكَ لَفِى ضَلَٰلِكَ ٱلْقَدِيمِ",
+          "ttsCharCount": 80,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-095-p-001.json",
           "response": "responses/sec-095-p-001.json",
           "wav": "originals/wav/sec-095-p-001.wav",
           "mp3": "originals/mp3/sec-095-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.28,
+          "generatedAt": "2026-08-01T16:28:33Z",
+          "audioSha256": "2173aa656ee7bfd1beae60d702ac3e2d92e6563c6daf6ba788b23b7f73ca5911",
+          "mp3Sha256": "229019e6710be3be2833cf3e0f2a8f84978fbbb9b186d174319cdcbb07fd1b3c"
         }
-      ]
+      ],
+      "wavSha256": "2173aa656ee7bfd1beae60d702ac3e2d92e6563c6daf6ba788b23b7f73ca5911",
+      "mp3Sha256": "229019e6710be3be2833cf3e0f2a8f84978fbbb9b186d174319cdcbb07fd1b3c"
     },
     {
       "sectionIndex": 96,
@@ -2216,7 +2984,7 @@
       "grades": [],
       "wav": "sections/wav/sec-096.wav",
       "mp3": "sections/mp3/sec-096.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 20.44,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2224,13 +2992,21 @@
           "chunkId": "sec-096-p-001",
           "text": "فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًۭا ۖ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
           "ttsText": "Yûsuf doksan altıncı ayet. فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًۭا ۖ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
+          "ttsCharCount": 186,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-096-p-001.json",
           "response": "responses/sec-096-p-001.json",
           "wav": "originals/wav/sec-096-p-001.wav",
           "mp3": "originals/mp3/sec-096-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 20.44,
+          "generatedAt": "2026-08-01T16:28:40Z",
+          "audioSha256": "440463d153052591cef1dbf155950d860add6138046018cf193f884d3b2c9974",
+          "mp3Sha256": "3e4d1bb04724a1b30215b45413d0f3f4335f58ee0ad8647fbcfe17ede539ce44"
         }
-      ]
+      ],
+      "wavSha256": "440463d153052591cef1dbf155950d860add6138046018cf193f884d3b2c9974",
+      "mp3Sha256": "3e4d1bb04724a1b30215b45413d0f3f4335f58ee0ad8647fbcfe17ede539ce44"
     },
     {
       "sectionIndex": 97,
@@ -2239,7 +3015,7 @@
       "grades": [],
       "wav": "sections/wav/sec-097.wav",
       "mp3": "sections/mp3/sec-097.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 18.84,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2247,13 +3023,21 @@
           "chunkId": "sec-097-p-001",
           "text": "قَالُوا۟ يَٰٓأَبَانَا ٱسْتَغْفِرْ لَنَا ذُنُوبَنَآ إِنَّا كُنَّا خَٰطِـِٔينَ",
           "ttsText": "Yûsuf doksan yedinci ayet. قَالُوا۟ يَٰٓأَبَانَا ٱسْتَغْفِرْ لَنَا ذُنُوبَنَآ إِنَّا كُنَّا خَٰطِـِٔينَ",
+          "ttsCharCount": 104,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-097-p-001.json",
           "response": "responses/sec-097-p-001.json",
           "wav": "originals/wav/sec-097-p-001.wav",
           "mp3": "originals/mp3/sec-097-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 18.84,
+          "generatedAt": "2026-08-01T16:28:51Z",
+          "audioSha256": "0f2e62a26ae75964688c339c06e77c72087dc8c0831eb802be549b5bcd9855db",
+          "mp3Sha256": "554bed67970b37bcd4c551d76f847afb7bbd7aafb79c1199c2f9d1bda48c51a3"
         }
-      ]
+      ],
+      "wavSha256": "0f2e62a26ae75964688c339c06e77c72087dc8c0831eb802be549b5bcd9855db",
+      "mp3Sha256": "554bed67970b37bcd4c551d76f847afb7bbd7aafb79c1199c2f9d1bda48c51a3"
     },
     {
       "sectionIndex": 98,
@@ -2262,7 +3046,7 @@
       "grades": [],
       "wav": "sections/wav/sec-098.wav",
       "mp3": "sections/mp3/sec-098.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.92,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2270,13 +3054,21 @@
           "chunkId": "sec-098-p-001",
           "text": "قَالَ سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
           "ttsText": "Yûsuf doksan sekizinci ayet. قَالَ سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+          "ttsCharCount": 107,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-098-p-001.json",
           "response": "responses/sec-098-p-001.json",
           "wav": "originals/wav/sec-098-p-001.wav",
           "mp3": "originals/mp3/sec-098-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.92,
+          "generatedAt": "2026-08-01T16:29:01Z",
+          "audioSha256": "142b0f387ff953224b33a7f4a3fdc2668ae307dcbe9d4d3ce515c27fd74c6091",
+          "mp3Sha256": "62a415df88dc733700ac97cdeb35a65b58eb1c29389f8a60399a4f218f6f8959"
         }
-      ]
+      ],
+      "wavSha256": "142b0f387ff953224b33a7f4a3fdc2668ae307dcbe9d4d3ce515c27fd74c6091",
+      "mp3Sha256": "62a415df88dc733700ac97cdeb35a65b58eb1c29389f8a60399a4f218f6f8959"
     },
     {
       "sectionIndex": 99,
@@ -2285,7 +3077,7 @@
       "grades": [],
       "wav": "sections/wav/sec-099.wav",
       "mp3": "sections/mp3/sec-099.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 16.88,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2293,13 +3085,21 @@
           "chunkId": "sec-099-p-001",
           "text": "فَلَمَّا دَخَلُوا۟ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيْهِ أَبَوَيْهِ وَقَالَ ٱدْخُلُوا۟ مِصْرَ إِن شَآءَ ٱللَّهُ ءَامِنِينَ",
           "ttsText": "Yûsuf doksan dokuzuncu ayet. فَلَمَّا دَخَلُوا۟ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيْهِ أَبَوَيْهِ وَقَالَ ٱدْخُلُوا۟ مِصْرَ إِن شَآءَ ٱللَّهُ ءَامِنِينَ",
+          "ttsCharCount": 147,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-099-p-001.json",
           "response": "responses/sec-099-p-001.json",
           "wav": "originals/wav/sec-099-p-001.wav",
           "mp3": "originals/mp3/sec-099-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 16.88,
+          "generatedAt": "2026-08-01T16:29:09Z",
+          "audioSha256": "e5d6efb887384cf834fe52edb6100b1cd99f74910a57d9cac9ffa6b7dd9cfd27",
+          "mp3Sha256": "b59351c0430a670b537904d231669dd58683a39f304e805055d2d49946fd673e"
         }
-      ]
+      ],
+      "wavSha256": "e5d6efb887384cf834fe52edb6100b1cd99f74910a57d9cac9ffa6b7dd9cfd27",
+      "mp3Sha256": "b59351c0430a670b537904d231669dd58683a39f304e805055d2d49946fd673e"
     },
     {
       "sectionIndex": 100,
@@ -2308,7 +3108,7 @@
       "grades": [],
       "wav": "sections/wav/sec-100.wav",
       "mp3": "sections/mp3/sec-100.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 53.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2316,13 +3116,21 @@
           "chunkId": "sec-100-p-001",
           "text": "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًۭا ۖ وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّۭا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌۭ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
           "ttsText": "Yûsuf yüzüncü ayet. وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًۭا ۖ وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّۭا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌۭ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+          "ttsCharCount": 400,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-100-p-001.json",
           "response": "responses/sec-100-p-001.json",
           "wav": "originals/wav/sec-100-p-001.wav",
           "mp3": "originals/mp3/sec-100-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 53.68,
+          "generatedAt": "2026-08-01T16:29:59Z",
+          "audioSha256": "b1992910e25ea594ef110cc89e3c0dfe1389883f6d845d1234e028ff2649d1c7",
+          "mp3Sha256": "98f9985f7027ae8fb24070c5c4696e68130191913c97a5b96ef1aef5d0fac069"
         }
-      ]
+      ],
+      "wavSha256": "b1992910e25ea594ef110cc89e3c0dfe1389883f6d845d1234e028ff2649d1c7",
+      "mp3Sha256": "98f9985f7027ae8fb24070c5c4696e68130191913c97a5b96ef1aef5d0fac069"
     },
     {
       "sectionIndex": 101,
@@ -2331,7 +3139,7 @@
       "grades": [],
       "wav": "sections/wav/sec-101.wav",
       "mp3": "sections/mp3/sec-101.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 28.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2339,13 +3147,21 @@
           "chunkId": "sec-101-p-001",
           "text": "۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّٰلِحِينَ",
           "ttsText": "Yûsuf yüz birinci ayet. ۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّٰلِحِينَ",
+          "ttsCharCount": 242,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-101-p-001.json",
           "response": "responses/sec-101-p-001.json",
           "wav": "originals/wav/sec-101-p-001.wav",
           "mp3": "originals/mp3/sec-101-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 28.68,
+          "generatedAt": "2026-08-01T16:31:07Z",
+          "audioSha256": "623141bb4aed656f26233588d6adfda7d046da6dad693400583bc86fb80b3965",
+          "mp3Sha256": "4b3b635e8c1f9e2f3d64ab2013073df4641534ffbc479190f0999246e1ecee1c"
         }
-      ]
+      ],
+      "wavSha256": "623141bb4aed656f26233588d6adfda7d046da6dad693400583bc86fb80b3965",
+      "mp3Sha256": "4b3b635e8c1f9e2f3d64ab2013073df4641534ffbc479190f0999246e1ecee1c"
     },
     {
       "sectionIndex": 102,
@@ -2354,7 +3170,7 @@
       "grades": [],
       "wav": "sections/wav/sec-102.wav",
       "mp3": "sections/mp3/sec-102.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 15.48,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2362,13 +3178,21 @@
           "chunkId": "sec-102-p-001",
           "text": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۖ وَمَا كُنتَ لَدَيْهِمْ إِذْ أَجْمَعُوٓا۟ أَمْرَهُمْ وَهُمْ يَمْكُرُونَ",
           "ttsText": "Yûsuf yüz ikinci ayet. ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۖ وَمَا كُنتَ لَدَيْهِمْ إِذْ أَجْمَعُوٓا۟ أَمْرَهُمْ وَهُمْ يَمْكُرُونَ",
+          "ttsCharCount": 147,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-102-p-001.json",
           "response": "responses/sec-102-p-001.json",
           "wav": "originals/wav/sec-102-p-001.wav",
           "mp3": "originals/mp3/sec-102-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 15.48,
+          "generatedAt": "2026-08-01T16:31:46Z",
+          "audioSha256": "3fd5382a8723d6fb21b5c3977f1420cd42f26621b3327f1702b649ac6e0d659c",
+          "mp3Sha256": "f75fb38c06880e36ec4fcbb32b6117a500948a272b44be506008a94e07d7f34b"
         }
-      ]
+      ],
+      "wavSha256": "3fd5382a8723d6fb21b5c3977f1420cd42f26621b3327f1702b649ac6e0d659c",
+      "mp3Sha256": "f75fb38c06880e36ec4fcbb32b6117a500948a272b44be506008a94e07d7f34b"
     },
     {
       "sectionIndex": 103,
@@ -2377,7 +3201,7 @@
       "grades": [],
       "wav": "sections/wav/sec-103.wav",
       "mp3": "sections/mp3/sec-103.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 8.88,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2385,13 +3209,21 @@
           "chunkId": "sec-103-p-001",
           "text": "وَمَآ أَكْثَرُ ٱلنَّاسِ وَلَوْ حَرَصْتَ بِمُؤْمِنِينَ",
           "ttsText": "Yûsuf yüz üçüncü ayet. وَمَآ أَكْثَرُ ٱلنَّاسِ وَلَوْ حَرَصْتَ بِمُؤْمِنِينَ",
+          "ttsCharCount": 77,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-103-p-001.json",
           "response": "responses/sec-103-p-001.json",
           "wav": "originals/wav/sec-103-p-001.wav",
           "mp3": "originals/mp3/sec-103-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 8.88,
+          "generatedAt": "2026-08-01T16:31:53Z",
+          "audioSha256": "fa3e71e1c6a89a50768b2848be8757e35b59f5bf5be137425bd81a08af957af3",
+          "mp3Sha256": "0a5ace5072bf63451e13b5ee3c2364e4e194d2a55d3b3c6847dca1ea0fdcf6b3"
         }
-      ]
+      ],
+      "wavSha256": "fa3e71e1c6a89a50768b2848be8757e35b59f5bf5be137425bd81a08af957af3",
+      "mp3Sha256": "0a5ace5072bf63451e13b5ee3c2364e4e194d2a55d3b3c6847dca1ea0fdcf6b3"
     },
     {
       "sectionIndex": 104,
@@ -2400,7 +3232,7 @@
       "grades": [],
       "wav": "sections/wav/sec-104.wav",
       "mp3": "sections/mp3/sec-104.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 11.96,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2408,13 +3240,21 @@
           "chunkId": "sec-104-p-001",
           "text": "وَمَا تَسْـَٔلُهُمْ عَلَيْهِ مِنْ أَجْرٍ ۚ إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ",
           "ttsText": "Yûsuf yüz dördüncü ayet. وَمَا تَسْـَٔلُهُمْ عَلَيْهِ مِنْ أَجْرٍ ۚ إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ",
+          "ttsCharCount": 108,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-104-p-001.json",
           "response": "responses/sec-104-p-001.json",
           "wav": "originals/wav/sec-104-p-001.wav",
           "mp3": "originals/mp3/sec-104-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 11.96,
+          "generatedAt": "2026-08-01T16:32:31Z",
+          "audioSha256": "396b0f53fa40ce79bc3408b6528f9d8b4b97a815edff66b28ae550d09a94a109",
+          "mp3Sha256": "05bd5332d50ff715ed85cc5133a9c2a4af329511fd36cf3ab906b639e5d6f1a7"
         }
-      ]
+      ],
+      "wavSha256": "396b0f53fa40ce79bc3408b6528f9d8b4b97a815edff66b28ae550d09a94a109",
+      "mp3Sha256": "05bd5332d50ff715ed85cc5133a9c2a4af329511fd36cf3ab906b639e5d6f1a7"
     },
     {
       "sectionIndex": 105,
@@ -2423,7 +3263,7 @@
       "grades": [],
       "wav": "sections/wav/sec-105.wav",
       "mp3": "sections/mp3/sec-105.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 13.68,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2431,13 +3271,21 @@
           "chunkId": "sec-105-p-001",
           "text": "وَكَأَيِّن مِّنْ ءَايَةٍۢ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ يَمُرُّونَ عَلَيْهَا وَهُمْ عَنْهَا مُعْرِضُونَ",
           "ttsText": "Yûsuf yüz beşinci ayet. وَكَأَيِّن مِّنْ ءَايَةٍۢ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ يَمُرُّونَ عَلَيْهَا وَهُمْ عَنْهَا مُعْرِضُونَ",
+          "ttsCharCount": 127,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-105-p-001.json",
           "response": "responses/sec-105-p-001.json",
           "wav": "originals/wav/sec-105-p-001.wav",
           "mp3": "originals/mp3/sec-105-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 13.68,
+          "generatedAt": "2026-08-01T16:32:38Z",
+          "audioSha256": "f3048128b84cfe64dc77a409b7ae063f25870f3d44402b01e3f034d6c8c902e5",
+          "mp3Sha256": "ab9753c234f89fde580ebc9b09678ae974e440801d754eb27cdd1ffed0a76797"
         }
-      ]
+      ],
+      "wavSha256": "f3048128b84cfe64dc77a409b7ae063f25870f3d44402b01e3f034d6c8c902e5",
+      "mp3Sha256": "ab9753c234f89fde580ebc9b09678ae974e440801d754eb27cdd1ffed0a76797"
     },
     {
       "sectionIndex": 106,
@@ -2446,7 +3294,7 @@
       "grades": [],
       "wav": "sections/wav/sec-106.wav",
       "mp3": "sections/mp3/sec-106.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 10.56,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2454,13 +3302,21 @@
           "chunkId": "sec-106-p-001",
           "text": "وَمَا يُؤْمِنُ أَكْثَرُهُم بِٱللَّهِ إِلَّا وَهُم مُّشْرِكُونَ",
           "ttsText": "Yûsuf yüz altıncı ayet. وَمَا يُؤْمِنُ أَكْثَرُهُم بِٱللَّهِ إِلَّا وَهُم مُّشْرِكُونَ",
+          "ttsCharCount": 86,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-106-p-001.json",
           "response": "responses/sec-106-p-001.json",
           "wav": "originals/wav/sec-106-p-001.wav",
           "mp3": "originals/mp3/sec-106-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 10.56,
+          "generatedAt": "2026-08-01T16:33:34Z",
+          "audioSha256": "f496e2dba573ee47d12ee42770af63eea7eb6918b00083512bf1e7e714ad832e",
+          "mp3Sha256": "50990cb6be0c17d5716697a73c35cdb35ba3a4c0f6e9690f28ebdb67a2d90339"
         }
-      ]
+      ],
+      "wavSha256": "f496e2dba573ee47d12ee42770af63eea7eb6918b00083512bf1e7e714ad832e",
+      "mp3Sha256": "50990cb6be0c17d5716697a73c35cdb35ba3a4c0f6e9690f28ebdb67a2d90339"
     },
     {
       "sectionIndex": 107,
@@ -2469,7 +3325,7 @@
       "grades": [],
       "wav": "sections/wav/sec-107.wav",
       "mp3": "sections/mp3/sec-107.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 16.12,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2477,13 +3333,21 @@
           "chunkId": "sec-107-p-001",
           "text": "أَفَأَمِنُوٓا۟ أَن تَأْتِيَهُمْ غَٰشِيَةٌۭ مِّنْ عَذَابِ ٱللَّهِ أَوْ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةًۭ وَهُمْ لَا يَشْعُرُونَ",
           "ttsText": "Yûsuf yüz yedinci ayet. أَفَأَمِنُوٓا۟ أَن تَأْتِيَهُمْ غَٰشِيَةٌۭ مِّنْ عَذَابِ ٱللَّهِ أَوْ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةًۭ وَهُمْ لَا يَشْعُرُونَ",
+          "ttsCharCount": 150,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-107-p-001.json",
           "response": "responses/sec-107-p-001.json",
           "wav": "originals/wav/sec-107-p-001.wav",
           "mp3": "originals/mp3/sec-107-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 16.12,
+          "generatedAt": "2026-08-01T16:33:47Z",
+          "audioSha256": "d9156769d0d8dc81ed0a77e41de4e386398bf211fbc8b312822a4546d5b71266",
+          "mp3Sha256": "8f90d1392903b4a10b13870426475e66fc6c984dff04dbd714e7ab897aa6474e"
         }
-      ]
+      ],
+      "wavSha256": "d9156769d0d8dc81ed0a77e41de4e386398bf211fbc8b312822a4546d5b71266",
+      "mp3Sha256": "8f90d1392903b4a10b13870426475e66fc6c984dff04dbd714e7ab897aa6474e"
     },
     {
       "sectionIndex": 108,
@@ -2492,7 +3356,7 @@
       "grades": [],
       "wav": "sections/wav/sec-108.wav",
       "mp3": "sections/mp3/sec-108.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 25.28,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2500,13 +3364,21 @@
           "chunkId": "sec-108-p-001",
           "text": "قُلْ هَٰذِهِۦ سَبِيلِىٓ أَدْعُوٓا۟ إِلَى ٱللَّهِ ۚ عَلَىٰ بَصِيرَةٍ أَنَا۠ وَمَنِ ٱتَّبَعَنِى ۖ وَسُبْحَٰنَ ٱللَّهِ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ",
           "ttsText": "Yûsuf yüz sekizinci ayet. قُلْ هَٰذِهِۦ سَبِيلِىٓ أَدْعُوٓا۟ إِلَى ٱللَّهِ ۚ عَلَىٰ بَصِيرَةٍ أَنَا۠ وَمَنِ ٱتَّبَعَنِى ۖ وَسُبْحَٰنَ ٱللَّهِ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ",
+          "ttsCharCount": 175,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-108-p-001.json",
           "response": "responses/sec-108-p-001.json",
           "wav": "originals/wav/sec-108-p-001.wav",
           "mp3": "originals/mp3/sec-108-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 25.28,
+          "generatedAt": "2026-08-01T16:33:58Z",
+          "audioSha256": "50772b37096b1ea604c12f2c657683e0d2a82106c7d1a635745fa4079bc45c61",
+          "mp3Sha256": "6a5bafc4318be47129857f3238504e9f93fcb4a2a8bf2bdd7880b4b25d63ef4e"
         }
-      ]
+      ],
+      "wavSha256": "50772b37096b1ea604c12f2c657683e0d2a82106c7d1a635745fa4079bc45c61",
+      "mp3Sha256": "6a5bafc4318be47129857f3238504e9f93fcb4a2a8bf2bdd7880b4b25d63ef4e"
     },
     {
       "sectionIndex": 109,
@@ -2515,7 +3387,7 @@
       "grades": [],
       "wav": "sections/wav/sec-109.wav",
       "mp3": "sections/mp3/sec-109.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 24.44,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2523,13 +3395,21 @@
           "chunkId": "sec-109-p-001",
           "text": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ إِلَّا رِجَالًۭا نُّوحِىٓ إِلَيْهِم مِّنْ أَهْلِ ٱلْقُرَىٰٓ ۗ أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۗ وَلَدَارُ ٱلْءَاخِرَةِ خَيْرٌۭ لِّلَّذِينَ ٱتَّقَوْا۟ ۗ أَفَلَا تَعْقِلُونَ",
           "ttsText": "Yûsuf yüz dokuzuncu ayet. وَمَآ أَرْسَلْنَا مِن قَبْلِكَ إِلَّا رِجَالًۭا نُّوحِىٓ إِلَيْهِم مِّنْ أَهْلِ ٱلْقُرَىٰٓ ۗ أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۗ وَلَدَارُ ٱلْءَاخِرَةِ خَيْرٌۭ لِّلَّذِينَ ٱتَّقَوْا۟ ۗ أَفَلَا تَعْقِلُونَ",
+          "ttsCharCount": 292,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-109-p-001.json",
           "response": "responses/sec-109-p-001.json",
           "wav": "originals/wav/sec-109-p-001.wav",
           "mp3": "originals/mp3/sec-109-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 24.44,
+          "generatedAt": "2026-08-01T16:34:14Z",
+          "audioSha256": "ba6a422f0de5b92383dfee912bb2437cc14a7860778b3d09b6480fecab1b5c66",
+          "mp3Sha256": "0b6522015d55918b884bbbef4a955c895fb9e3db774ab723b893ad3b3f686355"
         }
-      ]
+      ],
+      "wavSha256": "ba6a422f0de5b92383dfee912bb2437cc14a7860778b3d09b6480fecab1b5c66",
+      "mp3Sha256": "0b6522015d55918b884bbbef4a955c895fb9e3db774ab723b893ad3b3f686355"
     },
     {
       "sectionIndex": 110,
@@ -2538,7 +3418,7 @@
       "grades": [],
       "wav": "sections/wav/sec-110.wav",
       "mp3": "sections/mp3/sec-110.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 17.28,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2546,13 +3426,21 @@
           "chunkId": "sec-110-p-001",
           "text": "حَتَّىٰٓ إِذَا ٱسْتَيْـَٔسَ ٱلرُّسُلُ وَظَنُّوٓا۟ أَنَّهُمْ قَدْ كُذِبُوا۟ جَآءَهُمْ نَصْرُنَا فَنُجِّىَ مَن نَّشَآءُ ۖ وَلَا يُرَدُّ بَأْسُنَا عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ",
           "ttsText": "Yûsuf yüz onuncu ayet. حَتَّىٰٓ إِذَا ٱسْتَيْـَٔسَ ٱلرُّسُلُ وَظَنُّوٓا۟ أَنَّهُمْ قَدْ كُذِبُوا۟ جَآءَهُمْ نَصْرُنَا فَنُجِّىَ مَن نَّشَآءُ ۖ وَلَا يُرَدُّ بَأْسُنَا عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ",
+          "ttsCharCount": 198,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-110-p-001.json",
           "response": "responses/sec-110-p-001.json",
           "wav": "originals/wav/sec-110-p-001.wav",
           "mp3": "originals/mp3/sec-110-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 17.28,
+          "generatedAt": "2026-08-01T16:34:25Z",
+          "audioSha256": "5f69257f569b834bffc202478f8978a95ae36a288e0c5029a8e82b61f10b4c39",
+          "mp3Sha256": "adcc293e0744a4c784d12fbc9ba8767e563a9bc282a87594872c78b7d44f71d4"
         }
-      ]
+      ],
+      "wavSha256": "5f69257f569b834bffc202478f8978a95ae36a288e0c5029a8e82b61f10b4c39",
+      "mp3Sha256": "adcc293e0744a4c784d12fbc9ba8767e563a9bc282a87594872c78b7d44f71d4"
     },
     {
       "sectionIndex": 111,
@@ -2561,7 +3449,7 @@
       "grades": [],
       "wav": "sections/wav/sec-111.wav",
       "mp3": "sections/mp3/sec-111.mp3",
-      "durationSeconds": null,
+      "durationSeconds": 24.0,
       "paragraphs": [
         {
           "paragraphIndex": 1,
@@ -2569,13 +3457,23 @@
           "chunkId": "sec-111-p-001",
           "text": "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌۭ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًۭا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ",
           "ttsText": "Yûsuf yüz on birinci ayet. لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌۭ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًۭا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ",
+          "ttsCharCount": 234,
+          "promptKind": "recitation",
+          "promptCharCount": 308,
           "request": "requests/sec-111-p-001.json",
           "response": "responses/sec-111-p-001.json",
           "wav": "originals/wav/sec-111-p-001.wav",
           "mp3": "originals/mp3/sec-111-p-001.mp3",
-          "durationSeconds": null
+          "durationSeconds": 24.0,
+          "generatedAt": "2026-08-01T16:34:34Z",
+          "audioSha256": "124bb3f2f637b1568d8445f5a1a4173179d46622479001271cf2db0cade57e41",
+          "mp3Sha256": "1fbb785c22eec3f16dce4a0d6889ad12cbddcfbc10038f9c9715736096cd089c"
         }
-      ]
+      ],
+      "wavSha256": "124bb3f2f637b1568d8445f5a1a4173179d46622479001271cf2db0cade57e41",
+      "mp3Sha256": "1fbb785c22eec3f16dce4a0d6889ad12cbddcfbc10038f9c9715736096cd089c"
     }
-  ]
+  ],
+  "generationStatus": "complete",
+  "generationRequestSetSha256": "bdb99eb8a67af96066d3de7b50831e90eda6791b1c134b038b11fc524512a26d"
 }

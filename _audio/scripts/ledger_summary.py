@@ -17,6 +17,7 @@ import argparse
 import glob
 import json
 from collections import defaultdict
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]  # .../quran-data
@@ -37,6 +38,21 @@ def load_entries(ledger_dir: Path, *, collection: str | None, surah: str | None)
                 yield entry
 
 
+def decimal_field(entry: dict, *names: str) -> Decimal:
+    for name in names:
+        value = entry.get(name)
+        if value is None:
+            continue
+        try:
+            number = Decimal(str(value))
+        except InvalidOperation as error:
+            raise ValueError(f"Invalid {name} in ledger entry: {value!r}") from error
+        if not number.is_finite() or number < 0:
+            raise ValueError(f"Invalid {name} in ledger entry: {value!r}")
+        return number
+    return Decimal("0")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--ledger-dir", type=Path, default=DEFAULT_LEDGER_DIR)
@@ -44,17 +60,26 @@ def main() -> int:
     parser.add_argument("--surah", help="e.g. S100")
     args = parser.parse_args()
 
-    by_event = defaultdict(lambda: {"count": 0, "durationSeconds": 0.0, "billedUsd": 0.0})
-    by_collection = defaultdict(lambda: {"count": 0, "billedUsd": 0.0})
-    total_billed = 0.0
-    total_duration = 0.0
+    by_event = defaultdict(
+        lambda: {"count": 0, "durationSeconds": Decimal("0"), "billedUsd": Decimal("0")}
+    )
+    by_collection = defaultdict(lambda: {"count": 0, "billedUsd": Decimal("0")})
+    total_billed = Decimal("0")
+    total_duration = Decimal("0")
+    attempted = set()
+    terminal = set()
     n = 0
 
     for entry in load_entries(args.ledger_dir, collection=args.collection, surah=args.surah):
         n += 1
         event = entry.get("event", "?")
-        billed = entry.get("billedTotalUsd", 0.0) or 0.0
-        duration = entry.get("durationSeconds") or 0.0
+        billed = decimal_field(entry, "estimatedBilledTotalUsd", "billedTotalUsd")
+        duration = decimal_field(entry, "durationSeconds")
+        attempt_id = entry.get("attemptId")
+        if event == "attempted" and attempt_id:
+            attempted.add(attempt_id)
+        if event in {"synthesized", "synthesized_recovered", "failed"} and attempt_id:
+            terminal.add(attempt_id)
 
         by_event[event]["count"] += 1
         by_event[event]["durationSeconds"] += duration
@@ -76,15 +101,17 @@ def main() -> int:
     print()
     print("By event:")
     for event, stats in sorted(by_event.items()):
-        hrs = stats["durationSeconds"] / 3600
-        print(f"  {event:<12} count={stats['count']:<6} audio={hrs:.2f}hr  billed=${stats['billedUsd']:.4f}")
+        hrs = stats["durationSeconds"] / Decimal(3600)
+        print(f"  {event:<22} count={stats['count']:<6} audio={hrs:.2f}hr  billed~=${stats['billedUsd']:.4f}")
     print()
     print("By collection:")
     for coll, stats in sorted(by_collection.items()):
-        print(f"  {coll:<12} count={stats['count']:<6} billed=${stats['billedUsd']:.4f}")
+        print(f"  {coll:<12} count={stats['count']:<6} billed~=${stats['billedUsd']:.4f}")
     print()
-    print(f"TOTAL billed: ${total_billed:.4f}")
-    print(f"TOTAL audio generated or reused: {total_duration/3600:.2f} hr")
+    print(f"TOTAL estimated billed: ${total_billed:.4f}")
+    print(f"TOTAL audio generated or reused: {total_duration/Decimal(3600):.2f} hr")
+    unresolved = attempted - terminal
+    print(f"UNRESOLVED remote attempts: {len(unresolved)}")
     return 0
 
 
