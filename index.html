@@ -1,0 +1,1305 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quran Data Browser</title>
+  <style>
+    :root {
+      --bg: #f7f3ea;
+      --panel: #fffdf8;
+      --panel-2: #f0eadf;
+      --ink: #201b15;
+      --muted: #6f6558;
+      --line: #ded4c4;
+      --accent: #855d28;
+      --accent-2: #164c43;
+      --danger: #8a2f2f;
+      --shadow: 0 12px 32px rgba(43, 33, 20, .10);
+      color-scheme: light;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 12% -10%, rgba(133, 93, 40, .18), transparent 30rem),
+        radial-gradient(circle at 100% 0%, rgba(22, 76, 67, .12), transparent 32rem),
+        var(--bg);
+      color: var(--ink);
+    }
+
+    a {
+      color: var(--accent-2);
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(18rem, 24rem) minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    aside {
+      border-right: 1px solid var(--line);
+      background: rgba(255, 253, 248, .82);
+      backdrop-filter: blur(10px);
+      padding: 1.25rem;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow: auto;
+    }
+
+    main {
+      padding: 1.5rem;
+      max-width: 78rem;
+      width: 100%;
+    }
+
+    .brand {
+      margin-bottom: 1rem;
+    }
+
+    .brand h1 {
+      margin: 0 0 .25rem;
+      font-size: 1.45rem;
+      letter-spacing: -.03em;
+    }
+
+    .brand p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: .94rem;
+    }
+
+    .toolbar {
+      display: grid;
+      gap: .6rem;
+      margin: 1rem 0;
+    }
+
+    .toolbar input,
+    .toolbar select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: .7rem;
+      background: var(--panel);
+      color: var(--ink);
+      padding: .72rem .8rem;
+      outline: none;
+    }
+
+    .toolbar input:focus,
+    .toolbar select:focus {
+      border-color: rgba(133, 93, 40, .55);
+      box-shadow: 0 0 0 3px rgba(133, 93, 40, .13);
+    }
+
+    .surah-list {
+      display: grid;
+      gap: .55rem;
+      padding-bottom: 2rem;
+    }
+
+    .surah-button {
+      width: 100%;
+      text-align: left;
+      border: 1px solid var(--line);
+      border-radius: .85rem;
+      background: var(--panel);
+      color: var(--ink);
+      padding: .75rem;
+      cursor: pointer;
+      transition: border-color .15s, box-shadow .15s, transform .15s;
+    }
+
+    .surah-button:hover,
+    .surah-button.active {
+      border-color: rgba(133, 93, 40, .62);
+      box-shadow: var(--shadow);
+      transform: translateY(-1px);
+    }
+
+    .surah-button.active {
+      background: #fff8ea;
+    }
+
+    .surah-title {
+      display: flex;
+      gap: .55rem;
+      align-items: baseline;
+      justify-content: space-between;
+      font-weight: 720;
+      margin-bottom: .45rem;
+    }
+
+    .surah-title small {
+      color: var(--muted);
+      font-weight: 620;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .3rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      color: var(--muted);
+      padding: .18rem .48rem;
+      font-size: .76rem;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .badge.audio {
+      background: #e8f0ed;
+      color: #164c43;
+      border-color: #c4d8d2;
+    }
+
+    .badge.full {
+      background: #f4e3c4;
+      color: #754c16;
+      border-color: #e1c490;
+    }
+
+    .hero,
+    .panel,
+    .ayah-card,
+    details.resource {
+      background: rgba(255, 253, 248, .92);
+      border: 1px solid var(--line);
+      border-radius: 1.05rem;
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: 1.35rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero h2 {
+      margin: 0 0 .25rem;
+      font-size: clamp(1.6rem, 4vw, 2.6rem);
+      letter-spacing: -.05em;
+    }
+
+    .hero p {
+      margin: .35rem 0 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .hero-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .6rem;
+      margin-top: .9rem;
+    }
+
+    .status {
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.45;
+    }
+
+    .status.error {
+      color: var(--danger);
+    }
+
+    .panel {
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+
+    .panel h3 {
+      margin: 0 0 .6rem;
+      font-size: 1.1rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .ayah-card {
+      padding: 1rem;
+      scroll-margin-top: 1rem;
+    }
+
+    .ayah-head {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: .75rem;
+      align-items: start;
+      margin-bottom: .8rem;
+    }
+
+    .ayah-num {
+      display: grid;
+      place-items: center;
+      width: 2.6rem;
+      height: 2.6rem;
+      border-radius: 50%;
+      background: var(--accent-2);
+      color: white;
+      font-weight: 760;
+    }
+
+    .arabic {
+      direction: rtl;
+      text-align: right;
+      font-family: "Geeza Pro", "Noto Naskh Arabic", "Amiri", serif;
+      font-size: clamp(1.45rem, 3vw, 2.25rem);
+      line-height: 1.95;
+      margin: 0;
+    }
+
+    details.resource {
+      margin-top: .55rem;
+      box-shadow: none;
+      overflow: hidden;
+    }
+
+    details.resource > summary {
+      cursor: pointer;
+      padding: .8rem .9rem;
+      list-style: none;
+      display: flex;
+      gap: .65rem;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 720;
+    }
+
+    details.resource > summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.resource > summary::before {
+      content: "›";
+      transform: rotate(0deg);
+      transition: transform .15s;
+      color: var(--accent);
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+
+    details.resource[open] > summary::before {
+      transform: rotate(90deg);
+    }
+
+    .summary-title {
+      flex: 1;
+    }
+
+    .resource-body {
+      border-top: 1px solid var(--line);
+      padding: .9rem;
+      display: grid;
+      gap: .8rem;
+    }
+
+    .resource-body audio {
+      width: 100%;
+    }
+
+    .paragraphs {
+      display: grid;
+      gap: .7rem;
+    }
+
+    .para {
+      border-left: 3px solid var(--line);
+      padding: .15rem 0 .15rem .75rem;
+      line-height: 1.7;
+      color: #2c251d;
+    }
+
+    .para .kind {
+      color: var(--muted);
+      font-size: .78rem;
+      margin-bottom: .15rem;
+    }
+
+    .para audio {
+      margin-top: .4rem;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .45rem;
+      align-items: center;
+    }
+
+    .link-pill,
+    .action-button {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: .32rem .58rem;
+      text-decoration: none;
+      background: #fffaf0;
+      color: var(--accent-2);
+      font-size: .86rem;
+      cursor: pointer;
+    }
+
+    .action-button {
+      appearance: none;
+    }
+
+    .action-button.primary {
+      background: var(--accent-2);
+      border-color: var(--accent-2);
+      color: white;
+      padding: .55rem .85rem;
+      font-weight: 700;
+    }
+
+    .action-button:disabled {
+      cursor: not-allowed;
+      opacity: .55;
+    }
+
+    .player-bar {
+      border: 1px solid var(--line);
+      border-radius: .9rem;
+      background: #fffaf0;
+      padding: .75rem;
+      display: grid;
+      gap: .55rem;
+      margin-top: .9rem;
+    }
+
+    .player-bar[hidden] {
+      display: none;
+    }
+
+    .player-bar audio {
+      width: 100%;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: .85rem;
+    }
+
+    .empty {
+      border: 1px dashed var(--line);
+      border-radius: .9rem;
+      padding: .9rem;
+      color: var(--muted);
+      background: rgba(255, 253, 248, .6);
+    }
+
+    .md {
+      line-height: 1.75;
+    }
+
+    .md h1,
+    .md h2,
+    .md h3 {
+      margin: .7rem 0 .4rem;
+      letter-spacing: -.02em;
+    }
+
+    .md p {
+      margin: .45rem 0;
+    }
+
+    .md ul {
+      margin: .45rem 0 .45rem 1.25rem;
+    }
+
+    @media (max-width: 860px) {
+      .layout {
+        display: block;
+      }
+
+      aside {
+        position: relative;
+        height: auto;
+        max-height: 70vh;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      main {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside>
+      <div class="brand">
+        <h1>Quran Data Browser</h1>
+        <p>Static GitHub Pages reader for recitation audio, ayah commentary, ayah summaries, and surah commentary.</p>
+      </div>
+
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search surah number or name" autocomplete="off">
+        <select id="filter">
+          <option value="any">Any available data</option>
+          <option value="full">Full bundle</option>
+          <option value="recitation">Recitation audio</option>
+          <option value="ayah">Ayah commentary audio</option>
+          <option value="summary">Ayah summary audio</option>
+          <option value="surah">Surah commentary audio</option>
+          <option value="text">Commentary text</option>
+        </select>
+      </div>
+
+      <div id="surahList" class="surah-list" aria-label="Available surahs"></div>
+    </aside>
+
+    <main>
+      <section class="hero">
+        <h2 id="pageTitle">Select a surah</h2>
+        <p id="pageLead">S12 is listed first and is the primary optimized path: it has recitation audio, ayah commentary, ayah summaries, and surah commentary.</p>
+        <div id="pageBadges" class="hero-row"></div>
+        <div class="hero-row">
+          <button id="downloadAllMp3" type="button" class="action-button primary" disabled>Download all MP3 ZIP for this surah</button>
+          <span id="downloadStatus" class="meta"></span>
+        </div>
+        <div id="playerBar" class="player-bar" hidden>
+          <div id="nowPlaying" class="meta">No MP3 selected.</div>
+          <audio id="pagePlayer" controls controlsList="nodownload" preload="none"></audio>
+          <div class="links">
+            <a id="downloadCurrentMp3" class="link-pill" download>Download current MP3</a>
+          </div>
+        </div>
+        <p id="status" class="status"></p>
+      </section>
+
+      <section id="surahPanel"></section>
+      <section id="ayahGrid" class="grid"></section>
+    </main>
+  </div>
+
+  <script>
+    const SURAH_NAMES = [
+      "Al-Fatihah", "Al-Baqarah", "Al Imran", "An-Nisa", "Al-Ma'idah", "Al-An'am", "Al-A'raf", "Al-Anfal", "At-Tawbah", "Yunus",
+      "Hud", "Yusuf", "Ar-Ra'd", "Ibrahim", "Al-Hijr", "An-Nahl", "Al-Isra", "Al-Kahf", "Maryam", "Ta-Ha",
+      "Al-Anbiya", "Al-Hajj", "Al-Mu'minun", "An-Nur", "Al-Furqan", "Ash-Shu'ara", "An-Naml", "Al-Qasas", "Al-'Ankabut", "Ar-Rum",
+      "Luqman", "As-Sajdah", "Al-Ahzab", "Saba", "Fatir", "Ya-Sin", "As-Saffat", "Sad", "Az-Zumar", "Ghafir",
+      "Fussilat", "Ash-Shura", "Az-Zukhruf", "Ad-Dukhan", "Al-Jathiyah", "Al-Ahqaf", "Muhammad", "Al-Fath", "Al-Hujurat", "Qaf",
+      "Adh-Dhariyat", "At-Tur", "An-Najm", "Al-Qamar", "Ar-Rahman", "Al-Waqi'ah", "Al-Hadid", "Al-Mujadila", "Al-Hashr", "Al-Mumtahanah",
+      "As-Saff", "Al-Jumu'ah", "Al-Munafiqun", "At-Taghabun", "At-Talaq", "At-Tahrim", "Al-Mulk", "Al-Qalam", "Al-Haqqah", "Al-Ma'arij",
+      "Nuh", "Al-Jinn", "Al-Muzzammil", "Al-Muddaththir", "Al-Qiyamah", "Al-Insan", "Al-Mursalat", "An-Naba", "An-Nazi'at", "'Abasa",
+      "At-Takwir", "Al-Infitar", "Al-Mutaffifin", "Al-Inshiqaq", "Al-Buruj", "At-Tariq", "Al-A'la", "Al-Ghashiyah", "Al-Fajr", "Al-Balad",
+      "Ash-Shams", "Al-Layl", "Ad-Duha", "Ash-Sharh", "At-Tin", "Al-'Alaq", "Al-Qadr", "Al-Bayyinah", "Az-Zalzalah", "Al-'Adiyat",
+      "Al-Qari'ah", "At-Takathur", "Al-'Asr", "Al-Humazah", "Al-Fil", "Quraysh", "Al-Ma'un", "Al-Kawthar", "Al-Kafirun", "An-Nasr",
+      "Al-Masad", "Al-Ikhlas", "Al-Falaq", "An-Nas"
+    ];
+
+    let AVAILABLE = {
+      recitation: ids("001,002,003,004,005,006,007,008,009,010,011,012,013,014,015,016,017,018,019,020,021,022,023,024,025,026,027,028,029,030,031,032,033,034,035,036,037,038,039,040,041,042,043,044,045,046,047,048,049,050,051,052,053,054,055,056,057,058,059,060,061,062,063,064,065,066,067,068,069,070,071,072,073,074,075,076,077,078,079,080,081,082,083,084,085,086,087,088,089,090,091,092,093,094,095,096,097,098,099,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114"),
+      ayah: ids("001,012,014,017,018,019,041,042,044,049,051,052,053,054,056,068,069,070,080,081,082,083,084,085,086,087,088,089,090,091,092,093,094,095,096,097,098,099,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114"),
+      summary: ids("001,012,014,017,018,019,051,054,056,087,088,089,090,091,092,093,094,095,096,097,098,099,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114"),
+      surah: ids("001,012,014,017,018,019,042,051,054,056,080,081,082,083,084,085,086,087,088,089,090,091,092,093,094,095,096,097,098,099,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114"),
+      ayahText: ids("001,005,012,013,014,017,018,019,024,031,032,035,041,042,044,045,046,048,049,051,052,053,054,056,068,069,070,080,081,082,083,084,085,086,087,088,089,090,091,092,093,094,095,096,097,098,099,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114"),
+      summaryText: ids("001,005,012,013,014,017,018,019,024,031,032,035,041,044,045,046,048,051,054,056,087,088,089,090,091,092,093,094,095,096,097,098,099,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114"),
+      surahText: ids("001,005,012,013,014,017,018,019,024,031,032,035,041,042,044,045,046,048,051,054,056,080,081,082,083,084,085,086,087,088,089,090,091,092,093,094,095,096,097,098,099,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114")
+    };
+
+    const TARGET_KINDS = ["recitation", "ayah", "summary", "surah"];
+    const state = {
+      quran: null,
+      selected: null,
+      manifests: {},
+      selectedManifests: null
+    };
+
+    function ids(csv) {
+      return new Set(csv.split(",").filter(Boolean).map(Number));
+    }
+
+    function setFromInventory(value) {
+      if (!Array.isArray(value)) return new Set();
+      return new Set(value.map(Number).filter(Number.isFinite));
+    }
+
+    async function loadPagesInventory() {
+      try {
+        const inventory = await fetchJson("data/pages-inventory.json");
+        const available = inventory?.available || {};
+        AVAILABLE = {
+          recitation: setFromInventory(available.recitation),
+          ayah: setFromInventory(available.ayah),
+          summary: setFromInventory(available.summary),
+          surah: setFromInventory(available.surah),
+          ayahText: setFromInventory(available.ayahText),
+          summaryText: setFromInventory(available.summaryText),
+          surahText: setFromInventory(available.surahText)
+        };
+        status(`Loaded generated inventory${inventory.generatedAt ? ` from ${inventory.generatedAt}` : ""}.`);
+      } catch (error) {
+        console.warn(error);
+        status("Generated inventory not found; using embedded fallback inventory.");
+      }
+    }
+
+    function pad3(n) {
+      return String(n).padStart(3, "0");
+    }
+
+    function esc(value) {
+      return String(value ?? "").replace(/[&<>"']/g, ch => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[ch]));
+    }
+
+    function seconds(value) {
+      if (!Number.isFinite(Number(value))) return "";
+      const total = Math.round(Number(value));
+      const minutes = Math.floor(total / 60);
+      const rest = total % 60;
+      return minutes ? `${minutes}:${String(rest).padStart(2, "0")}` : `${rest}s`;
+    }
+
+    function surahName(n) {
+      return SURAH_NAMES[n - 1] || `Surah ${n}`;
+    }
+
+    function hasText(n) {
+      return AVAILABLE.ayahText.has(n) || AVAILABLE.summaryText.has(n) || AVAILABLE.surahText.has(n);
+    }
+
+    function hasFullBundle(n) {
+      return TARGET_KINDS.every(kind => AVAILABLE[kind].has(n));
+    }
+
+    function collectionPath(kind, n) {
+      return `_audio/audio/${kind}/S${pad3(n)}/manifest.json`;
+    }
+
+    function manifestBase(kind, n) {
+      return `_audio/audio/${kind}/S${pad3(n)}/`;
+    }
+
+    function textPath(kind, n, ayah) {
+      const s = `s${pad3(n)}`;
+      if (kind === "ayah") return `data/commentary/ayah/detailed/tr/${s}/${n}_${ayah}.prose.tr.md`;
+      if (kind === "summary") return `data/commentary/ayah/summary/tr/${s}/${n}_${ayah}.prose.summary.tr.md`;
+      if (kind === "surah") return `data/commentary/surah/detailed/tr/${s}/${n}.surah-reading.tr.md`;
+      return "";
+    }
+
+    function manifestSourceLink(kind, manifest) {
+      if (manifest?.source) return manifest.source;
+      if (Array.isArray(manifest?.sources) && manifest.sources.length) return manifest.sources[0];
+      return "";
+    }
+
+    function fileNameFromPath(path) {
+      return path
+        .replace(/^_audio\/audio\//, "")
+        .replace(/^data\//, "")
+        .replaceAll("/", "-");
+    }
+
+    function isUsableSectionMp3(section) {
+      return Boolean(section?.mp3 && (
+        Number.isFinite(Number(section.durationSeconds)) ||
+        section.mp3Sha256 ||
+        section.wavSha256
+      ));
+    }
+
+    function collectMp3Downloads(n, manifests) {
+      const byPath = new Map();
+
+      for (const kind of TARGET_KINDS) {
+        const manifest = manifests?.[kind];
+        const base = manifestBase(kind, n);
+        for (const section of manifest?.sections || []) {
+          if (isUsableSectionMp3(section)) {
+            const href = base + section.mp3;
+            byPath.set(href, {
+              href,
+              filename: fileNameFromPath(href),
+              label: `${kind} · ${section.title || `section ${section.sectionIndex}`}`
+            });
+            continue;
+          }
+
+          for (const paragraph of section.paragraphs || []) {
+            if (!paragraph.mp3) continue;
+            const href = base + paragraph.mp3;
+            byPath.set(href, {
+              href,
+              filename: fileNameFromPath(href),
+              label: `${kind} · ${section.title || `section ${section.sectionIndex}`} · paragraph ${paragraph.paragraphIndex || ""}`.trim()
+            });
+          }
+        }
+      }
+
+      return [...byPath.values()];
+    }
+
+    function status(message, isError = false) {
+      const el = document.getElementById("status");
+      el.textContent = message || "";
+      el.className = isError ? "status error" : "status";
+    }
+
+    function makeBadge(label, className = "") {
+      const span = document.createElement("span");
+      span.className = `badge ${className}`.trim();
+      span.textContent = label;
+      return span;
+    }
+
+    function badgesFor(n) {
+      const badges = [];
+      if (hasFullBundle(n)) badges.push(["Full bundle", "full"]);
+      if (AVAILABLE.recitation.has(n)) badges.push(["Recitation", "audio"]);
+      if (AVAILABLE.ayah.has(n)) badges.push(["Ayah audio", "audio"]);
+      else if (AVAILABLE.ayahText.has(n)) badges.push(["Ayah text", ""]);
+      if (AVAILABLE.summary.has(n)) badges.push(["Summary audio", "audio"]);
+      else if (AVAILABLE.summaryText.has(n)) badges.push(["Summary text", ""]);
+      if (AVAILABLE.surah.has(n)) badges.push(["Surah audio", "audio"]);
+      else if (AVAILABLE.surahText.has(n)) badges.push(["Surah text", ""]);
+      return badges;
+    }
+
+    function surahIndex() {
+      const all = new Set();
+      Object.values(AVAILABLE).forEach(set => set.forEach(n => all.add(n)));
+      return [...all].sort((a, b) => {
+        if (a === 12) return -1;
+        if (b === 12) return 1;
+        const fullDelta = Number(hasFullBundle(b)) - Number(hasFullBundle(a));
+        if (fullDelta) return fullDelta;
+        const count = n => TARGET_KINDS.reduce((sum, kind) => sum + Number(AVAILABLE[kind].has(n)), 0);
+        return count(b) - count(a) || a - b;
+      });
+    }
+
+    function passesFilter(n, filter, query) {
+      const haystack = `${n} ${pad3(n)} ${surahName(n)} S${pad3(n)}`.toLowerCase();
+      if (query && !haystack.includes(query.toLowerCase())) return false;
+      if (filter === "any") return true;
+      if (filter === "full") return hasFullBundle(n);
+      if (filter === "text") return hasText(n);
+      return AVAILABLE[filter]?.has(n);
+    }
+
+    function renderSurahList() {
+      const list = document.getElementById("surahList");
+      const query = document.getElementById("search").value.trim();
+      const filter = document.getElementById("filter").value;
+      list.innerHTML = "";
+
+      const rows = surahIndex().filter(n => passesFilter(n, filter, query));
+      if (!rows.length) {
+        const empty = document.createElement("div");
+        empty.className = "empty";
+        empty.textContent = "No surahs match this filter.";
+        list.append(empty);
+        return;
+      }
+
+      for (const n of rows) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `surah-button ${state.selected === n ? "active" : ""}`.trim();
+        button.addEventListener("click", () => selectSurah(n, true));
+
+        const title = document.createElement("div");
+        title.className = "surah-title";
+        title.innerHTML = `<span>S${pad3(n)} · ${esc(surahName(n))}</span><small>${n}</small>`;
+
+        const badges = document.createElement("div");
+        badges.className = "badges";
+        badgesFor(n).forEach(([label, cls]) => badges.append(makeBadge(label, cls)));
+
+        button.append(title, badges);
+        list.append(button);
+      }
+    }
+
+    async function fetchText(path) {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error(`${response.status} ${path}`);
+      return response.text();
+    }
+
+    async function fetchJson(path) {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error(`${response.status} ${path}`);
+      return response.json();
+    }
+
+    async function loadQuran() {
+      if (state.quran) return state.quran;
+      const text = await fetchText("data/text/quran-uthmani.tsv");
+      const quran = new Map();
+      for (const rawLine of text.split(/\r?\n/)) {
+        const line = rawLine.trim();
+        if (!line) continue;
+        const split = line.indexOf("|");
+        if (split < 0) continue;
+        const key = line.slice(0, split).replace(/^\uFEFF/, "");
+        const [surah, ayah] = key.split(":").map(Number);
+        if (!surah || ayah <= 0) continue;
+        if (!quran.has(surah)) quran.set(surah, new Map());
+        quran.get(surah).set(ayah, line.slice(split + 1));
+      }
+      state.quran = quran;
+      return quran;
+    }
+
+    async function loadManifest(kind, n) {
+      const key = `${kind}:${n}`;
+      if (state.manifests[key] !== undefined) return state.manifests[key];
+      if (!AVAILABLE[kind]?.has(n)) {
+        state.manifests[key] = null;
+        return null;
+      }
+      try {
+        state.manifests[key] = await fetchJson(collectionPath(kind, n));
+      } catch (error) {
+        console.warn(error);
+        state.manifests[key] = null;
+      }
+      return state.manifests[key];
+    }
+
+    function sectionByAyah(manifest, ayah) {
+      if (!manifest?.sections) return null;
+      return manifest.sections.find(section => Number(section.sectionIndex) === Number(ayah)) || null;
+    }
+
+    function maxAyahNumber(n, quran, manifests) {
+      const fromText = quran.get(n)?.size || 0;
+      const fromManifests = Object.values(manifests)
+        .filter(Boolean)
+        .flatMap(manifest => manifest.sections || [])
+        .reduce((max, section) => Math.max(max, Number(section.sectionIndex) || 0), 0);
+      return Math.max(fromText, fromManifests);
+    }
+
+    async function selectSurah(n, updateHash = false) {
+      state.selected = n;
+      renderSurahList();
+      if (updateHash) history.replaceState(null, "", `#S${pad3(n)}`);
+
+      document.getElementById("pageTitle").textContent = `S${pad3(n)} · ${surahName(n)}`;
+      const pageBadges = document.getElementById("pageBadges");
+      pageBadges.innerHTML = "";
+      badgesFor(n).forEach(([label, cls]) => pageBadges.append(makeBadge(label, cls)));
+      state.selectedManifests = null;
+      configureDownloadAll(n, null);
+      document.getElementById("surahPanel").innerHTML = "";
+      document.getElementById("ayahGrid").innerHTML = "";
+      status(`Loading S${pad3(n)} assets...`);
+
+      try {
+        const [quran, recitation, ayah, summary, surah] = await Promise.all([
+          loadQuran(),
+          loadManifest("recitation", n),
+          loadManifest("ayah", n),
+          loadManifest("summary", n),
+          loadManifest("surah", n)
+        ]);
+        const manifests = { recitation, ayah, summary, surah };
+        state.selectedManifests = manifests;
+        renderSelectedSurah(n, quran, manifests);
+        configureDownloadAll(n, manifests);
+        status(`Loaded S${pad3(n)}. Open an ayah resource to read or listen; content is rendered lazily for faster S12 browsing.`);
+      } catch (error) {
+        console.error(error);
+        status(`Could not load S${pad3(n)}. If this is GitHub Pages, confirm data/text/quran-uthmani.tsv is published.`, true);
+      }
+    }
+
+    function renderSelectedSurah(n, quran, manifests) {
+      renderSurahPanel(n, manifests.surah);
+      const grid = document.getElementById("ayahGrid");
+      const max = maxAyahNumber(n, quran, manifests);
+
+      if (!max) {
+        grid.innerHTML = `<div class="empty">No ayah rows found for S${pad3(n)}.</div>`;
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+      for (let ayah = 1; ayah <= max; ayah++) {
+        fragment.append(renderAyahCard(n, ayah, quran.get(n)?.get(ayah), manifests));
+      }
+      grid.replaceChildren(fragment);
+    }
+
+    function renderSurahPanel(n, surahManifest) {
+      const panel = document.getElementById("surahPanel");
+      const hasAudio = Boolean(surahManifest?.sections?.length);
+      const hasSource = AVAILABLE.surahText.has(n);
+
+      if (!hasAudio && !hasSource) {
+        panel.innerHTML = "";
+        return;
+      }
+
+      const section = surahManifest?.sections?.[0] || null;
+      const fallback = hasSource ? textPath("surah", n) : "";
+      const wrapper = document.createElement("div");
+      wrapper.className = "panel";
+      wrapper.innerHTML = `<h3>Surah commentary</h3>`;
+      wrapper.append(createLazyDetails({
+        label: "Read / listen to surah commentary",
+        section,
+        base: manifestBase("surah", n),
+        source: manifestSourceLink("surah", surahManifest) || fallback,
+        fallbackPath: section ? "" : fallback,
+        emptyText: "No surah commentary text was found."
+      }));
+      panel.replaceChildren(wrapper);
+    }
+
+    function renderAyahCard(n, ayah, arabic, manifests) {
+      const card = document.createElement("article");
+      card.className = "ayah-card";
+      card.id = `S${pad3(n)}-${ayah}`;
+
+      const head = document.createElement("div");
+      head.className = "ayah-head";
+      head.innerHTML = `
+        <div class="ayah-num">${ayah}</div>
+        <p class="arabic">${esc(arabic || sectionByAyah(manifests.recitation, ayah)?.paragraphs?.[0]?.text || "")}</p>
+      `;
+      card.append(head);
+
+      const recitation = sectionByAyah(manifests.recitation, ayah);
+      if (recitation) {
+        card.append(createLazyDetails({
+          label: "Recitation audio",
+          section: recitation,
+          base: manifestBase("recitation", n),
+          source: manifestSourceLink("recitation", manifests.recitation),
+          emptyText: "No recitation audio was found for this ayah."
+        }));
+      }
+
+      const summary = sectionByAyah(manifests.summary, ayah);
+      if (summary || AVAILABLE.summaryText.has(n)) {
+        card.append(createLazyDetails({
+          label: summary ? "Ayah summary: read / listen" : "Ayah summary: read",
+          section: summary,
+          base: manifestBase("summary", n),
+          source: manifestSourceLink("summary", manifests.summary) || textPath("summary", n, ayah),
+          fallbackPath: summary ? "" : textPath("summary", n, ayah),
+          emptyText: "No ayah summary was found for this ayah."
+        }));
+      }
+
+      const detailed = sectionByAyah(manifests.ayah, ayah);
+      if (detailed || AVAILABLE.ayahText.has(n)) {
+        card.append(createLazyDetails({
+          label: detailed ? "Ayah commentary: read / listen" : "Ayah commentary: read",
+          section: detailed,
+          base: manifestBase("ayah", n),
+          source: manifestSourceLink("ayah", manifests.ayah) || textPath("ayah", n, ayah),
+          fallbackPath: detailed ? "" : textPath("ayah", n, ayah),
+          emptyText: "No ayah commentary was found for this ayah."
+        }));
+      }
+
+      return card;
+    }
+
+    function createLazyDetails({ label, section, base, source, fallbackPath, emptyText }) {
+      const details = document.createElement("details");
+      details.className = "resource";
+      const duration = seconds(section?.durationSeconds);
+      details.innerHTML = `
+        <summary>
+          <span class="summary-title">${esc(label)}</span>
+          ${duration ? `<span class="meta">${duration}</span>` : ""}
+        </summary>
+      `;
+
+      details.addEventListener("toggle", async () => {
+        if (!details.open || details.dataset.hydrated) return;
+        details.dataset.hydrated = "1";
+        const body = document.createElement("div");
+        body.className = "resource-body";
+        body.innerHTML = `<div class="meta">Loading...</div>`;
+        details.append(body);
+
+        try {
+          if (section) {
+            body.replaceChildren(renderManifestSection(section, base, source));
+          } else if (fallbackPath) {
+            const markdown = await fetchText(fallbackPath);
+            body.innerHTML = "";
+            const links = document.createElement("div");
+            links.className = "links";
+            links.append(linkPill(fallbackPath, "Open source markdown"));
+            body.append(links, renderMarkdown(markdown));
+          } else {
+            body.innerHTML = `<div class="empty">${esc(emptyText || "No content found.")}</div>`;
+          }
+        } catch (error) {
+          console.warn(error);
+          body.innerHTML = `<div class="empty">${esc(emptyText || "No content found.")}</div>`;
+        }
+      });
+
+      return details;
+    }
+
+    function renderManifestSection(section, base, source) {
+      const body = document.createDocumentFragment();
+
+      const links = document.createElement("div");
+      links.className = "links";
+      if (isUsableSectionMp3(section)) {
+        const mp3 = base + section.mp3;
+        links.append(playButton(mp3, section.title || "Section MP3"));
+        links.append(downloadPill(mp3, "Download section MP3"));
+      }
+      if (section.wav) links.append(downloadPill(base + section.wav, "Download section WAV"));
+      if (source) links.append(linkPill(source, "Open source"));
+      body.append(links);
+
+      if (isUsableSectionMp3(section)) {
+        body.append(audio(base + section.mp3, "Section audio"));
+      }
+
+      const paragraphs = document.createElement("div");
+      paragraphs.className = "paragraphs";
+
+      for (const paragraph of section.paragraphs || []) {
+        const para = document.createElement("div");
+        para.className = "para";
+        const text = paragraph.text || paragraph.ttsText || "";
+        para.innerHTML = `
+          <div class="kind">${esc(paragraph.kind || "paragraph")}${paragraph.durationSeconds ? ` · ${esc(seconds(paragraph.durationSeconds))}` : ""}</div>
+          <div ${paragraph.kind === "ayah_reference" ? 'class="arabic"' : ""}>${esc(text)}</div>
+        `;
+        if (paragraph.mp3) {
+          const paragraphMp3 = base + paragraph.mp3;
+          const paragraphLinks = document.createElement("div");
+          paragraphLinks.className = "links";
+          paragraphLinks.append(
+            playButton(paragraphMp3, `Paragraph ${paragraph.paragraphIndex || ""} MP3`),
+            downloadPill(paragraphMp3, "Download paragraph MP3")
+          );
+          para.append(paragraphLinks, audio(paragraphMp3, `Paragraph ${paragraph.paragraphIndex || ""} audio`));
+        }
+        paragraphs.append(para);
+      }
+
+      if (paragraphs.children.length) body.append(paragraphs);
+      else {
+        const empty = document.createElement("div");
+        empty.className = "empty";
+        empty.textContent = "No paragraph text found.";
+        body.append(empty);
+      }
+      return body;
+    }
+
+    function audio(src, label) {
+      const player = document.createElement("audio");
+      player.controls = true;
+      player.controlsList = "nodownload";
+      player.preload = "none";
+      player.src = src;
+      player.setAttribute("aria-label", label);
+      return player;
+    }
+
+    function linkPill(href, label) {
+      const a = document.createElement("a");
+      a.className = "link-pill";
+      a.href = href;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = label;
+      return a;
+    }
+
+    function downloadPill(href, label) {
+      const a = linkPill(href, label);
+      a.removeAttribute("target");
+      a.removeAttribute("rel");
+      a.download = fileNameFromPath(href);
+      return a;
+    }
+
+    function playButton(src, label) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "action-button";
+      button.textContent = `Play ${label}`;
+      button.addEventListener("click", () => playInPage(src, label));
+      return button;
+    }
+
+    async function playInPage(src, label) {
+      const bar = document.getElementById("playerBar");
+      const player = document.getElementById("pagePlayer");
+      const current = document.getElementById("downloadCurrentMp3");
+      document.getElementById("nowPlaying").textContent = label;
+      current.href = src;
+      current.download = fileNameFromPath(src);
+      player.src = src;
+      bar.hidden = false;
+
+      try {
+        await player.play();
+      } catch {
+        status("MP3 loaded in the page player. Press the player’s play button if the browser blocked autoplay.");
+      }
+    }
+
+    function configureDownloadAll(n, manifests) {
+      const button = document.getElementById("downloadAllMp3");
+      const note = document.getElementById("downloadStatus");
+      const downloads = manifests ? collectMp3Downloads(n, manifests) : [];
+      button.disabled = downloads.length === 0;
+      button.textContent = downloads.length
+        ? `Download all MP3 ZIP for S${pad3(n)}`
+        : `Download all MP3 ZIP for S${pad3(n)}`;
+      note.textContent = downloads.length
+        ? `${downloads.length} manifest MP3 targets. The ZIP builder skips missing files.`
+        : "";
+      button.onclick = () => downloadAllMp3(downloads);
+    }
+
+    async function downloadAllMp3(downloads) {
+      if (!downloads.length) return;
+      const button = document.getElementById("downloadAllMp3");
+      const note = document.getElementById("downloadStatus");
+      const surah = state.selected ? `S${pad3(state.selected)}` : "surah";
+      button.disabled = true;
+      note.textContent = `Building ZIP: 0 / ${downloads.length}`;
+
+      try {
+        const entries = [];
+        let skipped = 0;
+
+        for (let index = 0; index < downloads.length; index++) {
+          const item = downloads[index];
+          note.textContent = `Building ZIP: ${index + 1} / ${downloads.length}`;
+
+          try {
+            const response = await fetch(item.href);
+            if (!response.ok) {
+              skipped++;
+              continue;
+            }
+            entries.push({
+              name: item.filename,
+              data: new Uint8Array(await response.arrayBuffer())
+            });
+          } catch {
+            skipped++;
+          }
+        }
+
+        if (!entries.length) {
+          note.textContent = "No downloadable MP3 files were found.";
+          return;
+        }
+
+        const zip = buildZip(entries);
+        const href = URL.createObjectURL(zip);
+        triggerDownload(href, `${surah}-mp3.zip`);
+        window.setTimeout(() => URL.revokeObjectURL(href), 30000);
+        note.textContent = `ZIP ready: ${entries.length} MP3 files${skipped ? `, ${skipped} missing files skipped` : ""}.`;
+      } finally {
+        button.disabled = false;
+      }
+    }
+
+    function triggerDownload(href, filename) {
+      const a = document.createElement("a");
+      a.href = href;
+      a.download = filename;
+      a.style.display = "none";
+      document.body.append(a);
+      a.click();
+      a.remove();
+    }
+
+    function buildZip(entries) {
+      const parts = [];
+      const central = [];
+      let offset = 0;
+
+      for (const entry of entries) {
+        const name = new TextEncoder().encode(entry.name);
+        const crc = crc32(entry.data);
+        const local = zipLocalHeader(name, entry.data.length, crc);
+        parts.push(local, entry.data);
+        central.push(zipCentralHeader(name, entry.data.length, crc, offset));
+        offset += local.length + entry.data.length;
+      }
+
+      const centralOffset = offset;
+      let centralSize = 0;
+      for (const header of central) {
+        parts.push(header);
+        centralSize += header.length;
+      }
+
+      parts.push(zipEndOfCentralDirectory(entries.length, centralSize, centralOffset));
+      return new Blob(parts, { type: "application/zip" });
+    }
+
+    function zipLocalHeader(name, size, crc) {
+      const header = new Uint8Array(30 + name.length);
+      const view = new DataView(header.buffer);
+      view.setUint32(0, 0x04034b50, true);
+      view.setUint16(4, 20, true);
+      view.setUint16(6, 0x0800, true);
+      view.setUint16(8, 0, true);
+      view.setUint16(10, 0, true);
+      view.setUint16(12, 0, true);
+      view.setUint32(14, crc, true);
+      view.setUint32(18, size, true);
+      view.setUint32(22, size, true);
+      view.setUint16(26, name.length, true);
+      view.setUint16(28, 0, true);
+      header.set(name, 30);
+      return header;
+    }
+
+    function zipCentralHeader(name, size, crc, offset) {
+      const header = new Uint8Array(46 + name.length);
+      const view = new DataView(header.buffer);
+      view.setUint32(0, 0x02014b50, true);
+      view.setUint16(4, 20, true);
+      view.setUint16(6, 20, true);
+      view.setUint16(8, 0x0800, true);
+      view.setUint16(10, 0, true);
+      view.setUint16(12, 0, true);
+      view.setUint16(14, 0, true);
+      view.setUint32(16, crc, true);
+      view.setUint32(20, size, true);
+      view.setUint32(24, size, true);
+      view.setUint16(28, name.length, true);
+      view.setUint16(30, 0, true);
+      view.setUint16(32, 0, true);
+      view.setUint16(34, 0, true);
+      view.setUint16(36, 0, true);
+      view.setUint32(38, 0, true);
+      view.setUint32(42, offset, true);
+      header.set(name, 46);
+      return header;
+    }
+
+    function zipEndOfCentralDirectory(count, centralSize, centralOffset) {
+      const header = new Uint8Array(22);
+      const view = new DataView(header.buffer);
+      view.setUint32(0, 0x06054b50, true);
+      view.setUint16(4, 0, true);
+      view.setUint16(6, 0, true);
+      view.setUint16(8, count, true);
+      view.setUint16(10, count, true);
+      view.setUint32(12, centralSize, true);
+      view.setUint32(16, centralOffset, true);
+      view.setUint16(20, 0, true);
+      return header;
+    }
+
+    function crc32(data) {
+      let crc = 0xffffffff;
+      for (let index = 0; index < data.length; index++) {
+        crc = CRC_TABLE[(crc ^ data[index]) & 0xff] ^ (crc >>> 8);
+      }
+      return (crc ^ 0xffffffff) >>> 0;
+    }
+
+    const CRC_TABLE = (() => {
+      const table = new Uint32Array(256);
+      for (let n = 0; n < 256; n++) {
+        let c = n;
+        for (let k = 0; k < 8; k++) {
+          c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1;
+        }
+        table[n] = c >>> 0;
+      }
+      return table;
+    })();
+
+    function renderMarkdown(markdown) {
+      const root = document.createElement("div");
+      root.className = "md";
+      const lines = markdown.replace(/\r/g, "").split("\n");
+      let paragraph = [];
+
+      function flushParagraph() {
+        if (!paragraph.length) return;
+        const p = document.createElement("p");
+        p.textContent = paragraph.join(" ").trim();
+        root.append(p);
+        paragraph = [];
+      }
+
+      for (const line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed) {
+          flushParagraph();
+          continue;
+        }
+        const heading = trimmed.match(/^(#{1,3})\s+(.+)$/);
+        if (heading) {
+          flushParagraph();
+          const level = heading[1].length;
+          const h = document.createElement(`h${level}`);
+          h.textContent = heading[2];
+          root.append(h);
+          continue;
+        }
+        paragraph.push(trimmed.replace(/^[-*]\s+/, "• "));
+      }
+      flushParagraph();
+      return root;
+    }
+
+    document.getElementById("search").addEventListener("input", renderSurahList);
+    document.getElementById("filter").addEventListener("change", renderSurahList);
+
+    async function boot() {
+      await loadPagesInventory();
+      renderSurahList();
+      const fromHash = location.hash.match(/S?(\d{1,3})/i);
+      selectSurah(fromHash ? Number(fromHash[1]) : 12);
+    }
+
+    boot();
+  </script>
+</body>
+</html>
