@@ -1,7 +1,8 @@
 # Commentary
 
 Staged Turkish commentary artifacts copied from `../prose_generation` on
-2026-07-30.
+2026-07-30 and refreshed with editorially promoted layer-2 ayah outputs on
+2026-08-19.
 
 This directory contains finalized commentary content artifacts only. Source
 prompts, prompt manifests, packets, scripts, orchestration records, agent logs,
@@ -68,6 +69,9 @@ after the following cleanup steps:
   matching `.tr.md` copies existed;
 - normalized layer-3 surah reading Markdown filenames from
   `*.surah-reading.md` to `*.surah-reading.tr.md`.
+- copied active editorial layer-2 ayah outputs from `_commentary/outputs/`
+  while ignoring `archive/`, then normalized filenames by removing
+  `.editorial` before `.tr.md`.
 
 ## Workflows
 

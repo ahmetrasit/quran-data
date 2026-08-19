@@ -1,6 +1,6 @@
 # Commentary Handoff
 
-Date: 2026-07-30
+Date: 2026-08-19
 
 Path: `quran-data/data/commentary/`
 
@@ -34,9 +34,9 @@ Current file counts:
 
 | Area | Count | Language |
 | --- | ---: | --- |
-| `ayah/detailed/tr/` | 4,783 | Turkish Markdown |
-| `ayah/summary/tr/` | 988 | Turkish Markdown |
-| `surah/detailed/tr/` | 142 | Turkish Markdown plus JSON records |
+| `ayah/detailed/tr/` | 6,637 | Turkish Markdown |
+| `ayah/summary/tr/` | 1,137 | Turkish Markdown |
+| `surah/detailed/tr/` | 175 | Turkish Markdown plus JSON records |
 | `README.md` | 1 | English documentation |
 
 ## Ayah Detailed Commentary
@@ -55,10 +55,10 @@ File families:
 
 | Pattern | Count | Language | Contains |
 | --- | ---: | --- | --- |
-| `S_A.prose.tr.md` | 1,405 | Turkish | Reader-facing continuous ayah commentary prose. |
-| `S_A.evidence.tr.md` | 1,390 | Turkish with source refs/IDs | Evidence surface for claims in the prose, including references and traceability notes. |
-| `S_A.friction.tr.md` | 1,390 | Turkish | Ambiguities, instruction friction, caveats, and unresolved issues recorded by the writer. |
-| `S_A.index.tr.md` | 598 | Turkish with refs/IDs | Ayah-level index or navigation surface for the detailed output. |
+| `S_A.prose.tr.md` | 1,865 | Turkish | Reader-facing continuous ayah commentary prose. |
+| `S_A.evidence.tr.md` | 1,850 | Turkish with source refs/IDs | Evidence surface for claims in the prose, including references and traceability notes. |
+| `S_A.friction.tr.md` | 1,850 | Turkish | Ambiguities, instruction friction, caveats, and unresolved issues recorded by the writer. |
+| `S_A.index.tr.md` | 1,072 | Turkish with refs/IDs | Ayah-level index or navigation surface for the detailed output. |
 | `S_A.findings.tr.md` | 0 in the current imported set | Turkish if present | Findings index for readings carried by the prose. The current import path allows this type, but no normalized `.findings.tr.md` files are present in `quran-data`. |
 
 The `S_A` prefix means `surah_ayah`, for example `100_1.prose.tr.md`.
@@ -83,7 +83,7 @@ File family:
 
 | Pattern | Count | Language | Contains |
 | --- | ---: | --- | --- |
-| `S_A.prose.summary.tr.md` | 988 | Turkish | Concise ayah summary prose. |
+| `S_A.prose.summary.tr.md` | 1,137 | Turkish | Concise ayah summary prose. |
 
 The summary set is also partial. It does not cover every detailed ayah file.
 
@@ -107,9 +107,9 @@ File families:
 
 | Pattern | Count | Language | Contains |
 | --- | ---: | --- | --- |
-| `S.surah-reading.tr.md` | 45 | Turkish | Main reader-facing surah reading produced by the layer-3 workflow. |
-| `S.channel-briefs.json` | 45 | JSON keys in English; generated text Turkish | Structured channel briefs: channel IDs, hypothesis IDs, latent hinges, cross-ayah operation, reader shift, indispensable gain, and do-not-claim boundaries. |
-| `S.discovery-hypotheses.json` | 45 | JSON keys in English; generated text Turkish | Discovery hypotheses used by the layer-3 channel workflow. |
+| `S.surah-reading.tr.md` | 56 | Turkish | Main reader-facing surah reading produced by the layer-3 workflow. |
+| `S.channel-briefs.json` | 56 | JSON keys in English; generated text Turkish | Structured channel briefs: channel IDs, hypothesis IDs, latent hinges, cross-ayah operation, reader shift, indispensable gain, and do-not-claim boundaries. |
+| `S.discovery-hypotheses.json` | 56 | JSON keys in English; generated text Turkish | Discovery hypotheses used by the layer-3 channel workflow. |
 | `S.channel.json` | 4 | JSON keys in English; mixed source text/refs | Compiled channel bundle built by `build_channel_bundle.py` for selected surahs. |
 | `S.surah.channels.review.md` | 1 | Turkish | Finalized S87 channel review document. |
 | `S.surah.channels.reviewed.json` | 1 | JSON keys in English; generated text Turkish | Reviewed S87 channel data. |
@@ -154,6 +154,9 @@ Normalization performed before or during import:
   `.tr.md` counterparts were confirmed;
 - layer-3 surah readings were renamed from `*.surah-reading.md` to
   `*.surah-reading.tr.md`.
+- active editorial layer-2 outputs in `_commentary/outputs/` were promoted as
+  canonical ayah detailed commentary by copying `*.editorial.tr.md` files and
+  removing `.editorial` from the imported filenames; `archive/` was ignored.
 
 ## What Is Not Included
 
