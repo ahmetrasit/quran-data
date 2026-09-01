@@ -1,6 +1,6 @@
 # Quran Data Inventory
 
-Snapshot date: 2026-07-27
+Snapshot date: 2026-08-31
 
 This document maps the major datasets currently present in this repository. `RELEASE.json` and `manifests/` remain authoritative for the formal `2026.07.21` release. Items marked staged were copied into the repository after that release and still need release metadata, checksums, and any documented exception ledgers before a formal release tag.
 
@@ -30,7 +30,8 @@ This document maps the major datasets currently present in this repository. `REL
 | `data/analysis/ayah-activation/v12-tr-11ayah/` | V12 Turkish plus/minus-5 reader walks and frozen run metadata | `../latent_activation/v12/runs_11ayah/`, commit `f47613506937b980f2708aed73eca9ef776deb65` | 114 surahs; 114 reader-walk files; 114 `frozen_run.json` files; 232 files total | Staged separately from regular `v12-tr/` so consumers can distinguish wider-window reader evidence. |
 | `data/analysis/ayah-activation/v12-cross-run/tr/` | Compact final Turkish cross-run publication findings | `../latent_activation/_status/v12_cross_run/output/tr/`, commit `f47613506937b980f2708aed73eca9ef776deb65` | 114 `*_ayah_findings_publication.json` files | Final publication rows derived upstream from regular and plus/minus-5 V12 reader families; release metadata/checksums pending. |
 | `data/analysis/channels/network-v3/` | Network v3 generated channel outputs, path families, review files, and pericopes | `../latent_activation`, commit `f47613506937b980f2708aed73eca9ef776deb65` | 111 eligible generated-output surahs; 110 `review/reader_a_pilot.md` files; 1 pericope JSONL | Generated channel data remains candidate/evaluation material until blind review and adjudication close. The 20 path-family JSONL files that exceeded GitHub blob limits are stored as `.jsonl.gz`; all repository files are now below 100 MB. |
-| `data/analysis/inter-ayah/` | Focus-ayah 100-card TSV review outputs, provenance, and coverage ledger | `../quran-slm/inter-ayah/outputs/`, commit `9d865a4bba8d74eb7be7694d0559e0ff075946bf` | 5,604 of 6,236 focus TSV outputs copied | 632 focus outputs missing; `focus_29_55_cutoff_100.tsv:101` has a known malformed row and should be rerun upstream. Review records are not promoted semantic truth. |
+| `data/analysis/inter-ayah/` | Directional focus-ayah 100-card TSV review outputs, provenance, and coverage ledger | Initial copy from `../quran-slm/inter-ayah/outputs/`, commit `9d865a4bba8d74eb7be7694d0559e0ff075946bf`; completed in `quran-data` commit `82f5ca65ce6f664210d68ac27c63ce47221a18eb` | 6,236 of 6,236 focus TSV outputs; 923,267 schema-clean rows | Complete as evaluation records, not promoted semantic truth. |
+| `data/analysis/inter-ayah/reciprocal/` | Deterministic reciprocal-expanded per-ayah TSV projection and manifest | Built from the complete directional corpus by `scripts/analysis/build_reciprocal_inter_ayah.py` | 6,236 generated TSV documents; 1,846,572 typed records; exact hashes in `MANIFEST.json` | Mirrored rows are typed as discovery nominations, counterevidence, or self-reiterations, never target-direction judgments. Existing directional disagreements remain visible. |
 | `data/bridges/qac-furuq-v4-root-map.sqlite.gz` and `data/bridges/qac-furuq-v4-root-map.tsv` | Root-level QAC-to-furuq_v4 gateway, with bidirectional lookup views | `../latent_activation`, commit `f47613506937b980f2708aed73eca9ef776deb65` | 1,642 QAC roots; 1,647 target rows; 1,448 unique, 92 split, 102 no frozen rooted surface match | Staged, not in `RELEASE.json`; this is the required root identity gateway. Existing `data/bridges/qac-v4.sqlite.gz` remains form-level only. |
 
 ## Provenance Files
@@ -46,10 +47,14 @@ This document maps the major datasets currently present in this repository. `REL
 | `data/analysis/ayah-activation/v12-cross-run/SOURCE.md` | V12 cross-run publication provenance and copied file counts. |
 | `data/analysis/channels/network-v3/SOURCE.md` | Network v3 generated output, review, and pericope provenance. |
 | `data/analysis/inter-ayah/SOURCE.md` | Inter-ayah focus TSV copy provenance and status. |
-| `data/analysis/inter-ayah/COVERAGE.md` | Missing inter-ayah focus outputs and known malformed TSV row. |
+| `data/analysis/inter-ayah/COVERAGE.md` | Complete directional coverage and reciprocal-projection boundary. |
+| `data/analysis/inter-ayah/reciprocal/README.md` | Reciprocal derivation, format, and consumer rules. |
+| `data/analysis/inter-ayah/reciprocal/MANIFEST.json` | Deterministic source/output hashes and reciprocal coverage counts. |
+| `schemas/inter-ayah-row-reciprocal.md` | Typed directional, reciprocal, self-link, range, and consumer contract. |
 | `data/bridges/qac-furuq-v4-root-map-SOURCE.md` | QAC-to-furuq_v4 root gateway provenance, coverage, checksums, and usage boundary. |
 | `schemas/qac-furuq-v4-root-map.md` | Root gateway schema and consumer rules. |
 | `scripts/bridges/build_qac_furuq_root_map_db.py` | Reproducible builder for `qac-furuq-v4-root-map.sqlite`. |
+| `scripts/analysis/build_reciprocal_inter_ayah.py` | Reproducible builder and checker for reciprocal inter-ayah documents. |
 
 ## Release Boundary
 

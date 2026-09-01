@@ -1,6 +1,6 @@
 # Production roadmap
 
-Status: 2026-07-27
+Status: 2026-08-31
 
 For the complete cross-repository audit and verification record, read
 [`STATUS.md`](STATUS.md). `RELEASE.json` remains the authority for what is
@@ -17,9 +17,9 @@ On 2026-07-27, the first post-`2026.07.21` canonical imports were staged in `qur
 - Turkish translation glosses: 1,572 reviewed JSON files under `data/translation/glosses/locales/tr/`;
 - Turkish V12 ayah activation/publication support: 114 surahs plus full-context packets/control directories and 6 focus runs under `data/analysis/ayah-activation/v12-tr/`;
 - network v3 generated channel outputs: 111 eligible surahs plus 110 review files and pericopes under `data/analysis/channels/network-v3/`;
-- inter-ayah focus review TSVs: 5,604 of 6,236 focus outputs under `data/analysis/inter-ayah/`.
+- inter-ayah focus review TSVs: all 6,236 directional outputs under `data/analysis/inter-ayah/`, plus reciprocal-expanded traversal documents under `data/analysis/inter-ayah/reciprocal/`.
 
-These staged imports are not yet a formal release. The next release work is validation, explicit exception ledgers, `RELEASE.json`, coverage/provenance manifests, checksums, and a release tag. Network v3 remains generated candidate data until blind review and adjudication close. Inter-ayah focus reviews remain partial until the 632 missing TSVs are produced and `focus_29_55_cutoff_100.tsv` is rerun.
+These staged imports are not yet a formal release. The next release work is validation, explicit exception ledgers, `RELEASE.json`, coverage/provenance manifests, checksums, and a release tag. Network v3 remains generated candidate data until blind review and adjudication close. Inter-ayah file coverage is complete, but directional and reciprocal rows remain evaluation evidence until target-side review and adjudication.
 
 V11 remains the intended high-recall source for accepted, occurrence-anchored
 surah image chains. The last documented coverage is 29 surahs: S1 and
@@ -186,7 +186,7 @@ Paths are provisional until each schema is frozen.
 | Ayah activation ledger | `data/analysis/ayah-activation/` | Staged V12 support exists; formal release requires schema, join validation, manifests, checksums |
 | Surah image chains | `data/analysis/surah-image-chains/` | Accepted normalized chains for all 114 surahs with occurrence anchors |
 | Inter-surah relations | `data/relations/inter-surah/` | Reviewed relation ledger with reconstructable evidence and snapshot IDs |
-| Inter-ayah focus reviews | `data/analysis/inter-ayah/` | Complete 6,236 TSV outputs, schema-clean rows, and explicit evaluation-vs-truth boundary |
+| Inter-ayah focus reviews | `data/analysis/inter-ayah/` and `data/analysis/inter-ayah/reciprocal/` | Complete 6,236 directional and reciprocal-projection TSV outputs, schema-clean rows, deterministic provenance, and explicit evaluation-vs-truth boundary |
 | Ayah commentary | `data/commentary/ayah/` | Final prose plus references to accepted evidence |
 | Surah commentary | `data/commentary/surah/` | Final V3 synthesis for all 114 surahs plus evidence references |
 | Network snapshot registry | `manifests/network-snapshots.json` | Model, catalog, source hashes, filtering, dimensions, and build provenance |

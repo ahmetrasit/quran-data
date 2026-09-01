@@ -1,6 +1,6 @@
 # Quran Project Ecosystem Status
 
-Snapshot date: 2026-07-27
+Snapshot date: 2026-08-31
 
 This document records the latest verified state of `quran-data` and its sibling
 repositories. It is an operational status snapshot, not a new data release.
@@ -57,7 +57,7 @@ paths.
 | `word_analysis` word outputs | READY | 6,236 of 6,236 outputs validate against their bundles |
 | `latent_activation` V12 Turkish publication | COPIED to quran-data | Regular V12 support staged under `data/analysis/ayah-activation/v12-tr/`; plus/minus-5 reader walks staged under `data/analysis/ayah-activation/v12-tr-11ayah/`; final cross-run findings staged under `data/analysis/ayah-activation/v12-cross-run/tr/` with source provenance |
 | `quran-slm` engine and local networks | READY as infrastructure | Tested candidate-retrieval substrate, not accepted interpretation truth |
-| `quran-slm` inter-ayah focus reviews | PARTIAL copied | 5,604 of 6,236 focus TSV review outputs staged under `data/analysis/inter-ayah/`; 632 missing and one known malformed row |
+| `quran-slm` inter-ayah focus reviews | COMPLETE staged evaluation corpus | 6,236 of 6,236 directional TSV outputs are schema-clean under `data/analysis/inter-ayah/`; reciprocal-expanded traversal documents live under `data/analysis/inter-ayah/reciprocal/` |
 | `dictionary` Turkish entries and glosses | COPIED to quran-data | 1,679 Turkish entry JSON files and 1,572 reviewed Turkish gloss JSON files staged with source provenance |
 | `latent_activation` network v3 | GENERATED and copied | 111 eligible surah output folders, 110 review files, and pericopes staged under `data/analysis/channels/network-v3/`; still candidate data pending blind review/adjudication |
 | `quran-note-app` | BUILDABLE beta | Builds pass; lint, external Firebase configuration, and emulator tests remain |
@@ -91,12 +91,12 @@ Staged but not yet reflected in `RELEASE.json`, manifests, checksums, and a rele
 - V12 plus/minus-5 reader walks, 114 surahs under `data/analysis/ayah-activation/v12-tr-11ayah/`;
 - V12 cross-run publication findings, 114 Turkish per-surah JSON files under `data/analysis/ayah-activation/v12-cross-run/tr/`;
 - network v3 generated candidate outputs, 111 eligible surahs plus 110 review files and pericopes under `data/analysis/channels/network-v3/`;
-- inter-ayah focus review outputs, 5,604 TSVs under `data/analysis/inter-ayah/` with 632 missing outputs documented.
+- inter-ayah focus review outputs, 6,236 directional TSVs plus a deterministic reciprocal-expanded projection under `data/analysis/inter-ayah/reciprocal/`.
 
 Still not release-ready:
 
 - accepted network/channel synthesis after blind review and adjudication;
-- inter-surah relations;
+- accepted inter-surah relation adjudication beyond the reciprocal review-evidence projection;
 - integrated ayah or surah commentary;
 - app-specific product exports.
 
@@ -185,12 +185,16 @@ Boundary:
 - they do not establish occurrence-to-sense assignments, accepted channels, or
   commentary claims by themselves.
 
-Inter-ayah focus review outputs were partially copied on 2026-07-27:
+Inter-ayah focus review outputs were initially copied on 2026-07-27 and later
+completed in the repository:
 
-- 5,604 existing `focus_*_cutoff_100.tsv` files are staged in `quran-data/data/analysis/inter-ayah/`;
-- 632 focus outputs are still missing against the 6,236 upstream input dossiers;
-- `focus_29_55_cutoff_100.tsv:101` has 2 tab-separated fields instead of the expected 3 and should be rerun upstream;
-- the staged files are review/evaluation records, not promoted semantic ground truth.
+- all 6,236 `focus_*_cutoff_100.tsv` files are staged in `quran-data/data/analysis/inter-ayah/`;
+- all 923,267 directional rows have three tab-separated fields;
+- the earlier malformed `focus_29_55_cutoff_100.tsv` row is no longer present;
+- `data/analysis/inter-ayah/reciprocal/` supplies a deterministic per-ayah view in which every same- or cross-surah source row is discoverable from both endpoints;
+- inherited labels are typed nomination, counterevidence, or self-reiteration metadata, not reverse-direction judgments;
+- its 6,236 generated documents contain 923,286 directional plus 923,286 mirrored records, and the committed manifest binds every document by hash and count;
+- all staged files remain review/evaluation records, not promoted semantic ground truth.
 
 ### `dictionary`
 
@@ -335,7 +339,7 @@ contract.
 1. Validate the July 27 staged imports and decide the next release ID.
 2. Update `RELEASE.json`, `manifests/coverage.json`, `manifests/provenance.json`, and `CHECKSUMS.sha256` for the staged dictionary, gloss, activation, and any accepted analysis payloads chosen for release.
 3. Record explicit exceptions for the 107 Turkish entry envelopes without copied Turkish gloss results.
-4. Complete the remaining 632 inter-ayah focus outputs and rerun `focus_29_55_cutoff_100.tsv` before treating that corpus as complete.
+4. Review and adjudicate reciprocal inter-ayah nominations and counterevidence before promoting any relation into an accepted inter-surah ledger.
 5. Finish network v3 blind review/adjudication before treating generated channel outputs as accepted interpretation data.
 6. Make the iOS pack builder consume released or configurable inputs, then produce a reviewed S001 plus S096 vertical slice without draft content.
 7. Build the first integrated Turkish prose slice for S103, with a closed source-finding and placement audit.
