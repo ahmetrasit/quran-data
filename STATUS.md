@@ -1,10 +1,10 @@
 # Quran Project Ecosystem Status
 
-Snapshot date: 2026-08-31
+Snapshot date: 2026-09-02
 
 This document records the latest verified state of `quran-data` and its sibling
 repositories. It is an operational status snapshot, not a new data release.
-The current release remains `2026.07.21`; use `RELEASE.json`,
+The current release is `2026.09.02`; use `RELEASE.json`,
 `manifests/coverage.json`, and `manifests/provenance.json` for the exact released
 payload.
 
@@ -53,7 +53,7 @@ paths.
 
 | Repository or artifact | State | Current conclusion |
 | --- | --- | --- |
-| `quran-data` release `2026.07.21` | READY, local release | Current payload is complete and checksum-valid |
+| `quran-data` release `2026.09.02` | READY, pushed release commit | Current payload, including the QAC-first MASAQ bridge, is complete and checksum-valid |
 | `word_analysis` word outputs | READY | 6,236 of 6,236 outputs validate against their bundles |
 | `latent_activation` V12 Turkish publication | COPIED to quran-data | Regular V12 support staged under `data/analysis/ayah-activation/v12-tr/`; plus/minus-5 reader walks staged under `data/analysis/ayah-activation/v12-tr-11ayah/`; final cross-run findings staged under `data/analysis/ayah-activation/v12-cross-run/tr/` with source provenance |
 | `quran-slm` engine and local networks | READY as infrastructure | Tested candidate-retrieval substrate, not accepted interpretation truth |
@@ -70,7 +70,7 @@ the production word-analysis corpus, the staged Turkish dictionary/gloss payload
 
 ## Current Quran Data Release
 
-Release: `2026.07.21`
+Release: `2026.09.02`
 
 Released:
 
@@ -78,6 +78,7 @@ Released:
 - QAC morphology and indexes;
 - V4 dictionary and positive handles;
 - QAC-to-V4 bridge;
+- QAC-first MASAQ, word-analysis, and attachment occurrence bridge;
 - Furuq/V4 lexical database;
 - reviewed attachment enrichment `final_v3`, all 114 surahs;
 - reviewed contextual profiles `final_v3`, all 114 surahs;
@@ -102,8 +103,7 @@ Still not release-ready:
 
 Repository release operations still pending:
 
-- configure a Git remote for `quran-data`;
-- create a release tag for `2026.07.21`;
+- create and push a release tag for `2026.09.02`;
 - define the next release ID only when a new dataset is actually promoted.
 
 ## Source Repository Status

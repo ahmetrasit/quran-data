@@ -17,8 +17,8 @@ This document maps the major datasets currently present in this repository. `REL
 | `data/analysis/word-analysis/` | Production word analysis for all 6,236 ayahs | Released | Formal release payload. |
 | `schemas/` | Public schema notes for released data | Released support | Schema docs, not a data payload. |
 | `manifests/` | Release coverage and provenance manifests | Released metadata | Does not yet include July 27 staged imports. |
-| `RELEASE.json` | Release manifest for `2026.07.21` | Released metadata | Does not yet include July 27 staged imports. |
-| `CHECKSUMS.sha256` | Release checksums | Released metadata | Needs regeneration before promoting staged imports. |
+| `RELEASE.json` | Release manifest for `2026.09.02` | Released metadata | Includes the QAC-first MASAQ/analysis/attachment bridge; unrelated staged imports remain outside the release. |
+| `CHECKSUMS.sha256` | Checksums for the `2026.09.02` release payload and supporting metadata | Released metadata | Regenerate when another staged dataset is promoted. |
 
 ## Staged Imports: 2026-07-27
 

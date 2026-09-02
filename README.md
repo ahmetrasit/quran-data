@@ -23,6 +23,20 @@ Released in `RELEASE.json`:
 - production word analysis for all 6,236 ayahs (95,304 source records; 95,303
   accepted reader records after one reviewed duplicate exclusion)
 
+## QAC-first linguistic mapping
+
+The canonical all-Quran mapping artifact is
+[`data/bridges/qac-masaq.sqlite.gz`](data/bridges/qac-masaq.sqlite.gz). Use its
+`qac_links` view for uniform typed QAC links, `accepted_masaq_qac_edges` for
+MASAQ-to-QAC spans, `analysis_qac_edges` for word-analysis links, and
+`attachment_qac_edges` for occurrence-and-role-specific attachment links.
+
+See the [bridge guide](data/bridges/qac-masaq/README.md), the
+[schema and consumer contract](schemas/qac-masaq.md), and the
+[release audit](data/bridges/qac-masaq-audit.json). Only commentary tags with
+explicit typed references can participate in this mapping; surface-only tags
+remain outside the canonical link graph.
+
 ## Staged imports
 
 Copied on 2026-07-27, with per-folder provenance, but not yet folded into a new
@@ -64,7 +78,7 @@ not release-ready.
 4. No raw experiments or manually edited compiled data.
 5. Stable occurrence joins use `qac_ref`, `branch_id`, and `ayah_ref`.
 6. Root-level QAC-to-furuq_v4 joins must use `data/bridges/qac-furuq-v4-root-map.sqlite.gz`; `data/bridges/qac-v4.sqlite.gz` is form-level and must not be used as a root identity gateway.
-7. Arabic occurrence joins to MASAQ, word analysis, attachments, and tagged commentary use four-part QAC morpheme refs through `data/bridges/qac-masaq.sqlite.gz`; three-part source refs are never QAC aliases.
+7. Arabic occurrence joins to MASAQ, word analysis, attachments, and explicitly referenced commentary tags use four-part QAC morpheme refs through `data/bridges/qac-masaq.sqlite.gz`; three-part source refs are never QAC aliases.
 
 SQLite and JSONL payloads are compressed. Use `gzip -dk` for `.gz` and
 `zstd -dk` for `.zst` files.

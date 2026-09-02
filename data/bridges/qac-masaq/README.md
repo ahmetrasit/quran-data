@@ -6,6 +6,33 @@ morpheme reference (`S:A:W:M`) the canonical Arabic occurrence key. Grammar
 units, MASAQ segments, released word-analysis records, and attachment aliases
 retain separate typed identities and connect to QAC through explicit edges.
 
+## Consumer Entry Points
+
+- Use `qac_links` for a uniform inverse or forward lookup across the
+  `grammar-unit`, `masaq-segment`, `word-analysis`, and `attachment-endpoint`
+  namespaces.
+- Use `accepted_masaq_qac_edges` for direct MASAQ-to-QAC spans and
+  `analysis_qac_edges` for released word-analysis-to-QAC spans.
+- Use `attachment_qac_edges`, not the generic unit projection, when attachment
+  occurrence, endpoint role, part, carrier rule, or review provenance matters.
+- Use `excluded_attachment_endpoints` and `word_analysis_units.relation_status`
+  when auditing complete accepted-plus-excluded source accounting.
+
+For example, a canonical QAC unit can be resolved to every linked source unit
+without assuming one-to-one cardinality:
+
+```sql
+SELECT source_namespace, source_ref, link_group_id, target_order
+FROM qac_links
+WHERE qac_morpheme_ref = ?
+ORDER BY source_namespace, source_ref, target_order;
+```
+
+Consumers must verify the artifact checksum, `PRAGMA user_version = 4`, and the
+release metadata before querying it. See `schemas/qac-masaq.md` for the complete
+table/view contract and `data/bridges/qac-masaq-audit.json` for release counts.
+Surface-only commentary tags are intentionally not mapped by this artifact.
+
 ## Inputs
 
 - `source-units.tsv.gz` is a deterministic projection of the pinned Quran Roots
