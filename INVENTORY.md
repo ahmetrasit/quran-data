@@ -1,17 +1,17 @@
 # Quran Data Inventory
 
-Snapshot date: 2026-08-31
+Snapshot date: 2026-09-02
 
-This document maps the major datasets currently present in this repository. `RELEASE.json` and `manifests/` remain authoritative for the formal `2026.07.21` release. Items marked staged were copied into the repository after that release and still need release metadata, checksums, and any documented exception ledgers before a formal release tag.
+This document maps the major datasets currently present in this repository. `RELEASE.json` and `manifests/` remain authoritative for the formal `2026.09.02` release. Items marked staged still need release metadata, checksums, and any documented exception ledgers before a formal release tag.
 
-## Release Payload: 2026.07.21
+## Release Payload: 2026.09.02
 
 | Path | What exists | Status | Notes |
 | --- | --- | --- | --- |
 | `data/text/` | Quran text tables | Released | Formal release payload. |
 | `data/morphology/` | QAC morphology database and indexes | Released | Formal release payload. |
 | `data/lexicon/` | V4, positive handles, Furuq lexical data | Released | Formal release payload. |
-| `data/bridges/` | QAC-to-V4 bridge | Released | Formal release payload. |
+| `data/bridges/` | QAC-to-V4 bridge and QAC-first MASAQ/word-analysis occurrence bridge | Released | The QAC/MASAQ bridge includes explicit many-to-many edges and reviewed exception ledgers. |
 | `data/grammar/attachments/` | Reviewed attachment enrichment `final_v3` | Released | Formal release payload. |
 | `data/grammar/contextual/` | Reviewed contextual profiles `final_v3` | Released | Formal release payload. |
 | `data/analysis/word-analysis/` | Production word analysis for all 6,236 ayahs | Released | Formal release payload. |
@@ -55,6 +55,10 @@ This document maps the major datasets currently present in this repository. `REL
 | `schemas/qac-furuq-v4-root-map.md` | Root gateway schema and consumer rules. |
 | `scripts/bridges/build_qac_furuq_root_map_db.py` | Reproducible builder for `qac-furuq-v4-root-map.sqlite`. |
 | `scripts/analysis/build_reciprocal_inter_ayah.py` | Reproducible builder and checker for reciprocal inter-ayah documents. |
+| `data/bridges/qac-masaq/README.md` | QAC/MASAQ source promotion, grammar/QAC, segment/QAC, and attachment review ledgers, build commands, and consumption boundary. |
+| `schemas/qac-masaq.md` | QAC-first identity model, SQLite tables, accepted views, and cardinality contract. |
+| `scripts/bridges/import_qac_masaq_source.py` | Deterministic projection of the pinned source plus reviewed trace corrections. |
+| `scripts/bridges/build_qac_masaq_bridge.py` | Deterministic all-Quran graph builder and audit gate. |
 
 ## Release Boundary
 

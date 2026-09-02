@@ -5,6 +5,11 @@ Root-level QAC-to-furuq_v4 joins must use
 `schemas/qac-furuq-v4-root-map.md`. The older `qac-v4` bridge is form-level and
 must not be used for root identity resolution.
 
+QAC-to-MASAQ, word-analysis, and attachment occurrence joins must use
+`data/bridges/qac-masaq.sqlite.gz`; see `schemas/qac-masaq.md`. Four-part QAC
+morpheme refs are canonical, while all three-part source refs remain typed
+namespaces.
+
 Per-ayah reciprocal inter-ayah traversal uses
 `data/analysis/inter-ayah/reciprocal/`; see
 `schemas/inter-ayah-row-reciprocal.md`. This typed projection replaces, rather
@@ -18,6 +23,7 @@ than concatenates with, the parent directional TSVs for traversal consumers.
 - Word-analysis files contain one complete `word-analysis-output-v2` JSON
   object per line, ordered by ayah within each surah.
 
-Canonical occurrence join keys are `ayah_ref`, `qac_ref`, and `branch_id`.
+Canonical occurrence join keys are `ayah_ref`, four-part `qac_ref`, and
+`branch_id`.
 Canonical root-level QAC/furuq_v4 joins go through the QAC-to-furuq_v4 root
 gateway, not through raw root string equality.

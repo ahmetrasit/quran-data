@@ -1,5 +1,5 @@
 {
-  "release_id": "2026.07.21",
+  "release_id": "2026.09.02",
   "sources": {
     "quran-roots": {
       "repository": "/Volumes/OZTURK/_projects/quran-roots",
@@ -12,7 +12,8 @@
         "qac_v4_bridge": "_corpus/qac_v4/qac_v4_form_bridge.sqlite.gz",
         "furuq": "_corpus/furuq/v2/furuq_v4.sqlite",
         "attachments": "_corpus/attachment-enrichment/output/final_v3/",
-        "contextual_profiles": "_corpus/contextual/output/final_v3_profiles/"
+        "contextual_profiles": "_corpus/contextual/output/final_v3_profiles/",
+        "qac_masaq_source": "_corpus/sources/frozen/corpus.tsv.gz"
       }
     },
     "word_analysis": {
@@ -21,6 +22,18 @@
       "artifact": "outputs/production/*.json",
       "selection": "exactly 6,236 canonical ayah files",
       "validation": "owner-confirmed production-ready"
+    },
+    "qac_masaq_bridge": {
+      "builder": "scripts/bridges/build_qac_masaq_bridge.py",
+      "source_projection": "data/bridges/qac-masaq/source-units.tsv.gz",
+      "source_manifest": "data/bridges/qac-masaq/SOURCE.json",
+      "grammar_masaq_reviews": "data/bridges/qac-masaq/reviewed-trace-decisions.tsv",
+      "grammar_qac_reviews": "data/bridges/qac-masaq/reviewed-decisions.tsv",
+      "masaq_qac_reviews": "data/bridges/qac-masaq/reviewed-masaq-qac-decisions.tsv",
+      "attachment_reviews": "data/bridges/qac-masaq/reviewed-attachment-decisions.tsv",
+      "attachments": "data/grammar/attachments/attachments.tsv",
+      "canonical_unit": "QAC morpheme S:A:W:M",
+      "status": "accepted"
     }
   },
   "excluded": [

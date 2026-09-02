@@ -8,7 +8,7 @@ remain in their source repositories.
 
 ## Current release
 
-`2026.07.21`
+`2026.09.02`
 
 Released in `RELEASE.json`:
 
@@ -16,10 +16,12 @@ Released in `RELEASE.json`:
 - QAC morphology and indexes
 - V4 dictionary and positive handles
 - QAC-to-V4 bridge
+- QAC-first MASAQ, word-analysis, and attachment occurrence bridge
 - completed Furuq database
 - reviewed attachment enrichment `final_v3`
 - reviewed contextual profiles `final_v3`
-- production word analysis for all 6,236 ayahs
+- production word analysis for all 6,236 ayahs (95,304 source records; 95,303
+  accepted reader records after one reviewed duplicate exclusion)
 
 ## Staged imports
 
@@ -62,6 +64,7 @@ not release-ready.
 4. No raw experiments or manually edited compiled data.
 5. Stable occurrence joins use `qac_ref`, `branch_id`, and `ayah_ref`.
 6. Root-level QAC-to-furuq_v4 joins must use `data/bridges/qac-furuq-v4-root-map.sqlite.gz`; `data/bridges/qac-v4.sqlite.gz` is form-level and must not be used as a root identity gateway.
+7. Arabic occurrence joins to MASAQ, word analysis, attachments, and tagged commentary use four-part QAC morpheme refs through `data/bridges/qac-masaq.sqlite.gz`; three-part source refs are never QAC aliases.
 
 SQLite and JSONL payloads are compressed. Use `gzip -dk` for `.gz` and
 `zstd -dk` for `.zst` files.

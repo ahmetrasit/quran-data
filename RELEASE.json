@@ -1,6 +1,6 @@
 {
-  "release_id": "2026.07.21",
-  "released_on": "2026-07-21",
+  "release_id": "2026.09.02",
+  "released_on": "2026-09-02",
   "policy": "canonical-final-only",
   "datasets": [
     {
@@ -26,6 +26,11 @@
     {
       "id": "qac_v4_bridge",
       "path": "data/bridges/qac-v4.sqlite.gz",
+      "format": "SQLite + gzip"
+    },
+    {
+      "id": "qac_masaq_bridge",
+      "path": "data/bridges/qac-masaq.sqlite.gz",
       "format": "SQLite + gzip"
     },
     {

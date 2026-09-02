@@ -1,5 +1,5 @@
 {
-  "release_id": "2026.07.21",
+  "release_id": "2026.09.02",
   "datasets": {
     "quran_text": {
       "numbered_ayahs": 6236,
@@ -28,9 +28,36 @@
     "word_analysis": {
       "surahs": 114,
       "ayahs": 6236,
+      "source_records": 95304,
+      "accepted_records": 95303,
+      "excluded_source_defects": 1,
       "schema_version": "word-analysis-output-v2",
       "prompt_version": "word-aha-prose-v1.6",
       "status": "production"
+    },
+    "qac_masaq_bridge": {
+      "surahs": 114,
+      "ayahs": 6236,
+      "qac_words": 77429,
+      "qac_morphemes": 128219,
+      "qac_morphemes_linked": 127608,
+      "qac_only_morphemes": 611,
+      "grammar_units": 95511,
+      "masaq_segments": 95511,
+      "accepted_masaq_qac_edges": 127770,
+      "accepted_word_analysis_records": 95303,
+      "attachment_rows": 58427,
+      "attachment_endpoint_occurrences": 129704,
+      "accepted_attachment_endpoint_occurrences": 129702,
+      "excluded_attachment_endpoint_occurrences": 2,
+      "excluded_attachment_rows": 1,
+      "attachment_units": 74679,
+      "attachment_unit_qac_edges": 106059,
+      "attachment_qac_edges": 178587,
+      "reviewed_attachment_decisions": 13,
+      "schema_version": "qac-masaq-bridge-v1",
+      "sqlite_user_version": 4,
+      "status": "accepted"
     }
   }
 }

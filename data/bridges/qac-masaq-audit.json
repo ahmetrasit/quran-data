@@ -1,0 +1,4996 @@
+{
+  "schemaVersion": "qac-masaq-bridge-v1-audit",
+  "builderVersion": "qac-masaq-bridge-builder-2026-09-02.13",
+  "status": "accepted",
+  "source": {
+    "projectionPath": "data/bridges/qac-masaq/source-units.tsv.gz",
+    "projectionSha256": "6b425eafe6f73c3d0d420875050271530c17477a92e47aef7aeca8e710ff36e5",
+    "qacPath": "data/morphology/qac.sqlite.gz",
+    "qacSha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+    "wordAnalysisDirectory": "data/analysis/word-analysis",
+    "wordAnalysisShardCount": 114,
+    "wordAnalysisTreeSha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e",
+    "releaseManifestPath": "RELEASE.json",
+    "releaseManifestSha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+    "releaseId": "2026.09.02",
+    "upstreamCommit": "cc292f6727819620bb4e8eace0048534fab6a614",
+    "upstreamSha256": "1f01cb96265c5eb79cff5b87aa8abca11436b407b0c8b196eefd6f4cd8f2d59a",
+    "reviewedTraceDecisions": {
+      "path": "data/bridges/qac-masaq/reviewed-trace-decisions.tsv",
+      "sha256": "a2458c159d0f7628fbd5c9e61aecf2cf32bc826ac8ce88469c6e79163135fc6e",
+      "count": 15
+    }
+  },
+  "counts": {
+    "ayahs": 6236,
+    "qacWords": 77429,
+    "qacMorphemes": 128219,
+    "qacMorphemesLinked": 127608,
+    "qacMorphemesUnlinked": 611,
+    "grammarUnits": 95511,
+    "grammarQacEdges": 127772,
+    "wordAnalysisUnits": 95304,
+    "acceptedWordAnalysisUnits": 95303,
+    "excludedWordAnalysisUnits": 1,
+    "analysisQacEdges": 127539,
+    "masaqSegments": 95511,
+    "grammarMasaqEdges": 95512,
+    "acceptedGrammarMasaqEdges": 95512,
+    "masaqQacPaths": 127770,
+    "acceptedMasaqQacPaths": 127770,
+    "acceptedMasaqQacEdges": 127770,
+    "attachmentEndpointOccurrences": 129704,
+    "acceptedAttachmentEndpointOccurrences": 129702,
+    "excludedAttachmentEndpointOccurrences": 2,
+    "attachmentUnits": 74679,
+    "attachmentUnitQacEdges": 106059,
+    "attachmentQacEdges": 178587
+  },
+  "traceStatusCounts": {
+    "approved-exception": 38,
+    "approved-rule": 13200,
+    "exact": 82229,
+    "rejected-source-defect": 1,
+    "reviewed-alignment": 43
+  },
+  "unreviewedTraceRefs": [],
+  "relationCardinality": {
+    "qacGrammarDegreeCounts": {
+      "0": 611,
+      "1": 127447,
+      "2": 159,
+      "3": 2
+    },
+    "grammarQacSpanSizeCounts": {
+      "1": 64878,
+      "2": 29041,
+      "3": 1556,
+      "4": 36
+    }
+  },
+  "unlinkedQac": {
+    "categoryCounts": {
+      "PREFIX:DET": 2,
+      "PREFIX:FUT": 2,
+      "PREFIX:IMPV": 2,
+      "PREFIX:INTG": 48,
+      "PREFIX:SUP": 9,
+      "STEM:N": 36,
+      "STEM:NEG": 3,
+      "STEM:P": 8,
+      "STEM:PN": 3,
+      "STEM:PRO": 2,
+      "STEM:PRON": 183,
+      "STEM:REL": 48,
+      "STEM:V": 37,
+      "SUFFIX:P": 1,
+      "SUFFIX:PRON": 227
+    },
+    "units": [
+      {
+        "qacMorphemeRef": "2:3:6:3",
+        "qacWordRef": "2:3:6",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:7:10:3",
+        "qacWordRef": "2:7:10",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:10:7:3",
+        "qacWordRef": "2:10:7",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:21:10:2",
+        "qacWordRef": "2:21:10",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:25:28:3",
+        "qacWordRef": "2:25:28",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:26:30:2",
+        "qacWordRef": "2:26:30",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:26:33:2",
+        "qacWordRef": "2:26:33",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:26:37:2",
+        "qacWordRef": "2:26:37",
+        "surface": "هِۦٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:36:13:3",
+        "qacWordRef": "2:36:13",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:37:8:2",
+        "qacWordRef": "2:37:8",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:41:11:2",
+        "qacWordRef": "2:41:11",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:70:13:3",
+        "qacWordRef": "2:70:13",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:71:2:2",
+        "qacWordRef": "2:71:2",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:79:18:2",
+        "qacWordRef": "2:79:18",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:79:23:2",
+        "qacWordRef": "2:79:23",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:81:6:2",
+        "qacWordRef": "2:81:6",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:83:27:2",
+        "qacWordRef": "2:83:27",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:85:23:1",
+        "qacWordRef": "2:85:23",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "2:86:9:2",
+        "qacWordRef": "2:86:9",
+        "surface": "هُمُ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:90:1:2",
+        "qacWordRef": "2:90:1",
+        "surface": "مَا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:90:3:2",
+        "qacWordRef": "2:90:3",
+        "surface": "هِۦٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:97:6:3",
+        "qacWordRef": "2:97:6",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:97:7:2",
+        "qacWordRef": "2:97:7",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:99:8:2",
+        "qacWordRef": "2:99:8",
+        "surface": "هَآ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:119:1:2",
+        "qacWordRef": "2:119:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:130:14:3",
+        "qacWordRef": "2:130:14",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:137:6:2",
+        "qacWordRef": "2:137:6",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:141:13:2",
+        "qacWordRef": "2:141:13",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:144:9:1",
+        "qacWordRef": "2:144:9",
+        "surface": "تَرْضَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:144:33:2",
+        "qacWordRef": "2:144:33",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:146:10:2",
+        "qacWordRef": "2:146:10",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:149:9:3",
+        "qacWordRef": "2:149:9",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:149:16:2",
+        "qacWordRef": "2:149:16",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:164:25:2",
+        "qacWordRef": "2:164:25",
+        "surface": "هِ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:168:13:2",
+        "qacWordRef": "2:168:13",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:173:10:2",
+        "qacWordRef": "2:173:10",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:179:7:2",
+        "qacWordRef": "2:179:7",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:185:42:1",
+        "qacWordRef": "2:185:42",
+        "surface": "هَدَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:196:23:2",
+        "qacWordRef": "2:196:23",
+        "surface": "هِۦٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:198:20:1",
+        "qacWordRef": "2:198:20",
+        "surface": "هَدَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:201:1:3",
+        "qacWordRef": "2:201:1",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:202:4:2",
+        "qacWordRef": "2:202:4",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:208:12:2",
+        "qacWordRef": "2:208:12",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:213:17:2",
+        "qacWordRef": "2:213:17",
+        "surface": "مَا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:221:38:2",
+        "qacWordRef": "2:221:38",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:231:37:2",
+        "qacWordRef": "2:231:37",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:246:16:2",
+        "qacWordRef": "2:246:16",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:246:33:2",
+        "qacWordRef": "2:246:33",
+        "surface": "نَآ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:248:27:2",
+        "qacWordRef": "2:248:27",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:249:39:2",
+        "qacWordRef": "2:249:39",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:251:12:2",
+        "qacWordRef": "2:251:12",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:252:7:3",
+        "qacWordRef": "2:252:7",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "2:254:5:2",
+        "qacWordRef": "2:254:5",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:255:13:2",
+        "qacWordRef": "2:255:13",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:258:1:1",
+        "qacWordRef": "2:258:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "2:272:3:1",
+        "qacWordRef": "2:272:3",
+        "surface": "هُدَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:273:29:2",
+        "qacWordRef": "2:273:29",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:279:11:3",
+        "qacWordRef": "2:279:11",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "2:284:16:2",
+        "qacWordRef": "2:284:16",
+        "surface": "هِ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:16:7:2",
+        "qacWordRef": "3:16:7",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:23:1:1",
+        "qacWordRef": "3:23:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "3:23:18:2",
+        "qacWordRef": "3:23:18",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:26:11:1",
+        "qacWordRef": "3:26:11",
+        "surface": "مِ",
+        "pos": "P",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:26:21:2",
+        "qacWordRef": "3:26:21",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:31:10:2",
+        "qacWordRef": "3:31:10",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:45:9:2",
+        "qacWordRef": "3:45:9",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:50:6:2",
+        "qacWordRef": "3:50:6",
+        "surface": "تَّوْرَىٰةِ",
+        "pos": "PN",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:55:5:2",
+        "qacWordRef": "3:55:5",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:55:27:2",
+        "qacWordRef": "3:55:27",
+        "surface": "مَا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:72:16:2",
+        "qacWordRef": "3:72:16",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:75:24:3",
+        "qacWordRef": "3:75:24",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:77:25:3",
+        "qacWordRef": "3:77:25",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:81:18:2",
+        "qacWordRef": "3:81:18",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:83:1:1",
+        "qacWordRef": "3:83:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "3:83:5:3",
+        "qacWordRef": "3:83:5",
+        "surface": "هُۥٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:101:8:3",
+        "qacWordRef": "3:101:8",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:110:20:2",
+        "qacWordRef": "3:110:20",
+        "surface": "هُمُ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:112:22:3",
+        "qacWordRef": "3:112:22",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:120:9:2",
+        "qacWordRef": "3:120:9",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:128:11:3",
+        "qacWordRef": "3:128:11",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:144:10:1",
+        "qacWordRef": "3:144:10",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "3:144:25:2",
+        "qacWordRef": "3:144:25",
+        "surface": "سَ",
+        "pos": "FUT",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "3:145:16:2",
+        "qacWordRef": "3:145:16",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:145:22:2",
+        "qacWordRef": "3:145:22",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:148:1:2",
+        "qacWordRef": "3:148:1",
+        "surface": "ـَٔاتَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:154:24:2",
+        "qacWordRef": "3:154:24",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:160:6:2",
+        "qacWordRef": "3:160:6",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:164:8:2",
+        "qacWordRef": "3:164:8",
+        "surface": "هِمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "3:177:10:3",
+        "qacWordRef": "3:177:10",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:178:15:3",
+        "qacWordRef": "3:178:15",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:187:16:2",
+        "qacWordRef": "3:187:16",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:188:18:3",
+        "qacWordRef": "3:188:18",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:193:6:2",
+        "qacWordRef": "3:193:6",
+        "surface": "لْ",
+        "pos": "DET",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "3:193:6:3",
+        "qacWordRef": "3:193:6",
+        "surface": "إِيمَٰنِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "3:195:4:2",
+        "qacWordRef": "3:195:4",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:6:9:2",
+        "qacWordRef": "4:6:9",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:7:3:2",
+        "qacWordRef": "4:7:3",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:7:9:2",
+        "qacWordRef": "4:7:9",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:7:13:2",
+        "qacWordRef": "4:7:13",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:7:15:2",
+        "qacWordRef": "4:7:15",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:11:28:2",
+        "qacWordRef": "4:11:28",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:14:11:3",
+        "qacWordRef": "4:14:11",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:18:12:2",
+        "qacWordRef": "4:18:12",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:20:8:1",
+        "qacWordRef": "4:20:8",
+        "surface": "إِحْدَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:26:4:2",
+        "qacWordRef": "4:26:4",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:29:15:2",
+        "qacWordRef": "4:29:15",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:32:6:2",
+        "qacWordRef": "4:32:6",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:32:12:2",
+        "qacWordRef": "4:32:12",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:32:16:2",
+        "qacWordRef": "4:32:16",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:36:5:2",
+        "qacWordRef": "4:36:5",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:41:9:2",
+        "qacWordRef": "4:41:9",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:49:1:1",
+        "qacWordRef": "4:49:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "4:50:8:2",
+        "qacWordRef": "4:50:8",
+        "surface": "هِۦٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:51:1:1",
+        "qacWordRef": "4:51:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "4:52:3:2",
+        "qacWordRef": "4:52:3",
+        "surface": "هُمُ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:60:1:1",
+        "qacWordRef": "4:60:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "4:77:10:2",
+        "qacWordRef": "4:77:10",
+        "surface": "صَّلَوٰةَ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:77:12:2",
+        "qacWordRef": "4:77:12",
+        "surface": "زَّكَوٰةَ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:78:30:3",
+        "qacWordRef": "4:78:30",
+        "surface": "لِ",
+        "pos": "P",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:82:1:1",
+        "qacWordRef": "4:82:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "4:92:28:2",
+        "qacWordRef": "4:92:28",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:97:3:1",
+        "qacWordRef": "4:97:3",
+        "surface": "تَوَفَّىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:97:24:1",
+        "qacWordRef": "4:97:24",
+        "surface": "مَأْوَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:102:9:2",
+        "qacWordRef": "4:102:9",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:105:1:2",
+        "qacWordRef": "4:105:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:105:10:1",
+        "qacWordRef": "4:105:10",
+        "surface": "أَرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:112:8:2",
+        "qacWordRef": "4:112:8",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:114:6:1",
+        "qacWordRef": "4:114:6",
+        "surface": "نَّجْوَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:118:1:2",
+        "qacWordRef": "4:118:1",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:118:6:2",
+        "qacWordRef": "4:118:6",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:121:2:1",
+        "qacWordRef": "4:121:2",
+        "surface": "مَأْوَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:123:11:2",
+        "qacWordRef": "4:123:11",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:123:14:2",
+        "qacWordRef": "4:123:14",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:125:4:1",
+        "qacWordRef": "4:125:4",
+        "surface": "مِّ",
+        "pos": "P",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:141:6:2",
+        "qacWordRef": "4:141:6",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:154:17:2",
+        "qacWordRef": "4:154:17",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:163:1:2",
+        "qacWordRef": "4:163:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "4:170:11:2",
+        "qacWordRef": "4:170:11",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:175:6:2",
+        "qacWordRef": "4:175:6",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "4:176:31:2",
+        "qacWordRef": "4:176:31",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "5:6:7:2",
+        "qacWordRef": "5:6:7",
+        "surface": "صَّلَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "5:20:4:3",
+        "qacWordRef": "5:20:4",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "5:23:14:3",
+        "qacWordRef": "5:23:14",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "5:50:1:1",
+        "qacWordRef": "5:50:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "6:6:1:1",
+        "qacWordRef": "6:6:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "6:17:7:2",
+        "qacWordRef": "6:17:7",
+        "surface": "هُۥٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:21:11:2",
+        "qacWordRef": "6:21:11",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "6:34:12:1",
+        "qacWordRef": "6:34:12",
+        "surface": "أَتَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:44:5:2",
+        "qacWordRef": "6:44:5",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:46:16:2",
+        "qacWordRef": "6:46:16",
+        "surface": "هِ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:52:6:3",
+        "qacWordRef": "6:52:6",
+        "surface": "غَدَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:63:12:1",
+        "qacWordRef": "6:63:12",
+        "surface": "أَنجَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:71:24:2",
+        "qacWordRef": "6:71:24",
+        "surface": "هُۥٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:80:8:1",
+        "qacWordRef": "6:80:8",
+        "surface": "هَدَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:81:13:2",
+        "qacWordRef": "6:81:13",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:99:8:2",
+        "qacWordRef": "6:99:8",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:110:7:2",
+        "qacWordRef": "6:110:7",
+        "surface": "هِۦٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:114:1:1",
+        "qacWordRef": "6:114:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "6:118:2:2",
+        "qacWordRef": "6:118:2",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:128:22:2",
+        "qacWordRef": "6:128:22",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:128:25:1",
+        "qacWordRef": "6:128:25",
+        "surface": "مَثْوَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:136:3:2",
+        "qacWordRef": "6:136:3",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:139:20:2",
+        "qacWordRef": "6:139:20",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "6:145:22:3",
+        "qacWordRef": "6:145:22",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "6:145:29:2",
+        "qacWordRef": "6:145:29",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:151:39:1",
+        "qacWordRef": "6:151:39",
+        "surface": "وَصَّىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:152:33:2",
+        "qacWordRef": "6:152:33",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "6:155:7:2",
+        "qacWordRef": "6:155:7",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:20:8:2",
+        "qacWordRef": "7:20:8",
+        "surface": "هُمَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:24:6:3",
+        "qacWordRef": "7:24:6",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:27:16:2",
+        "qacWordRef": "7:27:16",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:27:24:2",
+        "qacWordRef": "7:27:24",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:28:10:2",
+        "qacWordRef": "7:28:10",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:31:12:2",
+        "qacWordRef": "7:31:12",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:37:35:2",
+        "qacWordRef": "7:37:35",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:39:6:2",
+        "qacWordRef": "7:39:6",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:46:8:2",
+        "qacWordRef": "7:46:8",
+        "surface": "سِيمَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:53:19:2",
+        "qacWordRef": "7:53:19",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:53:23:2",
+        "qacWordRef": "7:53:23",
+        "surface": "نَآ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:57:28:2",
+        "qacWordRef": "7:57:28",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:61:4:2",
+        "qacWordRef": "7:61:4",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:63:12:3",
+        "qacWordRef": "7:63:12",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:69:1:1",
+        "qacWordRef": "7:69:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "7:75:19:2",
+        "qacWordRef": "7:75:19",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:80:9:2",
+        "qacWordRef": "7:80:9",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:87:4:2",
+        "qacWordRef": "7:87:4",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:97:1:1",
+        "qacWordRef": "7:97:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "7:98:1:1",
+        "qacWordRef": "7:98:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "7:99:1:1",
+        "qacWordRef": "7:99:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "7:103:9:2",
+        "qacWordRef": "7:103:9",
+        "surface": "مَلَإِي۟",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:106:7:2",
+        "qacWordRef": "7:106:7",
+        "surface": "هَآ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:114:3:3",
+        "qacWordRef": "7:114:3",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:130:9:2",
+        "qacWordRef": "7:130:9",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:131:5:2",
+        "qacWordRef": "7:131:5",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:132:4:2",
+        "qacWordRef": "7:132:4",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:132:8:2",
+        "qacWordRef": "7:132:8",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:144:3:2",
+        "qacWordRef": "7:144:3",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:158:4:2",
+        "qacWordRef": "7:158:4",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:161:17:2",
+        "qacWordRef": "7:161:17",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:167:17:3",
+        "qacWordRef": "7:167:17",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:169:39:2",
+        "qacWordRef": "7:169:39",
+        "surface": "فَ",
+        "pos": "SUP",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "7:171:18:2",
+        "qacWordRef": "7:171:18",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "7:176:4:2",
+        "qacWordRef": "7:176:4",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:187:5:1",
+        "qacWordRef": "7:187:5",
+        "surface": "مُرْسَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:189:13:1",
+        "qacWordRef": "7:189:13",
+        "surface": "تَغَشَّىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "7:200:8:2",
+        "qacWordRef": "7:200:8",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "8:34:19:2",
+        "qacWordRef": "8:34:19",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "8:43:8:1",
+        "qacWordRef": "8:43:8",
+        "surface": "أَرَىٰكَ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "8:43:17:2",
+        "qacWordRef": "8:43:17",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "8:57:9:2",
+        "qacWordRef": "8:57:9",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "8:61:9:2",
+        "qacWordRef": "8:61:9",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "8:63:18:2",
+        "qacWordRef": "8:63:18",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "8:65:23:3",
+        "qacWordRef": "8:65:23",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "8:69:2:2",
+        "qacWordRef": "8:69:2",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "8:70:17:2",
+        "qacWordRef": "8:70:17",
+        "surface": "مَّآ",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:2:7:2",
+        "qacWordRef": "9:2:7",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:6:15:3",
+        "qacWordRef": "9:6:15",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:7:17:2",
+        "qacWordRef": "9:7:17",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:9:9:2",
+        "qacWordRef": "9:9:9",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:31:22:2",
+        "qacWordRef": "9:31:22",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:33:8:3",
+        "qacWordRef": "9:33:8",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:42:22:2",
+        "qacWordRef": "9:42:22",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:48:7:2",
+        "qacWordRef": "9:48:7",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:51:10:1",
+        "qacWordRef": "9:51:10",
+        "surface": "مَوْلَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:55:10:2",
+        "qacWordRef": "9:55:10",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:66:14:3",
+        "qacWordRef": "9:66:14",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:70:1:1",
+        "qacWordRef": "9:70:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "9:76:2:1",
+        "qacWordRef": "9:76:2",
+        "surface": "ءَاتَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:80:17:3",
+        "qacWordRef": "9:80:17",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:83:18:2",
+        "qacWordRef": "9:83:18",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:85:10:2",
+        "qacWordRef": "9:85:10",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:86:13:2",
+        "qacWordRef": "9:86:13",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:90:15:2",
+        "qacWordRef": "9:90:15",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:99:17:2",
+        "qacWordRef": "9:99:17",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:101:1:2",
+        "qacWordRef": "9:101:1",
+        "surface": "مِ",
+        "pos": "P",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:103:11:1",
+        "qacWordRef": "9:103:11",
+        "surface": "صَلَوٰتَ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:107:23:2",
+        "qacWordRef": "9:107:23",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:113:18:2",
+        "qacWordRef": "9:113:18",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:115:8:1",
+        "qacWordRef": "9:115:8",
+        "surface": "هَدَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "9:117:24:2",
+        "qacWordRef": "9:117:24",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:120:20:3",
+        "qacWordRef": "9:120:20",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "9:124:5:3",
+        "qacWordRef": "9:124:5",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "10:3:28:2",
+        "qacWordRef": "10:3:28",
+        "surface": "فَ",
+        "pos": "SUP",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "10:7:7:3",
+        "qacWordRef": "10:7:7",
+        "surface": "حَيَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:7:10:2",
+        "qacWordRef": "10:7:10",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:16:9:1",
+        "qacWordRef": "10:16:9",
+        "surface": "أَدْرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:17:3:1",
+        "qacWordRef": "10:17:3",
+        "surface": "مِ",
+        "pos": "P",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:17:11:2",
+        "qacWordRef": "10:17:11",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "10:18:28:2",
+        "qacWordRef": "10:18:28",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:19:15:2",
+        "qacWordRef": "10:19:15",
+        "surface": "مَا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:30:10:1",
+        "qacWordRef": "10:30:10",
+        "surface": "مَوْلَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:31:26:2",
+        "qacWordRef": "10:31:26",
+        "surface": "فَ",
+        "pos": "SUP",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "10:33:8:2",
+        "qacWordRef": "10:33:8",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "10:41:4:2",
+        "qacWordRef": "10:41:4",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:41:6:3",
+        "qacWordRef": "10:41:6",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:41:10:2",
+        "qacWordRef": "10:41:10",
+        "surface": "مَّآ",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:41:14:2",
+        "qacWordRef": "10:41:14",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:43:1:3",
+        "qacWordRef": "10:43:1",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "10:54:10:2",
+        "qacWordRef": "10:54:10",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:58:6:2",
+        "qacWordRef": "10:58:6",
+        "surface": "لْ",
+        "pos": "IMPV",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "10:59:14:1",
+        "qacWordRef": "10:59:14",
+        "surface": "ءَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "10:75:9:2",
+        "qacWordRef": "10:75:9",
+        "surface": "مَلَإِي۟",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:83:12:2",
+        "qacWordRef": "10:83:12",
+        "surface": "مَلَإِي۟",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "10:88:4:2",
+        "qacWordRef": "10:88:4",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "10:98:17:2",
+        "qacWordRef": "10:98:17",
+        "surface": "حَيَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:9:9:2",
+        "qacWordRef": "11:9:9",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "11:27:8:1",
+        "qacWordRef": "11:27:8",
+        "surface": "نَرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:27:13:1",
+        "qacWordRef": "11:27:13",
+        "surface": "نَرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:28:10:2",
+        "qacWordRef": "11:28:10",
+        "surface": "ءَاتَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:29:16:2",
+        "qacWordRef": "11:29:16",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "11:31:3:2",
+        "qacWordRef": "11:31:3",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:36:4:2",
+        "qacWordRef": "11:36:4",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "11:37:10:2",
+        "qacWordRef": "11:37:10",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "11:53:14:2",
+        "qacWordRef": "11:53:14",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:54:4:1",
+        "qacWordRef": "11:54:4",
+        "surface": "ٱعْتَرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:54:15:2",
+        "qacWordRef": "11:54:15",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:62:9:1",
+        "qacWordRef": "11:62:9",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "11:62:9:2",
+        "qacWordRef": "11:62:9",
+        "surface": "تَنْهَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:63:10:2",
+        "qacWordRef": "11:63:10",
+        "surface": "ءَاتَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:87:17:2",
+        "qacWordRef": "11:87:17",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "11:88:20:1",
+        "qacWordRef": "11:88:20",
+        "surface": "أَنْهَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:103:12:2",
+        "qacWordRef": "11:103:12",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "11:105:8:3",
+        "qacWordRef": "11:105:8",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "11:109:16:3",
+        "qacWordRef": "11:109:16",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "11:110:14:3",
+        "qacWordRef": "11:110:14",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "11:111:7:2",
+        "qacWordRef": "11:111:7",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "12:18:9:2",
+        "qacWordRef": "12:18:9",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "12:30:8:1",
+        "qacWordRef": "12:30:8",
+        "surface": "فَتَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "12:30:15:2",
+        "qacWordRef": "12:30:15",
+        "surface": "نَرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "12:39:1:2",
+        "qacWordRef": "12:39:1",
+        "surface": "صَىٰحِبَ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "12:41:1:2",
+        "qacWordRef": "12:41:1",
+        "surface": "صَىٰحِبَ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "12:42:10:2",
+        "qacWordRef": "12:42:10",
+        "surface": "أَنسَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "12:56:7:2",
+        "qacWordRef": "12:56:7",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "12:68:20:1",
+        "qacWordRef": "12:68:20",
+        "surface": "قَضَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "12:78:13:1",
+        "qacWordRef": "12:78:13",
+        "surface": "نَرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "12:107:1:1",
+        "qacWordRef": "12:107:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "13:14:1:2",
+        "qacWordRef": "13:14:1",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "13:17:12:3",
+        "qacWordRef": "13:17:12",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "13:19:1:1",
+        "qacWordRef": "13:19:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "13:21:6:2",
+        "qacWordRef": "13:21:6",
+        "surface": "هِۦٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "13:25:21:3",
+        "qacWordRef": "13:25:21",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "13:31:5:2",
+        "qacWordRef": "13:31:5",
+        "surface": "هِ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "13:31:19:2",
+        "qacWordRef": "13:31:19",
+        "surface": "فَ",
+        "pos": "SUP",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "14:9:1:1",
+        "qacWordRef": "14:9:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "14:11:19:2",
+        "qacWordRef": "14:11:19",
+        "surface": "نَآ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:12:2:2",
+        "qacWordRef": "14:12:2",
+        "surface": "نَآ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:12:3:2",
+        "qacWordRef": "14:12:3",
+        "surface": "لَّا",
+        "pos": "NEG",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:18:8:2",
+        "qacWordRef": "14:18:8",
+        "surface": "هِ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:18:15:2",
+        "qacWordRef": "14:18:15",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:21:8:2",
+        "qacWordRef": "14:21:8",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "14:21:10:2",
+        "qacWordRef": "14:21:10",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:21:15:2",
+        "qacWordRef": "14:21:15",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "14:21:32:2",
+        "qacWordRef": "14:21:32",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:25:11:2",
+        "qacWordRef": "14:25:11",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "14:31:8:2",
+        "qacWordRef": "14:31:8",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:32:11:2",
+        "qacWordRef": "14:32:11",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:37:15:2",
+        "qacWordRef": "14:37:15",
+        "surface": "صَّلَوٰةَ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "14:38:2:2",
+        "qacWordRef": "14:38:2",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "15:4:6:3",
+        "qacWordRef": "15:4:6",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "15:6:7:2",
+        "qacWordRef": "15:6:7",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "15:9:1:2",
+        "qacWordRef": "15:9:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "15:9:5:3",
+        "qacWordRef": "15:9:5",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "15:9:6:2",
+        "qacWordRef": "15:9:6",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "15:37:2:3",
+        "qacWordRef": "15:37:2",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "15:44:6:2",
+        "qacWordRef": "15:44:6",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "15:62:2:2",
+        "qacWordRef": "15:62:2",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "16:15:10:2",
+        "qacWordRef": "16:15:10",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "16:23:10:2",
+        "qacWordRef": "16:23:10",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "16:40:8:2",
+        "qacWordRef": "16:40:8",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "16:56:6:2",
+        "qacWordRef": "16:56:6",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "16:56:10:2",
+        "qacWordRef": "16:56:10",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "16:66:7:2",
+        "qacWordRef": "16:66:7",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "16:86:18:2",
+        "qacWordRef": "16:86:18",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "16:89:11:2",
+        "qacWordRef": "16:89:11",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "16:93:4:3",
+        "qacWordRef": "16:93:4",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "16:93:15:2",
+        "qacWordRef": "16:93:15",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "16:94:17:3",
+        "qacWordRef": "16:94:17",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "16:95:12:2",
+        "qacWordRef": "16:95:12",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "16:103:3:2",
+        "qacWordRef": "16:103:3",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "16:106:22:3",
+        "qacWordRef": "16:106:22",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "16:127:13:2",
+        "qacWordRef": "16:127:13",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "17:25:9:3",
+        "qacWordRef": "17:25:9",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "17:67:12:1",
+        "qacWordRef": "17:67:12",
+        "surface": "نَجَّىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "17:98:3:3",
+        "qacWordRef": "17:98:3",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "17:98:11:1",
+        "qacWordRef": "17:98:11",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "17:98:11:3",
+        "qacWordRef": "17:98:11",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "18:13:6:2",
+        "qacWordRef": "18:13:6",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "18:26:6:2",
+        "qacWordRef": "18:26:6",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "18:26:11:2",
+        "qacWordRef": "18:26:11",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "18:45:11:2",
+        "qacWordRef": "18:45:11",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "18:46:4:2",
+        "qacWordRef": "18:46:4",
+        "surface": "حَيَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "18:56:12:2",
+        "qacWordRef": "18:56:12",
+        "surface": "هِ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "18:57:3:1",
+        "qacWordRef": "18:57:3",
+        "surface": "مِ",
+        "pos": "P",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "18:63:11:1",
+        "qacWordRef": "18:63:11",
+        "surface": "أَنسَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "18:84:1:2",
+        "qacWordRef": "18:84:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "19:10:4:2",
+        "qacWordRef": "19:10:4",
+        "surface": "ىٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "19:24:1:3",
+        "qacWordRef": "19:24:1",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "19:27:2:2",
+        "qacWordRef": "19:27:2",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "19:31:7:3",
+        "qacWordRef": "19:31:7",
+        "surface": "صَّلَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "19:31:8:3",
+        "qacWordRef": "19:31:8",
+        "surface": "زَّكَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "19:59:6:2",
+        "qacWordRef": "19:59:6",
+        "surface": "صَّلَوٰةَ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "19:64:6:2",
+        "qacWordRef": "19:64:6",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "19:94:2:1",
+        "qacWordRef": "19:94:2",
+        "surface": "أَحْصَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "20:26:2:2",
+        "qacWordRef": "20:26:2",
+        "surface": "ىٓ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "20:35:1:2",
+        "qacWordRef": "20:35:1",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "20:35:3:2",
+        "qacWordRef": "20:35:3",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "20:48:1:2",
+        "qacWordRef": "20:48:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "20:66:11:2",
+        "qacWordRef": "20:66:11",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "20:73:1:2",
+        "qacWordRef": "20:73:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "20:89:1:1",
+        "qacWordRef": "20:89:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "20:89:3:2",
+        "qacWordRef": "20:89:3",
+        "surface": "لَّا",
+        "pos": "NEG",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "20:90:10:2",
+        "qacWordRef": "20:90:10",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "20:117:6:2",
+        "qacWordRef": "20:117:6",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "20:128:1:1",
+        "qacWordRef": "20:128:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "21:13:9:2",
+        "qacWordRef": "21:13:9",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:14:3:2",
+        "qacWordRef": "21:14:3",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:15:4:1",
+        "qacWordRef": "21:15:4",
+        "surface": "دَعْوَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "21:22:12:2",
+        "qacWordRef": "21:22:12",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "21:25:10:2",
+        "qacWordRef": "21:25:10",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:34:7:1",
+        "qacWordRef": "21:34:7",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "21:47:17:2",
+        "qacWordRef": "21:47:17",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "21:47:19:2",
+        "qacWordRef": "21:47:19",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "21:58:6:2",
+        "qacWordRef": "21:58:6",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:59:6:2",
+        "qacWordRef": "21:59:6",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:64:5:2",
+        "qacWordRef": "21:64:5",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:77:7:2",
+        "qacWordRef": "21:77:7",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:82:5:2",
+        "qacWordRef": "21:82:5",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "21:83:5:2",
+        "qacWordRef": "21:83:5",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:84:2:2",
+        "qacWordRef": "21:84:2",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "21:84:5:2",
+        "qacWordRef": "21:84:5",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "21:86:4:2",
+        "qacWordRef": "21:86:4",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:95:5:2",
+        "qacWordRef": "21:95:5",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "21:101:8:2",
+        "qacWordRef": "21:101:8",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "22:11:12:2",
+        "qacWordRef": "22:11:12",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "22:15:17:2",
+        "qacWordRef": "22:15:17",
+        "surface": "لْ",
+        "pos": "IMPV",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "22:26:9:2",
+        "qacWordRef": "22:26:9",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "22:28:17:2",
+        "qacWordRef": "22:28:17",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "22:31:5:2",
+        "qacWordRef": "22:31:5",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "22:31:17:2",
+        "qacWordRef": "22:31:17",
+        "surface": "هِ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "22:32:6:3",
+        "qacWordRef": "22:32:6",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "22:33:1:2",
+        "qacWordRef": "22:33:1",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "22:60:7:2",
+        "qacWordRef": "22:60:7",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "22:71:8:2",
+        "qacWordRef": "22:71:8",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "22:71:13:2",
+        "qacWordRef": "22:71:13",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:6:8:3",
+        "qacWordRef": "23:6:8",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "23:18:12:2",
+        "qacWordRef": "23:18:12",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:25:8:2",
+        "qacWordRef": "23:25:8",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:32:13:2",
+        "qacWordRef": "23:32:13",
+        "surface": "فَ",
+        "pos": "SUP",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "23:33:20:2",
+        "qacWordRef": "23:33:20",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:33:24:2",
+        "qacWordRef": "23:33:24",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:34:5:2",
+        "qacWordRef": "23:34:5",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "23:55:4:2",
+        "qacWordRef": "23:55:4",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:60:7:2",
+        "qacWordRef": "23:60:7",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "23:63:7:3",
+        "qacWordRef": "23:63:7",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:73:1:3",
+        "qacWordRef": "23:73:1",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "23:87:4:2",
+        "qacWordRef": "23:87:4",
+        "surface": "فَ",
+        "pos": "SUP",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "23:91:23:2",
+        "qacWordRef": "23:91:23",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:92:5:2",
+        "qacWordRef": "23:92:5",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:98:2:2",
+        "qacWordRef": "23:98:2",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:105:1:1",
+        "qacWordRef": "23:105:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "23:105:7:2",
+        "qacWordRef": "23:105:7",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "23:115:1:1",
+        "qacWordRef": "23:115:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "24:6:15:2",
+        "qacWordRef": "24:6:15",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "24:21:12:3",
+        "qacWordRef": "24:21:12",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "24:23:11:3",
+        "qacWordRef": "24:23:11",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "24:33:27:1",
+        "qacWordRef": "24:33:27",
+        "surface": "ءَاتَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "24:33:38:2",
+        "qacWordRef": "24:33:38",
+        "surface": "حَيَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "24:37:11:2",
+        "qacWordRef": "24:37:11",
+        "surface": "صَّلَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "24:37:13:2",
+        "qacWordRef": "24:37:13",
+        "surface": "زَّكَوٰةِ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "24:40:6:1",
+        "qacWordRef": "24:40:6",
+        "surface": "يَغْشَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "24:40:23:1",
+        "qacWordRef": "24:40:23",
+        "surface": "يَرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "24:41:1:1",
+        "qacWordRef": "24:41:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "24:43:1:1",
+        "qacWordRef": "24:43:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "24:43:27:2",
+        "qacWordRef": "24:43:27",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "24:56:7:2",
+        "qacWordRef": "24:56:7",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "25:2:2:2",
+        "qacWordRef": "25:2:2",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "25:2:11:2",
+        "qacWordRef": "25:2:11",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "25:4:8:1",
+        "qacWordRef": "25:4:8",
+        "surface": "ٱفْتَرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "25:6:9:2",
+        "qacWordRef": "25:6:9",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "25:13:3:2",
+        "qacWordRef": "25:13:3",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "25:20:7:2",
+        "qacWordRef": "25:20:7",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "25:21:17:2",
+        "qacWordRef": "25:21:17",
+        "surface": "عَتَ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "25:21:17:3",
+        "qacWordRef": "25:21:17",
+        "surface": "وْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "25:32:12:2",
+        "qacWordRef": "25:32:12",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "25:40:9:1",
+        "qacWordRef": "25:40:9",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "25:43:6:1",
+        "qacWordRef": "25:43:6",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "25:49:6:2",
+        "qacWordRef": "25:49:6",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "25:59:16:2",
+        "qacWordRef": "25:59:16",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "25:71:5:3",
+        "qacWordRef": "25:71:5",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "25:74:5:2",
+        "qacWordRef": "25:74:5",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "25:74:11:3",
+        "qacWordRef": "25:74:11",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "26:6:3:2",
+        "qacWordRef": "26:6:3",
+        "surface": "سَ",
+        "pos": "FUT",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "26:6:7:2",
+        "qacWordRef": "26:6:7",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "26:21:6:2",
+        "qacWordRef": "26:21:6",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "26:40:1:2",
+        "qacWordRef": "26:40:1",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "26:42:3:3",
+        "qacWordRef": "26:42:3",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "26:75:2:1",
+        "qacWordRef": "26:75:2",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "26:84:2:2",
+        "qacWordRef": "26:84:2",
+        "surface": "ى",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "26:86:3:2",
+        "qacWordRef": "26:86:3",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "26:100:2:2",
+        "qacWordRef": "26:100:2",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "27:6:1:3",
+        "qacWordRef": "27:6:1",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "27:9:2:2",
+        "qacWordRef": "27:9:2",
+        "surface": "هُۥٓ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "27:12:16:2",
+        "qacWordRef": "27:12:16",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "27:19:19:1",
+        "qacWordRef": "27:19:19",
+        "surface": "تَرْضَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "27:29:4:2",
+        "qacWordRef": "27:29:4",
+        "surface": "ىٓ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "27:31:1:2",
+        "qacWordRef": "27:31:1",
+        "surface": "لَّا",
+        "pos": "PRO",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "27:36:11:2",
+        "qacWordRef": "27:36:11",
+        "surface": "مَّآ",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "27:37:8:2",
+        "qacWordRef": "27:37:8",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "27:42:7:2",
+        "qacWordRef": "27:42:7",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "27:44:13:2",
+        "qacWordRef": "27:44:13",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "27:56:13:2",
+        "qacWordRef": "27:56:13",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "27:83:7:1",
+        "qacWordRef": "27:83:7",
+        "surface": "مِّ",
+        "pos": "P",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "27:84:9:2",
+        "qacWordRef": "27:84:9",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:10:9:2",
+        "qacWordRef": "28:10:9",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:11:5:2",
+        "qacWordRef": "28:11:5",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:18:12:2",
+        "qacWordRef": "28:18:12",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:20:12:2",
+        "qacWordRef": "28:20:12",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:25:14:2",
+        "qacWordRef": "28:25:14",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:31:17:2",
+        "qacWordRef": "28:31:17",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "28:35:6:2",
+        "qacWordRef": "28:35:6",
+        "surface": "كُمَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:45:1:3",
+        "qacWordRef": "28:45:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "28:45:16:3",
+        "qacWordRef": "28:45:16",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "28:48:2:2",
+        "qacWordRef": "28:48:2",
+        "surface": "هُمُ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "28:51:5:2",
+        "qacWordRef": "28:51:5",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "28:54:10:3",
+        "qacWordRef": "28:54:10",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:55:9:3",
+        "qacWordRef": "28:55:9",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:68:13:2",
+        "qacWordRef": "28:68:13",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:70:7:2",
+        "qacWordRef": "28:70:7",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:70:12:3",
+        "qacWordRef": "28:70:12",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:72:20:2",
+        "qacWordRef": "28:72:20",
+        "surface": "فَ",
+        "pos": "SUP",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "28:78:7:1",
+        "qacWordRef": "28:78:7",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "28:79:12:2",
+        "qacWordRef": "28:79:12",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:79:17:2",
+        "qacWordRef": "28:79:17",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "28:81:2:2",
+        "qacWordRef": "28:81:2",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:81:7:2",
+        "qacWordRef": "28:81:7",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:82:22:2",
+        "qacWordRef": "28:82:22",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:84:4:3",
+        "qacWordRef": "28:84:4",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "28:84:6:2",
+        "qacWordRef": "28:84:6",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "28:88:16:2",
+        "qacWordRef": "28:88:16",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "29:10:25:2",
+        "qacWordRef": "29:10:25",
+        "surface": "وَ",
+        "pos": "SUP",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "29:12:17:2",
+        "qacWordRef": "29:12:17",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "29:16:10:2",
+        "qacWordRef": "29:16:10",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "29:22:10:2",
+        "qacWordRef": "29:22:10",
+        "surface": "كُم",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "29:26:2:2",
+        "qacWordRef": "29:26:2",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "29:34:1:2",
+        "qacWordRef": "29:34:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "29:39:5:2",
+        "qacWordRef": "29:39:5",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "29:47:9:2",
+        "qacWordRef": "29:47:9",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "29:55:2:1",
+        "qacWordRef": "29:55:2",
+        "surface": "يَغْشَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "29:63:9:2",
+        "qacWordRef": "29:63:9",
+        "surface": "هِ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "29:68:3:1",
+        "qacWordRef": "29:68:3",
+        "surface": "مِ",
+        "pos": "P",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "30:8:1:1",
+        "qacWordRef": "30:8:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "30:18:1:3",
+        "qacWordRef": "30:18:1",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "30:21:5:2",
+        "qacWordRef": "30:21:5",
+        "surface": "كُم",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "30:41:14:2",
+        "qacWordRef": "30:41:14",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "30:45:8:2",
+        "qacWordRef": "30:45:8",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "30:46:16:3",
+        "qacWordRef": "30:46:16",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "30:56:17:3",
+        "qacWordRef": "30:56:17",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "31:16:2:2",
+        "qacWordRef": "31:16:2",
+        "surface": "هَآ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "31:16:19:2",
+        "qacWordRef": "31:16:19",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "31:29:1:1",
+        "qacWordRef": "31:29:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "31:31:1:1",
+        "qacWordRef": "31:31:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "32:4:23:1",
+        "qacWordRef": "32:4:23",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "32:13:6:1",
+        "qacWordRef": "32:13:6",
+        "surface": "هُدَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "32:18:1:1",
+        "qacWordRef": "32:18:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "32:20:4:2",
+        "qacWordRef": "32:20:4",
+        "surface": "مَأْوَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "32:22:3:1",
+        "qacWordRef": "32:22:3",
+        "surface": "مِ",
+        "pos": "P",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "32:22:9:2",
+        "qacWordRef": "32:22:9",
+        "surface": "هَآ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "32:22:10:2",
+        "qacWordRef": "32:22:10",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "32:27:10:2",
+        "qacWordRef": "32:27:10",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "32:27:13:2",
+        "qacWordRef": "32:27:13",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "46:3:13:2",
+        "qacWordRef": "46:3:13",
+        "surface": "مَّآ",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "46:10:9:2",
+        "qacWordRef": "46:10:9",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "46:18:15:2",
+        "qacWordRef": "46:18:15",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "46:20:13:2",
+        "qacWordRef": "46:20:13",
+        "surface": "هَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "46:21:16:2",
+        "qacWordRef": "46:21:16",
+        "surface": "لَّا",
+        "pos": "PRO",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "46:30:3:2",
+        "qacWordRef": "46:30:3",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "46:32:11:2",
+        "qacWordRef": "46:32:11",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "46:33:18:2",
+        "qacWordRef": "46:33:18",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "46:35:11:2",
+        "qacWordRef": "46:35:11",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "47:2:15:2",
+        "qacWordRef": "47:2:15",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "47:9:2:3",
+        "qacWordRef": "47:9:2",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "47:15:27:3",
+        "qacWordRef": "47:15:27",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "47:16:1:3",
+        "qacWordRef": "47:16:1",
+        "surface": "هُم",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "47:24:1:1",
+        "qacWordRef": "47:24:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "47:26:2:3",
+        "qacWordRef": "47:26:2",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "47:28:2:3",
+        "qacWordRef": "47:28:2",
+        "surface": "هُمُ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "48:29:11:1",
+        "qacWordRef": "48:29:11",
+        "surface": "تَرَىٰ",
+        "pos": "V",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "48:29:28:2",
+        "qacWordRef": "48:29:28",
+        "surface": "تَّوْرَىٰةِ",
+        "pos": "PN",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "49:9:10:1",
+        "qacWordRef": "49:9:10",
+        "surface": "إِحْدَىٰ",
+        "pos": "N",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "49:13:3:2",
+        "qacWordRef": "49:13:3",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "50:6:1:1",
+        "qacWordRef": "50:6:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "50:9:7:2",
+        "qacWordRef": "50:9:7",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "50:11:4:2",
+        "qacWordRef": "50:11:4",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "50:15:1:2",
+        "qacWordRef": "50:15:1",
+        "surface": "فَ",
+        "pos": "SUP",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "50:16:7:2",
+        "qacWordRef": "50:16:7",
+        "surface": "هِۦ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "51:16:5:2",
+        "qacWordRef": "51:16:5",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "51:30:5:2",
+        "qacWordRef": "51:30:5",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "51:32:2:2",
+        "qacWordRef": "51:32:2",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "51:46:5:2",
+        "qacWordRef": "51:46:5",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "51:49:6:2",
+        "qacWordRef": "51:49:6",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "52:22:4:2",
+        "qacWordRef": "52:22:4",
+        "surface": "مَّا",
+        "pos": "REL",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "52:24:5:2",
+        "qacWordRef": "52:24:5",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "52:38:5:2",
+        "qacWordRef": "52:38:5",
+        "surface": "هِ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "53:43:1:3",
+        "qacWordRef": "53:43:1",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "53:44:1:3",
+        "qacWordRef": "53:44:1",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "53:52:5:2",
+        "qacWordRef": "53:52:5",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "54:24:6:2",
+        "qacWordRef": "54:24:6",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "54:27:6:3",
+        "qacWordRef": "54:27:6",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "54:31:1:2",
+        "qacWordRef": "54:31:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "54:34:1:2",
+        "qacWordRef": "54:34:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "56:48:1:1",
+        "qacWordRef": "56:48:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "56:58:1:1",
+        "qacWordRef": "56:58:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "56:63:1:1",
+        "qacWordRef": "56:63:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "56:66:1:2",
+        "qacWordRef": "56:66:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "56:71:1:1",
+        "qacWordRef": "56:71:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "56:81:1:1",
+        "qacWordRef": "56:81:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "57:2:1:2",
+        "qacWordRef": "57:2:1",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "57:8:2:2",
+        "qacWordRef": "57:8:2",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "57:10:3:2",
+        "qacWordRef": "57:10:3",
+        "surface": "لَّا",
+        "pos": "NEG",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "57:13:19:2",
+        "qacWordRef": "57:13:19",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "58:2:14:3",
+        "qacWordRef": "58:2:14",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "58:14:1:1",
+        "qacWordRef": "58:14:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "59:13:9:3",
+        "qacWordRef": "59:13:9",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "59:14:20:3",
+        "qacWordRef": "59:14:20",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "59:21:17:2",
+        "qacWordRef": "59:21:17",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "60:5:8:2",
+        "qacWordRef": "60:5:8",
+        "surface": "نَا",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "60:5:10:2",
+        "qacWordRef": "60:5:10",
+        "surface": "كَ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "60:6:3:2",
+        "qacWordRef": "60:6:3",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "61:6:17:2",
+        "qacWordRef": "61:6:17",
+        "surface": "تَّوْرَىٰةِ",
+        "pos": "PN",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "62:10:14:2",
+        "qacWordRef": "62:10:14",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "64:1:9:2",
+        "qacWordRef": "64:1:9",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "64:1:11:3",
+        "qacWordRef": "64:1:11",
+        "surface": "هُ",
+        "pos": "PRON",
+        "role": "STEM"
+      },
+      {
+        "qacMorphemeRef": "64:5:1:1",
+        "qacWordRef": "64:5:1",
+        "surface": "أَ",
+        "pos": "INTG",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "64:6:2:3",
+        "qacWordRef": "64:6:2",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "68:26:4:2",
+        "qacWordRef": "68:26:4",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "69:11:1:2",
+        "qacWordRef": "69:11:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "69:40:1:2",
+        "qacWordRef": "69:40:1",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "69:49:1:3",
+        "qacWordRef": "69:49:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "70:30:8:3",
+        "qacWordRef": "70:30:8",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "70:40:6:2",
+        "qacWordRef": "70:40:6",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "73:15:1:2",
+        "qacWordRef": "73:15:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "76:2:1:2",
+        "qacWordRef": "76:2:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "76:3:1:2",
+        "qacWordRef": "76:3:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "76:4:1:2",
+        "qacWordRef": "76:4:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "76:9:7:2",
+        "qacWordRef": "76:9:7",
+        "surface": "كُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "76:10:1:2",
+        "qacWordRef": "76:10:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "76:23:1:2",
+        "qacWordRef": "76:23:1",
+        "surface": "ا",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "76:24:6:2",
+        "qacWordRef": "76:24:6",
+        "surface": "هُمْ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "92:13:4:2",
+        "qacWordRef": "92:13:4",
+        "surface": "ٱلْ",
+        "pos": "DET",
+        "role": "PREFIX"
+      },
+      {
+        "qacMorphemeRef": "97:1:1:2",
+        "qacWordRef": "97:1:1",
+        "surface": "آ",
+        "pos": "PRON",
+        "role": "SUFFIX"
+      },
+      {
+        "qacMorphemeRef": "112:4:3:2",
+        "qacWordRef": "112:4:3",
+        "surface": "هُۥ",
+        "pos": "PRON",
+        "role": "STEM"
+      }
+    ]
+  },
+  "alignment": {
+    "ruleCounts": {
+      "alif-hamza-skeleton": 2,
+      "gemination-fold-exact": 14,
+      "gemination-fold-exact+implicit-final-suffix": 1,
+      "long-vowel-fold-exact": 1399,
+      "long-vowel-fold-exact+implicit-final-suffix": 1,
+      "normalized-containment": 413,
+      "normalized-exact": 93458,
+      "normalized-exact+implicit-final-suffix": 207,
+      "orthographic-fold-containment": 6,
+      "uthmani-sin-sad-fold-exact": 1,
+      "weak-letter-fold-exact": 9
+    },
+    "rankCounts": {
+      "0": 93665,
+      "1": 1828,
+      "2": 10,
+      "3": 6,
+      "4": 2
+    },
+    "blockSizeCounts": {
+      "1": 59983,
+      "2": 16810,
+      "3": 636
+    },
+    "ambiguousAyahCount": 8,
+    "ambiguousAyahs": [
+      "3:193",
+      "12:81",
+      "14:41",
+      "21:48",
+      "25:21",
+      "50:25",
+      "92:13",
+      "93:4"
+    ],
+    "weakMappingCount": 2,
+    "weakMappings": [
+      {
+        "grammarRef": "3:144:12",
+        "sourceSurface": "إِنْ",
+        "qacWordRefs": [
+          "3:144:10"
+        ],
+        "qacMorphemeRefs": [
+          "3:144:10:3"
+        ],
+        "targetSurface": "إِي۟ن",
+        "rule": "alif-hamza-skeleton",
+        "rank": 4,
+        "editDistance": 0
+      },
+      {
+        "grammarRef": "21:34:10",
+        "sourceSurface": "إِنْ",
+        "qacWordRefs": [
+          "21:34:7"
+        ],
+        "qacMorphemeRefs": [
+          "21:34:7:3"
+        ],
+        "targetSurface": "إِي۟ن",
+        "rule": "alif-hamza-skeleton",
+        "rank": 4,
+        "editDistance": 0
+      }
+    ]
+  },
+  "review": {
+    "path": "data/bridges/qac-masaq/reviewed-decisions.tsv",
+    "sha256": "4f39891673421efaf5893517bfc49d2266b0b0eaac09da321bf9108b44351bad",
+    "count": 16,
+    "decisions": [
+      {
+        "decisionId": "QMB-D001",
+        "grammarRef": "3:144:12",
+        "decisionType": "orthographic-exception",
+        "qacMorphemeRefs": [
+          "3:144:10:3"
+        ],
+        "automaticQacMorphemeRefs": [
+          "3:144:10:3"
+        ],
+        "automaticRule": "alif-hamza-skeleton",
+        "changedAutomaticMapping": false,
+        "reason": "The source conditional particle إِنْ corresponds to the QAC Uthmani spelling إِي۟ن in the same compound word.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D002",
+        "grammarRef": "21:34:10",
+        "decisionType": "orthographic-exception",
+        "qacMorphemeRefs": [
+          "21:34:7:3"
+        ],
+        "automaticQacMorphemeRefs": [
+          "21:34:7:3"
+        ],
+        "automaticRule": "alif-hamza-skeleton",
+        "changedAutomaticMapping": false,
+        "reason": "The source conditional particle إِنْ corresponds to the QAC Uthmani spelling إِي۟ن in the same compound word.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D003",
+        "grammarRef": "3:193:6",
+        "decisionType": "identical-letter-disambiguation",
+        "qacMorphemeRefs": [
+          "3:193:6:1"
+        ],
+        "automaticQacMorphemeRefs": [
+          "3:193:6:1"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": false,
+        "reason": "The source grammar identifies this لِ as the governing preposition; QAC 3:193:6:2 is the assimilated article and has no source analysis unit here.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D004",
+        "grammarRef": "12:81:21",
+        "decisionType": "identical-letter-disambiguation",
+        "qacMorphemeRefs": [
+          "12:81:16:1"
+        ],
+        "automaticQacMorphemeRefs": [
+          "12:81:16:1"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": false,
+        "reason": "The source unit is the governing preposition, not the following assimilated definite article.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D005",
+        "grammarRef": "12:81:22",
+        "decisionType": "assimilated-article-span",
+        "qacMorphemeRefs": [
+          "12:81:16:2",
+          "12:81:16:3"
+        ],
+        "automaticQacMorphemeRefs": [
+          "12:81:16:3"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": true,
+        "reason": "The source noun is explicitly analyzed as definite after li plus the definite article, so it links to the QAC article and noun stem.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D006",
+        "grammarRef": "14:41:8",
+        "decisionType": "assimilated-article-span",
+        "qacMorphemeRefs": [
+          "14:41:5:2",
+          "14:41:5:3"
+        ],
+        "automaticQacMorphemeRefs": [
+          "14:41:5:2"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": true,
+        "reason": "The source unit explicitly analyzes preposition lām plus assimilated definite article al-.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D007",
+        "grammarRef": "14:41:9",
+        "decisionType": "assimilated-article-span",
+        "qacMorphemeRefs": [
+          "14:41:5:3",
+          "14:41:5:4"
+        ],
+        "automaticQacMorphemeRefs": [
+          "14:41:5:4"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": true,
+        "reason": "The source noun is explicitly analyzed as definite with al-, so the shared QAC article endpoint is retained.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D008",
+        "grammarRef": "21:48:13",
+        "decisionType": "identical-letter-disambiguation",
+        "qacMorphemeRefs": [
+          "21:48:8:1"
+        ],
+        "automaticQacMorphemeRefs": [
+          "21:48:8:1"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": false,
+        "reason": "The source unit is the governing preposition, not the assimilated article.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D009",
+        "grammarRef": "21:48:14",
+        "decisionType": "assimilated-article-span",
+        "qacMorphemeRefs": [
+          "21:48:8:2",
+          "21:48:8:3"
+        ],
+        "automaticQacMorphemeRefs": [
+          "21:48:8:3"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": true,
+        "reason": "The noun belongs to the lil-muttaqin orthographic word; the source surface omits the assimilated article that QAC represents separately.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D010",
+        "grammarRef": "25:21:19",
+        "decisionType": "identical-letter-disambiguation",
+        "qacMorphemeRefs": [
+          "25:21:17:1"
+        ],
+        "automaticQacMorphemeRefs": [
+          "25:21:17:1"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": false,
+        "reason": "The source grammar identifies this وَ as the conjunction prefix; the later waw is part of the omitted plural verb analysis.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D011",
+        "grammarRef": "50:25:2",
+        "decisionType": "identical-letter-disambiguation",
+        "qacMorphemeRefs": [
+          "50:25:2:1"
+        ],
+        "automaticQacMorphemeRefs": [
+          "50:25:2:1"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": false,
+        "reason": "The source unit is the governing preposition, not the assimilated definite article.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D012",
+        "grammarRef": "50:25:3",
+        "decisionType": "assimilated-article-span",
+        "qacMorphemeRefs": [
+          "50:25:2:2",
+          "50:25:2:3"
+        ],
+        "automaticQacMorphemeRefs": [
+          "50:25:2:3"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": true,
+        "reason": "The source noun is explicitly analyzed as definite with al-, so it links to the QAC article and noun stem.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D013",
+        "grammarRef": "92:13:4",
+        "decisionType": "identical-letter-disambiguation",
+        "qacMorphemeRefs": [
+          "92:13:3:1"
+        ],
+        "automaticQacMorphemeRefs": [
+          "92:13:3:1"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": false,
+        "reason": "The source grammar identifies this لَ as emphatic lām, not the following definite article.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D014",
+        "grammarRef": "92:13:5",
+        "decisionType": "assimilated-article-span",
+        "qacMorphemeRefs": [
+          "92:13:3:2",
+          "92:13:3:3"
+        ],
+        "automaticQacMorphemeRefs": [
+          "92:13:3:3"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": true,
+        "reason": "The source noun is explicitly analyzed as definite with al-, so it links to the QAC article and noun stem.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D015",
+        "grammarRef": "93:4:2",
+        "decisionType": "identical-letter-disambiguation",
+        "qacMorphemeRefs": [
+          "93:4:1:2"
+        ],
+        "automaticQacMorphemeRefs": [
+          "93:4:1:2"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": false,
+        "reason": "The source grammar identifies this لَ as emphatic lām, not the following definite article.",
+        "reviewedOn": "2026-09-02"
+      },
+      {
+        "decisionId": "QMB-D016",
+        "grammarRef": "93:4:3",
+        "decisionType": "assimilated-article-span",
+        "qacMorphemeRefs": [
+          "93:4:1:3",
+          "93:4:1:4"
+        ],
+        "automaticQacMorphemeRefs": [
+          "93:4:1:4"
+        ],
+        "automaticRule": "normalized-exact",
+        "changedAutomaticMapping": true,
+        "reason": "The source noun is explicitly analyzed as definite via al-, so it links to the QAC article and noun stem.",
+        "reviewedOn": "2026-09-02"
+      }
+    ],
+    "unresolvedWeakGrammarRefs": [],
+    "unresolvedAmbiguousAyahs": []
+  },
+  "masaqQacReview": {
+    "path": "data/bridges/qac-masaq/reviewed-masaq-qac-decisions.tsv",
+    "sha256": "73815d69e377348d0eedd880d3681387ad553b82a0227fa0d767dc41b74f956b",
+    "decisionCount": 4,
+    "pathCount": 127770,
+    "acceptedPathCount": 127770,
+    "acceptedDirectEdgeCount": 127770
+  },
+  "analysisJoin": {
+    "analysisCount": 95304,
+    "acceptedAnalysisCount": 95303,
+    "excludedAnalysisCount": 1,
+    "excludedAnalyses": [
+      {
+        "analysisRef": "17:28:12",
+        "grammarRef": "17:28:12",
+        "reason": "duplicate_qul_cannot_map_to_masaq_lam"
+      }
+    ],
+    "sourceOnlyCount": 207,
+    "sourceOnlyRefs": [
+      "2:61:4",
+      "2:61:11",
+      "2:61:13",
+      "2:61:16",
+      "2:61:17",
+      "2:61:22",
+      "2:61:24",
+      "2:61:26",
+      "2:61:28",
+      "2:61:32",
+      "2:61:33",
+      "2:61:36",
+      "2:61:37",
+      "2:61:41",
+      "2:61:42",
+      "2:61:43",
+      "2:61:44",
+      "2:61:46",
+      "2:61:48",
+      "2:61:50",
+      "2:61:52",
+      "2:61:54",
+      "2:61:56",
+      "2:61:58",
+      "2:61:59",
+      "2:61:60",
+      "2:61:63",
+      "2:61:66",
+      "2:61:69",
+      "2:61:73",
+      "2:61:74",
+      "2:61:76",
+      "2:143:1",
+      "2:143:2",
+      "2:143:7",
+      "2:143:10",
+      "2:143:12",
+      "2:143:17",
+      "2:143:18",
+      "2:143:21",
+      "2:143:23",
+      "2:143:24",
+      "2:143:25",
+      "2:143:27",
+      "2:143:30",
+      "2:143:32",
+      "2:143:34",
+      "2:143:35",
+      "2:143:37",
+      "2:143:39",
+      "2:143:41",
+      "2:143:44",
+      "2:143:45",
+      "2:143:48",
+      "2:143:51",
+      "2:143:53",
+      "2:143:55",
+      "2:164:26",
+      "2:164:32",
+      "2:164:36",
+      "2:164:38",
+      "2:164:39",
+      "2:164:42",
+      "2:164:45",
+      "2:164:50",
+      "2:165:1",
+      "2:165:2",
+      "2:165:4",
+      "2:165:6",
+      "2:165:11",
+      "2:165:13",
+      "2:165:14",
+      "2:165:15",
+      "2:165:19",
+      "2:165:20",
+      "2:165:21",
+      "2:165:22",
+      "2:165:24",
+      "2:165:26",
+      "2:165:29",
+      "2:165:31",
+      "2:165:32",
+      "2:165:34",
+      "2:165:35",
+      "2:165:36",
+      "2:187:14",
+      "2:187:25",
+      "2:187:27",
+      "2:187:36",
+      "2:187:37",
+      "2:187:56",
+      "2:187:57",
+      "2:187:59",
+      "2:187:70",
+      "2:232:26",
+      "2:259:5",
+      "2:259:8",
+      "2:259:15",
+      "2:259:19",
+      "2:259:24",
+      "2:259:27",
+      "2:259:32",
+      "2:259:40",
+      "2:259:42",
+      "2:259:44",
+      "2:259:48",
+      "2:259:50",
+      "2:259:52",
+      "2:259:56",
+      "2:259:58",
+      "2:259:60",
+      "2:259:67",
+      "2:259:70",
+      "4:12:16",
+      "4:12:17",
+      "4:12:40",
+      "4:12:45",
+      "4:12:49",
+      "4:123:2",
+      "4:141:17",
+      "4:141:28",
+      "5:3:6",
+      "5:3:9",
+      "5:3:16",
+      "5:3:18",
+      "5:3:20",
+      "5:3:22",
+      "5:3:24",
+      "5:3:31",
+      "5:3:32",
+      "5:3:36",
+      "5:3:52",
+      "5:3:58",
+      "5:3:62",
+      "12:31:4",
+      "12:31:7",
+      "12:31:8",
+      "12:31:10",
+      "12:31:11",
+      "12:31:13",
+      "12:31:17",
+      "12:31:19",
+      "12:31:22",
+      "12:31:23",
+      "12:31:27",
+      "12:31:30",
+      "12:31:33",
+      "12:31:35",
+      "12:31:36",
+      "12:31:39",
+      "24:31:1",
+      "24:31:3",
+      "24:31:8",
+      "24:31:11",
+      "24:31:12",
+      "24:31:15",
+      "24:31:16",
+      "24:31:18",
+      "24:31:19",
+      "24:31:21",
+      "24:31:23",
+      "24:31:25",
+      "24:31:26",
+      "24:31:29",
+      "24:31:30",
+      "24:31:32",
+      "24:31:34",
+      "24:31:35",
+      "24:31:36",
+      "24:31:37",
+      "24:31:39",
+      "24:31:40",
+      "24:31:41",
+      "24:31:42",
+      "24:31:44",
+      "24:31:45",
+      "24:31:46",
+      "24:31:47",
+      "24:31:48",
+      "24:31:50",
+      "24:31:52",
+      "24:31:53",
+      "24:31:56",
+      "24:31:59",
+      "24:31:61",
+      "24:31:63",
+      "24:31:65",
+      "24:31:66",
+      "24:31:68",
+      "24:31:70",
+      "24:31:71",
+      "24:31:72",
+      "24:31:74",
+      "24:31:76",
+      "24:31:78",
+      "24:31:80",
+      "24:31:84",
+      "24:31:87",
+      "24:31:89",
+      "61:6:7",
+      "61:6:10",
+      "61:6:15",
+      "61:6:18",
+      "61:6:20",
+      "61:6:22",
+      "61:6:25",
+      "61:6:32"
+    ],
+    "surfaceRuleCounts": {
+      "gemination-fold-exact": 2,
+      "long-vowel-fold-exact": 10,
+      "normalized-containment": 34,
+      "normalized-exact": 95258
+    },
+    "weakSurfaceCount": 0,
+    "weakSurfaces": []
+  },
+  "attachments": {
+    "source": {
+      "path": "data/grammar/attachments/attachments.tsv",
+      "sha256": "a41c47b22e80293d055d797b8654e9e025fbe1d02f8ddac8f6abc7ea10070292",
+      "attachmentCount": 58427,
+      "endpointOccurrenceCount": 129704,
+      "uniqueEndpointCount": 74679
+    },
+    "resolution": {
+      "path": "data/bridges/qac-masaq/reviewed-attachment-decisions.tsv",
+      "sha256": "02f6b52061d3749a58df91ca6dc9f5d06c8c1c90ab73f2406e79d6eacbf48c1f",
+      "decisionCount": 13,
+      "redirectDecisionCount": 2,
+      "exclusionDecisionCount": 1,
+      "carrierApprovalDecisionCount": 10,
+      "resolvedEndpointCount": 74679,
+      "unitQacEdgeCount": 106059
+    },
+    "endpointMapping": {
+      "endpointCount": 129704,
+      "acceptedEndpointCount": 129702,
+      "excludedEndpointCount": 2,
+      "excludedAttachmentCount": 1,
+      "excludedEndpoints": [
+        {
+          "attachmentId": "ae:v3:s004:007:pass1:attach:a16",
+          "endpointRole": "dependent",
+          "attachmentUnitRef": "q:4:7:8",
+          "reviewedDecisionId": "QMA-D003"
+        },
+        {
+          "attachmentId": "ae:v3:s004:007:pass1:attach:a16",
+          "endpointRole": "head",
+          "attachmentUnitRef": "q:4:7:8",
+          "reviewedDecisionId": "QMA-D003"
+        }
+      ],
+      "edgeCount": 178587,
+      "multiTargetEndpointCount": 45252,
+      "partCounts": {
+        "object_suffix": 3407,
+        "particle_segment": 1350,
+        "possessive_suffix": 1698,
+        "preposition": 12850,
+        "pronoun_suffix": 4709,
+        "subject_agreement": 4,
+        "whole-source-unit": 105264,
+        "whole_word": 420
+      },
+      "alignmentRuleCounts": {
+        "core-particle-morpheme": 1350,
+        "explicit-agreement-morpheme": 2,
+        "explicit-preposition-morpheme": 12846,
+        "explicit-pronominal-morpheme": 9810,
+        "fused-agreement-carrier": 2,
+        "fused-preposition-carrier": 4,
+        "fused-suffix-carrier": 4,
+        "whole-source-unit": 105684
+      },
+      "carrierEndpointCount": 10,
+      "reviewedCarrierEndpointCount": 10,
+      "unreviewedCarrierEndpointCount": 0
+    }
+  }
+}
