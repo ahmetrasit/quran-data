@@ -1,6 +1,6 @@
 # Quran Data Inventory
 
-Snapshot date: 2026-09-02
+Snapshot date: 2026-09-23
 
 This document maps the major datasets currently present in this repository. `RELEASE.json` and `manifests/` remain authoritative for the formal `2026.09.02` release. Items marked staged still need release metadata, checksums, and any documented exception ledgers before a formal release tag.
 
@@ -32,7 +32,9 @@ This document maps the major datasets currently present in this repository. `REL
 | `data/analysis/channels/network-v3/` | Network v3 generated channel outputs, path families, review files, and pericopes | `../latent_activation`, commit `f47613506937b980f2708aed73eca9ef776deb65` | 111 eligible generated-output surahs; 110 `review/reader_a_pilot.md` files; 1 pericope JSONL | Generated channel data remains candidate/evaluation material until blind review and adjudication close. The 20 path-family JSONL files that exceeded GitHub blob limits are stored as `.jsonl.gz`; all repository files are now below 100 MB. |
 | `data/analysis/inter-ayah/` | Directional focus-ayah 100-card TSV review outputs, provenance, and coverage ledger | Initial copy from `../quran-slm/inter-ayah/outputs/`, commit `9d865a4bba8d74eb7be7694d0559e0ff075946bf`; completed in `quran-data` commit `82f5ca65ce6f664210d68ac27c63ce47221a18eb` | 6,236 of 6,236 focus TSV outputs; 923,267 schema-clean rows | Complete as evaluation records, not promoted semantic truth. |
 | `data/analysis/inter-ayah/reciprocal/` | Deterministic reciprocal-expanded per-ayah TSV projection and manifest | Built from the complete directional corpus by `scripts/analysis/build_reciprocal_inter_ayah.py` | 6,236 generated TSV documents; 1,846,572 typed records; exact hashes in `MANIFEST.json` | Mirrored rows are typed as discovery nominations, counterevidence, or self-reiterations, never target-direction judgments. Existing directional disagreements remain visible. |
-| `data/bridges/qac-furuq-v4-root-map.sqlite.gz` and `data/bridges/qac-furuq-v4-root-map.tsv` | Root-level QAC-to-furuq_v4 gateway, with bidirectional lookup views | `../latent_activation`, commit `f47613506937b980f2708aed73eca9ef776deb65` | 1,642 QAC roots; 1,652 target rows; 1,456 unique, 91 split, 95 no frozen rooted surface match | Staged, not in `RELEASE.json`; this is the required root identity gateway. Existing `data/bridges/qac-v4.sqlite.gz` remains form-level only. |
+| `data/bridges/qac-dictionary-root-resolutions.json` and `data/bridges/qac-dictionary-reviewed-aliases.json` | Published dictionary identity decisions: exact Arabic roots, source-bound reviewed aliases, and explicit gaps | QAC roots, frozen Furuq identities, and reviewed branch evidence; see `data/bridges/ROOT-DICTIONARY-REVIEW.md` | 1,642 QAC roots: 1,629 exact, 7 reviewed aliases, 6 unresolved; 116 observed targets withheld | Staged, not in `RELEASE.json`; this is the dictionary identity source. See [schema](schemas/qac-dictionary-root-resolutions.md), [builder](scripts/bridges/build_dictionary_root_resolutions.py), and [source check](tests/test_turkish_dictionary.py). |
+| `data/bridges/qac-dictionary-word-root-analyses.json` | Ranked, attributed root analyses selected by exact QAC lemma or morpheme ref | QAC morphology and cited classical lexical/grammatical sources; see source-level `sourceSnapshot` and evidence hashes | 7 selectors covering 127 QAC morphemes; 13 analyses (7 primary, 6 documented alternatives) | Staged, not in `RELEASE.json`; alternatives apply only to their selected word or lemma and do not create root-wide aliases. See [schema](schemas/qac-dictionary-word-root-analyses.md) and [source check](tests/test_dictionary_word_root_analyses.py). |
+| `data/bridges/qac-furuq-v4-root-map.sqlite.gz` and `data/bridges/qac-furuq-v4-root-map.tsv` | Occurrence-derived QAC-to-furuq_v4 targets, with bidirectional audit views | `../latent_activation`, commit `f47613506937b980f2708aed73eca9ef776deb65` | 1,642 QAC roots; 1,652 target rows; 1,456 unique, 91 split, 95 no frozen rooted surface match | Staged, not in `RELEASE.json`; target counts are observations, not dictionary root identity. `data/bridges/qac-v4.sqlite.gz` remains form-level only. |
 
 ## Provenance Files
 
@@ -51,9 +53,16 @@ This document maps the major datasets currently present in this repository. `REL
 | `data/analysis/inter-ayah/reciprocal/README.md` | Reciprocal derivation, format, and consumer rules. |
 | `data/analysis/inter-ayah/reciprocal/MANIFEST.json` | Deterministic source/output hashes and reciprocal coverage counts. |
 | `schemas/inter-ayah-row-reciprocal.md` | Typed directional, reciprocal, self-link, range, and consumer contract. |
-| `data/bridges/qac-furuq-v4-root-map-SOURCE.md` | QAC-to-furuq_v4 root gateway provenance, coverage, checksums, and usage boundary. |
-| `schemas/qac-furuq-v4-root-map.md` | Root gateway schema and consumer rules. |
+| `data/bridges/qac-furuq-v4-root-map-SOURCE.md` | QAC-to-furuq_v4 occurrence-map provenance, coverage, checksums, and usage boundary. |
+| `schemas/qac-furuq-v4-root-map.md` | Occurrence-derived root map schema and consumer rules. |
 | `scripts/bridges/build_qac_furuq_root_map_db.py` | Reproducible builder for `qac-furuq-v4-root-map.sqlite`. |
+| `data/bridges/ROOT-DICTIONARY-REVIEW.md` | Dictionary identity audit, source provenance, withheld observations, and repeatable checks. |
+| `data/bridges/qac-dictionary-reviewed-aliases.json` | Seven reviewed aliases with branch references and SHA-256 evidence anchors. |
+| `schemas/qac-dictionary-root-resolutions.md` | Generated dictionary root-resolution fields, source policy, and lookup rules. |
+| `scripts/bridges/build_dictionary_root_resolutions.py` | Reproducible exact-identity and reviewed-alias resolution builder/checker. |
+| `tests/test_turkish_dictionary.py` | Source transfer and dictionary root-resolution regression checks. |
+| `schemas/qac-dictionary-word-root-analyses.md` | Word/lemma selector, ranking, attribution, and evidence contract. |
+| `tests/test_dictionary_word_root_analyses.py` | Scoped selector, relevant resolution, and branch-evidence integrity checks. |
 | `scripts/analysis/build_reciprocal_inter_ayah.py` | Reproducible builder and checker for reciprocal inter-ayah documents. |
 | `data/bridges/qac-masaq/README.md` | QAC/MASAQ source promotion, grammar/QAC, segment/QAC, and attachment review ledgers, build commands, and consumption boundary. |
 | `schemas/qac-masaq.md` | QAC-first identity model, SQLite tables, accepted views, and cardinality contract. |

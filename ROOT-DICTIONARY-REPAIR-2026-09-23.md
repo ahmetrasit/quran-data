@@ -201,3 +201,65 @@ The target is `38:3:8:2` (`وَلَاتَ حِينَ مَنَاصٍ`), **not** t
 ## Source integrity note
 
 The frozen source entry text in `the frozen Furuq database` was read only after compact navigation. `root_000209` contains Mufradat's `ثبات` interpretation, though B001's compact source phrase does not quote the verse; its boundary and `lu_007` cover groups. `root_000751` contains the Ṣiḥāḥ and Mufradat explanations of `يتسنه`, though its branch selection omits that verb. The earlier proposed branch hashes identify stable evidence anchors, not proof of root equivalence. **No reviewed-alias JSON should be added for these six under the current root-level schema; the resolution map should continue to show six `unresolved_identity` records.**
+
+## Word-scoped ranked analyses — 2026-09-23
+
+The later editorial decision permits **documented alternative analyses for the
+particular word or lemma**. The source-owned record is
+`data/bridges/qac-dictionary-word-root-analyses.json`; its schema is
+`schemas/qac-dictionary-word-root-analyses.md`. The first item is the selected
+primary reading for that selector. Later items are attributed disputed
+accounts, not a numerical claim that their proponents were a minority. This
+decision supersedes the strict primary-only presentation in the earlier notes
+above, while retaining their rejection of root-wide aliases. The six
+`unresolved_identity` root records and all withheld occurrence targets stay
+unchanged.
+
+The source scopes `ٱسْم` to QAC lemma plus `سمو`: Basran `س م و` is primary and
+Kufan `و س م` is attributed to Ibn al-Anbārī's account of the dispute. The
+alternative applies to the noun and its plural, not to `سَمَآء` or other
+`سمو` lemmas. The single occurrences `ثُبَاتٍ` (4:71:7:1),
+`يَتَسَنَّهْ` (2:259:42:1), and `يَنقَضَّ` (18:77:17:1) have cited competing
+accounts: `ث ب ي` / `ث و ب` / `ث ب و`, `س ن ه` / `س ن ن` / `س ن و`, and
+`ق ض ض` / `ن ق ض`, respectively. The `ن ق ض` account is now included because
+Lisān al-ʿArab's `قضض` article explicitly attributes the analysis of this
+very verse to Abū ʿAlī al-Fārisī. The earlier rejection concerned a
+root-wide alias inferred from semantic proximity without that direct
+attribution.
+
+The records for `إِدًّا` (19:89:4:1), `كَيْفَ` (QAC lemma), and `لَاتَ`
+(38:3:8:2) document the missing exact lexical or grammatical headword.
+They do not assign the nearby `ء د ي` or `ل ي ت` dictionary entries. The QAC
+`ل و ت` key remains identified as its morphological indexing choice, while
+the cited grammar sources analyze `لَاتَ` as a negating expression.
+
+**Correction to the embedded earlier audit:** its statement that all 83
+`كَيْفَ` morphemes have QAC `POS:INTG` is inaccurate. The committed
+`qac.sqlite.gz` snapshot has 80 `POS:INTG` and 3 `POS:N` morphemes, all with
+lemma `كَيْف` and root key `كيف`. The word-scoped source and its integrity
+check use these exact counts.
+
+**Source review status (2026-09-23): complete.** An independent read-only
+review checked the exact selectors, the cited competing analyses, and 16
+local SHA-256 evidence anchors. Its two precision corrections were applied:
+the doubled-`ن` account is attributed to Abū ʿAmr as quoted by al-Jawharī,
+and Abū ʿAlī's `ن ق ض` account is identified as the `أَفْعَلَ` form. The
+source now contains 7 selectors covering 127 QAC morphemes, 13 analyses
+(7 primary and 6 documented alternatives), and 37 evidence items. Three
+focused source-integrity checks pass. Each selector pins the exact set of
+matching QAC refs and its relevant root-resolution state; current dictionary
+branch phrases retain their own hashes. The whole-file QAC/map hashes and
+dictionary commit at the top of the source record are historical review
+provenance, so unrelated future source updates do not require re-adjudicating
+these words.
+
+**Publication checkpoint (2026-09-23):** quran-data commit
+`86f66b3025e9c798d24d495905e3179c78c1d65a` contains the transfer of
+all 14 reviewed entries. The live tafsir evidence remains generation 5 and
+the live Reader catalog remains generation 8. Generation 9 was only partly
+uploaded; its publisher encountered the Free plan's 10 ms Worker CPU limit
+before activation. The user chose to remain on the Free plan. A SQLite
+Durable Object route for the existing publication handler, with the Free
+plan's 30 s CPU allowance, is the approved repair in quran-apps and awaits
+deployment and live verification. The word-scoped ranked analyses described
+here are source work and have not yet been published live.

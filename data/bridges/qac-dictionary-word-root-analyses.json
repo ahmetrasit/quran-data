@@ -1,0 +1,446 @@
+{
+  "schemaVersion": "qac-dictionary-word-root-analyses-v1",
+  "reviewedOn": "2026-09-23",
+  "sourceSnapshot": {
+    "qacMorphologyGzipSha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+    "rootResolutionsSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
+    "dictionarySourceCommit": "7daa18787e4826810d651ea5885aa6487187b95e"
+  },
+  "records": [
+    {
+      "selector": {
+        "qacRootJoinKey": "سمو",
+        "qacLemma": "ٱسْم"
+      },
+      "selectorRefsSha256": "b47507e027cb1e1d0af721d508c58680387d2347b4ea0507c75b53bd8fabfb3f",
+      "baselineResolution": {
+        "resolution": "exact_root",
+        "rootIds": ["root_000745"]
+      },
+      "analyses": [
+        {
+          "rank": 1,
+          "standing": "primary",
+          "rootArabic": "س م و",
+          "dictionaryRootId": "root_000745",
+          "dictionaryBranchRef": "root_000745/B005",
+          "reasonTr": "Basralı dilcilere göre اسم, 'yükselmek' anlamındaki سمو kökünden gelir: ad, adlandırılanı tanınır kılar. İlgili sözlük dalı isim ve adlandırmayı doğrudan kapsar. Bu türetme görüşü ad sözcüğüne ilişkindir; سماء gibi ayrı kelimelere uygulanmaz.",
+          "attributionTr": "QAC ve Basralı dilciler; İbnü’l-Enbârî’nin aktarımı",
+          "evidence": [
+            {
+              "sourceTitle": "Quranic Arabic Corpus, س م و kök dizini",
+              "sourceUrl": "https://corpus.quran.com/qurandictionary.jsp?q=smw",
+              "noteTr": "ٱسْم için 39, سَمَآء için ayrı 310 kullanım listelenir; tartışma yalnız ٱسْم lemmasına bağlanır."
+            },
+            {
+              "sourceTitle": "İbnü’l-Enbârî, el-İnsâf, isim kelimesinin türeyişi",
+              "sourceUrl": "https://books.rafed.net/view/1878/page/8",
+              "noteTr": "Basralıların اسم kelimesini yükselme anlamındaki السموّ kökünden türettiğini açıkça aktarır."
+            },
+            {
+              "sourceTitle": "Furûk sözlük dalı root_000745/B005",
+              "sourceRef": "root_000745/B005#source_phrase_ar",
+              "sourceSha256": "b95ef15371557e1311ccc193e2f09458c5601e331e6ffc350b35998d6187e75f",
+              "noteTr": "Dalın Arapça kaynak ifadesi اسم kelimesinin سمو kökünden geldiğini ve adlandırma kullanımını içerir."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "standing": "documented_alternative",
+          "rootArabic": "و س م",
+          "dictionaryRootId": "root_001650",
+          "dictionaryBranchRef": "root_001650/B001",
+          "reasonTr": "Kûfeli dilciler اسم kelimesini işaret koyma anlamındaki وسم kökünden açıklar: ad, adlandırılan şeyi tanıtan bir işarettir. İlgili sözlük dalı işaret anlamını taşır; اسم türetmesini İbnü’l-Enbârî aktarır. Bu görüş yalnız ad sözcüğü ve çoğul biçimlerine ilişkindir.",
+          "attributionTr": "Kûfeli dilciler ve Sa‘leb; İbnü’l-Enbârî’nin aktarımı",
+          "evidence": [
+            {
+              "sourceTitle": "İbnü’l-Enbârî, el-İnsâf, isim kelimesinin türeyişi",
+              "sourceUrl": "https://books.rafed.net/view/1878/page/8",
+              "noteTr": "Kûfeli dilcilerin وسم görüşünü ve Sa‘leb’in adı tanıtıcı işaret sayan açıklamasını kaydeder."
+            },
+            {
+              "sourceTitle": "Furûk sözlük dalı root_001650/B001",
+              "sourceRef": "root_001650/B001#source_phrase_ar",
+              "sourceSha256": "0fc258e55844ce5ad9a092fc98b03a5a0b8b48fe60fdf51aa3b0e6273011f47f",
+              "noteTr": "Dal وسم için somut işaret anlamını belgeler; اسم etimolojisinin doğrudan kanıtı el-İnsâf’tadır."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "selector": {
+        "qacRootJoinKey": "ثبي",
+        "qacRef": "4:71:7:1"
+      },
+      "selectorRefsSha256": "3e6dffc8eb38f0af59dcc637648b2853f76a55991c2d070c6c2f2952047b52e7",
+      "baselineResolution": {
+        "resolution": "unresolved_identity",
+        "rootIds": []
+      },
+      "analyses": [
+        {
+          "rank": 1,
+          "standing": "primary",
+          "rootArabic": "ث ب ي",
+          "dictionaryRootId": null,
+          "dictionaryBranchRef": null,
+          "reasonTr": "Bu ثُبَاتٍ biçiminde topluluk anlamındaki ثبة kelimesinin düşen son harfini ي sayan açıklama birincil sıradadır; QAC de aynı kökü seçer. Kelimenin türeyişi tartışmalıdır ve mevcut sözlükte ث ب ي için tam başlık bulunmaz.",
+          "attributionTr": "QAC; İbn Manzûr’un ثبا maddesindeki ي açıklaması; Kurtubî’nin naklettiği Nehhâs ayrımı",
+          "evidence": [
+            {
+              "sourceTitle": "Quranic Arabic Corpus, ث ب ي kök dizini",
+              "sourceUrl": "https://corpus.quran.com/qurandictionary.jsp?q=vby",
+              "noteTr": "4:71’deki ثُبَاتٍ biçimini ث ب ي altında verir."
+            },
+            {
+              "sourceTitle": "İbn Manzûr, Lisânü’l-Arab, ثبا",
+              "sourceUrl": "https://islamweb.net/ar/library/content/122/975/%D8%AB%D8%A8%D8%A7",
+              "noteTr": "Topluluk anlamındaki ثبة için ثبي kökenini ve ثبية küçültmesini aktarır."
+            },
+            {
+              "sourceTitle": "Kurtubî, Nisâ 4:71 tefsiri",
+              "sourceUrl": "https://quran.ksu.edu.sa/tafseer/qortobi/sura4-aya71.html",
+              "noteTr": "Nehhâs’ın topluluk ثبة ile havuz ثبة kelimelerini küçültme biçimleriyle ayırdığını bildirir."
+            },
+            {
+              "sourceTitle": "Kaynak kök çözümlemesi",
+              "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=ثبي",
+              "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
+              "noteTr": "ث ب ي için sözlük kimliği çözülmemiştir; gözlemsel ث ب ت hedefi eşdeğer sayılmaz."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "standing": "documented_alternative",
+          "rootArabic": "ث و ب",
+          "dictionaryRootId": "root_000209",
+          "dictionaryBranchRef": "root_000209/B001",
+          "reasonTr": "Râgıb el-İsfahânî ثبة topluluğunu birbirine dönen insanların bir araya gelişiyle açıklar ve 4:71’deki ثُبَاتٍ kullanımını ثوب maddesinde anar. İlgili sözlük dalı dönüş ve toplanma anlamını kapsar; ayetin açık alıntısı tam Müfredât maddesindedir. Bu açıklama ayetteki kelimeye özgüdür.",
+          "attributionTr": "Râgıb el-İsfahânî; Lisânü’l-Arab’ın aktardığı ثاب açıklaması",
+          "evidence": [
+            {
+              "sourceTitle": "Râgıb el-İsfahânî, el-Müfredât, ثوب",
+              "sourceRef": "furuq:dictionary_entries/mufradat/213#entry_text_clean",
+              "sourceSha256": "0a93118a17e1f50149c9679d4c36d3f4580f32593fc8bb24109bcb496cd6128c",
+              "noteTr": "Tam kaynak maddesi topluluk ثبة açıklamasını ve Nisâ 4:71’deki ثُبَاتٍ örneğini içerir."
+            },
+            {
+              "sourceTitle": "İbn Manzûr, Lisânü’l-Arab, ثوب",
+              "sourceUrl": "https://islamweb.net/ar/library/content/122/1095/%D8%AB%D9%88%D8%A8",
+              "noteTr": "Topluluk ثبة için ثاب/ثوب türetmesini ve buna karşı eksik son ي açıklamasını yan yana verir."
+            },
+            {
+              "sourceTitle": "Furûk sözlük dalı root_000209/B001",
+              "sourceRef": "root_000209/B001#source_phrase_ar",
+              "sourceSha256": "03948b05175bb51a1b882a93502c669fc8685681530496a406217d6e78f549d1",
+              "noteTr": "Dal dönüş ve toplanma anlamını kapsar; ayetin açık alıntısı tam Müfredât maddesindedir."
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "standing": "documented_alternative",
+          "rootArabic": "ث ب و",
+          "dictionaryRootId": null,
+          "dictionaryBranchRef": null,
+          "reasonTr": "Topluluk anlamındaki ثبة kelimesinde düşen son harfi و sayan ayrı bir zayıf son harf çözümlemesi de vardır. Bu, ortadaki و harfinin düştüğünü ileri süren ث و ب açıklamasıyla aynı çözümleme değildir. Mevcut sözlükte ث ب و için tam başlık yoktur.",
+          "attributionTr": "İbn Cinnî ve İbn Berrî; İbn Manzûr’un aktarımı",
+          "evidence": [
+            {
+              "sourceTitle": "İbn Manzûr, Lisânü’l-Arab, ثبا",
+              "sourceUrl": "https://islamweb.net/ar/library/content/122/975/%D8%AB%D8%A8%D8%A7",
+              "noteTr": "İbn Cinnî düşen harfi و sayar; İbn Berrî ثبوة kökenini tercih ederek ثُبَاتٍ örneğini kullanır."
+            },
+            {
+              "sourceTitle": "Kaynak kök çözümlemesi",
+              "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=ثبي",
+              "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
+              "noteTr": "Mevcut eşleştirme dosyası bu kelimeyi kök düzeyinde çözümsüz bırakır; ث ب و sözlük başlığı eklenmemiştir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "selector": {
+        "qacRootJoinKey": "سنه",
+        "qacRef": "2:259:42:1"
+      },
+      "selectorRefsSha256": "f11b8bab65acbc9592c83a3945992f3b19df08936e3db96bcc4a2199d31ccecb",
+      "baselineResolution": {
+        "resolution": "unresolved_identity",
+        "rootIds": []
+      },
+      "analyses": [
+        {
+          "rank": 1,
+          "standing": "primary",
+          "rootArabic": "س ن ه",
+          "dictionaryRootId": null,
+          "dictionaryBranchRef": null,
+          "reasonTr": "يَتَسَنَّهْ için birincil sıra QAC’nin son ه harfini kökten sayan çözümlemesini izler. Taberî de ه harfini asli sayan okuyuştan yana açık tercih bildirir. Mevcut sözlükte س ن ه tam başlığı yoktur; aynı 'değişmedi' anlamı tek başına başka kökü kanıtlamaz.",
+          "attributionTr": "QAC; Taberî’nin tercih ettiği asli ه açıklaması; Halîl’in el-Ayn’daki سنه alt maddesi",
+          "evidence": [
+            {
+              "sourceTitle": "Quranic Arabic Corpus, س ن ه kök dizini",
+              "sourceUrl": "https://corpus.quran.com/qurandictionary.jsp?q=snh",
+              "noteTr": "Bakara 2:259’daki يَتَسَنَّهْ biçimini س ن ه altında kaydeder."
+            },
+            {
+              "sourceTitle": "Taberî, Bakara 2:259 tefsiri",
+              "sourceUrl": "https://quran.ksu.edu.sa/tafseer/tabary/sura2-aya259.html",
+              "noteTr": "ه harfinin kökün üçüncü harfi olduğu çözümlemeyi ve bunu destekleyen okuyuş tercihlerini açıklar."
+            },
+            {
+              "sourceTitle": "Halîl b. Ahmed, el-Ayn, سنه alt maddesi",
+              "sourceRef": "furuq:dictionary_entries/ayn/1638#section=سنه",
+              "sourceSha256": "39345c43483e0061899d66b98f99b436f06af49da2a3d4915d757d680fc970c9",
+              "noteTr": "Geniş kaynak kaydındaki iç سنه bölümünde ayet ve asli ه tartışması yer alır; kaydın صهم rota etiketi bu kelimenin kökü değildir."
+            },
+            {
+              "sourceTitle": "Kaynak kök çözümlemesi",
+              "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=سنه",
+              "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
+              "noteTr": "س ن ه için tam sözlük kimliği çözümsüzdür; gözlemsel س ن ن hedefi kök eşitliği değildir."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "standing": "documented_alternative",
+          "rootArabic": "س ن ن",
+          "dictionaryRootId": "root_000750",
+          "dictionaryBranchRef": "root_000750/B005",
+          "reasonTr": "Bir açıklama biçimi حَمَإٍ مَسْنُونٍ sözündeki 'değişmiş' anlamına bağlar; çift ن harfinden birinin dönüşmesiyle يتسنن kökenini öne sürer ve son ه harfini durak harfi sayar. İlgili sözlük dalı değişme anlamını destekler; fiilin kendisi Cevherî’nin tam kaynak maddesinde açıklanır.",
+          "attributionTr": "Ebû Amr’ın açıklaması, Cevherî’nin es-Sıhâh’ındaki aktarımı; Taberî’nin aktardığı ikinci türetme",
+          "evidence": [
+            {
+              "sourceTitle": "Cevherî, es-Sıhâh, سنأ altında يتسن açıklaması",
+              "sourceRef": "furuq:dictionary_entries/sihah/5378#entry_text_clean",
+              "sourceSha256": "e8c760f77da3477e330325fa462c60bc7126a42f7394722e0235af7010509676",
+              "noteTr": "Geniş سنأ başlığında Ebû Amr’a atfedilen açıklama حمأ مسنون ile ilişki kurar ve iki ن harfinden birinin dönüşmesini söyler; rota başlığı kök kanıtı değildir."
+            },
+            {
+              "sourceTitle": "Taberî, Bakara 2:259 tefsiri",
+              "sourceUrl": "https://quran.ksu.edu.sa/tafseer/tabary/sura2-aya259.html",
+              "noteTr": "ه harfini ilave sayan okuyuşla birlikte يتسنن ve حمإ مسنون türetmesini açıkça kaydeder."
+            },
+            {
+              "sourceTitle": "Furûk sözlük dalı root_000750/B005",
+              "sourceRef": "root_000750/B005#source_phrase_ar",
+              "sourceSha256": "e766c1be25dbf74c3528761c569b593cc2d49a9cda9e36cef7e85cef80baef1e",
+              "noteTr": "Dal حمأ مسنون için değişme anlamını kapsar; fiilin kendisi dal alıntısında yoktur."
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "standing": "documented_alternative",
+          "rootArabic": "س ن و",
+          "dictionaryRootId": "root_000751",
+          "dictionaryBranchRef": null,
+          "reasonTr": "Başka açıklama, سنة kelimesinin سنوات çoğuluna dayanarak düşen son kök harfini و sayar ve ه harfini durakta eklenen harf kabul eder. Taberî bunu aktarmakla birlikte asli ه görüşünü tercih eder. Mevcut س ن و sözlük dalı yıl anlamını kapsar fakat bu fiili doğrudan alıntılamaz.",
+          "attributionTr": "Taberî’nin aktardığı سنوات temelli açıklama; Lisânü’l-Arab’ın سنه maddesi",
+          "evidence": [
+            {
+              "sourceTitle": "Taberî, Bakara 2:259 tefsiri",
+              "sourceUrl": "https://quran.ksu.edu.sa/tafseer/tabary/sura2-aya259.html",
+              "noteTr": "سنوات çoğuluyla gerekçelendirilen son و ve ek ه açıklamasını diğer görüşlerden ayırır."
+            },
+            {
+              "sourceTitle": "İbn Manzûr, Lisânü’l-Arab, سنه",
+              "sourceUrl": "https://islamweb.net/ar/library/content/122/4033/%D8%B3%D9%86%D9%87",
+              "noteTr": "Yıl sözcüğünün eksik son harfi için ه ve و biçimlerini ve يَتَسَنَّهْ üzerindeki tartışmayı kaydeder."
+            },
+            {
+              "sourceTitle": "Furûk sözlük dalı root_000751/B008",
+              "sourceRef": "root_000751/B008#source_phrase_ar",
+              "sourceSha256": "8dfd6f23bfd2cb87b75b6c2377869b09bac79b4535d8700c9096e64128979fe4",
+              "noteTr": "Dal yalnız سنة/سنوات ve yıl anlamını destekler; tartışmalı fiilin doğrudan kanıtı değildir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "selector": {
+        "qacRootJoinKey": "قضض",
+        "qacRef": "18:77:17:1"
+      },
+      "selectorRefsSha256": "618e46ccf4963899f8905434c65d646a720827d2f43a0be44205aabebbc47bf6",
+      "baselineResolution": {
+        "resolution": "unresolved_identity",
+        "rootIds": []
+      },
+      "analyses": [
+        {
+          "rank": 1,
+          "standing": "primary",
+          "rootArabic": "ق ض ض",
+          "dictionaryRootId": null,
+          "dictionaryBranchRef": null,
+          "reasonTr": "QAC duvarın 'yıkılmak üzere' oluşunu anlatan يَنقَضَّ fiilini ق ض ض kökünün VII. kalıbı sayar; baştaki ن kalıp unsurudur. Lisânü’l-Arab da bu ayet için Ebû Ubeyd ve başkalarının iki harfli/ikizlenmiş çözümlemesini aktarır. Mevcut sözlükte ق ض ض tam başlığı yoktur.",
+          "attributionTr": "QAC; Ebû Ubeyd ve diğerleri, İbn Manzûr’un aktarımı",
+          "evidence": [
+            {
+              "sourceTitle": "Quranic Arabic Corpus, Kehf 18:77 kelime çözümlemesi",
+              "sourceUrl": "https://corpus.quran.com/wordmorphology.jsp?location=(18:77:17)",
+              "noteTr": "Fiili ق ض ض kökünden VII. kalıp olarak etiketler."
+            },
+            {
+              "sourceTitle": "İbn Manzûr, Lisânü’l-Arab, قضض",
+              "sourceUrl": "https://islamweb.net/ar/library/content/122/6692/%D9%82%D8%B6%D8%B6",
+              "noteTr": "18:77’yi doğrudan anıp Ebû Ubeyd ve başkalarının ikizlenmiş kök çözümlemesini aktarır."
+            },
+            {
+              "sourceTitle": "Kaynak kök çözümlemesi",
+              "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=قضض",
+              "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
+              "noteTr": "ق ض ض için sözlük kimliği çözümsüzdür; gözlemsel ن ق ض hedefi otomatik kök eşliği değildir."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "standing": "documented_alternative",
+          "rootArabic": "ن ق ض",
+          "dictionaryRootId": "root_001543",
+          "dictionaryBranchRef": "root_001543/B001",
+          "reasonTr": "Ebû Alî el-Fârisî ayetteki يَنقَضَّ biçimini ن ق ض kökünden أَفْعَلَ kalıbında açıklar; bu görüşte ن kökün parçasıdır. İlgili sözlük dalı yapı veya bağın bozulmasını anlatır; ayete doğrudan atfı Lisânü’l-Arab verir. Bağ yalnız Kehf 18:77’deki fiile özgüdür.",
+          "attributionTr": "Ebû Alî el-Fârisî; İbn Manzûr’un açık ayet atfıyla aktarımı",
+          "evidence": [
+            {
+              "sourceTitle": "İbn Manzûr, Lisânü’l-Arab, قضض",
+              "sourceUrl": "https://islamweb.net/ar/library/content/122/6692/%D9%82%D8%B6%D8%B6",
+              "noteTr": "Kehf 18:77 için Ebû Alî’nin ن ق ض kökünden أَفْعَلَ kalıbı çözümlemesini doğrudan bildirir."
+            },
+            {
+              "sourceTitle": "Furûk sözlük dalı root_001543/B001",
+              "sourceRef": "root_001543/B001#source_phrase_ar",
+              "sourceSha256": "5cdac16e7f72adf1e6e1c426d312d5b8e38ca3ec496c224031d210d000935bc3",
+              "noteTr": "Dal ن ق ض için yapı ve bağın bozulması anlamını destekler; ayet atfı Lisân’dadır."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "selector": {
+        "qacRootJoinKey": "ءدد",
+        "qacRef": "19:89:4:1"
+      },
+      "selectorRefsSha256": "5291cda3c805e2c351479b6152b9bed6c2617a7bd24f5dccd87a5b1513969c81",
+      "baselineResolution": {
+        "resolution": "unresolved_identity",
+        "rootIds": []
+      },
+      "analyses": [
+        {
+          "rank": 1,
+          "standing": "primary",
+          "rootArabic": "ء د د",
+          "dictionaryRootId": null,
+          "dictionaryBranchRef": null,
+          "reasonTr": "Meryem 19:89’daki إِدًّا, korkunç ve ağır bir işi niteleyen ء د د kelimesidir. Lisânü’l-Arab أدد maddesi ayeti doğrudan anar. Mevcut sözlükte bu başlık yoktur; yakın harfli ء د ي dalı bu sıfatı belgelemeyen başka anlamlara aittir.",
+          "attributionTr": "QAC; İbn Manzûr, Lisânü’l-Arab, أدد",
+          "evidence": [
+            {
+              "sourceTitle": "İbn Manzûr, Lisânü’l-Arab, أدد",
+              "sourceUrl": "https://islamweb.net/ar/library/content/122/67/index.php",
+              "noteTr": "إِدّ ve إِدًّا için korkunç olay anlamını ve Meryem 19:89’u doğrudan kaydeder."
+            },
+            {
+              "sourceTitle": "Kaynak kök çözümlemesi",
+              "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=ءدد",
+              "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
+              "noteTr": "ء د د için tam sözlük kimliği yoktur; gözlemsel ء د ي eşitlik olarak yayınlanmaz."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "selector": {
+        "qacRootJoinKey": "كيف",
+        "qacLemma": "كَيْف"
+      },
+      "selectorRefsSha256": "096be913f1b003fc7521990653bdf5a31bae25818a54886200fa6a86209ed34a",
+      "baselineResolution": {
+        "resolution": "unresolved_identity",
+        "rootIds": []
+      },
+      "analyses": [
+        {
+          "rank": 1,
+          "standing": "primary",
+          "rootArabic": "ك ي ف",
+          "dictionaryRootId": null,
+          "dictionaryBranchRef": null,
+          "reasonTr": "كَيْفَ 'nasıl' diye soran bir kelimedir. QAC, 83 kullanımın 80’ini soru sözcüğü, üçünü isim olarak etiketler ve ك ي ف kökü altında dizinler. Mevcut sözlükte uygun kelime başlığı bulunmaz; soru işlevini açıklayan ayrı bir başlık gerekir.",
+          "attributionTr": "QAC biçimbilim kaydı ve 2:28 kelime çözümlemesi",
+          "evidence": [
+            {
+              "sourceTitle": "Quranic Arabic Corpus, Bakara 2:28 kelime çözümlemesi",
+              "sourceUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28",
+              "noteTr": "كَيْفَ biçimini soru ismi olarak açıklar; bu kullanım türetilmiş bir sözlük kökü gerektirmez."
+            },
+            {
+              "sourceTitle": "Quranic Arabic Corpus, ك ي ف kök dizini",
+              "sourceUrl": "https://corpus.quran.com/qurandictionary.jsp?q=kyf",
+              "noteTr": "كَيْفَ kullanımlarını aynı QAC dizin anahtarı altında toplar."
+            },
+            {
+              "sourceTitle": "Kaynak kök çözümlemesi",
+              "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=كيف",
+              "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
+              "noteTr": "ك ي ف için mevcut sözlükte tam başlık veya onaylı takma kök bulunmaz."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "selector": {
+        "qacRootJoinKey": "لوت",
+        "qacRef": "38:3:8:2"
+      },
+      "selectorRefsSha256": "dfddf768b8a983a679379d7a18f6c216cd46a6bb4397a123b7f3f72aaa652d1d",
+      "baselineResolution": {
+        "resolution": "unresolved_identity",
+        "rootIds": []
+      },
+      "analyses": [
+        {
+          "rank": 1,
+          "standing": "primary",
+          "rootArabic": "ل و ت",
+          "dictionaryRootId": null,
+          "dictionaryBranchRef": null,
+          "reasonTr": "Sâd 38:3’teki لَاتَ sözü için QAC, ل و ت kökünü ve fiil etiketini verir. Kurtubî’nin aktardığı dil bilgisi açıklamalarında söz, olumsuzluk bildiren لا ile ت unsuruyla ele alınır. Mevcut sözlükte bu edat için uygun başlık yoktur; لَيْت veya put adı اللّات ile birleştirilmez.",
+          "attributionTr": "QAC biçimbilim kaydı; Kurtubî’nin aktardığı Sîbeveyhi ve başka dilciler",
+          "evidence": [
+            {
+              "sourceTitle": "Quranic Arabic Corpus, Sâd 38:3 kelime çözümlemesi",
+              "sourceUrl": "https://corpus.quran.com/wordmorphology.jsp?location=(38:3:8)",
+              "noteTr": "لَاتَ bölümünü fiil ve ل و ت kökü olarak etiketler; bu dizin anahtarının dayanağını gösterir."
+            },
+            {
+              "sourceTitle": "Kurtubî, Sâd 38:3 tefsiri",
+              "sourceUrl": "https://quran.ksu.edu.sa/tafseer/qortobi/sura38-aya3.html",
+              "noteTr": "Sîbeveyhi’nin ليس benzetmesini ve لا sözüne ت eklenmesi açıklamasını aktarır; ل ي ت türetmesi sunmaz."
+            },
+            {
+              "sourceTitle": "Kaynak kök çözümlemesi",
+              "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=لوت",
+              "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
+              "noteTr": "ل و ت için uygun sözlük başlığı ya da onaylı takma kök bulunmaz."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -49,7 +49,9 @@ Initially copied on 2026-07-27 and refreshed where noted in each SOURCE.md, but 
 - Turkish V12 cross-run publication findings: `data/analysis/ayah-activation/v12-cross-run/tr/`, 114 final per-surah publication JSON files
 - Network v3 generated channel outputs and reviews: `data/analysis/channels/network-v3/`, 111 eligible generated-output surahs, 110 review files, and pericopes; still candidate data pending blind review/adjudication
 - Inter-ayah focus review TSVs: `data/analysis/inter-ayah/`, all 6,236 directional outputs staged and schema-clean; reciprocal-expanded consumer documents are under `data/analysis/inter-ayah/reciprocal/`
-- QAC-to-furuq_v4 root gateway: `data/bridges/qac-furuq-v4-root-map.sqlite.gz`, plus source TSV and reproducible builder; staged and required for root-level QAC/furuq joins.
+- Dictionary root identities: `data/bridges/qac-dictionary-root-resolutions.json`, generated from exact Arabic identities and the source-bound reviewed aliases in `data/bridges/qac-dictionary-reviewed-aliases.json`.
+- Word-scoped disputed root analyses: `data/bridges/qac-dictionary-word-root-analyses.json`, with primary and attributed alternatives selected by an exact QAC lemma or morpheme ref.
+- QAC-to-furuq_v4 occurrence map: `data/bridges/qac-furuq-v4-root-map.sqlite.gz`, plus source TSV and reproducible builder; retained for observed targets and bidirectional audit queries.
 
 See `RELEASE.json` for the formal release payload, `manifests/` for release
 coverage and provenance, and `INVENTORY.md` for a path-by-path map of what
@@ -77,8 +79,9 @@ not release-ready.
 3. Every released artifact has source provenance and a SHA-256 checksum.
 4. No raw experiments or manually edited compiled data.
 5. Stable occurrence joins use `qac_ref`, `branch_id`, and `ayah_ref`.
-6. Root-level QAC-to-furuq_v4 joins must use `data/bridges/qac-furuq-v4-root-map.sqlite.gz`; `data/bridges/qac-v4.sqlite.gz` is form-level and must not be used as a root identity gateway.
-7. Arabic occurrence joins to MASAQ, word analysis, attachments, and explicitly referenced commentary tags use four-part QAC morpheme refs through `data/bridges/qac-masaq.sqlite.gz`; three-part source refs are never QAC aliases.
+6. Dictionary root identities use `data/bridges/qac-dictionary-root-resolutions.json`. The QAC-to-furuq_v4 root map records occurrence-derived targets for audit and reverse joins; its split or dominant targets do not establish dictionary identity. `data/bridges/qac-v4.sqlite.gz` is a form-level bridge.
+7. Disputed derivations for a particular word use `data/bridges/qac-dictionary-word-root-analyses.json` with an exact QAC root-plus-lemma or root-plus-morpheme selector. Its alternatives do not expand to every word of that root.
+8. Arabic occurrence joins to MASAQ, word analysis, attachments, and explicitly referenced commentary tags use four-part QAC morpheme refs through `data/bridges/qac-masaq.sqlite.gz`; three-part source refs are never QAC aliases.
 
 SQLite and JSONL payloads are compressed. Use `gzip -dk` for `.gz` and
 `zstd -dk` for `.zst` files.
