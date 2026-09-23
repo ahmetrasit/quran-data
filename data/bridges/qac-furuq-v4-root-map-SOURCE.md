@@ -1,6 +1,7 @@
 # QAC to furuq_v4 Root Map Provenance
 
 Copied: 2026-07-28 11:30:00 EDT
+Coverage refreshed in quran-data commit `464a991fc` on 2026-07-29.
 
 Source repository: `/Volumes/OZTURK/_projects/latent_activation`
 Source commit: `f47613506937b980f2708aed73eca9ef776deb65`
@@ -27,13 +28,13 @@ form-level.
 Coverage:
 
 - QAC root rows: 1,642
-- Target rows: 1,647
-- `unique`: 1,448 QAC roots
+- Target rows: 1,654
+- `unique`: 1,455 QAC roots
 - `split`: 92 QAC roots
-- `no_frozen_rooted_surface_match`: 102 QAC roots
+- `no_frozen_rooted_surface_match`: 95 QAC roots
 - `qac_to_furuq` view rows: 1,749
-- `qac_to_furuq_mapped` view rows: 1,644
-- `furuq_to_qac` view rows: 1,644
+- `qac_to_furuq_mapped` view rows: 1,651
+- `furuq_to_qac` view rows: 1,651
 
 Unmapped notes:
 
@@ -54,8 +55,8 @@ Verification:
 Checksums:
 
 ```text
-319f5e563e9095c17a84cee1f0b235582ee92db67dcf4aa90b300ca0ffdf77e9  qac-furuq-v4-root-map.sqlite
-415d0f14f3f1d6b49fd2fd574d24495090ece1af3f01210998b0bc1eb7b11296  qac-furuq-v4-root-map.sqlite.gz
-847c18c635c372a7513b1115de979d91eeededb81101cd97e400d414461e289d  qac-furuq-v4-root-map.tsv
+8caeb501326c0d2db7af199d84e9d1508815f225ac994d18197ae3b0a4e3266b  qac-furuq-v4-root-map.sqlite
+3c99051a8d9ff0f6d8611b0421ed91525e3457f6f99320591b6a35a9baa61d63  qac-furuq-v4-root-map.sqlite.gz
+ed99768f5eb29850339d472bdc2d776957a526eb65ce7c8095ea5448f62be843  qac-furuq-v4-root-map.tsv
 d3579d087e9592f814fa44d2ea13427183c23e1a747c6bb9fff84c26615ca537  build_qac_furuq_root_map_db.py
 ```
