@@ -28,13 +28,13 @@ form-level.
 Coverage:
 
 - QAC root rows: 1,642
-- Target rows: 1,654
-- `unique`: 1,455 QAC roots
-- `split`: 92 QAC roots
+- Target rows: 1,652
+- `unique`: 1,456 QAC roots
+- `split`: 91 QAC roots
 - `no_frozen_rooted_surface_match`: 95 QAC roots
-- `qac_to_furuq` view rows: 1,749
-- `qac_to_furuq_mapped` view rows: 1,651
-- `furuq_to_qac` view rows: 1,651
+- `qac_to_furuq` view rows: 1,747
+- `qac_to_furuq_mapped` view rows: 1,649
+- `furuq_to_qac` view rows: 1,649
 
 Unmapped notes:
 
@@ -55,8 +55,14 @@ Verification:
 Checksums:
 
 ```text
-8caeb501326c0d2db7af199d84e9d1508815f225ac994d18197ae3b0a4e3266b  qac-furuq-v4-root-map.sqlite
-3c99051a8d9ff0f6d8611b0421ed91525e3457f6f99320591b6a35a9baa61d63  qac-furuq-v4-root-map.sqlite.gz
-ed99768f5eb29850339d472bdc2d776957a526eb65ce7c8095ea5448f62be843  qac-furuq-v4-root-map.tsv
+bfc0420942c659015f1de26de3214b006d9b761f70f6b09445671fc88bbfe3aa  qac-furuq-v4-root-map.sqlite
+5a72dc4eb7ac5ac66b681da2982c0078cc9fcc8381d4594db7e5c01e2047a709  qac-furuq-v4-root-map.sqlite.gz
+d31925e58a6030a37ce0fe0756caf17b422b4e015f3a7776215367b77e9a4ef1  qac-furuq-v4-root-map.tsv
 d3579d087e9592f814fa44d2ea13427183c23e1a747c6bb9fff84c26615ca537  build_qac_furuq_root_map_db.py
 ```
+
+September 23 review: corrected the transposed وذر occurrence (48:15:8:1)
+and the doubled سمم target for سمّوهم (13:33:13:1). Historical occurrence
+disagreements remain in this bridge for audit; dictionary consumers must use
+`qac-dictionary-root-resolutions.json` for approved root identities. See
+`ROOT-DICTIONARY-REVIEW.md`.

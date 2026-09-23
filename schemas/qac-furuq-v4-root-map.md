@@ -3,8 +3,9 @@
 Status: staged root-level gateway.
 
 This SQLite database resolves QAC root keys to furuq_v4 root ids and supports
-the reverse lookup from furuq_v4 root ids back to QAC roots. It is the required
-gateway for root-level joins between QAC morphology and furuq_v4.
+the reverse lookup from furuq_v4 root ids back to QAC roots. It is the occurrence-derived
+gateway for auditing QAC/Furuq correspondence. Published dictionary identities
+use `data/bridges/qac-dictionary-root-resolutions.json`.
 
 Do not use `qac-v4.sqlite.gz` for root identity resolution. That artifact is a
 form-level bridge from QAC morpheme occurrences to V4 form handles.
@@ -68,16 +69,15 @@ visible through `target_rank`, `frozen_root_norm`, `furuq_resolution`,
 
 ## Consumer Rule
 
-Root-level QAC/furuq joins must use this database as the gateway.
+The observed `unique` and `split` statuses describe counts of frozen/MASAQ
+matches; they do not prove lexical equivalence. Do not union these targets
+into every word carrying a QAC root. This caused unrelated roots to appear
+for اسم, قل, كل, and other words.
 
-Recommended behavior:
-
-- `unique`: safe direct root-id join.
-- `split`: preserve all target root ids; use `is_dominant=1` only as a display
-  default or when a workflow explicitly permits dominant-only behavior.
-- `no_frozen_rooted_surface_match`: known QAC root without frozen/MASAQ
-  same-surface evidence; do not treat as equivalent to a proven furuq target.
-- `has_furuq_root=0`: known unmapped or missing furuq root target.
+Use `qac-dictionary-root-resolutions.json` for dictionary lookup. It retains
+exact Arabic root identities or explicitly reviewed, source-bound aliases.
+It records withheld observational targets, missing entries, and unresolved
+identities separately. Keep all raw targets here available for investigation.
 
 ## Example Queries
 
