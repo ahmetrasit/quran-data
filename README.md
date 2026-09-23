@@ -42,7 +42,7 @@ remain outside the canonical link graph.
 Initially copied on 2026-07-27 and refreshed where noted in each SOURCE.md, but not yet folded into a new
 `RELEASE.json`, manifest, checksum, and tag set:
 
-- Turkish dictionary entries: `data/dictionary/tr/`, 1,682 evidence-enriched entry JSON files
+- Turkish dictionary entries: `data/dictionary/tr/`, 1,696 evidence-enriched entry JSON files
 - Turkish translation glosses: `data/translation/glosses/locales/tr/`, 1,572 reviewed gloss JSON files
 - Turkish V12 ayah activation/publication support: `data/analysis/ayah-activation/v12-tr/`, 114 surahs plus full-context packets/control directories and 6 focus runs
 - Turkish V12 plus/minus-5 reader walks: `data/analysis/ayah-activation/v12-tr-11ayah/`, 114 surahs with reader walks and frozen run metadata

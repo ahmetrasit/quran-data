@@ -1,5 +1,12 @@
 # Root dictionary review — 2026-09-23
 
+**Later session update:** all 14 missing Turkish entries were independently
+reviewed and transferred. The current corpus contains 1,696 entries and 11,741
+branches, with zero missing resolved entries. Six identities remain deliberately
+unresolved after source adjudication; see the repository-root
+`ROOT-DICTIONARY-REPAIR-2026-09-23.md`. The diagnosis below records the initial
+audit before that production batch.
+
 The September entry repair was correct but did not close the mapping issue.
 All 1,682 transferred entries match their committed dictionary writer outputs.
 All 11,648 branch images, Arabic inclusion/exclusion boundaries, and source

@@ -7,19 +7,28 @@ import re
 from pathlib import Path
 
 ENVELOPE = re.compile(r"root_[0-9]{6}(?:--root_[0-9]{6})*")
+GENERATORS = {
+    "v2/scripts/accept_root_writer.py",
+    "v2/scripts/enrich_furuq_writer.py",
+}
 
-def validate_entry(value: dict, filename: str) -> int:
+def validate_entry(value: dict, filename: str, *, expected_generator: str | None = None) -> int:
     envelope = filename.removesuffix("_entry.json")
-    if not ENVELOPE.fullmatch(envelope) or value.get("root_envelope_id") != envelope:
+    if (not isinstance(value, dict) or not ENVELOPE.fullmatch(envelope)
+            or value.get("root_envelope_id") != envelope):
         raise ValueError(f"Entry identity mismatch: {filename}")
     if (value.get("artifact_format") != "dictionary-v2-root-entry-draft-v1"
-            or value.get("language") != "tr"):
+            or value.get("language") != "tr"
+            or value.get("generated_by") not in GENERATORS
+            or (expected_generator is not None and value.get("generated_by") != expected_generator)):
         raise ValueError(f"Raw or unrecognized writer output: {filename}")
     branches = value.get("branches")
     if not isinstance(branches, list) or not branches:
         raise ValueError(f"Empty or missing branches: {filename}")
     seen = set()
     for branch in branches:
+        if not isinstance(branch, dict):
+            raise ValueError(f"Invalid branch: {filename}")
         ref = branch.get("branch_ref", "")
         if (not re.fullmatch(r"root_[0-9]{6}/B[0-9]{3}", ref)
                 or ref.split("/")[0] not in envelope.split("--") or ref in seen):
@@ -32,6 +41,15 @@ def validate_entry(value: dict, filename: str) -> int:
         if (not isinstance(sources, list) or not sources
                 or any(not isinstance(s, str) or not s.strip() for s in sources)):
             raise ValueError(f"Missing source list: {filename}: {ref}")
+    occurrence = value.get("occurrence_evidence")
+    if (not isinstance(occurrence, dict)
+            or not isinstance(occurrence.get("summary"), dict)
+            or any(not isinstance(occurrence.get(field), list)
+                   for field in ("forms", "ayahs", "occurrences"))
+            or any(type(occurrence["summary"].get(field)) is not int
+                   or occurrence["summary"][field] < 0
+                   for field in ("morpheme_count", "word_count", "ayah_count", "surah_count"))):
+        raise ValueError(f"Missing or incomplete occurrence evidence: {filename}")
     return len(branches)
 
 def check(directory: Path) -> tuple[int, int]:
