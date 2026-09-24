@@ -113,9 +113,11 @@ Every analysis has a nonempty `evidence` array. Each item has `sourceTitle`,
   a relevant subsection. For the resolution file, it is the SHA-256 of the
   complete JSON file.
 
-The source currently records `ثبي`, `سنه`, and `قضض` as cases with genuine
-competing analyses. It records the Basran and Kufan derivations of `ٱسْم` as a
-lemma-only dispute. `ءدد`, `كيف`, and `لوت` retain explicit missing lexical
-headword notes; nearby but unsupported dictionary roots are not presented as
-alternatives. For `كيف` and `لوت`, the QAC root key is an indexing fact and
-does not settle the grammatical status of the word.
+The source records `ثبي`, `سنه`, and `قضض` as cases with genuine competing
+analyses. Their primary analyses and that of `ءدد` link to reviewed dedicated
+lexical roots and exact B001 branch phrases. It records the Basran and Kufan
+derivations of `ٱسْم` as a lemma-only dispute. `كيف` and `لوت` remain
+root-unresolved here while separate exact-selector grammatical headwords cover
+the relevant words. Their QAC root keys remain indexing facts and do not
+settle grammatical status. Historical source-resolution citations preserve
+their original hashes; their notes date the earlier unresolved state.

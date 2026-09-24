@@ -1,6 +1,6 @@
 {
   "schemaVersion": "qac-dictionary-word-root-analyses-v1",
-  "reviewedOn": "2026-09-23",
+  "reviewedOn": "2026-09-24",
   "sourceSnapshot": {
     "qacMorphologyGzipSha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
     "rootResolutionsSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
@@ -76,17 +76,17 @@
       },
       "selectorRefsSha256": "3e6dffc8eb38f0af59dcc637648b2853f76a55991c2d070c6c2f2952047b52e7",
       "baselineResolution": {
-        "resolution": "unresolved_identity",
-        "rootIds": []
+        "resolution": "exact_root",
+        "rootIds": ["root_900002"]
       },
       "analyses": [
         {
           "rank": 1,
           "standing": "primary",
           "rootArabic": "ث ب ي",
-          "dictionaryRootId": null,
-          "dictionaryBranchRef": null,
-          "reasonTr": "Bu ثُبَاتٍ biçiminde topluluk anlamındaki ثبة kelimesinin düşen son harfini ي sayan açıklama birincil sıradadır; QAC de aynı kökü seçer. Kelimenin türeyişi tartışmalıdır ve mevcut sözlükte ث ب ي için tam başlık bulunmaz.",
+          "dictionaryRootId": "root_900002",
+          "dictionaryBranchRef": "root_900002/B001",
+          "reasonTr": "Bu ثُبَاتٍ biçiminde topluluk anlamındaki ثبة kelimesinin düşen son harfini ي sayan açıklama birincil sıradadır; QAC de aynı kökü seçer. Yeni ث ب ي sözlük başlığının B001 dalı, ayetteki ayrık topluluklar anlamını doğrudan açıklar. Kelimenin türeyişi hakkındaki diğer görüşler yalnız bu sözcüğün belgeli alternatifleri olarak kalır.",
           "attributionTr": "QAC; İbn Manzûr’un ثبا maddesindeki ي açıklaması; Kurtubî’nin naklettiği Nehhâs ayrımı",
           "evidence": [
             {
@@ -108,7 +108,13 @@
               "sourceTitle": "Kaynak kök çözümlemesi",
               "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=ثبي",
               "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
-              "noteTr": "ث ب ي için sözlük kimliği çözülmemiştir; gözlemsel ث ب ت hedefi eşdeğer sayılmaz."
+              "noteTr": "2026-09-23 tarihli çözümlemede ث ب ي için sözlük kimliği henüz yoktu; gözlemsel ث ب ت hedefi eşdeğer sayılmamıştı. Bu hash o tarihsel çözümlemeye aittir."
+            },
+            {
+              "sourceTitle": "İncelenmiş ث ب ي sözlük dalı root_900002/B001",
+              "sourceRef": "root_900002/B001#source_phrase_ar",
+              "sourceSha256": "76bd5d1cbe740f9d559c87df5b0040687ab95ee79a8ec15ce183c3ebf4ac3932",
+              "noteTr": "Kaynaklı dal 4:71’deki ثُبَاتٍ için toplulukların ayrı ayrı çıkmasını açıklar; diğer türeyiş görüşlerini genel kök eşitliğine dönüştürmez."
             }
           ]
         },
@@ -171,17 +177,17 @@
       },
       "selectorRefsSha256": "f11b8bab65acbc9592c83a3945992f3b19df08936e3db96bcc4a2199d31ccecb",
       "baselineResolution": {
-        "resolution": "unresolved_identity",
-        "rootIds": []
+        "resolution": "exact_root",
+        "rootIds": ["root_900003"]
       },
       "analyses": [
         {
           "rank": 1,
           "standing": "primary",
           "rootArabic": "س ن ه",
-          "dictionaryRootId": null,
-          "dictionaryBranchRef": null,
-          "reasonTr": "يَتَسَنَّهْ için birincil sıra QAC’nin son ه harfini kökten sayan çözümlemesini izler. Taberî de ه harfini asli sayan okuyuştan yana açık tercih bildirir. Mevcut sözlükte س ن ه tam başlığı yoktur; aynı 'değişmedi' anlamı tek başına başka kökü kanıtlamaz.",
+          "dictionaryRootId": "root_900003",
+          "dictionaryBranchRef": "root_900003/B001",
+          "reasonTr": "يَتَسَنَّهْ için birincil sıra QAC’nin son ه harfini kökten sayan çözümlemesini izler. Taberî de ه harfini asli sayan okuyuştan yana açık tercih bildirir. Yeni س ن ه sözlük başlığının B001 dalı yiyecek ve içeceğin zamanla değişmesini anlatır; ayetteki 'değişmedi' anlamına doğrudan uyar. Bu anlam tek başına başka bir kökü kanıtlamaz.",
           "attributionTr": "QAC; Taberî’nin tercih ettiği asli ه açıklaması; Halîl’in el-Ayn’daki سنه alt maddesi",
           "evidence": [
             {
@@ -204,7 +210,13 @@
               "sourceTitle": "Kaynak kök çözümlemesi",
               "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=سنه",
               "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
-              "noteTr": "س ن ه için tam sözlük kimliği çözümsüzdür; gözlemsel س ن ن hedefi kök eşitliği değildir."
+              "noteTr": "2026-09-23 tarihli çözümlemede س ن ه için tam sözlük kimliği henüz yoktu; gözlemsel س ن ن hedefi kök eşitliği sayılmamıştı. Bu hash o tarihsel çözümlemeye aittir."
+            },
+            {
+              "sourceTitle": "İncelenmiş س ن ه sözlük dalı root_900003/B001",
+              "sourceRef": "root_900003/B001#source_phrase_ar",
+              "sourceSha256": "374beb201bfd690235d6e13eb09826d23438c8279a73a4f3e039f37905c89f58",
+              "noteTr": "Kaynaklı dal يَتَسَنَّهْ sözünün yiyecek ve içeceğin değişmemesi bağlamını açıklar; yıl anlamındaki ayrı dalı bu fiilin birincil sözlük dalı yapmaz."
             }
           ]
         },
@@ -272,17 +284,17 @@
       },
       "selectorRefsSha256": "618e46ccf4963899f8905434c65d646a720827d2f43a0be44205aabebbc47bf6",
       "baselineResolution": {
-        "resolution": "unresolved_identity",
-        "rootIds": []
+        "resolution": "exact_root",
+        "rootIds": ["root_900004"]
       },
       "analyses": [
         {
           "rank": 1,
           "standing": "primary",
           "rootArabic": "ق ض ض",
-          "dictionaryRootId": null,
-          "dictionaryBranchRef": null,
-          "reasonTr": "QAC duvarın 'yıkılmak üzere' oluşunu anlatan يَنقَضَّ fiilini ق ض ض kökünün VII. kalıbı sayar; baştaki ن kalıp unsurudur. Lisânü’l-Arab da bu ayet için Ebû Ubeyd ve başkalarının iki harfli/ikizlenmiş çözümlemesini aktarır. Mevcut sözlükte ق ض ض tam başlığı yoktur.",
+          "dictionaryRootId": "root_900004",
+          "dictionaryBranchRef": "root_900004/B001",
+          "reasonTr": "QAC duvarın 'yıkılmak üzere' oluşunu anlatan يَنقَضَّ fiilini ق ض ض kökünün VII. kalıbı sayar; baştaki ن kalıp unsurudur. Lisânü’l-Arab da bu ayet için Ebû Ubeyd ve başkalarının ikizlenmiş çözümlemesini aktarır. Yeni ق ض ض sözlük başlığının B001 dalı duvarın çatlayıp yıkılmasını açıklar; ن ق ض türeyişi bu sözcüğe özgü belgeli alternatif olarak kalır.",
           "attributionTr": "QAC; Ebû Ubeyd ve diğerleri, İbn Manzûr’un aktarımı",
           "evidence": [
             {
@@ -299,7 +311,13 @@
               "sourceTitle": "Kaynak kök çözümlemesi",
               "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=قضض",
               "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
-              "noteTr": "ق ض ض için sözlük kimliği çözümsüzdür; gözlemsel ن ق ض hedefi otomatik kök eşliği değildir."
+              "noteTr": "2026-09-23 tarihli çözümlemede ق ض ض için sözlük kimliği henüz yoktu; gözlemsel ن ق ض hedefi otomatik kök eşliği sayılmamıştı. Bu hash o tarihsel çözümlemeye aittir."
+            },
+            {
+              "sourceTitle": "İncelenmiş ق ض ض sözlük dalı root_900004/B001",
+              "sourceRef": "root_900004/B001#source_phrase_ar",
+              "sourceSha256": "5e57899a643e1c615e0512d4daa92592d63596844b4f00b8f1e4550a4dcc69a0",
+              "noteTr": "Kaynaklı dal ayetteki duvarın yıkılması anlamını taşır; ن ق ض çözümlemesini bütün ق ض ض kullanımlarına yaymaz."
             }
           ]
         },
@@ -309,13 +327,18 @@
           "rootArabic": "ن ق ض",
           "dictionaryRootId": "root_001543",
           "dictionaryBranchRef": "root_001543/B001",
-          "reasonTr": "Ebû Alî el-Fârisî ayetteki يَنقَضَّ biçimini ن ق ض kökünden أَفْعَلَ kalıbında açıklar; bu görüşte ن kökün parçasıdır. İlgili sözlük dalı yapı veya bağın bozulmasını anlatır; ayete doğrudan atfı Lisânü’l-Arab verir. Bağ yalnız Kehf 18:77’deki fiile özgüdür.",
+          "reasonTr": "Ebû Alî el-Fârisî ayetteki يَنقَضَّ biçimini ن ق ض kökünden افْعَلَّ (IX. kalıp) olarak açıklar; bu görüşte ن kökün parçasıdır. İlgili sözlük dalı yapı veya bağın bozulmasını anlatır; ayete doğrudan atfı Lisânü’l-Arab verir. Muḥkam’ın harekeli افْعَلَّ tanıklığı kalıbı belirler. Bağ yalnız Kehf 18:77’deki fiile özgüdür.",
           "attributionTr": "Ebû Alî el-Fârisî; İbn Manzûr’un açık ayet atfıyla aktarımı",
           "evidence": [
             {
               "sourceTitle": "İbn Manzûr, Lisânü’l-Arab, قضض",
               "sourceUrl": "https://islamweb.net/ar/library/content/122/6692/%D9%82%D8%B6%D8%B6",
-              "noteTr": "Kehf 18:77 için Ebû Alî’nin ن ق ض kökünden أَفْعَلَ kalıbı çözümlemesini doğrudan bildirir."
+              "noteTr": "Kehf 18:77 için Ebû Alî’nin ن ق ض kökünden türetmesini aktarır; kalıbın harekeli IX. biçimi Muḥkam 6:98’de açıktır."
+            },
+            {
+              "sourceTitle": "İbn Sîde, el-Muḥkam ve’l-Muḥîtü’l-A‘zam, 6:98",
+              "sourceUrl": "https://najafdesertlibrary.com/book/المحكم-والمحيط-الأعظم/v/6/p/98",
+              "noteTr": "Ebû Alî’ye atfen ‘من: نقض، فهو عنده: افْعَلَّ’ der; harekeli افْعَلَّ IX. kalıptır."
             },
             {
               "sourceTitle": "Furûk sözlük dalı root_001543/B001",
@@ -334,17 +357,17 @@
       },
       "selectorRefsSha256": "5291cda3c805e2c351479b6152b9bed6c2617a7bd24f5dccd87a5b1513969c81",
       "baselineResolution": {
-        "resolution": "unresolved_identity",
-        "rootIds": []
+        "resolution": "exact_root",
+        "rootIds": ["root_900001"]
       },
       "analyses": [
         {
           "rank": 1,
           "standing": "primary",
           "rootArabic": "ء د د",
-          "dictionaryRootId": null,
-          "dictionaryBranchRef": null,
-          "reasonTr": "Meryem 19:89’daki إِدًّا, korkunç ve ağır bir işi niteleyen ء د د kelimesidir. Lisânü’l-Arab أدد maddesi ayeti doğrudan anar. Mevcut sözlükte bu başlık yoktur; yakın harfli ء د ي dalı bu sıfatı belgelemeyen başka anlamlara aittir.",
+          "dictionaryRootId": "root_900001",
+          "dictionaryBranchRef": "root_900001/B001",
+          "reasonTr": "Meryem 19:89’daki إِدًّا, korkunç ve ağır bir işi niteleyen ء د د kelimesidir. Lisânü’l-Arab أدد maddesi ayeti doğrudan anar. Yeni ء د د sözlük başlığının B001 dalı işin büyüklüğü ve dehşeti anlamını verir; yakın harfli ء د ي dalı bu sıfatı belgelemeyen başka anlamlara aittir.",
           "attributionTr": "QAC; İbn Manzûr, Lisânü’l-Arab, أدد",
           "evidence": [
             {
@@ -356,7 +379,13 @@
               "sourceTitle": "Kaynak kök çözümlemesi",
               "sourceRef": "data/bridges/qac-dictionary-root-resolutions.json#qacRootJoinKey=ءدد",
               "sourceSha256": "691979cd72b4f5b39706ee930903e4c6c1d3860c965cd1f79b086c536ff94dce",
-              "noteTr": "ء د د için tam sözlük kimliği yoktur; gözlemsel ء د ي eşitlik olarak yayınlanmaz."
+              "noteTr": "2026-09-23 tarihli çözümlemede ء د د için tam sözlük kimliği henüz yoktu; gözlemsel ء د ي eşitlik olarak yayınlanmamıştı. Bu hash o tarihsel çözümlemeye aittir."
+            },
+            {
+              "sourceTitle": "İncelenmiş ء د د sözlük dalı root_900001/B001",
+              "sourceRef": "root_900001/B001#source_phrase_ar",
+              "sourceSha256": "dece47e8be0c3813221ade3fee99b54a096993c073cf688731f6a7373b41ac6a",
+              "noteTr": "Kaynaklı dal İdd sözcüğünün korkunç ve ağır olay anlamını açıklar; Meryem 19:89 için yakın ء د ي gözlemini kök eşitliği yapmaz."
             }
           ]
         }

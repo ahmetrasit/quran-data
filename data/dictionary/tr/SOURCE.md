@@ -42,3 +42,32 @@ independent Agent B review (5 pass, 9 recorded surgical repairs), then determini
 Arabic/QAC enrichment. Zero resolved roots now lack entries; the six unresolved
 identities remain explicit. The repository-root session log records editorial
 decisions, alternative analyses, and exact source/review provenance.
+
+## Supplemental transfer path opened 2026-09-24
+
+Four dedicated lexical roots and two grammatical headwords are being prepared
+in the dictionary source repository. This section records the transfer contract,
+not accepted entry or publication status. The source-owned reviewed intake
+registry, its hash-closed intake files, and the source-name map copy to
+`data/dictionary/supplemental/`. Root exports join the existing root manifest;
+grammatical exports use `data/dictionary/tr/headwords/MANIFEST.json`. The source
+commit, file paths and hashes are recorded by the sync script after independent
+review and export. See `schemas/dictionary-supplemental-transfer.md`.
+
+## Reviewed supplemental transfer completed 2026-09-24
+
+Committed dictionary source `e553f0afe23f32c422561bcd3ee7e65f0b503b2b`
+contains four independently reviewed lexical root exports and two grammatical
+headword exports. The root manifest now records **1,700 entries and 11,756
+branches**, with corpus SHA-256
+`a40f6a7ac59d581630743bd242ac472d314dd666f215a62eeb97ffdab78ace6f`.
+The separate headword manifest records two exports and corpus SHA-256
+`da22608bbc4fab60b261183032d76ea10527f94ba35ed1016c39fb2fdafb2835`.
+Both manifests pin the copied registry SHA-256
+`f1dd33df0ed475eb05d44cfb47f55d2f8c372622106196525342dad4d4086fd5`
+and source-name map SHA-256
+`fc580d20976e95d84dd208d252cac33349359c07637c1f0e8924383d25c446a4`.
+
+The independent quran-data audit reports 1,711 component roots, zero missing
+Arabic evidence, and zero missing mapped entries. A repeat `sync --check`
+reported `changed=0`. Headwords remain outside the root-entry count.

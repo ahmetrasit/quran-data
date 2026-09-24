@@ -5,25 +5,41 @@ import csv
 import hashlib
 import json
 import sqlite3
+import sys
 from collections import defaultdict, Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "scripts/dictionary"))
+from supplemental import transferred_registry
 
 def build(furuq_db):
     bridge = ROOT / "data/bridges/qac-furuq-v4-root-map.tsv"
     aliases_path = ROOT / "data/bridges/qac-dictionary-reviewed-aliases.json"
     aliases = {r["qacRoot"]: r for r in json.loads(aliases_path.read_bytes())["aliases"]}
     by_root = defaultdict(list)
+    frozen_ids = set()
     with sqlite3.connect(furuq_db) as connection:
         for root_id, root in connection.execute("SELECT root_id, root_norm FROM roots ORDER BY root_id"):
             by_root[root].append(root_id)
+            frozen_ids.add(root_id)
         for alias in aliases.values():
             root_id, branch_id = alias["branchRef"].split("/")
             phrase = connection.execute("SELECT source_phrase_ar FROM branch_images WHERE root_id=? AND branch_id=?", (root_id, branch_id)).fetchone()
             if (root_id not in alias["rootIds"] or not phrase
                     or hashlib.sha256(phrase[0].encode()).hexdigest() != alias["sourcePhraseSha256"]):
                 raise ValueError(f"Reviewed alias evidence drift: {alias['qacRoot']}")
+    supplement = transferred_registry()
+    if supplement:
+        _, registry, intakes = supplement
+        for row in registry["entries"]:
+            root_id = row["id"]
+            if row["kind"] != "lexical_root":
+                continue
+            root = intakes[root_id]["rootArabic"]
+            if root_id in frozen_ids or by_root[root]:
+                raise ValueError(f"Supplemental root collides with frozen registry: {root_id}/{root}")
+            by_root[root].append(root_id)
     available = {root for p in (ROOT / "data/dictionary/tr").glob("root_*_entry.json")
                  for root in p.name.removesuffix("_entry.json").split("--")}
     rows = []

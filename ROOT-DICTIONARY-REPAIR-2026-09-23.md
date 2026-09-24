@@ -6,6 +6,15 @@ application integration, and publication. Pending work is explicitly marked.
 
 ## Changes already introduced
 
+History traced again on September 24: commit `dfca1fdd051e9c765653218bebbe997b9e360111`
+(July 28, “new qac t ofuruq root mapping for split roots”) already contains
+the problematic `س م و` bridge row with targets سمو (190), وسم (2), and سمم
+(1). Commit `464a991fc6b27db8d79c046883adf2326f46ed46` (July 29) retains
+that row. These are occurrence observations; interpreting every target as a
+root identity propagated one erroneous سمم occurrence to unrelated words such
+as اسم. The original frozen occurrence evidence predates this bridge import;
+this trace identifies its entry into quran-data, not its first upstream creation.
+
 quran-data commit `c159182b38d3f7becc949a055ba0845489a2a67e` and quran-apps
 commit `eea70a4215a64247e0cda90aee8e8d7cdfade0f2` contain the initial repair.
 
@@ -243,7 +252,7 @@ check use these exact counts.
 review checked the exact selectors, the cited competing analyses, and 16
 local SHA-256 evidence anchors. Its two precision corrections were applied:
 the doubled-`ن` account is attributed to Abū ʿAmr as quoted by al-Jawharī,
-and Abū ʿAlī's `ن ق ض` account is identified as the `أَفْعَلَ` form. The
+and Abū ʿAlī's `ن ق ض` account was identified as the `أَفْعَلَ` form. The
 source now contains 7 selectors covering 127 QAC morphemes, 13 analyses
 (7 primary and 6 documented alternatives), and 37 evidence items. Three
 focused source-integrity checks pass. Each selector pins the exact set of
@@ -252,6 +261,16 @@ branch phrases retain their own hashes. The whole-file QAC/map hashes and
 dictionary commit at the top of the source record are historical review
 provenance, so unrelated future source updates do not require re-adjudicating
 these words.
+
+**2026-09-24 correction to the 2026-09-23 form label:** The earlier `أَفْعَلَ`
+vocalization above was an error. [Ibn Sīdah, al-Muḥkam 6:98](https://najafdesertlibrary.com/book/المحكم-والمحيط-الأعظم/v/6/p/98)
+attributes the `ن ق ض` derivation of this verse to Abū ʿAlī and explicitly
+vocalizes it `افْعَلَّ` (Form IX). Lisān al-ʿArab's `قضض` article also transmits
+the attribution, but the linked plain-text rendering does not carry the final
+shadda reliably. The word-scoped `18:77:17:1` alternative now cites the exact
+Muḥkam witness and states Form IX; QAC's primary `ق ض ض` Form VII analysis and
+the restriction to this occurrence remain unchanged. This does not create a
+global `قضض -> نقض` alias.
 
 **Publication checkpoint (2026-09-23):** quran-data commit
 `86f66b3025e9c798d24d495905e3179c78c1d65a` contains the transfer of
@@ -419,3 +438,45 @@ A read-only compatibility audit found that the older TM
 0.2.14 loader ignores the new optional gloss profiles without invoking the
 strict shard validator. The warm probe confirmed its service-worker prompt
 and reload path. No iOS behavior was changed in this phase.
+
+## Six-entry supplemental integration opened — 2026-09-24
+
+The new dictionary source registry will own four exact lexical roots: ء د د,
+ث ب ي, س ن ه, and ق ض ض. Separate `headword_` identities will cover the
+grammatical كَيْفَ and لَاتَ by exact QAC selectors. The intake, independent
+writer/reviewer decisions, export and committed transfer are pending; none of
+these six is recorded here as accepted or published. The frozen Furuq database,
+existing seven aliases, and unrelated word analyses remain unchanged.
+
+The quran-data transfer now has a source-owned registry/intake path and a
+separate grammatical-headword manifest. It verifies committed source bytes,
+typed citations, exact Arabic quotations and source phrases, QAC bindings,
+and QAC occurrence evidence. The root-resolution builder accepts reviewed
+supplemental roots only by exact Arabic identity. Grammatical headword coverage
+does not turn كيف or لوت into resolved lexical roots. Existing scoped analyses
+retain their historical `sourceSnapshot` fields; four baseline identities and
+primary branch links will be updated only after the reviewed exports provide
+the actual accepted branch IDs.
+
+## Six-entry quran-data transfer completed — 2026-09-24
+
+Dictionary commit `e553f0afe23f32c422561bcd3ee7e65f0b503b2b` contains
+the independently reviewed six-entry source batch. The committed transfer
+copied four lexical root exports and two separate grammatical headwords, plus
+the hash-closed registry, six intakes, and source-name map. The root corpus now
+has 1,700 entries and 11,756 branches; the separate headword manifest has two
+entries. The frozen Furuq database and existing aliases remain unchanged.
+
+The root-resolution gateway has 1,633 exact identities, seven reviewed
+aliases, and two root-unresolved keys (`كيف`, `لوت`). Four scoped analyses now
+link their primary interpretation to the corresponding new B001 branch, with
+exact source-phrase hashes; competing interpretations remain scoped. The
+historical `sourceSnapshot` and earlier resolution source-ref digest are
+preserved, and their notes date the earlier unresolved state. The corrected
+`قضض` alternative continues to cite al-Muḥkam's vocalized `افْعَلَّ` Form IX
+witness without creating a global alias.
+
+The full dictionary audit passed: 1,711 component roots, zero missing Arabic
+evidence, and zero missing mapped entries. Transfer `--check` reported no
+changes; root-resolution `--check` and focused dictionary/scoped-analysis
+tests passed. This records source integration, not Reader or app publication.

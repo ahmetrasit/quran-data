@@ -6,6 +6,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts/dictionary"))
 from check_turkish_entries import check, validate_entry
+from supplemental import (binding_refs, qac_connection, transferred_registry,
+                          validate_export_provenance)
 
 
 class TurkishEntryTests(unittest.TestCase):
@@ -49,6 +51,29 @@ class TurkishEntryTests(unittest.TestCase):
                 {"path": "root_000002_entry.json", "sha256": "missing"}], "branchCount": 1, "entryCount": 1}))
             with self.assertRaises(ValueError): check(directory)
 
+    def test_supplemental_registry_append_keeps_selected_intake_binding(self):
+        ident = "root_900001"
+        old_registry_sha = "a" * 64
+        current_registry_sha = "b" * 64  # Unrelated registry row was appended.
+        selected_intake_sha = "c" * 64
+        export = {"supplementalIntake": {
+            "registryPath": "data/supplemental/registry.v1.json",
+            "registrySha256": old_registry_sha,
+            "intakePath": f"data/supplemental/entries/{ident}.json",
+            "intakeSha256": selected_intake_sha,
+        }}
+        validate_export_provenance(export, ident, current_registry_sha,
+                                   selected_intake_sha)
+        # The current registry row and revised intake bytes now have this new
+        # matching hash; the old reviewed export must still fail.
+        with self.assertRaisesRegex(ValueError, "provenance"):
+            validate_export_provenance(export, ident, current_registry_sha,
+                                       "d" * 64)
+        export["supplementalIntake"]["intakePath"] = "data/supplemental/entries/root_900002.json"
+        with self.assertRaisesRegex(ValueError, "provenance"):
+            validate_export_provenance(export, ident, current_registry_sha,
+                                       selected_intake_sha)
+
     def test_wadhar_correction_keeps_matched_count(self):
         import csv
         path = Path(__file__).resolve().parents[1] / "data/bridges/qac-furuq-v4-root-map.tsv"
@@ -70,7 +95,22 @@ class TurkishEntryTests(unittest.TestCase):
         self.assertNotIn("root_001315", rows["ءكل"]["rootIds"])
         unresolved = {key for key, row in rows.items()
                       if row["resolution"] == "unresolved_identity"}
-        self.assertEqual(unresolved, {"ءدد", "ثبي", "سنه", "قضض", "كيف", "لوت"})
+        supplement = transferred_registry()
+        if supplement:
+            self.assertEqual(unresolved, {"كيف", "لوت"})
+            self.assertEqual(value["counts"], {
+                "exact_root": 1633, "reviewed_alias": 7, "unresolved_identity": 2,
+            })
+            expected_roots = {
+                "ءدد": "root_900001", "ثبي": "root_900002",
+                "سنه": "root_900003", "قضض": "root_900004",
+            }
+            for key, ident in expected_roots.items():
+                self.assertEqual(rows[key]["resolution"], "exact_root")
+                self.assertEqual(rows[key]["rootIds"], [ident])
+                self.assertEqual(rows[key]["missingEntryRootIds"], [])
+        else:
+            self.assertEqual(unresolved, {"ءدد", "ثبي", "سنه", "قضض", "كيف", "لوت"})
         self.assertEqual(rows["عصو"]["rootIds"], ["root_005713"])
         self.assertEqual(rows["عصو"]["missingEntryRootIds"], [])
         newly_transferred = {
@@ -86,5 +126,34 @@ class TurkishEntryTests(unittest.TestCase):
         self.assertFalse(any(row["missingEntryRootIds"] for row in rows.values()))
         self.assertTrue(all((base / "data/dictionary/tr" / f"{root_id}_entry.json").is_file()
                             for root_id in newly_transferred))
+
+    def test_six_entry_batch_identity_and_qac_refcounts(self):
+        supplement = transferred_registry()
+        if supplement is None:
+            self.skipTest("Reviewed supplemental registry has not been transferred")
+        _, registry, intakes = supplement
+        expected = {
+            "root_900001": ("lexical_root", "ء د د", "ءدد", "qacRef", "19:89:4:1", 1),
+            "root_900002": ("lexical_root", "ث ب ي", "ثبي", "qacRef", "4:71:7:1", 1),
+            "root_900003": ("lexical_root", "س ن ه", "سنه", "qacRef", "2:259:42:1", 1),
+            "root_900004": ("lexical_root", "ق ض ض", "قضض", "qacRef", "18:77:17:1", 1),
+            "headword_000001": ("grammatical_headword", None, "كيف", "qacLemma", "كَيْف", 83),
+            "headword_000002": ("grammatical_headword", None, "لوت", "qacRef", "38:3:8:2", 1),
+        }
+        self.assertEqual({row["id"] for row in registry["entries"]}, set(expected))
+        with qac_connection() as connection:
+            for ident, (kind, root, key, scope, target, count) in expected.items():
+                intake = intakes[ident]
+                self.assertEqual(intake["kind"], kind)
+                self.assertEqual(intake.get("rootArabic"), root)
+                self.assertEqual(intake["binding"]["selector"], {
+                    "qacRootJoinKey": key, scope: target,
+                })
+                self.assertEqual(len(binding_refs(connection, intake["binding"])), count)
+            rows = connection.execute(
+                "SELECT pos, count(*) FROM qac_morphemes WHERE root_join_key=? "
+                "AND lemma_ar=? GROUP BY pos", ("كيف", "كَيْف"),
+            ).fetchall()
+            self.assertEqual(dict(rows), {"INTG": 80, "N": 3})
 
 if __name__ == "__main__": unittest.main()

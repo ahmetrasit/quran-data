@@ -87,3 +87,44 @@ python3 -m unittest discover -s tests -p test_turkish_dictionary.py
 
 The second resolution build refreshes entry availability after transfer.
 Use `--check` with the resolution builder to detect a stale generated map.
+
+## Supplemental intake checkpoint — 2026-09-24
+
+The source repository now has a separate reviewed supplemental intake path for
+the four missing lexical roots and two grammatical headwords. Transfer and
+resolution scripts read the committed source registry and exact exports; no
+frozen Furuq row or occurrence-derived alias is modified. The copied registry
+and intakes remain hash-closed. Supplemental root Arabic evidence is checked
+against those intakes, while older branch evidence continues to be checked
+against frozen Furuq and its explicit historical updates. The grammatical
+headwords live in a separate manifest and do not become root resolutions.
+
+The counts above describe the accepted pre-supplement corpus. After the six
+entries pass their independent review and committed transfer, rerun the listed
+checks and record the resulting counts and source commit here. The four exact
+lexical identities may then replace their unresolved root-map rows; كيف and
+لوت remain unresolved at root level while their exact grammatical selectors
+can cover their respective words.
+
+## Reviewed six-entry transfer — 2026-09-24
+
+Dictionary commit `e553f0afe23f32c422561bcd3ee7e65f0b503b2b` supplied
+four lexical entries (`root_900001`–`root_900004`) and two grammatical
+headwords (`headword_000001`–`headword_000002`). The committed sync copied
+the registry, its six hash-closed intakes, source-name map, and exact exports.
+The root corpus has **1,700 entries / 11,756 branches**; its component-root
+roster has **1,711** IDs. The separate grammatical manifest has **two**
+entries. The frozen Furuq source remains unchanged.
+
+The 1,642-row root resolution map now has **1,633 exact roots, seven reviewed
+aliases, and two unresolved root identities** (`كيف`, `لوت`). The four new
+exact identities each select their dedicated supplemental root; no observed
+target became an alias. The exact grammatical selectors cover 83 instances of
+`كَيْفَ` and the one `لَاتَ` at 38:3:8:2, without giving either a root-wide
+identity. Four scoped primary analyses now link to their reviewed B001 branch;
+their competing analyses remain selector-limited. The older historical
+`sourceSnapshot` and source-ref digest were retained.
+
+The full dictionary audit, `sync --check`, root-resolution `--check`, focused
+Turkish dictionary tests, and scoped word-analysis tests passed after transfer.
+The audit reports zero missing Arabic evidence and zero missing mapped entries.
