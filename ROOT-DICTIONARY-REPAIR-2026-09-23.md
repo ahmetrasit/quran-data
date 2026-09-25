@@ -603,3 +603,26 @@ repairs are in dictionary's root `S1-DICTIONARY-AUDIT-2026-09-24.md` and
 
 Dictionary audit artifact commit: `d503c52db`. quran-data records this audit
 without changing dictionary exports or release manifests.
+
+### Blind Luna comparison of S1 — September 24
+
+The user authorized a blind GPT-6 Luna Max repeat using the same 157 branch
+inputs and instructions. Fresh workers saw no Sol findings; completed batches
+were compared immediately. Luna referred three of the previous nine problem
+branches and passed six. Its reasons did not explicitly identify those three
+retained problems. It independently raised two other wording issues retained
+by Astra review, plus one unresolved eye-terminology concern. The combined
+queue is eleven documented correction branches and one unresolved concern.
+
+A blinded comparison of 22 shared English drafts found five minor fidelity
+deviations and one substantive error in Luna drafts, versus no errors in Sol
+drafts in that particular comparison. Keep Sol as the main screener and
+definition drafter; Luna may contribute an additional independent pass. Do not
+use this one targeted sample as a corpus-wide error-rate estimate. All drafts
+remain unapproved; no canonical source, export or live release changed.
+
+Detailed reasoning, raw outputs, adjudications, and the English hold list are
+in dictionary's root `S1-LUNA-BLIND-COMPARISON-2026-09-24.md` and
+`v2/audits/s001-luna-blind-2026-09-24/`.
+
+Dictionary blind-comparison artifact commit: `b76b4e139`.
