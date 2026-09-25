@@ -42,7 +42,7 @@ remain outside the canonical link graph.
 Initially copied on 2026-07-27 and refreshed where noted in each SOURCE.md, but not yet folded into a new
 `RELEASE.json`, manifest, checksum, and tag set:
 
-- Turkish dictionary entries: `data/dictionary/tr/`, 1,696 evidence-enriched entry JSON files
+- Turkish dictionary entries: `data/dictionary/tr/`, 1,700 evidence-enriched root entry JSON files, plus two grammatical headwords under `data/dictionary/tr/headwords/`
 - Turkish translation glosses: `data/translation/glosses/locales/tr/`, 1,572 reviewed gloss JSON files
 - Turkish V12 ayah activation/publication support: `data/analysis/ayah-activation/v12-tr/`, 114 surahs plus full-context packets/control directories and 6 focus runs
 - Turkish V12 plus/minus-5 reader walks: `data/analysis/ayah-activation/v12-tr-11ayah/`, 114 surahs with reader walks and frozen run metadata
@@ -71,6 +71,28 @@ The ordered plan for promoting dictionary, activation, image-chain, inter-surah,
 commentary, and app-export data is in [`ROADMAP.md`](ROADMAP.md). It
 distinguishes upstream work, staged canonical imports, and artifacts that are
 not release-ready.
+
+## Pending dictionary audit and English definitions
+
+**Status: pending — the full-corpus audit has not started.** The detailed
+[dictionary audit plan](https://github.com/ahmetrasit/dictionary/blob/main/DICTIONARY-AUDIT-PLAN.md)
+is owned by the sister `dictionary` repository (local path:
+`../dictionary/DICTIONARY-AUDIT-PLAN.md`). It covers all 1,700 root entries and
+their 11,756 branches, plus the two grammatical headwords and three senses.
+
+The planned workflow uses Sol for the main screen and English prose drafts,
+Luna as an independent parallel checker, Sol for the combined flags and English
+review, and Astra for difficult adjudications. **All agents use Max reasoning**,
+with eight active workers across all roles. Existing source anchoring and
+documented root alternatives are preserved; Quran context does not decide
+which root is correct.
+
+The S1 pilots are complete, but eleven documented branch corrections and one
+unresolved wording concern remain pending. English drafts are not accepted
+language releases. Reviewed source repairs and accepted English definitions
+must pass their dictionary workflow and transfer/consumer requirements before
+quran-data or the live CDN is updated. See the plan for the repair queue,
+evidence rules, English review, costs, resumption, and publication gates.
 
 ## Rules
 
